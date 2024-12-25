@@ -1,5 +1,20 @@
 SCRDEF_END_CONSTANT equ 0xFD13
 
+MOVE_TUTOR_NPC_FRONTIER_TOP_LEFT     equ 0
+MOVE_TUTOR_NPC_FRONTIER_TOP_RIGHT    equ 1
+MOVE_TUTOR_NPC_FRONTIER_BOTTOM_RIGHT equ 2
+
+// mystery_gift
+SCR_MG_BEGIN                   equ 0
+SCR_MG_HAS_GIFT                equ 1
+SCR_MG_GET_TYP                 equ 2
+SCR_MG_CAN_RECEIVE             equ 3
+SCR_MG_RECEIVE                 equ 4
+SCR_MG_MESSAGE_RECEIVED        equ 5
+SCR_MG_MESSAGE_FAILED          equ 6
+SCR_MG_END                     equ 7
+SCR_MG_END2                    equ 8
+
 .macro scrdef,offset
 .word offset - . - 4
 .endmacro
@@ -1165,7 +1180,7 @@ NUM_PHONE_CONTACTS                equ   75
 .byte arg0
 .endmacro
 
-.macro scrcmd_150
+.macro restore_overworld
 .halfword 150
 .endmacro
 
@@ -1607,7 +1622,7 @@ RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 .halfword var
 .endmacro
 
-.macro scrcmd_221,arg0,arg1
+.macro static_wild_won_or_caught,arg0,arg1
 .halfword 221
 .halfword arg0
 .byte arg1
@@ -1959,11 +1974,11 @@ RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 .halfword 286
 .endmacro
 
-.macro scrcmd_287
+.macro buffer_union_room_avatar_choices
 .halfword 287
 .endmacro
 
-.macro scrcmd_288,arg0,arg1
+.macro union_room_avatar_idx_to_trainer_class,arg0,arg1
 .halfword 288
 .halfword arg0
 .halfword arg1
@@ -2336,7 +2351,7 @@ BADGE_EARTH    equ 15
 .halfword arg0
 .endmacro
 
-.macro choose_move_ui,arg0,arg1,arg2
+.macro pokemon_summary_screen,arg0,arg1,arg2
 .halfword 352
 .byte arg0
 .halfword arg1
@@ -2465,7 +2480,7 @@ BADGE_EARTH    equ 15
 .halfword arg0
 .endmacro
 
-.macro scrcmd_375,arg0
+.macro make_object_visible,arg0
 .halfword 375
 .halfword arg0
 .endmacro
@@ -2479,10 +2494,10 @@ BADGE_EARTH    equ 15
 .halfword arg0
 .endmacro
 
-.macro scrcmd_378,arg0,arg1
+.macro view_rankings,arg0,arg1,arg2
 .halfword 378
-.halfword arg0
-.halfword arg1
+.halfword arg0 * 3 + arg1
+.halfword arg2
 .endmacro
 
 .macro scrcmd_379,arg0
@@ -2767,7 +2782,7 @@ BADGE_EARTH    equ 15
 .halfword arg0
 .endmacro
 
-.macro scrcmd_425,arg0
+.macro show_certificate,arg0
 .halfword 425
 .halfword arg0
 .endmacro
@@ -3328,7 +3343,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_508,arg0
+.macro palpark_action,arg0
 .halfword 508
 .halfword arg0
 .endmacro
@@ -3617,7 +3632,7 @@ RIBBON_MAX                    equ 80
 .halfword arg1
 .endmacro
 
-.macro scrcmd_561,arg0,arg1,arg2,arg3
+.macro screen_shake,arg0,arg1,arg2,arg3
 .halfword 561
 .halfword arg0
 .halfword arg1
@@ -3687,7 +3702,7 @@ RIBBON_MAX                    equ 80
 .halfword arg4
 .endmacro
 
-.macro scrcmd_572,arg0
+.macro get_unique_seals_quantity,arg0
 .halfword 572
 .halfword arg0
 .endmacro
@@ -3766,7 +3781,7 @@ RIBBON_MAX                    equ 80
 .halfword 587
 .endmacro
 
-.macro scrcmd_588,arg0
+.macro lati_caught_check,arg0
 .halfword 588
 .halfword arg0
 .endmacro
@@ -3835,16 +3850,16 @@ RIBBON_MAX                    equ 80
 .halfword 601
 .endmacro
 
-.macro scrcmd_602,arg0
+.macro toggle_following_pokemon_movement,arg0
 .halfword 602
 .halfword arg0
 .endmacro
 
-.macro scrcmd_603
+.macro wait_following_pokemon_movement
 .halfword 603
 .endmacro
 
-.macro scrcmd_604,arg0
+.macro following_pokemon_movement,arg0
 .halfword 604
 .halfword arg0
 .endmacro
@@ -3915,12 +3930,12 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_616,arg0
+.macro count_saved_photos,arg0
 .halfword 616
 .halfword arg0
 .endmacro
 
-.macro scrcmd_617
+.macro open_photo_album
 .halfword 617
 .endmacro
 
@@ -3939,7 +3954,7 @@ RIBBON_MAX                    equ 80
 .byte arg0
 .endmacro
 
-.macro scrcmd_621
+.macro place_starter_balls_in_elms_lab
 .halfword 621
 .endmacro
 
@@ -4237,7 +4252,7 @@ RIBBON_MAX                    equ 80
 .halfword arg1
 .endmacro
 
-.macro scrcmd_671
+.macro set_favorite_mon
 .halfword 671
 .endmacro
 
@@ -4308,7 +4323,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_683,arg0
+.macro get_static_encounter_outcome,arg0
 .halfword 683
 .halfword arg0
 .endmacro
@@ -4417,11 +4432,11 @@ RIBBON_MAX                    equ 80
 .halfword arg1
 .endmacro
 
-.macro scrcmd_702
+.macro battle_tower_setup_multi_battle
 .halfword 702
 .endmacro
 
-.macro scrcmd_703,arg0
+.macro set_player_volume,arg0
 .halfword 703
 .halfword arg0
 .endmacro
@@ -4443,7 +4458,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_707,arg0,arg1
+.macro check_mon_seen,arg0,arg1
 .halfword 707
 .halfword arg0
 .halfword arg1
@@ -4476,7 +4491,7 @@ RIBBON_MAX                    equ 80
 .byte arg0
 .endmacro
 
-.macro scrcmd_714,arg0
+.macro open_alph_hidden_room,arg0
 .halfword 714
 .byte arg0
 .endmacro
@@ -4550,7 +4565,7 @@ RIBBON_MAX                    equ 80
 .halfword 726
 .endmacro
 
-.macro scrcmd_727,arg0
+.macro get_follow_poke_party_index,arg0
 .halfword 727
 .halfword arg0
 .endmacro
@@ -4596,7 +4611,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_736
+.macro clear_kurt_apricorn
 .halfword 736
 .endmacro
 
@@ -4605,7 +4620,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_738,arg0
+.macro get_total_apricorn_count,arg0
 .halfword 738
 .halfword arg0
 .endmacro
@@ -4640,7 +4655,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_744
+.macro create_friendship_room_statues
 .halfword 744
 .endmacro
 
@@ -4699,29 +4714,29 @@ RIBBON_MAX                    equ 80
 .halfword arg2
 .endmacro
 
-.macro scrcmd_754,arg0
+.macro try_headbutt_encounter,arg0
 .halfword 754
 .halfword arg0
 .endmacro
 
-.macro scrcmd_755
+.macro legend_cutscene_clear_bell_anim_begin
 .halfword 755
 .endmacro
 
-.macro scrcmd_756
+.macro legend_cutscene_clear_bell_anim_end
 .halfword 756
 .endmacro
 
-.macro scrcmd_757
+.macro legend_cutscene_clear_bell_rise_from_bag
 .halfword 757
 .endmacro
 
-.macro scrcmd_758,arg0
+.macro legend_cutscene_clear_bell_shimmer,arg0
 .halfword 758
 .halfword arg0
 .endmacro
 
-.macro scrcmd_759
+.macro legend_cutscene_lugia_eye_glimmer_effect
 .halfword 759
 .endmacro
 
@@ -4729,45 +4744,45 @@ RIBBON_MAX                    equ 80
 .halfword 760
 .endmacro
 
-.macro scrcmd_761,arg0
+.macro legend_cutscene_move_camera_to,arg0
 .halfword 761
 .halfword arg0
 .endmacro
 
-.macro scrcmd_762,arg0
+.macro legend_cutscene_pan_camera_to,arg0
 .halfword 762
 .halfword arg0
 .endmacro
 
-.macro scrcmd_763
+.macro legend_cutscene_wait_camera_pan
 .halfword 763
 .endmacro
 
-.macro scrcmd_764
+.macro legend_cutscene_bird_final_approach
 .halfword 764
 .endmacro
 
-.macro scrcmd_765
+.macro legend_cutscene_waves_or_leaves_effect_begin
 .halfword 765
 .endmacro
 
-.macro scrcmd_766
+.macro legend_cutscene_waves_or_leaves_effect_end
 .halfword 766
 .endmacro
 
-.macro scrcmd_767
+.macro legend_cutscene_lugia_arrives_effect_begin
 .halfword 767
 .endmacro
 
-.macro scrcmd_768
+.macro legend_cutscene_lugia_arrives_effect_end
 .halfword 768
 .endmacro
 
-.macro scrcmd_769
+.macro legend_cutscene_lugia_arrives_effect_camera_pan
 .halfword 769
 .endmacro
 
-.macro scrcmd_770,arg0
+.macro check_seen_all_letter_unown,arg0
 .halfword 770
 .halfword arg0
 .endmacro
@@ -4785,7 +4800,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_774,arg0
+.macro show_legendary_wing,arg0
 .halfword 774
 .halfword arg0
 .endmacro
@@ -4956,7 +4971,7 @@ RIBBON_MAX                    equ 80
 .halfword 806
 .endmacro
 
-.macro scrcmd_807,arg0,arg1
+.macro set_trainer_house_sprite,arg0,arg1
 .halfword 807
 .halfword arg0
 .halfword arg1
@@ -4967,7 +4982,7 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_809,arg0
+.macro show_trainer_house_intro_message,arg0
 .halfword 809
 .halfword arg0
 .endmacro
@@ -5042,13 +5057,13 @@ RIBBON_MAX                    equ 80
 .halfword arg0
 .endmacro
 
-.macro scrcmd_825,arg0,arg1
+.macro get_shiny_leaf_count,arg0,arg1
 .halfword 825
 .halfword arg0
 .halfword arg1
 .endmacro
 
-.macro scrcmd_826,arg0
+.macro try_give_shiny_leaf_crown,arg0
 .halfword 826
 .halfword arg0
 .endmacro
@@ -5117,7 +5132,7 @@ RIBBON_MAX                    equ 80
 .halfword arg1
 .endmacro
 
-.macro scrcmd_839,arg0
+.macro sys_set_sleep_flag,arg0
 .halfword 839
 .halfword arg0
 .endmacro
@@ -7565,10 +7580,10 @@ RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 .halfword arg0
 .endmacro
 
-.macro RankingView,arg0,arg1
+.macro RankingView,arg0,arg1,arg2
 .halfword 378
-.halfword arg0
-.halfword arg1
+.halfword arg0 * 3 + arg1
+.halfword arg2
 .endmacro
 
 .macro GetTimePeriod,arg0
