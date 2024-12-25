@@ -4,10 +4,13 @@
 .thumb
 
 .include "armips/include/flags.s"
+.include "armips/include/scriptmacros.s"
 .include "armips/include/vars.s"
 
 .include "asm/include/maps.inc"
 .include "asm/include/sprites.inc"
+.include "asm/include/std_scripts.inc"
+.include "asm/include/trainers.inc"
 
 {% if exists("header") %}.include "{{ header }}"{% endif %}
 

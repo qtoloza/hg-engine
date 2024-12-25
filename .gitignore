@@ -39,6 +39,7 @@ dumpitem.py
 /tools/genheightdata
 /tools/genmondatatxt
 /tools/geniconnarc.exe
+/tools/jsonproc
 /tools/narcpy.py
 /tools/ncgrtopng.exe
 /tools/nitrogfx

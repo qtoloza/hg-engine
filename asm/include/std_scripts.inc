@@ -621,4 +621,7 @@
 
 .equ std_scratch_card, 10490
 
+.equ _std_npc_trainer, 3000
+.equ _std_npc_trainer_2, 5000
+
 .endif // POKEHEARTGOLD_CONSTANTS_STD_SCRIPT_H

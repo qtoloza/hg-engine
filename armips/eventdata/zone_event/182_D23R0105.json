@@ -42,7 +42,7 @@
 "movement": 0,
 "type": 1,
 "eventFlag": "FLAG_HIDE_ROCKET_TAKEOVER_1",
-"scriptId": "std_trainer(TRAINER_EXECUTIVE_ARIANA_ARIANA)",
+"scriptId": "(TRAINER_EXECUTIVE_ARIANA_ARIANA - 1 + _std_npc_trainer)",
 "facingDirection": 3,
 "param0": 4,
 "param1": 0,
