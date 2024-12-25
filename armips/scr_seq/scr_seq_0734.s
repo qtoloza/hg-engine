@@ -25,7 +25,7 @@
 
 // text archive to grab from: 444.txt
 
-.create "build/a012/2_734.s", 0
+.create "build/a012/2_734", 0
 
 
 scrdef_end

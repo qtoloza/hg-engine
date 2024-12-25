@@ -25,7 +25,7 @@
 
 // text archive to grab from: 003.txt
 
-.create "build/a012/2_068.s", 0
+.create "build/a012/2_068", 0
 
 
 scrdef scr_seq_0068_000
