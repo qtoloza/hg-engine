@@ -9,12 +9,12 @@ Battle Points are usually referred to\nas BP.\rBP are points that are used only 
 The Exchange Service Corner is\ncomprised of two tents straight\fahead past here.\rThere, you may exchange your BP for\na wide variety of prizes.\rPlease do visit it!\r
 The Performance Monitor shows Trainer\ndata, such as the previous record and\fthe best record to date.\rYou will find one near the reception\ncounter in each facility.\r
 We hope you enjoy your visit!
-
-
-
-
-
-
+           
+         
+            
+          
+   
+           
 Welcome to the Battle Frontier!\rShould I explain how the\nBattle Tower works? {YESNO 0}
 The Battle Tower is the building at the\nback of the Battle Frontier.\rThe object here is to enter a team of\ndifferent Pokémon and battle on until\fyou lose.\r
 We hope you enjoy your visit!

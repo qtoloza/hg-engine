@@ -3,7 +3,7 @@ Which will you Switch?
 Where will you move it?
 All placed objects will be\nremoved. Is this OK?
 Return
-
+    
 Quit
 Switch
 Sort

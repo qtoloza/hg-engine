@@ -16,28 +16,28 @@ JOIN GROUP
 BECOME LEADER
 Current Floor
 {STRVAR_1 50, 0, 0}
-
-
-
-
-
+     
+     
+    
+     
+    
 TRADE
 CANCEL
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
+       
+      
+      
+      
+        
+        
+        
+        
+        
+        
+      
+       
+         
+          
 CONFIRM
 RULES
 YES
@@ -46,19 +46,19 @@ EXIT
 CANCEL
 {ALN_CENTER}YES
 {ALN_CENTER}NO
-
-
-
-
+   
+  
+  
+   
 BATTLE
 {STRVAR_1 3, 0, 0}
 {STRVAR_1 3, 1, 0}
 {STRVAR_1 3, 2, 0}
 {STRVAR_1 3, 3, 0}
-
-
+       
+       
 DRAW
-
+ 
 SOMEONE’S PC
 BILL’S PC
 {STRVAR_1 3, 0, 0}’s PC
@@ -69,7 +69,7 @@ DEPOSIT\nPOKéMON
 WITHDRAW\nPOKéMON
 MOVE\nPOKéMON
 MOVE\nITEMS
-
+       
 SEE YA!
 MAILBOX
 BALL CAPSULES
@@ -78,42 +78,42 @@ Pokémon in your party may be stored\nin the storage system’s Boxes.
 Pokémon stored in Boxes may be added\nto your party.
 You may sort the Pokémon in Boxes\nand in your party.
 You may sort the items held by your\nPokémon in Boxes and in your party.
-
+                                  
 Log out of the Pokémon Storage\nSystem.
 Up to 20 pieces of Mail can be\nstored.
 You may set or edit Capsules for\ndecorating Poké Balls.
 Log out of your PC.
 You may look at pictures you\nhave taken on your adventure.
-
-
-
-
-
-
-
-
+   
+        
+        
+          
+    
+    
+     
+       
 CANCEL
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                 
+         
+          
+       
+   
+        
+        
+      
+      
+   
+       
+       
+       
+       
+   
+          
+          
+         
+         
+          
+   
 1F
 2F
 3F
@@ -121,8 +121,8 @@ CANCEL
 5F
 6F
 B1F
-
-
+     
+      
 ROOF
 EXIT
 50 Coins{CURSOR_X 60}$1,000
@@ -137,20 +137,20 @@ UNDERSTOOD!
 {STRVAR_1 0, 0, 0}{STRVAR_1 2, 2, 0}{CURSOR_X 90}Lv. {STRVAR_1 52, 1, 0}
 {STRVAR_1 0, 0, 0}{STRVAR_1 2, 2, 0}{CURSOR_X 90}Lv. {STRVAR_1 52, 1, 0}
 CANCEL
-
-
+  
+   
 SPIN
 RECORDS
 CHALLENGE
 INFO
 EXIT
-
-
+    
+   
 KEEP GOING
 REST
 RETIRE
-
-
+       
+        
 CHECK LEADERS
 CHALLENGE\nEARLIER ROOM
 CHECK LEADERS
@@ -169,40 +169,40 @@ BATTLES FOR FOUR
 GREET
 CONVERSE
 CHAT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              
+                
+                 
+                 
+                 
+    
+  
+   
+     
+   
+   
+        
+  
+  
+    
+   
+   
+              
+      
+      
+       
+       
 {STRVAR_1 54, 0, 0} Coins
 BASIC RULES
 CATCHING SHOW
 STOCKING POKéMON
-
+      
 UNDERSTOOD!
 ENTER
 INFO
 EXIT
-
-
-
+        
+    
+   
 RED SHARD
 BLUE SHARD
 YELLOW SHARD
@@ -216,59 +216,59 @@ DAMP MULCH{CURSOR_X 90}\n$200
 STABLE MULCH{CURSOR_X 90}\n$200
 GOOEY MULCH{CURSOR_X 90}\n$200
 EXIT
-
-
+      
+      
 {STRVAR_1 53, 0, 0} BP
-
-
+                
+                
 {STRVAR_1 54, 0, 0}P
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
+        
+     
+     
+       
+      
+       
+        
+        
+     
+        
+         
+     
+     
+          
+          
+       
+        
+        
+        
+         
+     
+         
+         
+         
+   
+   
+   
+   
+   
+      
+      
+       
+   
+      
+         
+        
+      
+   
 RECORD
-
-
-
-
-
-
-
+      
+      
+       
+       
+      
+  
+   
 JOIN
 POKéATHLON
 SPEED COURSE
@@ -293,7 +293,7 @@ KNOWLEDGE
 STRENGTH
 BOTH
 WEAKNESS
-
+       
 ABOUT EVENTS
 ABOUT MAXIMO
 HURDLE DASH
@@ -311,14 +311,14 @@ POWER COURSE
 SKILL COURSE
 STAMINA COURSE
 JUMP COURSE
-
-
-
-
-
-
-
-
+   
+                  
+                  
+                  
+              
+             
+             
+                
 BUY
 SELL
 SEE YA!
@@ -439,10 +439,10 @@ The user focuses its mind and spirit\nto raise its Sp. Atk and Sp. Def stats.
 Return to the selection screen.
 EXIT
 CANCEL
-
-
-
-
+  
+             
+            
+   
 NUGGET\n$4,500
 PEARL\n$650
 BIG PEARL\n$3,500

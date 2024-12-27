@@ -1,6 +1,6 @@
 I’m the Chairman of the\nPokémon Fan Club.\rI’ve raised over 150 Pokémon.\rI’m very fussy when it comes\nto Pokémon.\rDid you visit just to hear about\nmy Pokémon? {YESNO 0}
 Good! Then listen up!\rSo...my precious RAPIDASH...\rIt’s...cute...lovely...smart...\nadorable...irresistible...plus...\famazing... Don’t you think so?\fOh, so...wild...beautiful...\fkind... I love it!\rHug it... It’s warm and cuddly...\nOh, it’s...spectacular...captivating...\fsimply divine... I treasure it...\fOops! Look at the time! I’ve kept\fyou too long!\rThanks for hearing me out. I want to\ngive you this present!\r
-
+                    
 It’s a Rare Candy that makes\nPokémon stronger.\rI prefer making my Pokémon stronger\nby battling, so you can have it.
 Hello, {STRVAR_1 3, 0, 0}!\rDid you come see me about my\nPokémon again?\rNo? Oh... I had more tales to tell...
 Hello, {STRVAR_1 3, 0, 0}!\rDid you come see me about my\nPokémon again?\rNo? Oh... I had more tales to tell...

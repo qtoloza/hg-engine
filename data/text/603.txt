@@ -27,8 +27,8 @@ EKANS{CURSOR_X 103}700 Coins
 DRATINI{CURSOR_X 90}2,100 Coins
 SANDSHREW{CURSOR_X 103}700 Coins
 My name is Mr. Game!\rMy heart pounds with excitement when\npeople enjoy my Coin game!\rIn fact, that’s what I live for!\nYou look like quite a challenger!\rWhy don’t you play my Coin game?\rYou can get fabulous prizes if\nyou manage to collect a lot\fof Coins. {YESNO 0}
-
-
+  
+   
 All right!\nHere is your Coin Case!\r
 Show me how you play, and my heart\nwill pound with excitement!\r
 Playing my Coin game will make your\nheart and my heart both pound with\fexcitement, you know?

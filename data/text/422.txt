@@ -17,7 +17,7 @@ If the leader quits, the group will\ndisband. Is that OK?
 {STRVAR_1 1, 0, 0} the leader has left.\nThe group will disband.
 Seeking record-mixing friends!
 Record mixing under way!
-
-
+  
+   
 Next
 Quit

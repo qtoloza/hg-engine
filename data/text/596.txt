@@ -1,9 +1,9 @@
 Hello. Oh, your Pokémon...\r
 It’s very attached to you.\rThis move should be perfect for a\npair like you.\r
-
+                     
 It’s adorable!\rYou should teach it good TM moves.
 It looks a little bit evil.\nHow about this TM for it?\r
-
+                     
 There are sure to be TMs that are\njust perfect for your Pokémon.
 Mystery Gift.\rWith just a little beep, you get a gift.
 The Mystery Gift option is not\ncompatible with Game Boy Color.

@@ -33,16 +33,16 @@ x{STRVAR_1 50, 0, 0}! Received {STRVAR_1 53, 1, 0} Coins!
 Oh no! You get 0 Coins!
 Game clear!\rYou’ve found all of the hidden x2 and\nx3 cards.\rThis means you’ve found all the Coins\nin this game, so the game is now over.\r
 If you quit now, you will\nreceive {STRVAR_1 53, 0, 0} Coin(s).\fWill you quit?
-
-
+  
+   
 You haven’t found any Coins!\nAre you sure you want to quit?
-
-
+  
+   
 {STRVAR_1 3, 1, 0}\nreceived {STRVAR_1 53, 0, 0} Coin(s)!\r
 Advanced to Game Lv. {STRVAR_1 50, 0, 0}!\r
 Congratulations!\rYou can receive even more Coins\nin the next game!\r
 Dropped to Game Lv. {STRVAR_1 50, 0, 0}.\r
-
-
+           
+              
 Table No. {STRVAR_1 51, 0, 0}
 Next Game Level: {STRVAR_1 50, 1, 0}

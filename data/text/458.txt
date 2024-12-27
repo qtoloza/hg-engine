@@ -1,5 +1,5 @@
 Hello, welcome to our Training Hall.\rYou may battle our best Trainers and\ntheir favorite Pokémon once\fper day.\rWould you like to participate? {YESNO 0}
-
+                                   
 You are ready!\nPlease go right through.\r
 I see...\nPlease come back again.\r
 Do you want to exit? {YESNO 0}

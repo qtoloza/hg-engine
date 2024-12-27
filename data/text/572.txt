@@ -1,7 +1,7 @@
 You crossed the sea to get here?\rThat must have been hard.\rIt would be much easier if your\nPokémon knew how to Fly...\r
 But you can’t use Fly without this\ncity’s Gym Badge.\rIf you beat the Gym Leader here,\ncome see me.\fI’ll have a nice gift for you.
 That’s Cianwood’s Gym Badge!\rThen you should take this HM.\r
-
+                      
 Teach Fly to your Pokémon.\rYou will be able to Fly instantly\nto anywhere you have visited.
 My husband lost to you, so he needs\nto train harder.\rThat’s good, since he was getting a\nlittle chubby.
 Your Bag is full.

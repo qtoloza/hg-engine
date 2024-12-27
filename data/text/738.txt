@@ -1,10 +1,10 @@
-
-
-
-
-
-
-
+    
+    
+    
+    
+   
+    
+    
 {STRVAR_1 28, 2, 0}{PAUSE 15}\r{STRVAR_1 3, 0, 0}\nhas contacted you.
 The chat has been dropped.
 Awaiting a response from\n{STRVAR_1 3, 0, 0}...
@@ -39,7 +39,7 @@ You don’t have an Egg.\nThe invitation was turned down.
 Whoops! Sorry, but I have to do\nsomething else.\fAnother time, OK?
 Do you want to\ndo anything else?
 ... ...\nThe Trainer appears to be busy...
-
+                       
 Sure thing! In greeting, allow me to\nshow you my Trainer Card.
 Huh? My Trainer Card...\nWhere’d it go now?\rSorry! I’ll show you another time!
 I’m just showing my Trainer Card\nas my way of a greeting.
@@ -50,7 +50,7 @@ Oh, sorry! I can’t now.\nLet’s draw another time.
 {STRVAR_1 3, 0, 0}: We’re drawing right\nnow.\rOh, I know! {STRVAR_1 3, 1, 0}, would\nyou like to draw with us? {YESNO 0}
 Oh, all right.\nCome see me anytime, OK?
 OK! Let’s do some drawing\ntogether!
-
+                                          
 The last letter of what you draw has\nto be the first letter of what I draw?
 Stop drawing funny faces!\nIt hurts to laugh so much!
 Wow, you’re good!\nI’ll try to imitate you!
@@ -76,20 +76,20 @@ Oh, I’m sorry.\nI have too much to do right now.\fAnother time, OK?
 {STRVAR_1 3, 0, 0}: We’re going to mix our\nrecords now.\rI know! {STRVAR_1 3, 1, 0}, do you want\nto mix your records with us, too? {YESNO 0}
 Oh, all right.\nCome see me anytime, OK?
 OK! Let’s mix our records!
-
+                                        
 It’s fun mixing records!
 I’m going to mix records with\neveryone!
 Mix it up! Keep mixing!
 You should mix records, too!
 Spin Trade? Sure!\nOK, just hold on a second!
 OK, all set!\nLet’s do a Spin Trade!
-
+                                        
 You need an Egg if you want to take\npart in a Spin Trade.\r
 {STRVAR_1 3, 0, 0}: We’re going to do a Spin\nTrade now.\rHey, {STRVAR_1 3, 1, 0}! Do you want to join\nus for a Spin Trade, too?
 Oh, OK.\nCome see us anytime!
 OK!\nLet’s do a Spin Trade together!
-
-
+                                         
+                                        
 There is an Egg that cannot be traded\nin your party.
 Spin Trades are so much fun!
 There!\nStop there!
@@ -99,7 +99,7 @@ Yes!\nI got the Egg I wanted!
 Whoops!\nSorry, but I have to do something else.\fAnother time, OK?
 Want to do\nsomething else?
 ... ...\nThe Trainer appears to be busy...
-
+                       
 As my introduction, I’ll show you\nmy Trainer Card.
 Oh? Now where did I put my\nTrainer Card...?\rSorry! I’ll show you later!
 We’re showing each other our\nTrainer Cards to get acquainted.
@@ -110,7 +110,7 @@ Oh, I’m sorry!\nLet’s draw another time!
 {STRVAR_1 3, 0, 0}: We are drawing right\nnow.\rOh, I know! {STRVAR_1 3, 1, 0}, would you\nlike to draw with us?
 Oh...\nPlease come by anytime.
 OK! Thanks for waiting!\nLet’s get drawing!
-
+                                      
 Wow!\nYou’re really good!
 Ahaha!\nWhat is that?!
 I love drawing!\nI can draw and draw!
@@ -143,13 +143,13 @@ Let’s mix it up!
 I wonder what’s going to happen?
 Spin Trade? Of course!\nOK, can you just wait a moment?
 OK, all ready!\nLet’s get this Spin Trade started!
-
+                     
 If you want to join a Spin Trade, you\nneed to bring an Egg, too.\r
 {STRVAR_1 3, 0, 0}: We were doing Spin Trades\njust now.\r{STRVAR_1 3, 1, 0}, do you want to join us\nand do some Spin Trades, too?
 Oh, OK.\nCome see us anytime!
 OK!\nLet’s do a Spin Trade together!
-
-
+                                             
+                     
 There is an Egg that cannot be traded\nin your party.
 We’re doing Spin Trades!
 Wah!\nIt moved again!
@@ -165,7 +165,7 @@ In a Spin Trade, participants each bring\nan Egg for trading with others.\rWhich
 You may get together with others\nand draw.\rYou all get to work on one sheet\nof paper at the same time.\rI’m sure a drawing made by friends\nwill be a memorable masterpiece!\rUp to five players can take part,\nso try it with your friends!\r
 You can chat with other people\nby selecting “CHAT” in the menu.\rGo out and meet other players in\nthe Union Room!\rLet people know what you’re like\nand what you’d like to do.\rMingle, chat, and add to your\ncircle of friends!\r
 Oh!\nHere comes someone now!\rInstead of me, why not strike up\na chat with our newcomer?\r
-
+                                  
 Do you sometimes get mistaken for\na real {STRVAR_1 14, 0, 0}?\rI just seem to get that feeling\nfrom you.\r
 Hello!\rThat’s right!\nIt’s important to say a greeting!\rIf someone arrives, let’s try to\nbe friendly!\r
 Greetings!\r{STRVAR_1 28, 0, 0}?\nIt’s wonderful!\fI really like it, too!\rWhen you meet someone for the first\ntime, the proper etiquette is to\fintroduce yourself.\rBy introducing yourself, you’ll get to\nknow about the other person, too!\r
@@ -188,24 +188,24 @@ Where are you?\nUm... Right before my eyes.\rOh!\nAre you maybe an impostor?\rTh
 {STRVAR_1 28, 0, 0} trade?\nThat sounds fun!\fI would love to as well.\rBut telling me that won’t help.\nI can’t trade with anyone.\r
 If you want to have a {STRVAR_1 28, 0, 0}\nBattle, you need to be more\fassertive and talk to other players.\rIf you can’t assert yourself, you\nmay never get a chance at a\f{STRVAR_1 28, 0, 0} Battle!\r
 INFO
-
+      
 EXIT
 BATTLE
 TRADE
 RECORDS
-
+    
 DRAW
 CHAT
 CANCEL
 Talking to {STRVAR_1 3, 0, 0}...
-
+                  
 Whoops! Sorry, but I have to do\nsomething else.\fAnother time, OK?
 Waiting for the other player’s choice.
-
-
-
-
-
+          
+           
+                                 
+                
+                 
 {STRVAR_1 3, 0, 0}’s friend
 {STRVAR_1 3, 1, 0}’s friend
 {STRVAR_1 3, 2, 0}’s friend

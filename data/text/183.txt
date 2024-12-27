@@ -1,4 +1,4 @@
-
+   
 {STRVAR_1 3, 0, 0}
 {STRVAR_1 3, 1, 0}
 {STRVAR_1 1, 2, 0}
@@ -20,12 +20,12 @@ TRADE
 CANCEL
 Communicating. Please stand by...
 Trade {STRVAR_1 1, 0, 0} in return for\n{STRVAR_1 1, 1, 0}?
-
-
+  
+   
 The trade has\nbeen canceled.
 Cancel trading?
-
-
+  
+   
 Waiting for your friend to finish...
 Your friend apparently wants to\ntrade a Pokémon with you.
 {STRVAR_1 1, 0, 0} will be sent to\n{STRVAR_1 3, 1, 0}.
@@ -33,7 +33,7 @@ Take care, {STRVAR_1 1, 0, 0}!
 {STRVAR_1 3, 1, 0} sent over\n{STRVAR_1 1, 0, 0}!
 Take good care of {STRVAR_1 1, 0, 0}!
 If you trade that Pokémon, you’ll\nget stuck in your adventure!
-
+                         
 The Ball Capsule will become detached.\nIs that OK?
 There is a Pokémon that cannot be\ntraded in your party.
 There is a Pokémon that cannot be\ntraded in the other Trainer’s party.

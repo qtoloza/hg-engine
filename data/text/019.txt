@@ -3,22 +3,22 @@ SINGLE
 DOUBLE
 MULTI
 CANCEL
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
+                             
+                      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
 {STRVAR_1 0, 0, 0}
-
+   
 Battle Tower
 Battle Factory
 Battle Castle
@@ -29,14 +29,14 @@ Double Record
 Multi Record
 PREV
 CURRENT
-
-
-
-
-
-
-
-
+     
+     
+     
+  
+     
+     
+  
+       
 RETURN
 {STRVAR_1 50, 0, 0}
 /
@@ -98,4 +98,4 @@ Z
 
 
 
-
+ 

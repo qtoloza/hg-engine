@@ -27,5 +27,5 @@ Would you like to give a nickname\nto {STRVAR_1 0, 1, 0}? {YESNO 0}
 Steven: You did a great job naming it!\r
 QUIT
 Steven: You seem to be quite cautious.\rAre you avoiding any chance when a\nperson might trick you?\fYou really are better than I thought.
-
-
+                                     
+                                                                                                                                                 

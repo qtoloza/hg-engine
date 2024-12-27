@@ -23,15 +23,15 @@ Welcome to the Exchange Service\nCorner!\rWould you like to trade in your BP\nfo
 Please come back any time you want!\n
 {STRVAR_1 8, 0, 0} will cost {STRVAR_1 50, 1, 0} BP.\nIs that OK? {YESNO 0}
 {STRVAR_1 8, 0, 0} {STRVAR_1 6, 1, 0} will\ncost {STRVAR_1 51, 2, 0} BP.\fIs that OK? {YESNO 0}
-
+                      
 You put away the {STRVAR_1 8, 0, 0}\nin the {STRVAR_1 18, 1, 0} Pocket.\r
 I’m sorry, but you don’t have\nenough BP.\r
-
+                    
 I’m sorry, but your Bag is full.\r
 Please choose the TM you\nwould like. {YESNO 0}
 Please choose the item you\nwould like. {YESNO 0}
-
-
+                         
+                                              
 Battle Tower\nNever Lose! Keep Winning!
 Battle Hall\nLet Each Pokémon Seek No. 1
 Battle Castle\nManage Battles with Castle Points

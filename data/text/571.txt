@@ -1,6 +1,6 @@
 Hm? Who are you?\r{STRVAR_1 3, 0, 0}, eh? You want me to make\nsome Balls?\rSorry, but that’ll have to wait.\rDo you know Team Rocket?\nAh, don’t worry. I’ll tell you anyhow.\rTeam Rocket’s an evil gang that\nuses Pokémon for their dirty work.\rThey’re supposed to have disbanded\nthree years ago.\rAnyway, they’re at the well, cutting\noff SlowpokeTails for sale!\rSo I’m going to go give them a\nlesson in pain!\rHang on, SLOWPOKE!\nOld Kurt is on his way!
 Kurt: Hi, {STRVAR_1 3, 0, 0}!\nYou handled yourself like a real hero.\rAs I mentioned before, Team Rocket was\ndisbanded by a boy called Red three\fyears ago.\rNow that they have come back...\nI have a bad feeling about it...\rIn any case, it would please me greatly\nto make Poké Balls for a Trainer\flike you, {STRVAR_1 3, 0, 0}.\fThis is all I have now, but take it.\r
-
+                       
 Kurt: I make Poké Balls from Apricorns.\rCollect them from trees and bring\n’em to me.\rI’ll make Poké Balls out of them.
 Kurt: You have Apricorns for me?\fFine! I’ll turn them into Poké Balls.\r
 Kurt: It’ll take a day to make you a\nPoké Ball. Come back for it later.

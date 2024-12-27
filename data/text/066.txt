@@ -29,7 +29,7 @@ Buena: I look forward to hearing\nfrom you!\r
 Buena: Tune in to my password show!
 Buena: Sorry...\nYou get just one chance each day.\rCome back tomorrow for another try!
 Buena: Your Bag is full!
-
+                         
 Buena: Tune in to my show again\ntomorrow!\r
 Save up the Blue Card points for some\nchoice prizes!
 Your points total on your\nBlue Card is now {STRVAR_1 51, 0, 0}.

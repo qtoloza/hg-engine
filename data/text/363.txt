@@ -10,7 +10,7 @@ Misty: We look good!\nI really like Water-type Pokémon!
 Misty: What a letdown...
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.
 You took on one more battle than\nyou expected, but you won anyway.\rAs promised, you win a prize.\r
-
+                    
 But after seeing how you battle,\nI want to see how I’ll fare.\fHow about it? Let me take you on.\r
 I’ve never had a battle this\nwonderful!\rYou and your Pokémon are\nreally strong!
 Sea Cottage\nBill’s House

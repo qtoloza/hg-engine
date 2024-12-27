@@ -5,8 +5,8 @@ Well then, I’ll hang on to it.\nThanks!
 You have no room for it right now...\nCome back when you’ve made room.
 {STRVAR_1 3, 0, 0} received the Egg from\nthe Day-Care Man.
 You take good care of it.
-
-
+                                                                                
+                              
 Ah, it’s you!\nGood to see you!\rYour {STRVAR_1 0, 0, 0} and {STRVAR_1 0, 1, 0}\nare doing just fine.\r
 I really will keep it.\nYou do want this Egg, yes? {YESNO 0}
 Take good care of it!\rThat is, I don’t think we’ll ever find\nanother...\rNo, no, I’m sure we’ll find another one.\nI’m definitely sure of it!\r
@@ -40,11 +40,11 @@ If you leave me that Pokémon,\nwhat are you gonna battle with?\rCome back anoth
 Huh? Now, now.\rIf you leave that Pokémon with\nme, you’ll be left with just one.\rYou will be better off if you catch\nsome more, if I do say so myself.
 Now, now.\nThat is merely an Egg!
 Fine, we’ll raise your {STRVAR_1 0, 0, 0}\nfor a while.\rCome back for it later.
-
-
-
-
-
+     
+       
+      
+      
+     
 The two seem to get along very well.\r
 The two seem to get along.\r
 The two don’t seem to like each\nother much.\r

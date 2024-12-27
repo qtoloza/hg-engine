@@ -4,4 +4,4 @@ I... I’m crushed...\rMy training is still not enough...\nBut a loss is a loss.
 TYROGUE is a Fighting type.\nIt evolves into a tougher Pokémon.\rKeep up the hard work. I’ll keep\ntraining too. Farewell!
 You have no room in your party!
 Give a nickname to the TYROGUE you\nreceived? {YESNO 0}
-
+                         

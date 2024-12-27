@@ -1,8 +1,8 @@
 Press the A Button to save a Battle\nVideo of this battle.
 Would you like to save the last battle\nas your Battle Video?
 Delete your existing Battle Video and\nsave the last battle?
-
-
+  
+   
 Please wait a moment.
 The Battle Video has been saved.
 There was an error.\nThe Battle Video couldn’t be saved.

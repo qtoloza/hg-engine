@@ -1,6 +1,6 @@
 First, I’ll need to hold on to any\nitems held by your Pokémon.\r
 Please wait a moment.
-
+             
 Good going!\nWe’ll heal your Pokémon now.
 Next up, game no. {STRVAR_1 53, 0, 0}!\nAre you ready?
 Would you like to save the last battle\nas your Battle Video?
@@ -9,13 +9,13 @@ There was an error.\nThe Battle Video couldn’t be saved.\r
 Delete your existing Battle Video and\nsave the last battle?
 Saving...\nDon’t turn off the power.
 Would you like to save and take a break\nfrom playing?
-
-
+  
+   
 Would you like to retire from this\nchallenge?
-
-
+  
+   
 {STRVAR_1 3, 0, 0} is choosing.\nPlease wait.
-
+                    
 {STRVAR_1 3, 0, 0} chose to retire.
 Welcome to the Battle Arcade!\r
 Game no. {STRVAR_1 53, 0, 0}!\nCome on!
@@ -66,10 +66,10 @@ OK! Let the battle commence!
 {STRVAR_1 3, 0, 0}’s and {STRVAR_1 3, 1, 0}’s\nPokémon will begin frozen...\rOh! A lucky break!\rNeither of them has a Pokémon that\ncan be frozen!
 You have cleared your seventh battle!\nCongratulations!\rYou have earned BP as your prize!\r
 {STRVAR_1 3, 0, 0} received {STRVAR_1 51, 1, 0} BP!\r
-
+                                 
 We will return any items we were holding\nfor you.\r
 Saving...\nDon’t turn off the power.
-
+                          
 CONTINUE
 RECORD
 REST

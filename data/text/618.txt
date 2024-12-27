@@ -25,7 +25,7 @@ Zuki: {STRVAR_1 3, 0, 0}!\nWe’ll be at the Bell Tower.\fSee you there!\r
 Zuki: {STRVAR_1 3, 0, 0}!\nWe’ll be at the Whirl Islands.\fSee you there!\r
 What’s the deal with that Team Rocket\nGrunt, messing with my Kimono Girl?\rYou are a Trainer, aren’t you?\fPlease help her!
 Wonderful!\nYou were so courageous for your age!\rIt was a rare sight to see!\nI want you to have this.\fDon’t be shy--take it!\r
-
+                      
 That’s Surf.\nIt’s a move that lets Pokémon swim\facross water with ease.\r
 Not only are the Kimono Girls great\ndancers, they’re also skilled at\fPokémon.\rBut they battle only for good reasons.\rI don’t know if you could defeat them if\nthey showed what they can do...
 PSYDUCK: Dau dau!

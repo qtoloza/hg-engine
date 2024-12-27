@@ -1,11 +1,11 @@
 SEEN
 OBTAINED
-
-
-
-
-
-
+   
+ 
+   
+   
+   
+   
 INFO
 {STRVAR_1 52, 0, 0}
 HT
@@ -31,8 +31,8 @@ HT
 WT
 AREA
 FORM
-
-
+    
+    
 RESET
 START
 CANCEL

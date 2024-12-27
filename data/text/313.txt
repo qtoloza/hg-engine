@@ -9,10 +9,10 @@ Skill & Power Course
 Power & Stamina Course
 Stamina & Speed Course
 Master Course
-
-
-
-
+  
+  
+   
+   
 Speed Medal
 Power Medal
 Skill Medal

@@ -55,11 +55,11 @@ Earned
 Times Joined: {STRVAR_1 56, 0, 0}
 Event Record Single Mode
 Event Record Link Mode
-
-
-
-
-
+           
+   
+   
+   
+   
 {STRVAR_4 0, 0, 0}
 Please select event
 Event Record
@@ -110,7 +110,7 @@ New Record {STRVAR_1 3, 0, 0}
 Surpass the no. 1 record!
 Link
 Single
-
+     
 Next Trust Trophy: One Medalist
 Next Trust Trophy: Two Medalists
 Next Trust Trophy: Five Medalists
@@ -123,7 +123,7 @@ Next Trust Trophy: 150 Medalists
 Next Trust Trophy: 200 Medalists
 Trust Trophies Complete!
 {STRVAR_1 0, 0, 0}’s Medals
-
+       
 Medalist\nPokémon
 Pokémon Record
 Medalist Pokémon: {STRVAR_1 52, 0, 0}

@@ -88,7 +88,7 @@ DS Wireless Communications will be\nlaunched. {YESNO 0}
 Communication error.\rPlease repeat the registration\nprocess from the beginning.
 Saving...\nDon’t turn off the power.
 {STRVAR_1 3, 0, 0} saved the game.
-
+                                                       
 The Safari Zone Areas have\nbeen swapped.
 This is the reception for the\nSafari Zone Link.\r...Or should I say...is going to be.\rWe’re still not ready.\nPlease come back later.
 Owner!\nThis is the Safari Zone Link reception.\rWould you like to know about the\nSafari Zone Link? {YESNO 0}

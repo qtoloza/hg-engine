@@ -1,28 +1,28 @@
 No. of Hall of Fame entries
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+                          
+ 
+                         
+ 
+                         
+ 
+                                
+ 
+                        
+ 
 No. of Contests entered alone
 No. of Contests entered with\nfriends
 No. of Contests entered alone and\nwon
 No. of Contests entered with\nfriends and won
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
 No. of times wild Pokémon fled
-
+ 
 No. of Berries planted
 No. of steps walked
 No. of times battled wild Pokémon
@@ -33,13 +33,13 @@ No. of Eggs hatched
 No. of times own Pokémon evolved
 No. of Game Corner slot jackpots
 No. of Battle Tower challenges
-
-
-
-
+ 
+ 
+ 
+ 
 No. of completed GTS Pokémon\ntrades
 No. of battles won over Nintendo\nWi-Fi Connection
-
+ 
 No. of battles tied over Nintendo\nWi-Fi Connection
 No. of battles won at the Battle\nTower
 The total money spent shopping
@@ -79,20 +79,20 @@ Total Battle Points spent
 No. of Wi-Fi Plaza Games played
 No. of Eggs traded using Spin Trade
 No. of Star Pieces traded at the\nFuego Ironworks
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                      
+                           
+             
+            
+                            
+                        
+   
+  
+  
+   
+   
+   
+   
+ 
 {STRVAR_1 59, 2, 0}
 
 

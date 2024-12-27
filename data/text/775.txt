@@ -1,5 +1,5 @@
-
-
+          
+                             
 {STRVAR_1 1, 0, 0} was not traded.\r
 {STRVAR_1 1, 0, 0} appears to have\nfled...\r
 Are you seeking or offering a Pokémon?
@@ -17,8 +17,8 @@ Stop searching?
 Trade Pokémon with this Trainer?
 Choose the Pokémon you are trading.
 Do what with this {STRVAR_1 1, 0, 0}?
-
-
+                 
+                 
 Choose the Pokémon you want to offer.
 Offer {STRVAR_1 1, 0, 0}?
 Are these conditions OK?
@@ -42,68 +42,68 @@ GTS check failed.
 {ALN_CENTER}DEPOSIT POKéMON
 {ALN_CENTER}SEEK POKéMON
 {ALN_CENTER}EXIT
-
-
-
-
-
+     
+     
+        
+    
+     
 OFFERER
-
-
-
-
-
+     
+       
+     
+            
+        
 TAKE BACK
 LEAVE AS IS
-
-
+  
+   
 NAME
-
+         
 POKéMON
-
+     
 GENDER
-
+     
 LEVEL
-
+     
 SEARCH
 {ALN_CENTER}BACK
 SELECT
-
-
-
+     
+     
+        
 ITEM
-
-
-
+     
+      
+     
 WANTED
-
-
-
+     
+     
+     
 OT’S LOCATION
 {STRVAR_1 36, 8, 0}
 {STRVAR_1 37, 9, 0}
-
-
-
+        
+   
+     
 SUMMARY
 TRADE
 CANCEL
-
-
+  
+   
 IN PARTY
-
-
-
-
-
+   
+          
+     
+        
+   
 SUMMARY
 OFFER
 CANCEL
 WANTED
-
-
+     
+     
 OFFER POKéMON
-
+     
 Lv.
 {STRVAR_1 52, 3, 0}
 Lv. {STRVAR_1 52, 3, 0}
@@ -125,7 +125,7 @@ YZ
 EITHER
 ♂
 ♀
-
+      
 ANY
 Lv. 9 and under
 Lv. 10 and up
@@ -138,16 +138,16 @@ Lv. 70 and up
 Lv. 80 and up
 Lv. 90 and up
 Lv. 100
-
-
-
-
-
-
-
+      
+                     
+                      
+                     
+                     
+                      
+                       
 Unfortunately, it was traded to\nanother Trainer.\r
 Saving...\nDo not turn off the power.
-
+                          
 The GTS is currently\nundergoing maintenance.\rPlease try again later.\r
 The GTS is very crowded now.\nPlease try again later.\r
 The search failed...
@@ -155,7 +155,7 @@ Communication error...
 Communication error...\r
 Unable to connect to the GTS.\nReturning to the reception counter.\r
 You were disconnected from the GTS.\nReturning to the reception counter.\r
-
+                      
 Returning to the reception counter.
 ANY
 Lv. 1 to 10
@@ -168,12 +168,12 @@ Lv. 61 to 70
 Lv. 71 to 80
 Lv. 81 to 90
 Lv. 91 to 100
-
+      
 LOCATION
-
+     
 ANY
  ANY
-
+      
 Please choose a Pokémon location.
 This Pokémon cannot be traded in this\nForme!\r
 Spiky-eared PICHU cannot be offered\nin trade. \r

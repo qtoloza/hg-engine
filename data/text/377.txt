@@ -16,7 +16,7 @@ Go meet many kinds of Pokémon and\ncomplete that Pokédex!\fBut I’ve stayed t
 {STRVAR_1 3, 0, 0} registered Professor Oak\nin the Pokégear!\r
 Hm? That Red Scale! What’s that?\nA red GYARADOS?\fThat’s rare! I... I want it...\r{STRVAR_1 3, 0, 0}, would you\ncare to trade it?\rI can offer this Exp. Share I got\nfrom Professor Oak. {YESNO 0}
 Hm? That Red Scale! What’s that?\nA red GYARADOS?\fThat’s rare! I... I want it...\r{STRVAR_1 3, 0, 0}, would you\ncare to trade it?\rI can offer this Exp. Share I got\nfrom Professor Oak. {YESNO 0}
-
+                      
 Arrgh, I reckon yer Bag’s full.
 That’s disappointing.\nThat happens to be very rare.
 Hi, {STRVAR_1 3, 0, 0}!\rI have something I want you to have\nand was just about to send an email\fto Professor Oak.\r

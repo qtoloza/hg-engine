@@ -1,8 +1,8 @@
 Have you visited Pewter Gym?\rThe Gym Leader uses\nRock-type Pokémon.
 At night, CLEFAIRY come out to play\nat Mt. Moon.\rBut not every night.
 Ah, you came all the way out here\nfrom Johto?\rThat brings back memories.\rWhen I was young, I went to Johto\nto train.\rYou remind me so much of what I was\nlike as a young man.\rHere. I want you to have this item\nI found in Johto.\r
-
-
+                      
+                      
 Going to new, unknown places and\nseeing new people...\fThose are the joys of travel.
 Steven: It seems that LATIOS became\nattracted to it in no time!\r
 Steven: It seems that LATIAS became\nattracted to it in no time!\r

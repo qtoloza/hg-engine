@@ -5,9 +5,9 @@ Which course would you like\nto try? {YESNO 0}
 You want to try\n{STRVAR_4 1, 3, 0}? {YESNO 0}
 Please come this way.\r
 The Pokéathlon will begin right now.\nYour team color is red.\rGood luck!\r
-
+                                
 {STRVAR_1 3, 0, 0} changed clothes.
-
+                           
 Please join us next time.
 What would you like to know about? {YESNO 0}
 The Pokéathlon is a sports festival in\nwhich you and three Pokémon compete in\fthree events.\rThe Pokéathlon has a variety of events\nto accommodate different aspects\fof Pokémon.\rPlease come join us with three Pokémon!\r
@@ -19,7 +19,7 @@ The Jump Course consists of three\nevents that require good\fJump Performance.\r
 The Skill Course consists of three\nevents that require good\fTechnique Performance.\r“Snow Throw”\nAim for them and throw Snow!\r“Goal Roll”\nRoll the balls into the Goal!\r“Pennant Capture”\nMake a quick turn and grab Pennants!\rWhen you win, you will be awarded\nthe Skill Medal.\rChoose three Pokémon with good Skill\nfor these events.\r
 Good job!\rYou will receive Athlete Points\nbased on your score.\r
 {STRVAR_1 3, 0, 0} received\n{STRVAR_1 53, 2, 0} points!
-
+                 
 For winning these events,\nyou will be awarded\fanother {STRVAR_1 52, 2, 0} points.\r
 Considering the performance this time,\nPokéathlete {STRVAR_1 3, 0, 0} will be\fpermitted to go to the “Trust” room.\fCongratulations!\r
 Considering the performance this time,\nPokéathlete {STRVAR_1 3, 0, 0} will be\fpermitted to go to the\f“Potential” room.\fCongratulations!\r
@@ -46,18 +46,18 @@ The Stamina & Speed Course consists\nof four events that require good\fStamina a
 The Master Course is a difficult course\nthat offers different events\fevery time.\rTeams must do their best to get\nthrough the course, no matter what it\fmay be!\rYou won’t receive any medals for a\nMaster Course.\rHowever, you will receive twice as many\nAthlete Points.\rBy all means, get your friends together\nand give it a try.\r
 This time, {STRVAR_1 3, 0, 0}’s score was\n{STRVAR_1 52, 1, 0}! Earned {STRVAR_1 53, 2, 0} points!\r
 This time, {STRVAR_1 3, 0, 0}’s score was\n{STRVAR_1 52, 1, 0}!\rSince it was on a Master Course,\n{STRVAR_1 53, 2, 0} points were earned!\r
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                                                                                                                                                                                             
+                            
+                               
+             
+                 
+                    
+                 
+                                                                                                                                                          
+                                                                                                                                                                                          
+                                                                                          
+                                           
+                                                 
+                                               
+                                                                                                                                                        
+                  

@@ -6,7 +6,7 @@ Whoa, wait. You can’t carry any\nmore Pokémon.
 Oh... Now what to do?
 Bill: I used to do experiments on\ntransferring things.\rBoth the GTS and Nintendo Wi-Fi\nConnection were inspired by\fmy machine that transfers things!
 Give a nickname to\nthe EEVEE you received? {YESNO 0}
-
+                         
 Oh, you collect Pokémon?\nMy son Bill is an expert.\rHe just got called to the Pokémon\nCenter in Ecruteak City.
 Whatever happens, it makes me happy\nto see my own son.
 My big brother Bill made the\nPokémon Storage System.

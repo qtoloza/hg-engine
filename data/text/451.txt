@@ -1,6 +1,6 @@
 Professor Oak: Ah, {STRVAR_1 3, 0, 0}!\nIt’s good of you to come all this way\fto Kanto.\rWhat do you think of the Trainers\nout here?\fPretty tough, huh?\r
 Professor Oak: Ah, {STRVAR_1 3, 0, 0}!\nIt’s good of you to come all this way\fto Kanto.\rWhat do you think of the Trainers\nout here?\fPretty tough, huh?\r
-
+                                
 If you’re in the area, I hope you\ncome visit again.
 You never cease to amaze me!\rYour having completed the National\nPokédex far exceeded my expectations!\rMeeting you is something l will cherish\nall my life long!\r
 You never cease to amaze me!\rYour having completed the National\nPokédex far exceeded my expectations!\rMeeting you is something l will cherish\nall my life long!\r
@@ -25,7 +25,7 @@ Professor Oak: You have successfully\ncaught RAYQUAZA!\rThe strong power of the 
 Professor Oak: Hello, {STRVAR_1 3, 0, 0}!\nThe study of Pokémon never ends.\rIt is such pure joy to work toward\nperfection!\rBy the way...\rHmm? Those Pokémon!\fThey were at the Embedded Tower?\rThey are KYOGRE and GROUDON--\nthe Pokémon from the Hoenn myth!\rI never dreamed you would catch\nsuch Pokémon...\rYou have proven yourself worthy!\nCongratulations!\rI would like to entrust this to you,\n{STRVAR_1 3, 0, 0}!\r
 Professor Oak: Hello, {STRVAR_1 3, 0, 0}!\nThe study of Pokémon never ends.\rIt is such pure joy to work toward\nperfection!\rBy the way...\rHmm? Those Pokémon!\fThey were at the Embedded Tower?\rThey are KYOGRE and GROUDON--\nthe Pokémon from the Hoenn myth!\rI never dreamed you would catch\nsuch Pokémon...\rYou have proven yourself worthy!\nCongratulations!\rI would like to entrust this to you,\n{STRVAR_1 3, 0, 0}!\r
 Professor Oak: Here, take this!\r
-
+                               
 Professor Oak: Say!\nDon’t you want to take a picture\fwith me for a change? {YESNO 0}
 Professor Oak: You will? Good!\nAre you ready?\r
 Professor Oak: Yes!\nIt’s a good memento!

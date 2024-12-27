@@ -16,5 +16,5 @@ Quit without changing the\nCapsule design?
 There’s no more room!
 There are no Seals left.
 Exit
-
-
+   
+     

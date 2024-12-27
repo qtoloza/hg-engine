@@ -5,9 +5,9 @@ FARFETCH’D: Kwaa!\r
 FARFETCH’D: Kwaa!
 {STRVAR_1 3, 0, 0} caught the FARFETCH’D!\r
 Ah!\nMy Far and Fetch’d!\rYou found them for us, kid?\nWithout them, we wouldn’t be able to\fcut trees for charcoal.\rThanks, kid!\rNow, how can I thank you...?\nI know! Here, take this.\r
-
+                      
 That’s the HM Cut. Teach that to a\nPokémon to clear small trees.\rOf course, you have to have the Gym\nBadge from Azalea to use it.
-
+               
 Do you want to apprentice as a charcoal\nmaker with me?\rYou’ll be first-rate in ten years!
 What am I doing?\rI’m shaking trees using Headbutt.\rIt’s fun. Here, you try it with your\nPokémon, too! {YESNO 0}
 Do you want to try it with your\nPokémon? {YESNO 0}

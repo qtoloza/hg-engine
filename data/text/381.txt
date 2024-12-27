@@ -1,6 +1,6 @@
 This area is great for fishing.\nLooking at all those people fishing,\fdid you feel like you wanted to try\ffishing, too?\rWould you like one of my Rods? {YESNO 0}
-
-
+                               
+                     
 When you want to go fishing,\nface the water and use the Rod first.\rThen concentrate and look closely\nat the water!\rAn “!” appears when a Pokémon\nhas taken a bite!\rPress the A Button quickly to pull back\non the line.\rYou’ll see what happens next.\rIf there’s water, be it the sea or\na stream, try out your Rod.
 Oh. That’s rather disappointing...
 When you want to go fishing,\nface the water and use the Rod first.\rThen concentrate and look closely\nat the water!\rAn “!” appears when a Pokémon\nhas taken a bite!\rPress the A Button quickly to pull back\non the line.\rYou’ll see what happens next.\n

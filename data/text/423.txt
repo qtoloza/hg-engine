@@ -1,8 +1,8 @@
 {COLOR 1}{STRVAR_1 4, 0, 0}{COLOR 0}
-
-
-
-
+            
+               
+              
+                 
 PLAYER:
 BADGES:
 POKéDEX:

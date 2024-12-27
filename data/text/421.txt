@@ -1,43 +1,43 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
+      
+      
+          
+        
+          
+        
+         
+        
+         
+               
+           
+          
+   
+           
+        
+       
+      
+       
+       
+      
+       
+             
+                           
+                          
+                          
+                              
+                            
+                       
+             
+                   
+                   
+              
+                    
+            
+                   
+      
+                               
+                 
+                
 {ALN_CENTER}DELETE RECORD
 {ALN_CENTER}RETURN
 {STRVAR_1 50, 0, 0}.
@@ -48,8 +48,8 @@
 {STRVAR_1 55, 0, 0}
 Select the record you want to\ndelete, then press the A or X Button.
 Delete {STRVAR_1 3, 0, 0}’s record?\nAre you sure?
-
-
+  
+   
 Your own record can’t be deleted.
 {ALN_CENTER}Battle Tower Record
 {ALN_CENTER}Single Battle Win-Streak

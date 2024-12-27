@@ -10,13 +10,13 @@ There was an error.\nThe Battle Video couldn’t be saved.\r
 Would you care to delete your existing\nBattle Video and save the last battle?
 Saving...\nPlease do not turn the power off.
 Would you like to save and take a break\nfrom playing?
-
-
+  
+   
 Do you wish to retire from this\nBattle Castle challenge?
-
-
+  
+   
 {STRVAR_1 3, 0, 0} is choosing.\nPlease wait.
-
+                    
 {STRVAR_1 3, 0, 0} chose to retire.
 Please choose what you wish to do.\r
 You may heal a Pokémon or rent an item\nfor it.
@@ -24,8 +24,8 @@ You may check on your opponent’s\nPokémon.
 Battle against a Trainer.
 You may take a pass and avoid battling\na Trainer.
 It will cost {STRVAR_1 52, 0, 0} CP.\nIs that acceptable?
-
-
+  
+   
 I’m terribly sorry.\nYou have insufficient CP.\r
 From here on, you may choose “Pass”\nand avoid battling a Trainer.\rIf you don’t wish to battle a certain\nTrainer, choose “Pass.”\r
 Caitlin: ...\nDarach! CP for this Trainer at once!

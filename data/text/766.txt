@@ -46,7 +46,7 @@ Hello!\r
 Sorry! Something’s come up!\nI can’t talk now!\r
 {STRVAR_1 3, 0, 0}:\nYes? What’s up?\r
 {STRVAR_1 3, 0, 0}:\nHi, do you have a moment?\r
-
+                                   
 {STRVAR_1 3, 0, 0}:\nDon’t worry. You don’t have to answer\fif you don’t want to.\r
 {STRVAR_1 3, 0, 0}:\nI see...\r
 {STRVAR_1 3, 0, 0}:\nThat’s the same as me!\fThat’s pretty nice!\r
