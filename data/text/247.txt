@@ -8,8 +8,8 @@ Your request has been sent.\nPlease wait a moment...
 Receiving your gift.\nDon’t turn off the power.
 The gift has been received!\rPlease pick up your gift from the\ndeliveryman in any Poké Mart.
 This gift is being shared by\nanother person.\rYou may accept this gift, but you\nwill not be able to distribute it\fto your friends.\rWill you accept this gift?
-                   
-Pokémon Ranger\nMANAPHY Egg Transfer
+
+Pokémon Ranger\nManaphy Egg Transfer
 RECEIVE GIFT
 CHECK CARD
 EXIT
@@ -28,13 +28,13 @@ You are out of room for\nWonder Cards.\rYou may not accept another gift.
 There was a problem with\nreceiving the gift.\rPress the A Button to return to\nthe title screen.
 A gift has been found, but it cannot\nbe received using this version.\rPress the A Button to return to\nthe menu.
 The person sharing has\nbeen disconnected...
-                     
+
 Press the A Button.
-                          
-               
-                    
+
+
+
 Please touch Pokémon Ranger’s\ngame screen.
-                     
+
 Wonder Card
 Please pick up your gift from the\ndeliveryman in any Poké Mart.
 You have already received\nthis gift before.
@@ -49,7 +49,7 @@ Would you like to share this gift?
 YES
 NO
 {STRVAR_34 16, 1, 0} {STRVAR_1 51, 2, 0}, {STRVAR_1 53, 0, 0}
-               
+
 This gift can be shared with as\nmany friends as you like.
 Pal Distribution Registration
 {STRVAR_1 3, 0, 0}
@@ -65,18 +65,18 @@ You haven’t received your gift yet.\nDo you want to discard this card?
 Discarding...\nDon’t turn off the power.
 YES
 NO
-                    
+
 {COLOR 3}{STRVAR_1 3, 0, 0}{COLOR 2} {COLOR 0}ID No.{STRVAR_1 54, 1, 0}
-          
+
 Application No.:
 {STRVAR_1 53, 0, 0}-{STRVAR_1 53, 1, 0}
 Receiving a Recruitment Message\nfrom a Pokémon Ranger.
 Awaiting transfer from Pokémon\nRanger.
-Receiving the MANAPHY Egg...\nDon’t turn off the power.
+Receiving the Manaphy Egg...\nDon’t turn off the power.
 The transfer has been completed.\nA Button: title screen.
 The connection with Pokémon Ranger\nhas been lost... Press the A Button.
-                              
-        
+
+
 DS Wireless Communications\nwill be launched.
 Connect to Nintendo Wi-Fi Connection?
 The Lock Capsule is held in the\nstrictest safekeeping.

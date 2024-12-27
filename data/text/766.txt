@@ -35,7 +35,7 @@ Hello!\r
 {STRVAR_3 7, 0, 0}\r
 {STRVAR_3 6, 0, 0}\r
 {STRVAR_3 8, 0, 0}\r
-...Wow, it’s that time there?\rAre you going to go out somewhere\nafter this?\r
+...Wow, it’s that time there?\rAre you going to go out soMewhere\nafter this?\r
 ...Wow, it’s that time there?\rAre you getting sleepy, maybe?\r
 ...Wow, it’s that time there?\rAre you maybe still feeling drowsy?\r
 {STRVAR_1 3, 0, 0}:\nHello! Nice to meet you.\r
@@ -46,7 +46,7 @@ Hello!\r
 Sorry! Something’s come up!\nI can’t talk now!\r
 {STRVAR_1 3, 0, 0}:\nYes? What’s up?\r
 {STRVAR_1 3, 0, 0}:\nHi, do you have a moment?\r
-                                   
+
 {STRVAR_1 3, 0, 0}:\nDon’t worry. You don’t have to answer\fif you don’t want to.\r
 {STRVAR_1 3, 0, 0}:\nI see...\r
 {STRVAR_1 3, 0, 0}:\nThat’s the same as me!\fThat’s pretty nice!\r
@@ -153,14 +153,14 @@ A park
 A department store
 An amusement park
 A theater
-SWALOT Plop
-MIME JR. Top
-WOBBUFFET Pop
+Swalot Plop
+Mime Jr. Top
+Wobbuffet Pop
 Never played
-TV & music
-Games & computers
-School & sports
-Fashion & romance
+TV and music
+Games and computers
+School and sports
+Fashion and romance
 Physical activities
 Using my brain
 Standing out
@@ -180,7 +180,7 @@ Plaza News
 Someone’s house
 A variety of shops
 A big factory
-Lots of nature
+Lots of Nature
 Sports
 Games
 Chat
@@ -214,7 +214,7 @@ Inventor
 Musician
 Comedian
 Very convenient
-Lots of nature
+Lots of Nature
 Very quiet
 Rare things/events
 Hot
@@ -274,9 +274,9 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nI’d like to go to a department store.\r
 {STRVAR_1 3, 0, 0}:\nI’d like to go to an amusement park.\r
 {STRVAR_1 3, 0, 0}:\nI’d like to go to a theater.\r
-{STRVAR_1 3, 0, 0}:\nI’d say SWALOT Plop.\r
-{STRVAR_1 3, 0, 0}:\nI’d say MIME JR. Top.\r
-{STRVAR_1 3, 0, 0}:\nI’d say WOBBUFFET Pop.\r
+{STRVAR_1 3, 0, 0}:\nI’d say Swalot Plop.\r
+{STRVAR_1 3, 0, 0}:\nI’d say Mime Jr. Top.\r
+{STRVAR_1 3, 0, 0}:\nI’d say Wobbuffet Pop.\r
 {STRVAR_1 3, 0, 0}:\nI’ve never played one.\r
 {STRVAR_1 3, 0, 0}:\nTV and music, I guess.\r
 {STRVAR_1 3, 0, 0}:\nGames and computers, I guess.\r
@@ -301,7 +301,7 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nI can see someone’s house.\r
 {STRVAR_1 3, 0, 0}:\nI can see a variety of shops.\r
 {STRVAR_1 3, 0, 0}:\nI can see a big factory.\r
-{STRVAR_1 3, 0, 0}:\nThere’s lots of nature around here.\r
+{STRVAR_1 3, 0, 0}:\nThere’s lots of Nature around here.\r
 {STRVAR_1 3, 0, 0}:\nHmm... Sports, I’d say.\r
 {STRVAR_1 3, 0, 0}:\nHmm... Games, I’d say.\r
 {STRVAR_1 3, 0, 0}:\nHmm... Chatting, I’d say.\r
@@ -335,7 +335,7 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nThat would be a musician.\r
 {STRVAR_1 3, 0, 0}:\nThat would be a comedian.\r
 {STRVAR_1 3, 0, 0}:\nIt’s a very convenient place.\r
-{STRVAR_1 3, 0, 0}:\nThere’s lots of nature here.\r
+{STRVAR_1 3, 0, 0}:\nThere’s lots of Nature here.\r
 {STRVAR_1 3, 0, 0}:\nIt’s very quiet here.\r
 {STRVAR_1 3, 0, 0}:\nThere are rare things and events here.\r
 {STRVAR_1 3, 0, 0}:\nIt’s a hot place.\r
@@ -395,9 +395,9 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nA department store?\fYou must like shopping.\r
 {STRVAR_1 3, 0, 0}:\nAn amusement park! Of course!\r
 {STRVAR_1 3, 0, 0}:\nA theater sounds entertaining!\r
-{STRVAR_1 3, 0, 0}:\nOh, you’re good at SWALOT Plop!\r
-{STRVAR_1 3, 0, 0}:\nOh, you’re good at MIME JR. Top!\r
-{STRVAR_1 3, 0, 0}:\nOh, you’re good at WOBBUFFET Pop!\r
+{STRVAR_1 3, 0, 0}:\nOh, you’re good at Swalot Plop!\r
+{STRVAR_1 3, 0, 0}:\nOh, you’re good at Mime Jr. Top!\r
+{STRVAR_1 3, 0, 0}:\nOh, you’re good at Wobbuffet Pop!\r
 {STRVAR_1 3, 0, 0}:\nOh. You’ve never played any.\r
 {STRVAR_1 3, 0, 0}:\nTV and music! I see.\r
 {STRVAR_1 3, 0, 0}:\nGames and computers! I see.\r
@@ -422,14 +422,14 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nOh, so you see someone’s house.\r
 {STRVAR_1 3, 0, 0}:\nOh, so you’re near some shops.\r
 {STRVAR_1 3, 0, 0}:\nYou live near a big factory? Wow.\r
-{STRVAR_1 3, 0, 0}:\nOh, so you’re out among nature.\r
+{STRVAR_1 3, 0, 0}:\nOh, so you’re out among Nature.\r
 {STRVAR_1 3, 0, 0}:\nOh, so you play sports with your\ffriends.\r
 {STRVAR_1 3, 0, 0}:\nCool. You play games with your friends.\r
 {STRVAR_1 3, 0, 0}:\nOh, chatting is what you do with your\ffriends.\r
 {STRVAR_1 3, 0, 0}:\nOh, so you shop with your friends for\ffun.\r
 {STRVAR_1 3, 0, 0}:\nYour family’s important to you...\r
 {STRVAR_1 3, 0, 0}:\nYour friends are important to you...\r
-{STRVAR_1 3, 0, 0}:\nYourself, huh? It’s only natural.\r
+{STRVAR_1 3, 0, 0}:\nYourself, huh? It’s only Natural.\r
 {STRVAR_1 3, 0, 0}:\nA secret? That’s intriguing.\r
 {STRVAR_1 3, 0, 0}:\nSo, people think you’re cheerful.\r
 {STRVAR_1 3, 0, 0}:\nSo, people think you’re funny.\r
@@ -456,7 +456,7 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nYou want to be a musician.\r
 {STRVAR_1 3, 0, 0}:\nYou want to be a comedian.\r
 {STRVAR_1 3, 0, 0}:\nA very convenient place?\fThat must be cool.\r
-{STRVAR_1 3, 0, 0}:\nA place with lots of nature?\fThat must be cool.\r
+{STRVAR_1 3, 0, 0}:\nA place with lots of Nature?\fThat must be cool.\r
 {STRVAR_1 3, 0, 0}:\nA very quiet place?\fIt must be nice.\r
 {STRVAR_1 3, 0, 0}:\nA place with rare things and events?\fThat must be cool.\r
 {STRVAR_1 3, 0, 0}:\nI see. You’re in a hot place.\r
@@ -465,7 +465,7 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nI see. You’re in a cool place.\r
 {STRVAR_1 3, 0, 0}:\nOh, so there are other people.\r
 {STRVAR_1 3, 0, 0}:\nOh, you can hear music.\r
-{STRVAR_1 3, 0, 0}:\nOh, so there’s a TV somewhere close.\r
+{STRVAR_1 3, 0, 0}:\nOh, so there’s a TV soMewhere close.\r
 {STRVAR_1 3, 0, 0}:\nOh, so you don’t hear very much.\r
 {STRVAR_1 3, 0, 0}:\nOh, you smell something cooking?\fSounds nice!\r
 {STRVAR_1 3, 0, 0}:\nOh, you smell other people? OK.\r
@@ -727,9 +727,9 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nLet’s see... Over here...\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nLet’s see... Over here...\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nWell, if it were me...\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say SWALOT Plop.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say MIME JR. Top.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say WOBBUFFET Pop.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say Swalot Plop.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say Mime Jr. Top.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say Wobbuffet Pop.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’ve never played one.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nTV and music, I guess.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nGames and computers, I guess.\r
@@ -754,7 +754,7 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI can see someone’s house.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI can see a variety of shops.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI can see a big factory.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThere’s lots of nature around here.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThere’s lots of Nature around here.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nHmm... Sports, I’d say.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nHmm... Games, I’d say.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nHmm... Chatting, I’d say.\r
@@ -788,7 +788,7 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThat would be a musician.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThat would be a comedian.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nIt’s a very convenient place.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThere’s lots of nature here.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThere’s lots of Nature here.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nIt’s very quiet here.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nThere are rare things and events here.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nIt’s a hot place.\r
@@ -807,9 +807,9 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nFashionable clothes, I’d say.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nTomorrow’s weather, I’d say.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nNew pop stars, I’d say.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at SWALOT Plop!\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at MIME JR. Top!\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at WOBBUFFET Pop!\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at Swalot Plop!\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at Mime Jr. Top!\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at Wobbuffet Pop!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh. You’ve never played any.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nTV and music! I see.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nGames and computers! I see.\r
@@ -834,14 +834,14 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you see someone’s house.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you’re near some shops.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYou live near a big factory? Wow.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you’re out among nature.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you’re out among Nature.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you play sports with your\ffriends.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nCool. You play games with your friends.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, chatting is what you do with your\ffriends.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you like to shop with your\ffriends.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYour family’s important to you...\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYour friends are important to you...\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYourself, huh? It’s only natural.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYourself, huh? It’s only Natural.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nA secret? That’s intriguing.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nSo, people think you’re cheerful.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nSo, people think you’re funny.\r
@@ -868,7 +868,7 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYou want to be a musician.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nYou want to be a comedian.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nA very convenient place?\fThat must be cool.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nA place with lots of nature?\fThat must be cool.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nA place with lots of Nature?\fThat must be cool.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nA very quiet place?\fIt must be nice.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nA place with rare things and events?\fThat must be cool.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI see. You’re in a hot place.\r
@@ -877,7 +877,7 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI see. You’re in a cool place.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so there are other people.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you can hear music.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so there’s a TV somewhere close.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so there’s a TV soMewhere close.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, so you don’t hear very much.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you smell something cooking?\fSounds nice!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you smell other people? OK.\r

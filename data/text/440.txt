@@ -1,5 +1,5 @@
-{COLOR 1}{ALN_CENTER} Pokémon HeartGold Version\n{COLOR 0}\n{ALN_CENTER} Staff Credits\n\n
-{COLOR 1}{ALN_CENTER} Pokémon SoulSilver Version\n{COLOR 0}\n{ALN_CENTER} Staff Credits\n\n
+{COLOR 1}{ALN_CENTER} Pokémon SacredGold Version\n{COLOR 0}\n{ALN_CENTER} Staff Credits\n\n
+{COLOR 1}{ALN_CENTER} Pokémon StormSilver Version\n{COLOR 0}\n{ALN_CENTER} Staff Credits\n\n
 Staff Credits
 {COLOR 2}Director{COLOR 0}
 Shigeki Morimoto
@@ -19,7 +19,7 @@ Genya Hosaka
 Toru Nagihashi
 Tomomichi Ohta
 {COLOR 2}Programming Support{COLOR 0}
-{COLOR 2}           &{COLOR 0}
+{COLOR 2}           and{COLOR 0}
 {COLOR 2}System Programming{COLOR 0}
 Hisashi Sogabe
 Katsumi Ohno

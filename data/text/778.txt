@@ -1,4 +1,4 @@
-                 
+
 Connecting to Nintendo Wi-Fi\nConnection... Please wait a moment...
 {STRVAR_1 3, 0, 0} is seeking someone\nto battle.
 {STRVAR_1 3, 0, 0} is seeking someone\nto trade with.
@@ -11,7 +11,7 @@ Seeking participants...
 Suspend your invitation?
 {STRVAR_1 3, 0, 0} contacted you!
 Would you like to log out of\nNintendo WFC?
-                            
+
 {STRVAR_1 3, 0, 0} invites you for\na voice chat!
 {STRVAR_1 3, 0, 0} appears to be busy...
 You can’t connect with\n{STRVAR_1 3, 0, 0}.
@@ -20,11 +20,11 @@ Communicating with {STRVAR_1 3, 0, 0}...
 {STRVAR_1 3, 0, 0} ended the voice chat.
 Would you like to end\nthis voice chat?
 Nintendo Wi-Fi Connection
-             
-  
-   
-         
-          
+
+
+
+
+
 IN BATTLE
 TRADE
 TRADING...
@@ -35,10 +35,10 @@ IN CHALLENGE...
 PLAZA GAMES
 IN PLAY...
 VOICE CHAT
-           
-              
+
+
 APPLY
-       
+
 CANCEL
 {STRVAR_1 3, 0, 0}
 GROUP
@@ -73,19 +73,19 @@ PLAZA GAMES PLAYED
 {STRVAR_1 53, 0, 0}
 CLOSE
 {STRVAR_34 16, 1, 0} {STRVAR_1 51, 2, 0}, {STRVAR_1 53, 0, 0}
-               
+
 {STRVAR_1 3, 0, 0} wants to join you!
 Would you like to have another\nbattle against {STRVAR_1 3, 0, 0}?
 Would you like to do another\ntrade with {STRVAR_1 3, 0, 0}?
 Standing by...
-       
+
 {STRVAR_1 3, 0, 0} is in a battle.
 {STRVAR_1 3, 0, 0} is trading.
 {STRVAR_1 3, 0, 0} is cooking.
 {STRVAR_1 3, 0, 0} is in a Battle Frontier\nchallenge.
 {STRVAR_1 3, 0, 0} is playing a Plaza Game.
 {STRVAR_1 3, 0, 0} is having a voice chat.
-                              
+
 Reconnect to Nintendo WFC?
 You need at least two Pokémon\nif you want to trade!
 Voice chat was turned ON.\r
@@ -107,15 +107,15 @@ Your Poffin Case is full.
 You can’t cook Berries if you don’t\nhave a Poffin Case.
 When the group is ready:\nA Button: Proceed   B Button: Cancel
 Someone wishes to join.\nAccept this Trainer as a member?
-  
-   
+
+
 Are these members OK?
-  
-   
+
+
 Awaiting {STRVAR_1 3, 0, 0}’s response...
 {STRVAR_1 3, 0, 0} approved your\nmember-registration request.
 {STRVAR_1 3, 0, 0} turned down your\nmember-registration request...\r
-                
+
 A member had to drop out.\nPlease register from the start again.\r
 There aren’t enough members.\r
 Stop looking for members?
@@ -131,21 +131,21 @@ Voice Chat ON/OFF: X Button
 ID {STRVAR_1 54, 0, 0}
 {STRVAR_1 3, 0, 0}\nID {STRVAR_1 54, 1, 0}
 The leader appears busy.\nPlease apply again.\r
-                  
+
 Voice chat will be turned ON while\nyou play with this friend.\rWould you like to respond to this\nfriend’s invitation?
 Voice chat will be turned OFF while\nyou play with this friend.\rWould you like to respond to this\nfriend’s invitation?
-                 
-                                
+
+
 Waiting for the other player to\ndecide. Please wait...
-                              
-                             
-                       
-           
-                  
+
+
+
+
+
 WALKABOUT
 MULTI BATTLE
 2BITADPCM
 3BITADPCM
 4BITADPCM
-    
+
 {STRVAR_1 3, 0, 0}

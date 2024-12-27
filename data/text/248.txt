@@ -21,7 +21,7 @@ There! All happy!
 You picked the\n{STRVAR_1 51, 1, 0} {STRVAR_1 8, 0, 0} Berries.
 Put away the {STRVAR_1 8, 0, 0} Berries!\nThe soil is in a soft, earthy state.
 The Bag is full. Gave up on\nthe {STRVAR_1 8, 0, 0} Berries.
-     
+
 N {STRVAR_1 51, 0, 0}/{STRVAR_1 51, 1, 0}/{STRVAR_1 51, 2, 0} {STRVAR_1 51, 3, 0}:{STRVAR_1 51, 4, 0}:{STRVAR_1 51, 5, 0}\nS {STRVAR_1 51, 6, 0}/{STRVAR_1 51, 7, 0}/{STRVAR_1 51, 8, 0} {STRVAR_1 51, 9, 0}:{STRVAR_1 51, 10, 0}:{STRVAR_1 51, 11, 0}
 D {STRVAR_1 55, 0, 0}:{STRVAR_1 51, 1, 0}:{STRVAR_1 51, 2, 0} TIME-RATE {STRVAR_1 52, 3, 0} times
 {STRVAR_1 8, 0, 0}:{STRVAR_1 8, 1, 0}

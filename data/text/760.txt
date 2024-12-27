@@ -1,7 +1,7 @@
 Pokédex filling
 PI
 Water type
-This & that
+This and that
 Want to
 Game Corner
 Type
@@ -14,7 +14,7 @@ In a cave
 At night
 Siblings
 Rare Candy
-WOBBUFFET
+Wobbuffet
 PP
 It’s a dilemma
 Lemonade

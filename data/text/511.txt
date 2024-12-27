@@ -1,6 +1,6 @@
 My name is Mr. Game!\rMy heart pounds with excitement when\npeople enjoy my Coin game!\rIn fact, that’s what I live for!\nYou look like quite a challenger!\rWhy don’t you play my Coin game?\fYou can get fabulous prizes if you\nmanage to collect a lot of Coins. {YESNO 0}
-  
-   
+
+
 All right!\nHere is your Coin Case!\r
 Show me how you play and make\nmy heart pound with excitement!\r
 Playing my Coin game will make your\nheart and my heart both pound with\fexcitement, you know?

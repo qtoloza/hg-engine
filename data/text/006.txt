@@ -8,10 +8,10 @@ Choose a Pokémon.
 Use on which Pokémon?
 {STRVAR_1 5, 0, 0}
 {STRVAR_1 8, 0, 0}
-     
-     
-     
-     
+
+
+
+
 PP
 SHIFT
 ♂
@@ -45,7 +45,7 @@ PP
 {STRVAR_1 51, 0, 0}
 {STRVAR_1 51, 0, 0}
 /
-  
+
 POWER
 {STRVAR_1 52, 0, 0}
 ---
@@ -55,7 +55,7 @@ CATEGORY
 PHYSICAL
 STATUS
 SPECIAL
-        
+
 FORGET
 CANCEL
 HM moves can’t be\nforgotten now.

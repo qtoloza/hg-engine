@@ -7,9 +7,9 @@ A greeting for the Union Room?
 Is this your answer?
 Please enter a phrase or word.
 Quit without doing anything?
-  
-   
+
+
 GROUP\nMODE
 ABC\nMODE
-    
-   
+
+

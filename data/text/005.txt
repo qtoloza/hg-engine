@@ -2,8 +2,8 @@ HP/PP
 RESTORE
 STATUS
 HEALERS
-     
-    
+
+
 BATTLE ITEMS
 POKé BALLS
 Item used last
@@ -19,7 +19,7 @@ x{STRVAR_1 52, 0, 0}
 x{STRVAR_1 52, 0, 0}
 {STRVAR_1 8, 0, 0}
 x{STRVAR_1 52, 0, 0}
-   
+
 HP/PP
 RESTORE
 STATUS
@@ -33,7 +33,7 @@ USE
 {STRVAR_1 8, 0, 0}
 x{STRVAR_1 52, 0, 0}
 It won’t do any good to use that!
-              
+
 {STRVAR_1 1, 0, 0} is getting\npumped!
 {STRVAR_1 1, 0, 0}’s Attack\nrose!
 {STRVAR_1 1, 0, 0}’s Special Attack\nrose!

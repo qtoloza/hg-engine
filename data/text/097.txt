@@ -3,7 +3,7 @@ You will be facing opponent no. {STRVAR_1 50, 0, 0}.\nAre you ready?
 Would you like to save and\nquit the game?
 Would you like to cancel your\nBattle Room challenge?
 Saving...\nDon’t turn off the power.
-                          
+
 You will be facing opponent no. {STRVAR_1 50, 0, 0}.\nAre you ready?
 Would you like to save and\nquit the game?
 Would you like to cancel your\nBattle Room challenge?

@@ -1,5 +1,5 @@
 Brock
-Huh? I can’t hear you. I think we’ve\ngot a bad connection.\rGo somewhere else and call again!
+Huh? I can’t hear you. I think we’ve\ngot a bad connection.\rGo soMewhere else and call again!
 Hello...\nWhat’s up?\fI’m doing great!\r
 Hmm... I’d like to battle you again, but\nI think there’re some Gyms that you\fhaven’t visited yet, aren’t there?
 I can take a break on Saturday\nevenings, if you want to give me a call\fagain then.
@@ -11,5 +11,5 @@ I’ll be waiting for you to arrive at\nthe Fighting Dojo in Saffron City.\fIt�
 This is Brock.\nOh hey, how are you doing?\r
 We made plans to battle at the Fighting\nDojo in Saffron City, didn’t we?\fYou didn’t forget, did you?
 A large earthquake struck recently.\nSome of the walls in my Gym\fcrumbled a bit.\rWell, I guess that’s just the kind of\nthing my Gym’s known for.\rSo even if the walls crumbled a bit,\nnobody would really notice!
-There are so many different types of\nPokémon in the world. As you could\fguess, I like Rock-type Pokémon best.\rThey’re solid and rough, and yet\nsomewhat brittle at the same time.\fOnce you’ve really gotten to know\fthem, they’re even quite cute.\rWhat do you think?
+There are so many different types of\nPokémon in the world. As you could\fguess, I like Rock-type Pokémon best.\rThey’re solid and rough, and yet\nsoMewhat brittle at the same time.\fOnce you’ve really gotten to know\fthem, they’re even quite cute.\rWhat do you think?
 Every town’s Pokémon Gym is different!\nThe design, the tricks, everything is so\fdifferent. It’s interesting!\rEach Gym Leader assigned to take care\nof a Gym by the Pokémon League gets to\fdesign as they please.\rOf course, Pewter Gym’s design is my\npride and joy!\rThe tricks aren’t much, but you can’t\ndeny that when you enter, the design\fhas a breathtaking impact, right?

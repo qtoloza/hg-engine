@@ -1,6 +1,6 @@
 Wait!\r
 Clair: I’m sorry about this.\nHere, take this as my apology.\r
-                           
+
 That contains Dragon Pulse.\rWell, Dragon Pulse is a kind of er...\nnever mind!\rIt’s huge energy of some kind.\nIf you don’t want it, you don’t\fhave to take it.\r
 Oh? You don’t have any room for this.\rI’m going back to the Gym, so make\nroom, then come see me there.\r
 What’s the matter?\nIf you are headed to the Pokémon\fLeague, go back to New Bark Town\fand Surf along Route 27.\rYour face...is telling me you have\nsome unfinished business...\rCome on!\rWhatever you have to face from now,\ndon’t you dare give up!\rIf you do, I’ll feel even worse\nabout having lost to you!\fGive it your all.\r
@@ -32,3 +32,6 @@ Clair: Are you ready?\r
 Clair: Excellent one of me!\nAnother cool picture.
 Clair: That’s too bad.
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.\n
+Clair: Well, you don’t need to be\nso rude about it!\r
+Clair: And I will give you my number!\nThere will come a time where I’ll\fprevail!\r... ... ...\r
+{STRVAR_1 3, 0, 0} registered Clair\nin the Pokégear!

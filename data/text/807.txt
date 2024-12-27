@@ -17,18 +17,18 @@ Sein bester Angriff: Schnell auf den\nGegner zufliegen, mit Giftstacheln\nzustec
 Reizt man dieses an sich gutmütige\nPokémon, wehrt es sich wütend.
 Auf der Suche nach Nahrung, die es\nmit scharfen Krallen schlägt, fliegt\nes durch riesiges Territorium.
 Schlägt TAUBOSS mit ganzer Kraft\nseine Flügel, beugen sich selbst\ngroße Bäume durch den Windstoß.
-Es strotzt vor Lebenskraft und\nkann in jeder Umgebung leben. Es\nist extrem vorsichtig. 
+Es strotzt vor Lebenskraft und\nkann in jeder Umgebung leben. Es\nist extrem vorsichtig.
 Es wetzt seine ständig wachsenden\nZähne an harten Dingen. Es kann\nWände aus Beton zernagen.
 Im Flug schlägt es eifrig mit den\nFlügeln. Mit seinem Schnabel sucht\nes im Gras nach Beute.
 Es hat genügend Ausdauer, den\nganzen Tag zu fliegen. Sein\nscharfer Schnabel dient als Waffe.
-Es bewegt sich ohne einen Laut\ndurch das Gras und greift seine\nahnungslose Beute von hinten an. 
+Es bewegt sich ohne einen Laut\ndurch das Gras und greift seine\nahnungslose Beute von hinten an.
 Das Muster auf seinem Bauch\nschüchtert Gegner ein. Sind sie vor\nAngst erstarrt, umklammert es sie.
 Es lebt zusammen mit anderen\nin Wäldern. In seinen Backen-\ntaschen speichert es Elektrizität.
 Bei zu viel Elektrizität im Körper\nwird es aggressiv. Es entlädt sich\nüber seinen Schweif.
 Es lebt in trockenen Regionen mit\nwenig Regen. Es rollt sich ein, um\nsich vor Gegnern zu schützen.
 Es rollt sich zusammen und rollt\ndann auf Gegner zu, die durch\nseine Stacheln Schaden nehmen.
 Es mag keine Kämpfe. Ein einziger\nTropfen des Gifts aus seinen\nWiderhaken hat eine fatale Wirkung.
-Bei Gefahr fährt es die Wider-\nhaken am Körper aus. Diese wachsen\nlangsamer als die von NIDORINO.
+Bei Gefahr fährt es die Wider-\nhaken am Körper aus. Diese wachsen\nlangsamer als die von Nidorino.
 Sein ganzer Körper ist mit harten\nSchuppen bedeckt. Es beschützt\nsein Junges mit seinem Leben.
 Es untersucht die Umgebung, indem\nes die Ohren spitzt und lauscht.\nSein giftiges Horn schützt es.
 Es ist aggressiv und greift seine\nGegner mit dem Horn an, welches\nbei Berührung Gift absondert.
@@ -44,8 +44,8 @@ Es liebt das Blut von Menschen und\nPokémon. Nachts fliegt es umher auf\nder Su
 Tagsüber verankert es sich mit\nseinen Wurzelfüßen im Boden. Nachts\nwandert es und verteilt Samen.
 Der Honig, den es abgibt, riecht so\nentsetzlich, dass sich sogar Nasen\nin 2 km Entfernung rümpfen.
 Es besitzt die größten Blätter der\nWelt. Es verteilt beim Gehen Pollen,\ndie schreckliche Allergien auslösen.
-Auf seinem Rücken wachsen Pilze,\ndie Tochukaso. Sie nehmen an Größe\nzu, wenn PARAS wächst.
-PARASEK wird von einem Pilz, der\ngrößer als das Pokémon ist,\nkontrolliert. Er gibt Giftsporen ab.
+Auf seinem Rücken wachsen Pilze,\ndie Tochukaso. Sie nehmen an Größe\nzu, wenn Paras wächst.
+ParasEK wird von einem Pilz, der\ngrößer als das Pokémon ist,\nkontrolliert. Er gibt Giftsporen ab.
 Seine großen Augen bestehen aus\nvielen kleinen Augen. Nachts wird\nes von Licht angezogen.
 Es schlägt mit den Flügeln, um\nstaubartige Schuppen abzusondern.\nDiese geben bei Kontakt Gift ab.
 Dieses Pokémon lebt unterirdisch.\nDa es an Dunkelheit gewöhnt ist,\nschreckt helles Licht es ab.
@@ -75,7 +75,7 @@ Es besitzt 80 Tentakel, um Beute zu\nfangen und festzuhalten. Diese\nwird durch 
 Viele von ihnen leben auf\nBergpfaden, halb vergraben\nund Bergsteiger beobachtend.
 GEOROK leben an steilen\nFelsvorsprüngen. Sie graben\ndazu viele Löcher aus.
 Einmal im Jahr wechselt es seine\nHaut. Seinem Körper kann\nselbst Dynamit nichts anhaben.
-Bereits eine Stunde nach seiner\nGeburt wachsen seine feurige\nMähne und sein feuriger Schweif. 
+Bereits eine Stunde nach seiner\nGeburt wachsen seine feurige\nMähne und sein feuriger Schweif.
 Seine Mähne lodert auf, wenn es\nmit 240 km/h pfeilschnell\ngaloppiert.
 Es ist langsam, hat aber ein Talent,\nmit seinem Schweif zu fischen. Beißt\netwas an, tut es ihm nicht weh.
 Ein begriffsstutziges Pokémon.\nBeißt das MUSCHAS am Schweif zu,\nscheint es Intelligenz zu gewinnen.
@@ -86,13 +86,13 @@ Die Gehirne der beiden Köpfe\nkommunizieren ihre Gefühle\nüber Telepathie.
 Entwickelt sich DODU, teilt sich\neiner der Köpfe in zwei. Es kann\nsich mit 60 km/h fortbewegen.
 Dieses Pokémon lebt auf Eisbergen.\nEs schwimmt im Eiswasser und bricht\ndas Eis mithilfe seines Horns.
 Sein Körper ist mit einem weißen Fell\nbedeckt, das es im Schnee fast\nunsichtbar für Gegner macht.
-Es wurde geboren, als Schlamm von\nden Strahlen des Mondes getroffen\nwurde. Es erscheint, wo Unrat ist. 
+Es wurde geboren, als Schlamm von\nden Strahlen des Mondes getroffen\nwurde. Es erscheint, wo Unrat ist.
 Sein Körper sondert eine giftige\nSubstanz ab, die bei Kontakt\nPflanzen und Bäume vernichtet.
 Es schwimmt rückwärts, indem es\nseine Schale öffnet und schließt.\nEs zeigt immer seine breite Zunge.
 Im Kampf schließt es seine Schale,\num sich zu schützen. Es schießt mit\nStacheln auf seine Gegner.
 Der Körper des Pokémon besteht zu\n95 % aus Gasen, die fortgeweht\nwerden, wenn starker Wind geht.
 Es kann sich durch jedes Hindernis\nbewegen. Es versteckt sich in\nWänden, um Gegner zu beobachten.
-Es versteckt sich im Schatten. Man\nsagt, wenn sich ein GENGAR ver-\nsteckt, kühlt es sich um 5 Grad ab.
+Es versteckt sich im Schatten. Man\nsagt, wenn sich ein Gengar ver-\nsteckt, kühlt es sich um 5 Grad ab.
 Wenn es sich unter dem Boden mit\nbis zu 80 km/h bewegt, verursacht\nes Erschütterungen.
 Mit seiner großen Nase kann es die\nTräume anderer erkennen.\nEs liebt lustige Träume.
 Ein Blick auf das Pendel versetzt\neinen in 3 Sekunden in Schlaf,\nselbst wenn man gar nicht müde ist.
@@ -143,12 +143,12 @@ Man geht davon aus, dass dieses\nPKMN an Land kam, weil seine Beute\nebenfalls i
 Dieses PKMN flog zu Zeiten der\nDinosaurier am Himmel. Seine\nZähne sind wie Sägeblätter.
 Sein Magen kann jede Art von\nNahrung verdauen, selbst wenn sie\nverschimmelt und verdorben ist.
 Ein Legendäres Vogel-Pokémon.\nEs kann Blizzards verursachen,\nindem es Feuchtigkeit gefriert.
-Ein Legendäres Vogel-Pokémon,\ndas in Gewitterwolken leben soll.\nEs kontrolliert Blitze. 
+Ein Legendäres Vogel-Pokémon,\ndas in Gewitterwolken leben soll.\nEs kontrolliert Blitze.
 Eines der Legendären Vogel-\nPokémon. Es wird als Bote des\nFrühlings angesehen.
 Man nennt es “Illusion-Pokémon”,\ndenn nur wenige haben es gesehen.\nNur seine Haut wurde oft gefunden.
 Erscheint um seinen Körper eine\nAura, gibt es einen Wetterwechsel.\nEs soll in Seen und Meeren leben.
 Man sagt, es lebe in den Meeren.\nEs bringt Schiffbrüchige sicher\nan Land.
-Die Gene von MEW wurden neu\nangeordnet, wodurch dieses PKMN\nentstand. Es hat ein wildes Herz.
+Die Gene von Mew wurden neu\nangeordnet, wodurch dieses PKMN\nentstand. Es hat ein wildes Herz.
 Es beherrscht alle möglichen\nAttacken, daher sieht man in ihm\nden Vorfahren aller Pokémon.
 Mit dem Blatt auf seinem Kopf\nbestimmt es die Temperatur und\nFeuchtigkeit. Es liebt Sonnenbäder.
 Die Knospen an seinem Hals\ngeben ein würziges Aroma ab,\ndas andere aufheitert.
@@ -169,7 +169,7 @@ Es baut eine Falle, indem es ein\nNetz mit dünner, starker Seide\nspinnt. Es wa
 Es befestigt Seide an der Beute und\nlässt sie frei. Es folgt dem Seiden-\nfaden zur Beute u. ihren Freunden.
 Seine vier Flügel erlauben es dem\nPKMN, schneller und leiser zu\nfliegen. Es ist nachtaktiv.
 Über seine Antennen entlädt es\nElektrizität, mit der es seinen\nGegnern einen Schlag versetzt.
-LANTURNs Licht kann aus großen\nTiefen heraufscheinen. Man nennt\nes auch “Tiefseestern”.
+Lanturns Licht kann aus großen\nTiefen heraufscheinen. Man nennt\nes auch “Tiefseestern”.
 Seine Backentaschen sind noch\nrecht klein. Daher kann es nicht\nallzu viel Elektrizität speichern.
 Seine Silhouette sieht aus wie ein\nStern. Man sagt, es würde auf\nSternschnuppen reisen.
 Es hat einen weichen, elastischen\nKörper. Hat es einmal angefangen\nzu hüpfen, ist es nicht zu stoppen.
@@ -177,14 +177,14 @@ Seine Schale ist mit Glücksgefühlen\ngefüllt, die es mit gutherzigen\nLebewes
 Man sagt, es erscheint vor denen,\ndie gutherzig sind, und verteilt\nglänzenden “Glücksstaub”.
 Es pickt seine Nahrung aus\nKakteen, wobei es Knospen und\nDornen verschont.
 Dieses PKMN kann die Vergangenheit\nund die Zukunft sehen. Es\nbeobachtet ständig die Sonne.
-Sein weiches Fell wird doppelt so\ndick, wenn sich Elektrizität\naufbaut. 
+Sein weiches Fell wird doppelt so\ndick, wenn sich Elektrizität\naufbaut.
 Hat es sich mit Elektrizität aufge-\nladen, leuchtet sein Schweif und es\nfeuert Haare ab, die sich entladen.
 Seine Schweifspitze leuchtet hell.\nIn alten Zeiten hat man mit seiner\nHilfe Lichtsignale gegeben.
 Sobald die Regenzeit vorbei ist,\nwird es von der warmen Sonne nach\ndraußen gezogen, wo es tanzt.
 Seinen Schweif verwendet es als\neine Art Rettungsring, wenn es\ntaucht. Es liebt Wasserpflanzen.
 Es lebt in Flüssen und Seen. Im\nWasser verwirrt es seine Gegner\ndurch seine Farbe und Muster.
 Auch wenn es wie ein Baum aussieht,\nist es eher wie ein Stein o. Fels.\nEs ist schwach gegenüber Wasser.
-Es versammelt andere PKMN um sich\nherum und führt sie an.\nQUAPSEL gehorchen seinem Ruf. 
+Es versammelt andere PKMN um sich\nherum und führt sie an.\nQUAPSEL gehorchen seinem Ruf.
 Es reitet auf dem Wind. Man sagt,\nwenn sich HOPPSPROSS ver-\nsammeln, kommt der Frühling bald.
 Sobald es wärmer wird, blüht es\nauf. Es schwebt am Himmel und nimmt\nso viel Sonnenlicht auf wie möglich.
 Es lässt sich von den Winden um den\nGlobus tragen und verteilt auf\nseinem Flug Baumwollsamen.
@@ -228,7 +228,7 @@ Wenn das Meer ruhig ist, kann man\nvielleicht einen Schwarm MANTAX\nsehen, die s
 Es wird komplett von einer eisen-\nharten Rüstung geschützt. Wenn es\nfliegt, erreicht es bis zu 300 km/h.
 Durch unterschiedliche Schreie\ndrückt es seine Gefühle aus. Diese\nPKMN jagen im Verbund nach Beute.
 In alten Zeiten glaubte man, das\nHeulen dieses PKMN sei der Ruf\ndes Todes.
-Es lebt in Höhlen auf dem Meeres-\ngrund. Jedes Mal, wenn es sich\nbewegt, entsteht ein Strudel. 
+Es lebt in Höhlen auf dem Meeres-\ngrund. Jedes Mal, wenn es sich\nbewegt, entsteht ein Strudel.
 Trotz seiner geringen Größe ist es\nstark. Es kann einen Erwachsenen\nmühelos auf dem Rücken tragen.
 Wenn es angreift, rollt es sich\nzusammen und auf den Gegner zu. Es\nkann Häuser zum Einsturz bringen.
 Interstellare Software wurde\ninstalliert, so dass dieses PKMN\nsich auch im All bewegen kann.
@@ -239,7 +239,7 @@ Es kämpft, während es sich wie ein\nKreisel dreht. Die Zentrifugalkraft\nerhö
 Dieses PKMN berührt alles mit den\nLippen. Diese merken sich, was es\nmag und nicht mag.
 Es bewegt seine Arme und generiert\ndamit Elektrizität. Diese kann es\naber nicht speichern.
 Seine Körpertemperatur liegt bei\netwa 600 Grad. Ist es gesund,\natmet es gelbe Flammen aus.
-Man sagt, dass Kinder, die MILTANKs\nMilch trinken, zu gesunden\nErwachsenen heranwachsen.
+Man sagt, dass Kinder, die Miltanks\nMilch trinken, zu gesunden\nErwachsenen heranwachsen.
 Dieses gutherzige PKMN pflegt\nkranke PKMN gesund. Es spürt die\nTraurigkeit anderer Lebewesen.
 Dieses PKMN ist der personifizierte\nBlitz. Es kann aus den Wolken über\nseinem Rücken Blitze schleudern.
 Man sagt, wenn es brüllt, bricht\nirgendwo in der Welt ein Vulkan aus.
@@ -311,14 +311,14 @@ Die Elektrizität, die es im Fell\nspeichert, nutzt es, um seine\nMuskeln zu sti
 Aus seiner Mähne entlädt es Elekt-\nrizität. Es generiert eine Gewitter-\nwolke, aus der es Blitze entlädt.
 Es feuert Freunde mit Pompons an,\ndie aus Funken bestehen. Es holt\nsich Energie aus Telegrafenmasten.
 Es feuert Freunde an. Sind diese im\nBegriff zu verlieren, gibt sein\nKörper immer mehr Funken ab.
-Es kommuniziert mit anderen, indem\nes sein Hinterteil zum Leuchten\nbringt. Es liebt ILLUMISEs Duft.
-Sein süßer Duft leitet VOLBEAT an,\nZeichen aus Licht an den\nNachthimmel zu malen.
-ROSELIA, die mit klarem Wasser\naufgezogen wurden, bekommen\nBlüten in leuchtenden Farben.
+Es kommuniziert mit anderen, indem\nes sein Hinterteil zum Leuchten\nbringt. Es liebt Illumises Duft.
+Sein süßer Duft leitet Volbeat an,\nZeichen aus Licht an den\nNachthimmel zu malen.
+Roselia, die mit klarem Wasser\naufgezogen wurden, bekommen\nBlüten in leuchtenden Farben.
 Sein Körper besteht fast nur aus\nMagen. Seine starken Verdauungs-\nsäfte zersetzen alles sehr schnell.
-Es verschluckt alles in einem\nStück und sondert giftige Stoffe\nab, mit denen es Gegner besprüht. 
+Es verschluckt alles in einem\nStück und sondert giftige Stoffe\nab, mit denen es Gegner besprüht.
 Sie begegnen jedem Gegner, der in\nihr Revier eindringt, im Schwarm.\nIhre Zähne durchdringen alles.
 Seine Zähne durchdringen sogar\nEisen. Es schwimmt mit 120 km/h und\nwird “Tyrann des Meeres” genannt.
-An sonnigen Tagen trifft man diese\nPokémon an Stränden, wo sie wie\nBälle herumhüpfen. 
+An sonnigen Tagen trifft man diese\nPokémon an Stränden, wo sie wie\nBälle herumhüpfen.
 Das größte PKMN. Es kann mit nur\neinem Atemzug in Tiefen bis\n3 000 Meter tauchen.
 In seinem Rücken speichert es sehr\nheißes Magma. Regnet es, kühlt das\nMagma ab und es wird langsamer.
 Auf seinem Rücken befinden sich\nVulkane. Magma bildet sich in seinem\nKörper, das irgendwann ausbricht.
@@ -344,7 +344,7 @@ Dieser Grobian ergreift andere PKMN\nmit seinen Scheren und wirft sie\naus seine
 Es bewegt sich, indem es sich auf\nseinem Fuß dreht. Ein seltenes\nPKMN, das in alten Ruinen lebte.
 Eine antike Lehmstatue, die durch\nein mysteriöses Licht zum Leben\nerwacht ist.
 Vor 100 Millionen Jahren lebte\ndieses PKMN auf dem Meeresgrund.\nDie Wissenschaft belebte es neu.
-Es lebt in seichten Stellen warmer\nMeere. Bei Ebbe sucht es im Sand\nnach Beute. 
+Es lebt in seichten Stellen warmer\nMeere. Bei Ebbe sucht es im Sand\nnach Beute.
 Ein Vorfahre der PKMN, der aus\neinem Fossil neu belebt wurde. Es\nlebte im Meer und jagte mit Klauen.
 Nach seiner Entwicklung ging es an\nLand. Sein Körper ist von einer\nrobusten Rüstung umgeben.
 Seine lumpige Gestalt ist berühmt.\nEs lebt mit anderen in Gruppen an\nbestimmten Orten.
@@ -374,17 +374,17 @@ Die Zellen seines Panzers fingen an,\nsich zu verändern. Er fällt ab,\nsobald 
 Seine Zellstruktur änderte sich, es\nwuchsen ihm Flügel, da es immer\ndavon träumte, fliegen zu können.
 Es kommuniziert mit anderen durch\nmagnetische Impulse. Im Schwarm\nbilden sie eine perfekte Einheit.
 Das PKMN besteht aus zwei TANHEL.\nEs bekommt selbst dann keinen\nKratzer, wenn ein Jet es streift.
-Mehrere METANG bilden dieses PKMN.\nMit seinen 4 Gehirnen besitzt es die\nIntelligenz eines Supercomputers.
+Mehrere Metang bilden dieses PKMN.\nMit seinen 4 Gehirnen besitzt es die\nIntelligenz eines Supercomputers.
 Sein Körper besteht aus Stein.\nBricht im Kampf etwas heraus, wird\nes durch Stein wieder ersetzt.
 Sein Körper besteht aus Eis aus der\nEiszeit. Es kontrolliert gefrorene\nLuft, die minus 200 Grad kalt ist.
 Im Laufe der Jahrtausende, die es\nunterirdisch lebte, wurde sein\nKörper durch Druck u. Wärme hart.
 Sein Körper ist mit Daunen bedeckt,\ndie das Licht so brechen, dass das\nPKMN unsichtbar wird.
 Ein hochintelligentes PKMN. Wenn es\nim Flug seine Flügel nach hinten\nlegt, ist es schneller als ein Jet.
 Man sagt, es habe die Meere ver-\ngrößert, indem es es regnen ließ.\nEs schlief in einem Meeresgraben.
-Es hat seit dem Kampf gegen\nKYOGRE in Magma unter dem\nErdboden geschlafen. 
+Es hat seit dem Kampf gegen\nKyogre in Magma unter dem\nErdboden geschlafen.
 Es lebt in der Ozonschicht hoch\nüber den Wolken und kann vom\nBoden aus nicht gesehen werden.
 Man sagt, es kann alle tausend\nJahre für eine Woche jeden Wunsch\nerfüllen.
-Ein außerirdischer Virus kam mit\neinem Meteor auf die Erde. Seine\nDNA mutierte. So entstand DEOXYS.
+Ein außerirdischer Virus kam mit\neinem Meteor auf die Erde. Seine\nDNA mutierte. So entstand Deoxys.
 Es besteht aus Erdreich. Trinkt es\nWasser, verhärtet sich der Panzer\nauf seinem Rücken. Es lebt an Seen.
 Es lebt in der Nähe von Wasser in\nWäldern. Tagsüber verlässt es\ndiese, um ein Sonnenbad zu nehmen.
 Kleine PKMN fangen manchmal an,\nauf dem bewegungslosen Rücken\nNester zu bauen.
@@ -411,7 +411,7 @@ Sein kräftiger Kopfstoß hat genug\nKraft, um selbst die stabilsten\nDinge zu z
 Vor über 100 Millionen Jahren lebte\nes in den Dschungeln. Seine\nGesichtshaut ist extrem hart.
 Jeder Frontalangriff wird abge-\nschmettert. Dieses friedliche PKMN\nernährt sich von Gras und Beeren.
 Um sich vor dem eisigen Winterwind\nzu schützen, legt es sich unter\neinen Umhang aus Ästen und Laub.
-Als sich BURMY entwickelte,\nwurde sein Umhang Teil des Körpers.\nEs legt den Umhang niemals ab.
+Als sich Burmy entwickelte,\nwurde sein Umhang Teil des Körpers.\nEs legt den Umhang niemals ab.
 Es liebt Honig und stiehlt den\nHonig, der von WADRIBIE\ngesammelt wurde.
 Ein PKMN, geformt aus 3 einzelnen\nPKMN. Fleißig bringt es Blütenhonig\nzu HONWEISEL.
 Ihr Bauch ist die Wabe für die\nLarven. Sie füttert ihre Larven mit\ndem Honig, den WADRIBIE sammelt.
@@ -425,7 +425,7 @@ Es hat einen biegsamen Körper ohne\neinen Knochen. Wird ein Körperteil\nabgetr
 Wenn es hungrig ist, knackt es\nNüsse mit seinen beiden Schweifen.\nNur selten verwendet es die Arme.
 Ein PKMN, entstanden aus den\nGefühlen von Menschen und PKMN.\nEs mag feuchte Jahreszeiten.
 Tagsüber treibt es faul vor sich\nhin, nachts fliegt es mit anderen\numher. Niemand weiß wohin.
-Es entrollt seine Ohren sehr\nschnell, um seine Gegner\nschmerzhaft zu schlagen. 
+Es entrollt seine Ohren sehr\nschnell, um seine Gegner\nschmerzhaft zu schlagen.
 Ein sehr vorsichtiges PKMN. Nimmt\nes Gefahr wahr, schützt es seinen\nKörper mit seinen weichen Ohren.
 Seine Rufe klingen wie Beschwö-\nrungen. Die, die sie hören, kriegen\nKopfschmerzen und Halluzinationen.
 Ein nachtaktives PKMN, das sich in\nSchwärmen mit KRAMURX durch die\nNacht bewegt.
@@ -447,7 +447,7 @@ Spannt es seinen Körper und seine\nFlügel, sieht es aus wie ein Jet.\nEs flieg
 Einmal am Tag verschlingt es eine\nNahrungsmenge, die seinem Gewicht\nentspricht. Und das ohne zu kauen.
 Die Aura, die dieses PKMN umgibt,\nverstärkt sich, wenn es zeigen will,\ndass es ängstlich oder traurig ist.
 Es besitzt die Fähigkeit, die Aura\naller Dinge zu spüren. Es versteht\ndie menschliche Sprache.
-Es lebt in ausgetrockneten\nGebieten. Statt zu schwitzen,\nsondert sein Körper Sand ab. 
+Es lebt in ausgetrockneten\nGebieten. Statt zu schwitzen,\nsondert sein Körper Sand ab.
 Es wirbelt im Körper gespeicherten\nSand durch Öffnungen und generiert\nso einen Sandwirbelsturm.
 Es greift seine Beute mit den\nKrallen an seinem Schweif und ver-\ngiftet sie. Dann wartet es ab...
 In seinen Armen steckt so viel\nKraft, dass es mit seinen giftigen\nKrallen Autos zerquetschen kann.

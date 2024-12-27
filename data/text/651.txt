@@ -1,5 +1,5 @@
 Blaine
-Huh? I can’t hear you very well.\nWe must have a bad connection.\rTry calling again from somewhere else!
+Huh? I can’t hear you very well.\nWe must have a bad connection.\rTry calling again from soMewhere else!
 Hello...\nOh, hey, what’s wrong?\fYou don’t have to worry about me.\fHow are you doing?\r
 Have you visited every Gym yet?\nThere are Gym Leaders you haven’t\fbattled yet, aren’t there?
 I don’t do anything at all around noon\non Tuesdays. You should give me a call\fthen sometime if you’re free.

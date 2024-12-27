@@ -10,12 +10,12 @@ An Egg cannot migrate!
 This Pokémon knows a hidden move.\nIt cannot migrate.
 The six chosen Pokémon will migrate.
 Pokémon CANNOT be returned to the\nGame Boy Advance Game Pak. OK?
-                             
-                             
-                             
-                             
-                                              
-                       
+
+
+
+
+
+
 Saving data on Pokémon Ruby and\nPokémon HeartGold...
 Saving data on Pokémon Ruby and\nPokémon SoulSilver...
 Saving data on Pokémon Sapphire and\nPokémon HeartGold...
@@ -26,7 +26,7 @@ Saving data on Pokémon FireRed and\nPokémon HeartGold...
 Saving data on Pokémon FireRed and\nPokémon SoulSilver...
 Saving data on Pokémon LeafGreen and\nPokémon HeartGold...
 Saving data on Pokémon LeafGreen\nand Pokémon SoulSilver...
-                     
+
 Six Pokémon safely migrated to\nthe Pokémon HeartGold Game Card.
 Six Pokémon safely migrated to\nthe Pokémon SoulSilver Game Card.
 Pokémon may migrate from a Game Boy\nAdvance Game Pak only once a day.\rA full day hasn’t passed since\nPokémon migrated from this Game Pak.
@@ -37,11 +37,11 @@ Pokémon CANNOT be returned to the\nGame Boy Advance Game Pak.\rMake Pokémon mi
 Save failed...
 Error reading the Game Boy Advance\nGame Pak’s save file.\rThere may not be a file saved,\nor the save file may be corrupted.
 This Pokémon is not permitted to\nmigrate.
-                        
+
 Making adjustments...\nDo not turn off the power.
-  
-   
+
+
 Lv.
 Item
-     
-                            
+
+

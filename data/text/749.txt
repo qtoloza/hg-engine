@@ -68,7 +68,7 @@ The user grabs the\nfoe and recklessly\ndives for the ground.\nIt also hurts the
 A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.
 A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken.
 The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.
-The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders.
+The foe is slugged\nwith a punch that\nmay reduce the\nfoe’s Attack stat. It\ncan move boulders.
 A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.
 A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.
 A seed is planted on\nthe foe. It steals\nsome HP from the foe\nto heal the user on\nevery turn.
@@ -93,7 +93,7 @@ The user burrows,\nthen attacks on the\nsecond turn.\nIt can also be used\nto ex
 A move that leaves\nthe target badly\npoisoned.\nIts poison damage\nworsens every turn.
 The foe is hit by a\nweak telekinetic\nforce. It may also\nleave the foe\nconfused.
 The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.
-The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep.
+The user employs\nHypnotic suggestion\nto make the target\nfall into a deep\nsleep.
 The user meditates\nto awaken the power\ndeep within its body\nand raise its Attack\nstat.
 The user relaxes and\nlightens its body to\nmove faster.\nIt sharply boosts\nthe Speed stat.
 The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.
@@ -242,7 +242,7 @@ The user summons a\nheavy rain that falls\nfor five turns,\npowering up Water-\n
 The user intensifies\nthe sun for five\nturns, powering up\nFire-type moves.\n
 The user crunches up\nthe foe with sharp\nfangs. It may also\nlower the target’s\nDefense stat.
 A retaliation move\nthat counters any\nspecial attack,\ninflicting double the\ndamage taken.
-The user hypnotizes\nitself into copying\nany stat change\nmade by the foe.\n
+The user Hypnotizes\nitself into copying\nany stat change\nmade by the foe.\n
 The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before any\nother move.
 The user attacks with\na prehistoric power.\nIt may also raise all\nthe user’s stats at\nonce.
 The user hurls a\nshadowy blob at the\nfoe. It may also\nlower the foe’s\nSp. Def stat.
@@ -265,12 +265,12 @@ An attack move that\ndoubles its power if\nthe user is poisoned,\nparalyzed, or 
 The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used.
 This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe’s\nparalysis, however.
 The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n
-An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.
+An attack that makes\nuse of Nature’s\npower. Its effects\nvary depending on the\nuser’s environment.
 The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat.
 The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for two\nto four turns.
 A move that boosts\nthe power of the\nally’s attack in a\nDouble Battle.\n
 The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n
-The user mimics the\nfoe completely,\ncopying the foe’s\nnatural ability.\n
+The user mimics the\nfoe completely,\ncopying the foe’s\nNatural ability.\n
 A self-healing move.\nThe user restores its\nown HP by up to half\nof its maximum HP\nin the next turn.
 The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party.
 The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out.
@@ -327,7 +327,7 @@ The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout
 The user attacks with\nan odd, unseeable\npower.\nIt may also make the\nfoe flinch.
 The user attacks the\nfoe with an uppercut\nthrown skyward\nwith force.\n
 The user traps the\nfoe inside a harshly\nraging sandstorm for\ntwo to five turns.\n
-The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.
+The foe is attacked\nwith a blast of\nAbsolute-zero cold.\nThe foe instantly\nfaints if it hits.
 The user attacks by\nshooting out muddy\nwater.\nIt may also lower the\nfoe’s accuracy.
 The user forcefully\nshoots seeds at the\nfoe. Two to five\nseeds are shot in\nrapid succession.
 The user confounds\nthe foe with speed,\nthen slashes.\nThe attack lands\nwithout fail.
@@ -410,7 +410,7 @@ The user attacks with\na ray of light that\nsparkles as if it were\nmade of gems
 An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target.
 The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first.
 The user heightens\nits mental focus and\nunleashes its power.\nIt may also lower the\ntarget’s Sp. Def.
-The user draws power\nfrom nature and\nfires it at the foe.\nIt may also lower the\ntarget’s Sp. Def.
+The user draws power\nfrom Nature and\nfires it at the foe.\nIt may also lower the\ntarget’s Sp. Def.
 The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.
 The user makes the\nground under the foe\nerupt with power.\nIt may also lower the\ntarget’s Sp. Def.
 The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n

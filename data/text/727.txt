@@ -16,7 +16,7 @@ Cancel
 Touch Card to flip.
 Sign Card
 Sign your Trainer Card?
-Your current signature will be erased.\nIs that OK?
+Your current sigNature will be erased.\nIs that OK?
 ${STRVAR_1 55, 5, 0}
 {STRVAR_1 51, 0, 0}:{STRVAR_1 51, 1, 0}
 {STRVAR_1 51, 0, 0}  {STRVAR_1 51, 1, 0}

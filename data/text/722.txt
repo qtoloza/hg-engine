@@ -1,4 +1,4 @@
- -
+-
 The stench helps keep\nwild Pokémon away.
 The Pokémon makes it rain\nif it appears in battle.
 Its Speed stat is\ngradually boosted.
@@ -57,7 +57,7 @@ Boosts the Attack stat,\nbut lowers accuracy.
 Contact with the Pokémon\nmay cause infatuation.
 Ups Sp. Atk if another\nPokémon has Minus.
 Ups Sp. Atk if another\nPokémon has Plus.
-CASTFORM transforms with\nthe weather.
+Castform transforms with\nthe weather.
 Protects the Pokémon\nfrom item theft.
 The Pokémon may heal its\nown status problems.
 Boosts Attack if there is\na status problem.
@@ -116,7 +116,7 @@ The Pokémon draws in all\nWater-type moves.
 The Pokémon regains HP in\na hailstorm.
 Reduces damage from\nsupereffective attacks
 The Pokémon summons a\nhailstorm in battle.
-The Pokémon may gather\nHoney from somewhere.
+The Pokémon may gather\nHoney from soMewhere.
 The Pokémon can check\nthe foe’s held item.
 Powers up moves that\nhave recoil damage.
 Changes type to match\nthe held Plate.

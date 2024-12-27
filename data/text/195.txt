@@ -12,13 +12,13 @@ Saving...\nDon’t turn off the power.
 Would you like to save and take a break\nfrom playing?
 Would you like to retire from this\nBattle Factory challenge?
 {STRVAR_1 3, 0, 0} is choosing.\nPlease wait.
-                     
+
 {STRVAR_1 3, 0, 0} chose to retire.
 You have cleared your seventh Battle\nFactory match! Congratulations!\rIn recognition of your deep knowledge\nin matters pertaining to Pokémon,\fwe present you with BP!\r
 {STRVAR_1 3, 0, 0} received {STRVAR_1 51, 1, 0} BP!\r
 Let’s trade back your Pokémon that\nwe’ve been holding for the rentals.\r
 Saving...\nDon’t turn off the power.
-                                                
+
 I’ve done a bit of research into your\nnext opponent.\rYou can expect to see {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 3, 0}, and {STRVAR_1 0, 5, 0}.\r
 I’ve done a bit of research into your\nnext opponent.\rYou can expect to see {STRVAR_1 0, 1, 0}\nand {STRVAR_1 0, 3, 0}.\r
 I’ve done a bit of research into your\nnext opponent.\rFirst out will be a tough,\n{STRVAR_1 6, 0, 0}-using {STRVAR_1 0, 1, 0}.\r

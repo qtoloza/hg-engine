@@ -1,4 +1,4 @@
-Kay & Tia
+Kay and Tia
 You had fun battling us, right?\rSo how about we exchange phone\nnumbers, and that way if we want to\fbattle again, we can just give each\fother a call? {YESNO 0}
 All right, now you’ve got our number\nand we have yours.
 Oh? But... Oh well.

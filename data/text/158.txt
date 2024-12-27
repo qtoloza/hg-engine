@@ -28,7 +28,7 @@ Sex:{STRVAR_1 50, 1, 0}
 Form:{STRVAR_1 51, 2, 0}
 Rare:{STRVAR_1 50, 3, 0}
 {STRVAR_4 0, 0, 0}
- record:{STRVAR_1 52, 1, 0}
+record:{STRVAR_1 52, 1, 0}
 ：ふやす\n：へらす\nRおしながら：x10\nLおしながら：x100\nXおしながら：x1000\nYおしながら：x10000\nA or B：もどる
 どりょくしょう　してい
 ジャンプ

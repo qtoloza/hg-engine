@@ -15,8 +15,8 @@ Mail
 Create
 Look
 でんわちょう
-♡Register One
-♡Register All
+♥Register One
+♥Register All
 よやくテスト
 ぜんぶけす
 サファリ
@@ -33,7 +33,7 @@ Kプランタ－
 IC nrm
 IC 1st
 しゃしんとる
-♡Photos FULL
+♥Photos FULL
 しゃしんAけす
 とうだいデモ
 ぼんぐり
@@ -56,10 +56,10 @@ Slot
 (no use)
 (no use)
 (no use)
-♡Ball Capsules
-♡Ball Capsules (full)
-♡Ball Capsules (fewer)
-♡Ball Capsules (none)
+♥Ball Capsules
+♥Ball Capsules (full)
+♥Ball Capsules (fewer)
+♥Ball Capsules (none)
 デモ
 たまごデモN
 たまごデモM
@@ -68,8 +68,8 @@ synchronize random seeds
 Clear Room F
 Max Records
 wifi dummy data
-♡BP500
-♡BP9998
+♥BP500
+♥BP9998
 Map.{STRVAR_1 50, 0, 0}　Lv.{STRVAR_1 51, 1, 0}　くさ　{STRVAR_1 51, 2, 0}こ：{STRVAR_1 52, 3, 0},　き　{STRVAR_1 51, 4, 0}こ：{STRVAR_1 52, 5, 0}\n　いわ　{STRVAR_1 51, 6, 0}こ：{STRVAR_1 52, 7, 0},　みず　{STRVAR_1 51, 8, 0}こ：{STRVAR_1 52, 9, 0}
 そのた
 トレ－ナ－ハウスクリア

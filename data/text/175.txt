@@ -105,22 +105,22 @@ SELECT: Trash all Pokémon data\nkey   A=1 right=10 up=100\nkey   Y=-1 left=-10 
 Pokédex control
 Begin
 End
-♡National Pokédex flag ON
-♡Set Sinnoh Pokédex
-♡Set National Pokédex
-♡Seen National Pokédex
-♡Seen Sinnoh Pokédex
-DEOXYS save data
-SHELLOS save data
-♡Set all languages
-♡Set a random-select language
-♡Set English
-♡Set French
-♡Set Italian
-♡Set German
-♡Set Spanish
-♡Set Unown from A to Z
-♡Set full set of Unown
+♥National Pokédex flag ON
+♥Set Sinnoh Pokédex
+♥Set National Pokédex
+♥Seen National Pokédex
+♥Seen Sinnoh Pokédex
+Deoxys save data
+Shellos save data
+♥Set all languages
+♥Set a random-select language
+♥Set English
+♥Set French
+♥Set Italian
+♥Set German
+♥Set Spanish
+♥Set Unown from A to Z
+♥Set full set of Unown
 Pokémon
 Poison
 Climax

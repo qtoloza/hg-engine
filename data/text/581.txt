@@ -1,7 +1,7 @@
 They built the new Radio Tower to\nreplace the old, creaky one.
 Have you visited the Pokéathlon Dome?\nIt is a huge sports facility where\fPokémon compete with each other.\rIt was quite a sight!
 I know there’s a new Bike Shop,\nbut I can’t find it anywhere.
-The fact that you have a Bike...\nmeans you got it from a Bike Shop,\fright?\rAll right!\nI can say that there is a Bike Shop\fsomewhere in this city!
+The fact that you have a Bike...\nmeans you got it from a Bike Shop,\fright?\rAll right!\nI can say that there is a Bike Shop\fsoMewhere in this city!
 Is that man in black dressed up\nlike a Team Rocket member?\fHow silly!
 Was that man in black really part\nof Team Rocket?\fI can’t believe it!
 The Radio Tower in Goldenrod City is\na landmark.\rThey’re running a promotional campaign\nright now.\rThey’ll modify your Pokégear so it can\nalso serve as a radio.
@@ -38,7 +38,7 @@ Johto-Kanto Magnet Train Line\nGoldenrod City Station
 Goldenrod City Radio Tower\rA Network Providing Johto\nwith Interesting Information
 Goldenrod City Pokémon Gym\nLeader: Whitney\fThe Incredibly Pretty Girl!
 Goldenrod City\nA Happening Big City
-Bike Shop Goldenrod Branch\nThe World is a Cycling Path!
+Goldenrod Archaeological Facility\nDefinitely not a bike store!
 Goldenrod City Game Corner\nA Safe and Sound Playground!
 Name Rater\nGet Your Pokémon Nicknames Rated
 Watch Out!\nGet Off Your Bike in the Tunnel

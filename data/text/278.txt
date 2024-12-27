@@ -1,7 +1,7 @@
 {STRVAR_4 1, 0, 0}
 Supreme
-㊚
-㊛
+♂
+♀
 Power
 Stamina
 Skill

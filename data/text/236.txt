@@ -2,8 +2,8 @@ These players have been accepted.
 Here are the results!
 {STRVAR_1 3, 0, 0}’s Tap Toy was powered\nup to a {STRVAR_3 2, 1, 0}!
 Would you like to keep playing\n{STRVAR_3 0, 0, 0}?
-  
-   
+
+
 Someone had to drop out.\nThe Plaza Game will be canceled.
 Balloons popped by everyone working\ntogether: {STRVAR_1 51, 0, 0}!
 Congratulations!\nEveryone’s Tap Toy powered up!

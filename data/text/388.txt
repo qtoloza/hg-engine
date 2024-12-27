@@ -2,7 +2,7 @@ Excuse me, kid!\nI received this letter the other day\ffrom a friend of mine.\rH
 Oh... Never mind, then...\nYou must be busy, too.
 Huh?\nYour party is full!
 Wow, thanks!\r
-{STRVAR_1 3, 0, 0} received the\nSPEAROW with Mail!
+{STRVAR_1 3, 0, 0} received the\nSpearow with Mail!
 My friend is on Route 31.\rHe looks obviously eager to read\nletters, so you’ll know who he is\fright away!
 My friend is on Route 31.\rOh, yeah.\nThere was a weird tree\fblocking the road.\fI wonder if it’s been cleared?
 Thank you for making the delivery!\r...What about a cave exploration?\nAh, you can go right through here.\rI want you to have this for\nyour kindness!\r

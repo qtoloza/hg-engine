@@ -72,7 +72,7 @@ Incredibly dry!
 A pervadingly dry taste!
 A deep-seated, dry taste!
 An extremely dry taste!
-A somewhat bitter taste.
+A soMewhat bitter taste.
 A slightly bitter flavor.
 An intense bitterness!
 A massively bitter taste!
@@ -129,6 +129,6 @@ Eliminating sweetness...
 The flavor is still quite weak. It\nwould be good to put in some\nApricorns with color...
 Unspeakably incredible flavor!\nIts tastes are evenly balanced.\nI can’t tell what kind of flavor!
 Incredibly unspeakable flavor!\nIts tastes are all competing.\nI can’t tell what kind of flavor!
-There’s absolutely no flavor!\nIt seems like you need to put in\na colored Apricorn.
+There’s Absolutely no flavor!\nIt seems like you need to put in\na colored Apricorn.
 Spicy {STRVAR_1 51, 0, 0} Sour {STRVAR_1 51, 1, 0} Dry {STRVAR_1 51, 2, 0}\nBitter {STRVAR_1 51, 3, 0} Sweet {STRVAR_1 51, 4, 0}\nMild {STRVAR_1 51, 5, 0} Flavor {STRVAR_1 51, 6, 0}
 Now {STRVAR_1 59, 0, 0} Steps Stock {STRVAR_1 50, 1, 0}\n1: {STRVAR_1 50, 2, 0} 2: {STRVAR_1 50, 3, 0} 3: {STRVAR_1 50, 4, 0} 4: {STRVAR_1 50, 5, 0} 5: {STRVAR_1 50, 6, 0}\nJuice START {STRVAR_1 59, 7, 0} Steps  Left: {STRVAR_1 52, 8, 0}\nMild START {STRVAR_1 59, 9, 0} Steps Left: {STRVAR_1 52, 10, 0}

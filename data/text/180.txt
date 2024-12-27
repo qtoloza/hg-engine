@@ -16,4 +16,4 @@ Arrived from the\nSinnoh region.
 Received at\n{STRVAR_1 4, 0, 0}.
 League Champion! Congratulations!
 {STRVAR_1 3, 0, 0} ID: {STRVAR_1 54, 1, 0} Time: {STRVAR_1 52, 2, 0}:{STRVAR_1 51, 3, 0}
-                   
+

@@ -67,12 +67,12 @@ No. of Hatched Egg
 No. of Pokémon taken to Day Care
 No. of Pokémon evolution
 No. of Jump used
-♡Phone call interval
+♥Phone call interval
 でんわよびだし
-♡Frequency of phone call
-♡Fix phone call odds
-♡Fix phone group
-♡Immediate incoming call
+♥Frequency of phone call
+♥Fix phone call odds
+♥Fix phone group
+♥Immediate incoming call
 ちゃくしんフラグＡ１
 ちゃくしんフラグＡ２
 ちゃくしんフラグＡ３
@@ -87,19 +87,19 @@ No. of Jump used
 グル－プカウンタ－Ｂ
 グル－プカウンタ－Ｃ
 でんわカウント
-♡Red Apricorn
-♡Blu Apricorn
-♡Ylw Apricorn
-♡Grn Apricorn
-♡Pnk Apricorn
-♡Wht Apricorn
-♡Blk Apricorn
-♡Juice Spicy
-♡Juice Sour
-♡Juice Dry
-♡Juice Bitter
-♡Juice Sweet
-♡Juice Mild
+♥Red Apricorn
+♥Blu Apricorn
+♥Ylw Apricorn
+♥Grn Apricorn
+♥Pnk Apricorn
+♥Wht Apricorn
+♥Blk Apricorn
+♥Juice Spicy
+♥Juice Sour
+♥Juice Dry
+♥Juice Bitter
+♥Juice Sweet
+♥Juice Mild
 ドリンクのこり
 プレイじかんＨ
 プレイじかんＭ
@@ -130,11 +130,11 @@ F-Lvやま
 F-Lvさばく
 のこりボ－ル
 あるいたほすう
-♡No. of Fans
+♥No. of Fans
 Trainer ID
 Lower 4bits of ID
 Language Code
 ＭＳＧばいそく
-♡Savings
-♡Coins
-♡Battle Points
+♥Savings
+♥Coins
+♥Battle Points

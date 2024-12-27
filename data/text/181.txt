@@ -3,5 +3,5 @@ Lv.{STRVAR_1 52, 0, 0}
 OT/
 {COLOR 3}♂{COLOR 0}
 {COLOR 1}♀{COLOR 0}
- 
+
 Return

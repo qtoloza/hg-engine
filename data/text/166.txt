@@ -12,8 +12,8 @@ Script
 Map
 Pokétch
 Shop
-♡Berry Max
-♡TM & HM Max
+♥Berry Max
+♥TM and HM Max
 F Note ADD
 Field
 Move Tutor
@@ -29,7 +29,7 @@ End 2
 End 3
 Move Tutor
 Move Remainder
-♡Set Ribbons
+♥Set Ribbons
 Pokémon icon
 Item icon
 F Note Clear
@@ -113,8 +113,8 @@ Frozen
 Paralysed
 Badly poisoned
 None
-㊚
-㊛
+♂
+♀
 -
 ON
 OFF

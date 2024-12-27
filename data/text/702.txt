@@ -1,4 +1,4 @@
-Tim & Sue
+Tim and Sue
 So, how about we exchange phone\nnumbers?{YESNO 0}
 Give me a call if you think of anything!
 Uh, OK. That’s too bad...

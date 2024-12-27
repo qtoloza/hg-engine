@@ -1,5 +1,5 @@
 Pryce
-What? I can’t hear you very well.\nI think we’ve got a bad connection.\rWell, if you have something you want to\ntalk to me about, go somewhere else and\ftry calling again.
+What? I can’t hear you very well.\nI think we’ve got a bad connection.\rWell, if you have something you want to\ntalk to me about, go soMewhere else and\ftry calling again.
 Hello...\nOh, hi, how are you?\fI’m doing fine, thanks.\r
 You know, there are Gym Leaders out\nthere who are stronger than me.\fYou should try battling them.\fI don’t think you’d lose.
 I usually get up pretty early...\nIf we’re going to battle, I’m at my best\fin the morning... How about you give me\fa call on Monday morning!

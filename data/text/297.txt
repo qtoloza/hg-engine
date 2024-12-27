@@ -4,10 +4,10 @@ Pull vertically
 Shrink then swell
 Store then jump: slow
 Tremble horizontally
-Jumpin’: small 
+Jumpin’: small
 Store then jump horizontally
 Vertical shake
-BALTOY: slow
+Baltoy: slow
 jump horizontally: slow
 Sliced sideways jump
 jump horizontally: small
@@ -26,8 +26,8 @@ vertical jump to horizontal jump
 Jumpin’
 Vertical shake: slow
 ----------
-BALTOY: twice
-Horizontal shake 
+Baltoy: twice
+Horizontal shake
 Dummy
 Dummy
 Dummy
@@ -66,9 +66,9 @@ Dummy
 Ｂ　Horizontal stretch 1
 Ｂ　Horizontal stretch 2
 Ｂ　Horizontal stretch 3
-Ｂ　Vertical & horizontal stretch 1
-Ｂ　Vertical & horizontal stretch 2
-Ｂ　Vertical & horizontal stretch 3
+Ｂ　Vertical and horizontal stretch 1
+Ｂ　Vertical and horizontal stretch 2
+Ｂ　Vertical and horizontal stretch 3
 Ｂ　Jerk 1
 Ｂ　Jerk 2
 Ｂ　Jerk 3
@@ -114,9 +114,9 @@ Dummy
 Ｂ　Swell 1
 Ｂ　Swell 2
 Ｂ　Swell 3
-Ｂ　Shrink & Swell 1
-Ｂ　Shrink & Swell 2
-Ｂ　Shrink & Swell 3
+Ｂ　Shrink and Swell 1
+Ｂ　Shrink and Swell 2
+Ｂ　Shrink and Swell 3
 Ｂ　Squashed with horizontal shake Ａ1
 Ｂ　Squashed with horizontal shake Ａ2
 Ｂ　Squashed with horizontal shake Ａ3
@@ -126,15 +126,15 @@ Dummy
 Ｂ　Jumpin’ 1
 Ｂ　Jumpin’ 2
 Ｂ　Jumpin’ 3
-Ｂ　Up & down with shake 1
-Ｂ　Up & down with shake 2
-Ｂ　Up & down with shake 3
+Ｂ　Up and down with shake 1
+Ｂ　Up and down with shake 2
+Ｂ　Up and down with shake 3
 Ｂ　Walk in place 1
 Ｂ　Walk in place 2
 Ｂ　Walk in place 3
 ＰＬ　Ｂ　Jumpin’: small
 ＰＬ　Ｂ　Store then jump horizontally
-ＰＬ　Ｂ　BALTOY: slow
+ＰＬ　Ｂ　Baltoy: slow
 ＰＬ　Ｂ　horizontal jump: slow
 ＰＬ　Ｂ　Horiozonta jump: small
 ＰＬ　Ｂ　ゆれながら　さゆう

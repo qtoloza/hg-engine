@@ -148,9 +148,9 @@ I need to raise my Pokémon some\nmore!\r
 I’ll snag you with my net!
 It’s in the bag!\r
 Hey!\nDon’t run away!\r
-Where can I find a giant HERACROSS?
-I want a huge HERACROSS.\nLike, king size!\r
-If only I had a giant HERACROSS...\r
+Where can I find a giant Heracross?
+I want a huge Heracross.\nLike, king size!\r
+If only I had a giant Heracross...\r
 Prepare to lose!
 The enemy is mine!\r
 I lie shattered...\r
@@ -170,7 +170,7 @@ Let’s do our best, everyone!
 Thanks, everyone!\r
 Waaaaah!\r
 Sure, we’re going to battle, but\ndon’t be over the top about it.
-Hey, relax, relax.\nIt’s best to be natural, dig?\r
+Hey, relax, relax.\nIt’s best to be Natural, dig?\r
 You have to loosen up some more.\r
 Fish, fish, fish, that’s what I do!\nI’m gonna fish it all up!
 Kahahah!\nI am at the top of my game!\r
@@ -187,7 +187,7 @@ Aiyah! Hey! Wait!\nNo! Stop! Don’t touch!\r
 Now just be patient.\nI’ll show you my private collection!
 See, see? Weren’t they awesome?\nThey’re the most super of the uber!\r
 Awawawah... My...\nMy Pokémon...\r
-Look! This is my favorite parasol!\nOh, and my fabulous Pokémon!
+Look! This is my favorite Parasol!\nOh, and my fabulous Pokémon!
 Aren’t they both cute?\r
 I’m only showing you!\nYou can’t have any!\r
 Have you ever seen a rainbow?
@@ -257,7 +257,7 @@ I’ll run on the spot while battling\nfor the good of my health.
 Let’s hear it for good health!\r
 Gasp!\nMy ankle! I rolled my ankle!\r
 Out of the way!\nI’ve got deliveries to make!
-What? You want me to deliver you\nsomewhere, too?\r
+What? You want me to deliver you\nsoMewhere, too?\r
 All the delivering I do every day...\nI’ve got deep muscle pain!\r
 It was me who put up the buildings\naround these parts.
 So, what do you think?\nCool stuff, huh?\r
@@ -329,7 +329,7 @@ Hi! Little kid!\nA battle, please!
 Little kid!\nThank you very kindly!\r
 Little kid!\nI’m really upset over this!\r
 I, um... I’ve never actually learned\nhow to do karate.
-You’re kidding?!\nI’m naturally talented?!\r
+You’re kidding?!\nI’m Naturally talented?!\r
 A Black Belt is cool, huh?\nSo I just dress up like one.\r
 It’s been five years since I took to\nthe mountains. My hair’s grown wild!
 I bathe every day!\nHow dare you?\r
@@ -436,7 +436,7 @@ I concede!\r
 This is it! The biggest battle in my\nlife! I cannot afford to lose!
 Woot, yeah!\r
 This sets me back to being a Lass...\r
-My love of nature and Pokémon made\na Ranger out of me!
+My love of Nature and Pokémon made\na Ranger out of me!
 I love to battle, too!\r
 Ooh...\nI still love to battle, too.\r
 Hi! Have you ever considered a\ncareer as a Ranger?
@@ -445,7 +445,7 @@ Yes, you’ve got the mettle.\nBeing a Ranger is a lot of fun!\r
 Win or lose, a battle happens only\nonce!
 Do you have any regrets?\r
 I have no regrets!\r
-It’s my sworn duty to protect nature\nand the Pokémon in it.
+It’s my sworn duty to protect Nature\nand the Pokémon in it.
 It’s a challenging life, but there’s\na lot to enjoy every day.\r
 It’s a rewarding career.\nHow does it sound to you?\r
 My darling Pokémon will lay a licking\non you!
@@ -688,9 +688,9 @@ Aha...\nAhaha...\r
 Are you nervous?\nLeave it to the dude!
 That was a good battle.\nI hope we can meet again.\r
 Whew...\nThe dude wasn’t expecting to lose.\r
-The power of nature!\nLet me show you!
-This is the power of nature!\r
-Protect the natural environment...
+The power of Nature!\nLet me show you!
+This is the power of Nature!\r
+Protect the Natural environment...
 A battle with me? I don’t know what\nyou’re talking about.
 See?\nI thought this would happen.\r
 Boo! Boo!\nThis is not right!\r
@@ -860,7 +860,7 @@ Hello, you there! Yes, you!\nHold up. Hold it, I say!
 OK, kids shouldn’t be out now.\nGo home, and be quick about it.\r
 You shouldn’t mess with a police\nofficer like that.\r
 Sssnork... Zzz...
-CLEFAIRY... Mumble...\nWait for me... Sssnork...\r
+Clefairy... Mumble...\nWait for me... Sssnork...\r
 Mutter...\nEhehe... Ssssnore...\r
 Let’s keep this elegant!
 Mmm, yes!\r
@@ -898,24 +898,24 @@ You’re in the miracle-star class!\r
 I live only for battles.\nOnly victories give me hope.
 ...Naturally.\r
 Who are you...?\r
-   
-    
-    
-   
-    
-    
-   
-    
-    
-   
-    
-    
-   
-    
-    
-                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A magnificent bout that was!\nDo come visit again!\r
 Losing to an outstanding Trainer like\nyou... I can live with that.\r
-                                    
+
 A magnificent bout that was!\nDo come visit again!\r
 Losing to an outstanding Trainer like\nyou... I can live with that.\r

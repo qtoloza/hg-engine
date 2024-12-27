@@ -1,6 +1,6 @@
 !
-!
-!
+It’s a tablet about a Pokémon.\nIt seems to exude power...\r{STRVAR_1 3, 0, 0} read the engraved\nwriting...\rA body of rock.\rA body of ice.\rA body of steel.\rWhen gathers the three Pokémon,\nthe path shall open.
+The tablet shattered.
 {STRVAR_1 1, 0, 0} used\nPound!
 The wild {STRVAR_1 1, 0, 0} used\nPound!
 The foe’s {STRVAR_1 1, 0, 0} used\nPound!

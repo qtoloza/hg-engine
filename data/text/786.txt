@@ -1,7 +1,7 @@
 None
 Andalucia
 Aragon
-Asturias 
+Asturias
 Islas Baleares
 Pais Vasco
 Islas Canarias
@@ -15,4 +15,4 @@ Madrid
 Murcia
 Navarra
 La Rioja
-Comunidad Valenciana 
+Comunidad Valenciana

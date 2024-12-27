@@ -6,8 +6,8 @@ Would you like to take the Battle\nCastle Multi Battle challenge? {YESNO 0}
 You may team up with a friend for a\nMulti Battle challenge.\rBoth Trainers are provided with Castle\nPoints (CP) that must be managed.\rThe CP is used for healing Pokémon,\nrenting items or Berries, and so on.\rTrainers can use their CP on not only\ntheir own Pokémon, but also their\fpartner’s.\rBoth Trainers earn CP by winning\nmatches.\rThe objective is to keep a winning\nstreak alive while managing your CP.\rIf you manage to win seven matches in\na row, you will earn Battle Points (BP).\rPlease note: a Battle Castle Multi\nBattle challenge can’t be interrupted.\r
 We hope to see you again!
 Please select the Pokémon you wish\nto enter.\r
-Excuse me!\rYou don’t have {STRVAR_1 50, 0, 0} eligible Pokémon.\rYou must have {STRVAR_1 50, 1, 0} different Pokémon\nto enter.\r
-Also, Eggs are ineligible to enter.\r
+Excuse me!\rYou don’t have {STRVAR_1 50, 0, 0} eliGible Pokémon.\rYou must have {STRVAR_1 50, 1, 0} different Pokémon\nto enter.\r
+Also, Eggs are ineliGible to enter.\r
 Eggs and {STRVAR_1 0, 1, 0} are not allowed\nto enter.\r
 Eggs, {STRVAR_1 0, 1, 0}, and {STRVAR_1 0, 2, 0}\nare not allowed to enter.\r
 Eggs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\nand {STRVAR_1 0, 3, 0} are not allowed\fto enter.\r

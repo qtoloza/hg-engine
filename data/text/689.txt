@@ -11,4 +11,4 @@ I’ve studied quite a bit since then, and\nI’ve gotten a lot better!\rI’m h
 If we don’t battle soon, I’ll forget my\nstrategy!\rI’m waiting on {STRVAR_1 4, 3, 0}!
 I haven’t picked up anything yet.\nI’ll call you if I find something.
 Heh heh. I found something really\nawesome earlier!\rI’ll give it to you. Can you come to\n{STRVAR_1 4, 3, 0} and pick it up?
-I have to do my homework, so can you\ncome get your gift right away?\rI’m waiting on {STRVAR_1 4, 3, 0}!
+I have to do my hoMework, so can you\ncome get your gift right away?\rI’m waiting on {STRVAR_1 4, 3, 0}!

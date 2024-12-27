@@ -97,7 +97,7 @@ Indonesia
 Iran
 Iraq
 Ireland
-Isle of Man 
+Isle of Man
 Israel
 Italy
 Jamaica
@@ -140,7 +140,7 @@ Monaco
 Mongolia
 Morocco
 Mozambique
-Myanmar
+MYanmar
 Namibia
 Nauru
 Nepal

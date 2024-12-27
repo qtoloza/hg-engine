@@ -1,12 +1,12 @@
 {COLOR 1}{STRVAR_1 4, 0, 0}{COLOR 0}
-            
-               
-              
-                 
-PLAYER:
-BADGES:
-POKéDEX:
-TIME:
+
+
+
+
+Player:
+Badges:
+Pokédex:
+Time:
 {STRVAR_1 3, 1, 0}
 {STRVAR_1 50, 2, 0}
 {STRVAR_1 52, 3, 0}

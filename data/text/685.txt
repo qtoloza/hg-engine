@@ -16,8 +16,8 @@ The Pokémon League is the great\ngathering place for all Trainers who\fwish to 
 Professor Oak’s Pokémon Talk is a\npopular radio show, right?\rDid you know that he was going to turn\ndown the show at first?\rBut Mary’s energy and persistence wore\nhim down.\fSo we have Mary to thank for it!\rSee you later!
 Professor Oak used to be a Trainer a\nlong time ago.\rBut rather than battling, he found\nPokémon themselves to be interesting.\rSo he abandoned his training to focus\non becoming a researcher.\rSee you later!
 Professor Oak has a granddaughter\nnamed Daisy.\rShe has tea every day for an hour from\nthree in the afternoon.\rI wish I could join her for tea and chat\nabout Professor Oak.\rSee you later!
-Did you know?\nProfessor Oak traveled all over the\fworld when he was young.\rWhile traveling, he must’ve learned\nabout Pokémon naturally.\rI envy him... I’d like to travel and\nlearn about things, too...\rSee you later!
-Did you know?\nProfessor Oak traveled all over the\fworld when he was young.\rWhile traveling, he must’ve learned\nabout Pokémon naturally.\rI envy him... I’d like to travel and\nlearn about things, too...\rSee you later!
+Did you know?\nProfessor Oak traveled all over the\fworld when he was young.\rWhile traveling, he must’ve learned\nabout Pokémon Naturally.\rI envy him... I’d like to travel and\nlearn about things, too...\rSee you later!
+Did you know?\nProfessor Oak traveled all over the\fworld when he was young.\rWhile traveling, he must’ve learned\nabout Pokémon Naturally.\rI envy him... I’d like to travel and\nlearn about things, too...\rSee you later!
 Want to battle?\rI have to battle every so often to\navoid getting rusty.\rI’ll be on {STRVAR_1 4, 3, 0}!
 Do you remember about our battle?\rThe place is {STRVAR_1 4, 3, 0}.\nHurry over--I’m waiting.
 I’m going to study all about Pokémon so\nthat Professor Oak will make me his\fassistant!

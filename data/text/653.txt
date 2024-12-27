@@ -1,5 +1,5 @@
 Morty
-Huh? I can’t hear you very well.\nWe must have a bad connection.\rTry calling again from somewhere else!
+Huh? I can’t hear you very well.\nWe must have a bad connection.\rTry calling again from soMewhere else!
 Hello...\nWhat’s going on?\fI’m doing great.\r
 There are stronger Gym Leaders than\nme out there. They’re all waiting to\fcheer you on!
 That’s right... If we were to have\nanother battle, then we’d need to do it\fwhen I’m free, like on Tuesday nights.\rGive me a call then.

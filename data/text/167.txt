@@ -62,7 +62,7 @@ Set Lv.5
 BGM OFF
 BGM ON
 ゲ－ムボ－イきりかえ
-♡Frontier
+♥Frontier
 Factory
 Hall
 Castle
@@ -75,5 +75,5 @@ Tower
 Switch villa event
 Open the Factory
 Arrival at the Frontier
-♡Check the Hall bonus
+♥Check the Hall bonus
 Test effort values

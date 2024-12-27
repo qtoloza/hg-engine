@@ -7,9 +7,9 @@ Cannot place on land.
 Cannot place on the waterside.
 Cannot place any more.
 Return
-    
-   
-     
+
+
+
 {STRVAR_1 50, 0, 0}/{STRVAR_1 50, 1, 0}
 {STRVAR_1 8, 0, 0}
 Shrubbery
@@ -39,7 +39,7 @@ Trash Can
 A thick tuft of grass.\nThe Pokémon on the\nPlains seem to like it.
 A very intensely colored flower.\nThe Pokémon on the\nPlains seem to like it.
 A very tenderly colored flower.\nThe Pokémon on the\nPlains seem to like it.
-A somewhat short tree.\nThe Pokémon in the\nForest seem to like it.
+A soMewhat short tree.\nThe Pokémon in the\nForest seem to like it.
 A remainder from a tree that was\ncut down. The Pokémon in the\nForest seem to like it.
 A pile of broken branches.\nThe Pokémon in the\nForest seem to like it.
 A smallish round rock.\nThe Pokémon in the\nrocky Areas seem to like it.
@@ -57,6 +57,6 @@ A signboard made of wood. If you\nplanted a stake in the ground, you\ncould post
 A stone statue made in your image.\nIf you placed this, you could really\nget the sense of being a great hero.
 Your own flag that you drew. If you\nplaced this, you could really get the\nsense of being the ruler of the land.
 An electric light that illuminates the\nArea. If placed in the darkness, it could\ncreate a beautiful path of light.
-A sign pointing right. Any person who\nsees this would naturally want to go find\nout what it could be pointing to.
-A sign pointing left. Any person who\nsees this would naturally want to go find\nout what it could be pointing to.
+A sign pointing right. Any person who\nsees this would Naturally want to go find\nout what it could be pointing to.
+A sign pointing left. Any person who\nsees this would Naturally want to go find\nout what it could be pointing to.
 A trash can for disposing of litter.\nIf you have any litter, be sure to\nthrow it away or take it with you.

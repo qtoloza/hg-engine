@@ -1,6 +1,10 @@
-Olivine is on the sea!\rAnd if it’s on the sea, there is bound\nto be something to catch!\rI’ve fished here for 30 years.\rWould you like to face the sea\nand fish? {YESNO 0}
-Ah, hahah!\nWe have ourselves a new angler!
-                    
-Water-type Pokémon aren’t found\nin the sea alone.\fThey go wherever there is water.
-Whaaat? You don’t like to fish!?\fIncomprehensible!
-How are things?\nLand the big one?
+Hey, kid! Don’t you love the sun?\nIt’s so bright, hot and elegant!\rDon’t you agree? {YESNO 0}
+Hey, kid! Don’t you love the moon?\nIt’s so magical, cold and beautiful!\rDon’t you agree? {YESNO 0}
+Come back again tomorrow!\rI’ll tell you more about the wonders\nwe see above us!
+I like your style! Let me share an\nitem with you that represents what\fthe sun stands for!\r
+I like your style! Let me share an\nitem with you that represents what\fthe moon stands for!\r
+Eh? You don’t agree?\rYou don’t appreciate astronomy, kid!
+My brother’s always been interested\nin astronomy. It’s all he talks about.\rThat said, he has so much trouble\ngetting people to listen to him...
+Clefable: Clwff!
+Sunflora: Suuuuun!
+The Sun Stone and Moon Stone\nare such cool items!\rThe Moon Stone evolved our Clefairy!

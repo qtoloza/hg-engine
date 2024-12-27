@@ -5,9 +5,9 @@ Which course would you like\nto try? {YESNO 0}
 You want to try\n{STRVAR_4 1, 3, 0}? {YESNO 0}
 Please come this way.\r
 The Pokéathlon will begin right now.\nYour team color is red.\rGood luck!\r
-                                
+
 {STRVAR_1 3, 0, 0} changed clothes.
-                           
+
 Please join us next time.
 What would you like to know about? {YESNO 0}
 The Pokéathlon is a sports festival in\nwhich you and three Pokémon compete in\fthree events.\rThe Pokéathlon has a variety of events\nto accommodate different aspects\fof Pokémon.\rPlease come join us with three Pokémon!\r
@@ -19,7 +19,7 @@ The Jump Course consists of three\nevents that require good\fJump Performance.\r
 The Skill Course consists of three\nevents that require good\fTechnique Performance.\r“Snow Throw”\nAim for them and throw Snow!\r“Goal Roll”\nRoll the balls into the Goal!\r“Pennant Capture”\nMake a quick turn and grab Pennants!\rWhen you win, you will be awarded\nthe Skill Medal.\rChoose three Pokémon with good Skill\nfor these events.\r
 Good job!\rYou will receive Athlete Points\nbased on your score.\r
 {STRVAR_1 3, 0, 0} received\n{STRVAR_1 53, 2, 0} points!
-                 
+
 For winning these events,\nyou will be awarded\fanother {STRVAR_1 52, 2, 0} points.\r
 Considering the performance this time,\nPokéathlete {STRVAR_1 3, 0, 0} will be\fpermitted to go to the “Trust” room.\fCongratulations!\r
 Considering the performance this time,\nPokéathlete {STRVAR_1 3, 0, 0} will be\fpermitted to go to the\f“Potential” room.\fCongratulations!\r
@@ -38,26 +38,26 @@ Right this way, please!
 Oh no! It seems like you don’t have\nenough Pokémon.\rIn order to participate in the\nPokéathlon, you need to have\fat least three Pokémon.\rThe Pokéathlon brings together all\nkinds of Pokémon from all over.\rThe more, the merrier! Please, bring a\nbunch of Pokémon and you’ll see.
 Welcome. This is the reception for the\nLink Pokéathlon.\rOh, my!\nThis is your first time, isn’t it?\rIf that’s true, then please head over\nto the “Single” reception.\rIf you go to the right from here, it’s\nthe middle counter.\rYou can get information about the\nPokéathlon and decide on a course.
 The Link Pokéathlon is a sport festival\nin which you join with three of your\fPokémon to compete in four events.\rYour friends can join the same events\nto compete.\rThe Pokéathlon has a variety of events\nto accommodate many of the different\faspects of Pokémon.\rPlease bring your friends to the\nLink Pokéathlon.\r
-The Speed & Jump Course consists of\nfour events that require good\fSpeed and Jump Performance.\r“Hurdle Dash”\nJump over the Hurdles to be\fnumber one!\r“Lamp Jump”\nTake the Lamps quickly!\r“Disc Catch”\nCatch the Discs rapidly!\r“Relay Run”\nSuperb Speed is highly required!\rWhen you win, you will be awarded\nthe Speed Medal and the Jump Medal.\rChoose three Pokémon with good\nSpeed and Jump for these events, and\fbring your friends as well.\r
-The Jump & Skill Course consists of\nfour events that require good\fJump and Skill Performance.\r“Lamp Jump”\nShow your skill in jumping to\ftouch the Lamps!\r“Disc Catch”\nJump and catch the Discs!\r“Pennant Capture”\nShow your moves and collect Pennants!\r“Snow Throw”\nAim with accuracy!\rWhen you win, you will be awarded\nthe Jump Medal and the Skill Medal.\rChoose three Pokémon with good\nJump and Skill for these events, and\fbring your friends as well.\r
-The Skill & Power Course consists of\nfour events that require good\fSkill and Power Performance.\r“Goal Roll”\nAim at the Goal and shoot!\r“Snow Throw”\nSteady, aim, and fire away!\r“Pennant Capture”\nShow your moves and collect Pennants!\r“Block Smash”\nBlocks keep coming! Smash them all!\rWhen you win, you will be awarded\nthe Skill Medal and the Power Medal.\rChoose three Pokémon with good\nSkill and Power for these events, and\fbring your friends as well.\r
-The Power & Stamina Course consists\nof four events that require good\fPower and Stamina Performance.\r“Block Smash”\nBlocks keep coming! Smash them all!\r“Circle Push”\nPush them away and stay in the Circle!\r“Goal Roll”\nKeep rolling until your energy\fruns out!\r“Ring Drop”\nDrop them off the Ring and stay on top!\rWhen you win, you will be awarded\nthe Power Medal and the Stamina Medal.\rChoose three Pokémon with good\nPower and Stamina for these events,\fand bring your friends as well.\r
-The Stamina & Speed Course consists\nof four events that require good\fStamina and Speed Performance.\r“Relay Run”\nBoth Stamina and Speed are key!\r“Ring Drop”\nDrop them from high while you survive!\r“Hurdle Dash”\nOver you go! Aim for number one!\r“Circle Push”\nPush them away and stay in the Circle!\rWhen you win, you will be awarded\nthe Stamina Medal and the Speed Medal.\rChoose three Pokémon with good Stamina\nand Speed for these events, and\fbring your friends as well.\r
+The Speed and Jump Course consists of\nfour events that require good\fSpeed and Jump Performance.\r“Hurdle Dash”\nJump over the Hurdles to be\fnumber one!\r“Lamp Jump”\nTake the Lamps quickly!\r“Disc Catch”\nCatch the Discs rapidly!\r“Relay Run”\nSuperb Speed is highly required!\rWhen you win, you will be awarded\nthe Speed Medal and the Jump Medal.\rChoose three Pokémon with good\nSpeed and Jump for these events, and\fbring your friends as well.\r
+The Jump and Skill Course consists of\nfour events that require good\fJump and Skill Performance.\r“Lamp Jump”\nShow your skill in jumping to\ftouch the Lamps!\r“Disc Catch”\nJump and catch the Discs!\r“Pennant Capture”\nShow your moves and collect Pennants!\r“Snow Throw”\nAim with accuracy!\rWhen you win, you will be awarded\nthe Jump Medal and the Skill Medal.\rChoose three Pokémon with good\nJump and Skill for these events, and\fbring your friends as well.\r
+The Skill and Power Course consists of\nfour events that require good\fSkill and Power Performance.\r“Goal Roll”\nAim at the Goal and shoot!\r“Snow Throw”\nSteady, aim, and fire away!\r“Pennant Capture”\nShow your moves and collect Pennants!\r“Block Smash”\nBlocks keep coming! Smash them all!\rWhen you win, you will be awarded\nthe Skill Medal and the Power Medal.\rChoose three Pokémon with good\nSkill and Power for these events, and\fbring your friends as well.\r
+The Power and Stamina Course consists\nof four events that require good\fPower and Stamina Performance.\r“Block Smash”\nBlocks keep coming! Smash them all!\r“Circle Push”\nPush them away and stay in the Circle!\r“Goal Roll”\nKeep rolling until your energy\fruns out!\r“Ring Drop”\nDrop them off the Ring and stay on top!\rWhen you win, you will be awarded\nthe Power Medal and the Stamina Medal.\rChoose three Pokémon with good\nPower and Stamina for these events,\fand bring your friends as well.\r
+The Stamina and Speed Course consists\nof four events that require good\fStamina and Speed Performance.\r“Relay Run”\nBoth Stamina and Speed are key!\r“Ring Drop”\nDrop them from high while you survive!\r“Hurdle Dash”\nOver you go! Aim for number one!\r“Circle Push”\nPush them away and stay in the Circle!\rWhen you win, you will be awarded\nthe Stamina Medal and the Speed Medal.\rChoose three Pokémon with good Stamina\nand Speed for these events, and\fbring your friends as well.\r
 The Master Course is a difficult course\nthat offers different events\fevery time.\rTeams must do their best to get\nthrough the course, no matter what it\fmay be!\rYou won’t receive any medals for a\nMaster Course.\rHowever, you will receive twice as many\nAthlete Points.\rBy all means, get your friends together\nand give it a try.\r
 This time, {STRVAR_1 3, 0, 0}’s score was\n{STRVAR_1 52, 1, 0}! Earned {STRVAR_1 53, 2, 0} points!\r
 This time, {STRVAR_1 3, 0, 0}’s score was\n{STRVAR_1 52, 1, 0}!\rSince it was on a Master Course,\n{STRVAR_1 53, 2, 0} points were earned!\r
-                                                                                                                                                                                                             
-                            
-                               
-             
-                 
-                    
-                 
-                                                                                                                                                          
-                                                                                                                                                                                          
-                                                                                          
-                                           
-                                                 
-                                               
-                                                                                                                                                        
-                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

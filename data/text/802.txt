@@ -1,11 +1,11 @@
 SEEN
 OBTAINED
-   
- 
-   
-   
-   
-   
+
+
+
+
+
+
 INFO
 {STRVAR_1 52, 0, 0}
 HT
@@ -31,8 +31,8 @@ HT
 WT
 AREA
 FORM
-    
-    
+
+
 RESET
 START
 CANCEL
@@ -151,12 +151,12 @@ Land Forme
 Sky Forme
 Altered Forme
 Origin Forme
-ROTOM
-HEAT ROTOM
-WASH ROTOM
-FROST ROTOM
-FAN ROTOM
-MOW ROTOM
+Rotom
+HEAT Rotom
+WASH Rotom
+FROST Rotom
+FAN Rotom
+MOW Rotom
 {STRVAR_1 0, 0, 0}
 Normal
 Sunny Form

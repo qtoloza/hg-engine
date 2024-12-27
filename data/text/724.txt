@@ -55,9 +55,9 @@ Only battling lifts me from this idle\nexistence of boredom and apathy...\r
 I’m glad to make your acquaintance!\nMay this friendship be fruitful!
 Thank you very much!\nThank you so very much!\r
 Thank you very much...\n...Pah.\r
-The most natural Trainer is...\nOh, why hide it? None other than me!
-This is the natural outcome.\nIt was inevitable!\r
-I was battling naturally, and ended up\nwith the loss.\r
+The most Natural Trainer is...\nOh, why hide it? None other than me!
+This is the Natural outcome.\nIt was inevitable!\r
+I was battling Naturally, and ended up\nwith the loss.\r
 Yes! Not a grown-up!\nLucky me! I stand a chance!
 Yup, battling another kid is a lot\nless scary.\r
 I get really nervous in front of\ngrown-ups.\r
@@ -125,7 +125,7 @@ On behalf of my village, I take on\nthis challenge!
 Thank you, everyone!\nThank you for your vocal support!\r
 Fellow villagers, I’m sorry!\nMy best wasn’t enough!\r
 Thank you for your patience.\nHere is the battle you’d ordered.
-I trust you were satisfied?\nI feel shortchanged somewhat.\r
+I trust you were satisfied?\nI feel shortchanged soMewhat.\r
 I trust you were satisfied?\nI’ve had my fill.\r
 Work is fun, and Pokémon also.\nI am happy I come to this country.
 Having fun I am!\nI hoping to live here forever.\r
@@ -163,7 +163,7 @@ I didn’t need to do all that dashing\naround, did I?\r
 I’ve been wearing these clothes for a\nlong time. Bathing is for the birds!
 Changing clothes takes too much effort.\nTaking a bath is even worse!\r
 No, no, no!\nI won’t take a bath!\r
-I like my mommy, PIKACHU, and my daddy,\ntoo.
+I like my mommy, Pikachu, and my daddy,\ntoo.
 A weak Trainer isn’t cool.\nI don’t like you.\r
 A not-wimpy Trainer is cool.\nI like you.\r
 Pikapika pikaah!\nPikka! Pikachuuuh!
@@ -213,7 +213,7 @@ Keep trying. My nose tells me\nyou have great potential.\r
 Sniff, sniff... Snort! My nose tells me\nyou’ve been working hard!\r
 Kyahaha! I smell a powerful battle\nin the making!
 The sweet smell of success!\r
-Defeat smells like a SKUNTANK!\r
+Defeat smells like a Skuntank!\r
 I like hard, fast beats in my battling\nand my rock ’n’ roll! Let’s wail!
 And, bam! That rhythm pattern ruled,\nif I may say so myself!\r
 Ouch! That’s an insult to the ears!\nThose beats were offensive, man!\r
@@ -228,7 +228,7 @@ My spirit has been uplifted to the\nskies... Thank you, everyone...\r
 You broke my wings...\nI won’t ever forget you...\r
 Every day, I’m like a migratory bird,\nbut I go in all cardinal directions.
 I gained experience while traveling to\nall sorts of places.\r
-I’d love to live somewhere where I can\nfind other Trainers like you.\r
+I’d love to live soMewhere where I can\nfind other Trainers like you.\r
 I was born unto rolling waves that\nwashed me, with the beach, my cradle.
 I was born and grew up on the seas.\nThat’s what made me the big man I am.\r
 I lost, did I? Time to go to the sea\nand stare inscrutably at it.
@@ -329,7 +329,7 @@ When I close my eyes, I can picture you\nbeing defeated. Come on.
 Why be sad?\nYou knew this was coming.\r
 I berate myself for my own lack of\ncare...\r
 I don’t like to move much.\nI trained using the Net and TV.
-Uhihi! I’m a naturally talented pro at\nboth karate and Pokémon, I am.\r
+Uhihi! I’m a Naturally talented pro at\nboth karate and Pokémon, I am.\r
 Oh, man, this is rotten! I’m tired and\nhungry and want to go home!\r
 ...To get this far, I had to make\nsacrifices. Many, many sacrifices.
 It’s for this one moment that I live.\r
@@ -347,8 +347,8 @@ Fwo-fwo-fwo. Youngster, what’s most\nimportant is to never give up.
 If you give up, that’s it.\nThe game’s over.\r
 Fwo-fwo-fwo.\nYou’re an admirable Trainer already.\r
 I can tell by the way you look, you’re\nquite taken with my dandy style!
-You shouldn’t be so mesmerized by me.\nLike a MOTHIM drawn to a flame!\r
-Oh, you’re not interested in me?\nYou’re just SHELLOS, if I say so myself.\r
+You shouldn’t be so mesmerized by me.\nLike a Mothim drawn to a flame!\r
+Oh, you’re not interested in me?\nYou’re just Shellos, if I say so myself.\r
 Oh, hello, aren’t you a sweetie!\nAre you sure you’re up to this?
 Oh, now, please don’t cry.\nYou should be proud of yourself, dear.\r
 Oh, my... You’re quite the capable\npractitioner of the art.\r
@@ -379,7 +379,7 @@ Oh... Great unseeable power...\nWhy have you forsaken me...\r
 Why do I raise Pokémon?\nBecause they are there!
 I think I said something deep and cool!\nDidn’t I?\r
 That’s no reason at all?\nThat’s the reason in itself!\r
-My team has been raised with care.\nI have absolute confidence in them.
+My team has been raised with care.\nI have Absolute confidence in them.
 You should pay closer attention to the\nunique aspects of your Pokémon.\r
 How did you find my Pokémon?\nDid you notice their significance?\r
 Everyone, it’s showtime!\nGet out and do some clobbering!
@@ -439,7 +439,7 @@ It’s OK, me! Don’t cry! Don’t cry!\nGo home, go home, goooooo!\r
 Woohoo! Here comes a cool Trainer!\nLet’s see what you can bring!
 Yes! Bravo!\nYou have some good attacks, Trainer!\r
 Whaaaaat?! Nooooo!\nI can’t get over how tough you are!\r
-To serve and protect Pokémon and\nnature. That’s my mission!
+To serve and protect Pokémon and\nNature. That’s my mission!
 My skills I developed in the embrace of\nMother Nature!\r
 My mission needs me!\nThis is where we bid good-bye!\r
 Never fear, this Pokémon Ranger is\nhere to protect my own personal peace!
@@ -465,7 +465,7 @@ That’s right! Use all your senses and\nrealize what you were up against!\r
 I didn’t see anything! I’m not\nlistening! And I don’t smell a thing!\r
 Unluckily for you, your winning streak\nends with me.
 You lost to me, but you’re still on\nyour feet. Kudos to you!\r
-This can’t be. I won’t accept it.\nThere has to be a mistake somewhere.\r
+This can’t be. I won’t accept it.\nThere has to be a mistake soMewhere.\r
 I c-c-can’t stop shivering.\nB-but this is a b-battle. I have to.
 Urrff... Ch-chatter...\nI won, I won...\r
 Sh-shiver... Urf...\nMy eyelids are getting droopy...\r
@@ -537,7 +537,7 @@ Oh, no! It’s this late already?\nI’d better check my timetable!\r
 Talent manager!\nDo I have time for a rematch?\r
 Are you another of my fans? I can give\nyou an autograph if you’d lose?
 Here’s your autograph! Cherish it!\nOh, sorry! I don’t do handshakes.\r
-I’m sorry, I was acting GASTLY!\nIt was very DELCATTY of me!\r
+I’m sorry, I was acting Gastly!\nIt was very Delcatty of me!\r
 I need to diet.\nI have to get out jogging.
 Well, I guess I’ll go for a quick trot\naround here...\r
 Your Pokémon know how to punch hard.\nYou see, I’m really a boxer.\r
@@ -868,13 +868,13 @@ Think you’ve outsmarted me?\nMaybe this was just a sting operation!\r
 Wherever, whenever, and with whomever.\nThat’s my motto!
 When, where, or whom...\nIt doesn’t matter at all to me.\r
 Hahaha! This is great!\nI want to keep this going!\r
-The loser has to pretend to be a\nSTUNKY, OK?
-Giggle, you lose.\nI want to see your STUNKY impression!\r
-OK, here’s my STUNKY impression!\nThree, two, one...\r
+The loser has to pretend to be a\nStunky, OK?
+Giggle, you lose.\nI want to see your Stunky impression!\r
+OK, here’s my Stunky impression!\nThree, two, one...\r
 A good breeze has sprung up...\nThis is good! I can win this!
 The tailwind put us over the top!\n...As they say!\r
 The headwind worked against us!\n...As they say!\r
-Even though I always have my parasol\nup, I actually like sunny days.
+Even though I always have my Parasol\nup, I actually like sunny days.
 I hope it will be sunny tomorrow...\r
 The heavy downpour in my heart...\nWhen will it ever stop...?\r
 My, you’re very eager to go. I’d better\ntake the tension up a notch, too!
@@ -898,25 +898,25 @@ You’re throwing off my rhythm!\nMy dance routine is ruined!\r
 I’m always ready for the public eye.\nYou can come at me at your own pace.
 That’s why people consider me the\nperfect Idol.\r
 I didn’t know how bad it feels to lose.\nThis is a first for me.\r
-   
-    
-    
-   
-    
-    
-   
-    
-    
-   
-    
-    
-   
-    
-    
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Ah, wonderful! That was fantastic!\nDo come again!\r
 I have no problem with losing to a\nspectacular Trainer like you!\r
-   
+
 Ah, wonderful! That was fantastic!\nDo come again!\r
 I have no problem with losing to a\nspectacular Trainer like you!\r
 What Pokémon do you want up on stage?\nI can’t wait!

@@ -1,1 +1,2 @@
 Have you been to Lavender Town?\nThere’s a tall Radio Tower there.
+Oh, hold up there! The city is\ncurrently recovering from a blackout.\rYou’ll have to come back later.\rIf you want to go to Celadon,\nyou’ll have to take the long route.

@@ -15,7 +15,7 @@ Athlon/Camera/Sp.Encounter
 Pokedex
 PGear/Tower/Photos
 no use
-Mulch/Berys/PokéPark 
+Mulch/Berys/PokéPark
 FtStamps/Terminal/Contest
 no use
 GB Sounds/Frontier
@@ -26,10 +26,10 @@ Mitsuhara
 なぎはし
 Pokeathlon
 Load check
-♡View location
+♥View location
 Switch
-♡Attribute
-♡Fly
+♥Attribute
+♥Fly
 Gym jump
 Map jump
 Map jump 2
@@ -39,16 +39,16 @@ Map jump 5
 Map jump 6
 To Unown dungeon
 To anywhere
-♡Create Pokémon
-♡Change Lead Pokémon
+♥Create Pokémon
+♥Change Lead Pokémon
 Bad Egg
-♡Create items
+♥Create items
 Time
 3D settings
 Switch Gender
 Flag control
 Map and others
-Up & down
+Up and down
 ZX set
 Union
 Jump to Twinleaf Town
@@ -63,7 +63,7 @@ DS time
 2:00
 Fast forward (60 times)
 Fast forward (600 times)
-♡RTC control
+♥RTC control
 EDGE ON
 EDGE OFF
 ANTIALIAS ON
@@ -75,7 +75,7 @@ EDGE COLOR4
 #ofPokémonEncounter
 deliveryman
 Change TV channel
-♡Battle Tower
+♥Battle Tower
 SysFlag
 Records
 Safari
@@ -91,7 +91,7 @@ Beacon(Union)
 No. of Hall of Fame
 TV
 Link Contest
-♡Others
+♥Others
 Safari Zone
 Pokeathlon Dome
 PokeCenter B1F

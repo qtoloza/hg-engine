@@ -1,5 +1,26 @@
-I don’t remember the last time\nsomeone came to visit me.\rWhen I was young, I was a\nPokémon Trainer, too. I tried to reach\fthe tower and dive into the ocean.\rI put a lot of effort into many things.\nWell, I take things easy now, listening\fto the waves and winds on this beach.
-Have you heard of the Bell Tower\nin Ecruteak?\rThere are what they call Clear Bells\non top of the tower.\rThey don’t make a single noise\nin strong winds.\rThere is only one way to make them ring.\rIt is to obtain another Clear Bell just\nlike the ones at the top of the tower.\fI went after it when I was young.\fBut I never got one...
-Have you heard of Whirl Islands?\rThere are what they call Tidal Bells\nat its waterfall basin.\rThey don’t make a single noise\nin crashing waves.\rThere is only one way to make them ring.\rIt is to obtain another Tidal Bell just\nlike the ones at the waterfall basin.\fI went after it when I was young.\fBut I never got one...
-Oh! You’ve managed to get a Clear Bell?\rThe old-time dream of mine...\nI see...\fYou’ve done it...\r...\n...I can hear it!\rThe chime of the bells on the wind\ncoming from the direction of\fthe Bell Tower...
-Oh! You’ve managed to get a Tidal Bell?\rThe old-time dream of mine...\nI see...\fYou’ve done it...\r...\n...I can hear it!\rThe chime of the bells on the sea\nbreeze coming from the direction of\fthe Whirl Islands...
+Um...\nWho did you say I was again?\r...\n...\rOh, yes, I remember now!\nI’m the Move Deleter!\r
+You’ve come to make me force your\nPokémon to forget some moves? {YESNO 0}
+Which Pokémon should forget a move?\r
+Remember me if there are moves that\nneed to be forgotten.
+That Pokémon knows only one move,\nso it can’t be forgotten...\r
+What? That’s an Egg.\nNo Egg should know any moves.\r
+OK, then.\nWhich move should be forgotten?\r
+Hm! The move {STRVAR_1 6, 0, 0}?\nShould that move be forgotten? {YESNO 0}
+It worked perfectly!\rYour Pokémon has forgotten the move\n{STRVAR_1 6, 0, 0} completely.
+Me?\nI’m the Pokémon Move Maniac.\rI know every move that Pokémon learn\nwhile they’re leveling up, and I can\fmake Pokémon remember those moves.\rI can make a Pokémon of yours remember\na move if you’d like.\rBut...ahem! It’ll cost you.\rI’ll make a Pokémon remember a move\nif you’ll trade me a Heart Scale.
+Ha! That’s it! That’s an honest-to-\ngoodness Heart Scale!\rLet me guess, you want me to teach\none of your Pokémon a move?\r
+If any of your Pokémon needs to learn a\nmove, come back with a Heart Scale.
+Which Pokémon needs tutoring?\r
+Which move should I make it remember?\r
+Sorry...\rThere isn’t any move I can make\nthat Pokémon remember.
+Hunh?\rDon’t you think it’d be tough for\nan Egg to remember a move?\rIt’s not even hatched.
+
+
+
+
+
+
+
+
+
+{STRVAR_1 3, 3, 0} handed over one\nHeart Scale in exchange.

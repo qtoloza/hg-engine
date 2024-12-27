@@ -33,9 +33,9 @@ We need to launch DS Wireless\nCommunications.{YESNO 0}
 You must save the game before I\nshow you in. Please wait.
 Please choose the Pokémon you wish\nto enter.\r
 There is an ongoing winning streak\nsaved for {STRVAR_1 0, 0, 0}.\rDelete this record and start a new\nchallenge with {STRVAR_1 0, 1, 0}?{YESNO 0}
-Excuse me!\rYou don’t have a single eligible Pokémon\nof at least Lv. 30!\r
+Excuse me!\rYou don’t have a single eliGible Pokémon\nof at least Lv. 30!\r
 Excuse me!\rFor Double Battles, you must have two\nof the same kind of Pokémon that are\fat least Lv. 30 each.\r
-Also, Eggs are ineligible to enter.\r
+Also, Eggs are ineliGible to enter.\r
 Eggs and {STRVAR_1 0, 1, 0} are not allowed\nto enter.\r
 Eggs, {STRVAR_1 0, 1, 0}, and {STRVAR_1 0, 2, 0}\nare not allowed to enter.\r
 Eggs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\nand {STRVAR_1 0, 3, 0} are not allowed\fto enter.\r
@@ -59,11 +59,11 @@ The Battle Hall Multi Battle challenge\nrequires both partners to enter the\fsam
 CHALLENGE
 Do you eat your favorite dish first or\nleave it for later?\rAt the Battle Hall, it’s better to start\nwith the types that your Pokémon\fdo not like. Why?\rBecause the opposition goes up in\nlevel as you progress!
 That opulent stage!\rYour streaks of winnings are kept per\neach kind of Pokémon.\fEvery Pokémon can get up there.\rDon’t you think it’s wonderful\nyou can aim for the top with\fany Pokémon?
-Slow...\rMy SLOWBRO is a cutie, but he’s even\nbattled the Brain here.\rThe Brain will take your Pokémon on at\nthe same level, to be fair.
-SLOWBRO: ...Slow?
+Slow...\rMy Slowbro is a cutie, but he’s even\nbattled the Brain here.\rThe Brain will take your Pokémon on at\nthe same level, to be fair.
+Slowbro: ...Slow?
 Here is a tip!\rYou should try the Battle Hall with\nnot just your favorite Pokémon,\rbut different kinds of Pokémon\nif you want to build your\foverall record as well.
 At the Battle Hall, if it’s the same kind\nof Pokémon, you can enter different\fones and still keep your record.\rYou may want to have different ones\nknowing different types of moves.
-You know how HOPPIP has two types--\nGrass and Flying?\rThat means it can appear as a\nGrass type and as a Flying type.\rMe?\rYou could think of me as...\na “Lighthearted” type and\fa “Beautiful” type, I guess.
+You know how Hoppip has two types--\nGrass and Flying?\rThat means it can appear as a\nGrass type and as a Flying type.\rMe?\rYou could think of me as...\na “Lighthearted” type and\fa “Beautiful” type, I guess.
 A piece of advice...\rAt the Battle Hall, the opposing\nPokémon are matched in level to yours.\rThat way, you can choose any of your\nPokémon without worrying about\ftheir levels.
 The Battle Hall lets you keep the\nwinning-streak records.\fThat’s neat, huh?\r...Wait a sec!\rMy friend and I can start challenges\nwith identical conditions and see who\fcan stretch their win streak\fthe longest.\fThat’s even more fun!
 I keep track of the total number of\nwins from your longest Single Battle\fwin streaks at the Battle Hall.\rTo explain, I add only the longest win\nstreaks of each kind of Pokémon.
@@ -91,7 +91,7 @@ Serena: Um... Excuse me?\rCan you tell me what kind of Pokémon\nyou’re going 
 Serena: Um... Excuse me?\rFantastic! It’s fantastic!\nYou’re fabulously fantastic!\rThe love you show so many Pokémon...\nIt must take extraordinary effort.
 Serena: I’ve never seen Pokémon\nbattle as enjoyably as yours do.\rYou’re the first Trainer ever who’s\ndone that.\rI... I brag about you to all my friends.\nI hope you don’t mind.\rI tell them I wish I could be as\nwonderful a Trainer as you!
 Serena: Hurray, hurray, {STRVAR_1 3, 0, 0}!\nGo, Pokémon, go!\r...Oh! Um... Excuse me.\rI was working on cheers and a dance\nroutine for you.\rB-but, I’m sorry for being so silly and\ngiddy and...
-Serena: You’re so inspiring to me.\rAll the glory you earned while battling\nso often on that shining stage...\rJust seeing you makes me feel all\nhappy inside. ♫
+Serena: You’re so inspiring to me.\rAll the glory you earned while battling\nso often on that shining stage...\rJust seeing you makes me feel all\nhappy inside. ♪
 Serena: Your Pokémon love that you’ve\nshown at the Battle Hall is as infinitely\fdeep as it is wide...\rIt’s amazing, but you love every kind of\nPokémon there is.\rI love you for being so amazing and\ndedicated!
 Lyra: Hi, {STRVAR_1 3, 0, 0}.\nI love watching you battle here.\rCause...\nyou have fun whether you win\for lose!
 Ethan: The Battle Hall is great for\nPokémon fans like me!\rI get to see so many new kinds of\nPokémon I’ve never seen.\rIt’s so cool!

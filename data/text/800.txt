@@ -13,7 +13,7 @@ Communication error.\n\nFor help, visit\nsupport.nintendo.com.\nError code: {STR
 Download failed.\n\nFor help, visit\nsupport.nintendo.com.\nError code: {STRVAR_1 54, 0, 0}
 Communication error.\nYou have been disconnected from\nNintendo Wi-Fi Connection.\nPlease try again.\n\nFor help, visit\nsupport.nintendo.com.
 Communication error...
-                                                                        
+
 Your Nintendo Wi-Fi Connection\nUser Information may have been\nerased. Check your connection\nsettings with the Nintendo\nWi-Fi Connection configuration.
 Connect to Nintendo Wi-Fi Connection?
 Nintendo Wi-Fi Connection treats\nyour Nintendo DS Game Card\nand the system as a set. Save\nthis system’s Nintendo Wi-Fi\nConnection User Information\nto this Game Card\nand connect to Nintendo\nWi-Fi Connection?
@@ -26,8 +26,8 @@ You cannot access Nintendo Wi-Fi\nConnection using this user name.\n\nPlease cha
 OK to disconnect from Nintendo\nWi-Fi Connection?
 Disconnecting from Nintendo Wi-Fi\nConnection.
 You have been disconnected from\nNintendo Wi-Fi Connection.
-  
-   
+
+
 Saving...\nDon’t turn off the power.
-                               
+
 There was a communication error\nin the Wi-Fi Plaza.\nError code: {STRVAR_1 54, 0, 0}
