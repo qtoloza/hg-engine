@@ -18,6 +18,7 @@
 .equ _EV_scr_seq_T11_014, 14
 .equ _EV_scr_seq_T11_015, 15
 .equ _EV_scr_seq_T11_016, 16
+.equ _EV_scr_seq_T11_017, 17
 
 .equ obj_T11_gsboy1, 0
 .equ obj_T11_gsgirl2, 1
@@ -29,5 +30,6 @@
 .equ obj_T11_gsmiddleman1, 7
 .equ obj_T11_gsmiddleman1_2, 8
 .equ obj_T11_gsmiddleman1_3, 9
+.equ obj_T11_mystery_2, 10
 
 .endif //SCR_SEQ_T11_H_

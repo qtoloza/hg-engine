@@ -25,8 +25,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 5,
-      "z": 13,
+      "x": 3,
+      "z": 18,
       "y": 0
     },
     {
@@ -42,8 +42,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 6,
-      "z": 13,
+      "x": 4,
+      "z": 18,
       "y": 0
     },
     {
@@ -129,6 +129,40 @@
       "yRange": 1,
       "x": 12,
       "z": 15,
+      "y": 0
+    },
+    {
+      "id": "obj_T28PC0101_gentleman",
+      "spriteId": "SPRITE_GENTLEMAN",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_NOTHING",
+      "scriptId": "_EV_scr_seq_T28PC0101_005 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 6,
+      "z": 13,
+      "y": 0
+    },
+    {
+      "id": "obj_T28PC0101_follower_mon_poliwhirl",
+      "spriteId": "SPRITE_FOLLOWER_MON_POLIWHIRL",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_NOTHING",
+      "scriptId": "_EV_scr_seq_T28PC0101_004 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 5,
+      "z": 13,
       "y": 0
     }
   ],

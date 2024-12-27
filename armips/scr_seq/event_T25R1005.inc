@@ -8,11 +8,16 @@
 .equ _EV_scr_seq_T25R1005_004, 4
 .equ _EV_scr_seq_T25R1005_005, 5
 .equ _EV_scr_seq_T25R1005_006, 6
+.equ _EV_scr_seq_T25R1005_007, 7
+.equ _EV_scr_seq_T25R1005_008, 8
 
 .equ obj_T25R1005_shopm1_2, 0
 .equ obj_T25R1005_gsmiddleman1, 1
 .equ obj_T25R1005_gsbigman, 2
 .equ obj_T25R1005_gsgirl3, 3
 .equ obj_T25R1005_gswoman1, 4
+.equ obj_T25R1005_hero, 0
+.equ obj_T25R1005_shopm1_2_2, 6
+.equ obj_T25R1005_follower_mon_budew, 7
 
 .endif //SCR_SEQ_T25R1005_H_

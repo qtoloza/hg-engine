@@ -32,5 +32,7 @@
 .equ obj_T27R0501_dancer_6, 10
 .equ obj_T27R0501_gsbabygirl1, 11
 .equ obj_T27R0501_rocketm_2, 12
+.equ obj_T27R0501_dancer_7, 13
+.equ obj_T27R0501_dancer_8, 14
 
 .endif //SCR_SEQ_T27R0501_H_

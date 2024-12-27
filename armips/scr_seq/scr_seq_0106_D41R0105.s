@@ -33,34 +33,33 @@ scrdef scr_seq_D41R0105_001
 scrdef_end
 
 scr_seq_D41R0105_001:
-	goto_if_set FLAG_ENGAGING_STATIC_POKEMON, _0017
-	end
-
-_0017:
-	setflag FLAG_HIDE_MT_SILVER_CAVE_MOLTRES
-	hide_person obj_D41R0105_follower_mon_static_moltres
-	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	goto_if_set FLAG_ENGAGING_STATIC_POKEMON, _0069
 	end
 
 scr_seq_D41R0105_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	play_cry SPECIES_MOLTRES, 0
+	play_cry SPECIES_REGIGIGAS, 0
 	wait_cry
 	setflag FLAG_ENGAGING_STATIC_POKEMON
-	wild_battle SPECIES_MOLTRES, 50, 0
+	wild_battle SPECIES_REGIGIGAS, 75, 0
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0077
 	get_static_encounter_outcome VAR_TEMP_x4002
 	compare VAR_TEMP_x4002, 3
-	goto_if_eq _0073
+	goto_if_eq _007D
 	compare VAR_TEMP_x4002, 4
-	call_if_eq _007D
-_0073:
+	call_if_eq _0081
 	releaseall
+	end
+
+_0069:
+	setflag FLAG_HIDE_MT_SILVER_CAVE_MOLTRES
+	hide_person obj_D41R0105_follower_mon_regigigas
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
 _0077:
@@ -69,6 +68,10 @@ _0077:
 	end
 
 _007D:
+	releaseall
+	end
+
+_0081:
 	setflag FLAG_CAUGHT_MOLTRES
 	return
 	.align 4

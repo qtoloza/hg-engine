@@ -340,7 +340,7 @@ scr_seq_0141_010:
 	goto scr_seq_0141_255
 
 scr_seq_0141_011:
-	setvar VAR_SPECIAL_x8008, 17
+	setvar VAR_SPECIAL_x8008, 356
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -370,12 +370,12 @@ scr_seq_0141_016:
 	goto scr_seq_0141_255
 
 scr_seq_0141_017:
-	setvar VAR_SPECIAL_x8008, 36
+	setvar VAR_SPECIAL_x8008, 407
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
 scr_seq_0141_018:
-	setvar VAR_SPECIAL_x8008, 35
+	setvar VAR_SPECIAL_x8008, 436
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -410,12 +410,12 @@ scr_seq_0141_024:
 	goto scr_seq_0141_255
 
 scr_seq_0141_025:
-	setvar VAR_SPECIAL_x8008, 37
+	setvar VAR_SPECIAL_x8008, 272
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
 scr_seq_0141_026:
-	setvar VAR_SPECIAL_x8008, 249
+	setvar VAR_SPECIAL_x8008, 273
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -495,7 +495,7 @@ scr_seq_0141_041:
 	goto scr_seq_0141_255
 
 scr_seq_0141_042:
-	setvar VAR_SPECIAL_x8008, 345
+	setvar VAR_SPECIAL_x8008, 221
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -505,12 +505,12 @@ scr_seq_0141_043:
 	goto scr_seq_0141_255
 
 scr_seq_0141_044:
-	setvar VAR_SPECIAL_x8008, 57
+	setvar VAR_SPECIAL_x8008, 433
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
 scr_seq_0141_045:
-	setvar VAR_SPECIAL_x8008, 18
+	setvar VAR_SPECIAL_x8008, 439
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -566,7 +566,7 @@ scr_seq_0141_055:
 
 scr_seq_0141_056:
 	setvar VAR_SPECIAL_x8008, 27
-	setvar VAR_SPECIAL_x8009, 1
+	setvar VAR_SPECIAL_x8009, 436
 	goto scr_seq_0141_255
 
 scr_seq_0141_057:
@@ -630,7 +630,7 @@ scr_seq_0141_068:
 	goto scr_seq_0141_255
 
 scr_seq_0141_069:
-	setvar VAR_SPECIAL_x8008, 339
+	setvar VAR_SPECIAL_x8008, 377
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -710,7 +710,7 @@ scr_seq_0141_084:
 	goto scr_seq_0141_255
 
 scr_seq_0141_085:
-	setvar VAR_SPECIAL_x8008, 384
+	setvar VAR_SPECIAL_x8008, 346
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -825,12 +825,12 @@ scr_seq_0141_107:
 	goto scr_seq_0141_255
 
 scr_seq_0141_108:
-	setvar VAR_SPECIAL_x8008, 26
+	setvar VAR_SPECIAL_x8008, 438
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
 scr_seq_0141_109:
-	setvar VAR_SPECIAL_x8008, 324
+	setvar VAR_SPECIAL_x8008, 454
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -965,7 +965,7 @@ scr_seq_0141_135:
 	goto scr_seq_0141_255
 
 scr_seq_0141_136:
-	setvar VAR_SPECIAL_x8008, 373
+	setvar VAR_SPECIAL_x8008, 374
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -980,7 +980,7 @@ scr_seq_0141_138:
 	goto scr_seq_0141_255
 
 scr_seq_0141_139:
-	setvar VAR_SPECIAL_x8008, 46
+	setvar VAR_SPECIAL_x8008, 324
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -1125,7 +1125,7 @@ scr_seq_0141_167:
 	goto scr_seq_0141_255
 
 scr_seq_0141_168:
-	setvar VAR_SPECIAL_x8008, 17
+	setvar VAR_SPECIAL_x8008, 312
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -1160,7 +1160,7 @@ scr_seq_0141_174:
 	goto scr_seq_0141_255
 
 scr_seq_0141_175:
-	setvar VAR_SPECIAL_x8008, 329
+	setvar VAR_SPECIAL_x8008, 454
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -1230,7 +1230,7 @@ scr_seq_0141_188:
 	goto scr_seq_0141_255
 
 scr_seq_0141_189:
-	setvar VAR_SPECIAL_x8008, 53
+	setvar VAR_SPECIAL_x8008, 305
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 
@@ -1340,7 +1340,7 @@ scr_seq_0141_210:
 	goto scr_seq_0141_255
 
 scr_seq_0141_211:
-	setvar VAR_SPECIAL_x8008, 413
+	setvar VAR_SPECIAL_x8008, 403
 	setvar VAR_SPECIAL_x8009, 1
 	goto scr_seq_0141_255
 

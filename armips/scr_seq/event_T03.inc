@@ -15,6 +15,8 @@
 .equ _EV_scr_seq_T03_011, 11
 .equ _EV_scr_seq_T03_012, 12
 .equ _EV_scr_seq_T03_013, 13
+.equ _EV_scr_seq_T03_014, 14
+.equ _EV_scr_seq_T03_015, 15
 
 .equ obj_T03_gsoldman1, 0
 .equ obj_T03_gswoman3, 1
@@ -27,5 +29,6 @@
 .equ obj_T03_daigo, 8
 .equ obj_T03_follower_mon_static_latios, 9
 .equ obj_T03_follower_mon_static_latias, 10
+.equ obj_T03_champion, 11
 
 .endif //SCR_SEQ_T03_H_

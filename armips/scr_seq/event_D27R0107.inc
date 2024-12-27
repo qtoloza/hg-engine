@@ -6,6 +6,7 @@
 .equ _EV_scr_seq_D27R0107_002, 2
 .equ _EV_scr_seq_D27R0107_003, 3
 .equ _EV_scr_seq_D27R0107_004, 4
+.equ _EV_scr_seq_D27R0107_005, 5
 
 .equ obj_D27R0107_babyboy1_8, 0
 .equ obj_D27R0107_gsleader6, 1

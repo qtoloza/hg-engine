@@ -17,10 +17,11 @@
 .equ _EV_scr_seq_T24_013, 13
 .equ _EV_scr_seq_T24_014, 14
 .equ _EV_scr_seq_T24_015, 15
+.equ _EV_scr_seq_T24_016, 16
 
 .equ obj_T24_middlewoman1_2, 0
 .equ obj_T24_gsboy1, 1
-.equ obj_T24_gsmiddleman1, 2
+.equ obj_T24_woman2, 2
 .equ obj_T24_gsgirl1, 3
 .equ obj_T24_middlewoman1_2_2, 4
 .equ obj_T24_follower_mon_static_suicune, 5
@@ -30,5 +31,6 @@
 .equ obj_T24_breakrock_3, 9
 .equ obj_T24_breakrock_4, 10
 .equ obj_T24_breakrock_5, 11
+.equ obj_T24_princess, 12
 
 .endif //SCR_SEQ_T24_H_

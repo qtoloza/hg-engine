@@ -128,21 +128,21 @@ _012C:
 scr_seq_D35R0104_007:
 	scrcmd_609
 	lockall
-	apply_movement obj_D35R0104_follower_mon_static_murkrow_2, _018C
+	apply_movement obj_D35R0104_follower_mon_chatot_2, _018C
 	wait_movement
 	npc_msg 10
 	closemsg
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
-	apply_movement obj_D35R0104_follower_mon_static_murkrow_2, _0194
+	apply_movement obj_D35R0104_follower_mon_chatot_2, _0194
 	apply_movement obj_player, _01A4
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	setvar VAR_UNK_40AC, 6
-	hide_person obj_D35R0104_follower_mon_static_murkrow_2
+	hide_person obj_D35R0104_follower_mon_chatot_2
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_2
 	clearflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_2
 	releaseall
@@ -316,7 +316,7 @@ _0331:
 	wait_movement
 	hide_person obj_D35R0104_rkanbum2
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_PETREL
-	apply_movement obj_D35R0104_follower_mon_static_murkrow, _04E4
+	apply_movement obj_D35R0104_follower_mon_chatot, _04E4
 	wait_movement
 	npc_msg 8
 	closemsg
@@ -325,14 +325,14 @@ _0331:
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
-	apply_movement obj_D35R0104_follower_mon_static_murkrow, _04F4
+	apply_movement obj_D35R0104_follower_mon_chatot, _04F4
 	apply_movement obj_player, _042C
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	setvar VAR_UNK_40AC, 4
-	hide_person obj_D35R0104_follower_mon_static_murkrow
+	hide_person obj_D35R0104_follower_mon_chatot
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_1
 	clearflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_1
 	releaseall
