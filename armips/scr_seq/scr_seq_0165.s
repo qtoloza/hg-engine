@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0165.inc"
-
 
 // text archive to grab from: 268.txt
 
@@ -42,7 +40,6 @@ scr_seq_0165_000:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0037
 	goto _005E
-	end
 
 _0037:
 	npc_msg 0
@@ -80,7 +77,6 @@ _005E:
 	play_cry SPECIES_CHATOT, 0
 	wait_cry
 	goto _00C9
-	end
 
 _00C9:
 	scrcmd_453
@@ -102,9 +98,6 @@ _00D5:
 	goto_if_eq _00C9
 	end
 	.align 4
-
-
-
 
 
 .close

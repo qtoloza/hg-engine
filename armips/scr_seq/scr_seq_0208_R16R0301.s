@@ -35,13 +35,7 @@ scr_seq_R16R0301_000:
 	clearflag FLAG_UNK_149
 	end
 
-_000C:
-	end
-
 	.align 4
-
-
-
 
 
 .close

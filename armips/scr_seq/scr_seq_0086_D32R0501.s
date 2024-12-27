@@ -54,7 +54,6 @@ scr_seq_D32R0501_000:
 	setvar VAR_TEMP_x4003, 0
 	setvar VAR_TEMP_x4004, 0
 	goto _0074
-	end
 
 scr_seq_D32R0501_005:
 	play_se SEQ_SE_DP_SELECT
@@ -63,7 +62,6 @@ scr_seq_D32R0501_005:
 	setvar VAR_TEMP_x4003, 0
 	setvar VAR_TEMP_x4004, 1
 	goto _0074
-	end
 
 _0074:
 	scrcmd_682 0
@@ -72,7 +70,6 @@ _0074:
 	compare VAR_TEMP_x4004, 1
 	call_if_eq _0691
 	goto _009A
-	end
 
 _009A:
 	compare VAR_TEMP_x4004, 0
@@ -92,7 +89,6 @@ _009A:
 	goto_if_eq _0199
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _0104:
 	compare VAR_TEMP_x4004, 0
@@ -100,11 +96,9 @@ _0104:
 	compare VAR_TEMP_x4004, 1
 	call_if_eq _06D1
 	goto _009A
-	end
 
 _0126:
 	goto _012E
-	end
 
 _012E:
 	setvar VAR_UNK_4147, 0
@@ -122,7 +116,6 @@ _013F:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01C6
 	goto _01F0
-	end
 
 _016C:
 	setvar VAR_UNK_4148, 1
@@ -132,7 +125,6 @@ _016C:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01C6
 	goto _01F0
-	end
 
 _0199:
 	setvar VAR_UNK_4148, 2
@@ -142,21 +134,18 @@ _0199:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01DB
 	goto _01F0
-	end
 
 _01C6:
 	npc_msg 8
 	scrcmd_444 9, 3, 0, 0
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _01DB:
 	npc_msg 8
 	scrcmd_444 9, 2, 0, 0
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _01F0:
 	npc_msg 7
@@ -194,11 +183,9 @@ _0283:
 
 _029E:
 	goto _02A6
-	end
 
 _02A6:
 	goto _02AE
-	end
 
 _02AE:
 	compare VAR_UNK_4148, 0
@@ -215,7 +202,6 @@ _02AE:
 	compare VAR_UNK_4148, 2
 	goto_if_eq _02FE
 	goto _04CB
-	end
 
 _02FE:
 	npc_msg 43
@@ -230,7 +216,6 @@ _02FE:
 	case 1, _03A7
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _034F:
 	npc_msg 44
@@ -246,16 +231,13 @@ _034F:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _039D
 	goto _03FF
-	end
 
 _0395:
 	goto _02FE
-	end
 
 _039D:
 	scrcmd_283
 	goto _02FE
-	end
 
 _03A7:
 	npc_msg 44
@@ -271,16 +253,13 @@ _03A7:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _03F5
 	goto _03FF
-	end
 
 _03ED:
 	goto _02FE
-	end
 
 _03F5:
 	scrcmd_283
 	goto _02FE
-	end
 
 _03FF:
 	scrcmd_258
@@ -299,7 +278,6 @@ _03FF:
 	call_if_eq _046A
 	call _06FD
 	goto _04CB
-	end
 
 _046A:
 	setvar VAR_UNK_4147, 255
@@ -310,14 +288,12 @@ _0472:
 	buffer_mon_species_name 0, VAR_TEMP_x4002
 	npc_msg 29
 	goto _04B9
-	end
 
 _0488:
 	call _04C1
 	buffer_mon_species_name 0, VAR_TEMP_x4005
 	npc_msg 29
 	goto _04B9
-	end
 
 _049E:
 	call _04C1
@@ -325,11 +301,9 @@ _049E:
 	buffer_mon_species_name 1, VAR_TEMP_x4005
 	npc_msg 30
 	goto _04B9
-	end
 
 _04B9:
 	goto _0126
-	end
 
 _04C1:
 	scrcmd_258
@@ -346,7 +320,6 @@ _04CB:
 	call_if_eq _0599
 	play_se SEQ_SE_DP_KAIDAN2
 	goto _04FE
-	end
 
 _04FE:
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -426,62 +399,62 @@ _05FB:
 	callstd std_bag_is_full_griseous_orb
 	end
 
-	.align 4
+
 _060C:
+
 	step 14, 6
 	step 69, 1
 	step_end
 
-	.align 4
 _0618:
+
 	step 14, 3
 	step 12, 1
 	step 14, 3
 	step 69, 1
 	step_end
 
-	.align 4
 _062C:
+
 	step 14, 5
 	step 69, 1
 	step_end
 
-	.align 4
 _0638:
+
 	step 14, 2
 	step 12, 1
 	step 14, 3
 	step 69, 1
 	step_end
 
-	.align 4
 _064C:
+
 	step 23, 6
 	step 70, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _065C:
+
 	step 23, 6
 	step 21, 1
 	step 70, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _0670:
+
 	step 23, 5
 	step 70, 1
 	step_end
 
-	.align 4
 _067C:
+
 	step 21, 1
 	step 23, 5
 	step 70, 1
 	step_end
-
 _068C:
 	npc_msg 0
 	return
@@ -521,7 +494,6 @@ scr_seq_D32R0501_001:
 	call _046A
 	call _06FD
 	goto _04CB
-	end
 
 _06FD:
 	add_waiting_icon
@@ -541,7 +513,6 @@ scr_seq_D32R0501_002:
 	compare VAR_BATTLE_CASTLE_PRINT_PROGRESS, 3
 	call_if_eq _0744
 	goto _0126
-	end
 
 _073C:
 	setvar VAR_BATTLE_CASTLE_PRINT_PROGRESS, 0
@@ -561,7 +532,6 @@ scr_seq_D32R0501_003:
 	compare VAR_BATTLE_CASTLE_PRINT_PROGRESS, 3
 	call_if_eq _07A5
 	goto _0126
-	end
 
 _0788:
 	add_special_game_stat_2 28
@@ -588,21 +558,6 @@ _07A5:
 
 scr_seq_D32R0501_004:
 	goto _0126
-	end
-
-	.align 4
-_07C8:
-	step 12, 2
-	step 63, 1
-	step 12, 1
-	step_end
-
-	.align 4
-_07D8:
-	step 12, 2
-	step 63, 1
-	step 12, 1
-	step_end
 
 scr_seq_D32R0501_006:
 	simple_npc_msg 46
@@ -632,9 +587,6 @@ scr_seq_D32R0501_012:
 	simple_npc_msg 52
 	end
 	.align 4
-
-
-
 
 
 .close

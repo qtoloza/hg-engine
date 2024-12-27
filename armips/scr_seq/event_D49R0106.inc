@@ -14,7 +14,7 @@
 .equ obj_D49R0106_pcwoman2, 0
 .equ obj_D49R0106_pcwoman2_2, 1
 .equ obj_D49R0106_gsbigman, 2
-.equ obj_D49R0106_tsure_poke_static_dodrio, 3
+.equ obj_D49R0106_follower_mon_static_dodrio, 3
 .equ obj_D49R0106_signpokegear, 4
 .equ obj_D49R0106_signball, 5
 

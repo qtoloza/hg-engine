@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0265.inc"
-
 
 // text archive to grab from: 439.txt
 
@@ -156,7 +154,6 @@ _015E:
 	compare VAR_SPECIAL_RESULT, 2
 	goto_if_eq _01E4
 	goto _020B
-	end
 
 _0196:
 	compare VAR_UNK_408E, 4
@@ -164,12 +161,8 @@ _0196:
 	npc_msg 47
 	goto _0057
 
-_01AC:
-	goto _01B5
-
 _01B2:
 	npc_msg 17
-_01B5:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -181,12 +174,8 @@ _01BD:
 	npc_msg 48
 	goto _0057
 
-_01D3:
-	goto _01DC
-
 _01D9:
 	npc_msg 18
-_01DC:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -198,12 +187,8 @@ _01E4:
 	npc_msg 49
 	goto _0057
 
-_01FA:
-	goto _0203
-
 _0200:
 	npc_msg 19
-_0203:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -215,12 +200,8 @@ _020B:
 	npc_msg 50
 	goto _0057
 
-_0221:
-	goto _022A
-
 _0227:
 	npc_msg 20
-_022A:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -354,7 +335,6 @@ _03DB:
 	goto_if_eq _0290
 	touchscreen_menu_show
 	goto _03CE
-	end
 
 _03FB:
 	touchscreen_menu_show
@@ -503,22 +483,6 @@ _05DC:
 	releaseall
 	end
 
-	.align 4
-_05EC:
-	step 62, 3
-	step 2, 1
-	step 62, 3
-	step 3, 1
-	step 62, 3
-	step 0, 1
-	step 12, 2
-	step 69, 1
-	step 63, 3
-	step 1, 1
-	step 70, 1
-	step 13, 2
-	step_end
-
 _0620:
 	npc_msg 30
 	setvar VAR_SPECIAL_x8000, 0
@@ -538,19 +502,7 @@ _0620:
 	releaseall
 	end
 
-_0660:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	npc_msg 42
-	egg_hatch_anim
-	closemsg
-	hide_money_box
-	releaseall
-	end
 	.align 4
-
-
-
 
 
 .close

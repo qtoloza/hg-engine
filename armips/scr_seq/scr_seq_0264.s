@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0264.inc"
-
 
 // text archive to grab from: 019.txt
 
@@ -41,7 +39,6 @@ scr_seq_0264_000:
 	lockall
 	setvar VAR_SPECIAL_x8000, 1
 	goto _002E
-	end
 
 _002E:
 	call _01EE
@@ -51,14 +48,12 @@ _002E:
 	case -2, _0221
 	call _0229
 	goto _002E
-	end
 
 scr_seq_0264_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8000, 1
 	goto _007C
-	end
 
 _007C:
 	call _01EE
@@ -68,14 +63,12 @@ _007C:
 	case -2, _0221
 	call _0229
 	goto _007C
-	end
 
 scr_seq_0264_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8000, 2
 	goto _00CA
-	end
 
 _00CA:
 	call _01EE
@@ -85,14 +78,12 @@ _00CA:
 	case -2, _0221
 	call _0229
 	goto _00CA
-	end
 
 scr_seq_0264_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8000, 5
 	goto _0118
-	end
 
 _0118:
 	call _01EE
@@ -102,14 +93,12 @@ _0118:
 	case -2, _0221
 	call _0229
 	goto _0118
-	end
 
 scr_seq_0264_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8000, 4
 	goto _0166
-	end
 
 _0166:
 	call _01EE
@@ -119,14 +108,12 @@ _0166:
 	case -2, _0221
 	call _0229
 	goto _0166
-	end
 
 scr_seq_0264_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8000, 6
 	goto _01B4
-	end
 
 _01B4:
 	call _01EE
@@ -136,7 +123,6 @@ _01B4:
 	case -2, _0221
 	call _0229
 	goto _01B4
-	end
 
 _01EE:
 	npc_msg 0
@@ -172,9 +158,6 @@ _023F:
 	wait_fade
 	return
 	.align 4
-
-
-
 
 
 .close

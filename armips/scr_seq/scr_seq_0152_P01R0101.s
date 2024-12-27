@@ -96,45 +96,45 @@ _00DE:
 	clearflag FLAG_HIDE_POKEATHLON_SUPREME_CUP_RECEPTIONIST
 	return
 
-	.align 4
+
 _00E4:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _00EC:
+
 	step 63, 1
 	step 14, 3
 	step 12, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0100:
+
 	step 63, 3
 	step 13, 3
 	step 35, 1
 	step_end
 
-	.align 4
 _0110:
+
 	step 34, 1
 	step 63, 2
 	step 34, 1
 	step_end
 
-	.align 4
 _0120:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0128:
+
 	step 12, 2
 	step 14, 1
 	step 12, 1
 	step_end
-
 scr_seq_P01R0101_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -186,15 +186,9 @@ _01FB:
 	goto_if_ne _0218
 	goto _02EE
 
-_0212:
-	goto _029B
-
 _0218:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0231
-	goto _029B
-
-_022B:
 	goto _029B
 
 _0231:
@@ -202,31 +196,19 @@ _0231:
 	goto_if_ne _024A
 	goto _02EE
 
-_0244:
-	goto _029B
-
 _024A:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_ne _0263
 	goto _02EE
-
-_025D:
-	goto _029B
 
 _0263:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_ne _027C
 	goto _02EE
 
-_0276:
-	goto _029B
-
 _027C:
 	compare VAR_SPECIAL_RESULT, 5
 	goto_if_ne _0295
-	goto _029B
-
-_028F:
 	goto _029B
 
 _0295:
@@ -306,22 +288,23 @@ _0361:
 	releaseall
 	end
 
-	.align 4
+
 _036C:
+
 	step 35, 1
 	step 1, 2
 	step_end
 
-	.align 4
 _0378:
+
 	step 50, 1
 	step 51, 1
 	step 1, 2
 	step 75, 1
 	step_end
 
-	.align 4
 _038C:
+
 	step 71, 1
 	step 13, 1
 	step 72, 1
@@ -331,13 +314,13 @@ _038C:
 	step 72, 1
 	step_end
 
-	.align 4
 _03AC:
+
 	step 13, 2
 	step_end
 
-	.align 4
 _03B4:
+
 	step 71, 1
 	step 12, 1
 	step 72, 1
@@ -347,25 +330,24 @@ _03B4:
 	step 72, 1
 	step_end
 
-	.align 4
 _03D4:
+
 	step 63, 1
 	step 12, 4
 	step_end
 
-	.align 4
 _03E0:
+
 	step 14, 1
 	step 1, 2
 	step 13, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _03F4:
+
 	step 32, 1
 	step_end
-
 scr_seq_P01R0101_003:
 	simple_npc_msg 14
 	end
@@ -374,9 +356,6 @@ scr_seq_P01R0101_004:
 	simple_npc_msg 15
 	end
 	.align 4
-
-
-
 
 
 .close

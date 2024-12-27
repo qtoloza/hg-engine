@@ -97,7 +97,7 @@ _011D:
 	npc_msg 18
 	buffer_players_name 0
 	buffer_species_name 1, SPECIES_MAREEP, 0, 0
-	give_egg SPECIES_MAREEP, METLOC_PRIMO % 1000
+	give_egg SPECIES_MAREEP, 14
 	goto _01CB
 
 _0157:
@@ -109,7 +109,7 @@ _0157:
 	npc_msg 18
 	buffer_players_name 0
 	buffer_species_name 1, SPECIES_WOOPER, 0, 0
-	give_egg SPECIES_WOOPER, METLOC_PRIMO % 1000
+	give_egg SPECIES_WOOPER, 14
 	goto _01CB
 
 _0191:
@@ -121,7 +121,7 @@ _0191:
 	npc_msg 18
 	buffer_players_name 0
 	buffer_species_name 1, SPECIES_SLUGMA, 0, 0
-	give_egg SPECIES_SLUGMA, METLOC_PRIMO % 1000
+	give_egg SPECIES_SLUGMA, 14
 	goto _01CB
 
 _01CB:
@@ -169,22 +169,22 @@ _0235:
 	releaseall
 	end
 
-	.align 4
+
 _023C:
+
 	step 63, 1
 	step 32, 1
 	step 63, 2
 	step 33, 1
 	step_end
 
-	.align 4
 _0250:
+
 	step 63, 1
 	step 32, 1
 	step 63, 2
 	step 35, 1
 	step_end
-
 scr_seq_T22PC0101_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -252,9 +252,6 @@ scr_seq_T22PC0101_003:
 	simple_npc_msg 11
 	end
 	.align 4
-
-
-
 
 
 .close

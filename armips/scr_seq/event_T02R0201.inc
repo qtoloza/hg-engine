@@ -8,7 +8,7 @@
 
 .equ obj_T02R0201_gsmiddleman1, 0
 .equ obj_T02R0201_gsgirl1, 1
-.equ obj_T02R0201_tsure_poke_static_rattata, 2
-.equ obj_T02R0201_tsure_poke_static_spearow, 3
+.equ obj_T02R0201_follower_mon_static_rattata, 2
+.equ obj_T02R0201_follower_mon_static_spearow, 3
 
 .endif //SCR_SEQ_T02R0201_H_

@@ -156,37 +156,29 @@ _01CE:
 	releaseall
 	end
 
-	.align 4
+
 _01DC:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _01E8:
+
 	step 63, 2
 	step 13, 1
 	step_end
 
-	.align 4
-_01F4:
-	step 63, 2
-	step 15, 1
-	step 12, 1
-	step 33, 1
-	step_end
-
-	.align 4
 _0208:
+
 	step 12, 7
 	step_end
 
-	.align 4
 _0210:
+
 	step 33, 1
 	step 13, 7
 	step_end
-
 scr_seq_T10R0101_000:
 	setvar VAR_SPECIAL_x8007, 0
 	callstd std_nurse_joy
@@ -233,20 +225,20 @@ _0293:
 	releaseall
 	end
 
-	.align 4
+
 _02A0:
+
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _02B0:
+
 	step 71, 1
 	step 15, 1
 	step 72, 1
 	step_end
-
 scr_seq_T10R0101_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -263,7 +255,6 @@ _02CD:
 	case 0, _0317
 	case 1, _0456
 	goto _058C
-	end
 
 _0317:
 	compare VAR_UNK_40E6, 0
@@ -278,7 +269,6 @@ _0317:
 	case 0, _037A
 	case 1, _03F1
 	goto _0371
-	end
 
 _0371:
 	npc_msg 7
@@ -296,7 +286,7 @@ _037A:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _03CF
 	closemsg
-	view_rankings RANKINGS_SCOPE_GROUP, RANKINGS_PAGE_POKEMON, VAR_SPECIAL_RESULT
+	view_rankings 4, 0, VAR_SPECIAL_RESULT
 	npc_msg 7
 	touchscreen_menu_hide
 	goto _02CD
@@ -306,9 +296,6 @@ _03CF:
 	goto_if_ne _03EB
 	npc_msg 7
 	goto _02CD
-
-_03E5:
-	goto _03F1
 
 _03EB:
 	goto _0317
@@ -327,7 +314,7 @@ _03F1:
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _03CF
 	closemsg
-	view_rankings RANKINGS_SCOPE_GROUP, RANKINGS_PAGE_BATTLE_TOWER, VAR_SPECIAL_RESULT
+	view_rankings 3, 0, VAR_SPECIAL_RESULT
 	npc_msg 7
 	touchscreen_menu_hide
 	goto _02CD
@@ -345,7 +332,6 @@ _0456:
 	case 0, _04B0
 	case 1, _0527
 	goto _02CD
-	end
 
 _04B0:
 	npc_msg 15
@@ -359,7 +345,7 @@ _04B0:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _0505
 	closemsg
-	view_rankings RANKINGS_SCOPE_GLOBAL, RANKINGS_PAGE_POKEMON, VAR_SPECIAL_RESULT
+	view_rankings 1, 0, VAR_SPECIAL_RESULT
 	npc_msg 7
 	touchscreen_menu_hide
 	goto _02CD
@@ -369,9 +355,6 @@ _0505:
 	goto_if_ne _0521
 	npc_msg 7
 	goto _02CD
-
-_051B:
-	goto _0527
 
 _0521:
 	goto _0456
@@ -390,7 +373,7 @@ _0527:
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0505
 	closemsg
-	view_rankings RANKINGS_SCOPE_GLOBAL, RANKINGS_PAGE_BATTLE_TOWER, VAR_SPECIAL_RESULT
+	view_rankings 0, 0, VAR_SPECIAL_RESULT
 	npc_msg 7
 	touchscreen_menu_hide
 	goto _02CD
@@ -401,9 +384,6 @@ _058C:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

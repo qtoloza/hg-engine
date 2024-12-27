@@ -66,7 +66,4 @@ scr_seq_T26FS0101_002:
 	.align 4
 
 
-
-
-
 .close

@@ -127,22 +127,20 @@ _0150:
 	releaseall
 	end
 
-	.align 4
+
 _0170:
+
 	step 12, 2
 	step 33, 1
 	step_end
 
-	.align 4
 _017C:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

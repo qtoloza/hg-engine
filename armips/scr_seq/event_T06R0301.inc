@@ -14,7 +14,7 @@
 .equ obj_T06R0301_gswoman2, 1
 .equ obj_T06R0301_gswoman1, 2
 .equ obj_T06R0301_gsbigman, 3
-.equ obj_T06R0301_tsure_poke_static_bayleef, 4
+.equ obj_T06R0301_follower_mon_static_bayleef, 4
 .equ obj_T06R0301_mono_pip, 5
 
 .endif //SCR_SEQ_T06R0301_H_

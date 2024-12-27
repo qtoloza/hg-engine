@@ -83,7 +83,4 @@ scr_seq_R16R0101_000:
 	.align 4
 
 
-
-
-
 .close

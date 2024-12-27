@@ -338,7 +338,6 @@ _043E:
 	case 1, _04D7
 	npc_msg 6
 	goto _0531
-	end
 
 _048B:
 	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 1000
@@ -356,7 +355,6 @@ _048B:
 	wait_se SEQ_SE_DP_REGI
 	npc_msg 3
 	goto _043E
-	end
 
 _04D7:
 	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 10000
@@ -374,12 +372,10 @@ _04D7:
 	wait_se SEQ_SE_DP_REGI
 	npc_msg 3
 	goto _043E
-	end
 
 _0523:
 	npc_msg 5
 	goto _0531
-	end
 
 _052E:
 	npc_msg 4
@@ -479,9 +475,6 @@ scr_seq_T07R0401_009:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

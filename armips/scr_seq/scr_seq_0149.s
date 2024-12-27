@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0149.inc"
-
 
 // text archive to grab from: 040.txt
 
@@ -178,9 +176,6 @@ scr_seq_0149_000:
 	setflag FLAG_HIDE_ROUTE_12_SNORLAX
 	end
 	.align 4
-
-
-
 
 
 .close

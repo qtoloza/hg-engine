@@ -85,33 +85,33 @@ scr_seq_T01R0301_006:
 	releaseall
 	end
 
-	.align 4
+
 _00C8:
+
 	step 12, 5
 	step_end
 
-	.align 4
 _00D0:
+
 	step 63, 2
 	step 12, 3
 	step 14, 2
 	step_end
 
-	.align 4
 _00E0:
+
 	step 0, 1
 	step 63, 4
 	step 1, 1
 	step 63, 3
 	step_end
 
-	.align 4
 _00F4:
+
 	step 12, 1
 	step 14, 3
 	step 3, 1
 	step_end
-
 scr_seq_T01R0301_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -258,30 +258,19 @@ _02CB:
 	goto_if_ne _0320
 	goto _035A
 
-_031A:
-	goto _0358
-
 _0320:
 	compare VAR_TEMP_x4001, 3
 	goto_if_ne _0339
 	goto _037B
-
-_0333:
-	goto _0358
 
 _0339:
 	compare VAR_TEMP_x4001, 2
 	goto_if_ne _0352
 	goto _039C
 
-_034C:
-	goto _0358
-
 _0352:
 	goto _03BD
 
-_0358:
-	wait_movement
 _035A:
 	apply_movement obj_T01R0301_ookido, _0500
 	wait_movement
@@ -290,7 +279,6 @@ _035A:
 	apply_movement obj_T01R0301_ookido, _0500
 	wait_movement
 	goto _03DE
-	end
 
 _037B:
 	apply_movement obj_T01R0301_ookido, _052C
@@ -300,7 +288,6 @@ _037B:
 	apply_movement obj_T01R0301_ookido, _052C
 	wait_movement
 	goto _03DE
-	end
 
 _039C:
 	apply_movement obj_T01R0301_ookido, _0558
@@ -310,7 +297,6 @@ _039C:
 	apply_movement obj_T01R0301_ookido, _0558
 	wait_movement
 	goto _03DE
-	end
 
 _03BD:
 	apply_movement obj_T01R0301_ookido, _0584
@@ -320,7 +306,6 @@ _03BD:
 	apply_movement obj_T01R0301_ookido, _0584
 	wait_movement
 	goto _03DE
-	end
 
 _03DE:
 	get_game_version VAR_SPECIAL_RESULT
@@ -390,80 +375,36 @@ _04C2:
 	closemsg
 	goto _0421
 
-	.align 4
+
 _04D4:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
-_04E0:
-	step 32, 1
-	step 8, 2
-	step 63, 4
-	step 33, 1
-	step 63, 4
-	step 9, 2
-	step 33, 1
-	step_end
-
-	.align 4
 _0500:
+
 	step 33, 1
 	step 63, 1
 	step_end
 
-	.align 4
-_050C:
-	step 35, 1
-	step 11, 2
-	step 63, 4
-	step 34, 1
-	step 63, 4
-	step 10, 2
-	step 34, 1
-	step_end
-
-	.align 4
 _052C:
+
 	step 34, 1
 	step 63, 1
 	step_end
 
-	.align 4
-_0538:
-	step 34, 1
-	step 10, 2
-	step 63, 4
-	step 35, 1
-	step 63, 4
-	step 11, 2
-	step 35, 1
-	step_end
-
-	.align 4
 _0558:
+
 	step 35, 1
 	step 63, 1
 	step_end
 
-	.align 4
-_0564:
-	step 33, 1
-	step 9, 2
-	step 63, 4
-	step 32, 1
-	step 63, 4
-	step 8, 2
-	step 32, 1
-	step_end
-
-	.align 4
 _0584:
+
 	step 32, 1
 	step 63, 1
 	step_end
-
 scr_seq_T01R0301_001:
 	simple_npc_msg 33
 	end
@@ -741,42 +682,40 @@ _098B:
 	releaseall
 	return
 
-	.align 4
+
 _0998:
+
 	step 13, 1
 	step 14, 3
 	step_end
 
-	.align 4
 _09A4:
+
 	step 13, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _09B0:
+
 	step 13, 1
 	step 14, 1
 	step_end
 
-	.align 4
 _09BC:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _09C4:
+
 	step 0, 1
 	step_end
 
-	.align 4
 _09CC:
+
 	step 1, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

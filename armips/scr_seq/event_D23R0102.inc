@@ -15,7 +15,7 @@
 
 .equ obj_D23R0102_gsman1, 0
 .equ obj_D23R0102_gswoman2, 1
-.equ obj_D23R0102_tsure_poke_static_jigglypuff, 2
+.equ obj_D23R0102_follower_mon_static_jigglypuff, 2
 .equ obj_D23R0102_policeman, 3
 .equ obj_D23R0102_rocketm, 4
 .equ obj_D23R0102_rocketw, 5

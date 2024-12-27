@@ -22,7 +22,7 @@
 .equ _EV_scr_seq_T07_018, 18
 
 .equ obj_T07_gsbigman, 0
-.equ obj_T07_tsure_poke_static_poliwrath, 1
+.equ obj_T07_follower_mon_static_poliwrath, 1
 .equ obj_T07_gsboy1, 2
 .equ obj_T07_gswoman2, 3
 .equ obj_T07_gsgirl1, 4

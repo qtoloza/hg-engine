@@ -38,7 +38,7 @@ scr_seq_D03R0103_001:
 
 _0017:
 	setflag FLAG_HIDE_CERULEAN_CAVE_MEWTWO
-	hide_person obj_D03R0103_tsure_poke_static_mewtwo
+	hide_person obj_D03R0103_follower_mon_static_mewtwo
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -72,9 +72,6 @@ _007D:
 	setflag FLAG_CAUGHT_MEWTWO
 	return
 	.align 4
-
-
-
 
 
 .close

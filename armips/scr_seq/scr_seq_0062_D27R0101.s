@@ -47,7 +47,4 @@ scr_seq_D27R0101_001:
 	.align 4
 
 
-
-
-
 .close

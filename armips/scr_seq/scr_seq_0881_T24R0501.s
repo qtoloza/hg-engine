@@ -75,14 +75,12 @@ _009C:
 	releaseall
 	end
 
-	.align 4
+
 _00A8:
+
 	step 0, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

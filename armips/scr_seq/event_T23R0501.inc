@@ -11,6 +11,6 @@
 
 .equ obj_T23R0501_gantetsu, 0
 .equ obj_T23R0501_gsbabygirl1, 1
-.equ obj_T23R0501_tsure_poke_static_slowpoke, 2
+.equ obj_T23R0501_follower_mon_static_slowpoke, 2
 
 .endif //SCR_SEQ_T23R0501_H_

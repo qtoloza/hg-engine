@@ -54,7 +54,7 @@ _003D:
 	goto _009D
 
 _0061:
-	follower_poke_is_event_trigger EVENT_ARCEUS_HALL_OF_ORIGIN, VAR_TEMP_x4005, VAR_TEMP_x4007
+	follower_poke_is_event_trigger 1, VAR_TEMP_x4005, VAR_TEMP_x4007
 	compare VAR_TEMP_x4007, 1
 	call_if_eq _009F
 	nop_var_490 VAR_TEMP_x4005
@@ -62,7 +62,7 @@ _0061:
 	end
 
 _007F:
-	follower_poke_is_event_trigger EVENT_ARCEUS_MOVIE_GIFT, VAR_TEMP_x4005, VAR_TEMP_x4006
+	follower_poke_is_event_trigger 2, VAR_TEMP_x4005, VAR_TEMP_x4006
 	compare VAR_TEMP_x4006, 1
 	call_if_eq _009F
 	nop_var_490 VAR_TEMP_x4005
@@ -126,42 +126,42 @@ scr_seq_D24R0205_001:
 _018A:
 	end
 
-	.align 4
+
 _018C:
+
 	step 68, 1
 	step_end
 
-	.align 4
 _0194:
+
 	step 3, 1
 	step 75, 1
 	step 15, 5
 	step 13, 1
 	step_end
 
-	.align 4
 _01A8:
+
 	step 14, 10
 	step_end
 
-	.align 4
 _01B0:
+
 	step 12, 10
 	step_end
 
-	.align 4
 _01B8:
+
 	step 2, 1
 	step 75, 1
 	step 14, 5
 	step 13, 1
 	step_end
 
-	.align 4
 _01CC:
+
 	step 15, 10
 	step_end
-
 scr_seq_D24R0205_006:
 	scrcmd_609
 	lockall
@@ -211,14 +211,15 @@ scr_seq_D24R0205_006:
 	releaseall
 	end
 
-	.align 4
+
 _02B0:
+
 	step 14, 4
 	step 35, 1
 	step_end
 
-	.align 4
 _02BC:
+
 	step 75, 1
 	step 63, 1
 	step 16, 3
@@ -230,8 +231,8 @@ _02BC:
 	step 72, 1
 	step_end
 
-	.align 4
 _02E4:
+
 	step 35, 1
 	step 63, 1
 	step 34, 1
@@ -239,11 +240,10 @@ _02E4:
 	step 33, 1
 	step_end
 
-	.align 4
 _02FC:
+
 	step 14, 4
 	step_end
-
 scr_seq_D24R0205_007:
 	scrcmd_609
 	lockall
@@ -272,8 +272,9 @@ scr_seq_D24R0205_007:
 	releaseall
 	end
 
-	.align 4
+
 _0368:
+
 	step 63, 1
 	step 34, 1
 	step 75, 1
@@ -281,26 +282,25 @@ _0368:
 	step 18, 3
 	step_end
 
-	.align 4
 _0380:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0388:
+
 	step 15, 10
 	step_end
 
-	.align 4
 _0390:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0398:
+
 	step 15, 1
 	step_end
-
 scr_seq_D24R0205_009:
 	scrcmd_609
 	lockall
@@ -342,21 +342,21 @@ scr_seq_D24R0205_009:
 	releaseall
 	end
 
-	.align 4
+
 _045C:
+
 	step 14, 1
 	step 13, 1
 	step_end
 
-	.align 4
 _0468:
+
 	step 35, 1
 	step 63, 1
 	step 34, 1
 	step 63, 1
 	step 33, 1
 	step_end
-
 scr_seq_D24R0205_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -378,9 +378,6 @@ scr_seq_D24R0205_005:
 	simple_npc_msg 4
 	end
 	.align 4
-
-
-
 
 
 .close

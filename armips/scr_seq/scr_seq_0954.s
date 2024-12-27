@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0954.inc"
-
 
 // text archive to grab from: 733.txt
 
@@ -40,9 +38,6 @@ scr_seq_0954_000:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -376,32 +376,26 @@ _0627:
 _067D:
 	npc_msg 10
 	goto _06BF
-	end
 
 _0688:
 	npc_msg 9
 	goto _06BF
-	end
 
 _0693:
 	npc_msg 8
 	goto _06BF
-	end
 
 _069E:
 	npc_msg 7
 	goto _06BF
-	end
 
 _06A9:
 	npc_msg 6
 	goto _06BF
-	end
 
 _06B4:
 	npc_msg 5
 	goto _06BF
-	end
 
 _06BF:
 	wait_button_or_walk_away
@@ -427,14 +421,12 @@ _06DE:
 	releaseall
 	end
 
-	.align 4
+
 _06F8:
+
 	step 33, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

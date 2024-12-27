@@ -43,7 +43,7 @@ scr_seq_R10_004:
 
 _002B:
 	setflag FLAG_HIDE_ROUTE_10_ZAPDOS
-	hide_person obj_R10_tsure_poke_static_zapdos
+	hide_person obj_R10_follower_mon_static_zapdos
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -143,7 +143,6 @@ _017B:
 _018C:
 	npc_msg 4
 	goto _0114
-	end
 
 _0197:
 	npc_msg 5
@@ -239,9 +238,6 @@ scr_seq_R10_006:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

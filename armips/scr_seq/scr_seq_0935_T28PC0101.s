@@ -53,7 +53,4 @@ scr_seq_T28PC0101_003:
 	.align 4
 
 
-
-
-
 .close

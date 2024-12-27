@@ -130,19 +130,19 @@ _0115:
 	goto_if_eq _00F7
 	end
 
-	.align 4
+
 _0140:
+
 	step 14, 2
 	step 13, 3
 	step_end
 
-	.align 4
 _014C:
+
 	step 13, 2
 	step 14, 2
 	step 13, 1
 	step_end
-
 scr_seq_T22FS0101_003:
 	simple_npc_msg 0
 	end
@@ -151,9 +151,6 @@ scr_seq_T22FS0101_004:
 	simple_npc_msg 1
 	end
 	.align 4
-
-
-
 
 
 .close

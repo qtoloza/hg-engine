@@ -64,7 +64,4 @@ scr_seq_D32R0103_002:
 	.align 4
 
 
-
-
-
 .close

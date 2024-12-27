@@ -124,33 +124,33 @@ _0147:
 	releaseall
 	end
 
-	.align 4
+
 _015C:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0168:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _017C:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0188:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R45_003:
 	simple_npc_msg 0
 	end
@@ -171,9 +171,6 @@ scr_seq_R45_004:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

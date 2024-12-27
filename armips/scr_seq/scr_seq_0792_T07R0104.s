@@ -161,7 +161,6 @@ scr_seq_T07R0104_005:
 	faceplayer
 	npc_msg 9
 	goto _011B
-	end
 
 _01CD:
 	play_se SEQ_SE_DP_SELECT
@@ -213,21 +212,21 @@ scr_seq_T07R0104_006:
 	simple_npc_msg 15
 	end
 
-	.align 4
+
 _026C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0274:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _027C:
+
 	step 33, 1
 	step_end
-
 scr_seq_T07R0104_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -256,9 +255,6 @@ scr_seq_T07R0104_003:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

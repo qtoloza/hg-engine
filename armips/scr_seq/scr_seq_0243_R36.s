@@ -97,13 +97,13 @@ _00E0:
 	npc_msg 1
 	play_se SEQ_SE_GS_ZENIGAME_JOURO
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_WEST
+	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _0109
 	apply_movement obj_player, _039C
 	goto _012C
 
 _0109:
-	compare VAR_SPECIAL_RESULT, DIR_SOUTH
+	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0124
 	apply_movement obj_player, _03AC
 	goto _012C
@@ -125,13 +125,13 @@ _012C:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0255
 	get_static_encounter_outcome VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, BATTLE_RESULT_DRAW
+	compare VAR_TEMP_x4001, 3
 	goto_if_eq _0251
-	compare VAR_TEMP_x4001, BATTLE_RESULT_CAPTURED_MON
+	compare VAR_TEMP_x4001, 4
 	call_if_eq _023F
 	setflag FLAG_UNK_0B5
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_NORTH
+	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _01BC
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
@@ -155,7 +155,6 @@ _01C6:
 	giveitem_no_check ITEM_PECHA_BERRY, 3
 	npc_msg 18
 	closemsg
-_0200:
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0225
@@ -176,11 +175,6 @@ _022F:
 _023F:
 	setflag FLAG_CAUGHT_SUDOWOODO
 	return
-
-	; unreferenced
-	callstd std_bag_is_full
-	closemsg
-	goto _0200
 
 _0251:
 	releaseall
@@ -242,7 +236,7 @@ _02E2:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0255
 	get_static_encounter_outcome VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, BATTLE_RESULT_CAPTURED_MON
+	compare VAR_TEMP_x4001, 4
 	call_if_eq _023F
 	static_wild_won_or_caught VAR_TEMP_x4000, 0
 	compare VAR_TEMP_x4000, 1
@@ -250,76 +244,53 @@ _02E2:
 	releaseall
 	end
 
-	.align 4
-_0340: ; unreferenced
-	step 12, 2
-	step 1, 1
-	step_end
 
-	.align 4
-_034C: ; unreferenced
-	step 62, 5
-	step 36, 2
-	step_end
-
-	.align 4
-_0358: ; unreferenced
-	step 12, 1
-	step_end
-
-	.align 4
 _0360:
+
 	step 12, 3
 	step 3, 1
 	step_end
 
-	.align 4
-_036C: ; unreferenced
-	step 63, 1
-	step 1, 1
-	step_end
-
-	.align 4
 _0378:
+
 	step 14, 10
 	step_end
 
-	.align 4
 _0380:
+
 	step 13, 2
 	step 14, 10
 	step_end
 
-	.align 4
 _038C:
+
 	step 32, 3
 	step_end
 
-	.align 4
 _0394:
+
 	step 36, 6
 	step_end
 
-	.align 4
 _039C:
+
 	step 30, 4
 	step_end
 
-	.align 4
 _03A4:
+
 	step 28, 4
 	step_end
 
-	.align 4
 _03AC:
+
 	step 29, 4
 	step_end
 
-	.align 4
 _03B4:
+
 	step 13, 1
 	step_end
-
 scr_seq_R36_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -424,11 +395,11 @@ _0533:
 	releaseall
 	end
 
-	.align 4
+
 _053C:
+
 	step 0, 1
 	step_end
-
 scr_seq_R36_008:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -441,18 +412,6 @@ scr_seq_R36_008:
 _0572:
 	npc_msg 5
 	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-	; unreferenced
-	npc_msg 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-	; unreferenced
-	callstd std_bag_is_full
 	closemsg
 	releaseall
 	end
@@ -505,9 +464,6 @@ scr_seq_R36_006:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

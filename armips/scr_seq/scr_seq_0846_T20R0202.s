@@ -69,7 +69,4 @@ scr_seq_T20R0202_001:
 	.align 4
 
 
-
-
-
 .close

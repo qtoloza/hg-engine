@@ -31,7 +31,7 @@
 .equ obj_T29_gswoman3, 7
 .equ obj_T29_wataru, 8
 .equ obj_T29_gsman1_2, 9
-.equ obj_T29_tsure_poke_static_dragonite, 10
+.equ obj_T29_follower_mon_static_dragonite, 10
 .equ obj_T29_monstarball, 11
 .equ obj_T29_monstarball_2, 12
 .equ obj_T29_monstarball_3, 13

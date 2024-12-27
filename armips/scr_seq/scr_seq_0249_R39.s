@@ -172,52 +172,51 @@ _01E3:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _01E3
 	goto _0173
-	end
 
-	.align 4
+
 _0208:
+
 	step 75, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0214:
+
 	step 12, 1
 	step 15, 2
 	step_end
 
-	.align 4
 _0220:
+
 	step 15, 2
 	step_end
 
-	.align 4
 _0228:
+
 	step 13, 1
 	step 15, 2
 	step_end
 
-	.align 4
 _0234:
+
 	step 13, 1
 	step 14, 2
 	step 13, 9
 	step_end
 
-	.align 4
 _0244:
+
 	step 13, 1
 	step 14, 2
 	step 13, 8
 	step_end
 
-	.align 4
 _0254:
+
 	step 13, 1
 	step 14, 2
 	step 13, 7
 	step_end
-
 scr_seq_R39_006:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -303,8 +302,9 @@ _03A0:
 	releaseall
 	end
 
-	.align 4
+
 _03B4:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -312,41 +312,40 @@ _03B4:
 	step 33, 1
 	step_end
 
-	.align 4
 _03CC:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03D8:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03EC:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0400:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _040C:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R39_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -415,9 +414,6 @@ scr_seq_R39_005:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

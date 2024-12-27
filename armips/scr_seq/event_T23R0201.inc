@@ -7,7 +7,7 @@
 
 .equ obj_T23R0201_gsfighter, 0
 .equ obj_T23R0201_gsboy1, 1
-.equ obj_T23R0201_tsure_poke_static_farfetchd, 2
-.equ obj_T23R0201_tsure_poke_static_farfetchd_2, 3
+.equ obj_T23R0201_follower_mon_static_farfetchd, 2
+.equ obj_T23R0201_follower_mon_static_farfetchd_2, 3
 
 .endif //SCR_SEQ_T23R0201_H_

@@ -143,8 +143,9 @@ _0194:
 	releaseall
 	end
 
-	.align 4
+
 _01D0:
+
 	step 14, 1
 	step 12, 2
 	step 15, 1
@@ -152,33 +153,32 @@ _01D0:
 	step 33, 1
 	step_end
 
-	.align 4
 _01E8:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01F4:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0208:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0214:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T11_015:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -264,8 +264,9 @@ _0360:
 	releaseall
 	end
 
-	.align 4
+
 _0374:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -273,14 +274,13 @@ _0374:
 	step 33, 1
 	step_end
 
-	.align 4
 _038C:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
-
 scr_seq_T11_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -375,9 +375,6 @@ scr_seq_T11_013:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

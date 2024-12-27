@@ -79,7 +79,6 @@ scr_seq_D32R0101_001:
 	npc_msg 4
 	call _00A6
 	goto _012B
-	end
 
 _00A6:
 	touchscreen_menu_hide
@@ -111,31 +110,26 @@ _0138:
 	npc_msg 5
 	npc_msg 4
 	goto _00A6
-	end
 
 _0146:
 	npc_msg 7
 	npc_msg 4
 	goto _00A6
-	end
 
 _0154:
 	npc_msg 8
 	npc_msg 4
 	goto _00A6
-	end
 
 _0162:
 	npc_msg 9
 	npc_msg 4
 	goto _00A6
-	end
 
 _0170:
 	npc_msg 6
 	npc_msg 4
 	goto _00A6
-	end
 
 scr_seq_D32R0101_002:
 	play_se SEQ_SE_DP_SELECT
@@ -154,12 +148,10 @@ scr_seq_D32R0101_002:
 _01AD:
 	npc_msg 18
 	goto _01B8
-	end
 
 _01B8:
 	npc_msg 19
 	goto _01C3
-	end
 
 _01C3:
 	wait_button_or_walk_away
@@ -184,12 +176,10 @@ scr_seq_D32R0101_003:
 _01FA:
 	npc_msg 21
 	goto _0205
-	end
 
 _0205:
 	npc_msg 22
 	goto _0210
-	end
 
 _0210:
 	wait_button_or_walk_away
@@ -214,12 +204,10 @@ scr_seq_D32R0101_004:
 _0247:
 	npc_msg 24
 	goto _0252
-	end
 
 _0252:
 	npc_msg 25
 	goto _025D
-	end
 
 _025D:
 	wait_button_or_walk_away
@@ -244,12 +232,10 @@ scr_seq_D32R0101_005:
 _0294:
 	npc_msg 27
 	goto _029F
-	end
 
 _029F:
 	npc_msg 28
 	goto _02AA
-	end
 
 _02AA:
 	wait_button_or_walk_away
@@ -274,12 +260,10 @@ scr_seq_D32R0101_006:
 _02E1:
 	npc_msg 30
 	goto _02EC
-	end
 
 _02EC:
 	npc_msg 31
 	goto _02F7
-	end
 
 _02F7:
 	wait_button_or_walk_away
@@ -314,27 +298,27 @@ _0333:
 	following_pokemon_movement 48
 	return
 
-	.align 4
+
 _0384:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _038C:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _0394:
+
 	step 2, 1
 	step_end
 
-	.align 4
 _039C:
+
 	step 12, 3
 	step 34, 1
 	step_end
-
 scr_seq_D32R0101_007:
 	simple_npc_msg 32
 	end
@@ -351,9 +335,6 @@ scr_seq_D32R0101_010:
 	simple_npc_msg 35
 	end
 	.align 4
-
-
-
 
 
 .close

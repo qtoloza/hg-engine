@@ -151,47 +151,47 @@ _018B:
 	releaseall
 	end
 
-	.align 4
+
 _01C8:
+
 	step 21, 5
 	step_end
 
-	.align 4
 _01D0:
+
 	step 71, 1
 	step 56, 1
 	step 63, 2
 	step 17, 2
 	step_end
 
-	.align 4
 _01E4:
+
 	step 75, 1
 	step 71, 1
 	step 12, 2
 	step_end
 
-	.align 4
 _01F4:
+
 	step 13, 2
 	step_end
 
-	.align 4
 _01FC:
+
 	step 17, 1
 	step_end
 
-	.align 4
 _0204:
+
 	step 18, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _0210:
+
 	step 18, 1
 	step_end
-
 scr_seq_T04GYM0101_006:
 	scrcmd_814
 	goto_if_set FLAG_HIDE_CERULEAN_GYM_MACHINE_PART, _022F
@@ -239,7 +239,7 @@ scr_seq_T04GYM0101_000:
 	goto_if_eq _035E
 	give_badge BADGE_CASCADE
 	addvar VAR_UNK_4135, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	settrainerflag TRAINER_SWIMMER_F_DIANA
 	settrainerflag TRAINER_SWIMMER_F_BRIANA
 	settrainerflag TRAINER_SWIMMER_F_JOY
@@ -358,9 +358,6 @@ _0424:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

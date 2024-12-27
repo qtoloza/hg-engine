@@ -47,24 +47,15 @@ scr_seq_R31_001:
 	goto_if_ne _003D
 	goto _0098
 
-_0037:
-	goto _008D
-
 _003D:
 	compare VAR_LOAN_SPEAROW, 2
 	goto_if_ne _0056
 	goto _01AD
 
-_0050:
-	goto _008D
-
 _0056:
 	compare VAR_LOAN_SPEAROW, 4
 	goto_if_ne _006F
 	goto _01AD
-
-_0069:
-	goto _008D
 
 _006F:
 	compare VAR_LOAN_SPEAROW, 6
@@ -213,7 +204,6 @@ _026A:
 	wait_fanfare
 	mon_give_mail VAR_TEMP_x4000
 	goto _0195
-	end
 
 _0295:
 	restore_overworld
@@ -228,29 +218,27 @@ _0295:
 _02AE:
 	setvar VAR_LOAN_SPEAROW, 1
 	goto _0098
-	end
 
 
-	.align 4
 _02BC:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _02CC:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _02D4:
+
 	step 35, 1
 	step_end
-
 scr_seq_R31_002:
 	direction_signpost 13, 1, 2, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -271,17 +259,10 @@ scr_seq_R31_004:
 	simple_npc_msg 12
 	end
 
-_0308:
-	simple_npc_msg 1
-	end
-
 scr_seq_R31_005:
 	simple_npc_msg 11
 	end
 	.align 4
-
-
-
 
 
 .close

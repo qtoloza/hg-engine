@@ -67,8 +67,9 @@ scr_seq_T27PC0101_001:
 	releaseall
 	end
 
-	.align 4
+
 _0084:
+
 	step 13, 4
 	step 15, 6
 	step 12, 2
@@ -77,26 +78,25 @@ _0084:
 	step 62, 4
 	step_end
 
-	.align 4
 _00A0:
+
 	step 62, 20
 	step 12, 4
 	step_end
 
-	.align 4
 _00AC:
+
 	step 15, 1
 	step 13, 4
 	step 14, 1
 	step 13, 2
 	step_end
 
-	.align 4
 _00C0:
+
 	step 62, 6
 	step 1, 1
 	step_end
-
 scr_seq_T27PC0101_002:
 	simple_npc_msg 2
 	end
@@ -109,9 +109,6 @@ scr_seq_T27PC0101_004:
 	simple_npc_msg 4
 	end
 	.align 4
-
-
-
 
 
 .close

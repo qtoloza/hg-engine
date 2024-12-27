@@ -74,7 +74,4 @@ scr_seq_T07R0103_005:
 	.align 4
 
 
-
-
-
 .close

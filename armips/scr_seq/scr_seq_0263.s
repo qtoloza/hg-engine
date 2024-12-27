@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0263.inc"
-
 
 // text archive to grab from: 433.txt
 
@@ -42,13 +40,11 @@ scr_seq_0263_000:
 	buffer_int 0, 1
 	npc_msg 15
 	goto _0048
-	end
 
 _0038:
 	buffer_int 0, 1
 	npc_msg 0
 	goto _0048
-	end
 
 _0048:
 	npc_msg 1
@@ -62,7 +58,6 @@ _0048:
 	case 0, _0097
 	case 1, _0178
 	goto _016B
-	end
 
 _0097:
 	buffer_int 2, 1
@@ -103,24 +98,20 @@ _0097:
 	call_if_ne _0271
 	npc_msg 5
 	goto _0191
-	end
 
 _015E:
 	touchscreen_menu_show
 	npc_msg 14
 	goto _0183
-	end
 
 _016B:
 	touchscreen_menu_show
 	npc_msg 5
 	goto _0183
-	end
 
 _0178:
 	npc_msg 6
 	goto _0048
-	end
 
 _0183:
 	wait_button_or_walk_away
@@ -153,7 +144,6 @@ _01C6:
 _01CE:
 	npc_msg 5
 	goto _0191
-	end
 
 _01D9:
 	compare VAR_TEMP_x4001, 1
@@ -219,9 +209,6 @@ _02BD:
 	npc_msg 12
 	return
 	.align 4
-
-
-
 
 
 .close

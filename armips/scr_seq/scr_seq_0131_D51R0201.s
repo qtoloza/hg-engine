@@ -85,11 +85,11 @@ scr_seq_D51R0201_006:
 	releaseall
 	end
 
-	.align 4
+
 _00C4:
+
 	step 13, 2
 	step_end
-
 scr_seq_D51R0201_000:
 	end
 
@@ -100,10 +100,10 @@ scr_seq_D51R0201_001:
 	compare VAR_SCENE_SINJOH_MYSTRI_ROOM, 8
 	goto_if_eq _0165
 	get_party_lead_alive VAR_TEMP_x4005
-	follower_poke_is_event_trigger EVENT_ARCEUS_MOVIE_GIFT, VAR_TEMP_x4005, VAR_TEMP_x4006
+	follower_poke_is_event_trigger 2, VAR_TEMP_x4005, VAR_TEMP_x4006
 	compare VAR_TEMP_x4006, 1
 	goto_if_eq _011A
-	follower_poke_is_event_trigger EVENT_ARCEUS_HALL_OF_ORIGIN, VAR_TEMP_x4005, VAR_TEMP_x4007
+	follower_poke_is_event_trigger 1, VAR_TEMP_x4005, VAR_TEMP_x4007
 	compare VAR_TEMP_x4007, 1
 	goto_if_eq _011A
 	npc_msg 24
@@ -125,7 +125,6 @@ _011A:
 	npc_msg 6
 	closemsg
 	goto _0170
-	end
 
 _0154:
 	npc_msg 2
@@ -223,40 +222,41 @@ _024A:
 	releaseall
 	end
 
-	.align 4
+
 _02B4:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _02BC:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _02CC:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _02D4:
+
 	step 14, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _02E0:
+
 	step 15, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _02EC:
+
 	step 65, 1
 	step 15, 1
 	step 12, 3
@@ -265,8 +265,8 @@ _02EC:
 	step 34, 1
 	step_end
 
-	.align 4
 _0308:
+
 	step 65, 1
 	step 14, 1
 	step 12, 3
@@ -275,23 +275,23 @@ _0308:
 	step 34, 1
 	step_end
 
-	.align 4
 _0324:
+
 	step 15, 3
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0334:
+
 	step 13, 1
 	step 14, 8
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0348:
+
 	step 12, 3
 	step 15, 2
 	step 12, 3
@@ -300,57 +300,50 @@ _0348:
 	step 33, 1
 	step_end
 
-	.align 4
 _0364:
+
 	step 13, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0370:
+
 	step 15, 1
 	step 13, 6
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
-_0384:
-	step 33, 1
-	step 13, 2
-	step_end
-
-	.align 4
 _0390:
+
 	step 12, 6
 	step 65, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _03A0:
+
 	step 15, 1
 	step 12, 5
 	step 65, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _03B4:
+
 	step 14, 1
 	step 12, 5
 	step 65, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _03C8:
+
 	step 63, 2
 	step 35, 1
 	step 63, 3
 	step 35, 1
 	step_end
-
 scr_seq_D51R0201_004:
 	scrcmd_609
 	lockall
@@ -374,7 +367,6 @@ _0433:
 	scrcmd_820 1
 	setvar VAR_TEMP_x4009, 483
 	goto _0514
-	end
 
 scr_seq_D51R0201_003:
 	scrcmd_609
@@ -399,7 +391,6 @@ _049B:
 	scrcmd_820 2
 	setvar VAR_TEMP_x4009, 484
 	goto _0514
-	end
 
 scr_seq_D51R0201_005:
 	scrcmd_609
@@ -424,7 +415,6 @@ _0503:
 	scrcmd_820 3
 	setvar VAR_TEMP_x4009, 487
 	goto _0514
-	end
 
 _0514:
 	nop_var_490 VAR_TEMP_x4009
@@ -462,38 +452,27 @@ _056D:
 	get_party_lead_alive VAR_TEMP_x4000
 	compare VAR_UNK_4102, 1
 	goto_if_ne _05B2
-	follower_poke_is_event_trigger EVENT_ARCEUS_HALL_OF_ORIGIN, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
+	follower_poke_is_event_trigger 1, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0605
-	follower_poke_is_event_trigger EVENT_ARCEUS_MOVIE_GIFT, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
+	follower_poke_is_event_trigger 2, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _060D
 	goto _0615
-
-_05A6:
-	goto _05F9
 
 _05B2:
 	compare VAR_UNK_4102, 2
 	goto_if_ne _05F3
-	follower_poke_is_event_trigger EVENT_ARCEUS_MOVIE_GIFT, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
+	follower_poke_is_event_trigger 2, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0605
-	follower_poke_is_event_trigger EVENT_ARCEUS_HALL_OF_ORIGIN, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
+	follower_poke_is_event_trigger 1, VAR_TEMP_x4000, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _060D
 	goto _0615
 
-_05ED:
-	goto _05F9
-
 _05F3:
 	goto _0615
-
-_05F9:
-	nop_var_490 VAR_TEMP_x4007
-	setvar VAR_TEMP_x400A, 2
-	return
 
 _0605:
 	setvar VAR_TEMP_x400A, 1
@@ -547,16 +526,10 @@ _065F:
 	goto_if_ne _0691
 	goto _06B0
 
-_068B:
-	goto _06B0
-
 _0691:
 	compare VAR_TEMP_x4009, 484
 	goto_if_ne _06AA
 	goto _0731
-
-_06A4:
-	goto _06B0
 
 _06AA:
 	goto _07B2
@@ -774,7 +747,7 @@ _0A4D:
 	compare VAR_SCENE_SINJOH_MYSTRI_ROOM, 14
 	goto_if_eq _0AAA
 	get_party_lead_alive VAR_TEMP_x4005
-	follower_poke_is_event_trigger EVENT_ARCEUS_MOVIE_GIFT, VAR_TEMP_x4005, VAR_TEMP_x4006
+	follower_poke_is_event_trigger 2, VAR_TEMP_x4005, VAR_TEMP_x4006
 	compare VAR_TEMP_x4006, 1
 	goto_if_ne _0AA0
 	setvar VAR_UNK_4102, 1
@@ -847,183 +820,181 @@ _0BB2:
 	wait_fade
 	return
 
-	.align 4
+
 _0BE4:
+
 	step 11, 4
 	step 8, 4
 	step 33, 1
 	step_end
 
-	.align 4
 _0BF4:
+
 	step 8, 2
 	step 11, 5
 	step 8, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0C08:
+
 	step 11, 3
 	step 8, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0C18:
+
 	step 11, 4
 	step 8, 2
 	step 33, 1
 	step_end
 
-	.align 4
 _0C28:
+
 	step 11, 4
 	step 8, 3
 	step_end
 
-	.align 4
 _0C34:
+
 	step 10, 4
 	step 8, 4
 	step 33, 1
 	step_end
 
-	.align 4
 _0C44:
+
 	step 10, 3
 	step 8, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0C54:
+
 	step 8, 2
 	step 10, 5
 	step 8, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0C68:
+
 	step 10, 4
 	step 8, 2
 	step 33, 1
 	step_end
 
-	.align 4
 _0C78:
+
 	step 10, 4
 	step 8, 3
 	step_end
 
-	.align 4
 _0C84:
+
 	step 9, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0C90:
+
 	step 9, 4
 	step 11, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0CA0:
+
 	step 9, 4
 	step 10, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0CB0:
+
 	step 11, 1
 	step 9, 5
 	step 10, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0CC4:
+
 	step 9, 4
 	step_end
 
-	.align 4
 _0CCC:
+
 	step 23, 4
 	step 0, 1
 	step_end
 
-	.align 4
 _0CD8:
+
 	step 22, 4
 	step 0, 1
 	step_end
 
-	.align 4
 _0CE4:
+
 	step 13, 7
 	step 0, 1
 	step_end
 
-	.align 4
 _0CF0:
+
 	step 12, 3
 	step_end
 
-	.align 4
 _0CF8:
+
 	step 13, 3
 	step_end
 
-	.align 4
 _0D00:
+
 	step 65, 2
 	step 13, 2
 	step_end
 
-	.align 4
 _0D0C:
+
 	step 63, 1
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _0D1C:
+
 	step 65, 2
 	step 13, 4
 	step_end
 
-	.align 4
 _0D28:
+
 	step 12, 9
 	step_end
 
-	.align 4
 _0D30:
+
 	step 3, 1
 	step 63, 3
 	step 2, 1
 	step 63, 3
 	step_end
 
-	.align 4
 _0D44:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0D4C:
+
 	step 63, 1
 	step 33, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

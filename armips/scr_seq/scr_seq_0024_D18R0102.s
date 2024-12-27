@@ -39,7 +39,7 @@ scr_seq_D18R0102_002:
 
 _001B:
 	setflag FLAG_HIDE_BURNED_TOWER_STATIC_SUICUNE
-	hide_person obj_D18R0102_tsure_poke_static_suicune_2
+	hide_person obj_D18R0102_follower_mon_static_suicune_2
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -47,39 +47,39 @@ scr_seq_D18R0102_000:
 	scrcmd_609
 	lockall
 	play_cry SPECIES_RAIKOU, 0
-	release obj_D18R0102_tsure_poke_static_raikou
-	scrcmd_523 obj_D18R0102_tsure_poke_static_raikou, 2, 90, 2, 0
-	lock obj_D18R0102_tsure_poke_static_raikou
+	release obj_D18R0102_follower_mon_static_raikou
+	scrcmd_523 obj_D18R0102_follower_mon_static_raikou, 2, 90, 2, 0
+	lock obj_D18R0102_follower_mon_static_raikou
 	wait_cry
 	play_cry SPECIES_ENTEI, 0
-	release obj_D18R0102_tsure_poke_static_entei
-	scrcmd_523 obj_D18R0102_tsure_poke_static_entei, 2, 90, 2, 0
-	lock obj_D18R0102_tsure_poke_static_entei
+	release obj_D18R0102_follower_mon_static_entei
+	scrcmd_523 obj_D18R0102_follower_mon_static_entei, 2, 90, 2, 0
+	lock obj_D18R0102_follower_mon_static_entei
 	wait_cry
 	play_cry SPECIES_SUICUNE, 0
-	release obj_D18R0102_tsure_poke_static_suicune
-	scrcmd_523 obj_D18R0102_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_D18R0102_tsure_poke_static_suicune
+	release obj_D18R0102_follower_mon_static_suicune
+	scrcmd_523 obj_D18R0102_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_D18R0102_follower_mon_static_suicune
 	wait_cry
-	apply_movement obj_D18R0102_tsure_poke_static_raikou, _0224
+	apply_movement obj_D18R0102_follower_mon_static_raikou, _0224
 	wait_movement
-	apply_movement obj_D18R0102_tsure_poke_static_entei, _0234
+	apply_movement obj_D18R0102_follower_mon_static_entei, _0234
 	wait_movement
 	get_player_coords VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	compare VAR_SPECIAL_x8005, 16
 	goto_if_ne _00C8
-	apply_movement obj_D18R0102_tsure_poke_static_suicune, _0244
+	apply_movement obj_D18R0102_follower_mon_static_suicune, _0244
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	apply_movement obj_D18R0102_tsure_poke_static_suicune, _0254
+	apply_movement obj_D18R0102_follower_mon_static_suicune, _0254
 	wait_cry
 	goto _00E2
 
 _00C8:
-	apply_movement obj_D18R0102_tsure_poke_static_suicune, _0268
+	apply_movement obj_D18R0102_follower_mon_static_suicune, _0268
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	apply_movement obj_D18R0102_tsure_poke_static_suicune, _0278
+	apply_movement obj_D18R0102_follower_mon_static_suicune, _0278
 	wait_cry
 _00E2:
 	wait_movement
@@ -94,9 +94,9 @@ _00E2:
 	setflag FLAG_HIDE_BURNED_TOWER_B1F_RAIKOU
 	setflag FLAG_HIDE_BURNED_TOWER_B1F_ENTEI
 	setflag FLAG_HIDE_BURNED_TOWER_B1F_SUICUNE
-	hide_person obj_D18R0102_tsure_poke_static_raikou
-	hide_person obj_D18R0102_tsure_poke_static_entei
-	hide_person obj_D18R0102_tsure_poke_static_suicune
+	hide_person obj_D18R0102_follower_mon_static_raikou
+	hide_person obj_D18R0102_follower_mon_static_entei
+	hide_person obj_D18R0102_follower_mon_static_suicune
 	create_roamer 0
 	create_roamer 1
 	wait 15, VAR_SPECIAL_RESULT
@@ -160,106 +160,94 @@ _01D4:
 	releaseall
 	end
 
-	.align 4
+
 _0224:
+
 	step 105, 1
 	step 69, 1
 	step_end
-	end
 
-	.align 4
 _0234:
+
 	step 106, 1
 	step 69, 1
 	step_end
-	end
 
-	.align 4
 _0244:
+
 	step 107, 1
 	step 3, 1
 	step_end
-	end
 
-	.align 4
 _0254:
+
 	step 62, 6
 	step 108, 1
 	step 69, 1
 	step_end
-	end
 
-	.align 4
 _0268:
+
 	step 109, 1
 	step 3, 1
 	step_end
-	end
 
-	.align 4
 _0278:
+
 	step 62, 6
 	step 110, 1
 	step 69, 1
 	step_end
-	end
 
-	.align 4
 _028C:
+
 	step 14, 1
 	step 1, 1
 	step_end
-	end
 
-	.align 4
 _029C:
+
 	step 17, 1
 	step 18, 3
 	step 1, 1
 	step_end
-	end
 
-	.align 4
 _02B0:
+
 	step 18, 5
 	step 17, 1
 	step 1, 1
 	step_end
-	end
 
-	.align 4
 _02C4:
+
 	step 18, 1
 	step 0, 1
 	step_end
 
-	.align 4
 _02D0:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _02D8:
+
 	step 62, 6
 	step 2, 1
 	step_end
-	end
 
-	.align 4
 _02E8:
+
 	step 19, 4
 	step 16, 1
 	step_end
-	end
 
-	.align 4
 _02F8:
+
 	step 16, 1
 	step 19, 5
 	step 0, 1
 	step_end
-	end
-
 scr_seq_D18R0102_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -290,9 +278,6 @@ _0362:
 	setflag FLAG_CAUGHT_SUICUNE
 	return
 	.align 4
-
-
-
 
 
 .close

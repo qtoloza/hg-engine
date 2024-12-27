@@ -20,9 +20,9 @@
 .equ obj_D49R0104_pcwoman2, 1
 .equ obj_D49R0104_pcwoman2_2, 2
 .equ obj_D49R0104_gsboy2, 3
-.equ obj_D49R0104_tsure_poke_static_rattata, 4
+.equ obj_D49R0104_follower_mon_static_rattata, 4
 .equ obj_D49R0104_gsgirl1, 5
-.equ obj_D49R0104_tsure_poke_static_zubat, 6
+.equ obj_D49R0104_follower_mon_static_zubat, 6
 .equ obj_D49R0104_medal, 7
 .equ obj_D49R0104_medal_2, 8
 .equ obj_D49R0104_medal_3, 9

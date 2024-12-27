@@ -187,52 +187,52 @@ _026D:
 	closemsg
 	goto _0228
 
-	.align 4
+
 _0278:
+
 	step 1, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0284:
+
 	step 19, 1
 	step 17, 1
 	step 18, 1
 	step_end
 
-	.align 4
 _0294:
+
 	step 62, 2
 	step 18, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _02A4:
+
 	step 19, 1
 	step 17, 2
 	step 18, 1
 	step_end
 
-	.align 4
 _02B4:
+
 	step 62, 3
 	step 18, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 12, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _02D0:
+
 	step 12, 2
 	step 1, 1
 	step_end
-
 scr_seq_T28_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -283,9 +283,6 @@ scr_seq_T28_008:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

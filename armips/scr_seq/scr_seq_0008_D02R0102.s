@@ -38,16 +38,10 @@ scr_seq_D02R0102_000:
 	goto_if_ne _002E
 	goto _004F
 
-_0028:
-	goto _004D
-
 _002E:
 	compare VAR_TEMP_x4000, 2
 	goto_if_ne _0047
 	goto _008E
-
-_0041:
-	goto _004D
 
 _0047:
 	goto _004D
@@ -87,13 +81,7 @@ _00C5:
 _00CB:
 	end
 
-_00CD:
-	end
-
 	.align 4
-
-
-
 
 
 .close

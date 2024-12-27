@@ -78,13 +78,14 @@ scr_seq_P01R0301_005:
 	releaseall
 	end
 
-	.align 4
+
 _009C:
+
 	step 12, 4
 	step_end
 
-	.align 4
 _00A4:
+
 	step 71, 1
 	step 10, 1
 	step 72, 1
@@ -93,16 +94,12 @@ _00A4:
 	step 11, 1
 	step 0, 2
 	step_end
-
 scr_seq_P01R0301_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	compare VAR_BOAT_DIRECTION, 1
 	goto_if_gt _00E5
-	goto _00EB
-
-_00DF:
 	goto _00EB
 
 _00E5:
@@ -161,8 +158,9 @@ _0174:
 	releaseall
 	end
 
-	.align 4
+
 _0180:
+
 	step 71, 1
 	step 13, 1
 	step 72, 1
@@ -171,7 +169,6 @@ _0180:
 	step 15, 1
 	step 72, 1
 	step_end
-
 scr_seq_P01R0301_004:
 	scrcmd_609
 	lockall
@@ -220,13 +217,14 @@ _023C:
 	releaseall
 	end
 
-	.align 4
+
 _0280:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0288:
+
 	step 18, 9
 	step 71, 1
 	step 55, 1
@@ -234,8 +232,8 @@ _0288:
 	step 65, 1
 	step_end
 
-	.align 4
 _02A0:
+
 	step 61, 5
 	step 3, 2
 	step 61, 5
@@ -243,20 +241,19 @@ _02A0:
 	step 65, 1
 	step_end
 
-	.align 4
 _02B8:
+
 	step 50, 4
 	step_end
 
-	.align 4
 _02C0:
+
 	step 38, 2
 	step 0, 2
 	step 16, 1
 	step 2, 2
 	step 18, 10
 	step_end
-
 scr_seq_P01R0301_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -282,9 +279,6 @@ scr_seq_P01R0301_002:
 scr_seq_P01R0301_003:
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -22,7 +22,7 @@
 .equ obj_T07R0203_gsman3, 3
 .equ obj_T07R0203_gsboy1, 4
 .equ obj_T07R0203_var_1, 5
-.equ obj_T07R0203_tsure_poke_static_marill, 6
+.equ obj_T07R0203_follower_mon_static_marill, 6
 .equ obj_T07R0203_suit, 7
 
 .endif //SCR_SEQ_T07R0203_H_

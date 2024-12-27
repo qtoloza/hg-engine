@@ -86,7 +86,4 @@ scr_seq_W41_010:
 	.align 4
 
 
-
-
-
 .close

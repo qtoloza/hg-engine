@@ -42,7 +42,6 @@ scr_seq_T25R0901_000:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _002E
 	goto _00B3
-	end
 
 _002E:
 	npc_msg 1
@@ -72,7 +71,6 @@ _002E:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _00D9
 	goto _00B3
-	end
 
 _00B3:
 	npc_msg 5
@@ -122,9 +120,6 @@ _011F:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

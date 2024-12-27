@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0143.inc"
-
 
 // text archive to grab from: 204.txt
 
@@ -54,7 +52,6 @@ _0055:
 	scrcmd_465 2, 1, 1
 	npc_msg 1
 	goto _008C
-	end
 
 _0070:
 	npc_msg 2
@@ -306,9 +303,6 @@ _057E:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

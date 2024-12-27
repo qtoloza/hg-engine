@@ -23,7 +23,7 @@
 .equ obj_T24_gsmiddleman1, 2
 .equ obj_T24_gsgirl1, 3
 .equ obj_T24_middlewoman1_2_2, 4
-.equ obj_T24_tsure_poke_static_suicune, 5
+.equ obj_T24_follower_mon_static_suicune, 5
 .equ obj_T24_minaki, 6
 .equ obj_T24_breakrock, 7
 .equ obj_T24_breakrock_2, 8

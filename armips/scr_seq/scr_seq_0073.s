@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0073.inc"
-
 
 // text archive to grab from: 003.txt
 
@@ -34,9 +32,6 @@ scrdef_end
 scr_seq_0073_000:
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -54,7 +54,4 @@ scr_seq_T03R0201_001:
 	.align 4
 
 
-
-
-
 .close

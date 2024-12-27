@@ -9,8 +9,8 @@
 .equ _EV_scr_seq_T07R0201_005, 5
 
 .equ obj_T07R0201_gsoldwoman1, 0
-.equ obj_T07R0201_tsure_poke_static_meowth, 1
-.equ obj_T07R0201_tsure_poke_static_clefairy, 2
-.equ obj_T07R0201_tsure_poke_static_nidoran_f, 3
+.equ obj_T07R0201_follower_mon_static_meowth, 1
+.equ obj_T07R0201_follower_mon_static_clefairy, 2
+.equ obj_T07R0201_follower_mon_static_nidoran_f, 3
 
 .endif //SCR_SEQ_T07R0201_H_

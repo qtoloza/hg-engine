@@ -332,8 +332,9 @@ _0483:
 	releaseall
 	end
 
-	.align 4
+
 _04C0:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -341,41 +342,40 @@ _04C0:
 	step 33, 1
 	step_end
 
-	.align 4
 _04D8:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _04E4:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _04F8:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _050C:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0518:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_D22R0101_024:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -461,8 +461,9 @@ _0664:
 	releaseall
 	end
 
-	.align 4
+
 _0678:
+
 	step 13, 1
 	step 15, 2
 	step 12, 2
@@ -470,7 +471,6 @@ _0678:
 	step 12, 2
 	step 33, 1
 	step_end
-
 scr_seq_D22R0101_001:
 	scrcmd_055 2, 0
 	scrcmd_057 3
@@ -531,13 +531,7 @@ scr_seq_D22R0101_010:
 	releaseall
 	end
 
-_0760:
-	end
-
 	.align 4
-
-
-
 
 
 .close

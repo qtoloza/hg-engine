@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0148.inc"
-
 
 // text archive to grab from: 666.txt
 
@@ -134,9 +132,6 @@ _0189:
 	endstd
 	end
 	.align 4
-
-
-
 
 
 .close

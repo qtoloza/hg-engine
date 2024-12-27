@@ -82,35 +82,30 @@ scr_seq_T11R0702_001:
 	lockall
 	setvar VAR_SPECIAL_x8004, 1
 	goto _0107
-	end
 
 scr_seq_T11R0702_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 4
 	goto _0107
-	end
 
 scr_seq_T11R0702_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 3
 	goto _0107
-	end
 
 scr_seq_T11R0702_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 2
 	goto _0107
-	end
 
 scr_seq_T11R0702_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 5
 	goto _0107
-	end
 
 _0107:
 	player_has_species VAR_SPECIAL_RESULT, SPECIES_ROTOM
@@ -134,7 +129,6 @@ _0107:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _073D
 	goto _0189
-	end
 
 _0189:
 	compare VAR_SPECIAL_x8004, 1
@@ -151,7 +145,6 @@ _0189:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _03B2
 	goto _03C0
-	end
 
 _01E5:
 	touchscreen_menu_hide
@@ -164,7 +157,6 @@ _01E5:
 	case 0, _0189
 	case 1, _0231
 	goto _073D
-	end
 
 _0231:
 	count_transformed_rotoms_in_party VAR_SPECIAL_x8003, VAR_SPECIAL_RESULT
@@ -172,7 +164,6 @@ _0231:
 	compare VAR_SPECIAL_x8003, 2
 	goto_if_ge _0332
 	goto _0252
-	end
 
 _0252:
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
@@ -193,7 +184,6 @@ _0252:
 	compare VAR_SPECIAL_x8004, 5
 	call_if_eq _0328
 	goto _02C1
-	end
 
 _02C1:
 	scrcmd_815 0
@@ -206,7 +196,6 @@ _02C1:
 	compare VAR_TEMP_x400A, 1
 	call_if_eq _07BA
 	goto _08A4
-	end
 
 _0300:
 	clearflag FLAG_HIDE_SILPH_ROTOM_HEAT
@@ -254,13 +243,11 @@ _0332:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _039F
 	goto _0252
-	end
 
 _039F:
 	npc_msg 17
 	wait_button_or_walk_away
 	goto _089C
-	end
 
 _03AC:
 	touchscreen_menu_show
@@ -270,7 +257,6 @@ _03AC:
 _03B2:
 	get_party_slot_with_species VAR_SPECIAL_x8000, SPECIES_ROTOM
 	goto _0434
-	end
 
 _03C0:
 	npc_msg 7
@@ -290,19 +276,16 @@ _03C0:
 	compare VAR_SPECIAL_RESULT, 479
 	goto_if_ne _0427
 	goto _0434
-	end
 
 _041A:
 	npc_msg 8
 	wait_button_or_walk_away
 	goto _089C
-	end
 
 _0427:
 	npc_msg 9
 	wait_button_or_walk_away
 	goto _089C
-	end
 
 _0434:
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_OVERHEAT, VAR_SPECIAL_x8000
@@ -325,12 +308,10 @@ _0434:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _051C
 	goto _04CC
-	end
 
 _04BE:
 	setvar VAR_SPECIAL_x8002, 0
 	goto _04CC
-	end
 
 _04CC:
 	nop_var_490 VAR_TEMP_x4005
@@ -350,7 +331,6 @@ _050C:
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
 	npc_msg 10
 	goto _0671
-	end
 
 _051C:
 	nop_var_490 VAR_TEMP_x4007
@@ -376,7 +356,6 @@ _0564:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0649
 	goto _058A
-	end
 
 _058A:
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -410,7 +389,6 @@ _058A:
 	wait_fanfare
 	wait 16, VAR_SPECIAL_RESULT
 	goto _0671
-	end
 
 _0628:
 	buffer_move_name 1, VAR_SPECIAL_x8001
@@ -419,7 +397,6 @@ _0628:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _058A
 	goto _0649
-	end
 
 _0649:
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
@@ -430,7 +407,6 @@ _0649:
 	call_if_eq _07BA
 	nop_var_490 VAR_TEMP_x400D
 	goto _089C
-	end
 
 _0671:
 	update_rotom_forme VAR_SPECIAL_x8000, VAR_SPECIAL_x8002, VAR_SPECIAL_x8001, VAR_SPECIAL_x8004
@@ -448,7 +424,6 @@ _0671:
 	compare VAR_SPECIAL_x8004, 5
 	call_if_eq _06EA
 	goto _02C1
-	end
 
 _06D2:
 	hide_person obj_T11R0702_rotomf
@@ -470,12 +445,12 @@ _06EA:
 	hide_person obj_T11R0702_rotomg
 	return
 
-	.align 4
+
 _06F0:
+
 	step 45, 2
 	step 69, 1
 	step_end
-
 _06FC:
 	setvar VAR_SPECIAL_x8001, 315
 	return
@@ -531,7 +506,6 @@ _073D:
 	call_if_eq _07BA
 	nop_var_490 VAR_TEMP_x4006
 	goto _089C
-	end
 
 _0797:
 	npc_msg 22
@@ -565,11 +539,11 @@ _07BA:
 	lock obj_partner_poke
 	return
 
-	.align 4
+
 _07D0:
+
 	step 70, 1
 	step_end
-
 _07D8:
 	compare VAR_SPECIAL_x8004, 1
 	call_if_eq _0821
@@ -582,7 +556,6 @@ _07D8:
 	compare VAR_SPECIAL_x8004, 5
 	call_if_eq _0835
 	goto _089C
-	end
 
 _0821:
 	npc_msg 20
@@ -619,14 +592,12 @@ scr_seq_T11R0702_007:
 	switch VAR_SPECIAL_RESULT
 	case 0, _0231
 	goto _089C
-	end
 
 _088D:
 	npc_msg 18
 	wait_button_or_walk_away
 	closemsg
 	goto _08A4
-	end
 
 _089C:
 	touchscreen_menu_show
@@ -642,9 +613,6 @@ scr_seq_T11R0702_000:
 	simple_npc_msg 35
 	end
 	.align 4
-
-
-
 
 
 .close

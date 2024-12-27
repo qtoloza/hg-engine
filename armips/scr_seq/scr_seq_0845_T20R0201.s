@@ -74,32 +74,32 @@ scr_seq_T20R0201_000:
 	releaseall
 	end
 
-	.align 4
+
 _00A4:
+
 	step 62, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _00B0:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _00B8:
+
 	step 12, 2
 	step 14, 3
 	step 12, 1
 	step_end
 
-	.align 4
 _00C8:
+
 	step 33, 1
 	step 13, 3
 	step 15, 3
 	step 32, 1
 	step_end
-
 scr_seq_T20R0201_006:
 	scrcmd_609
 	lockall
@@ -133,7 +133,6 @@ _015C:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01F2
 	goto _0205
-	end
 
 _0179:
 	play_se SEQ_SE_DP_SELECT
@@ -171,10 +170,6 @@ _01D4:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
-	end
-
-_01DF:
-	simple_npc_msg 7
 	end
 
 _01F2:
@@ -231,7 +226,6 @@ _0275:
 	case 1, _0335
 	case 2, _0398
 	goto _03D1
-	end
 
 _02DF:
 	bank_or_wallet_is_full 1, VAR_SPECIAL_RESULT
@@ -396,9 +390,6 @@ scr_seq_T20R0201_005:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

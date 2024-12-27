@@ -57,7 +57,6 @@ scr_seq_D32R0601_000:
 	setvar VAR_TEMP_x4003, 0
 	setvar VAR_TEMP_x4004, 0
 	goto _0080
-	end
 
 scr_seq_D32R0601_005:
 	play_se SEQ_SE_DP_SELECT
@@ -66,7 +65,6 @@ scr_seq_D32R0601_005:
 	setvar VAR_TEMP_x4003, 0
 	setvar VAR_TEMP_x4004, 1
 	goto _0080
-	end
 
 _0080:
 	scrcmd_682 0
@@ -75,7 +73,6 @@ _0080:
 	compare VAR_TEMP_x4004, 1
 	call_if_eq _06A5
 	goto _00A6
-	end
 
 _00A6:
 	compare VAR_TEMP_x4004, 0
@@ -95,7 +92,6 @@ _00A6:
 	goto_if_eq _01A5
 	touchscreen_menu_show
 	goto _0132
-	end
 
 _0110:
 	compare VAR_TEMP_x4004, 0
@@ -103,11 +99,9 @@ _0110:
 	compare VAR_TEMP_x4004, 1
 	call_if_eq _06E5
 	goto _00A6
-	end
 
 _0132:
 	goto _013A
-	end
 
 _013A:
 	setvar VAR_UNK_414A, 0
@@ -125,7 +119,6 @@ _014B:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01D2
 	goto _01FC
-	end
 
 _0178:
 	setvar VAR_UNK_4149, 1
@@ -135,7 +128,6 @@ _0178:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01D2
 	goto _01FC
-	end
 
 _01A5:
 	setvar VAR_UNK_4149, 2
@@ -145,21 +137,18 @@ _01A5:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01E7
 	goto _01FC
-	end
 
 _01D2:
 	npc_msg 8
 	scrcmd_444 9, 3, 0, 0
 	touchscreen_menu_show
 	goto _0132
-	end
 
 _01E7:
 	npc_msg 8
 	scrcmd_444 9, 2, 0, 0
 	touchscreen_menu_show
 	goto _0132
-	end
 
 _01FC:
 	npc_msg 7
@@ -197,11 +186,9 @@ _028F:
 
 _02AA:
 	goto _02B2
-	end
 
 _02B2:
 	goto _02BA
-	end
 
 _02BA:
 	compare VAR_UNK_4149, 0
@@ -218,7 +205,6 @@ _02BA:
 	compare VAR_UNK_4149, 2
 	goto_if_eq _030A
 	goto _04D7
-	end
 
 _030A:
 	npc_msg 43
@@ -233,7 +219,6 @@ _030A:
 	case 1, _03B3
 	touchscreen_menu_show
 	goto _0132
-	end
 
 _035B:
 	npc_msg 44
@@ -249,16 +234,13 @@ _035B:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _03A9
 	goto _040B
-	end
 
 _03A1:
 	goto _030A
-	end
 
 _03A9:
 	scrcmd_283
 	goto _030A
-	end
 
 _03B3:
 	npc_msg 44
@@ -274,16 +256,13 @@ _03B3:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0401
 	goto _040B
-	end
 
 _03F9:
 	goto _030A
-	end
 
 _0401:
 	scrcmd_283
 	goto _030A
-	end
 
 _040B:
 	scrcmd_258
@@ -302,7 +281,6 @@ _040B:
 	call_if_eq _0476
 	call _0711
 	goto _04D7
-	end
 
 _0476:
 	setvar VAR_UNK_414A, 255
@@ -313,14 +291,12 @@ _047E:
 	buffer_mon_species_name 0, VAR_TEMP_x4002
 	npc_msg 29
 	goto _04C5
-	end
 
 _0494:
 	call _04CD
 	buffer_mon_species_name 0, VAR_TEMP_x4005
 	npc_msg 29
 	goto _04C5
-	end
 
 _04AA:
 	call _04CD
@@ -328,11 +304,9 @@ _04AA:
 	buffer_mon_species_name 1, VAR_TEMP_x4005
 	npc_msg 30
 	goto _04C5
-	end
 
 _04C5:
 	goto _0132
-	end
 
 _04CD:
 	scrcmd_258
@@ -349,7 +323,6 @@ _04D7:
 	call_if_eq _05A5
 	play_se SEQ_SE_DP_KAIDAN2
 	goto _050A
-	end
 
 _050A:
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -429,36 +402,37 @@ _0607:
 	callstd std_bag_is_full_griseous_orb
 	end
 
-	.align 4
+
 _0618:
+
 	step 12, 2
 	step 15, 1
 	step 12, 2
 	step 69, 1
 	step_end
 
-	.align 4
 _062C:
+
 	step 12, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0638:
+
 	step 12, 1
 	step 15, 1
 	step 12, 2
 	step 69, 1
 	step_end
 
-	.align 4
 _064C:
+
 	step 12, 3
 	step 69, 1
 	step_end
 
-	.align 4
 _0658:
+
 	step 21, 2
 	step 22, 1
 	step 21, 2
@@ -466,27 +440,26 @@ _0658:
 	step 70, 1
 	step_end
 
-	.align 4
 _0670:
+
 	step 21, 4
 	step 0, 1
 	step 70, 1
 	step_end
 
-	.align 4
 _0680:
+
 	step 21, 1
 	step 22, 1
 	step 21, 2
 	step 70, 1
 	step_end
 
-	.align 4
 _0694:
+
 	step 21, 3
 	step 70, 1
 	step_end
-
 _06A0:
 	npc_msg 0
 	return
@@ -526,7 +499,6 @@ scr_seq_D32R0601_001:
 	call _0476
 	call _0711
 	goto _04D7
-	end
 
 _0711:
 	add_waiting_icon
@@ -544,7 +516,6 @@ scr_seq_D32R0601_002:
 	compare VAR_BATTLE_ARCADE_PRINT_PROGRESS, 3
 	call_if_eq _0754
 	goto _0132
-	end
 
 _074C:
 	setvar VAR_BATTLE_ARCADE_PRINT_PROGRESS, 0
@@ -564,7 +535,6 @@ scr_seq_D32R0601_003:
 	compare VAR_BATTLE_ARCADE_PRINT_PROGRESS, 3
 	call_if_eq _07B5
 	goto _0132
-	end
 
 _0798:
 	add_special_game_stat_2 30
@@ -591,21 +561,6 @@ _07B5:
 
 scr_seq_D32R0601_004:
 	goto _0132
-	end
-
-	.align 4
-_07D8:
-	step 12, 2
-	step 63, 1
-	step 12, 1
-	step_end
-
-	.align 4
-_07E8:
-	step 12, 2
-	step 63, 1
-	step 12, 1
-	step_end
 
 scr_seq_D32R0601_006:
 	simple_npc_msg 46
@@ -657,9 +612,6 @@ scr_seq_D32R0601_016:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

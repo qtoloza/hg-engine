@@ -36,7 +36,4 @@ scr_seq_D47R0102_000:
 	.align 4
 
 
-
-
-
 .close

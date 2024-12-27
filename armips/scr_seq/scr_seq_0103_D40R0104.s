@@ -135,25 +135,23 @@ _014A:
 	wait 30, VAR_SPECIAL_RESULT
 	end
 
-	.align 4
+
 _0154:
+
 	step 1, 1
 	step 71, 1
 	step 12, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0168:
+
 	step 3, 1
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

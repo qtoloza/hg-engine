@@ -84,31 +84,25 @@ _00C9:
 	white_out
 	end
 
-	.align 4
+
 _00D0:
+
 	step 75, 1
 	step 14, 4
 	step_end
 
-	.align 4
 _00DC:
+
 	step 63, 4
 	step 15, 1
 	step_end
 
-	.align 4
 _00E8:
+
 	step 19, 5
 	step 17, 9
 	step_end
-
-_00F4:
-	end
-
 	.align 4
-
-
-
 
 
 .close

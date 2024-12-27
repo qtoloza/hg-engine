@@ -62,16 +62,10 @@ _004C:
 	goto_if_ne _0078
 	goto _0107
 
-_0072:
-	goto _0097
-
 _0078:
 	compare VAR_TEMP_x4002, 1
 	goto_if_ne _0091
 	goto _00CF
-
-_008B:
-	goto _0097
 
 _0091:
 	goto _0097
@@ -141,94 +135,94 @@ _0167:
 	releaseall
 	end
 
-	.align 4
+
 _0188:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _0194:
+
 	step 32, 1
 	step 8, 2
 	step_end
 
-	.align 4
 _01A0:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _01A8:
+
 	step 13, 2
 	step 35, 1
 	step_end
 
-	.align 4
 _01B4:
+
 	step 13, 2
 	step 14, 4
 	step 33, 1
 	step_end
 
-	.align 4
 _01C4:
+
 	step 33, 1
 	step 9, 1
 	step_end
 
-	.align 4
 _01D0:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _01D8:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _01E0:
+
 	step 13, 2
 	step 14, 4
 	step 33, 1
 	step_end
 
-	.align 4
 _01F0:
+
 	step 32, 1
 	step 8, 2
 	step_end
 
-	.align 4
 _01FC:
+
 	step 8, 1
 	step_end
 
-	.align 4
 _0204:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _020C:
+
 	step 15, 1
 	step 13, 2
 	step 34, 1
 	step_end
 
-	.align 4
 _021C:
+
 	step 13, 2
 	step 14, 5
 	step 33, 1
 	step_end
 
-	.align 4
 _022C:
+
 	step 35, 1
 	step_end
-
 scr_seq_D51R0301_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -301,8 +295,9 @@ _030C:
 	releaseall
 	end
 
-	.align 4
+
 _0318:
+
 	step 3, 1
 	step 62, 1
 	step 1, 1
@@ -332,7 +327,6 @@ _0318:
 	step 2, 1
 	step 0, 1
 	step_end
-
 scr_seq_D51R0301_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -345,9 +339,6 @@ scr_seq_D51R0301_003:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -72,40 +72,41 @@ scr_seq_D35R0104_001:
 	apply_movement obj_D35R0104_wataru, _00F4
 	wait_movement
 	apply_movement obj_D35R0104_wataru, _00FC
-	apply_movement obj_D35R0104_tsure_poke_static_dragonite, _010C
+	apply_movement obj_D35R0104_follower_mon_static_dragonite, _010C
 	wait_movement
 	buffer_players_name 0
 	gender_msgbox 0, 1
 	closemsg
 	apply_movement obj_D35R0104_wataru, _0124
-	apply_movement obj_D35R0104_tsure_poke_static_dragonite, _012C
+	apply_movement obj_D35R0104_follower_mon_static_dragonite, _012C
 	wait_movement
 	hide_person obj_D35R0104_wataru
-	hide_person obj_D35R0104_tsure_poke_static_dragonite
+	hide_person obj_D35R0104_follower_mon_static_dragonite
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_LANCE
 	releaseall
 	setvar VAR_UNK_40AC, 1
 	end
 
-	.align 4
+
 _00EC:
+
 	step 14, 1
 	step_end
 
-	.align 4
 _00F4:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _00FC:
+
 	step 33, 1
 	step 13, 3
 	step 15, 3
 	step_end
 
-	.align 4
 _010C:
+
 	step 63, 1
 	step 61, 1
 	step 14, 1
@@ -113,59 +114,58 @@ _010C:
 	step 15, 2
 	step_end
 
-	.align 4
 _0124:
+
 	step 14, 9
 	step_end
 
-	.align 4
 _012C:
+
 	step 61, 1
 	step 15, 1
 	step 14, 9
 	step_end
-
 scr_seq_D35R0104_007:
 	scrcmd_609
 	lockall
-	apply_movement obj_D35R0104_tsure_poke_static_murkrow_2, _018C
+	apply_movement obj_D35R0104_follower_mon_static_murkrow_2, _018C
 	wait_movement
 	npc_msg 10
 	closemsg
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
-	apply_movement obj_D35R0104_tsure_poke_static_murkrow_2, _0194
+	apply_movement obj_D35R0104_follower_mon_static_murkrow_2, _0194
 	apply_movement obj_player, _01A4
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	setvar VAR_UNK_40AC, 6
-	hide_person obj_D35R0104_tsure_poke_static_murkrow_2
+	hide_person obj_D35R0104_follower_mon_static_murkrow_2
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_2
 	clearflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_2
 	releaseall
 	end
 
-	.align 4
+
 _018C:
+
 	step 51, 2
 	step_end
 
-	.align 4
 _0194:
+
 	step 1, 1
 	step 49, 1
 	step 17, 10
 	step_end
 
-	.align 4
 _01A4:
+
 	step 63, 1
 	step 33, 1
 	step_end
-
 scr_seq_D35R0104_000:
 	simple_npc_msg 2
 	end
@@ -222,51 +222,51 @@ _0221:
 	setvar VAR_UNK_40AC, 3
 	end
 
-	.align 4
+
 _0290:
+
 	step 13, 9
 	step 15, 2
 	step_end
 
-	.align 4
 _029C:
+
 	step 13, 10
 	step 15, 2
 	step_end
 
-	.align 4
 _02A8:
+
 	step 13, 11
 	step 15, 2
 	step_end
 
-	.align 4
 _02B4:
+
 	step 14, 2
 	step_end
 
-	.align 4
 _02BC:
+
 	step 19, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 71, 1
 	step 19, 1
 	step 55, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _02D8:
+
 	step 40, 1
 	step 42, 1
 	step 63, 1
 	step 14, 2
 	step 12, 9
 	step_end
-
 scr_seq_D35R0104_003:
 	scrcmd_609
 	lockall
@@ -316,7 +316,7 @@ _0331:
 	wait_movement
 	hide_person obj_D35R0104_rkanbum2
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_PETREL
-	apply_movement obj_D35R0104_tsure_poke_static_murkrow, _04E4
+	apply_movement obj_D35R0104_follower_mon_static_murkrow, _04E4
 	wait_movement
 	npc_msg 8
 	closemsg
@@ -325,14 +325,14 @@ _0331:
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
-	apply_movement obj_D35R0104_tsure_poke_static_murkrow, _04F4
+	apply_movement obj_D35R0104_follower_mon_static_murkrow, _04F4
 	apply_movement obj_player, _042C
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	setvar VAR_UNK_40AC, 4
-	hide_person obj_D35R0104_tsure_poke_static_murkrow
+	hide_person obj_D35R0104_follower_mon_static_murkrow
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_1
 	clearflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_1
 	releaseall
@@ -343,42 +343,43 @@ _0405:
 	releaseall
 	end
 
-	.align 4
+
 _040C:
+
 	step 12, 5
 	step 14, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _041C:
+
 	step 12, 5
 	step 14, 2
 	step 34, 1
 	step_end
 
-	.align 4
 _042C:
+
 	step 63, 3
 	step 1, 1
 	step 63, 3
 	step 13, 3
 	step_end
 
-	.align 4
 _0440:
+
 	step 63, 4
 	step 35, 1
 	step_end
 
-	.align 4
 _044C:
+
 	step 75, 1
 	step 63, 2
 	step_end
 
-	.align 4
 _0458:
+
 	step 1, 1
 	step 2, 1
 	step 0, 1
@@ -389,8 +390,8 @@ _0458:
 	step 3, 1
 	step_end
 
-	.align 4
 _047C:
+
 	step 1, 1
 	step 2, 1
 	step 0, 1
@@ -401,13 +402,8 @@ _047C:
 	step 3, 1
 	step_end
 
-	.align 4
-_04A0:
-	step 15, 1
-	step_end
-
-	.align 4
 _04A8:
+
 	step 71, 1
 	step 10, 1
 	step 72, 1
@@ -424,15 +420,15 @@ _04A8:
 	step 18, 4
 	step_end
 
-	.align 4
 _04E4:
+
 	step 13, 3
 	step 15, 2
 	step 51, 2
 	step_end
 
-	.align 4
 _04F4:
+
 	step 1, 1
 	step 17, 1
 	step 19, 2
@@ -441,7 +437,6 @@ _04F4:
 	step 16, 13
 	step 18, 5
 	step_end
-
 scr_seq_D35R0104_004:
 	compare VAR_UNK_40AC, 4
 	goto_if_ge _055F
@@ -468,19 +463,16 @@ _0561:
 	releaseall
 	end
 
-	.align 4
+
 _056C:
+
 	step 14, 3
 	step_end
-
 scr_seq_D35R0104_005:
 	simple_npc_msg 8
 	setflag FLAG_UNK_0D3
 	end
 	.align 4
-
-
-
 
 
 .close

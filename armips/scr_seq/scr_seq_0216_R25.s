@@ -114,7 +114,7 @@ scr_seq_R25_008:
 
 _012E:
 	setflag FLAG_HIDE_ROUTE_25_SUICUNE
-	hide_person obj_R25_tsure_poke_static_suicune
+	hide_person obj_R25_follower_mon_static_suicune
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -194,16 +194,17 @@ _0271:
 	releaseall
 	end
 
-	.align 4
+
 _029C:
+
 	step 63, 1
 	step 2, 1
 	step 66, 2
 	step 0, 1
 	step_end
 
-	.align 4
 _02B0:
+
 	step 66, 1
 	step 0, 1
 	step 75, 1
@@ -212,8 +213,8 @@ _02B0:
 	step 17, 8
 	step_end
 
-	.align 4
 _02CC:
+
 	step 66, 1
 	step 0, 1
 	step 75, 1
@@ -222,8 +223,8 @@ _02CC:
 	step 17, 8
 	step_end
 
-	.align 4
 _02E8:
+
 	step 66, 1
 	step 0, 1
 	step 75, 1
@@ -232,14 +233,14 @@ _02E8:
 	step 17, 9
 	step_end
 
-	.align 4
 _0304:
+
 	step 65, 6
 	step 1, 1
 	step_end
 
-	.align 4
 _0310:
+
 	step 65, 6
 	step 0, 1
 	step 63, 1
@@ -248,64 +249,63 @@ _0310:
 	step 1, 1
 	step_end
 
-	.align 4
 _032C:
+
 	step 12, 7
 	step 14, 2
 	step_end
 
-	.align 4
 _0338:
+
 	step 12, 6
 	step 14, 2
 	step_end
 
-	.align 4
 _0344:
+
 	step 12, 5
 	step 14, 2
 	step_end
 
-	.align 4
 _0350:
+
 	step 65, 3
 	step 3, 1
 	step_end
 
-	.align 4
 _035C:
+
 	step 13, 1
 	step 14, 11
 	step_end
 
-	.align 4
 _0368:
+
 	step 13, 1
 	step 14, 11
 	step_end
 
-	.align 4
 _0374:
+
 	step 12, 1
 	step 14, 11
 	step_end
 
-	.align 4
 _0380:
+
 	step 63, 1
 	step 1, 1
 	step 63, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _0394:
+
 	step 63, 1
 	step 0, 1
 	step 62, 1
 	step 2, 1
 	step_end
-
 scr_seq_R25_009:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -357,7 +357,6 @@ _043A:
 _044B:
 	npc_msg 5
 	goto _03D3
-	end
 
 _0456:
 	player_on_bike_check VAR_SPECIAL_RESULT
@@ -455,9 +454,9 @@ scr_seq_R25_004:
 	apply_movement obj_player, _0648
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	release obj_R25_tsure_poke_static_suicune
-	scrcmd_523 obj_R25_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_R25_tsure_poke_static_suicune
+	release obj_R25_follower_mon_static_suicune
+	scrcmd_523 obj_R25_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_R25_follower_mon_static_suicune
 	wait_cry
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
@@ -498,59 +497,59 @@ _05F7:
 	releaseall
 	end
 
-	.align 4
+
 _0648:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0650:
+
 	step 15, 3
 	step 0, 1
 	step_end
 
-	.align 4
 _065C:
+
 	step 15, 1
 	step 12, 1
 	step 15, 2
 	step 0, 1
 	step_end
 
-	.align 4
 _0670:
+
 	step 15, 1
 	step 12, 2
 	step 15, 2
 	step 0, 1
 	step_end
 
-	.align 4
 _0684:
+
 	step 65, 1
 	step 0, 1
 	step_end
 
-	.align 4
 _0690:
+
 	step 63, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _069C:
+
 	step 19, 8
 	step 15, 3
 	step 7, 1
 	step 0, 1
 	step_end
 
-	.align 4
 _06B0:
+
 	step 15, 1
 	step 12, 2
 	step_end
-
 scr_seq_R25_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -574,9 +573,9 @@ scr_seq_R25_007:
 	lockall
 	faceplayer
 	play_cry SPECIES_SUICUNE, 0
-	release obj_R25_tsure_poke_static_suicune
-	scrcmd_523 obj_R25_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_R25_tsure_poke_static_suicune
+	release obj_R25_follower_mon_static_suicune
+	scrcmd_523 obj_R25_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_R25_follower_mon_static_suicune
 	wait_cry
 	setflag FLAG_ENGAGING_STATIC_POKEMON
 	wild_battle SPECIES_SUICUNE, 40, 0
@@ -636,28 +635,22 @@ _07B6:
 	goto_if_set FLAG_HIDE_ROUTE_25_EUSINE_2, _0766
 	goto _0786
 
-	.align 4
-_07E0:
-	step 1, 1
-	step 63, 2
-	step_end
 
-	.align 4
 _07EC:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _07F4:
+
 	step 63, 2
 	step 2, 1
 	step_end
 
-	.align 4
 _0800:
+
 	step 14, 11
 	step_end
-
 scr_seq_R25_002:
 	scrcmd_055 2, 0
 	scrcmd_057 3
@@ -666,9 +659,6 @@ scr_seq_R25_002:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

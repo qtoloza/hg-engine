@@ -134,56 +134,56 @@ _0197:
 	releaseall
 	end
 
-	.align 4
+
 _01BC:
+
 	step 12, 2
 	step 15, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _01CC:
+
 	step 12, 3
 	step_end
 
-	.align 4
 _01D4:
+
 	step 12, 2
 	step 14, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _01E4:
+
 	step 12, 2
 	step 14, 2
 	step 12, 1
 	step_end
 
-	.align 4
 _01F4:
+
 	step 75, 1
 	step 12, 1
 	step 65, 1
 	step_end
 
-	.align 4
 _0204:
+
 	step 13, 1
 	step_end
 
-	.align 4
 _020C:
+
 	step 1, 1
 	step 75, 1
 	step 33, 2
 	step_end
 
-	.align 4
 _021C:
+
 	step 12, 1
 	step_end
-
 scr_seq_T20R0101_012:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -277,34 +277,34 @@ _035D:
 	releaseall
 	end
 
-	.align 4
+
 _0368:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _0370:
+
 	step 13, 2
 	step 14, 4
 	step 32, 1
 	step_end
 
-	.align 4
 _0380:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0388:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0390:
+
 	step 65, 1
 	step 33, 1
 	step_end
-
 scr_seq_T20R0101_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -317,7 +317,7 @@ _03BA:
 	goto_if_eq _03F5
 	get_party_lead_alive VAR_TEMP_x4000
 	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, SPECIES_PICHU
+	compare VAR_TEMP_x4001, 172
 	goto_if_ne _03F5
 	get_partymon_forme VAR_TEMP_x4000, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
@@ -468,12 +468,6 @@ _05D9:
 	gender_msgbox 104, 105
 	goto _05F2
 
-// This script contains a programming mistake where if the player has
-// no space in their bag, the Everstone from Elm is permanently lost.
-// This is unlike every other script for obtaining an item from someone,
-// which all attempt to give the item until the player can accept it.
-// FLAG_GOT_EVERSTONE_FROM_ELM is set here but no code in the game ever
-// checks what it is, meaning that flag is useless.
 _05EE:
 	gender_msgbox 47, 48
 _05F2:
@@ -496,22 +490,18 @@ _0637:
 	setvar VAR_TEMP_x400F, 1
 	goto _04A1
 
-_064A:
-	releaseall
-	end
-
 _064E:
 	callstd std_bag_is_full
 	closemsg
 	releaseall
 	end
 
-	.align 4
+
 _0658:
+
 	step 75, 1
 	step 62, 1
 	step_end
-
 scr_seq_T20R0101_003:
 	scrcmd_609
 	lockall
@@ -542,7 +532,7 @@ _06D4:
 	buffer_players_name 0
 	gender_msgbox 19, 20
 	goto_if_no_item_space ITEM_POTION, 5, _0805
-	setvar VAR_SPECIAL_x8004, ITEM_POTION
+	setvar VAR_SPECIAL_x8004, 17
 	setvar VAR_SPECIAL_x8005, 5
 	callstd std_obtain_item_verbose
 	closemsg
@@ -626,63 +616,58 @@ _080F:
 	releaseall
 	end
 
-	.align 4
+
 _081C:
+
 	step 75, 1
 	step 78, 6
 	step 32, 1
 	step_end
 
-	.align 4
 _082C:
+
 	step 75, 1
 	step 78, 5
 	step 32, 1
 	step_end
 
-	.align 4
 _083C:
+
 	step 75, 1
 	step 78, 4
 	step 32, 1
 	step_end
 
-	.align 4
 _084C:
+
 	step 75, 1
 	step 78, 3
 	step 32, 1
 	step_end
 
-	.align 4
-_085C:
-	step 3, 1
-	step_end
-
-	.align 4
 _0864:
+
 	step 79, 6
 	step 34, 1
 	step_end
 
-	.align 4
 _0870:
+
 	step 79, 5
 	step 34, 1
 	step_end
 
-	.align 4
 _087C:
+
 	step 79, 4
 	step 34, 1
 	step_end
 
-	.align 4
 _0888:
+
 	step 79, 3
 	step 34, 1
 	step_end
-
 scr_seq_T20R0101_002:
 	scrcmd_609
 	lockall
@@ -795,32 +780,32 @@ _0A59:
 	npc_msg 29
 	closemsg
 	goto _0904
-	end
 
-	.align 4
+
 _0A68:
+
 	step 76, 8
 	step 2, 1
 	step_end
 
-	.align 4
 _0A74:
+
 	step 0, 1
 	step_end
 
-	.align 4
 _0A7C:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0A84:
+
 	step 63, 4
 	step 33, 1
 	step_end
 
-	.align 4
 _0A90:
+
 	step 75, 1
 	step 60, 1
 	step 1, 1
@@ -833,8 +818,8 @@ _0A90:
 	step 63, 2
 	step_end
 
-	.align 4
 _0ABC:
+
 	step 1, 1
 	step 62, 1
 	step 13, 6
@@ -844,15 +829,15 @@ _0ABC:
 	step 13, 2
 	step_end
 
-	.align 4
 _0ADC:
+
 	step 16, 6
 	step 18, 1
 	step 48, 2
 	step_end
 
-	.align 4
 _0AEC:
+
 	step 2, 1
 	step 71, 1
 	step 15, 1
@@ -861,52 +846,51 @@ _0AEC:
 	step 1, 1
 	step_end
 
-	.align 4
 _0B08:
+
 	step 14, 1
 	step 12, 2
 	step 35, 1
 	step_end
 
-	.align 4
 _0B18:
+
 	step 1, 1
 	step 13, 6
 	step 15, 1
 	step 13, 2
 	step_end
 
-	.align 4
 _0B2C:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0B34:
+
 	step 49, 1
 	step 71, 1
 	step 80, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0B48:
+
 	step 77, 1
 	step_end
 
-	.align 4
 _0B50:
+
 	step 0, 1
 	step 8, 1
 	step 64, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _0B64:
+
 	step 77, 1
 	step_end
-
 scr_seq_T20R0101_014:
 	scrcmd_609
 	lockall
@@ -973,55 +957,55 @@ _0BF3:
 	setvar VAR_UNK_407B, 2
 	end
 
-	.align 4
+
 _0C78:
+
 	step 2, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0C84:
+
 	step 78, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0C90:
+
 	step 12, 5
 	step 15, 1
 	step 12, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0CA4:
+
 	step 12, 7
 	step_end
 
-	.align 4
 _0CAC:
+
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0CB8:
+
 	step 63, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0CC4:
+
 	step 77, 3
 	step 78, 1
 	step 77, 4
 	step_end
 
-	.align 4
 _0CD4:
+
 	step 32, 1
 	step_end
-
 _0CDC:
 	compare VAR_TEMP_x4006, 1
 	goto_if_eq _0DD2
@@ -1142,89 +1126,90 @@ _0EA8:
 	following_pokemon_movement 48
 	return
 
-	.align 4
+
 _0EB8:
+
 	step 13, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0EC4:
+
 	step 13, 2
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0ED4:
+
 	step 13, 2
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0EE4:
+
 	step 14, 1
 	step 13, 3
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0EF8:
+
 	step 15, 1
 	step 13, 3
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0F0C:
+
 	step 15, 1
 	step 13, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0F1C:
+
 	step 13, 1
 	step 15, 2
 	step 12, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0F30:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0F38:
+
 	step 49, 1
 	step 65, 1
 	step 48, 1
 	step_end
 
-	.align 4
 _0F48:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0F50:
+
 	step 13, 1
 	step 15, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0F60:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _0F6C:
+
 	step 12, 1
 	step 14, 2
 	step 32, 1
@@ -1237,8 +1222,8 @@ _0F6C:
 	step 63, 2
 	step_end
 
-	.align 4
 _0F98:
+
 	step 12, 1
 	step 63, 2
 	step 71, 1
@@ -1249,31 +1234,29 @@ _0F98:
 	step 63, 2
 	step_end
 
-	.align 4
 _0FBC:
+
 	step 12, 1
 	step 14, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0FCC:
+
 	step 13, 1
 	step 15, 2
 	step 33, 1
 	step_end
 
-	.align 4
 _0FDC:
+
 	step 13, 1
 	step_end
-
 _0FE4:
 	mon_get_friendship VAR_SPECIAL_RESULT, VAR_TEMP_x4000
 	compare VAR_SPECIAL_RESULT, 220
 	goto_if_ge _0FFF
 	goto _03F5
-	end
 
 _0FFF:
 	call _0DE3
@@ -1401,22 +1384,20 @@ scr_seq_T20R0101_015:
 	releaseall
 	end
 
-	.align 4
+
 _113C:
+
 	step 14, 5
 	step 13, 1
 	step_end
 
-	.align 4
 _1148:
+
 	step 12, 1
 	step 15, 5
 	step 33, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

@@ -68,7 +68,4 @@ scr_seq_T04R0301_003:
 	.align 4
 
 
-
-
-
 .close

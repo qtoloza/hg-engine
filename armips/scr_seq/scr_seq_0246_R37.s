@@ -150,7 +150,4 @@ scr_seq_R37_003:
 	.align 4
 
 
-
-
-
 .close

@@ -52,7 +52,7 @@ _0035:
 	goto _0095
 
 _0059:
-	follower_poke_is_event_trigger EVENT_ARCEUS_HALL_OF_ORIGIN, VAR_TEMP_x4005, VAR_TEMP_x4007
+	follower_poke_is_event_trigger 1, VAR_TEMP_x4005, VAR_TEMP_x4007
 	compare VAR_TEMP_x4007, 1
 	call_if_eq _0097
 	nop_var_490 VAR_TEMP_x4005
@@ -60,7 +60,7 @@ _0059:
 	end
 
 _0077:
-	follower_poke_is_event_trigger EVENT_ARCEUS_MOVIE_GIFT, VAR_TEMP_x4005, VAR_TEMP_x4006
+	follower_poke_is_event_trigger 2, VAR_TEMP_x4005, VAR_TEMP_x4006
 	compare VAR_TEMP_x4006, 1
 	call_if_eq _0097
 	nop_var_490 VAR_TEMP_x4005
@@ -123,14 +123,15 @@ scr_seq_D24R0218_001:
 	releaseall
 	end
 
-	.align 4
+
 _0178:
+
 	step 14, 4
 	step 35, 1
 	step_end
 
-	.align 4
 _0184:
+
 	step 75, 1
 	step 63, 1
 	step 16, 3
@@ -142,8 +143,8 @@ _0184:
 	step 72, 1
 	step_end
 
-	.align 4
 _01AC:
+
 	step 35, 1
 	step 63, 1
 	step 34, 1
@@ -151,11 +152,10 @@ _01AC:
 	step 33, 1
 	step_end
 
-	.align 4
 _01C4:
+
 	step 14, 4
 	step_end
-
 scr_seq_D24R0218_002:
 	scrcmd_609
 	lockall
@@ -184,8 +184,9 @@ scr_seq_D24R0218_002:
 	releaseall
 	end
 
-	.align 4
+
 _0230:
+
 	step 63, 1
 	step 34, 1
 	step 75, 1
@@ -193,26 +194,25 @@ _0230:
 	step 18, 3
 	step_end
 
-	.align 4
 _0248:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0250:
+
 	step 15, 10
 	step_end
 
-	.align 4
 _0258:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0260:
+
 	step 15, 1
 	step_end
-
 scr_seq_D24R0218_003:
 	scrcmd_609
 	lockall
@@ -254,21 +254,21 @@ scr_seq_D24R0218_003:
 	releaseall
 	end
 
-	.align 4
+
 _0324:
+
 	step 14, 1
 	step 13, 1
 	step_end
 
-	.align 4
 _0330:
+
 	step 35, 1
 	step 63, 1
 	step 34, 1
 	step 63, 1
 	step 33, 1
 	step_end
-
 scr_seq_D24R0218_006:
 	scrcmd_609
 	lockall
@@ -289,11 +289,11 @@ scr_seq_D24R0218_005:
 _0387:
 	end
 
-	.align 4
+
 _038C:
+
 	step 68, 1
 	step_end
-
 scr_seq_D24R0218_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -303,9 +303,6 @@ scr_seq_D24R0218_000:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

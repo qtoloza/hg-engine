@@ -38,7 +38,7 @@ scr_seq_D11R0105_001:
 
 _0017:
 	setflag FLAG_HIDE_SEAFOAM_ISLAND_ARTICUNO
-	hide_person obj_D11R0105_tsure_poke_static_articuno
+	hide_person obj_D11R0105_follower_mon_static_articuno
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -72,9 +72,6 @@ _007D:
 	setflag FLAG_CAUGHT_ARTICUNO
 	return
 	.align 4
-
-
-
 
 
 .close

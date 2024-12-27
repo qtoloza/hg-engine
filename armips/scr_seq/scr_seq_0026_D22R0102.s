@@ -159,7 +159,4 @@ scr_seq_D22R0102_002:
 	.align 4
 
 
-
-
-
 .close

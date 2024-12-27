@@ -88,19 +88,14 @@ _0071:
 	releaseall
 	end
 
-_00F5:
-	callstd std_bag_is_full
-	closemsg
-	releaseall
-	end
 
-	.align 4
 _0100:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _0108:
+
 	step 34, 1
 	step 61, 1
 	step 34, 1
@@ -108,11 +103,10 @@ _0108:
 	step 34, 1
 	step_end
 
-	.align 4
 _0120:
+
 	step 0, 1
 	step_end
-
 scr_seq_R10R0202_007:
 	scrcmd_609
 	lockall
@@ -142,8 +136,9 @@ scr_seq_R10R0202_007:
 	releaseall
 	end
 
-	.align 4
+
 _0198:
+
 	step 75, 1
 	step 13, 1
 	step 15, 2
@@ -152,8 +147,8 @@ _0198:
 	step 12, 2
 	step_end
 
-	.align 4
 _01B4:
+
 	step 66, 2
 	step 12, 1
 	step 1, 1
@@ -161,33 +156,32 @@ _01B4:
 	step 3, 1
 	step_end
 
-	.align 4
 _01CC:
+
 	step 66, 4
 	step 1, 1
 	step_end
 
-	.align 4
 _01D8:
+
 	step 13, 2
 	step 14, 5
 	step 0, 1
 	step_end
 
-	.align 4
 _01E8:
+
 	step 13, 3
 	step 14, 2
 	step 12, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _01FC:
+
 	step 63, 7
 	step 1, 1
 	step_end
-
 scr_seq_R10R0202_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -288,9 +282,6 @@ scr_seq_R10R0202_009:
 	simple_npc_msg 19
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -92,11 +92,6 @@ _00E4:
 _00E8:
 	end
 
-	.align 4
-_00EC:
-	step 75, 1
-	step_end
-
 scr_seq_T26_000:
 	end
 
@@ -196,94 +191,95 @@ _029C:
 	releaseall
 	end
 
-	.align 4
+
 _02B4:
+
 	step 13, 1
 	step 64, 1
 	step_end
 
-	.align 4
 _02C0:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _02CC:
+
 	step 1, 2
 	step 15, 2
 	step 64, 1
 	step_end
 
-	.align 4
 _02DC:
+
 	step 13, 1
 	step 1, 2
 	step 15, 2
 	step 64, 1
 	step_end
 
-	.align 4
 _02F0:
+
 	step 13, 2
 	step 1, 2
 	step 15, 2
 	step 64, 1
 	step_end
 
-	.align 4
 _0304:
+
 	step 13, 3
 	step 1, 2
 	step 15, 2
 	step 64, 1
 	step_end
 
-	.align 4
 _0318:
+
 	step 13, 4
 	step 1, 2
 	step 15, 2
 	step 64, 1
 	step_end
 
-	.align 4
 _032C:
+
 	step 15, 6
 	step 0, 2
 	step 12, 10
 	step_end
 
-	.align 4
 _033C:
+
 	step 15, 6
 	step 0, 2
 	step 12, 11
 	step_end
 
-	.align 4
 _034C:
+
 	step 15, 6
 	step 0, 2
 	step 12, 12
 	step_end
 
-	.align 4
 _035C:
+
 	step 15, 6
 	step 0, 2
 	step 12, 13
 	step_end
 
-	.align 4
 _036C:
+
 	step 15, 6
 	step 0, 2
 	step 12, 14
 	step_end
 
-	.align 4
 _037C:
+
 	step 0, 2
 	step 71, 1
 	step 77, 1
@@ -294,8 +290,8 @@ _037C:
 	step 32, 1
 	step_end
 
-	.align 4
 _03A0:
+
 	step 1, 2
 	step 71, 1
 	step 76, 1
@@ -306,8 +302,8 @@ _03A0:
 	step 32, 1
 	step_end
 
-	.align 4
 _03C4:
+
 	step 0, 2
 	step 71, 1
 	step 77, 1
@@ -316,14 +312,13 @@ _03C4:
 	step 34, 1
 	step_end
 
-	.align 4
 _03E0:
+
 	step 1, 2
 	step 71, 1
 	step 76, 1
 	step 72, 1
 	step_end
-
 scr_seq_T26_011:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -409,8 +404,9 @@ _0530:
 	releaseall
 	end
 
-	.align 4
+
 _0544:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -418,41 +414,40 @@ _0544:
 	step 33, 1
 	step_end
 
-	.align 4
 _055C:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0568:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _057C:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0590:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _059C:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T26_004:
 	scrcmd_055 2, 0
 	scrcmd_057 3
@@ -497,9 +492,6 @@ scr_seq_T26_010:
 	simple_npc_msg 4
 	end
 	.align 4
-
-
-
 
 
 .close

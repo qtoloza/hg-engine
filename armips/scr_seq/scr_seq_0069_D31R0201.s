@@ -123,7 +123,6 @@ scr_seq_D31R0201_006:
 	setvar VAR_TEMP_x4001, 0
 	scrcmd_414 VAR_TEMP_x4002
 	goto _0167
-	end
 
 _0167:
 	switch VAR_TEMP_x4002
@@ -133,7 +132,6 @@ _0167:
 	case 4, _01CF
 	npc_msg 15
 	goto _01AC
-	end
 
 _01AC:
 	wait_button_or_walk_away
@@ -146,30 +144,25 @@ _01AC:
 _01C1:
 	call _0872
 	goto _0860
-	end
 
 _01CF:
 	npc_msg 89
 	goto _01AC
-	end
 
 _01DA:
 	buffer_int 0, 20
 	setvar VAR_SPECIAL_x8004, 85
 	goto _0213
-	end
 
 _01ED:
 	buffer_int 0, 50
 	setvar VAR_SPECIAL_x8004, 86
 	goto _0213
-	end
 
 _0200:
 	buffer_int 0, 100
 	setvar VAR_SPECIAL_x8004, 87
 	goto _0213
-	end
 
 _0213:
 	npc_msg 88
@@ -191,7 +184,6 @@ _024A:
 _024E:
 	npc_msg 15
 	goto _01AC
-	end
 
 scr_seq_D31R0201_000:
 	scrcmd_609
@@ -200,7 +192,6 @@ scr_seq_D31R0201_000:
 	scrcmd_409
 	npc_msg 0
 	goto _026E
-	end
 
 _026E:
 	npc_msg 1
@@ -210,12 +201,10 @@ _026E:
 	case 1, _02A1
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _02A1:
 	npc_msg 3
 	goto _026E
-	end
 
 _02AC:
 	touchscreen_menu_hide
@@ -238,12 +227,10 @@ _02D2:
 	case 1, _0356
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _0321:
 	scrcmd_410 0, 0
 	goto _032F
-	end
 
 _032F:
 	scrcmd_412 1, 0, VAR_SPECIAL_RESULT
@@ -252,7 +239,6 @@ _032F:
 	touchscreen_menu_show
 	scrcmd_444 91, 3, 0, 0
 	goto _085E
-	end
 
 _0356:
 	scrcmd_410 0, 1
@@ -262,7 +248,6 @@ _0356:
 	touchscreen_menu_show
 	scrcmd_444 91, 4, 0, 0
 	goto _085E
-	end
 
 _0383:
 	npc_msg 8
@@ -289,7 +274,6 @@ _0383:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _0A97
 	goto _04F6
-	end
 
 _042F:
 	npc_msg 8
@@ -320,7 +304,6 @@ _042F:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _0A97
 	goto _04F6
-	end
 
 _04F6:
 	call _00F9
@@ -335,7 +318,6 @@ _04F6:
 	npc_msg 11
 	wait_button
 	goto _06CD
-	end
 
 _053A:
 	callstd std_prompt_save
@@ -346,13 +328,11 @@ _0546:
 	npc_msg 9
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _0553:
 	npc_msg 10
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _0560:
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -387,7 +367,6 @@ scr_seq_D31R0201_004:
 	npc_msg 11
 	wait_button
 	goto _06CD
-	end
 
 _05FD:
 	call _062C
@@ -398,7 +377,6 @@ _05FD:
 	npc_msg 32
 	wait_button
 	goto _06CD
-	end
 
 _062C:
 	setvar VAR_UNK_414B, 255
@@ -420,7 +398,6 @@ scr_seq_D31R0201_005:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _069A
 	goto _0855
-	end
 
 _068A:
 	setvar VAR_BATTLE_TOWER_PRINT_PROGRESS, 0
@@ -439,7 +416,6 @@ _069A:
 	buffer_int 0, VAR_SPECIAL_x8000
 	npc_msg 65
 	goto _0855
-	end
 
 _06CD:
 	closemsg
@@ -450,40 +426,34 @@ _06CD:
 	case 2, _074D
 	case 3, _0767
 	goto _0719
-	end
 
 _0719:
 	setvar VAR_TEMP_x4002, 0
 	setvar VAR_TEMP_x4003, 15
 	call _078F
 	goto _0829
-	end
 
 _0733:
 	setvar VAR_TEMP_x4002, 2
 	setvar VAR_TEMP_x4003, 19
 	call _078F
 	goto _0829
-	end
 
 _074D:
 	setvar VAR_TEMP_x4002, 1
 	setvar VAR_TEMP_x4003, 11
 	call _078F
 	goto _07CF
-	end
 
 _0767:
 	setvar VAR_TEMP_x4002, 1
 	setvar VAR_TEMP_x4003, 11
 	call _078F
 	goto _0781
-	end
 
 _0781:
 	setvar VAR_UNK_414D, 2
 	goto _0829
-	end
 
 _078F:
 	apply_movement VAR_TEMP_x4002, _1348
@@ -502,7 +472,6 @@ _078F:
 
 _07CF:
 	goto _0829
-	end
 
 scr_seq_D31R0201_007:
 	scrcmd_609
@@ -514,7 +483,6 @@ scr_seq_D31R0201_007:
 	npc_msg 56
 	call _0817
 	goto _0855
-	end
 
 _0807:
 	call _0890
@@ -585,14 +553,12 @@ scr_seq_D31R0201_002:
 	goto_if_eq _09F7
 	npc_msg 36
 	goto _08E6
-	end
 
 _08E6:
 	scrcmd_412 15, 0, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0974
 	goto _0903
-	end
 
 _0903:
 	npc_msg 37
@@ -609,12 +575,10 @@ _0903:
 	case 2, _0969
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _0969:
 	npc_msg 38
 	goto _08E6
-	end
 
 _0974:
 	npc_msg 37
@@ -626,7 +590,6 @@ _0974:
 	case 3, _0969
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _09C1:
 	touchscreen_menu_hide
@@ -654,7 +617,6 @@ _09F7:
 	goto_if_ne _085B
 	npc_msg 60
 	goto _085B
-	end
 
 _0A42:
 	closemsg
@@ -692,7 +654,6 @@ _0A97:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _0855
 	goto _0ADF
-	end
 
 _0ADF:
 	npc_msg 47
@@ -736,17 +697,14 @@ _0B46:
 	npc_msg 52
 	wait_button
 	goto _0860
-	end
 
 _0B97:
 	scrcmd_410 0, 4
 	goto _032F
-	end
 
 _0BA5:
 	scrcmd_410 0, 5
 	goto _032F
-	end
 
 _0BB3:
 	apply_movement obj_player, _1378
@@ -760,7 +718,6 @@ scr_seq_D31R0201_001:
 	scrcmd_409
 	npc_msg 20
 	goto _0BD4
-	end
 
 _0BD4:
 	npc_msg 21
@@ -770,12 +727,10 @@ _0BD4:
 	case 1, _0C07
 	touchscreen_menu_show
 	goto _085B
-	end
 
 _0C07:
 	npc_msg 23
 	goto _0BD4
-	end
 
 _0C12:
 	scrcmd_412 1, 2, VAR_SPECIAL_RESULT
@@ -784,7 +739,6 @@ _0C12:
 	touchscreen_menu_show
 	scrcmd_444 91, 2, 0, 0
 	goto _085E
-	end
 
 _0C39:
 	npc_msg 26
@@ -792,19 +746,16 @@ _0C39:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0C69
 	goto _0C55
-	end
 
 _0C55:
 	scrcmd_410 0, 2
 	setvar VAR_TEMP_x4001, 0
 	goto _0C7D
-	end
 
 _0C69:
 	scrcmd_410 0, 3
 	setvar VAR_TEMP_x4001, 1
 	goto _0C7D
-	end
 
 _0C7D:
 	npc_msg 8
@@ -836,7 +787,6 @@ _0C7D:
 	scrcmd_412 52, 0, 0
 	npc_msg 35
 	goto _06CD
-	end
 
 _0D40:
 	heal_party
@@ -856,7 +806,6 @@ _0D55:
 	case 1, _0DFE
 	touchscreen_menu_show
 	goto _0855
-	end
 
 _0DA6:
 	npc_msg 112
@@ -872,16 +821,13 @@ _0DA6:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0DF4
 	goto _0E56
-	end
 
 _0DEC:
 	goto _0D55
-	end
 
 _0DF4:
 	scrcmd_283
 	goto _0D55
-	end
 
 _0DFE:
 	npc_msg 112
@@ -897,23 +843,19 @@ _0DFE:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0E4C
 	goto _0E56
-	end
 
 _0E44:
 	goto _0D55
-	end
 
 _0E4C:
 	scrcmd_283
 	goto _0D55
-	end
 
 _0E56:
 	scrcmd_258
 	scrcmd_257 1
 	scrcmd_412 58, 0, 0
 	goto _0E6C
-	end
 
 _0E6C:
 	scrcmd_416 0, 0, VAR_SPECIAL_RESULT
@@ -932,7 +874,6 @@ _0E6C:
 	goto_if_eq _0F84
 	scrcmd_417 1, VAR_TEMP_x4000
 	goto _0F52
-	end
 
 _0EE1:
 	call _0F48
@@ -940,7 +881,6 @@ _0EE1:
 	buffer_mon_species_name 0, VAR_SPECIAL_RESULT
 	npc_msg 33
 	goto _0855
-	end
 
 _0EFF:
 	call _0F48
@@ -948,7 +888,6 @@ _0EFF:
 	buffer_mon_species_name 0, VAR_SPECIAL_RESULT
 	npc_msg 33
 	goto _0855
-	end
 
 _0F1D:
 	call _0F48
@@ -958,7 +897,6 @@ _0F1D:
 	buffer_mon_species_name 1, VAR_SPECIAL_RESULT
 	npc_msg 34
 	goto _0855
-	end
 
 _0F48:
 	scrcmd_258
@@ -978,20 +916,17 @@ _0F52:
 	scrcmd_258
 	scrcmd_257 3
 	goto _06CD
-	end
 
 _0F84:
 	scrcmd_412 52, 0, 0
 	scrcmd_412 58, 0, 0
 	goto _0F9C
-	end
 
 _0F9C:
 	scrcmd_416 1, 0, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0F9C
 	goto _0F52
-	end
 
 scr_seq_D31R0201_003:
 	scrcmd_609
@@ -1006,7 +941,6 @@ scr_seq_D31R0201_003:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _107A
 	goto _1001
-	end
 
 _1001:
 	npc_msg 53
@@ -1019,7 +953,6 @@ _1001:
 	compare VAR_SPECIAL_RESULT, 1
 	call_if_eq _106F
 	goto _104F
-	end
 
 _104F:
 	npc_msg 56
@@ -1028,7 +961,6 @@ _104F:
 	compare VAR_TEMP_x4000, 0
 	goto_if_eq _1286
 	goto _0855
-	end
 
 _106F:
 	npc_msg 73
@@ -1050,7 +982,6 @@ _107A:
 	goto_if_ne _10D2
 	call _1263
 	goto _1273
-	end
 
 _10D2:
 	npc_msg 12
@@ -1058,7 +989,6 @@ _10D2:
 	play_fanfare SEQ_ME_LVUP
 	wait_fanfare
 	goto _1273
-	end
 
 _10E6:
 	npc_msg 12
@@ -1066,7 +996,6 @@ _10E6:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _115A
 	goto _1106
-	end
 
 _1106:
 	scrcmd_412 10, 0, VAR_SPECIAL_RESULT
@@ -1075,14 +1004,12 @@ _1106:
 	buffer_int 1, VAR_TEMP_x4000
 	npc_msg 55
 	goto _1127
-	end
 
 _1127:
 	scrcmd_412 49, 0, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _12F1
 	goto _1144
-	end
 
 _1144:
 	buffer_int 0, VAR_TEMP_x4000
@@ -1090,14 +1017,12 @@ _1144:
 	play_fanfare SEQ_ME_LVUP
 	wait_fanfare
 	goto _12F1
-	end
 
 _115A:
 	scrcmd_412 49, 0, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _12F1
 	goto _1177
-	end
 
 _1177:
 	buffer_int 0, VAR_TEMP_x4000
@@ -1105,19 +1030,16 @@ _1177:
 	play_fanfare SEQ_ME_LVUP
 	wait_fanfare
 	goto _12F1
-	end
 
 _118D:
 	scrcmd_412 45, 0, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11AA
 	goto _11F1
-	end
 
 _11AA:
 	call _1263
 	goto _11B8
-	end
 
 _11B8:
 	npc_msg 14
@@ -1131,7 +1053,6 @@ _11B8:
 	setvar VAR_TEMP_x4001, 1
 	call _0BB3
 	goto _0167
-	end
 
 _11F1:
 	compare VAR_BATTLE_TOWER_PRINT_PROGRESS, 1
@@ -1145,7 +1066,6 @@ _11F1:
 	play_fanfare SEQ_ME_LVUP
 	wait_fanfare
 	goto _11B8
-	end
 
 _1231:
 	npc_msg 85
@@ -1173,14 +1093,12 @@ _1263:
 _1268:
 	npc_msg 54
 	goto _1273
-	end
 
 _1273:
 	npc_msg 14
 	call _0817
 	closemsg
 	goto _0855
-	end
 
 _1286:
 	scrcmd_414 VAR_SPECIAL_RESULT
@@ -1192,14 +1110,12 @@ _1286:
 	setvar VAR_TEMP_x4001, 1
 	call _0BB3
 	goto _0167
-	end
 
 _12B6:
 	scrcmd_412 9, 0, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _12D3
 	goto _12F1
-	end
 
 _12D3:
 	scrcmd_412 10, 0, VAR_SPECIAL_RESULT
@@ -1207,12 +1123,10 @@ _12D3:
 	buffer_int 0, VAR_SPECIAL_x8000
 	npc_msg 65
 	goto _12F1
-	end
 
 _12F1:
 	scrcmd_412 11, 1, 0
 	goto _1301
-	end
 
 _1301:
 	call _0872
@@ -1229,37 +1143,36 @@ _1301:
 	goto_if_ne _085B
 	npc_msg 60
 	goto _085B
-	end
 
-	.align 4
+
 _1348:
+
 	step 62, 1
 	step 12, 2
 	step_end
 
-	.align 4
 _1354:
+
 	step 12, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _1360:
+
 	step 62, 1
 	step 12, 2
 	step_end
 
-	.align 4
 _136C:
+
 	step 12, 2
 	step 69, 1
 	step_end
 
-	.align 4
 _1378:
+
 	step 3, 1
 	step_end
-
 scr_seq_D31R0201_009:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1363,7 +1276,6 @@ scr_seq_D31R0201_023:
 	call_if_set FLAG_GOT_JUDGE_EXPLANATION, _1593
 	setflag FLAG_GOT_JUDGE_EXPLANATION
 	goto _1506
-	end
 
 _1506:
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -1402,12 +1314,10 @@ _1593:
 _1598:
 	npc_msg 117
 	goto _1506
-	end
 
 _15A3:
 	non_npc_msg_var VAR_SPECIAL_x8002
 	goto _15AF
-	end
 
 _15AF:
 	compare VAR_SPECIAL_x8003, 15
@@ -1423,42 +1333,34 @@ _15AF:
 _15E5:
 	npc_msg 118
 	goto _15A3
-	end
 
 _15F0:
 	npc_msg 119
 	goto _15A3
-	end
 
 _15FB:
 	npc_msg 120
 	goto _15A3
-	end
 
 _1606:
 	npc_msg 121
 	goto _15A3
-	end
 
 _1611:
 	npc_msg 128
 	goto _163D
-	end
 
 _161C:
 	npc_msg 129
 	goto _163D
-	end
 
 _1627:
 	npc_msg 130
 	goto _163D
-	end
 
 _1632:
 	npc_msg 131
 	goto _163D
-	end
 
 _163D:
 	wait_button_or_walk_away
@@ -1473,9 +1375,6 @@ _1645:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

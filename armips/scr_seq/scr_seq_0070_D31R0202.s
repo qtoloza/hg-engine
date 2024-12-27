@@ -115,7 +115,6 @@ scr_seq_D31R0202_001:
 	setvar VAR_TEMP_x4000, 0
 	call _0132
 	goto _00A6
-	end
 
 scr_seq_D31R0202_002:
 	scrcmd_609
@@ -123,7 +122,6 @@ scr_seq_D31R0202_002:
 	setvar VAR_TEMP_x4000, 0
 	call _0132
 	goto _00E9
-	end
 
 scr_seq_D31R0202_003:
 	scrcmd_609
@@ -131,7 +129,6 @@ scr_seq_D31R0202_003:
 	setvar VAR_TEMP_x4000, 1
 	call _0132
 	goto _010A
-	end
 
 _018E:
 	apply_movement obj_player, _01C4
@@ -144,22 +141,15 @@ _019A:
 	wait_movement
 	return
 
-	.align 4
-_01B0:
-	step 12, 2
-	step 3, 1
-	step 15, 1
-	step 1, 1
-	step_end
 
-	.align 4
 _01C4:
+
 	step 12, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _01D0:
+
 	step 13, 1
 	step 2, 1
 	step 14, 1
@@ -168,14 +158,13 @@ _01D0:
 	step 69, 1
 	step_end
 
-	.align 4
 _01EC:
+
 	step 63, 2
 	step 61, 1
 	step 13, 2
 	step 69, 1
 	step_end
-
 _0200:
 	scrcmd_436
 	scrcmd_627 5
@@ -183,9 +172,6 @@ _0200:
 	warp MAP_D31R0201, 0, 19, 6, DIR_NORTH
 	end
 	.align 4
-
-
-
 
 
 .close

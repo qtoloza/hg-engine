@@ -8,6 +8,6 @@
 
 .equ obj_T22R0401_gswoman1, 0
 .equ obj_T22R0401_gsgirl1, 1
-.equ obj_T22R0401_tsure_poke_static_pidgey, 2
+.equ obj_T22R0401_follower_mon_static_pidgey, 2
 
 .endif //SCR_SEQ_T22R0401_H_

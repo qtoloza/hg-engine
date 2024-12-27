@@ -37,7 +37,7 @@
 .equ obj_D22R0101_gsboy1_2, 5
 .equ obj_D22R0101_gsdsboy, 6
 .equ obj_D22R0101_gswoman1, 7
-.equ obj_D22R0101_tsure_poke_static_persian, 8
+.equ obj_D22R0101_follower_mon_static_persian, 8
 .equ obj_D22R0101_gswoman2, 9
 .equ obj_D22R0101_gsboy3, 10
 .equ obj_D22R0101_gsboy3_2, 11

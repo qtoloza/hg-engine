@@ -102,7 +102,6 @@ scr_seq_T25R1202_011:
 	lockall
 	setvar VAR_SPECIAL_x8005, 6
 	goto _0117
-	end
 
 _0117:
 	npc_msg 13
@@ -116,7 +115,6 @@ _0117:
 	case 0, _016E
 	case 1, _0193
 	goto _0166
-	end
 
 _0166:
 	touchscreen_menu_show
@@ -139,14 +137,12 @@ _016E:
 _0193:
 	npc_msg 14
 	goto _0117
-	end
 
 scr_seq_T25R1202_012:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8005, 5
 	goto _01B2
-	end
 
 _01B2:
 	npc_msg 11
@@ -160,7 +156,6 @@ _01B2:
 	case 0, _0209
 	case 1, _022E
 	goto _0201
-	end
 
 _0201:
 	touchscreen_menu_show
@@ -183,12 +178,8 @@ _0209:
 _022E:
 	npc_msg 12
 	goto _01B2
-	end
 
 	.align 4
-
-
-
 
 
 .close

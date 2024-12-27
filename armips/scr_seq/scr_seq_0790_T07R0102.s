@@ -164,8 +164,9 @@ _01DA:
 	releaseall
 	end
 
-	.align 4
+
 _01E8:
+
 	step 14, 1
 	step 32, 1
 	step 63, 1
@@ -173,8 +174,8 @@ _01E8:
 	step 32, 1
 	step_end
 
-	.align 4
 _0200:
+
 	step 15, 1
 	step 32, 1
 	step 63, 1
@@ -182,28 +183,28 @@ _0200:
 	step 32, 1
 	step_end
 
-	.align 4
 _0218:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0220:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0228:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0230:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0238:
+
 	step 14, 2
 	step 13, 1
 	step 14, 4
@@ -211,21 +212,20 @@ _0238:
 	step 14, 4
 	step_end
 
-	.align 4
 _0250:
+
 	step 13, 1
 	step 14, 6
 	step 12, 1
 	step 14, 4
 	step_end
 
-	.align 4
 _0264:
+
 	step 78, 1
 	step 76, 1
 	step 1, 1
 	step_end
-
 scr_seq_T07R0102_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -311,8 +311,9 @@ _03B0:
 	releaseall
 	end
 
-	.align 4
+
 _03C4:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -320,41 +321,40 @@ _03C4:
 	step 33, 1
 	step_end
 
-	.align 4
 _03DC:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03E8:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03FC:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0410:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _041C:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T07R0102_002:
 	simple_npc_msg 0
 	end
@@ -372,9 +372,6 @@ scr_seq_T07R0102_004:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

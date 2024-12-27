@@ -55,9 +55,9 @@ scr_seq_R30_000:
 	lockall
 	npc_msg 0
 	closemsg
-	apply_movement obj_R30_tsure_poke_static_rattata, _0088
+	apply_movement obj_R30_follower_mon_static_rattata, _0088
 	wait_movement
-	apply_movement obj_R30_tsure_poke_static_pidgey, _0090
+	apply_movement obj_R30_follower_mon_static_pidgey, _0090
 	wait_movement
 	play_se SEQ_SE_DP_SELECT
 	faceplayer
@@ -68,21 +68,21 @@ scr_seq_R30_000:
 	releaseall
 	end
 
-	.align 4
+
 _0088:
+
 	step 48, 3
 	step_end
 
-	.align 4
 _0090:
+
 	step 49, 2
 	step_end
 
-	.align 4
 _0098:
+
 	step 32, 1
 	step_end
-
 scr_seq_R30_002:
 	scrcmd_609
 	lockall
@@ -149,59 +149,59 @@ _0148:
 	setvar VAR_SCENE_ROUTE_30_OW, 1
 	end
 
-	.align 4
+
 _01B0:
+
 	step 13, 1
 	step_end
 
-	.align 4
 _01B8:
+
 	step 12, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _01C4:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _01CC:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _01D4:
+
 	step 13, 2
 	step 34, 1
 	step 63, 2
 	step 14, 2
 	step_end
 
-	.align 4
 _01E8:
+
 	step 13, 2
 	step 34, 1
 	step 63, 2
 	step 14, 3
 	step_end
 
-	.align 4
 _01FC:
+
 	step 13, 2
 	step 34, 1
 	step 63, 2
 	step 14, 4
 	step_end
 
-	.align 4
 _0210:
+
 	step 13, 2
 	step 34, 1
 	step 63, 2
 	step 14, 5
 	step_end
-
 scr_seq_R30_003:
 	simple_npc_msg 13
 	end
@@ -263,9 +263,6 @@ scr_seq_R30_010:
 	simple_npc_msg 4
 	end
 	.align 4
-
-
-
 
 
 .close

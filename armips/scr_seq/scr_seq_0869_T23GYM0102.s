@@ -108,7 +108,7 @@ scr_seq_T23GYM0102_001:
 	settrainerflag TRAINER_BUG_CATCHER_BENNY
 	settrainerflag TRAINER_BUG_CATCHER_JOSH
 	settrainerflag TRAINER_TWINS_AMY_AND_MIMI
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	npc_msg 3
 _0136:
 	goto_if_no_item_space ITEM_TM89, 1, _016A
@@ -198,9 +198,6 @@ scr_seq_T23GYM0102_015:
 	azalea_gym_switch 1
 	end
 	.align 4
-
-
-
 
 
 .close

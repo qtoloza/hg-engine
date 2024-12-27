@@ -61,7 +61,7 @@ scr_seq_T10R0701_000:
 	following_pokemon_movement 48
 	party_count_not_egg VAR_SPECIAL_RESULT
 	hall_of_fame_anim VAR_SPECIAL_RESULT
-	add_special_game_stat SCORE_EVENT_23
+	add_special_game_stat 23
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
 	call _01B4
@@ -88,9 +88,6 @@ _0105:
 	goto_if_ne _012D
 	goto _023A
 
-_0127:
-	goto _0133
-
 _012D:
 	goto _024F
 
@@ -111,26 +108,26 @@ _0133:
 	releaseall
 	end
 
-	.align 4
+
 _0188:
+
 	step 12, 14
 	step 3, 2
 	step_end
 
-	.align 4
 _0194:
+
 	step 12, 12
 	step 3, 2
 	step 15, 1
 	step 2, 2
 	step_end
 
-	.align 4
 _01A8:
+
 	step 0, 2
 	step 12, 4
 	step_end
-
 _01B4:
 	goto_if_set FLAG_GAME_CLEAR, _01C3
 	setflag FLAG_UNK_998
@@ -194,12 +191,6 @@ _023A:
 	clearflag FLAG_BEAT_OR_ESCAPED_FROM_GROUDON_OR_KYOGRE
 	goto _0133
 
-// This branch is for SoulSilver, so this should be checking
-// FLAG_CAUGHT_GROUDON instead of FLAG_CAUGHT_KYOGRE. This problem
-// has existed since this file was disassembled and is probably a
-// mistake in SoulSilver. Because capturing Groudon sets
-// VAR_SCENE_EMBEDDED_TOWER to 4 and the tower does not regenerate
-// Groudon if the variable is 4 or more, the mistake has no effect.
 _024F:
 	goto_if_set FLAG_CAUGHT_KYOGRE, _0133
 	clearflag FLAG_BEAT_OR_ESCAPED_FROM_GROUDON_OR_KYOGRE
@@ -229,9 +220,6 @@ _028B:
 	create_roamer 3
 	return
 	.align 4
-
-
-
 
 
 .close

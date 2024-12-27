@@ -9,7 +9,7 @@
 
 .equ obj_D27R0107_babyboy1_8, 0
 .equ obj_D27R0107_gsleader6, 1
-.equ obj_D27R0107_tsure_poke_static_ampharos, 2
+.equ obj_D27R0107_follower_mon_static_ampharos, 2
 .equ obj_D27R0107_monstarball, 3
 .equ obj_D27R0107_stop, 4
 

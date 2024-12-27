@@ -7,6 +7,6 @@
 
 .equ obj_R34R0201_gsgirl1, 0
 .equ obj_R34R0201_gswoman1, 1
-.equ obj_R34R0201_tsure_poke_static_butterfree, 2
+.equ obj_R34R0201_follower_mon_static_butterfree, 2
 
 .endif //SCR_SEQ_R34R0201_H_

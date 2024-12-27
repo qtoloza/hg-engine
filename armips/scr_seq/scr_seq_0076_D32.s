@@ -174,8 +174,9 @@ _021D:
 	releaseall
 	end
 
-	.align 4
+
 _0234:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -183,41 +184,40 @@ _0234:
 	step 33, 1
 	step_end
 
-	.align 4
 _024C:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0258:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _026C:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0280:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _028C:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_D32_001:
 	simple_npc_msg 0
 	end
@@ -618,24 +618,15 @@ _0AB1:
 	goto_if_ne _0ACA
 	goto _04D1
 
-_0AC4:
-	goto _0B02
-
 _0ACA:
 	compare VAR_SPECIAL_x8007, 1
 	goto_if_ne _0AE3
 	goto _0630
 
-_0ADD:
-	goto _0B02
-
 _0AE3:
 	compare VAR_SPECIAL_x8007, 2
 	goto_if_ne _0AFC
 	goto _0762
-
-_0AF6:
-	goto _0B02
 
 _0AFC:
 	goto _08C1
@@ -861,16 +852,10 @@ _0F76:
 	goto_if_ne _0F8F
 	goto _0BA4
 
-_0F89:
-	goto scr_seq_D32_023
-
 _0F8F:
 	compare VAR_SPECIAL_x8007, 1
 	goto_if_ne _0FA8
 	goto _0CFA
-
-_0FA2:
-	goto scr_seq_D32_023
 
 _0FA8:
 	goto _0DEA
@@ -970,11 +955,11 @@ scr_seq_D32_033:
 	releaseall
 	end
 
-	.align 4
+
 _10B0:
+
 	step 18, 5
 	step_end
-
 scr_seq_D32_034:
 	scrcmd_609
 	lockall
@@ -990,11 +975,11 @@ scr_seq_D32_034:
 	releaseall
 	end
 
-	.align 4
+
 _10F4:
+
 	step 18, 6
 	step_end
-
 scr_seq_D32_035:
 	scrcmd_609
 	lockall
@@ -1010,11 +995,11 @@ scr_seq_D32_035:
 	releaseall
 	end
 
-	.align 4
+
 _1138:
+
 	step 19, 5
 	step_end
-
 scr_seq_D32_036:
 	scrcmd_609
 	lockall
@@ -1030,17 +1015,14 @@ scr_seq_D32_036:
 	releaseall
 	end
 
-	.align 4
+
 _117C:
+
 	step 19, 6
 	step_end
-
 scr_seq_D32_000:
 	end
 	.align 4
-
-
-
 
 
 .close

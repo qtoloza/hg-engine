@@ -86,8 +86,9 @@ _00C7:
 	releaseall
 	end
 
-	.align 4
+
 _00D0:
+
 	step 1, 1
 	step 75, 1
 	step 13, 4
@@ -95,15 +96,15 @@ _00D0:
 	step 1, 1
 	step_end
 
-	.align 4
 _00E8:
+
 	step 13, 2
 	step 15, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _00F8:
+
 	step 13, 3
 	step 14, 1
 	step 13, 1
@@ -112,7 +113,6 @@ _00F8:
 	step 14, 4
 	step 13, 3
 	step_end
-
 scr_seq_D18R0101_000:
 	scrcmd_609
 	lockall
@@ -132,20 +132,17 @@ scr_seq_D18R0101_001:
 	simple_npc_msg 3
 	end
 
-	.align 4
+
 _0158:
+
 	step 2, 1
 	step 75, 1
 	step 14, 3
 	step_end
-
 scr_seq_D18R0101_002:
 	simple_npc_msg 4
 	end
 	.align 4
-
-
-
 
 
 .close

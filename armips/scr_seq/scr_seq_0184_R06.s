@@ -46,7 +46,4 @@ scr_seq_R06_001:
 	.align 4
 
 
-
-
-
 .close

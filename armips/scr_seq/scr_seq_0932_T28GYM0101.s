@@ -82,13 +82,6 @@ _00B8:
 	setflag FLAG_UNK_2EE
 	end
 
-// This script contains a programming mistake where if the
-// player has 99 TM07, the TM07 from Pryce is permanently
-// lost. This is unlike every other script for obtaining a
-// TM from someone, which all attempt to give the TM until
-// the player can accept it.
-// FLAG_GOT_TM07_FROM_PRYCE is used here but no code in the
-// game ever checks what it is, meaning that flag is useless.
 scr_seq_T28GYM0101_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -110,7 +103,7 @@ scr_seq_T28GYM0101_000:
 	npc_msg 1
 	give_badge BADGE_GLACIER
 	addvar VAR_MIDGAME_BADGES, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	compare VAR_MIDGAME_BADGES, 3
 	goto_if_ne _012F
 	setvar VAR_SCENE_ROCKET_TAKEOVER, 1
@@ -189,9 +182,6 @@ _0204:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

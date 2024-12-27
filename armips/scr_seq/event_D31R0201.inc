@@ -34,8 +34,8 @@
 .equ obj_D31R0201_pcwoman1, 5
 .equ obj_D31R0201_idol, 6
 .equ obj_D31R0201_gorggeousm, 7
-.equ obj_D31R0201_tsure_poke_static_pikachu, 8
-.equ obj_D31R0201_tsure_poke_static_pikachu_2, 9
+.equ obj_D31R0201_follower_mon_static_pikachu, 8
+.equ obj_D31R0201_follower_mon_static_pikachu_2, 9
 .equ obj_D31R0201_gsboy1, 10
 .equ obj_D31R0201_gsassistantm, 11
 .equ obj_D31R0201_gsboy1_2, 12

@@ -97,7 +97,7 @@ scr_seq_T22GYM0101_001:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _017E
 	give_badge BADGE_ZEPHYR
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	settrainerflag TRAINER_BIRD_KEEPER_GS_ROD
 	settrainerflag TRAINER_BIRD_KEEPER_GS_ABE
 	setvar VAR_SCENE_VIOLET_CITY_OW, 1
@@ -191,9 +191,6 @@ scr_seq_T22GYM0101_004:
 	violet_gym_elevator
 	end
 	.align 4
-
-
-
 
 
 .close

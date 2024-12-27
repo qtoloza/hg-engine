@@ -194,13 +194,14 @@ _0265:
 	wait_movement
 	return
 
-	.align 4
+
 _026C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0274:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -210,8 +211,8 @@ _0274:
 	step 2, 1
 	step_end
 
-	.align 4
 _0294:
+
 	step 1, 1
 	step 2, 1
 	step 0, 1
@@ -220,8 +221,8 @@ _0294:
 	step 2, 1
 	step_end
 
-	.align 4
 _02B0:
+
 	step 2, 1
 	step 0, 1
 	step 3, 1
@@ -229,8 +230,8 @@ _02B0:
 	step 2, 1
 	step_end
 
-	.align 4
 _02C8:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -241,8 +242,8 @@ _02C8:
 	step 0, 1
 	step_end
 
-	.align 4
 _02EC:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -250,8 +251,8 @@ _02EC:
 	step 3, 1
 	step_end
 
-	.align 4
 _0304:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -259,7 +260,6 @@ _0304:
 	step 3, 1
 	step 1, 1
 	step_end
-
 scr_seq_T11R0802_003:
 	compare VAR_TEMP_x400A, 0
 	goto_if_ne _03A3
@@ -306,26 +306,26 @@ _03A3:
 	releaseall
 	end
 
-	.align 4
+
 _03C0:
+
 	step 0, 1
 	step_end
 
-	.align 4
 _03C8:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _03D0:
+
 	step 2, 1
 	step_end
 
-	.align 4
 _03D8:
+
 	step 3, 1
 	step_end
-
 scr_seq_T11R0802_001:
 	simple_npc_msg 15
 	end
@@ -348,9 +348,6 @@ _0433:
 	simple_npc_msg 17
 	end
 	.align 4
-
-
-
 
 
 .close

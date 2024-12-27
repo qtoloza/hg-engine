@@ -138,77 +138,62 @@ _0175:
 scr_seq_T06GYM0101_000:
 	vermilion_gym_can_check 0, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_001:
 	vermilion_gym_can_check 1, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_002:
 	vermilion_gym_can_check 2, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_003:
 	vermilion_gym_can_check 3, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_004:
 	vermilion_gym_can_check 4, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_005:
 	vermilion_gym_can_check 5, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_006:
 	vermilion_gym_can_check 6, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_007:
 	vermilion_gym_can_check 7, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_008:
 	vermilion_gym_can_check 8, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_009:
 	vermilion_gym_can_check 9, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_010:
 	vermilion_gym_can_check 10, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_011:
 	vermilion_gym_can_check 11, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_012:
 	vermilion_gym_can_check 12, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_013:
 	vermilion_gym_can_check 13, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 scr_seq_T06GYM0101_014:
 	vermilion_gym_can_check 14, VAR_SPECIAL_RESULT
 	goto _023A
-	end
 
 _023A:
 	compare VAR_SPECIAL_RESULT, 4
@@ -313,7 +298,7 @@ scr_seq_T06GYM0101_023:
 	goto_if_eq _03DD
 	give_badge BADGE_THUNDER
 	addvar VAR_UNK_4135, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	setflag FLAG_UNK_31A
 	hide_person obj_T06GYM0101_stop
 	hide_person obj_T06GYM0101_stop_2
@@ -400,9 +385,6 @@ _043E:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

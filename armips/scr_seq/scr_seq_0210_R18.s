@@ -50,7 +50,4 @@ scr_seq_R18_001:
 	.align 4
 
 
-
-
-
 .close

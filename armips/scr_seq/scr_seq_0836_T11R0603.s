@@ -44,19 +44,13 @@ scr_seq_T11R0603_000:
 	releaseall
 	end
 
-	.align 4
+
 _0038:
+
 	step 14, 7
 	step 12, 2
 	step_end
-
-_0044:
-	end
-
 	.align 4
-
-
-
 
 
 .close

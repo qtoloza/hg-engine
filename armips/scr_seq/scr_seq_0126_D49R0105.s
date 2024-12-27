@@ -192,7 +192,4 @@ scr_seq_D49R0105_013:
 	.align 4
 
 
-
-
-
 .close

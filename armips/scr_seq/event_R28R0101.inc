@@ -6,6 +6,6 @@
 .equ _EV_scr_seq_R28R0101_002, 2
 
 .equ obj_R28R0101_gsgirl1, 0
-.equ obj_R28R0101_tsure_poke_static_fearow, 1
+.equ obj_R28R0101_follower_mon_static_fearow, 1
 
 .endif //SCR_SEQ_R28R0101_H_

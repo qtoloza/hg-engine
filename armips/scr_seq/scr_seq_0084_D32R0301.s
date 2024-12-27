@@ -54,7 +54,6 @@ scr_seq_D32R0301_000:
 	setvar VAR_TEMP_x4003, 0
 	setvar VAR_TEMP_x4004, 0
 	goto _0074
-	end
 
 scr_seq_D32R0301_005:
 	play_se SEQ_SE_DP_SELECT
@@ -63,7 +62,6 @@ scr_seq_D32R0301_005:
 	setvar VAR_TEMP_x4003, 0
 	setvar VAR_TEMP_x4004, 1
 	goto _0074
-	end
 
 _0074:
 	scrcmd_682 0
@@ -72,7 +70,6 @@ _0074:
 	compare VAR_TEMP_x4004, 1
 	call_if_eq _0581
 	goto _009A
-	end
 
 _009A:
 	compare VAR_TEMP_x4004, 0
@@ -92,7 +89,6 @@ _009A:
 	goto_if_eq _015B
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _0104:
 	compare VAR_TEMP_x4004, 0
@@ -100,11 +96,9 @@ _0104:
 	compare VAR_TEMP_x4004, 1
 	call_if_eq _05C1
 	goto _009A
-	end
 
 _0126:
 	goto _012E
-	end
 
 _012E:
 	setvar VAR_UNK_4142, 0
@@ -117,17 +111,14 @@ _012E:
 _013F:
 	setvar VAR_UNK_4143, 0
 	goto _0169
-	end
 
 _014D:
 	setvar VAR_UNK_4143, 1
 	goto _0169
-	end
 
 _015B:
 	setvar VAR_UNK_4143, 2
 	goto _0169
-	end
 
 _0169:
 	npc_msg 7
@@ -142,21 +133,17 @@ _0169:
 	goto_if_eq _01C0
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _01B2:
 	setvar VAR_UNK_4144, 0
 	goto _01CE
-	end
 
 _01C0:
 	setvar VAR_UNK_4144, 1
 	goto _01CE
-	end
 
 _01CE:
 	goto _01D6
-	end
 
 _01D6:
 	compare VAR_UNK_4143, 0
@@ -173,7 +160,6 @@ _01D6:
 	compare VAR_UNK_4143, 2
 	goto_if_eq _0226
 	goto _03A1
-	end
 
 _0226:
 	npc_msg 24
@@ -188,7 +174,6 @@ _0226:
 	case 1, _02F9
 	touchscreen_menu_show
 	goto _0126
-	end
 
 _0277:
 	npc_msg 25
@@ -208,7 +193,6 @@ _0277:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _02EF
 	goto _037B
-	end
 
 _02CF:
 	scrcmd_226 27, 0, 0, VAR_SPECIAL_RESULT
@@ -220,12 +204,10 @@ _02DB:
 
 _02E7:
 	goto _0226
-	end
 
 _02EF:
 	scrcmd_283
 	goto _0226
-	end
 
 _02F9:
 	npc_msg 25
@@ -245,7 +227,6 @@ _02F9:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0371
 	goto _037B
-	end
 
 _0351:
 	scrcmd_227 27, 0, 0, VAR_SPECIAL_RESULT
@@ -257,12 +238,10 @@ _035D:
 
 _0369:
 	goto _0226
-	end
 
 _0371:
 	scrcmd_283
 	goto _0226
-	end
 
 _037B:
 	npc_msg 26
@@ -270,7 +249,6 @@ _037B:
 	call_if_eq _0399
 	call _05ED
 	goto _03A1
-	end
 
 _0399:
 	setvar VAR_UNK_4142, 255
@@ -285,7 +263,6 @@ _03A1:
 	call_if_eq _046F
 	play_se SEQ_SE_DP_KAIDAN2
 	goto _03D4
-	end
 
 _03D4:
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -359,40 +336,41 @@ _04BD:
 	wait_movement
 	return
 
-	.align 4
+
 _04D4:
+
 	step 12, 3
 	step 15, 1
 	step 12, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _04E8:
+
 	step 12, 3
 	step 14, 1
 	step 12, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _04FC:
+
 	step 12, 2
 	step 15, 1
 	step 12, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0510:
+
 	step 12, 2
 	step 14, 1
 	step 12, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0524:
+
 	step 21, 3
 	step 22, 1
 	step 21, 4
@@ -400,8 +378,8 @@ _0524:
 	step 70, 1
 	step_end
 
-	.align 4
 _053C:
+
 	step 21, 3
 	step 23, 1
 	step 21, 4
@@ -409,22 +387,21 @@ _053C:
 	step 70, 1
 	step_end
 
-	.align 4
 _0554:
+
 	step 21, 2
 	step 22, 1
 	step 21, 4
 	step 70, 1
 	step_end
 
-	.align 4
 _0568:
+
 	step 21, 2
 	step 23, 1
 	step 21, 4
 	step 70, 1
 	step_end
-
 _057C:
 	npc_msg 0
 	return
@@ -464,7 +441,6 @@ scr_seq_D32R0301_001:
 	call _0399
 	call _05ED
 	goto _03A1
-	end
 
 _05ED:
 	add_waiting_icon
@@ -484,7 +460,6 @@ scr_seq_D32R0301_002:
 	compare VAR_BATTLE_FACTORY_PRINT_PROGRESS, 3
 	call_if_eq _0636
 	goto _0126
-	end
 
 _062E:
 	setvar VAR_BATTLE_FACTORY_PRINT_PROGRESS, 0
@@ -504,7 +479,6 @@ scr_seq_D32R0301_003:
 	compare VAR_BATTLE_FACTORY_PRINT_PROGRESS, 3
 	call_if_eq _0697
 	goto _0126
-	end
 
 _067A:
 	add_special_game_stat_2 27
@@ -531,21 +505,6 @@ _0697:
 
 scr_seq_D32R0301_004:
 	goto _0126
-	end
-
-	.align 4
-_06BC:
-	step 12, 2
-	step 63, 1
-	step 12, 1
-	step_end
-
-	.align 4
-_06CC:
-	step 12, 2
-	step 63, 1
-	step 12, 1
-	step_end
 
 scr_seq_D32R0301_006:
 	simple_npc_msg 27
@@ -575,9 +534,6 @@ scr_seq_D32R0301_012:
 	simple_npc_msg 33
 	end
 	.align 4
-
-
-
 
 
 .close

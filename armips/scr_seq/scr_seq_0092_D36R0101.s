@@ -1,11 +1,3 @@
-; Ilex Forest
-
-.equ FARFETCHD_X_COORD, VAR_TEMP_x4000
-.equ FARFETCHD_Z_COORD, VAR_TEMP_x4001
-.equ FARFETCHD1_BLIND_SPOT, VAR_TEMP_x4002
-.equ FARFETCHD2_BLIND_SPOT, VAR_TEMP_x4003
-.equ FARFETCHD1_BOTTOM_RIGHT_FACING_UP, VAR_TEMP_x4004
-
 .nds
 .thumb
 
@@ -37,15 +29,15 @@
 
 
 scrdef scr_seq_D36R0101_000
-scrdef scr_seq_D36R0101_farfetchd1
+scrdef scr_seq_D36R0101_001
 scrdef scr_seq_D36R0101_002
-scrdef scr_seq_D36R0101_farfetchd1_sticks1
-scrdef scr_seq_D36R0101_farfetchd1_sticks2
-scrdef scr_seq_D36R0101_farfetchd2
-scrdef scr_seq_D36R0101_farfetchd2_sticks1
-scrdef scr_seq_D36R0101_farfetchd2_sticks2
-scrdef scr_seq_D36R0101_farfetchd2_sticks3
-scrdef scr_seq_D36R0101_farfetchd2_sticks4
+scrdef scr_seq_D36R0101_003
+scrdef scr_seq_D36R0101_004
+scrdef scr_seq_D36R0101_005
+scrdef scr_seq_D36R0101_006
+scrdef scr_seq_D36R0101_007
+scrdef scr_seq_D36R0101_008
+scrdef scr_seq_D36R0101_009
 scrdef scr_seq_D36R0101_010
 scrdef scr_seq_D36R0101_011
 scrdef scr_seq_D36R0101_012
@@ -89,33 +81,33 @@ _00C3:
 	end
 
 _00D0:
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_ACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
 	setvar VAR_TEMP_x4000, 0
 	setvar VAR_TEMP_x4001, 0
-	setvar FARFETCHD1_BLIND_SPOT, 0
-	setvar FARFETCHD2_BLIND_SPOT, 0
-	setvar FARFETCHD1_BOTTOM_RIGHT_FACING_UP, 0
+	setvar VAR_TEMP_x4002, 0
+	setvar VAR_TEMP_x4003, 0
+	setvar VAR_TEMP_x4004, 0
 	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _0124
 	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _0145
 	end
 
 _0124:
 	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _0137
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 2
 	end
 
 _0137:
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
 	end
 
 _0145:
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
 	end
 
 scr_seq_D36R0101_021:
@@ -127,100 +119,88 @@ scr_seq_D36R0101_021:
 
 _016F:
 	move_person_facing obj_D36R0101_gsoldman1, 15, 0, 58, DIR_SOUTH
-	move_person_facing obj_D36R0101_tsure_poke_static_pichu_spiky, 15, 0, 59, DIR_EAST
+	move_person_facing obj_D36R0101_follower_mon_static_pichu_spiky, 15, 0, 59, DIR_EAST
 	return
 
 _0189:
 	move_person_facing obj_D36R0101_var_1, 15, 0, 58, DIR_SOUTH
-	move_person_facing obj_D36R0101_tsure_poke_static_marill, 11, 0, 58, DIR_EAST
+	move_person_facing obj_D36R0101_follower_mon_static_marill, 11, 0, 58, DIR_EAST
 	return
 
-scr_seq_D36R0101_farfetchd1:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 25
+scr_seq_D36R0101_001:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 25
 	goto_if_ne _01C4
-	goto _farfetchd1_left
-
-_01BE:
-	goto _farfetchd1_left
+	goto _01D7
 
 _01C4:
-	compare FARFETCHD_X_COORD, 32
-	goto_if_ne _farfetchd1_left
-	goto _farfetchd1_right
+	compare VAR_TEMP_x4000, 32
+	goto_if_ne _01D7
+	goto _020B
 
-_farfetchd1_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 52
+_01D7:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
 	goto_if_ne _01F8
-	goto _farfetchd1_top_left
-
-_01F2:
-	goto _farfetchd1_right
+	goto _0245
 
 _01F8:
-	compare FARFETCHD_Z_COORD, 62
-	goto_if_ne _farfetchd1_right
-	goto _farfetchd1_bottom_left
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _020B
+	goto _0299
 
-_farfetchd1_right:
-	setvar FARFETCHD1_BLIND_SPOT, 0
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 52
+_020B:
+	setvar VAR_TEMP_x4002, 0
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
 	goto_if_ne _0232
-	goto _farfetchd1_top_right
-
-_022C:
-	goto _farfetchd1_top_left
+	goto _03CA
 
 _0232:
-	compare FARFETCHD_Z_COORD, 62
-	goto_if_ne _farfetchd1_top_left
-	goto _farfetchd1_bottom_right
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0245
+	goto _042A
 
-_farfetchd1_top_left:
+_0245:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar FARFETCHD1_BLIND_SPOT, 0
+	setvar VAR_TEMP_x4002, 0
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_NORTH
+	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _0272
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd1_run_right
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E18
 	goto _0293
 
 _0272:
-	compare VAR_SPECIAL_RESULT, DIR_WEST
+	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _0293
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd_run_down
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E08
+	setvar VAR_FARFETCHD1_STICKS2, 1
+	setvar VAR_FARFETCHD1_STICKS1, 1
 _0293:
 	wait_movement
 	releaseall
 	end
 
-_farfetchd1_bottom_left:
+_0299:
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_WEST
+	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _02B6
-	goto _farfetchd1_bottom_left_flee_up
-
-_02B0:
-	goto _farfetchd1_bottom_left_flee_up
+	goto _02C9
 
 _02B6:
-	compare VAR_SPECIAL_RESULT, DIR_SOUTH
-	goto_if_ne _farfetchd1_bottom_left_flee_up
-	goto _farfetchd1_bottom_left_flee_right
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _02C9
+	goto _0301
 
-_farfetchd1_bottom_left_flee_up:
+_02C9:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd_run_up
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DF8
 	wait_movement
 	goto_if_set FLAG_UNK_126, _02FD
 	npc_msg 36
@@ -231,15 +211,15 @@ _02FD:
 	releaseall
 	end
 
-_farfetchd1_bottom_left_flee_right:
-	compare FARFETCHD1_BLIND_SPOT, 1
-	goto_if_eq _farfetchd1_bottom_left_caught
+_0301:
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _0346
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd1_run_right
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E18
 	wait_movement
 	goto_if_set FLAG_UNK_126, _0342
 	npc_msg 36
@@ -250,20 +230,20 @@ _0342:
 	releaseall
 	end
 
-_farfetchd1_bottom_left_caught:
+_0346:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	play_cry SPECIES_FARFETCHD, 0
 	npc_msg 3
 	closemsg
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _walk_in_place_face_down
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E58
 	wait_movement
-	hide_person obj_D36R0101_tsure_poke_static_farfetchd
+	hide_person obj_D36R0101_follower_mon_static_farfetchd
 	npc_msg 37
 	wait_button_or_walk_away
 	closemsg
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
 	setflag FLAG_HIDE_FARFETCHD_1_LOST
 	setflag FLAG_FOUND_FIRST_FARFETCHD
 	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _1207
@@ -281,281 +261,254 @@ _farfetchd1_bottom_left_caught:
 	releaseall
 	end
 
-_farfetchd1_top_right:
+_03CA:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_EAST
+	compare VAR_SPECIAL_RESULT, 3
 	goto_if_ne _0403
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd_run_down
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
-	setvar FARFETCHD1_BOTTOM_RIGHT_FACING_UP, 1
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E08
+	setvar VAR_FARFETCHD1_STICKS2, 1
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_TEMP_x4004, 1
 	goto _0424
 
 _0403:
-	compare VAR_SPECIAL_RESULT, DIR_NORTH
+	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _0424
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd1_run_left
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E28
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
 _0424:
 	wait_movement
 	releaseall
 	end
 
-_farfetchd1_bottom_right:
+_042A:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar FARFETCHD1_BOTTOM_RIGHT_FACING_UP, 0
+	setvar VAR_TEMP_x4004, 0
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_EAST
+	compare VAR_SPECIAL_RESULT, 3
 	goto_if_ne _0463
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd_run_up
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DF8
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
 	goto _0484
 
 _0463:
-	compare VAR_SPECIAL_RESULT, DIR_SOUTH
+	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0484
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _farfetchd1_run_left
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E28
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD1_STICKS2, 2
 _0484:
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd1_sticks1:
+scr_seq_D36R0101_003:
 	scrcmd_609
 	lockall
-	compare FARFETCHD1_BOTTOM_RIGHT_FACING_UP, 1
-	goto_if_eq _farfetchd1_look_left
-	setvar FARFETCHD1_BLIND_SPOT, 1
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_ACTIVE
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 25
+	compare VAR_TEMP_x4004, 1
+	goto_if_eq _068E
+	setvar VAR_TEMP_x4002, 1
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 1
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 25
 	goto_if_ne _04CE
-	goto _sticks1_farfetchd1_left
-
-_04B8:
-	goto _sticks1_farfetchd1_left
+	goto _04E1
 
 _04CE:
-	compare FARFETCHD_X_COORD, 32
-	goto_if_ne _sticks1_farfetchd1_left
-	goto _sticks1_farfetchd1_right
+	compare VAR_TEMP_x4000, 32
+	goto_if_ne _04E1
+	goto _0515
 
-_sticks1_farfetchd1_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 52
+_04E1:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
 	goto_if_ne _0502
-	goto _sticks1_farfetchd1_top_left
-
-_04FC:
-	goto _sticks1_farfetchd1_right
+	goto _0549
 
 _0502:
-	compare FARFETCHD_Z_COORD, 62
-	goto_if_ne _sticks1_farfetchd1_right
-	goto _sticks1_farfetchd1_bottom_left
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0515
+	goto _0557
 
-_sticks1_farfetchd1_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 52
+_0515:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
 	goto_if_ne _0536
-	goto _sticks1_farfetchd1_top_right
-
-_0530:
-	goto _sticks1_farfetchd1_top_left
+	goto _057B
 
 _0536:
-	compare FARFETCHD_Z_COORD, 62
-	goto_if_ne _sticks1_farfetchd1_top_left
-	goto _sticks1_farfetchd1_bottom_right
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0549
+	goto _0589
 
-_sticks1_farfetchd1_top_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_down
+_0549:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
 	wait_movement
 	releaseall
 	end
 
-_sticks1_farfetchd1_bottom_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_down
+_0557:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
 	wait_movement
-	goto_if_set FLAG_FARFETCHD_NOTICED_YOU, _skip_farfetchd_noticed_msg
+	goto_if_set FLAG_FARFETCHD_NOTICED_YOU, _0577
 	npc_msg 35
 	wait_button_or_walk_away
 	closemsg
 	setflag FLAG_FARFETCHD_NOTICED_YOU
-_skip_farfetchd_noticed_msg:
+_0577:
 	releaseall
 	end
 
-_sticks1_farfetchd1_top_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_down
+_057B:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
 	wait_movement
 	releaseall
 	end
 
-_sticks1_farfetchd1_bottom_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_left
+_0589:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DE0
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd1_sticks2:
+scr_seq_D36R0101_004:
 	scrcmd_609
 	lockall
-	compare FARFETCHD1_BOTTOM_RIGHT_FACING_UP, 1
-	goto_if_eq _farfetchd1_look_left
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
-	setvar FARFETCHD1_BLIND_SPOT, 0
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 25
+	compare VAR_TEMP_x4004, 1
+	goto_if_eq _068E
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	setvar VAR_TEMP_x4002, 0
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 25
 	goto_if_ne _05DB
-	goto _sticks2_farfetchd1_left
-
-_05D5:
-	goto _sticks2_farfetchd1_left
+	goto _05EE
 
 _05DB:
-	compare FARFETCHD_X_COORD, 32
-	goto_if_ne _sticks2_farfetchd1_left
-	goto _sticks2_farfetchd1_right
+	compare VAR_TEMP_x4000, 32
+	goto_if_ne _05EE
+	goto _0622
 
-_sticks2_farfetchd1_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 52
+_05EE:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
 	goto_if_ne _060F
-	goto _sticks2_farfetchd1_top_left
-
-_0609:
-	goto _sticks2_farfetchd1_right
+	goto _0656
 
 _060F:
-	compare FARFETCHD_Z_COORD, 62
-	goto_if_ne _sticks2_farfetchd1_right
-	goto _sticks2_farfetchd1_bottom_left
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0622
+	goto _0664
 
-_sticks2_farfetchd1_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 52
+_0622:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
 	goto_if_ne _0643
-	goto _sticks2_farfetchd1_top_right
-
-_063D:
-	goto _sticks2_farfetchd1_top_left
+	goto _0672
 
 _0643:
-	compare FARFETCHD_Z_COORD, 62
-	goto_if_ne _sticks2_farfetchd1_top_left
-	goto _sticks2_farfetchd1_bottom_right
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0656
+	goto _0680
 
-_sticks2_farfetchd1_top_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_down
+_0656:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
 	wait_movement
 	releaseall
 	end
 
-_sticks2_farfetchd1_bottom_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_right
+_0664:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks2_farfetchd1_top_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_down
+_0672:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
 	wait_movement
 	releaseall
 	end
 
-_sticks2_farfetchd1_bottom_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_left
+_0680:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DE0
 	wait_movement
 	releaseall
 	end
 
-_farfetchd1_look_left:
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd, _exclaim_face_left
+_068E:
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DE0
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd2:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 41
+scr_seq_D36R0101_005:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 41
 	goto_if_ne _06C9
-	goto _farfetchd2_left
-
-_06C3:
-	goto _farfetchd2_left
+	goto _06DC
 
 _06C9:
-	compare FARFETCHD_X_COORD, 49
-	goto_if_ne _farfetchd2_left
-	goto _farfetchd2_right
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _06DC
+	goto _0716
 
-_farfetchd2_left:
-	setvar FARFETCHD2_BLIND_SPOT, 0
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_06DC:
+	setvar VAR_TEMP_x4003, 0
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0703
-	goto _farfetchd_top_left
-
-_06FD:
-	goto _farfetchd2_right
+	goto _074A
 
 _0703:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _farfetchd2_right
-	goto _farfetchd2_bottom_left
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0716
+	goto _07D4
 
-_farfetchd2_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0716:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0737
-	goto _farfetchd2_top_right
-
-_0731:
-	goto _farfetchd_top_left
+	goto _0846
 
 _0737:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _farfetchd_top_left
-	goto _farfetchd2_bottom_right
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _074A
+	goto _0982
 
-_farfetchd_top_left:
+_074A:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_NORTH
-	goto_if_ne _farfetchd2_top_left_flee_down
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd2_run_right
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _078B
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E38
 	wait_movement
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
 	goto _07BA
 
-_farfetchd2_top_left_flee_down:
-	compare VAR_SPECIAL_RESULT, DIR_WEST
+_078B:
+	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _07BA
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd_run_down
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E08
 	wait_movement
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
 _07BA:
 	goto_if_set FLAG_UNK_126, _07D0
 	npc_msg 36
@@ -566,92 +519,89 @@ _07D0:
 	releaseall
 	end
 
-_farfetchd2_bottom_left:
+_07D4:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_SOUTH
-	goto_if_ne _farfetchd2_bottom_left_flee_up
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd2_run_right
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _0813
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E38
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
 	goto _0840
 
-_farfetchd2_bottom_left_flee_up:
-	compare VAR_SPECIAL_RESULT, DIR_WEST
+_0813:
+	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _0840
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd_run_up
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_ACTIVE
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DF8
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
 _0840:
 	wait_movement
 	releaseall
 	end
 
-_farfetchd2_top_right:
+_0846:
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_NORTH
+	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _0863
-	goto _farfetchd2_top_right_flee_left
-
-_085D:
-	goto _farfetchd2_top_right_flee_left
+	goto _0876
 
 _0863:
-	compare VAR_SPECIAL_RESULT, DIR_EAST
-	goto_if_ne _farfetchd2_top_right_flee_left
-	goto _farfetchd2_top_right_flee_down
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _0876
+	goto _08A4
 
-_farfetchd2_top_right_flee_left:
+_0876:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd2_run_left
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E48
 	wait_movement
 	releaseall
 	end
 
-_farfetchd2_top_right_flee_down:
-	compare FARFETCHD2_BLIND_SPOT, 1
-	goto_if_eq _farfetchd2_top_right_caught
+_08A4:
+	compare VAR_TEMP_x4003, 1
+	goto_if_eq _08DF
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd_run_down
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E08
 	wait_movement
 	releaseall
 	end
 
-_farfetchd2_top_right_caught:
+_08DF:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	play_cry SPECIES_FARFETCHD, 0
 	npc_msg 3
 	closemsg
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _walk_in_place_face_right
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E60
 	wait_movement
-	hide_person obj_D36R0101_tsure_poke_static_farfetchd_2
+	hide_person obj_D36R0101_follower_mon_static_farfetchd_2
 	npc_msg 37
 	wait_button_or_walk_away
 	closemsg
 	call_if_unset FLAG_FOUND_FIRST_FARFETCHD, _097A
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
 	setflag FLAG_HIDE_FARFETCHD_2_LOST
 	setflag FLAG_FOUND_SECOND_FARFETCHD
 	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _1207
@@ -670,403 +620,367 @@ _farfetchd2_top_right_caught:
 	end
 
 _097A:
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 1
 	return
 
-_farfetchd2_bottom_right:
+_0982:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	setvar FARFETCHD2_BLIND_SPOT, 0
+	setvar VAR_TEMP_x4003, 0
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_EAST
-	goto_if_ne _farfetchd2_bottom_right_flee_left
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd_run_up
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_ACTIVE
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _09C7
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DF8
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
 	goto _09F4
 
-_farfetchd2_bottom_right_flee_left:
-	compare VAR_SPECIAL_RESULT, DIR_SOUTH
+_09C7:
+	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _09F4
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _farfetchd2_run_left
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E48
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
 _09F4:
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd2_sticks1:
+scr_seq_D36R0101_006:
 	scrcmd_609
 	lockall
-	setvar FARFETCHD2_BLIND_SPOT, 0
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 41
+	setvar VAR_TEMP_x4003, 0
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 41
 	goto_if_ne _0A25
-	goto _sticks1_farfetchd2_left
-
-_0A1F:
-	goto _sticks1_farfetchd2_left
+	goto _0A38
 
 _0A25:
-	compare FARFETCHD_X_COORD, 49
-	goto_if_ne _sticks1_farfetchd2_left
-	goto _sticks1_farfetchd2_right
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _0A38
+	goto _0A6C
 
-_sticks1_farfetchd2_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0A38:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0A59
-	goto _sticks1_farfetchd2_top_left
-
-_0A53:
-	goto _sticks1_farfetchd2_right
+	goto _0AA0
 
 _0A59:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks1_farfetchd2_right
-	goto _sticks1_farfetchd2_bottom_left
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0A6C
+	goto _0AAE
 
-_sticks1_farfetchd2_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0A6C:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0A8D
-	goto _sticks1_farfetchd2_top_right
-
-_0A87:
-	goto _sticks1_farfetchd2_top_left
+	goto _0ABC
 
 _0A8D:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks1_farfetchd2_top_left
-	goto _sticks1_farfetchd2_bottom_right
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0AA0
+	goto _0AE2
 
-_sticks1_farfetchd2_top_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_right
+_0AA0:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks1_farfetchd2_bottom_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_up
+_0AAE:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
 	wait_movement
 	releaseall
 	end
 
-_sticks1_farfetchd2_top_right:
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_ACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_up
+_0ABC:
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
 	wait_movement
 	releaseall
 	end
 
-_sticks1_farfetchd2_bottom_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_up
+_0AE2:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd2_sticks2:
+scr_seq_D36R0101_007:
 	scrcmd_609
 	lockall
-	setvar FARFETCHD2_BLIND_SPOT, 1
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 41
+	setvar VAR_TEMP_x4003, 1
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 41
 	goto_if_ne _0B1B
-	goto _sticks2_farfetchd2_left
-
-_0B15:
-	goto _sticks2_farfetchd2_left
+	goto _0B2E
 
 _0B1B:
-	compare FARFETCHD_X_COORD, 49
-	goto_if_ne _sticks2_farfetchd2_left
-	goto _sticks2_farfetchd2_right
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _0B2E
+	goto _0B62
 
-_sticks2_farfetchd2_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0B2E:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0B4F
-	goto _sticks2_farfetchd2_top_left
-
-_0B49:
-	goto _sticks2_farfetchd2_right
+	goto _0B96
 
 _0B4F:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks2_farfetchd2_right
-	goto _sticks2_farfetchd2_bottom_left
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0B62
+	goto _0BA4
 
-_sticks2_farfetchd2_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0B62:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0B83
-	goto _sticks2_farfetchd2_top_right
-
-_0B7D:
-	goto _sticks2_farfetchd2_top_left
+	goto _0BB2
 
 _0B83:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks2_farfetchd2_top_left
-	goto _sticks2_farfetchd2_bottom_right
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0B96
+	goto _0BD8
 
-_sticks2_farfetchd2_top_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_right
+_0B96:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks2_farfetchd2_bottom_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_right
+_0BA4:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks2_farfetchd2_top_right:
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_ACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_right
+_0BB2:
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks2_farfetchd2_bottom_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_up
+_0BD8:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd2_sticks3:
+scr_seq_D36R0101_008:
 	scrcmd_609
 	lockall
-	setvar FARFETCHD2_BLIND_SPOT, 0
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 41
+	setvar VAR_TEMP_x4003, 0
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 41
 	goto_if_ne _0C11
-	goto _sticks3_farfetchd2_left
-
-_0C0B:
-	goto _sticks3_farfetchd2_left
+	goto _0C24
 
 _0C11:
-	compare FARFETCHD_X_COORD, 49
-	goto_if_ne _sticks3_farfetchd2_left
-	goto _sticks3_farfetchd2_right
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _0C24
+	goto _0C58
 
-_sticks3_farfetchd2_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0C24:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0C45
-	goto _sticks3_farfetchd2_top_left
-
-_0C3F:
-	goto _sticks3_farfetchd2_right
+	goto _0C8C
 
 _0C45:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks3_farfetchd2_right
-	goto _sticks3_farfetchd2_bottom_left
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0C58
+	goto _0C9A
 
-_sticks3_farfetchd2_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0C58:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0C79
-	goto _sticks3_farfetchd2_top_right
-
-_0C73:
-	goto _sticks3_farfetchd2_top_left
+	goto _0CAE
 
 _0C79:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks3_farfetchd2_top_left
-	goto _sticks3_farfetchd2_bottom_right
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0C8C
+	goto _0CBC
 
-_sticks3_farfetchd2_top_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_down
+_0C8C:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DC8
 	wait_movement
 	releaseall
 	end
 
-_sticks3_farfetchd2_bottom_left:
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_right
+_0C9A:
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks3_farfetchd2_top_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_down
+_0CAE:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DC8
 	wait_movement
 	releaseall
 	end
 
-_sticks3_farfetchd2_bottom_right:
-	setvar VAR_FARFETCHD2_STICKS3, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_left
+_0CBC:
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DE0
 	wait_movement
 	releaseall
 	end
 
-scr_seq_D36R0101_farfetchd2_sticks4:
+scr_seq_D36R0101_009:
 	scrcmd_609
 	lockall
-	setvar FARFETCHD2_BLIND_SPOT, 0
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_X_COORD, 41
+	setvar VAR_TEMP_x4003, 0
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4000, 41
 	goto_if_ne _0CFB
-	goto _sticks4_farfetchd2_left
-
-_0CF5:
-	goto _sticks4_farfetchd2_left
+	goto _0D0E
 
 _0CFB:
-	compare FARFETCHD_X_COORD, 49
-	goto_if_ne _sticks4_farfetchd2_left
-	goto _sticks4_farfetchd2_right
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _0D0E
+	goto _0D42
 
-_sticks4_farfetchd2_left:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0D0E:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0D2F
-	goto _sticks4_farfetchd2_top_left
-
-_0D29:
-	goto _sticks4_farfetchd2_right
+	goto _0D76
 
 _0D2F:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks4_farfetchd2_right
-	goto _sticks4_farfetchd2_bottom_left
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0D42
+	goto _0D8A
 
-_sticks4_farfetchd2_right:
-	get_person_coords obj_D36R0101_tsure_poke_static_farfetchd_2, FARFETCHD_X_COORD, FARFETCHD_Z_COORD
-	compare FARFETCHD_Z_COORD, 54
+_0D42:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
 	goto_if_ne _0D63
-	goto _sticks4_farfetchd2_top_right
-
-_0D5D:
-	goto _sticks4_farfetchd2_top_left
+	goto _0D98
 
 _0D63:
-	compare FARFETCHD_Z_COORD, 64
-	goto_if_ne _sticks4_farfetchd2_top_left
-	goto _sticks4_farfetchd2_bottom_right
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0D76
+	goto _0DB8
 
-_sticks4_farfetchd2_top_left:
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_right
+_0D76:
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
 	wait_movement
 	releaseall
 	end
 
-_sticks4_farfetchd2_bottom_left:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_up
+_0D8A:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
 	wait_movement
 	releaseall
 	end
 
-_sticks4_farfetchd2_top_right:
-	setvar VAR_FARFETCHD2_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_INACTIVE
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_left
+_0D98:
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DE0
 	wait_movement
 	releaseall
 	end
 
-_sticks4_farfetchd2_bottom_right:
-	apply_movement obj_D36R0101_tsure_poke_static_farfetchd_2, _exclaim_face_up
+_0DB8:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
 	wait_movement
 	releaseall
 	end
 
-	.align 4
-_exclaim_face_down:
-	step MOVEMENT_FACE_DOWN, 1
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+_0DC8:
+
+	step 1, 1
+	step 75, 1
 	step_end
 
-	.align 4
-_exclaim_face_up:
-	step MOVEMENT_FACE_UP, 1
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+_0DD4:
+
+	step 0, 1
+	step 75, 1
 	step_end
 
-	.align 4
-_exclaim_face_left:
-	step MOVEMENT_FACE_LEFT, 1
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+_0DE0:
+
+	step 2, 1
+	step 75, 1
 	step_end
 
-	.align 4
-_exclaim_face_right:
-	step MOVEMENT_FACE_RIGHT, 1
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+_0DEC:
+
+	step 3, 1
+	step 75, 1
 	step_end
 
-	.align 4
-_farfetchd_run_up:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
-	step MOVEMENT_RUN_UP, 10
-	step MOVEMENT_FACE_DOWN, 1
+_0DF8:
+
+	step 75, 1
+	step 16, 10
+	step 1, 1
 	step_end
 
-	.align 4
-_farfetchd_run_down:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
-	step MOVEMENT_RUN_DOWN, 10
-	step MOVEMENT_FACE_UP, 1
+_0E08:
+
+	step 75, 1
+	step 17, 10
+	step 0, 1
 	step_end
 
-	.align 4
-_farfetchd1_run_right:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
-	step MOVEMENT_RUN_RIGHT, 7
-	step MOVEMENT_FACE_LEFT, 1
+_0E18:
+
+	step 75, 1
+	step 19, 7
+	step 2, 1
 	step_end
 
-	.align 4
-_farfetchd1_run_left:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
-	step MOVEMENT_RUN_LEFT, 7
-	step MOVEMENT_FACE_RIGHT, 1
+_0E28:
+
+	step 75, 1
+	step 18, 7
+	step 3, 1
 	step_end
 
-	.align 4
-_farfetchd2_run_right:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
-	step MOVEMENT_RUN_RIGHT, 8
-	step MOVEMENT_FACE_LEFT, 1
+_0E38:
+
+	step 75, 1
+	step 19, 8
+	step 2, 1
 	step_end
 
-	.align 4
-_farfetchd2_run_left:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
-	step MOVEMENT_RUN_LEFT, 8
-	step MOVEMENT_FACE_RIGHT, 1
+_0E48:
+
+	step 75, 1
+	step 18, 8
+	step 3, 1
 	step_end
 
-	.align 4
-_walk_in_place_face_down:
-	step MOVEMENT_WALK_IN_PLACE_FACE_DOWN, 5
+_0E58:
+
+	step 37, 5
 	step_end
 
-	.align 4
-_walk_in_place_face_right:
-	step MOVEMENT_WALK_IN_PLACE_FACE_RIGHT, 5
-	step_end
+_0E60:
 
+	step 39, 5
+	step_end
 scr_seq_D36R0101_016:
 	scrcmd_609
 	lockall
@@ -1088,24 +1002,24 @@ scr_seq_D36R0101_016:
 	releaseall
 	end
 
-	.align 4
+
 _0EC4:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0ED0:
+
 	step 52, 1
 	step_end
 
-	.align 4
 _0ED8:
+
 	step 71, 1
 	step 9, 1
 	step 72, 1
 	step_end
-
 scr_seq_D36R0101_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1248,7 +1162,6 @@ _10E1:
 	npc_msg 23
 	closemsg
 	goto _0F0B
-	end
 
 scr_seq_D36R0101_010:
 	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _1104
@@ -1294,17 +1207,17 @@ scr_seq_D36R0101_017:
 	releaseall
 	end
 
-	.align 4
+
 _118C:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step_end
 
-	.align 4
 _1194:
-	step 63, 2
-	step MOVEMENT_FACE_UP, 1
-	step_end
 
+	step 63, 2
+	step 0, 1
+	step_end
 scr_seq_D36R0101_011:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1389,18 +1302,18 @@ scr_seq_D36R0101_014:
 	simple_npc_msg 4
 	end
 
-	.align 4
+
 _12EC:
+
 	step 12, 10
 	step 15, 3
 	step_end
 
-	.align 4
 _12F8:
-	step 63, 12
-	step MOVEMENT_FACE_LEFT, 1
-	step_end
 
+	step 63, 12
+	step 2, 1
+	step_end
 scr_seq_D36R0101_015:
 	scrcmd_609
 	lockall
@@ -1496,56 +1409,57 @@ _142D:
 	setvar VAR_UNK_40E9, 1
 	end
 
-	.align 4
+
 _1478:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _1484:
+
 	step 13, 1
 	step 15, 2
 	step 13, 1
 	step_end
 
-	.align 4
 _1494:
+
 	step 13, 1
 	step 15, 3
 	step 13, 1
 	step_end
 
-	.align 4
 _14A4:
-	step MOVEMENT_FACE_LEFT, 1
+
+	step 2, 1
 	step 61, 1
-	step MOVEMENT_FACE_UP, 1
+	step 0, 1
 	step 61, 1
-	step MOVEMENT_FACE_RIGHT, 1
+	step 3, 1
 	step 61, 1
-	step MOVEMENT_FACE_DOWN, 1
+	step 1, 1
 	step 61, 1
-	step MOVEMENT_FACE_LEFT, 1
+	step 2, 1
 	step 61, 1
-	step MOVEMENT_FACE_UP, 1
+	step 0, 1
 	step 61, 1
-	step MOVEMENT_FACE_RIGHT, 1
+	step 3, 1
 	step 61, 1
-	step MOVEMENT_FACE_DOWN, 1
+	step 1, 1
 	step 61, 1
 	step_end
 
-	.align 4
 _14E8:
-	step MOVEMENT_FACE_LEFT, 1
+
+	step 2, 1
 	step 71, 1
 	step 15, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _14FC:
+
 	step 12, 2
 	step 14, 1
 	step 12, 2
@@ -1554,8 +1468,8 @@ _14FC:
 	step 51, 3
 	step_end
 
-	.align 4
 _1518:
+
 	step 14, 1
 	step 12, 2
 	step 14, 1
@@ -1565,8 +1479,8 @@ _1518:
 	step 51, 3
 	step_end
 
-	.align 4
 _1538:
+
 	step 12, 2
 	step 14, 1
 	step 12, 2
@@ -1574,8 +1488,8 @@ _1538:
 	step 35, 1
 	step_end
 
-	.align 4
 _1550:
+
 	step 14, 1
 	step 12, 2
 	step 14, 1
@@ -1584,23 +1498,23 @@ _1550:
 	step 35, 1
 	step_end
 
-	.align 4
 _156C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _1574:
+
 	step 14, 1
 	step_end
 
-	.align 4
 _157C:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _1584:
+
 	step 15, 3
 	step 13, 2
 	step 15, 1
@@ -1608,13 +1522,12 @@ _1584:
 	step 35, 1
 	step_end
 
-	.align 4
 _159C:
+
 	step 14, 2
 	step 12, 2
 	step 14, 6
 	step_end
-
 scr_seq_D36R0101_018:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1636,20 +1549,20 @@ scr_seq_D36R0101_018:
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
 	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, DIR_NORTH
+	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _1625
 	apply_movement obj_player, _1700
 	apply_movement obj_D36R0101_gsmiddleman1, _174C
 	goto _1677
 
 _1625:
-	compare VAR_SPECIAL_RESULT, DIR_SOUTH
+	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _1640
 	apply_movement obj_player, _1718
 	goto _1677
 
 _1640:
-	compare VAR_SPECIAL_RESULT, DIR_EAST
+	compare VAR_SPECIAL_RESULT, 3
 	goto_if_ne _1663
 	apply_movement obj_player, _1738
 	apply_movement obj_D36R0101_gsmiddleman1, _174C
@@ -1701,8 +1614,9 @@ _16EC:
 	releaseall
 	end
 
-	.align 4
+
 _1700:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -1710,41 +1624,40 @@ _1700:
 	step 33, 1
 	step_end
 
-	.align 4
 _1718:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _1724:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _1738:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _174C:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _1758:
+
 	step 15, 1
 	step 12, 1
-	step MOVEMENT_FACE_DOWN, 1
+	step 1, 1
 	step_end
-
 scr_seq_D36R0101_012:
 	player_on_bike_check VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
@@ -1754,12 +1667,9 @@ scr_seq_D36R0101_012:
 	compare VAR_UNK_412B, 1
 	goto_if_eq _1803
 	get_party_lead_alive VAR_TEMP_x4000
-	follower_poke_is_event_trigger EVENT_SPIKY_EARED_PICHU, VAR_TEMP_x4000, VAR_TEMP_x4001
+	follower_poke_is_event_trigger 0, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 0
 	goto_if_ne _17B7
-	goto _17C1
-
-_17B1:
 	goto _17C1
 
 _17B7:
@@ -1771,12 +1681,9 @@ _17C1:
 	goto_if_ge _1803
 	goto_if_unset FLAG_BEAT_RADIO_TOWER_ROCKETS, _1803
 	get_party_lead_alive VAR_TEMP_x4006
-	follower_poke_is_event_trigger EVENT_CELEBI, VAR_TEMP_x4006, VAR_TEMP_x4007
+	follower_poke_is_event_trigger 3, VAR_TEMP_x4006, VAR_TEMP_x4007
 	compare VAR_TEMP_x4007, 0
 	goto_if_ne _17FD
-	goto _1803
-
-_17F7:
 	goto _1803
 
 _17FD:
@@ -1791,15 +1698,15 @@ _1816:
 	lockall
 	stop_bgm 0
 	clearflag FLAG_HIDE_ILEX_FOREST_SPIKY_EAR_PICHU
-	show_person obj_D36R0101_tsure_poke_static_pichu_spiky
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1C44
+	show_person obj_D36R0101_follower_mon_static_pichu_spiky
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1C44
 	wait_movement
 	play_cry SPECIES_PICHU, 0
 	wait_cry
 	apply_movement obj_player, _1C58
 	wait_movement
 	callstd std_play_pichu_music
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1C64
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1C64
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
@@ -1812,17 +1719,17 @@ _1816:
 	closemsg
 	apply_movement obj_partner_poke, _1CB4
 	wait_movement
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1CC4
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1CC4
 	wait_movement
 	apply_movement obj_partner_poke, _1CF8
 	wait_movement
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1D08
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1D08
 	apply_movement obj_partner_poke, _1D2C
 	wait_movement
 	clearflag FLAG_HIDE_ILEX_FOREST_OLD_MAN
 	show_person obj_D36R0101_gsoldman1
 	apply_movement obj_D36R0101_gsoldman1, _1DE0
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1D48
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1D48
 	apply_movement obj_partner_poke, _1DA4
 	wait_movement
 	apply_movement obj_player, _1E88
@@ -1834,19 +1741,19 @@ _1816:
 	npc_msg 47
 	closemsg
 	apply_movement obj_D36R0101_gsoldman1, _1E00
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1E10
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1E10
 	apply_movement obj_player, _1ED0
 	wait_movement
 	npc_msg 48
 	closemsg
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1E20
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1E20
 	apply_movement obj_partner_poke, _1E2C
 	wait_movement
 	npc_msg 49
 	closemsg
 	apply_movement obj_partner_poke, _1E38
 	wait_movement
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1E40
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1E40
 	wait_movement
 	apply_movement obj_partner_poke, _1E48
 	wait_movement
@@ -1930,7 +1837,7 @@ _1A34:
 	callstd std_fade_end_pichu_music
 _1A51:
 	give_spiky_ear_pichu
-	hide_person obj_D36R0101_tsure_poke_static_pichu_spiky
+	hide_person obj_D36R0101_follower_mon_static_pichu_spiky
 	setvar VAR_UNK_412B, 2
 	play_fanfare SEQ_ME_SHINKAOME
 	npc_msg 40
@@ -1989,17 +1896,17 @@ scr_seq_D36R0101_019:
 	get_player_facing VAR_TEMP_x4005
 	compare VAR_TEMP_x4005, 3
 	goto_if_ne _1B44
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1EF0
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1EF0
 	goto _1B67
 
 _1B44:
 	compare VAR_TEMP_x4005, 2
 	goto_if_ne _1B5F
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1EF8
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1EF8
 	goto _1B67
 
 _1B5F:
-	apply_movement obj_D36R0101_tsure_poke_static_pichu_spiky, _1F00
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1F00
 _1B67:
 	wait_movement
 	play_cry SPECIES_PICHU, 0
@@ -2060,37 +1967,38 @@ _1C3D:
 	releaseall
 	end
 
-	.align 4
+
 _1C44:
+
 	step 71, 1
 	step 59, 1
 	step 72, 1
 	step 49, 2
 	step_end
 
-	.align 4
 _1C58:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _1C64:
-	step MOVEMENT_RUN_DOWN, 7
+
+	step 17, 7
 	step 50, 1
-	step MOVEMENT_RUN_LEFT, 4
-	step MOVEMENT_RUN_UP, 4
-	step MOVEMENT_RUN_RIGHT, 4
-	step MOVEMENT_RUN_DOWN, 4
-	step MOVEMENT_RUN_LEFT, 2
-	step MOVEMENT_FACE_UP, 1
+	step 18, 4
+	step 16, 4
+	step 19, 4
+	step 17, 4
+	step 18, 2
+	step 0, 1
 	step 48, 2
 	step_end
 
-	.align 4
 _1C8C:
+
 	step 63, 3
-	step MOVEMENT_FACE_DOWN, 1
+	step 1, 1
 	step 63, 1
 	step 13, 2
 	step 35, 1
@@ -2100,251 +2008,250 @@ _1C8C:
 	step 33, 1
 	step_end
 
-	.align 4
 _1CB4:
+
 	step 15, 1
 	step 13, 1
-	step MOVEMENT_FACE_DOWN, 1
+	step 1, 1
 	step_end
 
-	.align 4
 _1CC4:
+
 	step 71, 1
 	step 55, 1
 	step 72, 1
 	step 48, 1
-	step MOVEMENT_FACE_RIGHT, 1
-	step MOVEMENT_FACE_DOWN, 1
-	step MOVEMENT_FACE_LEFT, 1
-	step MOVEMENT_FACE_UP, 1
-	step MOVEMENT_FACE_RIGHT, 1
-	step MOVEMENT_FACE_DOWN, 1
-	step MOVEMENT_FACE_LEFT, 1
-	step MOVEMENT_FACE_UP, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
 	step_end
 
-	.align 4
 _1CF8:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step 63, 1
 	step 49, 2
 	step_end
 
-	.align 4
 _1D08:
+
 	step 71, 1
 	step 53, 1
 	step 72, 1
 	step 65, 1
 	step 50, 1
-	step MOVEMENT_RUN_LEFT, 7
-	step MOVEMENT_RUN_UP, 13
+	step 18, 7
+	step 16, 13
 	step 15, 1
 	step_end
 
-	.align 4
 _1D2C:
+
 	step 65, 2
-	step MOVEMENT_RUN_DOWN, 1
-	step MOVEMENT_RUN_LEFT, 6
+	step 17, 1
+	step 18, 6
 	step 48, 1
-	step MOVEMENT_RUN_UP, 13
-	step MOVEMENT_RUN_LEFT, 1
+	step 16, 13
+	step 18, 1
 	step_end
 
-	.align 4
 _1D48:
-	step MOVEMENT_RUN_DOWN, 12
-	step MOVEMENT_RUN_RIGHT, 6
-	step MOVEMENT_RUN_UP, 4
-	step MOVEMENT_RUN_LEFT, 3
-	step MOVEMENT_RUN_DOWN, 4
-	step MOVEMENT_RUN_RIGHT, 3
+
+	step 17, 12
+	step 19, 6
+	step 16, 4
+	step 18, 3
+	step 17, 4
+	step 19, 3
 	step 71, 1
 	step 54, 1
 	step 72, 1
-	step MOVEMENT_FACE_DOWN, 6
+	step 1, 6
 	step 71, 1
 	step 10, 1
 	step 72, 1
-	step MOVEMENT_FACE_LEFT, 6
-	step MOVEMENT_FACE_UP, 6
+	step 2, 6
+	step 0, 6
 	step 71, 1
 	step 11, 1
 	step 72, 1
-	step MOVEMENT_FACE_RIGHT, 6
+	step 3, 6
 	step 71, 1
 	step 10, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _1DA4:
-	step MOVEMENT_RUN_DOWN, 13
-	step MOVEMENT_RUN_RIGHT, 7
+
+	step 17, 13
+	step 19, 7
 	step 48, 1
 	step 50, 1
 	step 63, 4
 	step 71, 1
 	step 55, 1
 	step 72, 1
-	step MOVEMENT_FACE_DOWN, 6
-	step MOVEMENT_FACE_RIGHT, 6
-	step MOVEMENT_FACE_UP, 6
-	step MOVEMENT_FACE_LEFT, 6
+	step 1, 6
+	step 3, 6
+	step 0, 6
+	step 2, 6
 	step 66, 1
 	step 14, 1
 	step_end
 
-	.align 4
 _1DE0:
+
 	step 65, 5
 	step 9, 10
 	step 11, 4
 	step 35, 1
 	step_end
 
-	.align 4
 _1DF4:
+
 	step 32, 1
 	step 65, 1
 	step_end
 
-	.align 4
 _1E00:
+
 	step 33, 1
 	step 65, 1
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+	step 75, 1
 	step_end
 
-	.align 4
 _1E10:
+
 	step 65, 1
 	step 32, 1
 	step 65, 1
 	step_end
 
-	.align 4
 _1E20:
+
 	step 48, 1
 	step 51, 1
 	step_end
 
-	.align 4
 _1E2C:
+
 	step 54, 1
 	step 50, 2
 	step_end
 
-	.align 4
 _1E38:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _1E40:
+
 	step 51, 2
 	step_end
 
-	.align 4
 _1E48:
+
 	step 48, 2
 	step_end
 
-	.align 4
 _1E50:
+
 	step 35, 1
 	step 65, 1
 	step 10, 4
 	step 8, 10
 	step_end
 
-	.align 4
 _1E64:
+
 	step 9, 2
 	step 10, 4
 	step 8, 12
 	step_end
 
-	.align 4
 _1E74:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step 63, 1
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _1E88:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _1E90:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _1E98:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _1EA0:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _1EA8:
+
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _1EB4:
+
 	step 12, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _1EC0:
+
 	step 15, 1
 	step 12, 2
 	step 34, 1
 	step_end
 
-	.align 4
 _1ED0:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _1ED8:
+
 	step 13, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _1EE4:
+
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _1EF0:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _1EF8:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _1F00:
+
 	step 33, 1
 	step_end
-
 scr_seq_D36R0101_020:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -2379,14 +2286,14 @@ _1F48:
 	touchscreen_menu_hide
 	clearflag FLAG_HIDE_ILEX_FOREST_FRIEND
 	show_person obj_D36R0101_var_1
-	show_person obj_D36R0101_tsure_poke_static_marill
+	show_person obj_D36R0101_follower_mon_static_marill
 	apply_movement obj_D36R0101_var_1, _2054
-	apply_movement obj_D36R0101_tsure_poke_static_marill, _2060
+	apply_movement obj_D36R0101_follower_mon_static_marill, _2060
 	wait_movement
 	apply_movement obj_player, _200C
 	wait_movement
 	buffer_players_name 0
-	gender_msgbox 55, 56
+	gender_msgbox 57, 56
 	closemsg
 	callstd std_fade_end_friend_music
 	play_se SEQ_SE_GS_SUZUSYUTUGEN_HO
@@ -2398,7 +2305,7 @@ _1F48:
 	apply_movement obj_player, _2014
 	apply_movement obj_D36R0101_var_1, _208C
 	wait_movement
-	gender_msgbox 57, 58
+	gender_msgbox 59, 58
 	closemsg
 	play_se SEQ_SE_GS_TIMESLIP
 	scrcmd_810
@@ -2412,14 +2319,15 @@ _1F48:
 	releaseall
 	end
 
-	.align 4
+
 _200C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _2014:
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+
+	step 75, 1
 	step 63, 1
 	step 32, 1
 	step 63, 1
@@ -2429,24 +2337,24 @@ _2014:
 	step 63, 1
 	step_end
 
-	.align 4
 _2038:
-	step MOVEMENT_FACE_DOWN, 1
-	step MOVEMENT_FACE_DOWN, 1
+
+	step 1, 1
+	step 1, 1
 	step 57, 1
 	step 71, 1
 	step 52, 1
 	step 71, 1
 	step_end
 
-	.align 4
 _2054:
+
 	step 13, 11
 	step 15, 2
 	step_end
 
-	.align 4
 _2060:
+
 	step 13, 8
 	step 35, 1
 	step 15, 1
@@ -2459,14 +2367,13 @@ _2060:
 	step 14, 1
 	step_end
 
-	.align 4
 _208C:
+
 	step 65, 1
 	step 15, 2
 	step 12, 2
 	step 35, 1
 	step_end
-
 scr_seq_D36R0101_022:
 	scrcmd_609
 	lockall
@@ -2479,55 +2386,56 @@ scr_seq_D36R0101_022:
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
-	gender_msgbox 59, 60
+	gender_msgbox 61, 60
 	closemsg
-	apply_movement obj_D36R0101_tsure_poke_static_marill, _2170
+	apply_movement obj_D36R0101_follower_mon_static_marill, _2170
 	wait_movement
 	callstd std_play_friend_music
 	apply_movement obj_D36R0101_var_1, _215C
 	wait_movement
-	gender_msgbox 61, 62
+	gender_msgbox 63, 62
 	closemsg
 	apply_movement obj_D36R0101_var_1, _218C
 	wait_movement
-	gender_msgbox 63, 64
+	gender_msgbox 65, 64
 	closemsg
 	apply_movement obj_D36R0101_var_1, _219C
-	apply_movement obj_D36R0101_tsure_poke_static_marill, _21A4
+	apply_movement obj_D36R0101_follower_mon_static_marill, _21A4
 	wait_movement
 	buffer_players_name 0
-	gender_msgbox 65, 66
+	gender_msgbox 67, 66
 	closemsg
 	apply_movement obj_D36R0101_var_1, _21AC
-	apply_movement obj_D36R0101_tsure_poke_static_marill, _21C4
+	apply_movement obj_D36R0101_follower_mon_static_marill, _21C4
 	wait_movement
 	callstd std_fade_end_friend_music
 	touchscreen_menu_show
 	setvar VAR_UNK_40FE, 5
 	hide_person obj_D36R0101_var_1
-	hide_person obj_D36R0101_tsure_poke_static_marill
+	hide_person obj_D36R0101_follower_mon_static_marill
 	setflag FLAG_HIDE_ILEX_FOREST_FRIEND
 	releaseall
 	end
 
-	.align 4
+
 _2148:
+
 	step 34, 1
 	step 63, 1
 	step 35, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _215C:
+
 	step 34, 1
-	step MOVEMENT_EMOTE_EXCLAMATION, 1
+	step 75, 1
 	step 63, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _2170:
+
 	step 63, 1
 	step 51, 2
 	step 71, 1
@@ -2536,25 +2444,25 @@ _2170:
 	step 72, 1
 	step_end
 
-	.align 4
 _218C:
+
 	step 14, 3
 	step 65, 1
 	step 50, 2
 	step_end
 
-	.align 4
 _219C:
+
 	step 15, 3
 	step_end
 
-	.align 4
 _21A4:
+
 	step 15, 3
 	step_end
 
-	.align 4
 _21AC:
+
 	step 14, 4
 	step 12, 6
 	step 33, 1
@@ -2562,8 +2470,8 @@ _21AC:
 	step 12, 5
 	step_end
 
-	.align 4
 _21C4:
+
 	step 71, 1
 	step 53, 1
 	step 72, 1
@@ -2577,12 +2485,11 @@ _21C4:
 	step 12, 10
 	step_end
 
-	.align 4
 _21F4:
+
 	step 13, 1
 	step 63, 1
 	step_end
-
 scr_seq_D36R0101_013:
 	scrcmd_055 3, 0
 	scrcmd_057 3
@@ -2591,9 +2498,6 @@ scr_seq_D36R0101_013:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -74,7 +74,6 @@ _0071:
 	case 1, _00D5
 	case 2, _03D0
 	goto _03DB
-	end
 
 _00D5:
 	npc_msg 3
@@ -95,7 +94,6 @@ _00D5:
 	case 2, _01DA
 	case 3, _0214
 	goto _024E
-	end
 
 _0166:
 	setvar VAR_TEMP_x4007, 0
@@ -107,7 +105,6 @@ _0166:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _0288
-	end
 
 _01A0:
 	setvar VAR_TEMP_x4007, 1
@@ -119,7 +116,6 @@ _01A0:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _0288
-	end
 
 _01DA:
 	setvar VAR_TEMP_x4007, 2
@@ -131,7 +127,6 @@ _01DA:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _0288
-	end
 
 _0214:
 	setvar VAR_TEMP_x4007, 3
@@ -143,7 +138,6 @@ _0214:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _0288
-	end
 
 _024E:
 	setvar VAR_TEMP_x4007, 4
@@ -155,7 +149,6 @@ _024E:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _0288
-	end
 
 _0288:
 	switch VAR_SPECIAL_RESULT
@@ -170,57 +163,46 @@ _0288:
 	case 8, _0370
 	case 9, _037B
 	goto _00D5
-	end
 
 _0318:
 	npc_msg 6
 	goto _0386
-	end
 
 _0323:
 	npc_msg 7
 	goto _0386
-	end
 
 _032E:
 	npc_msg 8
 	goto _0386
-	end
 
 _0339:
 	npc_msg 9
 	goto _0386
-	end
 
 _0344:
 	npc_msg 10
 	goto _0386
-	end
 
 _034F:
 	npc_msg 11
 	goto _0386
-	end
 
 _035A:
 	npc_msg 12
 	goto _0386
-	end
 
 _0365:
 	npc_msg 13
 	goto _0386
-	end
 
 _0370:
 	npc_msg 14
 	goto _0386
-	end
 
 _037B:
 	npc_msg 15
 	goto _0386
-	end
 
 _0386:
 	npc_msg 4
@@ -233,17 +215,14 @@ _0386:
 	compare VAR_TEMP_x4007, 3
 	goto_if_eq _0214
 	goto _024E
-	end
 
 _03C5:
 	npc_msg 5
 	goto _0071
-	end
 
 _03D0:
 	npc_msg 17
 	goto _0071
-	end
 
 _03DB:
 	npc_msg 16
@@ -457,16 +436,16 @@ _05FF:
 	releaseall
 	end
 
-	.align 4
+
 _0610:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0618:
+
 	step 32, 1
 	step_end
-
 scr_seq_D49R0102_011:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -587,9 +566,6 @@ _075A:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

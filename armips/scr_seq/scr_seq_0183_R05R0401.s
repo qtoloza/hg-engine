@@ -60,7 +60,4 @@ scr_seq_R05R0401_001:
 	.align 4
 
 
-
-
-
 .close

@@ -88,7 +88,4 @@ scr_seq_T05_007:
 	.align 4
 
 
-
-
-
 .close

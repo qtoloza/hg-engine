@@ -53,7 +53,7 @@ scr_seq_T07R0203_011:
 	compare VAR_UNK_412C, 0
 	goto_if_ne _006B
 	move_person_facing obj_T07R0203_var_1, 12, 0, 6, DIR_WEST
-	move_person_facing obj_T07R0203_tsure_poke_static_marill, 13, 0, 6, DIR_WEST
+	move_person_facing obj_T07R0203_follower_mon_static_marill, 13, 0, 6, DIR_WEST
 _006B:
 	end
 
@@ -62,13 +62,13 @@ scr_seq_T07R0203_010:
 	lockall
 	callstd std_play_friend_music
 	apply_movement obj_T07R0203_var_1, _012C
-	apply_movement obj_T07R0203_tsure_poke_static_marill, _0138
+	apply_movement obj_T07R0203_follower_mon_static_marill, _0138
 	wait_movement
 	buffer_players_name 0
 	gender_msgbox 12, 13
 	closemsg
 	apply_movement obj_T07R0203_var_1, _0140
-	apply_movement obj_T07R0203_tsure_poke_static_marill, _0148
+	apply_movement obj_T07R0203_follower_mon_static_marill, _0148
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
@@ -81,13 +81,13 @@ scr_seq_T07R0203_010:
 	gender_msgbox 14, 15
 	closemsg
 	apply_movement obj_T07R0203_var_1, _015C
-	apply_movement obj_T07R0203_tsure_poke_static_marill, _016C
+	apply_movement obj_T07R0203_follower_mon_static_marill, _016C
 	wait_movement
 	scrcmd_307 0, 0, 3, 2, 77
 	scrcmd_310 77
 	scrcmd_308 77
 	apply_movement obj_T07R0203_var_1, _0180
-	apply_movement obj_T07R0203_tsure_poke_static_marill, _018C
+	apply_movement obj_T07R0203_follower_mon_static_marill, _018C
 	wait_movement
 	scrcmd_311 77
 	scrcmd_308 77
@@ -95,64 +95,64 @@ scr_seq_T07R0203_010:
 	callstd std_fade_end_friend_music
 	setvar VAR_UNK_412C, 1
 	move_person_facing obj_T07R0203_var_1, 29, 0, 29, DIR_WEST
-	move_person_facing obj_T07R0203_tsure_poke_static_marill, 29, 0, 29, DIR_WEST
+	move_person_facing obj_T07R0203_follower_mon_static_marill, 29, 0, 29, DIR_WEST
 	releaseall
 	end
 
-	.align 4
+
 _012C:
+
 	step 14, 4
 	step 75, 1
 	step_end
 
-	.align 4
 _0138:
+
 	step 14, 4
 	step_end
 
-	.align 4
 _0140:
+
 	step 14, 4
 	step_end
 
-	.align 4
 _0148:
+
 	step 14, 4
 	step_end
 
-	.align 4
 _0150:
+
 	step 13, 3
 	step 35, 1
 	step_end
 
-	.align 4
 _015C:
+
 	step 12, 2
 	step 14, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _016C:
+
 	step 14, 1
 	step 12, 2
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0180:
+
 	step 12, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _018C:
+
 	step 12, 2
 	step 69, 1
 	step_end
-
 scr_seq_T07R0203_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -170,7 +170,7 @@ scr_seq_T07R0203_000:
 	show_certificate 0
 	restore_overworld
 	setflag FLAG_SAW_JOHTO_DEX_CERTIFICATE
-	add_special_game_stat SCORE_EVENT_25
+	add_special_game_stat 25
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 _01ED:
@@ -187,7 +187,7 @@ _01ED:
 	show_certificate 1
 	restore_overworld
 	setflag FLAG_SAW_NATIONAL_DEX_CERTIFICATE
-	add_special_game_stat SCORE_EVENT_26
+	add_special_game_stat 26
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 _023A:
@@ -297,9 +297,6 @@ scr_seq_T07R0203_012:
 	simple_npc_msg 21
 	end
 	.align 4
-
-
-
 
 
 .close

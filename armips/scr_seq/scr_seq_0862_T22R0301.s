@@ -132,8 +132,9 @@ _0157:
 	releaseall
 	end
 
-	.align 4
+
 _0164:
+
 	step 1, 1
 	step 2, 1
 	step 0, 1
@@ -144,8 +145,8 @@ _0164:
 	step 3, 1
 	step_end
 
-	.align 4
 _0188:
+
 	step 0, 1
 	step 3, 1
 	step 1, 1
@@ -156,8 +157,8 @@ _0188:
 	step 2, 1
 	step_end
 
-	.align 4
 _01AC:
+
 	step 2, 1
 	step 0, 1
 	step 3, 1
@@ -168,8 +169,8 @@ _01AC:
 	step 1, 1
 	step_end
 
-	.align 4
 _01D0:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -179,14 +180,12 @@ _01D0:
 	step 2, 1
 	step 0, 1
 	step_end
-
 scr_seq_T22R0301_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	npc_msg 12
 	goto _0207
-	end
 
 _0207:
 	npc_msg 13
@@ -205,17 +204,11 @@ _0207:
 	npc_msg 14
 	goto _0207
 
-_025E:
-	goto _02D8
-
 _0264:
 	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _0280
 	npc_msg 15
 	goto _0207
-
-_027A:
-	goto _02D8
 
 _0280:
 	compare VAR_SPECIAL_RESULT, 3
@@ -223,17 +216,11 @@ _0280:
 	npc_msg 16
 	goto _0207
 
-_0296:
-	goto _02D8
-
 _029C:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_ne _02B8
 	npc_msg 17
 	goto _0207
-
-_02B2:
-	goto _02D8
 
 _02B8:
 	compare VAR_SPECIAL_RESULT, 5
@@ -241,14 +228,9 @@ _02B8:
 	npc_msg 18
 	goto _0207
 
-_02CE:
-	goto _02D8
-
 _02D4:
 	closemsg
 	releaseall
-
-_02D8:
 	end
 
 scr_seq_T22R0301_003:
@@ -291,11 +273,11 @@ _0353:
 	releaseall
 	end
 
-	.align 4
+
 _035C:
+
 	step 32, 1
 	step_end
-
 scr_seq_T22R0301_004:
 	simple_npc_msg 7
 	end
@@ -312,9 +294,6 @@ scr_seq_T22R0301_007:
 	simple_npc_msg 8
 	end
 	.align 4
-
-
-
 
 
 .close

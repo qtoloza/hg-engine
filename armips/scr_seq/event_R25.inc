@@ -24,7 +24,7 @@
 .equ obj_R25_gsman1, 9
 .equ obj_R25_tree, 10
 .equ obj_R25_monstarball, 11
-.equ obj_R25_tsure_poke_static_suicune, 12
+.equ obj_R25_follower_mon_static_suicune, 12
 .equ obj_R25_minaki, 13
 .equ obj_R25_minaki_2, 14
 .equ obj_R25_gsleader11_2, 15

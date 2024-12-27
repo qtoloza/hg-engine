@@ -48,7 +48,4 @@ scr_seq_T04PC0101_002:
 	.align 4
 
 
-
-
-
 .close

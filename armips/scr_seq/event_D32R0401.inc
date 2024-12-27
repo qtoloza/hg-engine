@@ -29,7 +29,7 @@
 .equ obj_D32R0401_gswoman2, 2
 .equ obj_D32R0401_middlewoman1_2, 3
 .equ obj_D32R0401_gsbabygirl1, 4
-.equ obj_D32R0401_tsure_poke_static_slowbro, 5
+.equ obj_D32R0401_follower_mon_static_slowbro, 5
 .equ obj_D32R0401_gsgirl1, 6
 .equ obj_D32R0401_mount_2, 7
 .equ obj_D32R0401_gsoldman1, 8

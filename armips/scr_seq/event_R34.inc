@@ -27,7 +27,7 @@
 .equ obj_R34_policeman_2, 9
 .equ obj_R34_gsoldman1, 10
 .equ obj_R34_var_1, 11
-.equ obj_R34_tsure_poke_static_marill, 12
+.equ obj_R34_follower_mon_static_marill, 12
 .equ obj_R34_gsmiddleman1, 13
 .equ obj_R34_monstarball_2, 14
 .equ obj_R34_gsmiddleman1_2, 15

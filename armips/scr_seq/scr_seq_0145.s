@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0145.inc"
-
 
 // text archive to grab from: 210.txt
 
@@ -587,49 +585,41 @@ _04EE:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _0501:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _0514:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _0527:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _053A:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _054D:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _0560:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _0573:
 	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	buffer_pocket_name 2, VAR_SPECIAL_RESULT
 	goto _0586
-	end
 
 _0586:
 	setflagvar VAR_SPECIAL_x8006
@@ -637,7 +627,6 @@ _0586:
 	wait_button_or_walk_away
 	setvar VAR_SPECIAL_RESULT, 1
 	goto _043C
-	end
 
 _059D:
 	buffer_players_name 0
@@ -645,14 +634,12 @@ _059D:
 	buffer_tmhm_move_name 2, VAR_SPECIAL_x8004
 	npc_msg 6
 	goto _046E
-	end
 
 _05B5:
 	buffer_players_name 0
 	buffer_item_name_indef 1, VAR_SPECIAL_x8004
 	npc_msg 3
 	goto _046E
-	end
 
 _05C8:
 	buffer_item_name 0, VAR_SPECIAL_x8004
@@ -660,12 +647,8 @@ _05C8:
 	wait_button_or_walk_away
 	setvar VAR_SPECIAL_RESULT, 0
 	goto _043C
-	end
 
 	.align 4
-
-
-
 
 
 .close

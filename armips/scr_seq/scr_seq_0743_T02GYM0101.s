@@ -78,7 +78,7 @@ scr_seq_T02GYM0101_000:
 	give_badge BADGE_EARTH
 	addvar VAR_UNK_4135, 1
 	setflag FLAG_UNK_998
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	settrainerflag TRAINER_ACE_TRAINER_M_ARABELLA
 	settrainerflag TRAINER_ACE_TRAINER_F_SALMA
 	settrainerflag TRAINER_ACE_TRAINER_M_BONITA
@@ -265,119 +265,119 @@ _037D:
 	releaseall
 	end
 
-	.align 4
+
 _0394:
+
 	step 2, 1
 	step 75, 1
 	step 14, 5
 	step_end
 
-	.align 4
 _03A4:
+
 	step 2, 1
 	step 75, 1
 	step 14, 4
 	step_end
 
-	.align 4
 _03B4:
+
 	step 2, 1
 	step 75, 1
 	step 14, 3
 	step_end
 
-	.align 4
 _03C4:
+
 	step 2, 1
 	step 75, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _03D4:
+
 	step 2, 1
 	step 75, 1
 	step 14, 1
 	step_end
 
-	.align 4
 _03E4:
+
 	step 2, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _03F0:
+
 	step 3, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _03FC:
+
 	step 3, 1
 	step 75, 1
 	step 15, 1
 	step_end
 
-	.align 4
 _040C:
+
 	step 65, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _0418:
+
 	step 63, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _0424:
+
 	step 63, 2
 	step 2, 1
 	step_end
 
-	.align 4
 _0430:
+
 	step 15, 5
 	step 1, 1
 	step_end
 
-	.align 4
 _043C:
+
 	step 15, 4
 	step 1, 1
 	step_end
 
-	.align 4
 _0448:
+
 	step 15, 3
 	step 1, 1
 	step_end
 
-	.align 4
 _0454:
+
 	step 15, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _0460:
+
 	step 15, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _046C:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _0474:
+
 	step 14, 1
 	step 1, 1
 	step_end
-
 scr_seq_T02GYM0101_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -397,9 +397,6 @@ _04AA:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

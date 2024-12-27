@@ -51,7 +51,6 @@ scr_seq_T25R0301_000:
 	compare VAR_SPECIAL_RESULT, 50
 	goto_if_ge _0098
 	goto _00A3
-	end
 
 _006C:
 	npc_msg 1
@@ -103,9 +102,6 @@ scr_seq_T25R0301_002:
 	simple_npc_msg 8
 	end
 	.align 4
-
-
-
 
 
 .close

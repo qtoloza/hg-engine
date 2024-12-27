@@ -42,7 +42,4 @@ scr_seq_T07R0204_000:
 	.align 4
 
 
-
-
-
 .close

@@ -144,12 +144,10 @@ _0199:
 
 _019F:
 	goto _0085
-	end
 
 _01A7:
 	setflag FLAG_HIDE_LAKE_OF_RAGE_PRYCE
 	goto _0085
-	end
 
 scr_seq_T29_002:
 	goto_if_set FLAG_ENGAGING_STATIC_POKEMON, _01C0
@@ -160,7 +158,7 @@ _01C0:
 	hide_person obj_T29_rgyaradosu
 	clearflag FLAG_HIDE_LAKE_OF_RAGE_LANCE
 	show_person obj_T29_wataru
-	show_person obj_T29_tsure_poke_static_dragonite
+	show_person obj_T29_follower_mon_static_dragonite
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -212,7 +210,6 @@ _0259:
 _026A:
 	npc_msg 17
 	goto _01F2
-	end
 
 scr_seq_T29_005:
 	play_se SEQ_SE_DP_SELECT
@@ -348,7 +345,7 @@ _0466:
 _046C:
 	clearflag FLAG_HIDE_LAKE_OF_RAGE_LANCE
 	hide_person obj_T29_wataru
-	hide_person obj_T29_tsure_poke_static_dragonite
+	hide_person obj_T29_follower_mon_static_dragonite
 	releaseall
 	end
 
@@ -372,14 +369,14 @@ _04BB:
 	gender_msgbox 5, 6
 	wait_button_or_walk_away
 	closemsg
-	apply_movement obj_T29_tsure_poke_static_dragonite, _0538
+	apply_movement obj_T29_follower_mon_static_dragonite, _0538
 	wait_movement
 	apply_movement obj_T29_wataru, _0544
 	wait_movement
 	scrcmd_775 8, 10
 	setflag FLAG_HIDE_LAKE_OF_RAGE_LANCE
 	hide_person obj_T29_wataru
-	hide_person obj_T29_tsure_poke_static_dragonite
+	hide_person obj_T29_follower_mon_static_dragonite
 	clearflag FLAG_HIDE_MAHOGANY_SHOP_LANCE
 	setvar VAR_UNK_40A8, 1
 	releaseall
@@ -407,17 +404,17 @@ _0509:
 	goto_if_eq _04FA
 	end
 
-	.align 4
+
 _0538:
+
 	step 34, 1
 	step 50, 2
 	step_end
 
-	.align 4
 _0544:
+
 	step 33, 1
 	step_end
-
 scr_seq_T29_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -434,7 +431,6 @@ _056A:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
-	end
 	end
 
 scr_seq_T29_006:
@@ -469,21 +465,18 @@ scr_seq_T29_014:
 	setvar VAR_SPECIAL_x8008, 27
 	setvar VAR_SPECIAL_x8009, 1
 	goto _061B
-	end
 
 scr_seq_T29_015:
 	setvar VAR_TEMP_x4001, 2
 	setvar VAR_SPECIAL_x8008, 29
 	setvar VAR_SPECIAL_x8009, 1
 	goto _061B
-	end
 
 scr_seq_T29_016:
 	setvar VAR_TEMP_x4001, 3
 	setvar VAR_SPECIAL_x8008, 23
 	setvar VAR_SPECIAL_x8009, 1
 	goto _061B
-	end
 
 _061B:
 	play_se SEQ_SE_DP_SELECT
@@ -539,7 +532,6 @@ _06CA:
 	wait_button_or_walk_away
 	setvar VAR_SPECIAL_RESULT, 0
 	goto _06C4
-	end
 
 scr_seq_T29_018:
 	play_se SEQ_SE_DP_SELECT
@@ -560,20 +552,12 @@ scr_seq_T29_007:
 	callstd std_signpost
 	end
 
-_0710:
-	simple_npc_msg 9
-	end
-
 scr_seq_T29_008:
 	simple_npc_msg 12
 	end
 
 scr_seq_T29_009:
 	simple_npc_msg 11
-	end
-
-_0749:
-	simple_npc_msg 0
 	end
 
 scr_seq_T29_010:
@@ -592,9 +576,6 @@ scr_seq_T29_013:
 	simple_npc_msg 27
 	end
 	.align 4
-
-
-
 
 
 .close

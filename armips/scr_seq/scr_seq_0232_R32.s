@@ -203,13 +203,11 @@ _0284:
 _028C:
 	npc_msg 3
 	goto _0284
-	end
 
 _0297:
 	buffer_players_name 0
 	npc_msg 1
 	goto _0284
-	end
 
 _02A5:
 	setvar VAR_TEMP_x4002, 0
@@ -333,80 +331,80 @@ _0468:
 	releaseall
 	end
 
-	.align 4
+
 _046C:
+
 	step 2, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0478:
+
 	step 14, 2
 	step 12, 1
 	step_end
 
-	.align 4
 _0484:
+
 	step 62, 1
 	step 14, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _0494:
+
 	step 63, 1
 	step 12, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _04A4:
+
 	step 62, 1
 	step 12, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _04B4:
+
 	step 13, 1
 	step 15, 2
 	step 2, 1
 	step_end
 
-	.align 4
 _04C4:
+
 	step 13, 1
 	step 15, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _04D4:
+
 	step 14, 1
 	step_end
 
-	.align 4
 _04DC:
+
 	step 62, 1
 	step_end
 
-	.align 4
 _04E4:
+
 	step 63, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _04F0:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _04F8:
+
 	step 15, 1
 	step 2, 1
 	step_end
-
 scr_seq_R32_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -513,8 +511,9 @@ _0674:
 	releaseall
 	end
 
-	.align 4
+
 _0688:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -522,41 +521,40 @@ _0688:
 	step 33, 1
 	step_end
 
-	.align 4
 _06A0:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _06AC:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _06C0:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _06D4:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _06E0:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R32_006:
 	direction_signpost 18, 1, 2, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -581,9 +579,6 @@ scr_seq_R32_008:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

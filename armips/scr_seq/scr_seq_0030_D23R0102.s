@@ -339,55 +339,46 @@ _0499:
 	setvar VAR_SPECIAL_x8004, 4
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _04AD:
 	setvar VAR_SPECIAL_x8004, 23
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _04C1:
 	setvar VAR_SPECIAL_x8004, 46
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _04D5:
 	setvar VAR_SPECIAL_x8004, 47
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _04E9:
 	setvar VAR_SPECIAL_x8004, 48
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _04FD:
 	setvar VAR_SPECIAL_x8004, 92
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _0511:
 	setvar VAR_SPECIAL_x8004, 50
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _0525:
 	setvar VAR_SPECIAL_x8004, 45
 	setvar VAR_SPECIAL_x8005, 1
 	goto _03F5
-	end
 
 _0539:
 	callstd std_bag_is_full
 	closemsg
 	goto _0450
-	end
 
 _0547:
 	npc_msg 29
@@ -448,83 +439,81 @@ _05C0:
 	releaseall
 	end
 
-	.align 4
+
 _05CC:
+
 	step 1, 1
 	step 13, 2
 	step 14, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _05E0:
+
 	step 13, 2
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _05F0:
+
 	step 1, 1
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0600:
+
 	step 13, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _060C:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0614:
+
 	step 13, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _0620:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0628:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0630:
+
 	step 13, 1
 	step_end
 
-	.align 4
 _0638:
+
 	step 0, 1
 	step 12, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0648:
+
 	step 13, 2
 	step 15, 3
 	step_end
 
-	.align 4
 _0654:
+
 	step 14, 3
 	step 12, 2
 	step 33, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

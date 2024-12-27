@@ -19,7 +19,7 @@
 .equ obj_R14_tree, 8
 .equ obj_R14_tree_2, 9
 .equ obj_R14_gsmiddleman1_3, 10
-.equ obj_R14_tsure_poke_static_suicune, 11
+.equ obj_R14_follower_mon_static_suicune, 11
 .equ obj_R14_minaki, 12
 .equ obj_R14_minaki_2, 13
 .equ obj_R14_tree_3, 14

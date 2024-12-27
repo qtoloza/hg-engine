@@ -402,48 +402,49 @@ _0749:
 	releaseall
 	end
 
-	.align 4
+
 _0754:
+
 	step 63, 6
 	step 12, 1
 	step_end
 
-	.align 4
 _0760:
+
 	step 63, 5
 	step 14, 2
 	step_end
 
-	.align 4
 _076C:
+
 	step 14, 1
 	step 12, 6
 	step_end
 
-	.align 4
 _0778:
+
 	step 63, 5
 	step 15, 2
 	step_end
 
-	.align 4
 _0784:
+
 	step 15, 1
 	step 12, 6
 	step_end
 
-	.align 4
 _0790:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0798:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _07A0:
+
 	step 2, 1
 	step 61, 1
 	step 0, 1
@@ -454,8 +455,8 @@ _07A0:
 	step 61, 1
 	step_end
 
-	.align 4
 _07C4:
+
 	step 3, 1
 	step 61, 1
 	step 1, 1
@@ -466,8 +467,8 @@ _07C4:
 	step 61, 1
 	step_end
 
-	.align 4
 _07E8:
+
 	step 2, 1
 	step 61, 1
 	step 0, 1
@@ -478,8 +479,8 @@ _07E8:
 	step 61, 1
 	step_end
 
-	.align 4
 _080C:
+
 	step 0, 1
 	step 61, 1
 	step 3, 1
@@ -490,8 +491,8 @@ _080C:
 	step 61, 1
 	step_end
 
-	.align 4
 _0830:
+
 	step 1, 1
 	step 61, 1
 	step 2, 1
@@ -502,8 +503,8 @@ _0830:
 	step 61, 1
 	step_end
 
-	.align 4
 _0854:
+
 	step 3, 1
 	step 61, 1
 	step 1, 1
@@ -516,8 +517,8 @@ _0854:
 	step 61, 1
 	step_end
 
-	.align 4
 _0880:
+
 	step 2, 1
 	step 61, 1
 	step 0, 1
@@ -530,8 +531,8 @@ _0880:
 	step 61, 1
 	step_end
 
-	.align 4
 _08AC:
+
 	step 0, 1
 	step 61, 1
 	step 3, 1
@@ -544,8 +545,8 @@ _08AC:
 	step 61, 1
 	step_end
 
-	.align 4
 _08D8:
+
 	step 1, 1
 	step 61, 1
 	step 2, 1
@@ -558,39 +559,33 @@ _08D8:
 	step 61, 1
 	step_end
 
-	.align 4
 _0904:
+
 	step 8, 2
 	step_end
 
-	.align 4
 _090C:
+
 	step 9, 2
 	step_end
 
-	.align 4
 _0914:
+
 	step 10, 2
 	step_end
 
-	.align 4
 _091C:
+
 	step 11, 2
 	step_end
 
-	.align 4
-_0924:
-	step 9, 1
-	step_end
-
-	.align 4
 _092C:
+
 	step 2, 1
 	step 71, 1
 	step 11, 1
 	step 72, 1
 	step_end
-
 scr_seq_D17R0110_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -609,9 +604,6 @@ _095E:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

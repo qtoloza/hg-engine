@@ -36,7 +36,4 @@ scr_seq_EVERYWHERE_000:
 	.align 4
 
 
-
-
-
 .close

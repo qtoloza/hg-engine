@@ -129,7 +129,6 @@ _013D:
 _014E:
 	npc_msg 4
 	goto _00D6
-	end
 
 _0159:
 	npc_msg 5
@@ -172,9 +171,6 @@ _01C5:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

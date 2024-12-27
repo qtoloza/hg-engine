@@ -82,7 +82,7 @@ _00B0:
 	get_game_version VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 7
 	goto_if_ne _00E6
-	setvar VAR_SPECIAL_x8004, ITEM_SILVER_WING
+	setvar VAR_SPECIAL_x8004, 482
 	setvar VAR_SPECIAL_x8005, 1
 	callstd std_obtain_item_verbose
 	setflag FLAG_UNK_094
@@ -91,7 +91,7 @@ _00B0:
 	goto _0102
 
 _00E6:
-	setvar VAR_SPECIAL_x8004, ITEM_RAINBOW_WING
+	setvar VAR_SPECIAL_x8004, 483
 	setvar VAR_SPECIAL_x8005, 1
 	callstd std_obtain_item_verbose
 	setflag FLAG_UNK_093
@@ -187,41 +187,41 @@ _022C:
 	releaseall
 	end
 
-	.align 4
+
 _0240:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _024C:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0260:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0274:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0280:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T03_001:
 	simple_npc_msg 0
 	end
@@ -270,7 +270,6 @@ _030E:
 	compare VAR_UNK_4083, 3
 	goto_if_eq _033D
 	goto _0051
-	end
 
 _033D:
 	clearflag FLAG_HIDE_PEWTER_CITY_STEVEN
@@ -304,12 +303,12 @@ _038C:
 	compare VAR_TEMP_x4000, 7
 	goto_if_ne _03AB
 	setflag FLAG_HIDE_PEWTER_CITY_LATIOS
-	hide_person obj_T03_tsure_poke_static_latios
+	hide_person obj_T03_follower_mon_static_latios
 	goto _03B3
 
 _03AB:
 	setflag FLAG_HIDE_PEWTER_CITY_LATIAS
-	hide_person obj_T03_tsure_poke_static_latias
+	hide_person obj_T03_follower_mon_static_latias
 _03B3:
 	end
 
@@ -354,45 +353,45 @@ _042F:
 	releaseall
 	end
 
-	.align 4
+
 _0440:
+
 	step 13, 4
 	step 2, 1
 	step_end
 
-	.align 4
 _044C:
+
 	step 63, 1
 	step 15, 2
 	step 63, 1
 	step_end
 
-	.align 4
 _045C:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0464:
+
 	step 14, 3
 	step_end
 
-	.align 4
 _046C:
+
 	step 13, 2
 	step 14, 1
 	step_end
 
-	.align 4
 _0478:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0480:
+
 	step 15, 8
 	step_end
-
 scr_seq_T03_010:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -403,13 +402,13 @@ scr_seq_T03_010:
 	get_game_version VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 7
 	goto_if_ne _04C8
-	setvar VAR_TEMP_x400A, SPECIES_LATIOS
+	setvar VAR_TEMP_x400A, 381
 	play_cry VAR_TEMP_x400A, 0
 	npc_msg 10
 	goto _04D7
 
 _04C8:
-	setvar VAR_TEMP_x400A, SPECIES_LATIAS
+	setvar VAR_TEMP_x400A, 380
 	play_cry VAR_TEMP_x400A, 0
 	npc_msg 11
 _04D7:
@@ -442,7 +441,6 @@ _0543:
 	compare VAR_UNK_4083, 4
 	goto_if_eq _0649
 	goto _0585
-	end
 
 _055A:
 	copyvar VAR_TEMP_x4009, VAR_UNK_4083
@@ -450,12 +448,10 @@ _055A:
 	compare VAR_TEMP_x4009, 4
 	goto_if_eq _0649
 	goto _0585
-	end
 
 _057B:
 	white_out
 	goto _0649
-	end
 
 _0585:
 	toggle_following_pokemon_movement 0
@@ -486,20 +482,17 @@ _05EF:
 	closemsg
 	setvar VAR_UNK_4083, 4
 	goto _061F
-	end
 
 _05FF:
 	npc_msg 14
 	closemsg
 	goto _061F
-	end
 
 _060C:
 	npc_msg 18
 	closemsg
 	setvar VAR_UNK_4083, 4
 	goto _061F
-	end
 
 _061F:
 	apply_movement obj_T03_daigo, _0478
@@ -523,9 +516,6 @@ scr_seq_T03_009:
 	simple_npc_msg 19
 	end
 	.align 4
-
-
-
 
 
 .close

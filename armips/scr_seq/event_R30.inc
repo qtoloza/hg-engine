@@ -19,8 +19,8 @@
 .equ obj_R30_gsboy3, 3
 .equ obj_R30_gsboy2, 4
 .equ obj_R30_gsboy2_2, 5
-.equ obj_R30_tsure_poke_static_rattata, 6
-.equ obj_R30_tsure_poke_static_pidgey, 7
+.equ obj_R30_follower_mon_static_rattata, 6
+.equ obj_R30_follower_mon_static_pidgey, 7
 .equ obj_R30_gsboy2_3, 8
 .equ obj_R30_monstarball, 9
 .equ obj_R30_monstarball_2, 10

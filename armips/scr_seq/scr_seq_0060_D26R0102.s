@@ -21,7 +21,6 @@
 .include "asm/include/trainers.inc"
 
 .include "armips/scr_seq/event_D26R0102.inc"
-.include "armips/scr_seq/event_D36R0101.inc"
 
 
 // text archive to grab from: 091.txt
@@ -111,9 +110,9 @@ _0107:
 	setflag FLAG_BEAT_AZALEA_ROCKETS
 	setvar VAR_UNK_4075, 1
 	setvar VAR_UNK_4080, 2
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
-	setvar VAR_FARFETCHD1_STICKS2, STICKS_ACTIVE
-	setvar VAR_FARFETCHD2_STICKS4, STICKS_ACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD1_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS4, 1
 	play_se SEQ_SE_DP_KAIDAN2
 	wait_se SEQ_SE_DP_KAIDAN2
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -136,8 +135,9 @@ _0193:
 	releaseall
 	end
 
-	.align 4
+
 _019C:
+
 	step 14, 2
 	step 13, 2
 	step 14, 3
@@ -148,8 +148,8 @@ _019C:
 	step 2, 1
 	step_end
 
-	.align 4
 _01C0:
+
 	step 15, 2
 	step 0, 1
 	step 63, 6
@@ -158,8 +158,8 @@ _01C0:
 	step 3, 1
 	step_end
 
-	.align 4
 _01DC:
+
 	step 13, 1
 	step 15, 1
 	step 0, 1
@@ -169,9 +169,6 @@ _01DC:
 	step 3, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

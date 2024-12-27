@@ -16,7 +16,7 @@
 .equ obj_D23R0104_rocketw, 2
 .equ obj_D23R0104_rkanbum3, 3
 .equ obj_D23R0104_kurumi, 4
-.equ obj_D23R0104_tsure_poke_static_meowth, 5
+.equ obj_D23R0104_follower_mon_static_meowth, 5
 .equ obj_D23R0104_gsbigman, 6
 .equ obj_D23R0104_gsman2, 7
 .equ obj_D23R0104_monstarball, 8

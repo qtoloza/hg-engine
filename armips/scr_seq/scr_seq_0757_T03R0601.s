@@ -37,7 +37,4 @@ scr_seq_T03R0601_000:
 	.align 4
 
 
-
-
-
 .close

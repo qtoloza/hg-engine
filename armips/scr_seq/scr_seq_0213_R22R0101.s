@@ -63,14 +63,8 @@ _006B:
 	goto_if_ne _009D
 	goto _012C
 
-_0097:
-	goto _00A3
-
 _009D:
 	goto _00A5
-
-_00A3:
-	end
 
 _00A5:
 	scrcmd_522 VAR_TEMP_x4000
@@ -131,16 +125,16 @@ scr_seq_R22R0101_000:
 	releaseall
 	end
 
-	.align 4
+
 _015C:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0164:
+
 	step 34, 1
 	step_end
-
 scr_seq_R22R0101_003:
 	simple_npc_msg 0
 	end
@@ -203,69 +197,69 @@ _025D:
 	releaseall
 	end
 
-	.align 4
+
 _0264:
+
 	step 32, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0270:
+
 	step 33, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _027C:
+
 	step 19, 1
 	step 16, 1
 	step 38, 1
 	step_end
 
-	.align 4
 _028C:
+
 	step 19, 1
 	step 17, 1
 	step 38, 1
 	step_end
 
-	.align 4
 _029C:
+
 	step 19, 1
 	step 17, 2
 	step 38, 1
 	step_end
 
-	.align 4
 _02AC:
+
 	step 14, 1
 	step_end
 
-	.align 4
 _02B4:
+
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _02D0:
+
 	step 12, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _02DC:
+
 	step 12, 2
 	step 34, 1
 	step_end
-
 scr_seq_R22R0101_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -342,69 +336,69 @@ _03EF:
 	releaseall
 	end
 
-	.align 4
+
 _03F8:
+
 	step 32, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0404:
+
 	step 33, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0410:
+
 	step 18, 1
 	step 16, 1
 	step 39, 1
 	step_end
 
-	.align 4
 _0420:
+
 	step 18, 1
 	step 17, 1
 	step 39, 1
 	step_end
 
-	.align 4
 _0430:
+
 	step 18, 1
 	step 17, 2
 	step 39, 1
 	step_end
 
-	.align 4
 _0440:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _0448:
+
 	step 71, 1
 	step 15, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0458:
+
 	step 13, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0464:
+
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0470:
+
 	step 12, 2
 	step 35, 1
 	step_end
-
 scr_seq_R22R0101_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -474,7 +468,6 @@ _0537:
 _0548:
 	npc_msg 11
 	goto _04D0
-	end
 
 _0553:
 	npc_msg 12
@@ -517,9 +510,6 @@ _05BF:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

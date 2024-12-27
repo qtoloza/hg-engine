@@ -209,84 +209,84 @@ _02B2:
 	releaseall
 	end
 
-	.align 4
+
 _02B8:
+
 	step 71, 1
 	step 12, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _02C8:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _02D4:
+
 	step 16, 5
 	step 32, 2
 	step_end
 
-	.align 4
 _02E0:
+
 	step 16, 2
 	step 19, 1
 	step 16, 3
 	step 32, 2
 	step_end
 
-	.align 4
 _02F4:
+
 	step 16, 2
 	step 19, 2
 	step 16, 3
 	step 32, 2
 	step_end
 
-	.align 4
 _0308:
+
 	step 16, 2
 	step 19, 3
 	step 16, 3
 	step 32, 2
 	step_end
 
-	.align 4
 _031C:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _0324:
+
 	step 17, 6
 	step 32, 1
 	step_end
 
-	.align 4
 _0330:
+
 	step 17, 3
 	step 18, 1
 	step 17, 3
 	step 32, 1
 	step_end
 
-	.align 4
 _0344:
+
 	step 17, 3
 	step 18, 2
 	step 17, 3
 	step 32, 1
 	step_end
 
-	.align 4
 _0358:
+
 	step 17, 3
 	step 18, 3
 	step 17, 3
 	step 32, 1
 	step_end
-
 scr_seq_W40_007:
 	simple_npc_msg 18
 	end
@@ -323,9 +323,6 @@ scr_seq_W40_006:
 	simple_npc_msg 9
 	end
 	.align 4
-
-
-
 
 
 .close

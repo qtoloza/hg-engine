@@ -1,13 +1,13 @@
 {
-"header": "armips/scr_seq/event_T11R0703.inc",
-"warps": [
-{
-"x": 3,
-"z": 6,
-"header": 4095,
-"anchor": 256,
-"y": 0
-}
-],
-"eventId": "400"
+  "header": "armips/scr_seq/event_T11R0703.inc",
+  "eventId": "400",
+  "warps": [
+    {
+      "x": 3,
+      "z": 6,
+      "header": 4095,
+      "anchor": 256,
+      "y": 0
+    }
+  ]
 }

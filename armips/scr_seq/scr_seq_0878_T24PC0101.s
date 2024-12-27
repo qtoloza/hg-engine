@@ -52,9 +52,6 @@ scr_seq_T24PC0101_002:
 	goto_if_ne _0056
 	goto _005C
 
-_0050:
-	goto _005C
-
 _0056:
 	goto _00E4
 
@@ -62,9 +59,6 @@ _005C:
 	get_party_count VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0079
-	goto _007F
-
-_0073:
 	goto _007F
 
 _0079:
@@ -126,9 +120,6 @@ _0115:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0004.inc"
-
 
 // text archive to grab from: 046.txt
 
@@ -71,18 +69,12 @@ scr_seq_0004_015:
 	goto_if_ne _0099
 	goto _027A
 
-_0093:
-	goto _0141
-
 _0099:
 	compare VAR_SPECIAL_x8004, 1
 	goto_if_ne _00F0
 	compare VAR_TEMP_x4000, 12
 	goto_if_eq _00BF
 	goto _027A
-
-_00B9:
-	goto _00D2
 
 _00BF:
 	compare VAR_TEMP_x4001, 2
@@ -95,18 +87,12 @@ _00D2:
 	setvar VAR_TEMP_x4002, 5
 	goto _0222
 
-_00EA:
-	goto _0141
-
 _00F0:
 	compare VAR_SPECIAL_x8004, 2
 	goto_if_ne _0141
 	compare VAR_TEMP_x4000, 18
 	goto_if_eq _0116
 	goto _027A
-
-_0110:
-	goto _0129
 
 _0116:
 	compare VAR_TEMP_x4001, 11
@@ -132,18 +118,12 @@ scr_seq_0004_013:
 	goto_if_ne _0174
 	goto _027A
 
-_016E:
-	goto _021C
-
 _0174:
 	compare VAR_SPECIAL_x8004, 1
 	goto_if_ne _01CB
 	compare VAR_TEMP_x4000, 7
 	goto_if_eq _019A
 	goto _027A
-
-_0194:
-	goto _01AD
 
 _019A:
 	compare VAR_TEMP_x4001, 2
@@ -156,18 +136,12 @@ _01AD:
 	setvar VAR_TEMP_x4002, 5
 	goto _0222
 
-_01C5:
-	goto _021C
-
 _01CB:
 	compare VAR_SPECIAL_x8004, 2
 	goto_if_ne _021C
 	compare VAR_TEMP_x4000, 4
 	goto_if_eq _01F1
 	goto _027A
-
-_01EB:
-	goto _0204
 
 _01F1:
 	compare VAR_TEMP_x4001, 11
@@ -207,23 +181,18 @@ _027A:
 	releaseall
 	end
 
-	.align 4
+
 _0288:
+
 	step 1, 1
 	step 70, 1
 	step 13, 2
 	step_end
 
-	.align 4
-_0290:
-	step 13, 1
-	step_end
-
-	.align 4
 _02A0:
+
 	step 13, 2
 	step_end
-
 scr_seq_0004_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -236,7 +205,7 @@ scr_seq_0004_001:
 	goto_if_eq _0C10
 	npc_msg 0
 	goto _02DD
-	end
+
 _02DD:
 	npc_msg 2
 	touchscreen_menu_hide
@@ -256,7 +225,7 @@ _033F:
 	npc_msg 6
 	closemsg
 	goto _02DD
-	end
+
 _034C:
 	npc_msg 29
 	wait_button_or_walk_away
@@ -302,7 +271,7 @@ _03DF:
 _0415:
 	setvar VAR_SPECIAL_x8004, 1
 	goto _04AF
-	end
+
 _0423:
 	setvar VAR_SPECIAL_x8004, 2
 	party_count_not_egg VAR_SPECIAL_RESULT
@@ -351,7 +320,7 @@ _0494:
 _04A1:
 	setvar VAR_SPECIAL_x8004, 37
 	goto _059A
-	end
+
 _04AF:
 	npc_msg 120
 	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
@@ -383,11 +352,11 @@ _051B:
 	case 4, _058E
 	case 5, _058E
 	goto _02DD
-	end
+
 _058E:
 	scrcmd_800 VAR_TEMP_x4000
 	goto _0682
-	end
+
 _059A:
 	setvar VAR_SPECIAL_x8004, 37
 	npc_msg 120
@@ -446,7 +415,7 @@ _06B6:
 	case 2, _0778
 _06FA:
 	goto _0763
-	end
+
 _0702:
 	scrcmd_803 VAR_TEMP_x4000, VAR_TEMP_x4002
 	compare VAR_TEMP_x4002, 0
@@ -454,93 +423,93 @@ _0702:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _072A
 	goto _0744
-	end
+
 _072A:
 	npc_msg 122
 	wait_button
 	compare VAR_TEMP_x4003, 3
 	goto_if_eq _059A
 	goto _04AF
-	end
+
 _0744:
 	npc_msg 136
 	wait_button
 	goto _04AF
-	end
+
 _0751:
 	closemsg
 	scrcmd_801 VAR_TEMP_x4000
 	wait_button
 	scrcmd_802
 	goto _0682
-	end
+
 _0763:
 	compare VAR_TEMP_x4003, 3
 	goto_if_eq _059A
 	goto _04AF
-	end
+
 _0778:
 	touchscreen_menu_show
 	buffer_players_name 0
 	npc_msg 25
 	setvar VAR_TEMP_x4005, 0
-	check_mon_seen SPECIES_MEWTWO, VAR_TEMP_x4004
+	check_mon_seen 150, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _07AA
 	buffer_species_name 0, SPECIES_MEWTWO, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _07AA:
-	check_mon_seen SPECIES_LUGIA, VAR_TEMP_x4004
+	check_mon_seen 249, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _07CE
 	buffer_species_name 0, SPECIES_LUGIA, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _07CE:
-	check_mon_seen SPECIES_HO_OH, VAR_TEMP_x4004
+	check_mon_seen 250, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _07F2
 	buffer_species_name 0, SPECIES_HO_OH, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _07F2:
-	check_mon_seen SPECIES_KYOGRE, VAR_TEMP_x4004
+	check_mon_seen 382, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _0816
 	buffer_species_name 0, SPECIES_KYOGRE, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _0816:
-	check_mon_seen SPECIES_GROUDON, VAR_TEMP_x4004
+	check_mon_seen 383, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _083A
 	buffer_species_name 0, SPECIES_GROUDON, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _083A:
-	check_mon_seen SPECIES_RAYQUAZA, VAR_TEMP_x4004
+	check_mon_seen 384, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _085E
 	buffer_species_name 0, SPECIES_RAYQUAZA, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _085E:
-	check_mon_seen SPECIES_DIALGA, VAR_TEMP_x4004
+	check_mon_seen 483, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _0882
 	buffer_species_name 0, SPECIES_DIALGA, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _0882:
-	check_mon_seen SPECIES_PALKIA, VAR_TEMP_x4004
+	check_mon_seen 484, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _08A6
 	buffer_species_name 0, SPECIES_PALKIA, 0, 0
 	npc_msg 26
 	setvar VAR_TEMP_x4005, 1
 _08A6:
-	check_mon_seen SPECIES_GIRATINA, VAR_TEMP_x4004
+	check_mon_seen 487, VAR_TEMP_x4004
 	compare VAR_TEMP_x4004, 1
 	goto_if_ne _08CA
 	buffer_species_name 0, SPECIES_GIRATINA, 0, 0
@@ -558,21 +527,17 @@ _08E3:
 	touchscreen_menu_hide
 	goto _0682
 
-_08EB:
-	setvar VAR_SPECIAL_x8005, 0
-	goto _0905
-	end
 _08F9:
 	scrcmd_800 VAR_TEMP_x4000
 	goto _0905
-	end
+
 _0905:
 	callstd std_prompt_save
 	copyvar VAR_SPECIAL_RESULT, VAR_TEMP_x4000
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0924
 	goto _0359
-	end
+
 _0924:
 	touchscreen_menu_hide
 _0926:
@@ -597,7 +562,7 @@ _0926:
 	case 0, _09C8
 	case 1, _0A41
 	goto _034C
-	end
+
 _09BE:
 	npc_msg 36
 	return
@@ -620,12 +585,12 @@ _09C8:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _0A32
 	goto _0ABA
-	end
+
 _0A17:
 	scrcmd_283
 	touchscreen_menu_hide
 	goto _0926
-	end
+
 _0A23:
 	scrcmd_283
 	touchscreen_menu_show
@@ -658,12 +623,12 @@ _0A41:
 	compare VAR_SPECIAL_RESULT, 4
 	goto_if_eq _0AAB
 	goto _0ABA
-	end
+
 _0A90:
 	scrcmd_283
 	touchscreen_menu_hide
 	goto _0926
-	end
+
 _0A9C:
 	scrcmd_283
 	npc_msg 30
@@ -700,9 +665,6 @@ _0ABA:
 	setvar VAR_TEMP_x4000, 18
 	setvar VAR_TEMP_x4001, 11
 	setvar VAR_TEMP_x4002, 14
-	goto _0B35
-
-_0B0D:
 	goto _0B35
 
 _0B13:
@@ -757,34 +719,34 @@ scr_seq_0004_002:
 	scrcmd_284
 	end
 
-	.align 4
+
 _0BDC:
+
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0BE8:
+
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0BF4:
+
 	step 12, 2
 	step_end
 
-	.align 4
 _0BFC:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _0C04:
+
 	step 12, 1
 	step 69, 1
 	step_end
-
 _0C10:
 	npc_msg 144
 	wait_button_or_walk_away
@@ -821,7 +783,7 @@ _0C7B:
 
 _0C94:
 	goto _0C9C
-	end
+
 _0C9C:
 	npc_msg 71
 	touchscreen_menu_hide
@@ -835,14 +797,14 @@ _0C9C:
 	case 1, _0CF8
 	case 2, _034C
 	goto _034C
-	end
+
 _0CF8:
 	npc_msg 72
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0D14
 	goto _034C
-	end
+
 _0D14:
 	setvar VAR_SPECIAL_x8004, 9
 	npc_msg 139
@@ -873,7 +835,7 @@ _0D70:
 	wait_movement
 	scrcmd_815 0
 	goto _0D99
-	end
+
 _0D99:
 	scrcmd_446 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 300
@@ -883,17 +845,11 @@ _0D99:
 	setvar VAR_TEMP_x4002, 14
 	goto _0DE2
 
-_0DC2:
-	goto _0DE0
-
 _0DC8:
 	setvar VAR_TEMP_x4000, 7
 	setvar VAR_TEMP_x4001, 2
 	setvar VAR_TEMP_x4002, 5
 	goto _0DE2
-
-_0DE0:
-	end
 
 _0DE2:
 	scrcmd_307 0, 0, VAR_TEMP_x4000, VAR_TEMP_x4002, 77
@@ -970,7 +926,7 @@ scr_seq_0004_011:
 	setflag FLAG_UNK_066
 	npc_msg 116
 	goto _0E9D
-	end
+
 _0E9D:
 	npc_msg 117
 	scrcmd_064 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -983,11 +939,11 @@ _0E9D:
 	case 1, _0F1C
 	case 2, _0EEB
 	goto _0F1C
-	end
+
 _0EEB:
 	npc_msg 119
 	goto _0E9D
-	end
+
 _0EF6:
 	closemsg
 	fade_screen 6, 1, 0, RGB_BLACK
@@ -997,7 +953,7 @@ _0EF6:
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	goto _0F1C
-	end
+
 _0F1C:
 	npc_msg 118
 	wait_button_or_walk_away
@@ -1025,9 +981,6 @@ scr_seq_0004_017:
 	simple_npc_msg 149
 	end
 	.align 4
-
-
-
 
 
 .close

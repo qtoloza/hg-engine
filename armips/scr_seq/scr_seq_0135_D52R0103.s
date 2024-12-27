@@ -40,7 +40,7 @@ scr_seq_D52R0103_002:
 
 _001F:
 	setflag FLAG_HIDE_EMBEDDED_TOWER_RAYQUAZA
-	hide_person obj_D52R0103_tsure_poke_static_rayquaza
+	hide_person obj_D52R0103_follower_mon_static_rayquaza
 	end
 
 scr_seq_D52R0103_003:
@@ -73,29 +73,29 @@ scr_seq_D52R0103_001:
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
-	release obj_D52R0103_tsure_poke_static_rayquaza
-	scrcmd_523 obj_D52R0103_tsure_poke_static_rayquaza, 8, 90, 3, 0
+	release obj_D52R0103_follower_mon_static_rayquaza
+	scrcmd_523 obj_D52R0103_follower_mon_static_rayquaza, 8, 90, 3, 0
 	play_cry SPECIES_RAYQUAZA, 0
 	npc_msg 0
 	wait_cry
-	lock obj_D52R0103_tsure_poke_static_rayquaza
+	lock obj_D52R0103_follower_mon_static_rayquaza
 	closemsg
 	setvar VAR_SCENE_EMBEDDED_TOWER, 6
 	releaseall
 	end
 
-	.align 4
+
 _00B4:
+
 	step 12, 8
 	step 63, 2
 	step_end
-
 scr_seq_D52R0103_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	release obj_D52R0103_tsure_poke_static_rayquaza
-	scrcmd_523 obj_D52R0103_tsure_poke_static_rayquaza, 8, 90, 3, 0
+	release obj_D52R0103_follower_mon_static_rayquaza
+	scrcmd_523 obj_D52R0103_follower_mon_static_rayquaza, 8, 90, 3, 0
 	play_cry SPECIES_RAYQUAZA, 0
 	npc_msg 0
 	wait_cry
@@ -130,9 +130,6 @@ _0142:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

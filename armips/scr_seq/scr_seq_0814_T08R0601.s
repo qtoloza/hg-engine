@@ -76,7 +76,4 @@ scr_seq_T08R0601_003:
 	.align 4
 
 
-
-
-
 .close

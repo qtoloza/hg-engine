@@ -51,18 +51,15 @@ scr_seq_D39R0103_001:
 _004D:
 	end
 
-	.align 4
+
 _0050:
+
 	step 68, 1
 	step_end
-
 scr_seq_D39R0103_002:
 	simple_npc_msg 0
 	end
 	.align 4
-
-
-
 
 
 .close

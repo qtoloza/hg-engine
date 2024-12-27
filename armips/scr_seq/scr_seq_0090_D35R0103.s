@@ -65,7 +65,7 @@ _0083:
 	goto_if_ne _00B0
 	setvar VAR_TEMP_x4007, 77
 	move_person_facing obj_D35R0103_wataru, 39, 0, 18, DIR_NORTH
-	move_person_facing obj_D35R0103_tsure_poke_static_dragonite, 40, 0, 18, DIR_NORTH
+	move_person_facing obj_D35R0103_follower_mon_static_dragonite, 40, 0, 18, DIR_NORTH
 	end
 
 _00B0:
@@ -82,8 +82,8 @@ _00BF:
 	compare VAR_TEMP_x400A, 1
 	goto_if_ne _00F4
 	setflag FLAG_UNK_96B
-	hide_person obj_D35R0103_tsure_poke_static_electrode
-	hide_person obj_D35R0103_tsure_poke_static_electrode_4
+	hide_person obj_D35R0103_follower_mon_static_electrode
+	hide_person obj_D35R0103_follower_mon_static_electrode_4
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_ELECTRODE_1_AND_4
 	goto _0127
 
@@ -91,15 +91,15 @@ _00F4:
 	compare VAR_TEMP_x400A, 2
 	goto_if_ne _0117
 	setflag FLAG_UNK_96C
-	hide_person obj_D35R0103_tsure_poke_static_electrode_2
-	hide_person obj_D35R0103_tsure_poke_static_electrode_5
+	hide_person obj_D35R0103_follower_mon_static_electrode_2
+	hide_person obj_D35R0103_follower_mon_static_electrode_5
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_ELECTRODE_2_AND_5
 	goto _0127
 
 _0117:
 	setflag FLAG_UNK_96D
-	hide_person obj_D35R0103_tsure_poke_static_electrode_3
-	hide_person obj_D35R0103_tsure_poke_static_electrode_6
+	hide_person obj_D35R0103_follower_mon_static_electrode_3
+	hide_person obj_D35R0103_follower_mon_static_electrode_6
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_ELECTRODE_3_AND_6
 _0127:
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
@@ -131,105 +131,99 @@ scr_seq_D35R0103_000:
 	gender_msgbox 1, 2
 	closemsg
 	apply_movement obj_D35R0103_wataru, _01B8
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _01C0
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _01C0
 	wait_movement
 	hide_person obj_D35R0103_wataru
-	hide_person obj_D35R0103_tsure_poke_static_dragonite
+	hide_person obj_D35R0103_follower_mon_static_dragonite
 	setflag FLAG_UNK_1E5
 	releaseall
 	setvar VAR_UNK_40A9, 1
 	end
 
-	.align 4
+
 _01AC:
+
 	step 15, 5
 	step 12, 4
 	step_end
 
-	.align 4
 _01B8:
+
 	step 15, 11
 	step_end
 
-	.align 4
 _01C0:
+
 	step 61, 1
 	step 15, 11
 	step_end
-
 scr_seq_D35R0103_013:
 	scrcmd_609
 	lockall
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow, _0214
+	apply_movement obj_D35R0103_follower_mon_static_murkrow, _0214
 	wait_movement
 	npc_msg 24
 	closemsg
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow, _021C
+	apply_movement obj_D35R0103_follower_mon_static_murkrow, _021C
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	setvar VAR_UNK_40AC, 5
-	hide_person obj_D35R0103_tsure_poke_static_murkrow
+	hide_person obj_D35R0103_follower_mon_static_murkrow
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_1
 	clearflag FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_2
 	releaseall
 	end
 
-	.align 4
+
 _0214:
+
 	step 50, 2
 	step_end
 
-	.align 4
 _021C:
+
 	step 3, 1
 	step 51, 1
 	step 19, 5
 	step_end
-
-	.align 4
-_022C:
-	step 63, 1
-	step 15, 3
-	step_end
-
 scr_seq_D35R0103_014:
 	scrcmd_609
 	lockall
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow_2, _0270
+	apply_movement obj_D35R0103_follower_mon_static_murkrow_2, _0270
 	wait_movement
 	npc_msg 25
 	closemsg
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow_2, _0278
+	apply_movement obj_D35R0103_follower_mon_static_murkrow_2, _0278
 	wait_movement
 	setvar VAR_UNK_40AC, 7
-	hide_person obj_D35R0103_tsure_poke_static_murkrow_2
+	hide_person obj_D35R0103_follower_mon_static_murkrow_2
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_2
 	clearflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_3
-	show_person obj_D35R0103_tsure_poke_static_murkrow_3
+	show_person obj_D35R0103_follower_mon_static_murkrow_3
 	releaseall
 	end
 
-	.align 4
+
 _0270:
+
 	step 51, 2
 	step_end
 
-	.align 4
 _0278:
+
 	step 2, 1
 	step 50, 1
 	step 18, 10
 	step_end
-
 scr_seq_D35R0103_011:
 	scrcmd_609
 	lockall
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow_3, _0308
+	apply_movement obj_D35R0103_follower_mon_static_murkrow_3, _0308
 	wait_movement
 	npc_msg 26
 	closemsg
@@ -242,15 +236,15 @@ scr_seq_D35R0103_011:
 	get_player_coords VAR_SPECIAL_x8000, VAR_SPECIAL_x8001
 	compare VAR_SPECIAL_x8001, 24
 	goto_if_ne _02D7
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow_3, _0324
+	apply_movement obj_D35R0103_follower_mon_static_murkrow_3, _0324
 	goto _02DF
 
 _02D7:
-	apply_movement obj_D35R0103_tsure_poke_static_murkrow_3, _0310
+	apply_movement obj_D35R0103_follower_mon_static_murkrow_3, _0310
 _02DF:
 	wait_movement
 	setvar VAR_UNK_40AC, 8
-	hide_person obj_D35R0103_tsure_poke_static_murkrow_3
+	hide_person obj_D35R0103_follower_mon_static_murkrow_3
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_3
 	setvar VAR_UNK_40A9, 3
 	setflag FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_1
@@ -259,21 +253,22 @@ _02DF:
 	releaseall
 	end
 
-	.align 4
+
 _0308:
+
 	step 48, 2
 	step_end
 
-	.align 4
 _0310:
+
 	step 48, 2
 	step 2, 1
 	step 63, 1
 	step 18, 12
 	step_end
 
-	.align 4
 _0324:
+
 	step 48, 2
 	step 2, 1
 	step 63, 1
@@ -282,21 +277,8 @@ _0324:
 	step 17, 1
 	step 18, 10
 	step_end
-
 scr_seq_D35R0103_012:
 	goto scr_seq_D35R0103_011
-	end
-
-	.align 4
-_034C:
-	step 75, 1
-	step_end
-
-	.align 4
-_0354:
-	step 18, 9
-	step 16, 5
-	step_end
 
 scr_seq_D35R0103_001:
 	compare VAR_UNK_40AC, 8
@@ -323,17 +305,17 @@ _03A2:
 	releaseall
 	end
 
-	.align 4
+
 _03B0:
+
 	step 14, 2
 	step_end
 
-	.align 4
 _03B8:
+
 	step 63, 1
 	step 14, 1
 	step_end
-
 scr_seq_D35R0103_003:
 	scrcmd_609
 	lockall
@@ -372,15 +354,15 @@ _0436:
 	closemsg
 	clearflag FLAG_UNK_1E5
 	show_person obj_D35R0103_wataru
-	show_person obj_D35R0103_tsure_poke_static_dragonite
+	show_person obj_D35R0103_follower_mon_static_dragonite
 	move_person_facing obj_D35R0103_wataru, 20, 1, 25, DIR_EAST
-	move_person_facing obj_D35R0103_tsure_poke_static_dragonite, 19, 1, 25, DIR_NORTH
+	move_person_facing obj_D35R0103_follower_mon_static_dragonite, 19, 1, 25, DIR_NORTH
 	apply_movement obj_D35R0103_wataru, _067C
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _0684
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _0684
 	wait_movement
 	npc_msg 5
 	closemsg
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _0690
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _0690
 	play_cry SPECIES_DRAGONITE, 0
 	wait_cry
 	apply_movement obj_D35R0103_rkanbuw, _0648
@@ -399,7 +381,7 @@ _0436:
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
 	move_person_facing obj_D35R0103_wataru, 28, 1, 24, DIR_SOUTH
-	move_person_facing obj_D35R0103_tsure_poke_static_dragonite, 27, 1, 24, DIR_EAST
+	move_person_facing obj_D35R0103_follower_mon_static_dragonite, 27, 1, 24, DIR_EAST
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
@@ -419,7 +401,7 @@ _0436:
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	apply_movement obj_D35R0103_wataru, _06BC
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _06C4
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _06C4
 	wait_movement
 	buffer_players_name 0
 	gender_msgbox 10, 11
@@ -429,7 +411,7 @@ _0436:
 	following_pokemon_movement 55
 	apply_movement obj_player, _0738
 	apply_movement obj_D35R0103_wataru, _06D0
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _070C
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _070C
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
@@ -437,7 +419,7 @@ _0436:
 	play_cry SPECIES_DRAGONITE, 0
 	wait_cry
 	apply_movement obj_D35R0103_wataru, _06FC
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _072C
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _072C
 	wait_movement
 	buffer_players_name 0
 	gender_msgbox 12, 13
@@ -447,13 +429,13 @@ _0436:
 	following_pokemon_movement 55
 	apply_movement obj_player, _0744
 	apply_movement obj_D35R0103_wataru, _0758
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _0760
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _0760
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	move_person_facing obj_D35R0103_wataru, 39, 0, 18, DIR_NORTH
-	move_person_facing obj_D35R0103_tsure_poke_static_dragonite, 40, 0, 18, DIR_NORTH
+	move_person_facing obj_D35R0103_follower_mon_static_dragonite, 40, 0, 18, DIR_NORTH
 	releaseall
 	setvar VAR_UNK_40AC, 9
 	setvar VAR_UNK_40A9, 4
@@ -467,90 +449,91 @@ _0620:
 	releaseall
 	end
 
-	.align 4
+
 _0630:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0638:
+
 	step 63, 1
 	step 16, 6
 	step 34, 1
 	step_end
 
-	.align 4
 _0648:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0650:
+
 	step 63, 2
 	step 16, 3
 	step_end
 
-	.align 4
 _065C:
+
 	step 13, 5
 	step 35, 1
 	step_end
 
-	.align 4
 _0668:
+
 	step 13, 2
 	step 14, 1
 	step 13, 3
 	step 35, 1
 	step_end
 
-	.align 4
 _067C:
+
 	step 19, 10
 	step_end
 
-	.align 4
 _0684:
+
 	step 62, 1
 	step 19, 10
 	step_end
 
-	.align 4
 _0690:
+
 	step 51, 1
 	step_end
 
-	.align 4
 _0698:
+
 	step 18, 1
 	step_end
 
-	.align 4
 _06A0:
+
 	step 16, 1
 	step_end
 
-	.align 4
 _06A8:
+
 	step 16, 2
 	step 19, 1
 	step 17, 2
 	step 2, 1
 	step_end
 
-	.align 4
 _06BC:
+
 	step 15, 2
 	step_end
 
-	.align 4
 _06C4:
+
 	step 61, 1
 	step 15, 2
 	step_end
 
-	.align 4
 _06D0:
+
 	step 12, 6
 	step 63, 2
 	step 14, 2
@@ -563,15 +546,15 @@ _06D0:
 	step 35, 1
 	step_end
 
-	.align 4
 _06FC:
+
 	step 14, 2
 	step 33, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _070C:
+
 	step 61, 1
 	step 15, 1
 	step 12, 5
@@ -581,38 +564,37 @@ _070C:
 	step 14, 4
 	step_end
 
-	.align 4
 _072C:
+
 	step 62, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _0738:
+
 	step 63, 4
 	step 12, 5
 	step_end
 
-	.align 4
 _0744:
+
 	step 61, 1
 	step 63, 1
 	step 12, 1
 	step 14, 5
 	step_end
 
-	.align 4
 _0758:
+
 	step 15, 6
 	step_end
 
-	.align 4
 _0760:
+
 	step 61, 1
 	step 14, 1
 	step 15, 5
 	step_end
-
 scr_seq_D35R0103_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -711,7 +693,7 @@ _08F0:
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	apply_movement obj_D35R0103_wataru, _0A04
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _0A0C
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _0A0C
 	wait_movement
 	npc_msg 15
 	giveitem_no_check ITEM_HM05, 1
@@ -723,10 +705,10 @@ _08F0:
 	gender_msgbox 18, 19
 	closemsg
 	apply_movement obj_D35R0103_wataru, _0A20
-	apply_movement obj_D35R0103_tsure_poke_static_dragonite, _0A2C
+	apply_movement obj_D35R0103_follower_mon_static_dragonite, _0A2C
 	wait_movement
 	hide_person obj_D35R0103_wataru
-	hide_person obj_D35R0103_tsure_poke_static_dragonite
+	hide_person obj_D35R0103_follower_mon_static_dragonite
 	setflag FLAG_UNK_1E5
 	releaseall
 	stop_se SEQ_SE_GS_N_MOTER
@@ -755,54 +737,54 @@ _08F0:
 	setvar VAR_ROCKET_TRAP_GEODUDE_5, 1
 	end
 
-	.align 4
+
 _09E0:
+
 	step 13, 2
 	step 15, 10
 	step_end
 
-	.align 4
 _09EC:
+
 	step 13, 4
 	step 15, 10
 	step_end
 
-	.align 4
 _09F8:
+
 	step 13, 6
 	step 15, 10
 	step_end
 
-	.align 4
 _0A04:
+
 	step 14, 8
 	step_end
 
-	.align 4
 _0A0C:
+
 	step 61, 1
 	step 14, 8
 	step_end
 
-	.align 4
 _0A18:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0A20:
+
 	step 17, 6
 	step 18, 12
 	step_end
 
-	.align 4
 _0A2C:
+
 	step 62, 1
 	step 18, 1
 	step 17, 6
 	step 18, 12
 	step_end
-
 scr_seq_D35R0103_008:
 	scrcmd_609
 	lockall
@@ -819,11 +801,11 @@ scr_seq_D35R0103_008:
 	releaseall
 	end
 
-	.align 4
+
 _0A6C:
+
 	step 14, 1
 	step_end
-
 scr_seq_D35R0103_009:
 	scrcmd_609
 	lockall
@@ -842,12 +824,12 @@ scr_seq_D35R0103_009:
 	releaseall
 	end
 
-	.align 4
+
 _0AAC:
+
 	step 75, 1
 	step 34, 1
 	step_end
-
 scr_seq_D35R0103_010:
 	releaseall
 	goto_if_unset FLAG_REMOVED_ROCKET_HIDEOUT_B3F_ELECTRODE_1, _0AE4
@@ -864,9 +846,6 @@ _0AE4:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

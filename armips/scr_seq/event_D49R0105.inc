@@ -21,8 +21,8 @@
 .equ obj_D49R0105_gsfighter, 2
 .equ obj_D49R0105_gsman3, 3
 .equ obj_D49R0105_gswoman3, 4
-.equ obj_D49R0105_tsure_poke_static_abra, 5
-.equ obj_D49R0105_tsure_poke_static_dratini, 6
+.equ obj_D49R0105_follower_mon_static_abra, 5
+.equ obj_D49R0105_follower_mon_static_dratini, 6
 .equ obj_D49R0105_signshoes, 7
 .equ obj_D49R0105_signclothes, 8
 .equ obj_D49R0105_signflag, 9

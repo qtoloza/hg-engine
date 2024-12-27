@@ -20,7 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_D36R0101.inc"
 .include "armips/scr_seq/event_T23.inc"
 
 
@@ -81,7 +80,7 @@ scr_seq_T23_002:
 	fade_out_bgm 0, 3
 	apply_movement obj_player, _02A4
 	wait_movement
-	setvar VAR_FARFETCHD1_STICKS1, STICKS_ACTIVE
+	setvar VAR_FARFETCHD1_STICKS1, 1
 	callstd std_play_rival_intro_music
 	get_player_coords VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	compare VAR_SPECIAL_x8005, 462
@@ -185,58 +184,58 @@ _0285:
 	releaseall
 	end
 
-	.align 4
+
 _028C:
+
 	step 14, 9
 	step 0, 1
 	step_end
 
-	.align 4
 _0298:
+
 	step 14, 9
 	step 1, 1
 	step_end
 
-	.align 4
 _02A4:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _02AC:
+
 	step 3, 1
 	step 62, 6
 	step 63, 7
 	step 1, 1
 	step_end
 
-	.align 4
 _02C0:
+
 	step 3, 1
 	step 62, 6
 	step 63, 7
 	step 0, 1
 	step_end
 
-	.align 4
 _02D4:
+
 	step 14, 3
 	step_end
 
-	.align 4
 _02DC:
+
 	step 14, 1
 	step 12, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _02EC:
+
 	step 14, 1
 	step 12, 2
 	step 14, 2
 	step_end
-
 scr_seq_T23_003:
 	scrcmd_609
 	lockall
@@ -259,13 +258,14 @@ scr_seq_T23_003:
 	releaseall
 	end
 
-	.align 4
+
 _0350:
+
 	step 34, 2
 	step_end
 
-	.align 4
 _0358:
+
 	step 71, 1
 	step 22, 1
 	step 63, 2
@@ -274,12 +274,11 @@ _0358:
 	step 18, 9
 	step_end
 
-	.align 4
 _0374:
+
 	step 12, 2
 	step 33, 1
 	step_end
-
 scr_seq_T23_006:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -368,9 +367,6 @@ scr_seq_T23_016:
 	simple_npc_msg 8
 	end
 	.align 4
-
-
-
 
 
 .close

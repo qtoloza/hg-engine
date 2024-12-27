@@ -8,6 +8,6 @@
 .equ _EV_scr_seq_T20R0402_004, 4
 
 .equ obj_T20R0402_var_1, 0
-.equ obj_T20R0402_tsure_poke_static_marill, 1
+.equ obj_T20R0402_follower_mon_static_marill, 1
 
 .endif //SCR_SEQ_T20R0402_H_

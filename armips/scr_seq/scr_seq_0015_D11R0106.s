@@ -117,7 +117,7 @@ scr_seq_D11R0106_000:
 	setflag FLAG_UNK_265
 	setflag FLAG_HIDE_ROUTE_19_WORKMEN_CLOSED
 	clearflag FLAG_HIDE_ROUTE_19_WORKMEN_OPEN
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	setflag FLAG_UNK_13F
 	setflag FLAG_UNK_140
 	setflag FLAG_UNK_13C
@@ -339,60 +339,60 @@ _0416:
 	releaseall
 	end
 
-	.align 4
+
 _0424:
+
 	step 15, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _0430:
+
 	step 13, 1
 	step 0, 1
 	step_end
 
-	.align 4
 _043C:
+
 	step 12, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _0448:
+
 	step 13, 1
 	step 0, 1
 	step_end
 
-	.align 4
 _0454:
+
 	step 12, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _0460:
+
 	step 14, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _046C:
+
 	step 15, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _0478:
+
 	step 14, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _0484:
+
 	step 15, 1
 	step 2, 1
 	step_end
-
 scr_seq_D11R0106_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -413,9 +413,6 @@ _04B6:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

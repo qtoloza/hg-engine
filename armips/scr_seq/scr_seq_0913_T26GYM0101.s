@@ -80,7 +80,6 @@ _009D:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _00CB
 	goto _015A
-	end
 
 _00CB:
 	get_weekday VAR_TEMP_x4000
@@ -88,22 +87,13 @@ _00CB:
 	goto_if_ne _00E8
 	goto _0109
 
-_00E2:
-	goto _0107
-
 _00E8:
 	compare VAR_TEMP_x4000, 0
 	goto_if_ne _0101
 	goto _0109
 
-_00FB:
-	goto _0107
-
 _0101:
 	goto _015A
-
-_0107:
-	end
 
 _0109:
 	scrcmd_522 VAR_TEMP_x4000
@@ -157,7 +147,7 @@ scr_seq_T26GYM0101_000:
 	wait_fanfare
 	give_badge BADGE_MINERAL
 	addvar VAR_MIDGAME_BADGES, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	compare VAR_MIDGAME_BADGES, 3
 	goto_if_ne _01CB
 	setvar VAR_SCENE_ROCKET_TAKEOVER, 1
@@ -327,36 +317,36 @@ _03E2:
 _0408:
 	end
 
-	.align 4
+
 _040C:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0414:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _041C:
+
 	step 15, 2
 	step_end
 
-	.align 4
 _0424:
+
 	step 15, 3
 	step_end
 
-	.align 4
 _042C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0434:
+
 	step 35, 1
 	step_end
-
 scr_seq_T26GYM0101_002:
 	scrcmd_609
 	lockall
@@ -389,21 +379,21 @@ _048E:
 _04B4:
 	end
 
-	.align 4
+
 _04B8:
+
 	step 14, 3
 	step_end
 
-	.align 4
 _04C0:
+
 	step 14, 2
 	step_end
 
-	.align 4
 _04C8:
+
 	step 14, 1
 	step_end
-
 scr_seq_T26GYM0101_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -494,9 +484,6 @@ _05C5:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

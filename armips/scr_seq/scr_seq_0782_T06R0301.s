@@ -162,7 +162,4 @@ scr_seq_T06R0301_006:
 	.align 4
 
 
-
-
-
 .close

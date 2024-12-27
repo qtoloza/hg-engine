@@ -43,11 +43,11 @@ scr_seq_D27R0103_000:
 	setvar VAR_UNK_40A7, 0
 	end
 
-	.align 4
+
 _0038:
+
 	step 68, 1
 	step_end
-
 scr_seq_D27R0103_001:
 	compare VAR_UNK_40A7, 1
 	goto_if_ne _0051
@@ -55,9 +55,6 @@ scr_seq_D27R0103_001:
 _0051:
 	end
 	.align 4
-
-
-
 
 
 .close

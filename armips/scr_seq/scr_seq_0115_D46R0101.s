@@ -38,7 +38,6 @@ scr_seq_D46R0101_001:
 	goto_if_eq _0047
 	goto_if_set FLAG_GAME_CLEAR, _0030
 	goto _0047
-	end
 
 _0030:
 	get_weekday VAR_TEMP_x4000
@@ -99,12 +98,8 @@ _00CC:
 _00DD:
 	npc_msg 4
 	goto _0065
-	end
 
 	.align 4
-
-
-
 
 
 .close

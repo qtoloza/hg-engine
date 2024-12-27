@@ -41,7 +41,4 @@ scr_seq_T21R0401_001:
 	.align 4
 
 
-
-
-
 .close

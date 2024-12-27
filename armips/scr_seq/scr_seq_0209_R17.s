@@ -42,7 +42,4 @@ scr_seq_R17_001:
 	.align 4
 
 
-
-
-
 .close

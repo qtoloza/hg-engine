@@ -146,41 +146,41 @@ _01AB:
 	releaseall
 	end
 
-	.align 4
+
 _01C0:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01D4:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01E0:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01F4:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0200:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R35_000:
 	direction_signpost 28, 1, 4, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -201,9 +201,6 @@ scr_seq_R35_002:
 	simple_npc_msg 21
 	end
 	.align 4
-
-
-
 
 
 .close

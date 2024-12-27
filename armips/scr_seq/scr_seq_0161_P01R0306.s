@@ -77,11 +77,11 @@ _0087:
 	releaseall
 	end
 
-	.align 4
+
 _0090:
+
 	step 49, 2
 	step_end
-
 scr_seq_P01R0306_003:
 	scrcmd_609
 	lockall
@@ -112,23 +112,20 @@ _0103:
 	closemsg
 	goto _00E2
 
-	.align 4
+
 _0110:
+
 	step 51, 3
 	step_end
 
-	.align 4
 _0118:
+
 	step 9, 1
 	step_end
-
 scr_seq_P01R0306_002:
 	simple_npc_msg 8
 	end
 	.align 4
-
-
-
 
 
 .close

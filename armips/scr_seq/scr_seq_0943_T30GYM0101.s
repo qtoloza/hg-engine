@@ -124,7 +124,7 @@ scr_seq_T30GYM0101_000:
 	settrainerflag TRAINER_ACE_TRAINER_M_MIKE
 	settrainerflag TRAINER_ACE_TRAINER_F_FRAN
 	settrainerflag TRAINER_ACE_TRAINER_F_LOLA
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	setflag FLAG_UNK_0D1
 	setflag FLAG_HIDE_BLACKTHORN_DEN_GUARD_INFRONT
 	clearflag FLAG_HIDE_BLACKTHRON_DEN_GUARD_ASIDE
@@ -181,8 +181,9 @@ scr_seq_T30GYM0101_002:
 	releaseall
 	end
 
-	.align 4
+
 _0218:
+
 	step 1, 2
 	step 2, 2
 	step 0, 2
@@ -201,7 +202,6 @@ _0218:
 	step 3, 1
 	step 69, 0
 	step_end
-
 scr_seq_T30GYM0101_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -276,61 +276,61 @@ _0352:
 	releaseall
 	end
 
-	.align 4
+
 _0370:
+
 	step 2, 1
 	step 75, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _0380:
+
 	step 2, 1
 	step 75, 1
 	step 14, 1
 	step_end
 
-	.align 4
 _0390:
+
 	step 2, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _039C:
+
 	step 63, 5
 	step 3, 1
 	step_end
 
-	.align 4
 _03A8:
+
 	step 63, 4
 	step 3, 1
 	step_end
 
-	.align 4
 _03B4:
+
 	step 63, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _03C0:
+
 	step 15, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _03CC:
+
 	step 15, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _03D8:
+
 	step 1, 1
 	step_end
-
 scr_seq_T30GYM0101_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -350,9 +350,6 @@ _040A:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

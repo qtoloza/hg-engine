@@ -9,6 +9,6 @@
 .equ obj_D51R0301_champion, 0
 .equ obj_D51R0301_mount_2, 1
 .equ obj_D51R0301_gsoldman1, 2
-.equ obj_D51R0301_tsure_poke_static_abra, 3
+.equ obj_D51R0301_follower_mon_static_abra, 3
 
 .endif //SCR_SEQ_D51R0301_H_

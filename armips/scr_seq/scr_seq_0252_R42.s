@@ -120,102 +120,102 @@ _0166:
 	releaseall
 	end
 
-	.align 4
+
 _017C:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0184:
+
 	step 3, 1
 	step 71, 1
 	step 58, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0198:
+
 	step 17, 1
 	step 18, 1
 	step_end
 
-	.align 4
 _01A4:
+
 	step 17, 2
 	step 18, 1
 	step_end
 
-	.align 4
 _01B0:
+
 	step 17, 3
 	step 18, 1
 	step_end
 
-	.align 4
 _01BC:
+
 	step 17, 4
 	step 18, 1
 	step_end
 
-	.align 4
 _01C8:
+
 	step 17, 5
 	step 18, 1
 	step_end
 
-	.align 4
 _01D4:
+
 	step 14, 2
 	step_end
 
-	.align 4
 _01DC:
+
 	step 13, 1
 	step 14, 5
 	step 13, 2
 	step 14, 5
 	step_end
 
-	.align 4
 _01F0:
+
 	step 13, 1
 	step 14, 5
 	step 13, 1
 	step 14, 5
 	step_end
 
-	.align 4
 _0204:
+
 	step 13, 1
 	step 14, 10
 	step_end
 
-	.align 4
 _0210:
+
 	step 13, 1
 	step 14, 4
 	step 12, 1
 	step 14, 5
 	step_end
 
-	.align 4
 _0224:
+
 	step 12, 1
 	step 14, 10
 	step_end
-
 scr_seq_R42_001:
 	scrcmd_609
 	lockall
 	play_cry SPECIES_SUICUNE, 0
-	release obj_R42_tsure_poke_static_suicune
-	scrcmd_523 obj_R42_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_R42_tsure_poke_static_suicune
+	release obj_R42_follower_mon_static_suicune
+	scrcmd_523 obj_R42_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_R42_follower_mon_static_suicune
 	wait_cry
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 56
-	apply_movement obj_R42_tsure_poke_static_suicune, _02EC
+	apply_movement obj_R42_follower_mon_static_suicune, _02EC
 	apply_movement obj_player, _0308
 	wait_movement
 	wait_following_pokemon_movement
@@ -240,7 +240,7 @@ scr_seq_R42_001:
 	apply_movement obj_R42_minaki, _0340
 	wait_movement
 	callstd std_fade_end_eusine_music
-	hide_person obj_R42_tsure_poke_static_suicune
+	hide_person obj_R42_follower_mon_static_suicune
 	hide_person obj_R42_minaki
 	setflag FLAG_HIDE_ROUTE_42_SUICUNE
 	setflag FLAG_HIDE_ROUTE_42_EUSINE
@@ -251,8 +251,9 @@ scr_seq_R42_001:
 	releaseall
 	end
 
-	.align 4
+
 _02EC:
+
 	step 62, 3
 	step 22, 2
 	step 58, 1
@@ -261,8 +262,8 @@ _02EC:
 	step 112, 1
 	step_end
 
-	.align 4
 _0308:
+
 	step 75, 1
 	step 71, 1
 	step 16, 4
@@ -271,29 +272,28 @@ _0308:
 	step 15, 1
 	step_end
 
-	.align 4
 _0324:
+
 	step 15, 4
 	step 12, 3
 	step 15, 6
 	step_end
 
-	.align 4
 _0334:
+
 	step 12, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _0340:
+
 	step 15, 9
 	step_end
 
-	.align 4
 _0348:
+
 	step 15, 1
 	step_end
-
 scr_seq_R42_002:
 	direction_signpost 0, 1, 1, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -326,9 +326,6 @@ scr_seq_R42_005:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

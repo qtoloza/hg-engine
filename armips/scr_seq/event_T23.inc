@@ -24,10 +24,10 @@
 .equ obj_T23_gsoldman1, 2
 .equ obj_T23_gswoman1, 3
 .equ obj_T23_gsman1, 4
-.equ obj_T23_tsure_poke_static_slowpoke, 5
-.equ obj_T23_tsure_poke_static_slowpoke_2, 6
-.equ obj_T23_tsure_poke_static_slowpoke_3, 7
-.equ obj_T23_tsure_poke_static_slowpoke_4, 8
+.equ obj_T23_follower_mon_static_slowpoke, 5
+.equ obj_T23_follower_mon_static_slowpoke_2, 6
+.equ obj_T23_follower_mon_static_slowpoke_3, 7
+.equ obj_T23_follower_mon_static_slowpoke_4, 8
 .equ obj_T23_gsrivel, 9
 .equ obj_T23_bonguri, 10
 .equ obj_T23_gsmiddleman1, 11

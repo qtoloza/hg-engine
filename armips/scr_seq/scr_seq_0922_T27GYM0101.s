@@ -101,27 +101,27 @@ scr_seq_T27GYM0101_004:
 	releaseall
 	end
 
-	.align 4
+
 _0108:
+
 	step 75, 1
 	step 13, 3
 	step 63, 1
 	step_end
 
-	.align 4
 _0118:
+
 	step 9, 1
 	step 71, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _0128:
+
 	step 63, 1
 	step 13, 1
 	step 63, 1
 	step_end
-
 scr_seq_T27GYM0101_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -138,7 +138,7 @@ scr_seq_T27GYM0101_001:
 	npc_msg 1
 	give_badge BADGE_FOG
 	addvar VAR_MIDGAME_BADGES, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	setflag FLAG_UNK_998
 	buffer_players_name 0
 	npc_msg 2
@@ -190,8 +190,9 @@ scr_seq_T27GYM0101_002:
 	releaseall
 	end
 
-	.align 4
+
 _0230:
+
 	step 1, 2
 	step 2, 2
 	step 0, 2
@@ -210,7 +211,6 @@ _0230:
 	step 3, 1
 	step 69, 0
 	step_end
-
 scr_seq_T27GYM0101_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -251,9 +251,6 @@ _02D6:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

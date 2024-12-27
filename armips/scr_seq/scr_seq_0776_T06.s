@@ -101,7 +101,6 @@ scr_seq_T06_013:
 	npc_msg 21
 	closemsg
 	goto _013F
-	end
 
 _0109:
 	scrcmd_452 SPECIES_LATIOS, 0
@@ -118,7 +117,6 @@ _0109:
 	npc_msg 22
 	closemsg
 	goto _013F
-	end
 
 _013F:
 	apply_movement obj_T06_daigo, _0180
@@ -133,31 +131,31 @@ _013F:
 	releaseall
 	end
 
-	.align 4
+
 _016C:
+
 	step 75, 1
 	step 63, 1
 	step 14, 4
 	step 34, 1
 	step_end
 
-	.align 4
 _0180:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0188:
+
 	step 15, 10
 	step_end
 
-	.align 4
 _0190:
+
 	step 65, 4
 	step 13, 1
 	step 35, 1
 	step_end
-
 scr_seq_T06_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -228,9 +226,9 @@ _0270:
 	apply_movement obj_player, _040C
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	release obj_T06_tsure_poke_static_suicune
-	scrcmd_523 obj_T06_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_T06_tsure_poke_static_suicune
+	release obj_T06_follower_mon_static_suicune
+	scrcmd_523 obj_T06_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_T06_follower_mon_static_suicune
 	wait_cry
 	callstd std_play_eusine_music
 	toggle_following_pokemon_movement 0
@@ -241,7 +239,7 @@ _0270:
 	goto_if_ne _02D5
 	apply_movement obj_player, _0460
 	apply_movement obj_T06_minaki, _0490
-	apply_movement obj_T06_tsure_poke_static_suicune, _0414
+	apply_movement obj_T06_follower_mon_static_suicune, _0414
 	goto _0318
 
 _02D5:
@@ -249,13 +247,13 @@ _02D5:
 	goto_if_ne _0300
 	apply_movement obj_player, _0470
 	apply_movement obj_T06_minaki, _04A0
-	apply_movement obj_T06_tsure_poke_static_suicune, _0420
+	apply_movement obj_T06_follower_mon_static_suicune, _0420
 	goto _0318
 
 _0300:
 	apply_movement obj_player, _0480
 	apply_movement obj_T06_minaki, _04B0
-	apply_movement obj_T06_tsure_poke_static_suicune, _042C
+	apply_movement obj_T06_follower_mon_static_suicune, _042C
 _0318:
 	wait_movement
 	wait_following_pokemon_movement
@@ -274,7 +272,7 @@ _0318:
 _034D:
 	callstd std_fade_end_eusine_music
 	hide_person obj_T06_minaki
-	hide_person obj_T06_tsure_poke_static_suicune
+	hide_person obj_T06_follower_mon_static_suicune
 	setflag FLAG_HIDE_VERMILION_EUSINE
 	setflag FLAG_HIDE_VERMILION_EUSINE_2
 	setflag FLAG_HIDE_VERMILION_SUICUNE
@@ -287,15 +285,15 @@ _034D:
 
 _037F:
 	apply_movement obj_player, _040C
-	apply_movement obj_T06_tsure_poke_static_suicune, _0458
+	apply_movement obj_T06_follower_mon_static_suicune, _0458
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	release obj_T06_tsure_poke_static_suicune
-	scrcmd_523 obj_T06_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_T06_tsure_poke_static_suicune
+	release obj_T06_follower_mon_static_suicune
+	scrcmd_523 obj_T06_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_T06_follower_mon_static_suicune
 	wait_cry
 	callstd std_play_eusine_music
-	apply_movement obj_T06_tsure_poke_static_suicune, _0438
+	apply_movement obj_T06_follower_mon_static_suicune, _0438
 	apply_movement obj_T06_minaki, _04C0
 	apply_movement obj_player, _04F8
 	wait_movement
@@ -313,31 +311,32 @@ _037F:
 	wait_movement
 	goto _034D
 
-	.align 4
+
 _040C:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0414:
+
 	step 62, 9
 	step 112, 1
 	step_end
 
-	.align 4
 _0420:
+
 	step 62, 11
 	step 112, 1
 	step_end
 
-	.align 4
 _042C:
+
 	step 62, 13
 	step 112, 1
 	step_end
 
-	.align 4
 _0438:
+
 	step 62, 4
 	step 21, 2
 	step 53, 1
@@ -347,96 +346,95 @@ _0438:
 	step 57, 2
 	step_end
 
-	.align 4
 _0458:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0460:
+
 	step 15, 2
 	step 12, 2
 	step 15, 1
 	step_end
 
-	.align 4
 _0470:
+
 	step 15, 2
 	step 12, 3
 	step 15, 1
 	step_end
 
-	.align 4
 _0480:
+
 	step 15, 2
 	step 12, 4
 	step 15, 1
 	step_end
 
-	.align 4
 _0490:
+
 	step 63, 1
 	step 17, 6
 	step 19, 1
 	step_end
 
-	.align 4
 _04A0:
+
 	step 62, 3
 	step 17, 6
 	step 19, 1
 	step_end
 
-	.align 4
 _04B0:
+
 	step 62, 5
 	step 17, 6
 	step 19, 1
 	step_end
 
-	.align 4
 _04C0:
+
 	step 62, 2
 	step 19, 1
 	step 17, 2
 	step_end
 
-	.align 4
 _04D0:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _04D8:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _04E0:
+
 	step 49, 3
 	step_end
 
-	.align 4
 _04E8:
+
 	step 12, 8
 	step_end
 
-	.align 4
 _04F0:
+
 	step 0, 1
 	step_end
 
-	.align 4
 _04F8:
+
 	step 62, 4
 	step 1, 1
 	step_end
 
-	.align 4
 _0504:
+
 	step 2, 1
 	step_end
-
 scr_seq_T06_012:
 	scrcmd_609
 	lockall
@@ -445,9 +443,9 @@ scr_seq_T06_012:
 	apply_movement obj_player, _040C
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	release obj_T06_tsure_poke_static_suicune
-	scrcmd_523 obj_T06_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_T06_tsure_poke_static_suicune
+	release obj_T06_follower_mon_static_suicune
+	scrcmd_523 obj_T06_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_T06_follower_mon_static_suicune
 	wait_cry
 	callstd std_play_eusine_music
 	toggle_following_pokemon_movement 0
@@ -458,7 +456,7 @@ scr_seq_T06_012:
 	goto_if_ne _057D
 	apply_movement obj_T06_minaki_2, _0654
 	apply_movement obj_player, _0630
-	apply_movement obj_T06_tsure_poke_static_suicune, _0414
+	apply_movement obj_T06_follower_mon_static_suicune, _0414
 	goto _05C0
 
 _057D:
@@ -466,13 +464,13 @@ _057D:
 	goto_if_ne _05A8
 	apply_movement obj_T06_minaki_2, _0668
 	apply_movement obj_player, _063C
-	apply_movement obj_T06_tsure_poke_static_suicune, _0420
+	apply_movement obj_T06_follower_mon_static_suicune, _0420
 	goto _05C0
 
 _05A8:
 	apply_movement obj_T06_minaki_2, _067C
 	apply_movement obj_player, _0648
-	apply_movement obj_T06_tsure_poke_static_suicune, _042C
+	apply_movement obj_T06_follower_mon_static_suicune, _042C
 _05C0:
 	wait_movement
 	wait_following_pokemon_movement
@@ -491,7 +489,7 @@ _05C0:
 	wait_movement
 	callstd std_fade_end_eusine_music
 	hide_person obj_T06_minaki_2
-	hide_person obj_T06_tsure_poke_static_suicune
+	hide_person obj_T06_follower_mon_static_suicune
 	setflag FLAG_HIDE_VERMILION_EUSINE
 	setflag FLAG_HIDE_VERMILION_EUSINE_2
 	setflag FLAG_HIDE_VERMILION_SUICUNE
@@ -502,72 +500,72 @@ _05C0:
 	releaseall
 	end
 
-	.align 4
+
 _0630:
+
 	step 13, 4
 	step 15, 2
 	step_end
 
-	.align 4
 _063C:
+
 	step 13, 4
 	step 15, 1
 	step_end
 
-	.align 4
 _0648:
+
 	step 13, 4
 	step 3, 1
 	step_end
 
-	.align 4
 _0654:
+
 	step 63, 1
 	step 19, 7
 	step 16, 3
 	step 19, 1
 	step_end
 
-	.align 4
 _0668:
+
 	step 63, 2
 	step 19, 7
 	step 16, 3
 	step 19, 1
 	step_end
 
-	.align 4
 _067C:
+
 	step 63, 3
 	step 19, 7
 	step 16, 3
 	step 19, 1
 	step_end
 
-	.align 4
 _0690:
+
 	step 0, 1
 	step_end
 
-	.align 4
 _0698:
+
 	step 14, 2
 	step 12, 13
 	step_end
 
-	.align 4
 _06A4:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _06AC:
+
 	step 63, 2
 	step 2, 1
 	step 63, 1
 	step 0, 1
 	step_end
-
 scr_seq_T06_001:
 	simple_npc_msg 0
 	end
@@ -702,44 +700,42 @@ _0883:
 	releaseall
 	end
 
-	.align 4
+
 _0898:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _08A4:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _08B8:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _08CC:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _08D8:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

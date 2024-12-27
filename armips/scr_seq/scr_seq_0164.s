@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0164.inc"
-
 
 // text archive to grab from: 267.txt
 
@@ -52,7 +50,6 @@ scr_seq_0164_000:
 	npc_msg 1
 	giveitem_no_check ITEM_PAL_PAD, 1
 	goto _005C
-	end
 
 _005C:
 	npc_msg 2
@@ -66,7 +63,6 @@ _005C:
 	case 0, _00A5
 	case 1, _00EE
 	goto _00EE
-	end
 
 _00A5:
 	npc_msg 3
@@ -80,7 +76,6 @@ _00A5:
 	case 0, _00A5
 	case 1, _00EE
 	goto _00EE
-	end
 
 _00EE:
 	setvar VAR_SCENE_POKECENTER_WIFI_BASEMENT, 1
@@ -90,8 +85,9 @@ _00EE:
 	releaseall
 	end
 
-	.align 4
+
 _0100:
+
 	step 32, 1
 	step 63, 2
 	step 12, 4
@@ -99,7 +95,6 @@ _0100:
 	step 0, 1
 	step 63, 2
 	step_end
-
 scr_seq_0164_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -111,7 +106,6 @@ scr_seq_0164_001:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _014F
 	goto _0144
-	end
 
 _0144:
 	npc_msg 4
@@ -132,7 +126,6 @@ _014F:
 	case 0, _0198
 	case 1, _0144
 	goto _0144
-	end
 
 _0198:
 	npc_msg 3
@@ -146,7 +139,6 @@ _0198:
 	case 0, _0198
 	case 1, _0144
 	goto _0144
-	end
 
 scr_seq_0164_002:
 	play_se SEQ_SE_DP_SELECT
@@ -177,7 +169,6 @@ _0241:
 
 _025A:
 	goto _0262
-	end
 
 _0262:
 	npc_msg 7
@@ -193,26 +184,22 @@ _0265:
 	case 0, _02BE
 	case 1, _02B3
 	goto _0326
-	end
 
 _02B3:
 	npc_msg 13
 	goto _0265
-	end
 
 _02BE:
 	scrcmd_565 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _02D7
 	goto _0331
-	end
 
 _02D7:
 	scrcmd_564 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0310
 	goto _02F0
-	end
 
 _02F0:
 	npc_msg 11
@@ -222,7 +209,6 @@ _02F0:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0331
 	goto _0326
-	end
 
 _0310:
 	npc_msg 12
@@ -251,7 +237,6 @@ _0331:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0356
 	goto _0326
-	end
 
 _0350:
 	callstd std_bag_is_full_griseous_orb
@@ -270,7 +255,6 @@ _0356:
 	apply_movement obj_player, _0474
 	wait_movement
 	goto _038C
-	end
 
 _038C:
 	scrcmd_307 0, 0, 9, 5, 77
@@ -286,7 +270,6 @@ _038C:
 	wait_movement
 	call _03E8
 	goto _03F3
-	end
 
 _03E0:
 	scrcmd_310 77
@@ -329,69 +312,64 @@ _041C:
 	releaseall
 	end
 
-	.align 4
+
 _0474:
+
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0480:
+
 	step 12, 2
 	step_end
 
-	.align 4
 _0488:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _0490:
+
 	step 12, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _049C:
+
 	step 12, 2
 	step 69, 1
 	step_end
 
-	.align 4
 _04A8:
+
 	step 1, 1
 	step 70, 1
 	step 13, 2
 	step_end
 
-	.align 4
-_04B8:
-	step 13, 1
-	step_end
-
-	.align 4
 _04C0:
+
 	step 13, 2
 	step_end
 
-	.align 4
 _04C8:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _04D0:
+
 	step 12, 1
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _04E0:
+
 	step 12, 1
 	step 69, 1
 	step_end
-
 _04EC:
 	callstd std_party_illegal
 	wait_button_or_walk_away
@@ -429,12 +407,10 @@ scr_seq_0164_003:
 	copyvar VAR_UNK_4055, VAR_SPECIAL_LAST_TALKED
 	npc_msg 18
 	goto _056B
-	end
 
 _0560:
 	npc_msg 26
 	goto _05C4
-	end
 
 _056B:
 	touchscreen_menu_hide
@@ -448,12 +424,10 @@ _056B:
 	case 0, _05D7
 	case 1, _05CC
 	goto _05B9
-	end
 
 _05B9:
 	npc_msg 21
 	goto _05C4
-	end
 
 _05C4:
 	wait_button_or_walk_away
@@ -464,7 +438,6 @@ _05C4:
 _05CC:
 	npc_msg 22
 	goto _056B
-	end
 
 _05D7:
 	callstd std_prompt_save
@@ -498,31 +471,6 @@ _05D7:
 	warp MAP_HIROBA, 0, 20, 11, DIR_NORTH
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
-	releaseall
-	end
-
-_06AD:
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	scrcmd_436
-	scrcmd_166 VAR_SPECIAL_RESULT
-	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	scrcmd_663 VAR_SPECIAL_x8004
-	restore_overworld
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	scrcmd_307 0, 0, 5, 2, 77
-	call _03E0
-	apply_movement obj_player, _04A8
-	wait_movement
-	call _03E8
-	apply_movement obj_player, _04B8
-	wait_movement
-	scrcmd_307 0, 0, 5, 5, 77
-	call _03E0
-	apply_movement obj_player, _04C0
-	wait_movement
-	call _03E8
 	releaseall
 	end
 
@@ -568,9 +516,6 @@ scr_seq_0164_005:
 	debugwatch VAR_UNK_4143
 	end
 	.align 4
-
-
-
 
 
 .close

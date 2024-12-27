@@ -81,7 +81,7 @@ scr_seq_D45R0102_001:
 	closemsg
 	apply_movement obj_D45R0102_var_1, _03AC
 	wait_movement
-	gender_msgbox 6, 7
+	gender_msgbox 8, 7
 	closemsg
 	apply_movement obj_D45R0102_sakaki, _032C
 	wait_movement
@@ -89,16 +89,16 @@ scr_seq_D45R0102_001:
 	closemsg
 	apply_movement obj_D45R0102_var_1, _03B4
 	wait_movement
-	gender_msgbox 8, 9
+	gender_msgbox 10, 9
 	closemsg
 	apply_movement obj_D45R0102_var_1, _038C
 	wait_movement
-	gender_msgbox 10, 11
+	gender_msgbox 12, 11
 	closemsg
 	apply_movement obj_D45R0102_var_1, _03DC
 	wait_movement
 	buffer_players_name 0
-	gender_msgbox 12, 13
+	gender_msgbox 14, 13
 	closemsg
 	stop_bgm 0
 	play_se SEQ_SE_PL_FR03
@@ -136,7 +136,7 @@ scr_seq_D45R0102_001:
 	apply_movement obj_D45R0102_var_1, _03D4
 	wait_movement
 	buffer_players_name 0
-	gender_msgbox 14, 15
+	gender_msgbox 16, 15
 	closemsg
 	get_party_lead_alive VAR_TEMP_x4002
 	get_partymon_species VAR_TEMP_x4002, VAR_SPECIAL_RESULT
@@ -156,12 +156,12 @@ scr_seq_D45R0102_001:
 	wait_movement
 	compare VAR_TEMP_x4003, 1
 	goto_if_ne _0224
-	gender_msgbox 25, 26
+	gender_msgbox 27, 26
 	closemsg
 	goto _022A
 
 _0224:
-	gender_msgbox 16, 17
+	gender_msgbox 18, 17
 	closemsg
 _022A:
 	play_se SEQ_SE_GS_TIMESLIP
@@ -204,9 +204,9 @@ _02C0:
 	setvar VAR_TEMP_x4003, 1
 	apply_movement obj_D45R0102_var_1, _0304
 	wait_movement
-	gender_msgbox 21, 22
+	gender_msgbox 23, 22
 	closemsg
-	gender_msgbox 23, 24
+	gender_msgbox 25, 24
 	closemsg
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -219,8 +219,9 @@ _02C0:
 	wait_fade
 	return
 
-	.align 4
+
 _0304:
+
 	step 35, 1
 	step 75, 1
 	step 63, 1
@@ -228,104 +229,98 @@ _0304:
 	step 32, 1
 	step_end
 
-	.align 4
 _031C:
+
 	step 75, 1
 	step 63, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _032C:
+
 	step 13, 1
 	step_end
 
-	.align 4
-_0334:
-	step 33, 1
-	step_end
-
-	.align 4
 _033C:
+
 	step 71, 1
 	step 8, 1
 	step 72, 1
 	step 11, 2
 	step_end
 
-	.align 4
 _0350:
+
 	step 13, 4
 	step 14, 2
 	step 13, 2
 	step_end
 
-	.align 4
 _0360:
+
 	step 11, 2
 	step 9, 3
 	step 10, 2
 	step 9, 2
 	step_end
 
-	.align 4
 _0374:
+
 	step 32, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _0380:
+
 	step 63, 3
 	step 13, 1
 	step_end
 
-	.align 4
 _038C:
+
 	step 75, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _0398:
+
 	step 15, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _03A4:
+
 	step 49, 1
 	step_end
 
-	.align 4
 _03AC:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _03B4:
+
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _03C0:
+
 	step 34, 1
 	step 63, 1
 	step 35, 1
 	step 63, 1
 	step_end
 
-	.align 4
 _03D4:
+
 	step 13, 1
 	step_end
 
-	.align 4
 _03DC:
+
 	step 39, 4
 	step_end
-
 scr_seq_D45R0102_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -345,9 +340,6 @@ _0404:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

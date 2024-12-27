@@ -185,9 +185,6 @@ scr_seq_D35R0102_000:
 	addvar VAR_TEMP_x4001, 1
 	goto _02D0
 
-_02BE:
-	goto _02D0
-
 _02C4:
 	subvar VAR_TEMP_x4001, 1
 	goto _036C
@@ -259,8 +256,9 @@ _0402:
 	releaseall
 	end
 
-	.align 4
+
 _0428:
+
 	step 75, 1
 	step 63, 2
 	step 3, 2
@@ -273,57 +271,56 @@ _0428:
 	step 63, 1
 	step_end
 
-	.align 4
 _0454:
+
 	step 75, 1
 	step 63, 2
 	step_end
 
-	.align 4
 _0460:
+
 	step 23, 11
 	step 0, 2
 	step_end
 
-	.align 4
 _046C:
+
 	step 23, 11
 	step 1, 2
 	step_end
 
-	.align 4
 _0478:
+
 	step 1, 2
 	step 63, 2
 	step_end
 
-	.align 4
 _0484:
+
 	step 0, 2
 	step 63, 2
 	step_end
 
-	.align 4
 _0490:
+
 	step 2, 2
 	step 22, 10
 	step_end
 
-	.align 4
 _049C:
+
 	step 2, 1
 	step_end
 
-	.align 4
 _04A4:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _04AC:
+
 	step 0, 1
 	step_end
-
 scr_seq_D35R0102_005:
 	scrcmd_609
 	lockall
@@ -337,9 +334,6 @@ scr_seq_D35R0102_005:
 	compare VAR_TEMP_x4001, 4
 	goto_if_ne _04F7
 	addvar VAR_TEMP_x4001, 1
-	goto _0503
-
-_04F1:
 	goto _0503
 
 _04F7:
@@ -417,78 +411,78 @@ _0649:
 	releaseall
 	end
 
-	.align 4
+
 _0668:
+
 	step 22, 9
 	step 0, 2
 	step_end
 
-	.align 4
 _0674:
+
 	step 22, 9
 	step 1, 2
 	step_end
 
-	.align 4
 _0680:
+
 	step 23, 11
 	step 0, 2
 	step_end
 
-	.align 4
 _068C:
+
 	step 23, 11
 	step 1, 2
 	step_end
 
-	.align 4
 _0698:
+
 	step 23, 11
 	step 0, 2
 	step_end
 
-	.align 4
 _06A4:
+
 	step 23, 11
 	step 1, 2
 	step_end
 
-	.align 4
 _06B0:
+
 	step 22, 9
 	step 0, 2
 	step_end
 
-	.align 4
 _06BC:
+
 	step 22, 9
 	step 1, 2
 	step_end
 
-	.align 4
 _06C8:
+
 	step 3, 2
 	step 23, 10
 	step_end
 
-	.align 4
 _06D4:
+
 	step 2, 2
 	step 22, 10
 	step_end
 
-	.align 4
 _06E0:
+
 	step 2, 2
 	step 22, 10
 	step_end
 
-	.align 4
 _06EC:
+
 	step 3, 2
 	step 23, 10
 	step_end
-
 scr_seq_D35R0102_006:
 	scrcmd_609
 	lockall
@@ -502,9 +496,6 @@ scr_seq_D35R0102_006:
 	compare VAR_TEMP_x4001, 11
 	goto_if_ne _073B
 	addvar VAR_TEMP_x4001, 1
-	goto _0747
-
-_0735:
 	goto _0747
 
 _073B:
@@ -597,9 +588,6 @@ scr_seq_D35R0102_007:
 	addvar VAR_TEMP_x4001, 1
 	goto _08F8
 
-_08E6:
-	goto _08F8
-
 _08EC:
 	subvar VAR_TEMP_x4001, 1
 	goto _099E
@@ -689,9 +677,6 @@ scr_seq_D35R0102_008:
 	addvar VAR_TEMP_x4001, 1
 	goto _0AA5
 
-_0A93:
-	goto _0AA5
-
 _0A99:
 	subvar VAR_TEMP_x4001, 1
 	goto _0B4B
@@ -779,16 +764,10 @@ scr_seq_D35R0102_001:
 	npc_msg 2
 	goto _0C4A
 
-_0C25:
-	goto _0C4A
-
 _0C2B:
 	compare VAR_UNK_40AD, 1
 	goto_if_ne _0C47
 	npc_msg 3
-	goto _0C4A
-
-_0C41:
 	goto _0C4A
 
 _0C47:
@@ -807,21 +786,14 @@ scr_seq_D35R0102_009:
 	npc_msg 2
 	goto _0C4A
 
-_0C6E:
-	goto _0C93
-
 _0C74:
 	compare VAR_UNK_40AE, 1
 	goto_if_ne _0C90
 	npc_msg 3
 	goto _0C4A
 
-_0C8A:
-	goto _0C93
-
 _0C90:
 	npc_msg 4
-_0C93:
 	goto _0C4A
 
 scr_seq_D35R0102_010:
@@ -832,21 +804,14 @@ scr_seq_D35R0102_010:
 	npc_msg 2
 	goto _0C4A
 
-_0CB5:
-	goto _0CDA
-
 _0CBB:
 	compare VAR_UNK_40AF, 1
 	goto_if_ne _0CD7
 	npc_msg 3
 	goto _0C4A
 
-_0CD1:
-	goto _0CDA
-
 _0CD7:
 	npc_msg 4
-_0CDA:
 	goto _0C4A
 
 scr_seq_D35R0102_011:
@@ -857,21 +822,14 @@ scr_seq_D35R0102_011:
 	npc_msg 2
 	goto _0C4A
 
-_0CFC:
-	goto _0D21
-
 _0D02:
 	compare VAR_UNK_40B0, 1
 	goto_if_ne _0D1E
 	npc_msg 3
 	goto _0C4A
 
-_0D08:
-	goto _0D21
-
 _0D1E:
 	npc_msg 4
-_0D21:
 	goto _0C4A
 
 scr_seq_D35R0102_012:
@@ -882,21 +840,14 @@ scr_seq_D35R0102_012:
 	npc_msg 2
 	goto _0C4A
 
-_0D43:
-	goto _0D68
-
 _0D49:
 	compare VAR_UNK_40B1, 1
 	goto_if_ne _0D65
 	npc_msg 3
 	goto _0C4A
 
-_0D5F:
-	goto _0D68
-
 _0D65:
 	npc_msg 4
-_0D68:
 	goto _0C4A
 
 scr_seq_D35R0102_002:
@@ -1241,9 +1192,6 @@ scr_seq_D35R0102_029:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

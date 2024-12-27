@@ -99,12 +99,12 @@ scr_seq_D35R0101_006:
 	npc_msg 4
 	closemsg
 	play_se SEQ_SE_GS_ZUTUKI
-	apply_movement obj_D35R0101_tsure_poke_static_dragonite, _02AC
+	apply_movement obj_D35R0101_follower_mon_static_dragonite, _02AC
 	wait_se SEQ_SE_GS_PRESSHIT
 	apply_movement obj_D35R0101_gsfighter, _021C
 	wait_movement
 	apply_movement obj_D35R0101_wataru, _022C
-	apply_movement obj_D35R0101_tsure_poke_static_dragonite, _02C0
+	apply_movement obj_D35R0101_follower_mon_static_dragonite, _02C0
 	wait_movement
 	buffer_players_name 0
 	gender_msgbox 5, 6
@@ -114,7 +114,7 @@ scr_seq_D35R0101_006:
 	following_pokemon_movement 55
 	apply_movement obj_D35R0101_wataru, _0240
 	apply_movement obj_player, _025C
-	apply_movement obj_D35R0101_tsure_poke_static_dragonite, _02CC
+	apply_movement obj_D35R0101_follower_mon_static_dragonite, _02CC
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
@@ -139,36 +139,37 @@ scr_seq_D35R0101_006:
 	apply_movement obj_D35R0101_wataru, _02A4
 	wait_movement
 	hide_person obj_D35R0101_wataru
-	apply_movement obj_D35R0101_tsure_poke_static_dragonite, _02DC
+	apply_movement obj_D35R0101_follower_mon_static_dragonite, _02DC
 	wait_movement
-	hide_person obj_D35R0101_tsure_poke_static_dragonite
+	hide_person obj_D35R0101_follower_mon_static_dragonite
 	setflag FLAG_HIDE_MAHOGANY_SHOP_LANCE
 	setvar VAR_UNK_40A8, 2
 	releaseall
 	end
 
-	.align 4
+
 _0214:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _021C:
+
 	step 71, 1
 	step 23, 2
 	step 72, 1
 	step_end
 
-	.align 4
 _022C:
+
 	step 63, 3
 	step 1, 2
 	step 13, 1
 	step 63, 5
 	step_end
 
-	.align 4
 _0240:
+
 	step 0, 2
 	step 12, 4
 	step 3, 2
@@ -177,14 +178,14 @@ _0240:
 	step 63, 5
 	step_end
 
-	.align 4
 _025C:
+
 	step 63, 1
 	step 12, 4
 	step_end
 
-	.align 4
 _0268:
+
 	step 75, 1
 	step 63, 1
 	step 71, 1
@@ -192,58 +193,57 @@ _0268:
 	step 72, 1
 	step_end
 
-	.align 4
 _0280:
+
 	step 12, 1
 	step 3, 2
 	step 63, 2
 	step_end
 
-	.align 4
 _0290:
+
 	step 3, 2
 	step 75, 1
 	step_end
 
-	.align 4
 _029C:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _02A4:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _02AC:
+
 	step 23, 2
 	step 71, 1
 	step 22, 2
 	step 72, 1
 	step_end
 
-	.align 4
 _02C0:
+
 	step 63, 3
 	step 1, 2
 	step_end
 
-	.align 4
 _02CC:
+
 	step 63, 3
 	step 0, 2
 	step 12, 2
 	step_end
 
-	.align 4
 _02DC:
+
 	step 63, 3
 	step 12, 2
 	step 3, 2
 	step 15, 1
 	step_end
-
 scr_seq_D35R0101_000:
 	end
 
@@ -434,9 +434,6 @@ _0552:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

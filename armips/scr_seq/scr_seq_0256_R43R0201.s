@@ -42,9 +42,6 @@ scr_seq_R43R0201_001:
 	goto_if_ne _0037
 	goto _0095
 
-_0031:
-	goto _0066
-
 _0037:
 	apply_movement obj_R43R0201_rocketm, _0114
 	apply_movement obj_R43R0201_rocketm_2, _0128
@@ -55,8 +52,6 @@ _0037:
 	goto_if_eq _006C
 	npc_msg 1
 	closemsg
-
-_0066:
 	goto _0077
 
 _006C:
@@ -107,16 +102,17 @@ scr_seq_R43R0201_002:
 _0110:
 	end
 
-	.align 4
+
 _0114:
+
 	step 75, 1
 	step 21, 3
 	step 23, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _0128:
+
 	step 63, 6
 	step 1, 1
 	step 75, 1
@@ -125,22 +121,22 @@ _0128:
 	step 1, 1
 	step_end
 
-	.align 4
 _0144:
+
 	step 62, 3
 	step 22, 2
 	step 20, 3
 	step 1, 1
 	step_end
 
-	.align 4
 _0158:
+
 	step 23, 1
 	step 20, 3
 	step_end
 
-	.align 4
 _0164:
+
 	step 63, 6
 	step 0, 1
 	step 75, 1
@@ -149,28 +145,27 @@ _0164:
 	step 0, 1
 	step_end
 
-	.align 4
 _0180:
+
 	step 75, 1
 	step 20, 4
 	step 22, 2
 	step 0, 1
 	step_end
 
-	.align 4
 _0194:
+
 	step 62, 3
 	step 22, 1
 	step 21, 4
 	step_end
 
-	.align 4
 _01A4:
+
 	step 23, 2
 	step 21, 4
 	step 0, 1
 	step_end
-
 scr_seq_R43R0201_000:
 	simple_npc_msg 3
 	end
@@ -198,9 +193,6 @@ _0213:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

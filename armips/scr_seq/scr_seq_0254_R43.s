@@ -63,7 +63,4 @@ scr_seq_R43_003:
 	.align 4
 
 
-
-
-
 .close

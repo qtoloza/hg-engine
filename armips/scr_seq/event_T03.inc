@@ -25,7 +25,7 @@
 .equ obj_T03_monstarball, 6
 .equ obj_T03_gsmiddleman1, 7
 .equ obj_T03_daigo, 8
-.equ obj_T03_tsure_poke_static_latios, 9
-.equ obj_T03_tsure_poke_static_latias, 10
+.equ obj_T03_follower_mon_static_latios, 9
+.equ obj_T03_follower_mon_static_latias, 10
 
 .endif //SCR_SEQ_T03_H_

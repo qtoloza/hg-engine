@@ -270,8 +270,9 @@ _0309:
 	releaseall
 	end
 
-	.align 4
+
 _0320:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -279,45 +280,41 @@ _0320:
 	step 33, 1
 	step_end
 
-	.align 4
 _0338:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0344:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0358:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _036C:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0378:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 	.align 4
-
-
-
 
 
 .close

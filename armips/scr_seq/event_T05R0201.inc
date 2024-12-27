@@ -9,8 +9,8 @@
 
 .equ obj_T05R0201_gsman1, 0
 .equ obj_T05R0201_gsgirl1, 1
-.equ obj_T05R0201_tsure_poke_static_pidgey, 2
-.equ obj_T05R0201_tsure_poke_static_psyduck, 3
-.equ obj_T05R0201_tsure_poke_static_nidorino, 4
+.equ obj_T05R0201_follower_mon_static_pidgey, 2
+.equ obj_T05R0201_follower_mon_static_psyduck, 3
+.equ obj_T05R0201_follower_mon_static_nidorino, 4
 
 .endif //SCR_SEQ_T05R0201_H_

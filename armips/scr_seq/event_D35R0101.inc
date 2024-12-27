@@ -20,6 +20,6 @@
 .equ obj_D35R0101_sunglasses, 5
 .equ obj_D35R0101_gsoldwoman1, 6
 .equ obj_D35R0101_wataru, 7
-.equ obj_D35R0101_tsure_poke_static_dragonite, 8
+.equ obj_D35R0101_follower_mon_static_dragonite, 8
 
 .endif //SCR_SEQ_D35R0101_H_

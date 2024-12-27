@@ -100,14 +100,14 @@ _00B5:
 	wait_movement
 	npc_msg 5
 	closemsg
-	apply_movement obj_D27R0107_tsure_poke_static_ampharos, _01A0
+	apply_movement obj_D27R0107_follower_mon_static_ampharos, _01A0
 	wait_movement
 	play_cry SPECIES_AMPHAROS, 0
 	npc_msg 6
 	wait_cry
 	closemsg
 	scrcmd_459
-	apply_movement obj_D27R0107_tsure_poke_static_ampharos, _01A8
+	apply_movement obj_D27R0107_follower_mon_static_ampharos, _01A8
 	wait_movement
 	play_cry SPECIES_AMPHAROS, 0
 	wait_cry
@@ -148,23 +148,24 @@ _017F:
 	releaseall
 	end
 
-	.align 4
+
 _01A0:
+
 	step 30, 1
 	step_end
 
-	.align 4
 _01A8:
+
 	step 50, 3
 	step_end
 
-	.align 4
 _01B0:
+
 	step 31, 1
 	step_end
 
-	.align 4
 _01B8:
+
 	step 63, 1
 	step 13, 3
 	step 15, 1
@@ -172,8 +173,8 @@ _01B8:
 	step 65, 1
 	step_end
 
-	.align 4
 _01D0:
+
 	step 2, 1
 	step 71, 1
 	step 15, 1
@@ -183,15 +184,15 @@ _01D0:
 	step 33, 1
 	step_end
 
-	.align 4
 _01F0:
+
 	step 14, 1
 	step 12, 3
 	step 35, 1
 	step_end
 
-	.align 4
 _0200:
+
 	step 63, 1
 	step 13, 1
 	step 15, 2
@@ -199,8 +200,8 @@ _0200:
 	step 13, 1
 	step_end
 
-	.align 4
 _0218:
+
 	step 0, 1
 	step 71, 1
 	step 13, 1
@@ -209,12 +210,6 @@ _0218:
 	step 62, 1
 	step 35, 1
 	step_end
-
-	.align 4
-_0238:
-	step 10, 2
-	step_end
-
 scr_seq_D27R0107_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -240,9 +235,6 @@ _0274:
 scr_seq_D27R0107_002:
 	end
 	.align 4
-
-
-
 
 
 .close

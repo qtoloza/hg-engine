@@ -42,7 +42,4 @@ scr_seq_T25R0801_001:
 	.align 4
 
 
-
-
-
 .close

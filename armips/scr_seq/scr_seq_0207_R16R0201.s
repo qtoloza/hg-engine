@@ -71,16 +71,16 @@ _006A:
 	releaseall
 	end
 
-	.align 4
+
 _0084:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _008C:
+
 	step 15, 1
 	step_end
-
 scr_seq_R16R0201_002:
 	scrcmd_186 0
 	setvar VAR_UNK_4129, 0
@@ -92,9 +92,6 @@ scr_seq_R16R0201_000:
 	simple_npc_msg 0
 	end
 	.align 4
-
-
-
 
 
 .close

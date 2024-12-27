@@ -77,7 +77,6 @@ _0095:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _00C3
 	goto _0198
-	end
 
 _00C3:
 	get_weekday VAR_TEMP_x4000
@@ -85,22 +84,13 @@ _00C3:
 	goto_if_ne _00E0
 	goto _0101
 
-_00DA:
-	goto _00FF
-
 _00E0:
 	compare VAR_TEMP_x4000, 0
 	goto_if_ne _00F9
 	goto _0101
 
-_00F3:
-	goto _00FF
-
 _00F9:
 	goto _0198
-
-_00FF:
-	end
 
 _0101:
 	scrcmd_522 VAR_TEMP_x4000
@@ -351,22 +341,17 @@ _0434:
 	faceplayer
 	npc_msg 23
 	goto _03BE
-	end
 
-_0447:
-	simple_npc_msg 21
-	end
 
-	.align 4
 _045C:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0464:
+
 	step 34, 1
 	step_end
-
 _046C:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -415,7 +400,6 @@ scr_seq_T07_017:
 	compare VAR_TEMP_x4002, 1
 	goto_if_ge _0500
 	goto _0302
-	end
 
 _0500:
 	simple_npc_msg 29
@@ -506,8 +490,9 @@ _064F:
 	releaseall
 	end
 
-	.align 4
+
 _0664:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -515,44 +500,41 @@ _0664:
 	step 33, 1
 	step_end
 
-	.align 4
 _067C:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0688:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _069C:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _06B0:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _06BC:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

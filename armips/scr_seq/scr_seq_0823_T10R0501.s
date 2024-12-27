@@ -60,11 +60,11 @@ scr_seq_T10R0501_000:
 	releaseall
 	end
 
-	.align 4
+
 _0060:
+
 	step 12, 6
 	step_end
-
 scr_seq_T10R0501_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -106,9 +106,6 @@ _00DF:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

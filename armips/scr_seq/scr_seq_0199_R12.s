@@ -156,8 +156,9 @@ _01C5:
 	releaseall
 	end
 
-	.align 4
+
 _01DC:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -165,41 +166,40 @@ _01DC:
 	step 33, 1
 	step_end
 
-	.align 4
 _01F4:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0200:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0214:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0228:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0234:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R12_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -239,10 +239,6 @@ _02B4:
 	setflag FLAG_CAUGHT_SNORLAX
 	return
 
-_02BA:
-	releaseall
-	end
-
 scr_seq_R12_002:
 	direction_signpost 0, 1, 3, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -259,9 +255,6 @@ scr_seq_R12_003:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -22,7 +22,7 @@
 .equ obj_T27R0501_gsoldwoman1, 0
 .equ obj_T27R0501_gsman1, 1
 .equ obj_T27R0501_gsgentleman, 2
-.equ obj_T27R0501_tsure_poke_static_psyduck, 3
+.equ obj_T27R0501_follower_mon_static_psyduck, 3
 .equ obj_T27R0501_dancer, 4
 .equ obj_T27R0501_dancer_2, 5
 .equ obj_T27R0501_dancer_3, 6

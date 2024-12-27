@@ -150,7 +150,7 @@ scr_seq_R29_001:
 	lockall
 	play_cry SPECIES_MARILL, 0
 	wait_cry
-	apply_movement obj_R29_tsure_poke_static_marill, _05C4
+	apply_movement obj_R29_follower_mon_static_marill, _05C4
 	wait_movement
 	apply_movement obj_R29_var_2, _05D8
 	wait_movement
@@ -158,56 +158,56 @@ scr_seq_R29_001:
 	gender_msgbox 17, 18
 	closemsg
 	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
-	release obj_R29_tsure_poke_static_marill
+	release obj_R29_follower_mon_static_marill
 	compare VAR_TEMP_x4001, 396
 	goto_if_ne _0209
 	apply_movement obj_R29_var_2, _0660
-	apply_movement obj_R29_tsure_poke_static_marill, _06D4
+	apply_movement obj_R29_follower_mon_static_marill, _06D4
 	goto _02D5
 
 _0209:
 	compare VAR_TEMP_x4001, 397
 	goto_if_ne _022C
 	apply_movement obj_R29_var_2, _067C
-	apply_movement obj_R29_tsure_poke_static_marill, _06F4
+	apply_movement obj_R29_follower_mon_static_marill, _06F4
 	goto _02D5
 
 _022C:
 	compare VAR_TEMP_x4001, 398
 	goto_if_ne _024F
 	apply_movement obj_R29_var_2, _068C
-	apply_movement obj_R29_tsure_poke_static_marill, _0708
+	apply_movement obj_R29_follower_mon_static_marill, _0708
 	goto _02D5
 
 _024F:
 	compare VAR_TEMP_x4001, 399
 	goto_if_ne _0272
 	apply_movement obj_R29_var_2, _069C
-	apply_movement obj_R29_tsure_poke_static_marill, _071C
+	apply_movement obj_R29_follower_mon_static_marill, _071C
 	goto _02D5
 
 _0272:
 	compare VAR_TEMP_x4001, 400
 	goto_if_ne _0295
 	apply_movement obj_R29_var_2, _06AC
-	apply_movement obj_R29_tsure_poke_static_marill, _0730
+	apply_movement obj_R29_follower_mon_static_marill, _0730
 	goto _02D5
 
 _0295:
 	compare VAR_TEMP_x4001, 401
 	goto_if_ne _02B8
 	apply_movement obj_R29_var_2, _06B4
-	apply_movement obj_R29_tsure_poke_static_marill, _073C
+	apply_movement obj_R29_follower_mon_static_marill, _073C
 	goto _02D5
 
 _02B8:
 	compare VAR_TEMP_x4001, 402
 	goto_if_ne _02D5
 	apply_movement obj_R29_var_2, _06C4
-	apply_movement obj_R29_tsure_poke_static_marill, _0750
+	apply_movement obj_R29_follower_mon_static_marill, _0750
 _02D5:
 	wait_movement
-	lock obj_R29_tsure_poke_static_marill
+	lock obj_R29_follower_mon_static_marill
 	buffer_players_name 0
 	gender_msgbox 0, 1
 	closemsg
@@ -219,7 +219,7 @@ _02D5:
 	compare VAR_TEMP_x4001, 396
 	goto_if_ne _033E
 	apply_movement obj_R29_var_2, _0764
-	apply_movement obj_R29_tsure_poke_static_marill, _07B4
+	apply_movement obj_R29_follower_mon_static_marill, _07B4
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _0330
 	apply_movement obj_player, _0820
@@ -234,7 +234,7 @@ _033E:
 	compare VAR_TEMP_x4001, 397
 	goto_if_ne _0384
 	apply_movement obj_R29_var_2, _0770
-	apply_movement obj_R29_tsure_poke_static_marill, _07C4
+	apply_movement obj_R29_follower_mon_static_marill, _07C4
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _0376
 	apply_movement obj_player, _0834
@@ -249,7 +249,7 @@ _0384:
 	compare VAR_TEMP_x4001, 398
 	goto_if_ne _03CA
 	apply_movement obj_R29_var_2, _077C
-	apply_movement obj_R29_tsure_poke_static_marill, _07D4
+	apply_movement obj_R29_follower_mon_static_marill, _07D4
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _03BC
 	apply_movement obj_player, _0848
@@ -264,7 +264,7 @@ _03CA:
 	compare VAR_TEMP_x4001, 399
 	goto_if_ne _0410
 	apply_movement obj_R29_var_2, _0788
-	apply_movement obj_R29_tsure_poke_static_marill, _07E4
+	apply_movement obj_R29_follower_mon_static_marill, _07E4
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _0402
 	apply_movement obj_player, _085C
@@ -279,7 +279,7 @@ _0410:
 	compare VAR_TEMP_x4001, 400
 	goto_if_ne _0456
 	apply_movement obj_R29_var_2, _0794
-	apply_movement obj_R29_tsure_poke_static_marill, _07F4
+	apply_movement obj_R29_follower_mon_static_marill, _07F4
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _0448
 	apply_movement obj_player, _0870
@@ -294,7 +294,7 @@ _0456:
 	compare VAR_TEMP_x4001, 401
 	goto_if_ne _049C
 	apply_movement obj_R29_var_2, _07A0
-	apply_movement obj_R29_tsure_poke_static_marill, _0804
+	apply_movement obj_R29_follower_mon_static_marill, _0804
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _048E
 	apply_movement obj_player, _0884
@@ -309,7 +309,7 @@ _049C:
 	compare VAR_TEMP_x4001, 402
 	goto_if_ne _04DC
 	apply_movement obj_R29_var_2, _07AC
-	apply_movement obj_R29_tsure_poke_static_marill, _0814
+	apply_movement obj_R29_follower_mon_static_marill, _0814
 	compare VAR_TEMP_x4002, 0
 	goto_if_ne _04D4
 	apply_movement obj_player, _0898
@@ -327,17 +327,17 @@ _04DC:
 	wait 10, VAR_SPECIAL_RESULT
 	catching_tutorial
 	apply_movement obj_R29_var_2, _064C
-	apply_movement obj_R29_tsure_poke_static_marill, _0654
+	apply_movement obj_R29_follower_mon_static_marill, _0654
 	wait_movement
 	gender_msgbox 3, 4
 	giveitem_no_check ITEM_POKE_BALL, 5
 	gender_msgbox 7, 8
 	closemsg
 	apply_movement obj_R29_var_2, _0928
-	apply_movement obj_R29_tsure_poke_static_marill, _093C
+	apply_movement obj_R29_follower_mon_static_marill, _093C
 	wait_movement
 	hide_person obj_R29_var_2
-	hide_person obj_R29_tsure_poke_static_marill
+	hide_person obj_R29_follower_mon_static_marill
 	setflag FLAG_HIDE_ROUTE_29_FRIEND
 	setflag FLAG_HIDE_ROUTE_29_MARILL
 	setvar VAR_UNK_408B, 0
@@ -349,10 +349,10 @@ _0559:
 	apply_movement obj_R29_var_2, _05BC
 	wait_movement
 	apply_movement obj_R29_var_2, _05E4
-	apply_movement obj_R29_tsure_poke_static_marill, _0600
+	apply_movement obj_R29_follower_mon_static_marill, _0600
 	wait_movement
 	apply_movement obj_R29_var_2, _061C
-	apply_movement obj_R29_tsure_poke_static_marill, _0624
+	apply_movement obj_R29_follower_mon_static_marill, _0624
 	wait_movement
 	npc_msg 2
 	closemsg
@@ -360,7 +360,7 @@ _0559:
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
 	apply_movement obj_R29_var_2, _062C
-	apply_movement obj_R29_tsure_poke_static_marill, _0634
+	apply_movement obj_R29_follower_mon_static_marill, _0634
 	apply_movement obj_player, _0640
 	wait_movement
 	wait_following_pokemon_movement
@@ -368,27 +368,28 @@ _0559:
 	following_pokemon_movement 48
 	return
 
-	.align 4
+
 _05BC:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _05C4:
+
 	step 17, 1
 	step 19, 2
 	step 16, 1
 	step 50, 2
 	step_end
 
-	.align 4
 _05D8:
+
 	step 35, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _05E4:
+
 	step 50, 3
 	step 65, 1
 	step 50, 3
@@ -397,8 +398,8 @@ _05E4:
 	step 63, 3
 	step_end
 
-	.align 4
 _0600:
+
 	step 63, 3
 	step 58, 1
 	step 63, 3
@@ -407,46 +408,46 @@ _0600:
 	step 50, 3
 	step_end
 
-	.align 4
 _061C:
+
 	step 15, 3
 	step_end
 
-	.align 4
 _0624:
+
 	step 15, 3
 	step_end
 
-	.align 4
 _062C:
+
 	step 14, 3
 	step_end
 
-	.align 4
 _0634:
+
 	step 15, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _0640:
+
 	step 63, 1
 	step 14, 2
 	step_end
 
-	.align 4
 _064C:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _0654:
+
 	step 14, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0660:
+
 	step 16, 4
 	step 19, 2
 	step 17, 2
@@ -455,48 +456,48 @@ _0660:
 	step 19, 4
 	step_end
 
-	.align 4
 _067C:
+
 	step 15, 2
 	step 12, 3
 	step 15, 2
 	step_end
 
-	.align 4
 _068C:
+
 	step 15, 2
 	step 12, 2
 	step 15, 2
 	step_end
 
-	.align 4
 _069C:
+
 	step 15, 2
 	step 12, 1
 	step 15, 2
 	step_end
 
-	.align 4
 _06AC:
+
 	step 15, 4
 	step_end
 
-	.align 4
 _06B4:
+
 	step 15, 2
 	step 13, 1
 	step 15, 2
 	step_end
 
-	.align 4
 _06C4:
+
 	step 15, 2
 	step 13, 2
 	step 15, 2
 	step_end
 
-	.align 4
 _06D4:
+
 	step 18, 1
 	step 16, 4
 	step 19, 2
@@ -506,266 +507,265 @@ _06D4:
 	step 19, 3
 	step_end
 
-	.align 4
 _06F4:
+
 	step 14, 1
 	step 15, 2
 	step 12, 3
 	step 15, 1
 	step_end
 
-	.align 4
 _0708:
+
 	step 14, 1
 	step 15, 2
 	step 12, 2
 	step 15, 1
 	step_end
 
-	.align 4
 _071C:
+
 	step 14, 1
 	step 15, 2
 	step 12, 1
 	step 15, 1
 	step_end
 
-	.align 4
 _0730:
+
 	step 14, 1
 	step 15, 3
 	step_end
 
-	.align 4
 _073C:
+
 	step 14, 1
 	step 15, 2
 	step 13, 1
 	step 15, 1
 	step_end
 
-	.align 4
 _0750:
+
 	step 14, 1
 	step 15, 2
 	step 13, 2
 	step 15, 1
 	step_end
 
-	.align 4
 _0764:
+
 	step 13, 6
 	step 14, 9
 	step_end
 
-	.align 4
 _0770:
+
 	step 13, 5
 	step 14, 9
 	step_end
 
-	.align 4
 _077C:
+
 	step 13, 4
 	step 14, 9
 	step_end
 
-	.align 4
 _0788:
+
 	step 13, 3
 	step 14, 9
 	step_end
 
-	.align 4
 _0794:
+
 	step 13, 2
 	step 14, 9
 	step_end
 
-	.align 4
 _07A0:
+
 	step 13, 1
 	step 14, 9
 	step_end
 
-	.align 4
 _07AC:
+
 	step 14, 9
 	step_end
 
-	.align 4
 _07B4:
+
 	step 15, 1
 	step 13, 6
 	step 14, 8
 	step_end
 
-	.align 4
 _07C4:
+
 	step 15, 1
 	step 13, 5
 	step 14, 8
 	step_end
 
-	.align 4
 _07D4:
+
 	step 15, 1
 	step 13, 4
 	step 14, 8
 	step_end
 
-	.align 4
 _07E4:
+
 	step 15, 1
 	step 13, 3
 	step 14, 8
 	step_end
 
-	.align 4
 _07F4:
+
 	step 15, 1
 	step 13, 2
 	step 14, 8
 	step_end
 
-	.align 4
 _0804:
+
 	step 15, 1
 	step 13, 1
 	step 14, 8
 	step_end
 
-	.align 4
 _0814:
+
 	step 15, 1
 	step 14, 8
 	step_end
 
-	.align 4
 _0820:
+
 	step 63, 1
 	step 14, 1
 	step 13, 6
 	step 14, 5
 	step_end
 
-	.align 4
 _0834:
+
 	step 63, 1
 	step 14, 1
 	step 13, 5
 	step 14, 5
 	step_end
 
-	.align 4
 _0848:
+
 	step 63, 1
 	step 14, 1
 	step 13, 4
 	step 14, 5
 	step_end
 
-	.align 4
 _085C:
+
 	step 63, 1
 	step 14, 1
 	step 13, 3
 	step 14, 5
 	step_end
 
-	.align 4
 _0870:
+
 	step 63, 1
 	step 14, 1
 	step 13, 2
 	step 14, 5
 	step_end
 
-	.align 4
 _0884:
+
 	step 63, 1
 	step 14, 1
 	step 13, 1
 	step 14, 5
 	step_end
 
-	.align 4
 _0898:
+
 	step 63, 1
 	step 14, 6
 	step_end
 
-	.align 4
 _08A4:
+
 	step 63, 1
 	step 14, 1
 	step 13, 6
 	step 14, 7
 	step_end
 
-	.align 4
 _08B8:
+
 	step 63, 1
 	step 14, 1
 	step 13, 5
 	step 14, 7
 	step_end
 
-	.align 4
 _08CC:
+
 	step 63, 1
 	step 14, 1
 	step 13, 4
 	step 14, 7
 	step_end
 
-	.align 4
 _08E0:
+
 	step 63, 1
 	step 14, 1
 	step 13, 3
 	step 14, 7
 	step_end
 
-	.align 4
 _08F4:
+
 	step 63, 1
 	step 14, 1
 	step 13, 2
 	step 14, 7
 	step_end
 
-	.align 4
 _0908:
+
 	step 63, 1
 	step 14, 1
 	step 13, 1
 	step 14, 7
 	step_end
 
-	.align 4
 _091C:
+
 	step 63, 1
 	step 14, 8
 	step_end
 
-	.align 4
 _0928:
+
 	step 13, 2
 	step 14, 4
 	step 13, 4
 	step 14, 3
 	step_end
 
-	.align 4
 _093C:
+
 	step 15, 1
 	step 13, 2
 	step 14, 4
 	step 13, 4
 	step 14, 2
 	step_end
-
 scr_seq_R29_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -824,9 +824,6 @@ scr_seq_R29_008:
 	simple_npc_msg 10
 	end
 	.align 4
-
-
-
 
 
 .close

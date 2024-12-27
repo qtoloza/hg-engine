@@ -131,56 +131,52 @@ scr_seq_T27R0501_015:
 	setvar VAR_UNK_410C, 1
 	end
 
-	.align 4
+
 _01CC:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _01D4:
+
 	step 76, 9
 	step_end
 
-	.align 4
 _01DC:
+
 	step 66, 1
 	step 77, 9
 	step_end
 
-	.align 4
-_01E8:
-	step 12, 3
-	step_end
-
-	.align 4
 _01F0:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _01F8:
+
 	step 38, 1
 	step_end
 
-	.align 4
 _0200:
+
 	step 51, 2
 	step_end
 
-	.align 4
 _0208:
+
 	step 71, 1
 	step 15, 2
 	step 72, 1
 	step_end
 
-	.align 4
 _0218:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0220:
+
 	step 2, 1
 	step 60, 1
 	step 0, 1
@@ -236,7 +232,6 @@ _0220:
 	step 60, 1
 	step 1, 1
 	step_end
-
 scr_seq_T27R0501_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -309,59 +304,59 @@ _040C:
 	releaseall
 	end
 
-	.align 4
+
 _0414:
+
 	step 71, 1
 	step 12, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0424:
+
 	step 71, 1
 	step 13, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0434:
+
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0444:
+
 	step 71, 1
 	step 15, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0454:
+
 	step 18, 4
 	step 17, 12
 	step_end
 
-	.align 4
 _0460:
+
 	step 18, 4
 	step 17, 10
 	step_end
 
-	.align 4
 _046C:
+
 	step 18, 3
 	step 17, 10
 	step_end
 
-	.align 4
 _0478:
+
 	step 17, 1
 	step 19, 3
 	step 17, 9
 	step_end
-
 scr_seq_T27R0501_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -451,36 +446,36 @@ _05A9:
 	releaseall
 	end
 
-	.align 4
+
 _05B4:
+
 	step 12, 1
 	step 14, 5
 	step 12, 2
 	step_end
 
-	.align 4
 _05C4:
+
 	step 13, 2
 	step 15, 5
 	step 13, 1
 	step 0, 1
 	step_end
 
-	.align 4
 _05D8:
+
 	step 12, 1
 	step 15, 3
 	step 12, 2
 	step_end
 
-	.align 4
 _05E8:
+
 	step 13, 2
 	step 14, 3
 	step 13, 1
 	step 0, 1
 	step_end
-
 scr_seq_T27R0501_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -630,7 +625,6 @@ scr_seq_T27R0501_007:
 	compare VAR_SPECIAL_RESULT, 0
 	call_if_ne _07BA
 	goto _0944
-	end
 
 _07BA:
 	toggle_following_pokemon_movement 0
@@ -659,34 +653,34 @@ _080F:
 	following_pokemon_movement 48
 	return
 
-	.align 4
+
 _0828:
+
 	step 15, 1
 	step 13, 2
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _083C:
+
 	step 13, 1
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _084C:
+
 	step 13, 1
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _085C:
+
 	step 63, 2
 	step 33, 1
 	step_end
-
 _0868:
 	buffer_players_name 0
 	npc_msg 42
@@ -921,18 +915,19 @@ _0BD3:
 	call _0BB0
 	end
 
-	.align 4
+
 _0BE4:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0BEC:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0BF4:
+
 	step 12, 5
 	step 14, 4
 	step 12, 5
@@ -940,14 +935,14 @@ _0BF4:
 	step 32, 1
 	step_end
 
-	.align 4
 _0C0C:
+
 	step 12, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0C18:
+
 	step 3, 1
 	step 61, 1
 	step 0, 1
@@ -961,14 +956,14 @@ _0C18:
 	step 33, 1
 	step_end
 
-	.align 4
 _0C48:
+
 	step 14, 5
 	step 33, 1
 	step_end
 
-	.align 4
 _0C54:
+
 	step 2, 1
 	step 61, 1
 	step 0, 1
@@ -982,14 +977,14 @@ _0C54:
 	step 33, 1
 	step_end
 
-	.align 4
 _0C84:
+
 	step 15, 5
 	step 33, 1
 	step_end
 
-	.align 4
 _0C90:
+
 	step 3, 1
 	step 61, 1
 	step 0, 1
@@ -1002,15 +997,15 @@ _0C90:
 	step 33, 1
 	step_end
 
-	.align 4
 _0CBC:
+
 	step 14, 3
 	step 12, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0CCC:
+
 	step 2, 1
 	step 61, 1
 	step 0, 1
@@ -1023,66 +1018,66 @@ _0CCC:
 	step 33, 1
 	step_end
 
-	.align 4
 _0CF8:
+
 	step 15, 3
 	step 12, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0D08:
+
 	step 13, 1
 	step_end
 
-	.align 4
 _0D10:
+
 	step 16, 10
 	step 19, 3
 	step_end
 
-	.align 4
 _0D1C:
+
 	step 15, 1
 	step 13, 11
 	step_end
 
-	.align 4
 _0D28:
+
 	step 63, 1
 	step 14, 1
 	step 13, 12
 	step_end
 
-	.align 4
 _0D38:
+
 	step 63, 1
 	step 15, 4
 	step 13, 11
 	step_end
 
-	.align 4
 _0D48:
+
 	step 63, 1
 	step 15, 1
 	step 13, 12
 	step_end
 
-	.align 4
 _0D58:
+
 	step 14, 1
 	step 13, 11
 	step_end
 
-	.align 4
 _0D64:
+
 	step 63, 2
 	step 15, 5
 	step 13, 11
 	step_end
 
-	.align 4
 _0D74:
+
 	step 2, 1
 	step 62, 1
 	step 0, 1
@@ -1100,9 +1095,6 @@ _0D74:
 	step 33, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

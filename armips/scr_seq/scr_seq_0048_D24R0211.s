@@ -106,8 +106,9 @@ scr_seq_D24R0211_001:
 	releaseall
 	end
 
-	.align 4
+
 _0120:
+
 	step 62, 1
 	step 15, 1
 	step 1, 1
@@ -118,8 +119,8 @@ _0120:
 	step 0, 1
 	step_end
 
-	.align 4
 _0144:
+
 	step 63, 4
 	step 16, 4
 	step 19, 1
@@ -128,11 +129,10 @@ _0144:
 	step 32, 1
 	step_end
 
-	.align 4
 _0160:
+
 	step 1, 1
 	step_end
-
 scr_seq_D24R0211_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -218,8 +218,9 @@ _02A4:
 	releaseall
 	end
 
-	.align 4
+
 _02B8:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -227,41 +228,40 @@ _02B8:
 	step 33, 1
 	step_end
 
-	.align 4
 _02D0:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _02DC:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _02F0:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0304:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0310:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_D24R0211_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -331,9 +331,6 @@ _040E:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

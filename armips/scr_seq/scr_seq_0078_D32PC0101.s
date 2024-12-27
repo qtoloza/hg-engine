@@ -58,7 +58,4 @@ scr_seq_D32PC0101_003:
 	.align 4
 
 
-
-
-
 .close

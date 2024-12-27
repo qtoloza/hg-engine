@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0167.inc"
-
 
 // text archive to grab from: 312.txt
 
@@ -40,7 +38,6 @@ scr_seq_0167_000:
 	setvar VAR_TEMP_x400A, 0
 	npc_msg 0
 	goto _0040
-	end
 
 scr_seq_0167_001:
 	play_se SEQ_SE_DP_SELECT
@@ -49,7 +46,6 @@ scr_seq_0167_001:
 	setvar VAR_TEMP_x400A, 1
 	npc_msg 1
 	goto _0040
-	end
 
 _0040:
 	touchscreen_menu_hide
@@ -62,7 +58,6 @@ _0040:
 	case 0, _01A7
 	case 1, _008C
 	goto _07D9
-	end
 
 _008C:
 	npc_msg 11
@@ -93,42 +88,34 @@ _00BC:
 	case 7, _019C
 	npc_msg 2
 	goto _0040
-	end
 
 _015A:
 	npc_msg 12
 	goto _008C
-	end
 
 _0165:
 	npc_msg 14
 	goto _008C
-	end
 
 _0170:
 	npc_msg 15
 	goto _008C
-	end
 
 _017B:
 	npc_msg 18
 	goto _008C
-	end
 
 _0186:
 	npc_msg 16
 	goto _008C
-	end
 
 _0191:
 	npc_msg 17
 	goto _008C
-	end
 
 _019C:
 	npc_msg 13
 	goto _008C
-	end
 
 _01A7:
 	count_alive_mons_and_pc VAR_SPECIAL_RESULT
@@ -152,32 +139,26 @@ _01A7:
 	case 4, _0281
 	npc_msg 2
 	goto _0040
-	end
 
 _0249:
 	setvar VAR_SPECIAL_x8000, 0
 	goto _028F
-	end
 
 _0257:
 	setvar VAR_SPECIAL_x8000, 1
 	goto _028F
-	end
 
 _0265:
 	setvar VAR_SPECIAL_x8000, 3
 	goto _028F
-	end
 
 _0273:
 	setvar VAR_SPECIAL_x8000, 4
 	goto _028F
-	end
 
 _0281:
 	setvar VAR_SPECIAL_x8000, 2
 	goto _028F
-	end
 
 _028F:
 	buffer_pokeathlon_course_name 3, VAR_SPECIAL_x8000
@@ -401,7 +382,7 @@ _05CA:
 	npc_msg 20
 	play_fanfare SEQ_ME_ITEM
 	wait_fanfare
-	add_special_game_stat SCORE_EVENT_13
+	add_special_game_stat 13
 	return
 
 _05ED:
@@ -541,47 +522,34 @@ _07E6:
 	releaseall
 	end
 
-	.align 4
-_07F4:
-	step 12, 3
-	step 14, 1
-	step 3, 1
-	step_end
 
-	.align 4
-_0804:
-	step 63, 2
-	step 15, 1
-	step 13, 3
-	step_end
-
-	.align 4
 _0814:
+
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0820:
+
 	step 12, 2
 	step_end
 
-	.align 4
 _0828:
+
 	step 32, 1
 	step 12, 1
 	step 15, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _083C:
+
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0848:
+
 	step 0, 1
 	step 60, 1
 	step 3, 1
@@ -620,57 +588,51 @@ _0848:
 	step 63, 1
 	step_end
 
-	.align 4
 _08DC:
+
 	step 13, 1
 	step 14, 1
 	step 13, 1
 	step_end
 
-	.align 4
 _08EC:
+
 	step 13, 2
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _08FC:
+
 	step 13, 2
 	step 14, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _090C:
+
 	step 13, 3
 	step_end
 
-	.align 4
 _0914:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _091C:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0924:
+
 	step 33, 1
 	step_end
 
-	.align 4
-_092C:
-	step 32, 1
-	step_end
-
-	.align 4
 _0934:
+
 	step 1, 1
 	step_end
-
 scr_seq_0167_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -690,7 +652,6 @@ _095A:
 	case 0, _0AB1
 	case 1, _09A6
 	goto _07D9
-	end
 
 _09A6:
 	npc_msg 11
@@ -715,42 +676,34 @@ _09A6:
 	case 5, _0AA6
 	npc_msg 2
 	goto _095A
-	end
 
 _0A64:
 	npc_msg 39
 	goto _09A6
-	end
 
 _0A6F:
 	npc_msg 40
 	goto _09A6
-	end
 
 _0A7A:
 	npc_msg 41
 	goto _09A6
-	end
 
 _0A85:
 	npc_msg 42
 	goto _09A6
-	end
 
 _0A90:
 	npc_msg 43
 	goto _09A6
-	end
 
 _0A9B:
 	npc_msg 44
 	goto _09A6
-	end
 
 _0AA6:
 	npc_msg 45
 	goto _09A6
-	end
 
 _0AB1:
 	count_alive_mons_and_pc VAR_SPECIAL_RESULT
@@ -761,7 +714,6 @@ _0AB1:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _0AE1
 	goto _07DB
-	end
 
 _0AE1:
 	setvar VAR_TEMP_x400A, 2
@@ -785,7 +737,6 @@ _0AE1:
 	case 4, _0BD5
 	case 5, _0BE3
 	goto _07D9
-	end
 
 _0B93:
 	menu_item_add 279, 255, 5
@@ -794,33 +745,27 @@ _0B93:
 _0B9D:
 	setvar VAR_SPECIAL_x8000, 5
 	goto _0BF7
-	end
 
 _0BAB:
 	setvar VAR_SPECIAL_x8000, 6
 	goto _0BF7
-	end
 
 _0BB9:
 	setvar VAR_SPECIAL_x8000, 7
 	goto _0BF7
-	end
 
 _0BC7:
 	setvar VAR_SPECIAL_x8000, 8
 	goto _0BF7
-	end
 
 _0BD5:
 	setvar VAR_SPECIAL_x8000, 9
 	goto _0BF7
-	end
 
 _0BE3:
 	setvar VAR_SPECIAL_x8000, 10
 	setvar VAR_TEMP_x400A, 3
 	goto _0BF7
-	end
 
 _0BF7:
 	touchscreen_menu_hide
@@ -834,10 +779,6 @@ _0BF7:
 	case 0, _0C48
 	case 1, _0C88
 	goto _0AE1
-	end
-
-_0C46:
-	end
 
 _0C48:
 	npc_msg 28
@@ -850,7 +791,6 @@ _0C48:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0CD2
 	goto _0CE3
-	end
 
 _0C88:
 	npc_msg 28
@@ -863,12 +803,10 @@ _0C88:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0CD2
 	goto _0CE3
-	end
 
 _0CC8:
 	scrcmd_283
 	goto _0BF7
-	end
 
 _0CD2:
 	scrcmd_283
@@ -1027,7 +965,7 @@ _0F43:
 	setvar VAR_TEMP_x4009, 500
 	buffer_int 2, VAR_TEMP_x4009
 	npc_msg 22
-	add_special_game_stat SCORE_EVENT_18
+	add_special_game_stat 18
 	goto _0F76
 
 _0F68:
@@ -1062,16 +1000,16 @@ _0FBD:
 _0FCF:
 	return
 
-	.align 4
+
 _0FD4:
+
 	step 12, 2
 	step_end
 
-	.align 4
 _0FDC:
+
 	step 13, 2
 	step_end
-
 _0FE4:
 	npc_msg 38
 	wait_button_or_walk_away
@@ -1079,9 +1017,6 @@ _0FE4:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

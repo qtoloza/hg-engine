@@ -36,7 +36,4 @@ scr_seq_P01R0304_000:
 	.align 4
 
 
-
-
-
 .close

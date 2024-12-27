@@ -63,21 +63,21 @@ _006A:
 	npc_msg 39
 	goto _00E8
 
-	.align 4
+
 _0080:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _0088:
+
 	step 2, 1
 	step_end
 
-	.align 4
 _0090:
+
 	step 3, 1
 	step_end
-
 scr_seq_T25SP0101_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -247,7 +247,6 @@ _038B:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _0234
-	end
 
 _03CD:
 	goto_if_no_item_space ITEM_TM75, 1, _0B45
@@ -273,7 +272,6 @@ _0416:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _0234
-	end
 
 _0458:
 	goto_if_no_item_space ITEM_TM44, 1, _0B45
@@ -299,7 +297,6 @@ _04A1:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _0234
-	end
 
 _04E3:
 	goto_if_no_item_space ITEM_TM35, 1, _0B45
@@ -325,7 +322,6 @@ _052C:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _0234
-	end
 
 _056E:
 	goto_if_no_item_space ITEM_TM13, 1, _0B45
@@ -351,7 +347,6 @@ _05B7:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _0234
-	end
 
 _05F9:
 	goto_if_no_item_space ITEM_TM24, 1, _0B45
@@ -377,7 +372,6 @@ _0642:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _0234
-	end
 
 _0684:
 	goto_if_no_item_space ITEM_SILK_SCARF, 1, _0B45
@@ -403,7 +397,6 @@ _06CD:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _02D0
-	end
 
 _070F:
 	goto_if_no_item_space ITEM_WIDE_LENS, 1, _0B45
@@ -429,7 +422,6 @@ _0758:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _02D0
-	end
 
 _079A:
 	goto_if_no_item_space ITEM_ZOOM_LENS, 1, _0B45
@@ -455,7 +447,6 @@ _07E3:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _02D0
-	end
 
 _0825:
 	goto_if_no_item_space ITEM_METRONOME, 1, _0B45
@@ -481,7 +472,6 @@ _086E:
 	npc_msg 10
 	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
 	goto _02D0
-	end
 
 scr_seq_T25SP0101_004:
 	play_se SEQ_SE_DP_SELECT
@@ -494,9 +484,6 @@ scr_seq_T25SP0101_004:
 	get_game_version VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 7
 	goto_if_ne _08E5
-	goto _08EB
-
-_08DF:
 	goto _08EB
 
 _08E5:
@@ -565,9 +552,6 @@ _09F3:
 	goto_if_ne _0A2E
 	goto _08EB
 
-_0A28:
-	goto _0A34
-
 _0A2E:
 	goto _0948
 
@@ -632,14 +616,8 @@ _0B1D:
 	goto_if_ne _0B3D
 	goto _08EB
 
-_0B37:
-	goto _0B43
-
 _0B3D:
 	goto _0948
-
-_0B43:
-	end
 
 _0B45:
 	npc_msg 5
@@ -649,48 +627,30 @@ _0B4A:
 	goto_if_ne _0B63
 	goto _0234
 
-_0B5D:
-	goto _0BE6
-
 _0B63:
 	compare VAR_SPECIAL_x8004, 402
 	goto_if_ne _0B7C
 	goto _0234
-
-_0B76:
-	goto _0BE6
 
 _0B7C:
 	compare VAR_SPECIAL_x8004, 371
 	goto_if_ne _0B95
 	goto _0234
 
-_0B8F:
-	goto _0BE6
-
 _0B95:
 	compare VAR_SPECIAL_x8004, 362
 	goto_if_ne _0BAE
 	goto _0234
-
-_0BA8:
-	goto _0BE6
 
 _0BAE:
 	compare VAR_SPECIAL_x8004, 340
 	goto_if_ne _0BC7
 	goto _0234
 
-_0BC1:
-	goto _0BE6
-
 _0BC7:
 	compare VAR_SPECIAL_x8004, 351
 	goto_if_ne _0BE0
 	goto _0234
-
-_0BDA:
-	goto _0BE6
 
 _0BE0:
 	goto _02D0
@@ -698,7 +658,6 @@ _0BE0:
 _0BE6:
 	npc_msg 2
 	goto _0B4A
-	end
 
 _0BF1:
 	npc_msg 2
@@ -706,9 +665,6 @@ _0BF1:
 	compare VAR_TEMP_x4000, 7
 	goto_if_ne _0C11
 	goto _08EB
-
-_0C0B:
-	goto _0C17
 
 _0C11:
 	goto _0948
@@ -718,7 +674,6 @@ _0C17:
 	wait_button_or_walk_away
 	closemsg
 	goto _0C26
-	end
 
 _0C26:
 	scrcmd_117
@@ -727,9 +682,6 @@ _0C26:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

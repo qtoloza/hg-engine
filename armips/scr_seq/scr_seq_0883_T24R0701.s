@@ -47,7 +47,4 @@ scr_seq_T24R0701_002:
 	.align 4
 
 
-
-
-
 .close

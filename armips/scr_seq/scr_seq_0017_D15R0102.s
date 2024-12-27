@@ -46,7 +46,4 @@ scr_seq_D15R0102_002:
 	.align 4
 
 
-
-
-
 .close

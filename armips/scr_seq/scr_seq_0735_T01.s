@@ -149,8 +149,9 @@ _01BD:
 	releaseall
 	end
 
-	.align 4
+
 _01D4:
+
 	step 14, 1
 	step 12, 2
 	step 15, 1
@@ -158,41 +159,40 @@ _01D4:
 	step 33, 1
 	step_end
 
-	.align 4
 _01EC:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01F8:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _020C:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0220:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _022C:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T01_000:
 	simple_npc_msg 0
 	end
@@ -233,9 +233,6 @@ scr_seq_T01_005:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -41,7 +41,4 @@ scr_seq_T10_000:
 	.align 4
 
 
-
-
-
 .close

@@ -76,7 +76,4 @@ scr_seq_R34R0201_002:
 	.align 4
 
 
-
-
-
 .close

@@ -93,7 +93,7 @@ scr_seq_D49R0104_003:
 	faceplayer
 	npc_msg 4
 	closemsg
-	apply_movement obj_D49R0104_tsure_poke_static_rattata, _00F0
+	apply_movement obj_D49R0104_follower_mon_static_rattata, _00F0
 	wait_movement
 	play_cry SPECIES_RATTATA, 0
 	npc_msg 11
@@ -103,11 +103,11 @@ scr_seq_D49R0104_003:
 	releaseall
 	end
 
-	.align 4
+
 _00F0:
+
 	step 48, 2
 	step_end
-
 scr_seq_D49R0104_004:
 	simple_npc_msg 5
 	end
@@ -168,9 +168,6 @@ scr_seq_D49R0104_013:
 	simple_npc_msg 13
 	end
 	.align 4
-
-
-
 
 
 .close

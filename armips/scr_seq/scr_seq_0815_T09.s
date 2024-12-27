@@ -68,7 +68,6 @@ _007B:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _00A9
 	goto _0102
-	end
 
 _00A9:
 	get_weekday VAR_TEMP_x4002
@@ -190,8 +189,9 @@ _024B:
 	releaseall
 	end
 
-	.align 4
+
 _0268:
+
 	step 35, 1
 	step 63, 2
 	step 32, 1
@@ -199,8 +199,8 @@ _0268:
 	step 33, 1
 	step_end
 
-	.align 4
 _0280:
+
 	step 32, 1
 	step 63, 2
 	step 35, 1
@@ -208,57 +208,56 @@ _0280:
 	step 34, 1
 	step_end
 
-	.align 4
 _0298:
+
 	step 14, 1
 	step 13, 1
 	step_end
 
-	.align 4
 _02A4:
+
 	step 13, 1
 	step 14, 1
 	step_end
 
-	.align 4
 _02B0:
+
 	step 13, 2
 	step 14, 2
 	step 13, 8
 	step_end
 
-	.align 4
 _02C0:
+
 	step 13, 1
 	step 13, 2
 	step 14, 2
 	step 13, 7
 	step_end
 
-	.align 4
 _02D4:
+
 	step 13, 1
 	step 15, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _02E4:
+
 	step 14, 1
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _02F4:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _02FC:
+
 	step 60, 1
 	step_end
-
 _0304:
 	npc_msg 5
 	touchscreen_menu_hide
@@ -351,7 +350,6 @@ _040D:
 _041E:
 	npc_msg 14
 	goto _03A6
-	end
 
 _0429:
 	npc_msg 15
@@ -410,9 +408,6 @@ scr_seq_T09_002:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

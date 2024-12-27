@@ -18,7 +18,7 @@
 .equ obj_D03R0103_breakrock_7, 11
 .equ obj_D03R0103_breakrock_8, 12
 .equ obj_D03R0103_breakrock_9, 13
-.equ obj_D03R0103_tsure_poke_static_mewtwo, 14
+.equ obj_D03R0103_follower_mon_static_mewtwo, 14
 .equ obj_D03R0103_breakrock_10, 15
 
 .endif //SCR_SEQ_D03R0103_H_

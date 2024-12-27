@@ -103,16 +103,16 @@ _00E6:
 	simple_npc_msg 6
 	end
 
-	.align 4
+
 _00FC:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0104:
+
 	step 33, 1
 	step_end
-
 scr_seq_T26PC0101_001:
 	simple_npc_msg 0
 	end
@@ -125,9 +125,6 @@ scr_seq_T26PC0101_003:
 	simple_npc_msg 2
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -139,8 +139,9 @@ _0191:
 	releaseall
 	end
 
-	.align 4
+
 _01A8:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -148,41 +149,40 @@ _01A8:
 	step 33, 1
 	step_end
 
-	.align 4
 _01C0:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01CC:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01E0:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01F4:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0200:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R14_002:
 	scrcmd_609
 	lockall
@@ -197,9 +197,6 @@ scr_seq_R14_002:
 	apply_movement obj_player, _0450
 	wait_movement
 	goto _027C
-
-_0249:
-	goto _0255
 
 _024F:
 	goto _0255
@@ -216,24 +213,18 @@ _0272:
 	wait_movement
 _027C:
 	play_cry SPECIES_SUICUNE, 0
-	release obj_R14_tsure_poke_static_suicune
-	scrcmd_523 obj_R14_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_R14_tsure_poke_static_suicune
+	release obj_R14_follower_mon_static_suicune
+	scrcmd_523 obj_R14_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_R14_follower_mon_static_suicune
 	wait_cry
 	compare VAR_TEMP_x4000, 1358
 	goto_if_ne _02B1
-	goto _02D0
-
-_02AB:
 	goto _02D0
 
 _02B1:
 	compare VAR_TEMP_x4000, 1359
 	goto_if_ne _02CA
 	goto _0382
-
-_02C4:
-	goto _02D0
 
 _02CA:
 	goto _03AD
@@ -303,7 +294,7 @@ _03C8:
 _03D0:
 	wait_movement
 _03D2:
-	apply_movement obj_R14_tsure_poke_static_suicune, _0488
+	apply_movement obj_R14_follower_mon_static_suicune, _0488
 	apply_movement obj_player, _055C
 	wait_movement
 	wait_following_pokemon_movement
@@ -318,7 +309,7 @@ _03D2:
 	wait_button_or_walk_away
 	closemsg
 	callstd std_fade_end_eusine_music
-	hide_person obj_R14_tsure_poke_static_suicune
+	hide_person obj_R14_follower_mon_static_suicune
 	setflag FLAG_HIDE_ROUTE_14_SUICUNE
 	setflag FLAG_HIDE_ROUTE_14_EUSINE
 	clearflag FLAG_HIDE_ROUTE_14_EUSINE_2
@@ -333,37 +324,14 @@ _0449:
 	releaseall
 	end
 
-	.align 4
+
 _0450:
+
 	step 75, 1
 	step_end
 
-	.align 4
-_0458:
-	step 62, 1
-	step 2, 1
-	step_end
-
-	.align 4
-_0464:
-	step 62, 1
-	step 0, 1
-	step_end
-
-	.align 4
-_0470:
-	step 62, 1
-	step 1, 1
-	step_end
-
-	.align 4
-_047C:
-	step 95, 1
-	step 2, 1
-	step_end
-
-	.align 4
 _0488:
+
 	step 20, 2
 	step 52, 1
 	step 56, 1
@@ -374,102 +342,98 @@ _0488:
 	step 52, 1
 	step_end
 
-	.align 4
 _04AC:
+
 	step 13, 1
 	step 15, 3
 	step 13, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _04C0:
+
 	step 15, 3
 	step 13, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _04D0:
+
 	step 15, 3
 	step 13, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _04E0:
+
 	step 15, 3
 	step_end
 
-	.align 4
 _04E8:
+
 	step 15, 3
 	step 12, 1
 	step 3, 1
 	step_end
 
-	.align 4
 _04F8:
+
 	step 15, 3
 	step 12, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _0508:
+
 	step 12, 1
 	step 15, 3
 	step 12, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _051C:
+
 	step 13, 1
 	step 15, 2
 	step 13, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _0530:
+
 	step 12, 1
 	step 15, 2
 	step 12, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _0544:
+
 	step 13, 3
 	step 3, 1
 	step_end
 
-	.align 4
 _0550:
+
 	step 12, 3
 	step 3, 1
 	step_end
 
-	.align 4
 _055C:
+
 	step 63, 1
 	step 0, 1
 	step 12, 1
 	step_end
 
-	.align 4
 _056C:
+
 	step 65, 5
 	step 2, 1
 	step_end
 
-	.align 4
-_0578:
-	step_end
-
-	.align 4
 _057C:
+
 	step 16, 11
 	step 12, 2
 	step 4, 1
@@ -477,7 +441,6 @@ _057C:
 	step 9, 1
 	step 3, 1
 	step_end
-
 scr_seq_R14_003:
 	buffer_players_name 0
 	simple_npc_msg 7
@@ -549,15 +512,13 @@ _068B:
 	releaseall
 	end
 
-	.align 4
+
 _0698:
+
 	step 75, 1
 	step 62, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

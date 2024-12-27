@@ -38,25 +38,21 @@ scr_seq_D39R0102_000:
 	setvar VAR_TEMP_x4000, 12
 	setvar VAR_TEMP_x4001, 12
 	goto _0062
-	end
 
 scr_seq_D39R0102_001:
 	setvar VAR_TEMP_x4000, 10
 	setvar VAR_TEMP_x4001, 21
 	goto _0062
-	end
 
 scr_seq_D39R0102_002:
 	setvar VAR_TEMP_x4000, 20
 	setvar VAR_TEMP_x4001, 10
 	goto _0062
-	end
 
 scr_seq_D39R0102_003:
 	setvar VAR_TEMP_x4000, 21
 	setvar VAR_TEMP_x4001, 23
 	goto _0062
-	end
 
 _0062:
 	scrcmd_609
@@ -97,61 +93,59 @@ _00E9:
 	releaseall
 	end
 
-	.align 4
+
 _0118:
+
 	step 40, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0124:
+
 	step 62, 3
 	step 20, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0134:
+
 	step 41, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0140:
+
 	step 62, 3
 	step 21, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0150:
+
 	step 42, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _015C:
+
 	step 62, 3
 	step 22, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _016C:
+
 	step 43, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0178:
+
 	step 62, 3
 	step 23, 1
 	step 69, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

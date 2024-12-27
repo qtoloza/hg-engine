@@ -58,26 +58,21 @@ scr_seq_D49R0101_023:
 	setflag FLAG_SYS_FLYPOINT_POKEATHLON
 	end
 
-	.align 4
-_0068:
-	step 34, 1
-	step_end
 
-	.align 4
 _0070:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0078:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _0080:
+
 	step 32, 1
 	step_end
-
 scr_seq_D49R0101_000:
 	scrcmd_609
 	lockall
@@ -168,8 +163,9 @@ _01E1:
 	setvar VAR_UNK_40E2, 1
 	end
 
-	.align 4
+
 _0200:
+
 	step 71, 1
 	step 55, 1
 	step 72, 1
@@ -177,8 +173,8 @@ _0200:
 	step 18, 1
 	step_end
 
-	.align 4
 _0218:
+
 	step 71, 1
 	step 53, 1
 	step 72, 1
@@ -186,39 +182,39 @@ _0218:
 	step 16, 1
 	step_end
 
-	.align 4
 _0230:
+
 	step 75, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _023C:
+
 	step 75, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _0248:
+
 	step 23, 1
 	step 76, 10
 	step 34, 1
 	step_end
 
-	.align 4
 _0258:
+
 	step 76, 9
 	step_end
 
-	.align 4
 _0260:
+
 	step 61, 1
 	step 63, 8
 	step 35, 1
 	step_end
 
-	.align 4
 _0270:
+
 	step 33, 1
 	step 63, 1
 	step 32, 1
@@ -235,8 +231,8 @@ _0270:
 	step 18, 6
 	step_end
 
-	.align 4
 _02AC:
+
 	step 19, 7
 	step 33, 1
 	step 63, 1
@@ -253,8 +249,8 @@ _02AC:
 	step 18, 6
 	step_end
 
-	.align 4
 _02E8:
+
 	step 19, 7
 	step 33, 1
 	step 63, 1
@@ -272,25 +268,24 @@ _02E8:
 	step 32, 1
 	step_end
 
-	.align 4
 _0328:
+
 	step 77, 2
 	step 78, 1
 	step 77, 8
 	step_end
 
-	.align 4
 _0338:
+
 	step 77, 1
 	step 78, 1
 	step 77, 9
 	step_end
 
-	.align 4
 _0348:
+
 	step 77, 9
 	step_end
-
 scr_seq_D49R0101_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -312,23 +307,16 @@ _0377:
 	case 1, _03D7
 	goto _03E4
 
-_03C1:
-	closemsg
-	releaseall
-	end
-
 _03C7:
 	holdmsg
 	scrcmd_815 0
 	scrcmd_771
 	goto _03E4
-	end
 
 _03D7:
 	touchscreen_menu_show
 	npc_msg 52
 	goto _0377
-	end
 
 _03E4:
 	touchscreen_menu_show
@@ -342,7 +330,6 @@ _03F1:
 	npc_msg 48
 	setflag FLAG_UNK_114
 	goto _0377
-	end
 
 _0400:
 	npc_msg 50
@@ -375,11 +362,6 @@ _0443:
 	case 1, _04E8
 	goto _051C
 
-_048D:
-	closemsg
-	releaseall
-	end
-
 _0493:
 	holdmsg
 	scrcmd_815 0
@@ -396,7 +378,6 @@ _0493:
 	compare VAR_SPECIAL_x8005, 27
 	goto_if_eq _0595
 	goto _051C
-	end
 
 _04E8:
 	touchscreen_menu_show
@@ -413,7 +394,6 @@ _0509:
 _0511:
 	npc_msg 58
 	goto _0443
-	end
 
 _051C:
 	touchscreen_menu_show
@@ -427,7 +407,6 @@ _0529:
 	npc_msg 53
 	setflag FLAG_UNK_115
 	goto _0443
-	end
 
 _0538:
 	compare VAR_UNK_4139, 0
@@ -556,9 +535,6 @@ scr_seq_D49R0101_014:
 	goto_if_ne _072E
 	show_money_box 20, 2
 	goto _0759
-
-_0728:
-	goto _0748
 
 _072E:
 	compare VAR_TEMP_x4005, 1
@@ -730,14 +706,8 @@ _09E6:
 	goto_if_ne _09FF
 	goto _0759
 
-_09F9:
-	goto _0A05
-
 _09FF:
 	goto _0A7F
-
-_0A05:
-	end
 
 _0A07:
 	touchscreen_menu_show
@@ -800,7 +770,6 @@ _0A7F:
 	touchscreen_menu_show
 	npc_msg 91
 	goto _0A5C
-	end
 
 scr_seq_D49R0101_020:
 	play_se SEQ_SE_DP_SELECT
@@ -821,22 +790,18 @@ _0AF3:
 	case 1, _0B65
 	case 2, _0B73
 	goto _0BA5
-	end
 
 _0B57:
 	setvar VAR_TEMP_x4007, 0
 	goto _0B81
-	end
 
 _0B65:
 	setvar VAR_TEMP_x4007, 1
 	goto _0B81
-	end
 
 _0B73:
 	setvar VAR_TEMP_x4007, 2
 	goto _0B81
-	end
 
 _0B81:
 	npc_msg 98
@@ -847,7 +812,6 @@ _0B81:
 	play_se SEQ_SE_DP_DECIDE
 	scrcmd_743 VAR_TEMP_x4007
 	goto _0AF3
-	end
 
 _0BA5:
 	touchscreen_menu_show
@@ -892,7 +856,6 @@ _0C09:
 	scrcmd_725 0, 100
 	setflag FLAG_UNK_152
 	goto _0C4C
-	end
 
 _0C42:
 	callstd std_bag_is_full
@@ -942,7 +905,6 @@ _0CB7:
 	scrcmd_725 0, 100
 	setflag FLAG_UNK_153
 	goto _0CF0
-	end
 
 _0CF0:
 	npc_msg 114
@@ -951,9 +913,6 @@ _0CF0:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

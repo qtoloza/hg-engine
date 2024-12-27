@@ -59,7 +59,4 @@ scr_seq_R13_002:
 	.align 4
 
 
-
-
-
 .close

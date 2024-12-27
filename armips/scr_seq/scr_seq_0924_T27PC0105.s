@@ -36,7 +36,4 @@ scr_seq_T27PC0105_000:
 	.align 4
 
 
-
-
-
 .close

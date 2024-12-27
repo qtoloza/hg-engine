@@ -53,7 +53,6 @@ _003B:
 	compare VAR_TEMP_x4001, 1
 	goto_if_eq _001F
 	goto _015D
-	end
 
 _0056:
 	goto_if_set FLAG_UNK_AA8, _0152
@@ -73,7 +72,6 @@ _0056:
 _0099:
 	setvar VAR_SPECIAL_x8004, 0
 	goto _00F0
-	end
 
 _00A7:
 	npc_msg 2
@@ -164,12 +162,8 @@ _019D:
 _01AE:
 	npc_msg 12
 	goto _016D
-	end
 
 	.align 4
-
-
-
 
 
 .close

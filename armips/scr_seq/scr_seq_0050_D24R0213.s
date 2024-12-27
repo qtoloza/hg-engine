@@ -92,45 +92,45 @@ _00DA:
 	releaseall
 	end
 
-	.align 4
+
 _0108:
+
 	step 40, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0114:
+
 	step 62, 3
 	step 20, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0124:
+
 	step 42, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0130:
+
 	step 62, 3
 	step 22, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0140:
+
 	step 43, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _014C:
+
 	step 62, 3
 	step 23, 1
 	step 69, 1
 	step_end
-
 scr_seq_D24R0213_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -140,9 +140,6 @@ scr_seq_D24R0213_001:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

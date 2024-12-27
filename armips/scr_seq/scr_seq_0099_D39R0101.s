@@ -108,28 +108,28 @@ _00E5:
 	setvar VAR_UNK_4100, 1
 	end
 
-	.align 4
+
 _0108:
+
 	step 0, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0114:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _011C:
+
 	step 63, 2
 	step 1, 1
 	step_end
 
-	.align 4
 _0128:
+
 	step 14, 1
 	step_end
-
 scr_seq_D39R0101_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -138,9 +138,6 @@ scr_seq_D39R0101_002:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0157
 	goto _0169
-
-_0151:
-	goto _0157
 
 _0157:
 	buffer_players_name 0
@@ -199,8 +196,9 @@ _01F3:
 	goto_if_eq _01F3
 	end
 
-	.align 4
+
 _021C:
+
 	step 73, 0
 	step 17, 5
 	step 74, 0
@@ -210,26 +208,20 @@ _021C:
 	step 32, 2
 	step_end
 
-	.align 4
 _023C:
+
 	step 13, 4
 	step_end
 
-	.align 4
 _0244:
+
 	step 17, 4
 	step_end
 
-	.align 4
 _024C:
+
 	step 16, 4
 	step_end
-
-	.align 4
-_0254:
-	step 1, 1
-	step_end
-
 scr_seq_D39R0101_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -315,8 +307,9 @@ _0398:
 	releaseall
 	end
 
-	.align 4
+
 _03AC:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -324,44 +317,41 @@ _03AC:
 	step 33, 1
 	step_end
 
-	.align 4
 _03C4:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03D0:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03E4:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _03F8:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0404:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

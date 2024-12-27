@@ -37,7 +37,4 @@ scr_seq_T05R0301_000:
 	.align 4
 
 
-
-
-
 .close

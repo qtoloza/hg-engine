@@ -45,7 +45,6 @@ scr_seq_T03GYM0101_003:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _0053
 	goto _00F5
-	end
 
 _0053:
 	scrcmd_522 VAR_TEMP_x4000
@@ -120,7 +119,7 @@ scr_seq_T03GYM0101_000:
 	goto_if_eq _01B8
 	give_badge BADGE_BOULDER
 	addvar VAR_UNK_4135, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	settrainerflag TRAINER_CAMPER_JERRY
 	settrainerflag TRAINER_HIKER_EDWIN
 	npc_msg 1
@@ -195,9 +194,6 @@ _0219:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

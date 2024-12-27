@@ -49,14 +49,12 @@ scr_seq_D43R0102_001:
 _0043:
 	end
 
-	.align 4
+
 _0048:
+
 	step 68, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

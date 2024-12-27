@@ -37,7 +37,4 @@ scr_seq_R08R0201_000:
 	.align 4
 
 
-
-
-
 .close

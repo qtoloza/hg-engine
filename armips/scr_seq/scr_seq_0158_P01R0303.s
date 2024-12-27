@@ -107,8 +107,9 @@ _0112:
 	releaseall
 	end
 
-	.align 4
+
 _0120:
+
 	step 75, 1
 	step 63, 1
 	step 3, 2
@@ -119,8 +120,8 @@ _0120:
 	step 72, 1
 	step_end
 
-	.align 4
 _0144:
+
 	step 0, 2
 	step 16, 2
 	step 3, 2
@@ -129,14 +130,14 @@ _0144:
 	step 17, 1
 	step_end
 
-	.align 4
 _0160:
+
 	step 0, 2
 	step 16, 7
 	step_end
 
-	.align 4
 _016C:
+
 	step 75, 1
 	step 63, 1
 	step 2, 2
@@ -147,8 +148,8 @@ _016C:
 	step 72, 1
 	step_end
 
-	.align 4
 _0190:
+
 	step 0, 2
 	step 16, 2
 	step 2, 2
@@ -157,8 +158,8 @@ _0190:
 	step 17, 1
 	step_end
 
-	.align 4
 _01AC:
+
 	step 0, 2
 	step 16, 3
 	step 3, 2
@@ -167,22 +168,21 @@ _01AC:
 	step 16, 4
 	step_end
 
-	.align 4
 _01C8:
+
 	step 65, 1
 	step 3, 2
 	step 15, 1
 	step 0, 2
 	step_end
 
-	.align 4
 _01DC:
+
 	step 65, 1
 	step 2, 2
 	step 14, 1
 	step 0, 2
 	step_end
-
 scr_seq_P01R0303_001:
 	scrcmd_609
 	lockall
@@ -240,22 +240,20 @@ _02AD:
 	releaseall
 	end
 
-	.align 4
+
 _02B4:
+
 	step 1, 2
 	step 65, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 3, 2
 	step 55, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

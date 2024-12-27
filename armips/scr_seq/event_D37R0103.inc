@@ -7,9 +7,9 @@
 .equ _EV_scr_seq_D37R0103_003, 3
 
 .equ obj_D37R0103_gsfighter, 0
-.equ obj_D37R0103_tsure_poke_static_machoke, 1
-.equ obj_D37R0103_tsure_poke_static_machoke_2, 2
-.equ obj_D37R0103_tsure_poke_static_machoke_3, 3
+.equ obj_D37R0103_follower_mon_static_machoke, 1
+.equ obj_D37R0103_follower_mon_static_machoke_2, 2
+.equ obj_D37R0103_follower_mon_static_machoke_3, 3
 .equ obj_D37R0103_gsfighter_2, 4
 .equ obj_D37R0103_babyboy1_5, 5
 .equ obj_D37R0103_babyboy1_5_2, 6

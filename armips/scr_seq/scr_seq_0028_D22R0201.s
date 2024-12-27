@@ -36,7 +36,4 @@ scr_seq_D22R0201_000:
 	.align 4
 
 
-
-
-
 .close

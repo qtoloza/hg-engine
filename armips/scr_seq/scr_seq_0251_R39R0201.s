@@ -71,13 +71,11 @@ _007E:
 	closemsg
 	setflag FLAG_UNK_100
 	goto _0070
-	end
 
 _00A2:
 	npc_msg 8
 	closemsg
 	goto _0070
-	end
 
 scr_seq_R39R0201_001:
 	play_se SEQ_SE_DP_SELECT
@@ -97,13 +95,11 @@ _00E0:
 	npc_msg 4
 	closemsg
 	goto _00D2
-	end
 
 _00ED:
 	npc_msg 2
 	closemsg
 	goto _00D2
-	end
 
 _00FA:
 	goto_if_unset FLAG_UNK_100, _00ED
@@ -157,24 +153,22 @@ _01C2:
 	closemsg
 	setflag FLAG_UNK_101
 	goto _00D2
-	end
 
 _020C:
 	npc_msg 3
 	closemsg
 	goto _00D2
-	end
 
-	.align 4
+
 _021C:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0224:
+
 	step 34, 1
 	step_end
-
 scr_seq_R39R0201_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -304,9 +298,6 @@ scr_seq_R39R0201_003:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

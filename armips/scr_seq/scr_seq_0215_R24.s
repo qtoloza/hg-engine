@@ -65,32 +65,32 @@ _0078:
 	releaseall
 	end
 
-	.align 4
+
 _0084:
+
 	step 75, 1
 	step 18, 3
 	step_end
 
-	.align 4
 _0090:
+
 	step 0, 1
 	step 75, 1
 	step 18, 3
 	step_end
 
-	.align 4
 _00A0:
+
 	step 65, 3
 	step 1, 1
 	step_end
 
-	.align 4
 _00AC:
+
 	step 65, 3
 	step 17, 1
 	step 0, 1
 	step_end
-
 scr_seq_R24_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -132,43 +132,40 @@ _014A:
 	releaseall
 	end
 
-	.align 4
+
 _0150:
+
 	step 19, 1
 	step 17, 10
 	step_end
 
-	.align 4
 _015C:
+
 	step 71, 1
 	step 19, 1
 	step 72, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _0170:
+
 	step 62, 12
 	step 2, 1
 	step_end
 
-	.align 4
 _017C:
+
 	step 62, 1
 	step 1, 1
 	step 62, 10
 	step 12, 1
 	step 2, 1
 	step_end
-
 scr_seq_R24_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	compare VAR_SCENE_ROUTE_24_ROCKET, 2
 	goto_if_ne _01B3
-	goto _01DC
-
-_01AD:
 	goto _01DC
 
 _01B3:
@@ -177,9 +174,6 @@ _01B3:
 	faceplayer
 	npc_msg 5
 	goto _01DF
-
-_01CB:
-	goto _01DC
 
 _01D1:
 	faceplayer
@@ -201,18 +195,12 @@ scr_seq_R24_001:
 	goto_if_ne _0206
 	goto _022F
 
-_0200:
-	goto _022F
-
 _0206:
 	compare VAR_SCENE_ROUTE_24_ROCKET, 3
 	goto_if_ne _0224
 	faceplayer
 	npc_msg 8
 	goto _0232
-
-_021E:
-	goto _022F
 
 _0224:
 	faceplayer
@@ -227,9 +215,6 @@ _0232:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

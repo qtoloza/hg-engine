@@ -8,11 +8,11 @@
 .equ _EV_scr_seq_R39R0201_004, 4
 
 .equ obj_R39R0201_gsbabygirl1, 0
-.equ obj_R39R0201_tsure_poke_static_miltank, 1
+.equ obj_R39R0201_follower_mon_static_miltank, 1
 .equ obj_R39R0201_gsbabygirl1_2, 2
-.equ obj_R39R0201_tsure_poke_static_miltank_2, 3
-.equ obj_R39R0201_tsure_poke_static_miltank_3, 4
-.equ obj_R39R0201_tsure_poke_static_miltank_4, 5
-.equ obj_R39R0201_tsure_poke_static_miltank_5, 6
+.equ obj_R39R0201_follower_mon_static_miltank_2, 3
+.equ obj_R39R0201_follower_mon_static_miltank_3, 4
+.equ obj_R39R0201_follower_mon_static_miltank_4, 5
+.equ obj_R39R0201_follower_mon_static_miltank_5, 6
 
 .endif //SCR_SEQ_R39R0201_H_

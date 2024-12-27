@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0166.inc"
-
 
 // text archive to grab from: 043.txt
 
@@ -69,11 +67,10 @@ scr_seq_0166_003:
 
 _0064:
 	return
-	return
+
 scr_seq_0166_004:
 	end
-	make_object_visible 0xFF
-	return
+
 scr_seq_0166_005:
 	simple_npc_msg 0
 	end
@@ -86,7 +83,7 @@ scr_seq_0166_006:
 	setvar VAR_SPECIAL_x8007, 2
 	npc_msg 3
 	goto _00C1
-	end
+
 scr_seq_0166_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -95,7 +92,7 @@ scr_seq_0166_007:
 	setvar VAR_SPECIAL_x8007, 2
 	npc_msg 7
 	goto _00C1
-	end
+
 _00C1:
 	compare VAR_TEMP_x4003, 1
 	goto_if_eq _00D7
@@ -114,7 +111,7 @@ _00DA:
 	case 0, _012F
 	case 1, _0137
 	goto _0118
-	end
+
 _0118:
 	scrcmd_283
 	setvar VAR_UNK_4133, 0
@@ -127,12 +124,12 @@ _0118:
 
 _012F:
 	goto _0254
-	end
+
 _0137:
 	compare VAR_TEMP_x4003, 1
 	goto_if_eq _014C
 	goto _0155
-	end
+
 _014C:
 	npc_msg 13
 	goto _00C1
@@ -151,18 +148,18 @@ _0158:
 	case 1, _01AF
 	case 2, _01BA
 	goto _00C1
-	end
+
 _01A7:
 	goto _01C8
-	end
+
 _01AF:
 	npc_msg 18
 	goto _0155
-	end
+
 _01BA:
 	npc_msg 19
 	goto _0155
-	end
+
 _01C5:
 	npc_msg 117
 _01C8:
@@ -179,23 +176,23 @@ _01C8:
 	case 2, _023E
 	case 3, _0249
 	goto _0158
-	end
+
 _0228:
 	npc_msg 14
 	goto _01C5
-	end
+
 _0233:
 	npc_msg 15
 	goto _01C5
-	end
+
 _023E:
 	npc_msg 16
 	goto _01C5
-	end
+
 _0249:
 	npc_msg 17
 	goto _01C5
-	end
+
 _0254:
 	npc_msg 219
 	scrcmd_064 18, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -207,7 +204,7 @@ _0254:
 	case 0, _0295
 	case 1, _02E7
 	goto _0118
-	end
+
 _0295:
 	npc_msg 212
 	yesno VAR_SPECIAL_RESULT
@@ -220,13 +217,13 @@ _0295:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _02DF
 	goto _0339
-	end
+
 _02D7:
 	goto _0254
-	end
+
 _02DF:
 	goto _0254
-	end
+
 _02E7:
 	npc_msg 212
 	yesno VAR_SPECIAL_RESULT
@@ -239,10 +236,10 @@ _02E7:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0331
 	goto _0339
-	end
+
 _0329:
 	goto _0254
-	end
+
 _0331:
 	scrcmd_283
 	closemsg
@@ -253,7 +250,6 @@ _0339:
 	scrcmd_234 VAR_SPECIAL_x8004, VAR_SPECIAL_x8005, VAR_SPECIAL_x8007, VAR_TEMP_x4002
 	scrcmd_232 25
 	scrcmd_233 25
-_0347:
 	compare VAR_TEMP_x4003, 0
 	goto_if_eq _038D
 	compare VAR_TEMP_x4003, 1
@@ -261,48 +257,43 @@ _0347:
 	compare VAR_TEMP_x4003, 2
 	goto_if_eq _03A7
 	end
-	scrcmd_236 VAR_SPECIAL_RESULT
-	addvar VAR_SPECIAL_RESULT, 1
-	npc_msg 177
-	scrcmd_236 VAR_SPECIAL_RESULT
-	closemsg
-	goto _0347
+
 _038D:
 	goto _03B4
-	end
+
 _0395:
 	setflag FLAG_UNK_966
 	setvar VAR_UNK_4133, 5
 	goto _03B4
-	end
+
 _03A7:
 	scrcmd_048 211
 	closemsg
 	goto _03B4
-	end
+
 _03B4:
 	get_player_gender VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _03CD
 	goto _03DB
-	end
+
 _03CD:
 	buffer_players_name 0
 	scrcmd_048 66
 	goto _03E9
-	end
+
 _03DB:
 	buffer_players_name 0
 	scrcmd_048 67
 	goto _03E9
-	end
+
 _03E9:
 	scrcmd_048 68
 	scrcmd_232 26
 	scrcmd_233 26
 	closemsg
 	goto _03FE
-	end
+
 _03FE:
 	scrcmd_232 4
 	scrcmd_233 4
@@ -324,111 +315,6 @@ _0443:
 	releaseall
 	end
 
-_0447: ; unreferenced
-    play_se SEQ_SE_DP_CON_F007
-    compare VAR_SPECIAL_RESULT, 1
-    call_if_eq _048E
-    compare VAR_SPECIAL_RESULT, 2
-    call_if_eq _0498
-    compare VAR_SPECIAL_RESULT, 3
-    call_if_eq _04AC
-    compare VAR_SPECIAL_RESULT, 4
-    call_if_eq _04C8
-    compare VAR_SPECIAL_RESULT, 5
-    call_if_ge _04EE
-    return
-
-_048E:
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    return
-
-_0498:
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    return
-
-_04AC:
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    return
-
-_04C8:
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    return
-
-_04EE:
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait 10, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait 5, VAR_SPECIAL_RESULT
-    play_se SEQ_SE_DP_CON_015
-    wait_se SEQ_SE_DP_CON_015
-    return
-
-	.align 4
-_0520: ; unreferenced
-	step 62, 1
-	step 3, 1
-	step 62, 1
-	step 1, 1
-	step 61, 1
-	step 2, 1
-	step 60, 1
-	step 0, 1
-	step 60, 1
-	step 3, 1
-	step 60, 1
-	step 1, 1
-	step_end
-
-	.align 4
-_0554: ; unreferenced
-	step 63, 2
-	step 34, 1
-	step 63, 1
-	step 35, 1
-	step 63, 1
-	step 37, 1
-	step_end
-
-	.align 4
-_0570: ; unreferenced
-	step 34, 1
-	step_end
-
-	.align 4
-_0578: ; unreferenced
-	step 32, 1
-	step_end
-
-	.align 4
-_0580: ; unreferenced
-	step 35, 1
-	step_end
-
-	.align 4
-_0588: ; unreferenced
-	step 33, 1
-	step_end
-
 scr_seq_0166_008:
 scr_seq_0166_009:
 scr_seq_0166_010:
@@ -440,7 +326,7 @@ scr_seq_0166_011:
 	setvar VAR_SPECIAL_x8004, 0
 	npc_msg 111
 	goto _05AF
-	end
+
 _05AF:
 	npc_msg 112
 	scrcmd_065 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -453,7 +339,7 @@ _05AF:
 	case 1, _0872
 	case 2, _0A97
 	goto _0A97
-	end
+
 _05FD:
 	scrcmd_065 1, 1, 0, 1, VAR_SPECIAL_RESULT
 	scrcmd_066 155, 0
@@ -466,66 +352,28 @@ _05FD:
 	case 1, _0660
 	case 2, _067A
 	goto _068E
-	end
+
 _064C:
 	setvar VAR_TEMP_x4004, 0
 	setvar VAR_SPECIAL_x8007, 3
 	goto _0743
-	end
+
 _0660:
 	setvar VAR_TEMP_x4004, 1
 	setvar VAR_SPECIAL_x8005, 0
 	setvar VAR_SPECIAL_x8007, 5
 	goto _0743
-	end
+
 _067A:
 	setvar VAR_TEMP_x4004, 0
 	setvar VAR_SPECIAL_x8007, 7
 	goto _0743
-	end
+
 _068E:
 	npc_msg 159
 	wait_button_or_walk_away
 	goto _0A9C
-	end
 
-_069B:
-	npc_msg 168
-	scrcmd_065 1, 1, 0, 1, VAR_SPECIAL_RESULT
-	scrcmd_066 169, 0
-	scrcmd_066 170, 1
-	scrcmd_066 171, 2
-	scrcmd_066 172, 3
-	scrcmd_066 173, 4
-	scrcmd_067
-	switch VAR_SPECIAL_RESULT
-	case 0, _06FE
-	case 1, _070C
-	case 2, _071A
-	case 3, _0728
-	goto _0736
-	end
-_06FE:
-	setvar VAR_SPECIAL_x8004, 0
-	goto _0743
-	end
-_070C:
-	setvar VAR_SPECIAL_x8004, 1
-	goto _0743
-	end
-_071A:
-	setvar VAR_SPECIAL_x8004, 2
-	goto _0743
-	end
-_0728:
-	setvar VAR_SPECIAL_x8004, 3
-	goto _0743
-	end
-_0736:
-	npc_msg 174
-	wait_button_or_walk_away
-	goto _0A9C
-	end
 _0743:
 	compare VAR_TEMP_x4004, 1
 	goto_if_eq _081D
@@ -548,32 +396,32 @@ _0756:
 	case 3, _07F4
 	case 4, _0802
 	goto _0810
-	end
+
 _07CA:
 	setvar VAR_SPECIAL_x8005, 0
 	goto _081D
-	end
+
 _07D8:
 	setvar VAR_SPECIAL_x8005, 1
 	goto _081D
-	end
+
 _07E6:
 	setvar VAR_SPECIAL_x8005, 2
 	goto _081D
-	end
+
 _07F4:
 	setvar VAR_SPECIAL_x8005, 3
 	goto _081D
-	end
+
 _0802:
 	setvar VAR_SPECIAL_x8005, 4
 	goto _081D
-	end
+
 _0810:
 	npc_msg 167
 	wait_button_or_walk_away
 	goto _0A9C
-	end
+
 _081D:
 	npc_msg 175
 	npc_msg 176
@@ -594,7 +442,7 @@ _084F:
 	compare VAR_TEMP_x4002, 255
 	goto_if_eq _0810
 	goto _0339
-	end
+
 _0872:
 	npc_msg 117
 _0875:
@@ -611,7 +459,7 @@ _0875:
 	case 2, _0953
 	case 3, _09EA
 	goto _05AF
-	end
+
 _08D5:
 	npc_msg 117
 _08D8:
@@ -626,22 +474,22 @@ _08D8:
 	case 1, _0932
 	case 2, _093D
 	goto _0948
-	end
+
 _0927:
 	npc_msg 130
 	goto _08D5
-	end
+
 _0932:
 	npc_msg 131
 	goto _08D5
-	end
+
 _093D:
 	npc_msg 132
 	goto _08D5
-	end
+
 _0948:
 	goto _0875
-	end
+
 _0950:
 	npc_msg 117
 _0953:
@@ -658,26 +506,26 @@ _0953:
 	case 2, _09C9
 	case 3, _09D4
 	goto _09DF
-	end
+
 _09B3:
 	npc_msg 140
 	goto _0950
-	end
+
 _09BE:
 	npc_msg 141
 	goto _0950
-	end
+
 _09C9:
 	npc_msg 142
 	goto _0950
-	end
+
 _09D4:
 	npc_msg 143
 	goto _0950
-	end
+
 _09DF:
 	goto _0875
-	end
+
 _09E7:
 	npc_msg 117
 _09EA:
@@ -694,35 +542,31 @@ _09EA:
 	case 2, _0A60
 	case 3, _0A6B
 	goto _0A76
-	end
+
 _0A4A:
 	npc_msg 150
 	goto _09E7
-	end
+
 _0A55:
 	npc_msg 151
 	goto _09E7
-	end
+
 _0A60:
 	npc_msg 152
 	goto _09E7
-	end
+
 _0A6B:
 	npc_msg 153
 	goto _09E7
-	end
+
 _0A76:
 	goto _0875
-	end
+
 _0A7E:
 	npc_msg 124
 	npc_msg 117
 	goto _0875
-	end
-_0A8C: ; unreferenced
-	npc_msg 123
-	goto _0A9C
-	end
+
 _0A97:
 	npc_msg 116
 	wait_button_or_walk_away
@@ -734,9 +578,6 @@ _0A9C:
 scr_seq_0166_012:
 	end
 	.align 4
-
-
-
 
 
 .close

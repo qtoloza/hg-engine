@@ -205,25 +205,25 @@ _0274:
 	releaseall
 	end
 
-	.align 4
+
 _0280:
+
 	step 36, 1
 	step 12, 2
 	step 15, 1
 	step 38, 1
 	step_end
 
-	.align 4
 _0294:
+
 	step 12, 5
 	step 69, 1
 	step_end
 
-	.align 4
 _02A0:
+
 	step 0, 1
 	step_end
-
 scr_seq_T08R0201_002:
 	scrcmd_609
 	lockall
@@ -302,38 +302,34 @@ _03A1:
 	releaseall
 	end
 
-	.align 4
+
 _03BC:
+
 	step 14, 1
 	step 13, 2
 	step_end
 
-	.align 4
 _03C8:
+
 	step 63, 2
 	step 34, 1
 	step_end
 
-	.align 4
 _03D4:
+
 	step 13, 5
 	step_end
 
-	.align 4
 _03DC:
+
 	step 13, 2
 	step 39, 1
 	step_end
 
-	.align 4
 _03E8:
+
 	step 13, 4
 	step_end
-
-_03F0:
-	simple_npc_msg 25
-	end
-
 scr_seq_T08R0201_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -402,7 +398,6 @@ scr_seq_T08R0201_009:
 	compare VAR_SPECIAL_RESULT, 3
 	goto_if_eq _0610
 	goto _0506
-	end
 
 _0506:
 	npc_msg 34
@@ -429,7 +424,6 @@ _051C:
 	goto_if_eq _0506
 	npc_msg 35
 	goto _0649
-	end
 
 _055D:
 	hasitem ITEM_FASHION_CASE, 1, VAR_SPECIAL_RESULT
@@ -442,7 +436,6 @@ _055D:
 	goto_if_eq _0506
 	npc_msg 36
 	goto _0649
-	end
 
 _059E:
 	hasitem ITEM_FASHION_CASE, 1, VAR_SPECIAL_RESULT
@@ -454,7 +447,6 @@ _059E:
 	goto_if_eq _0506
 	npc_msg 37
 	goto _0659
-	end
 
 _05D7:
 	hasitem ITEM_FASHION_CASE, 1, VAR_SPECIAL_RESULT
@@ -466,7 +458,6 @@ _05D7:
 	goto_if_eq _0506
 	npc_msg 38
 	goto _0659
-	end
 
 _0610:
 	hasitem ITEM_FASHION_CASE, 1, VAR_SPECIAL_RESULT
@@ -478,7 +469,6 @@ _0610:
 	goto_if_eq _0506
 	npc_msg 39
 	goto _0659
-	end
 
 _0649:
 	callstd std_receive_accessory
@@ -694,9 +684,6 @@ _0929:
 	setvar VAR_SPECIAL_x8006, 174
 	return
 	.align 4
-
-
-
 
 
 .close

@@ -231,25 +231,26 @@ _0310:
 	case 3, _015D
 	goto _019C
 
-	.align 4
+
 _0370:
+
 	step 12, 8
 	step_end
 
-	.align 4
 _0378:
+
 	step 63, 2
 	step 3, 1
 	step 63, 2
 	step_end
 
-	.align 4
 _0388:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _0390:
+
 	step 63, 1
 	step 75, 1
 	step 1, 1
@@ -257,8 +258,8 @@ _0390:
 	step 2, 1
 	step_end
 
-	.align 4
 _03A8:
+
 	step 63, 4
 	step 12, 8
 	step 14, 1
@@ -266,64 +267,64 @@ _03A8:
 	step 3, 1
 	step_end
 
-	.align 4
 _03C0:
+
 	step 63, 1
 	step 71, 1
 	step 18, 1
 	step_end
 
-	.align 4
 _03D0:
+
 	step 63, 1
 	step 10, 1
 	step_end
 
-	.align 4
 _03DC:
+
 	step 63, 1
 	step 9, 1
 	step 10, 1
 	step_end
 
-	.align 4
 _03EC:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _03F4:
+
 	step 15, 2
 	step_end
 
-	.align 4
 _03FC:
+
 	step 63, 2
 	step 3, 1
 	step_end
 
-	.align 4
 _0408:
+
 	step 8, 1
 	step 11, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _0418:
+
 	step 65, 2
 	step 0, 1
 	step_end
 
-	.align 4
 _0424:
+
 	step 72, 1
 	step 65, 2
 	step 0, 1
 	step_end
 
-	.align 4
 _0434:
+
 	step 71, 1
 	step 13, 1
 	step 72, 1
@@ -332,11 +333,10 @@ _0434:
 	step 21, 4
 	step_end
 
-	.align 4
 _0450:
+
 	step 33, 1
 	step_end
-
 scr_seq_D44R0103_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -504,8 +504,9 @@ _06B2:
 	releaseall
 	end
 
-	.align 4
+
 _06C8:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -513,44 +514,41 @@ _06C8:
 	step 33, 1
 	step_end
 
-	.align 4
 _06E0:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _06EC:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0700:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0714:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0720:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

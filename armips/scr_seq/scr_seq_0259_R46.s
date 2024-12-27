@@ -69,7 +69,4 @@ scr_seq_R46_002:
 	.align 4
 
 
-
-
-
 .close

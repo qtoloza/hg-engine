@@ -64,7 +64,6 @@ _0067:
 _009F:
 	goto_if_set FLAG_GAME_CLEAR, _00B2
 	goto _00E6
-	end
 
 _00B2:
 	get_phone_book_rematch PHONE_CONTACT_CHUCK, VAR_TEMP_x4001
@@ -90,7 +89,6 @@ _00EC:
 	move_warp 5, 87, 385
 	move_warp 6, 87, 389
 	goto _00E6
-	end
 
 scr_seq_R47_002:
 	compare VAR_SCENE_EMBEDDED_TOWER, 5
@@ -170,26 +168,26 @@ _0210:
 	releaseall
 	end
 
-	.align 4
+
 _022C:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0234:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _023C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0244:
+
 	step 35, 1
 	step_end
-
 scr_seq_R47_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -234,9 +232,6 @@ _02C0:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

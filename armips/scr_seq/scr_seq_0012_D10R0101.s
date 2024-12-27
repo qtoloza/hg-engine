@@ -63,14 +63,6 @@ scr_seq_D10R0101_001:
 	releaseall
 	end
 
-	; unreferenced
-	palpark_action 0
-	setvar VAR_UNK_4124, 1
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
 scr_seq_D10R0101_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -129,11 +121,11 @@ _0110:
 	releaseall
 	end
 
-	.align 4
+
 _0134:
+
 	step 12, 1
 	step_end
-
 scr_seq_D10R0101_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -153,11 +145,11 @@ _0169:
 	releaseall
 	end
 
-	.align 4
+
 _0178:
+
 	step 34, 1
 	step_end
-
 _0180:
 	npc_msg 0
 	touchscreen_menu_hide
@@ -195,9 +187,6 @@ _01D4:
 	wait_fade
 	return
 	.align 4
-
-
-
 
 
 .close

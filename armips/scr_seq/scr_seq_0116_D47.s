@@ -267,8 +267,9 @@ _031B:
 	releaseall
 	end
 
-	.align 4
+
 _0330:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -276,41 +277,40 @@ _0330:
 	step 33, 1
 	step_end
 
-	.align 4
 _0348:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0354:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0368:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _037C:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0388:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_D47_015:
 	simple_npc_msg 15
 	end
@@ -319,9 +319,6 @@ scr_seq_D47_016:
 	simple_npc_msg 16
 	end
 	.align 4
-
-
-
 
 
 .close

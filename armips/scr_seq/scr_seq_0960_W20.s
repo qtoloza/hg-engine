@@ -50,7 +50,4 @@ scr_seq_W20_001:
 	.align 4
 
 
-
-
-
 .close

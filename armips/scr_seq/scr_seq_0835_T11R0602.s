@@ -65,30 +65,24 @@ scr_seq_T11R0602_000:
 	releaseall
 	end
 
-	.align 4
+
 _0088:
+
 	step 13, 3
 	step 15, 7
 	step_end
 
-	.align 4
 _0094:
+
 	step 15, 11
 	step 13, 4
 	step_end
 
-	.align 4
 _00A0:
+
 	step 13, 2
 	step_end
-
-_00A8:
-	end
-
 	.align 4
-
-
-
 
 
 .close

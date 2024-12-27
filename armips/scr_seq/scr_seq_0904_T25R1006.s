@@ -486,7 +486,6 @@ _065E:
 _066F:
 	npc_msg 29
 	goto _05F7
-	end
 
 _067A:
 	npc_msg 30
@@ -653,9 +652,6 @@ _08BE:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

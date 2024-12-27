@@ -32,8 +32,6 @@ scrdef scr_seq_T27R0401_000
 scrdef scr_seq_T27R0401_001
 scrdef_end
 
-_000A:
-	end
 
 scr_seq_T27R0401_000:
 	simple_npc_msg 0
@@ -43,9 +41,6 @@ scr_seq_T27R0401_001:
 	simple_npc_msg 1
 	end
 	.align 4
-
-
-
 
 
 .close

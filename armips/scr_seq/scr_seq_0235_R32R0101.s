@@ -51,7 +51,4 @@ scr_seq_R32R0101_003:
 	.align 4
 
 
-
-
-
 .close

@@ -84,11 +84,11 @@ _00A5:
 	releaseall
 	end
 
-	.align 4
+
 _00AC:
+
 	step 3, 1
 	step_end
-
 scr_seq_T25R0501_001:
 	scrcmd_609
 	lockall
@@ -130,16 +130,16 @@ _0123:
 	releaseall
 	end
 
-	.align 4
+
 _013C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0144:
+
 	step 13, 2
 	step_end
-
 scr_seq_T25R0501_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -158,9 +158,6 @@ scr_seq_T25R0501_003:
 scr_seq_T25R0501_004:
 	end
 	.align 4
-
-
-
 
 
 .close

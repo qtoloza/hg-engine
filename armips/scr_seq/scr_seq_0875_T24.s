@@ -78,26 +78,26 @@ _00B8:
 	releaseall
 	end
 
-	.align 4
+
 _00C4:
+
 	step 36, 1
 	step 75, 1
 	step 12, 2
 	step 2, 1
 	step_end
 
-	.align 4
 _00D8:
+
 	step 13, 2
 	step 36, 1
 	step_end
 
-	.align 4
 _00E4:
+
 	step 65, 3
 	step 3, 1
 	step_end
-
 _00F0:
 	setvar VAR_SCENE_ROCKET_TAKEOVER, 2
 	setflag FLAG_UNK_0C5
@@ -114,11 +114,6 @@ _0111:
 	releaseall
 	end
 
-	.align 4
-_0134:
-	step 75, 1
-	step_end
-
 scr_seq_T24_001:
 	end
 
@@ -128,26 +123,26 @@ scr_seq_T24_002:
 	apply_movement obj_player, _0310
 	wait_movement
 	play_cry SPECIES_SUICUNE, 0
-	release obj_T24_tsure_poke_static_suicune
-	scrcmd_523 obj_T24_tsure_poke_static_suicune, 2, 90, 2, 0
-	lock obj_T24_tsure_poke_static_suicune
+	release obj_T24_follower_mon_static_suicune
+	scrcmd_523 obj_T24_follower_mon_static_suicune, 2, 90, 2, 0
+	lock obj_T24_follower_mon_static_suicune
 	wait_cry
-	apply_movement obj_T24_tsure_poke_static_suicune, _02F4
+	apply_movement obj_T24_follower_mon_static_suicune, _02F4
 	wait_movement
-	apply_movement obj_T24_tsure_poke_static_suicune, _0338
+	apply_movement obj_T24_follower_mon_static_suicune, _0338
 	apply_movement obj_player, _0320
 	wait_movement
 	wait 30, VAR_SPECIAL_RESULT
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 55
-	apply_movement obj_T24_tsure_poke_static_suicune, _0300
+	apply_movement obj_T24_follower_mon_static_suicune, _0300
 	apply_movement obj_player, _0344
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
-	hide_person obj_T24_tsure_poke_static_suicune
+	hide_person obj_T24_follower_mon_static_suicune
 	setflag FLAG_HIDE_CIANWOOD_SUICUNE
 	addvar VAR_UNK_4076, 1
 	clearflag FLAG_HIDE_CIANWOOD_EUSINE
@@ -247,77 +242,61 @@ _02D8:
 _02E9:
 	npc_msg 11
 	goto _0299
-	end
 
-	.align 4
+
 _02F4:
+
 	step 111, 1
 	step_end
-	end
 
-	.align 4
 _0300:
+
 	step 112, 1
 	step 69, 1
 	step_end
-	end
 
-	.align 4
 _0310:
+
 	step 0, 1
 	step 75, 1
 	step_end
-	end
 
-	.align 4
 _0320:
+
 	step 0, 1
 	step_end
-	end
 
-	.align 4
-_032C:
-	step 3, 1
-	step_end
-	end
-
-	.align 4
 _0338:
+
 	step 1, 1
 	step_end
-	end
 
-	.align 4
 _0344:
+
 	step 3, 1
 	step 63, 1
 	step 15, 2
 	step_end
-	end
 
-	.align 4
 _0358:
+
 	step 12, 5
 	step 15, 2
 	step 12, 2
 	step_end
-	end
 
-	.align 4
 _036C:
+
 	step 63, 6
 	step 1, 1
 	step_end
-	end
 
-	.align 4
 _037C:
+
 	step 13, 2
 	step 14, 2
 	step 13, 5
 	step_end
-	end
-
 scr_seq_T24_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -389,8 +368,9 @@ _0481:
 	releaseall
 	end
 
-	.align 4
+
 _0498:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -398,27 +378,26 @@ _0498:
 	step 33, 1
 	step_end
 
-	.align 4
 _04B0:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _04BC:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _04D0:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T24_008:
 	direction_signpost 18, 0, 15, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -475,9 +454,6 @@ scr_seq_T24_015:
 	simple_npc_msg 17
 	end
 	.align 4
-
-
-
 
 
 .close

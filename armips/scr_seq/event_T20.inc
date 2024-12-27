@@ -23,12 +23,12 @@
 .equ obj_T20_gsrivel, 0
 .equ obj_T20_gswoman1, 1
 .equ obj_T20_gsbigman, 2
-.equ obj_T20_tsure_poke_static_marill, 3
+.equ obj_T20_follower_mon_static_marill, 3
 .equ obj_T20_var_1, 4
 .equ obj_T20_doctor, 5
 .equ obj_T20_gsmiddleman1, 6
 .equ obj_T20_gsmama, 7
 .equ obj_T20_var_1_2, 8
-.equ obj_T20_tsure_poke_static_marill_2, 9
+.equ obj_T20_follower_mon_static_marill_2, 9
 
 .endif //SCR_SEQ_T20_H_

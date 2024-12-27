@@ -106,7 +106,6 @@ _00BC:
 	case 2, _01C1
 	case 3, _01FB
 	goto _0235
-	end
 
 _014D:
 	setvar VAR_TEMP_x4007, 0
@@ -118,7 +117,6 @@ _014D:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _026F
-	end
 
 _0187:
 	setvar VAR_TEMP_x4007, 1
@@ -130,7 +128,6 @@ _0187:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _026F
-	end
 
 _01C1:
 	setvar VAR_TEMP_x4007, 2
@@ -142,7 +139,6 @@ _01C1:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _026F
-	end
 
 _01FB:
 	setvar VAR_TEMP_x4007, 3
@@ -154,7 +150,6 @@ _01FB:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _026F
-	end
 
 _0235:
 	setvar VAR_TEMP_x4007, 4
@@ -166,7 +161,6 @@ _0235:
 	menu_item_add 13, 255, 10
 	menu_exec
 	goto _026F
-	end
 
 _026F:
 	switch VAR_SPECIAL_RESULT
@@ -181,57 +175,46 @@ _026F:
 	case 8, _0357
 	case 9, _0362
 	goto _00BC
-	end
 
 _02FF:
 	npc_msg 8
 	goto _036D
-	end
 
 _030A:
 	npc_msg 9
 	goto _036D
-	end
 
 _0315:
 	npc_msg 10
 	goto _036D
-	end
 
 _0320:
 	npc_msg 11
 	goto _036D
-	end
 
 _032B:
 	npc_msg 12
 	goto _036D
-	end
 
 _0336:
 	npc_msg 13
 	goto _036D
-	end
 
 _0341:
 	npc_msg 14
 	goto _036D
-	end
 
 _034C:
 	npc_msg 15
 	goto _036D
-	end
 
 _0357:
 	npc_msg 16
 	goto _036D
-	end
 
 _0362:
 	npc_msg 17
 	goto _036D
-	end
 
 _036D:
 	npc_msg 7
@@ -244,7 +227,6 @@ _036D:
 	compare VAR_TEMP_x4007, 3
 	goto_if_eq _01FB
 	goto _0235
-	end
 
 _03AC:
 	npc_msg 18
@@ -261,23 +243,23 @@ scr_seq_D49R0106_003:
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _03E0
-	apply_movement obj_D49R0106_tsure_poke_static_dodrio, _043C
+	apply_movement obj_D49R0106_follower_mon_static_dodrio, _043C
 	goto _041E
 
 _03E0:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _03FB
-	apply_movement obj_D49R0106_tsure_poke_static_dodrio, _0434
+	apply_movement obj_D49R0106_follower_mon_static_dodrio, _0434
 	goto _041E
 
 _03FB:
 	compare VAR_SPECIAL_RESULT, 2
 	goto_if_ne _0416
-	apply_movement obj_D49R0106_tsure_poke_static_dodrio, _044C
+	apply_movement obj_D49R0106_follower_mon_static_dodrio, _044C
 	goto _041E
 
 _0416:
-	apply_movement obj_D49R0106_tsure_poke_static_dodrio, _0444
+	apply_movement obj_D49R0106_follower_mon_static_dodrio, _0444
 _041E:
 	wait_movement
 	play_cry SPECIES_DODRIO, 0
@@ -288,26 +270,26 @@ _041E:
 	releaseall
 	end
 
-	.align 4
+
 _0434:
+
 	step 48, 2
 	step_end
 
-	.align 4
 _043C:
+
 	step 49, 2
 	step_end
 
-	.align 4
 _0444:
+
 	step 50, 2
 	step_end
 
-	.align 4
 _044C:
+
 	step 51, 2
 	step_end
-
 scr_seq_D49R0106_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -360,9 +342,6 @@ _04CC:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

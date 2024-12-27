@@ -40,9 +40,6 @@ scr_seq_T24R0801_000:
 	goto_if_ne _002B
 	goto _0031
 
-_0025:
-	goto _0031
-
 _002B:
 	goto _0073
 
@@ -88,9 +85,6 @@ _00B8:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

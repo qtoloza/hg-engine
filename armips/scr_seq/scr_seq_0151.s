@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0151.inc"
-
 
 // text archive to grab from: 246.txt
 
@@ -151,7 +149,6 @@ _016E:
 	goto_if_eq _018E
 	npc_msg 17
 	goto _0260
-	end
 
 _018E:
 	count_pc_empty_space VAR_SPECIAL_RESULT
@@ -178,7 +175,6 @@ _01D4:
 	goto_if_eq _0200
 	npc_msg 28
 	goto _0260
-	end
 
 _0200:
 	fade_out_bgm 0, 10
@@ -205,7 +201,6 @@ _0224:
 	script_overlay_cmd 1, 1
 	setflag FLAG_UNK_996
 	goto _0262
-	end
 
 _0260:
 	wait_button_or_walk_away
@@ -232,12 +227,10 @@ _028B:
 _02A6:
 	npc_msg 18
 	goto _0260
-	end
 
 _02B1:
 	npc_msg 16
 	goto _0260
-	end
 
 _02BC:
 	buffer_players_name 0
@@ -257,11 +250,6 @@ _02F3:
 _02F8:
 	closemsg
 	return
-
-_02FC:
-	npc_msg 18
-	goto _0260
-	end
 
 scr_seq_0151_006:
 	scrcmd_789 0
@@ -416,16 +404,16 @@ _050F:
 	goto_if_lt _050F
 	return
 
-	.align 4
+
 _053C:
+
 	step 15, 5
 	step_end
 
-	.align 4
 _0544:
+
 	step 14, 5
 	step_end
-
 scr_seq_0151_008:
 	simple_npc_msg 48
 	end
@@ -583,9 +571,6 @@ _0844:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

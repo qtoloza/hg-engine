@@ -54,7 +54,4 @@ scr_seq_T22R0701_001:
 	.align 4
 
 
-
-
-
 .close

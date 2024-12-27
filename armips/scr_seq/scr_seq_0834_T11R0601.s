@@ -96,11 +96,11 @@ _00E6:
 	releaseall
 	end
 
-	.align 4
+
 _00EC:
+
 	step 3, 1
 	step_end
-
 scr_seq_T11R0601_004:
 	scrcmd_609
 	lockall
@@ -142,16 +142,16 @@ _0163:
 	releaseall
 	end
 
-	.align 4
+
 _017C:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0184:
+
 	step 13, 2
 	step_end
-
 scr_seq_T11R0601_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -214,17 +214,17 @@ _024F:
 	releaseall
 	end
 
-	.align 4
+
 _025C:
+
 	step 78, 5
 	step 77, 10
 	step_end
 
-	.align 4
 _0268:
+
 	step 77, 10
 	step_end
-
 scr_seq_T11R0601_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -260,9 +260,6 @@ scr_seq_T11R0601_008:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

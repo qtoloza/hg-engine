@@ -53,7 +53,4 @@ scr_seq_T23PC0101_003:
 	.align 4
 
 
-
-
-
 .close

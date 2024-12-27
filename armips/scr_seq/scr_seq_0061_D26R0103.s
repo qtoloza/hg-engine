@@ -57,13 +57,7 @@ _005A:
 	releaseall
 	end
 
-_0064:
-	end
-
 	.align 4
-
-
-
 
 
 .close

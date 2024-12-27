@@ -170,25 +170,6 @@ _01DE:
 	releaseall
 	end
 
-_0218:
-	get_player_facing VAR_SPECIAL_RESULT
-	compare_var_to_value VAR_SPECIAL_RESULT, 0
-	goto_if_ne _0237
-	apply_movement obj_player, _0288
-	goto _025A
-
-_0237:
-	compare_var_to_value VAR_SPECIAL_RESULT, 1
-	goto_if_ne _0252
-	apply_movement obj_player, _02A0
-	goto _025A
-
-_0252:
-	apply_movement obj_player, _02AC
-_025A:
-	wait_movement
-	return
-
 _025E:
 	get_std_msg_naix 2, VAR_SPECIAL_RESULT
 	msgbox_extern VAR_SPECIAL_RESULT, 5
@@ -205,8 +186,9 @@ _0272:
 	releaseall
 	end
 
-	.align 4
+
 _0288:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -214,33 +196,32 @@ _0288:
 	step 33, 1
 	step_end
 
-	.align 4
 _02A0:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _02AC:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _02C0:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _02CC:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T26R0701_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -292,7 +273,6 @@ _036E:
 _037F:
 	npc_msg 8
 	goto _0307
-	end
 
 _038A:
 	npc_msg 9
@@ -335,9 +315,6 @@ _03F6:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

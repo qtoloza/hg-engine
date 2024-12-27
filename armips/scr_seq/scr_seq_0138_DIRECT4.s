@@ -35,13 +35,7 @@ scr_seq_DIRECT4_000:
 	scrcmd_284
 	end
 
-_000A:
-	end
-
 	.align 4
-
-
-
 
 
 .close

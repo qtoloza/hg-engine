@@ -107,20 +107,20 @@ _00E8:
 	releaseall
 	end
 
-	.align 4
+
 _00F4:
+
 	step 12, 1
 	step 15, 1
 	step 2, 1
 	step_end
 
-	.align 4
 _0104:
+
 	step 13, 1
 	step 15, 1
 	step 2, 1
 	step_end
-
 scr_seq_T27R0201_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -159,9 +159,6 @@ scr_seq_T27R0201_002:
 	simple_npc_msg 10
 	end
 	.align 4
-
-
-
 
 
 .close

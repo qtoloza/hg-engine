@@ -12,7 +12,7 @@
 .equ obj_T03PC0101_pcwoman2_2, 2
 .equ obj_T03PC0101_pcwoman2_3, 3
 .equ obj_T03PC0101_gsbabyboy1, 4
-.equ obj_T03PC0101_tsure_poke_static_jigglypuff, 5
+.equ obj_T03PC0101_follower_mon_static_jigglypuff, 5
 .equ obj_T03PC0101_gsmiddleman1, 6
 .equ obj_T03PC0101_gswoman1, 7
 

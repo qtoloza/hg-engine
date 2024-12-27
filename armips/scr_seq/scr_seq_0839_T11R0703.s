@@ -54,9 +54,6 @@ scr_seq_T11R0703_000:
 	closemsg
 	goto _0066
 
-_005C:
-	apply_movement obj_player, _0154
-	wait_movement
 _0066:
 	get_dynamic_warp_floor_no VAR_ELEVATOR_LAST_FLOOR
 	switch VAR_ELEVATOR_LAST_FLOOR
@@ -115,32 +112,32 @@ _014C:
 	play_se SEQ_SE_DP_KAIDAN2
 	return
 
-	.align 4
+
 _0154:
+
 	step 12, 2
 	step 33, 1
 	step_end
 
-	.align 4
 _0160:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
 
-	.align 4
 _0170:
+
 	step 1, 1
 	step 13, 1
 	step 45, 3
 	step_end
 
-	.align 4
 _0180:
+
 	step 13, 2
 	step 33, 1
 	step_end
-
 _018C:
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
@@ -186,9 +183,6 @@ _0224:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -74,8 +74,9 @@ _0093:
 	npc_msg 3
 	goto _0366
 
-	.align 4
+
 _009C:
+
 	step 2, 1
 	step 0, 1
 	step 3, 1
@@ -95,8 +96,8 @@ _009C:
 	step 75, 1
 	step_end
 
-	.align 4
 _00E4:
+
 	step 1, 1
 	step 2, 1
 	step 0, 1
@@ -115,7 +116,6 @@ _00E4:
 	step 3, 1
 	step 75, 1
 	step_end
-
 scr_seq_D24R0102_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -315,9 +315,6 @@ scr_seq_D24R0102_004:
 	npc_msg 24
 	goto _0366
 	.align 4
-
-
-
 
 
 .close

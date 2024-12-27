@@ -468,37 +468,30 @@ _07C9:
 _082C:
 	npc_msg 10
 	goto _0879
-	end
 
 _0837:
 	npc_msg 9
 	goto _0879
-	end
 
 _0842:
 	npc_msg 8
 	goto _0879
-	end
 
 _084D:
 	npc_msg 7
 	goto _0879
-	end
 
 _0858:
 	npc_msg 6
 	goto _0879
-	end
 
 _0863:
 	npc_msg 5
 	goto _0879
-	end
 
 _086E:
 	npc_msg 11
 	goto _0879
-	end
 
 _0879:
 	wait_button_or_walk_away
@@ -524,14 +517,12 @@ _0898:
 	releaseall
 	end
 
-	.align 4
+
 _08B0:
+
 	step 33, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

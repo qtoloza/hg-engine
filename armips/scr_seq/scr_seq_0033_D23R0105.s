@@ -149,7 +149,7 @@ _01DA:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _021D
 	npc_msg 4
-	setvar VAR_SPECIAL_x8004, ITEM_BASEMENT_KEY
+	setvar VAR_SPECIAL_x8004, 476
 	setvar VAR_SPECIAL_x8005, 1
 	callstd std_obtain_item_verbose
 	closemsg
@@ -169,50 +169,51 @@ _022B:
 	simple_npc_msg 5
 	end
 
-	.align 4
+
 _0240:
+
 	step 2, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _024C:
+
 	step 3, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0258:
+
 	step 1, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0264:
+
 	step 71, 1
 	step 19, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0274:
+
 	step 71, 1
 	step 18, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0284:
+
 	step 18, 1
 	step_end
 
-	.align 4
 _028C:
+
 	step 19, 1
 	step_end
 
-	.align 4
 _0294:
+
 	step 1, 1
 	step 2, 1
 	step 0, 1
@@ -221,8 +222,8 @@ _0294:
 	step 2, 1
 	step_end
 
-	.align 4
 _02B0:
+
 	step 2, 1
 	step 0, 1
 	step 3, 1
@@ -230,8 +231,8 @@ _02B0:
 	step 2, 1
 	step_end
 
-	.align 4
 _02C8:
+
 	step 0, 1
 	step 3, 1
 	step 1, 1
@@ -242,20 +243,8 @@ _02C8:
 	step 2, 1
 	step_end
 
-	.align 4
-_02EC:
-	step 3, 1
-	step 1, 1
-	step 2, 1
-	step 0, 1
-	step 3, 1
-	step 1, 1
-	step 2, 1
-	step 0, 1
-	step_end
-
-	.align 4
 _0310:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -263,8 +252,8 @@ _0310:
 	step 3, 1
 	step_end
 
-	.align 4
 _0328:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -273,8 +262,8 @@ _0328:
 	step 1, 1
 	step_end
 
-	.align 4
 _0344:
+
 	step 3, 1
 	step 1, 1
 	step 2, 1
@@ -284,9 +273,6 @@ _0344:
 	step 2, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

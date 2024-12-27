@@ -65,7 +65,7 @@ scr_seq_T24GYM0101_000:
 	play_fanfare SEQ_ME_BADGE
 	wait_fanfare
 	addvar VAR_MIDGAME_BADGES, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	setvar VAR_UNK_4116, 1
 	compare VAR_MIDGAME_BADGES, 3
 	goto_if_ne _00A6
@@ -165,9 +165,6 @@ _019D:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

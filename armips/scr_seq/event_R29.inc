@@ -18,7 +18,7 @@
 .equ obj_R29_tree, 4
 .equ obj_R29_tree_2, 5
 .equ obj_R29_var_2, 6
-.equ obj_R29_tsure_poke_static_marill, 7
+.equ obj_R29_follower_mon_static_marill, 7
 .equ obj_R29_monstarball, 8
 .equ obj_R29_bonguri, 9
 .equ obj_R29_gswoman2_2, 10

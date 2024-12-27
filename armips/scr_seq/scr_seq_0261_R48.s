@@ -129,8 +129,9 @@ _0162:
 	releaseall
 	end
 
-	.align 4
+
 _0178:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -138,33 +139,32 @@ _0178:
 	step 33, 1
 	step_end
 
-	.align 4
 _0190:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _019C:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _01B0:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _01BC:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R48_002:
 	direction_signpost 0, 1, 13, VAR_SPECIAL_RESULT
 	scrcmd_057 3
@@ -173,9 +173,6 @@ scr_seq_R48_002:
 	callstd std_signpost
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -44,7 +44,6 @@ scr_seq_T07GYM0101_002:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _004F
 	goto _0101
-	end
 
 _004F:
 	get_weekday VAR_TEMP_x4000
@@ -52,22 +51,13 @@ _004F:
 	goto_if_ne _006C
 	goto _008D
 
-_0066:
-	goto _008B
-
 _006C:
 	compare VAR_TEMP_x4000, 0
 	goto_if_ne _0085
 	goto _008D
 
-_007F:
-	goto _008B
-
 _0085:
 	goto _0101
-
-_008B:
-	end
 
 _008D:
 	scrcmd_522 VAR_TEMP_x4000
@@ -130,7 +120,7 @@ scr_seq_T07GYM0101_000:
 	goto_if_eq _01BB
 	give_badge BADGE_RAINBOW
 	addvar VAR_UNK_4135, 1
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	settrainerflag TRAINER_TWINS_JO_AND_ZOE
 	settrainerflag TRAINER_LASS_MICHELLE
 	settrainerflag TRAINER_PICNICKER_TANYA
@@ -185,9 +175,6 @@ _01F5:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

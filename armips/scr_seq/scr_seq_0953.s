@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0953.inc"
-
 
 // text archive to grab from: 040.txt
 
@@ -1531,7 +1529,6 @@ scr_seq_0953_738:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0E3B
 	goto _0C13
-	end
 
 _0C13:
 	encounter_music VAR_SPECIAL_x8004
@@ -1539,7 +1536,6 @@ _0C13:
 	get_trainer_msg_params VAR_SPECIAL_x8000, VAR_SPECIAL_x8001, VAR_SPECIAL_x8002
 	trainer_message VAR_SPECIAL_x8004, VAR_SPECIAL_x8000
 	goto _0C2F
-	end
 
 _0C2F:
 	closemsg
@@ -1603,7 +1599,6 @@ _0D02:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0E3B
 	goto _0D32
-	end
 
 _0D32:
 	encounter_music VAR_SPECIAL_x8004
@@ -1612,7 +1607,6 @@ _0D32:
 	trainer_message VAR_SPECIAL_x8004, VAR_SPECIAL_x8000
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_x8007
 	goto _0C2F
-	end
 
 _0D54:
 	get_phone_contact_msg_ids 4, VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
@@ -1655,13 +1649,11 @@ _0DCF:
 	get_phone_contact_msg_ids 0, VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	msgbox_extern VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	goto _0DF9
-	end
 
 _0DE4:
 	get_phone_contact_msg_ids 3, VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	msgbox_extern VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	goto _0DF9
-	end
 
 _0DF9:
 	touchscreen_menu_hide
@@ -1724,11 +1716,11 @@ _0EB3:
 	scrcmd_109 VAR_SPECIAL_LAST_TALKED, 16
 	return
 
-	.align 4
+
 _0EBC:
+
 	step 101, 1
 	step_end
-
 scr_seq_0953_739:
 	wait_following_pokemon_movement
 	lockall
@@ -1888,9 +1880,6 @@ _1176:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -95,12 +95,8 @@ _00E3:
 _00EB:
 	npc_msg 10
 	goto _00E3
-	end
 
 	.align 4
-
-
-
 
 
 .close

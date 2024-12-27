@@ -41,14 +41,8 @@ scr_seq_D52R0102_001:
 	goto_if_ne _0038
 	goto _004A
 
-_0032:
-	goto _003E
-
 _0038:
 	goto _0040
-
-_003E:
-	end
 
 _0040:
 	setflag FLAG_HIDE_EMBEDDED_TOWER_KYOGRE
@@ -61,7 +55,6 @@ _004A:
 	compare VAR_TEMP_x4000, 1
 	goto_if_ge _0072
 	goto _0040
-	end
 
 _0072:
 	setflag FLAG_HIDE_EMBEDDED_TOWER_KYOGRE_HIKER
@@ -77,7 +70,7 @@ scr_seq_D52R0102_002:
 
 _008B:
 	setflag FLAG_HIDE_EMBEDDED_TOWER_KYOGRE
-	hide_person obj_D52R0102_tsure_poke_static_kyogre
+	hide_person obj_D52R0102_follower_mon_static_kyogre
 	clearflag FLAG_ENGAGING_STATIC_POKEMON
 	end
 
@@ -157,50 +150,48 @@ _019D:
 	releaseall
 	end
 
-	.align 4
+
 _01A4:
+
 	step 12, 8
 	step 32, 1
 	step_end
 
-	.align 4
 _01B0:
+
 	step 33, 1
 	step 13, 1
 	step_end
 
-	.align 4
 _01BC:
+
 	step 12, 10
 	step 32, 1
 	step_end
 
-	.align 4
 _01C8:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _01D0:
+
 	step 33, 1
 	step 9, 2
 	step 32, 1
 	step_end
 
-	.align 4
 _01E0:
+
 	step 12, 2
 	step 32, 1
 	step_end
 
-	.align 4
 _01EC:
+
 	step 13, 8
 	step_end
 	.align 4
-
-
-
 
 
 .close

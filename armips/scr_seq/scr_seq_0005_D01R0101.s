@@ -46,7 +46,6 @@ _001F:
 	compare VAR_TEMP_x4002, 1
 	goto_if_eq _004D
 	goto _0102
-	end
 
 _004D:
 	scrcmd_522 VAR_TEMP_x4000
@@ -156,7 +155,6 @@ _019A:
 _01AB:
 	npc_msg 5
 	goto _0133
-	end
 
 _01B6:
 	get_weekday VAR_SPECIAL_x8004
@@ -288,9 +286,6 @@ scr_seq_D01R0101_002:
 	simple_npc_msg 0
 	end
 	.align 4
-
-
-
 
 
 .close

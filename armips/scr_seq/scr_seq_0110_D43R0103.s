@@ -122,20 +122,21 @@ _015A:
 	releaseall
 	end
 
-	.align 4
+
 _0168:
+
 	step 75, 1
 	step 63, 2
 	step 1, 2
 	step_end
 
-	.align 4
 _0178:
+
 	step 9, 1
 	step_end
 
-	.align 4
 _0180:
+
 	step 16, 3
 	step 3, 2
 	step 19, 4
@@ -143,8 +144,8 @@ _0180:
 	step 16, 3
 	step_end
 
-	.align 4
 _0198:
+
 	step 16, 3
 	step 3, 2
 	step 19, 5
@@ -152,8 +153,8 @@ _0198:
 	step 16, 3
 	step_end
 
-	.align 4
 _01B0:
+
 	step 16, 3
 	step 3, 2
 	step 19, 6
@@ -161,8 +162,8 @@ _01B0:
 	step 16, 3
 	step_end
 
-	.align 4
 _01C8:
+
 	step 1, 2
 	step 13, 2
 	step 2, 2
@@ -171,8 +172,8 @@ _01C8:
 	step 13, 7
 	step_end
 
-	.align 4
 _01E4:
+
 	step 1, 2
 	step 13, 2
 	step 2, 2
@@ -181,8 +182,8 @@ _01E4:
 	step 13, 7
 	step_end
 
-	.align 4
 _0200:
+
 	step 1, 2
 	step 13, 2
 	step 2, 2
@@ -190,7 +191,6 @@ _0200:
 	step 1, 2
 	step 13, 7
 	step_end
-
 scr_seq_D43R0103_001:
 	end
 
@@ -258,61 +258,59 @@ _02FF:
 	releaseall
 	end
 
-	.align 4
+
 _0330:
+
 	step 40, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _033C:
+
 	step 62, 3
 	step 20, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _034C:
+
 	step 41, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0358:
+
 	step 62, 3
 	step 21, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0368:
+
 	step 42, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0374:
+
 	step 62, 3
 	step 22, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0384:
+
 	step 43, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0390:
+
 	step 62, 3
 	step 23, 1
 	step 69, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

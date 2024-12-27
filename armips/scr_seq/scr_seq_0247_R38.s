@@ -54,7 +54,4 @@ scr_seq_R38_002:
 	.align 4
 
 
-
-
-
 .close

@@ -81,7 +81,4 @@ scr_seq_T07R0105_005:
 	.align 4
 
 
-
-
-
 .close

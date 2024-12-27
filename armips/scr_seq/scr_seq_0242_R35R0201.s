@@ -86,21 +86,21 @@ _00D2:
 	releaseall
 	end
 
-	.align 4
+
 _00D8:
+
 	step 2, 1
 	step_end
 
-	.align 4
 _00E0:
+
 	step 3, 1
 	step_end
 
-	.align 4
 _00E8:
+
 	step 0, 1
 	step_end
-
 scr_seq_R35R0201_012:
 	get_weekday VAR_TEMP_x4000
 	compare VAR_UNK_4118, 1
@@ -213,75 +213,75 @@ _0296:
 	releaseall
 	end
 
-	.align 4
+
 _029C:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _02A4:
+
 	step 18, 1
 	step 16, 2
 	step 39, 1
 	step_end
 
-	.align 4
 _02B4:
+
 	step 18, 1
 	step 16, 1
 	step 39, 1
 	step_end
 
-	.align 4
 _02C4:
+
 	step 18, 1
 	step 17, 1
 	step 39, 1
 	step_end
 
-	.align 4
 _02D4:
+
 	step 18, 1
 	step 17, 2
 	step 39, 1
 	step_end
 
-	.align 4
 _02E4:
+
 	step 15, 1
 	step_end
 
-	.align 4
 _02EC:
+
 	step 71, 1
 	step 15, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _02FC:
+
 	step 13, 2
 	step 35, 1
 	step_end
 
-	.align 4
 _0308:
+
 	step 13, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0314:
+
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0320:
+
 	step 12, 2
 	step 35, 1
 	step_end
-
 scr_seq_R35R0201_000:
 	simple_npc_msg 9
 	end
@@ -352,30 +352,30 @@ _0438:
 	releaseall
 	end
 
-	.align 4
+
 _043C:
+
 	step 15, 1
 	step 12, 2
 	step_end
 
-	.align 4
 _0448:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _0450:
+
 	step 13, 1
 	step 15, 2
 	step 12, 2
 	step_end
 
-	.align 4
 _0460:
+
 	step 15, 2
 	step 12, 2
 	step_end
-
 scr_seq_R35R0201_002:
 	simple_npc_msg 3
 	end
@@ -465,8 +465,9 @@ _05BB:
 	releaseall
 	end
 
-	.align 4
+
 _05D0:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -474,41 +475,40 @@ _05D0:
 	step 33, 1
 	step_end
 
-	.align 4
 _05E8:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _05F4:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0608:
+
 	step 12, 1
 	step 15, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _061C:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0628:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_R35R0201_003:
 	simple_npc_msg 5
 	end
@@ -529,9 +529,6 @@ scr_seq_R35R0201_007:
 	simple_npc_msg 8
 	end
 	.align 4
-
-
-
 
 
 .close

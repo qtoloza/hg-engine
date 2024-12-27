@@ -20,7 +20,7 @@
 .equ _EV_scr_seq_D49R0102_016, 16
 
 .equ obj_D49R0102_thlonowner, 0
-.equ obj_D49R0102_tsure_poke_static_poliwrath, 1
+.equ obj_D49R0102_follower_mon_static_poliwrath, 1
 .equ obj_D49R0102_instructor, 2
 .equ obj_D49R0102_gsman1, 3
 .equ obj_D49R0102_gsboy2, 4
@@ -34,9 +34,9 @@
 .equ obj_D49R0102_gsboy1, 12
 .equ obj_D49R0102_gsmiddleman1, 13
 .equ obj_D49R0102_gsbabyboy1, 14
-.equ obj_D49R0102_tsure_poke_static_rattata, 15
-.equ obj_D49R0102_tsure_poke_static_butterfree, 16
-.equ obj_D49R0102_tsure_poke_static_machop, 17
+.equ obj_D49R0102_follower_mon_static_rattata, 15
+.equ obj_D49R0102_follower_mon_static_butterfree, 16
+.equ obj_D49R0102_follower_mon_static_machop, 17
 .equ obj_D49R0102_gsman3, 18
 
 .endif //SCR_SEQ_D49R0102_H_

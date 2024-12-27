@@ -54,9 +54,6 @@ _004D:
 	goto_if_ne _0066
 	goto _008B
 
-_0060:
-	goto _0085
-
 _0066:
 	compare VAR_SCENE_ROCKET_TAKEOVER, 3
 	goto_if_ne _0081
@@ -206,27 +203,27 @@ _0243:
 	releaseall
 	end
 
-	.align 4
+
 _0250:
+
 	step 75, 1
 	step 50, 2
 	step 76, 3
 	step 78, 1
 	step_end
 
-	.align 4
 _0264:
+
 	step 76, 1
 	step 78, 10
 	step_end
 
-	.align 4
 _0270:
+
 	step 63, 6
 	step 76, 1
 	step 3, 1
 	step_end
-
 scr_seq_D23R0101_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -296,33 +293,23 @@ _0346:
 	releaseall
 	end
 
-	.align 4
+
 _0354:
+
 	step 13, 1
 	step 34, 1
 	step_end
 
-	.align 4
 _0360:
+
 	step 14, 1
 	step 33, 1
 	step_end
 
-	.align 4
 _036C:
+
 	step 34, 1
 	step_end
-
-	.align 4
-_0374:
-	step 35, 1
-	step_end
-
-	.align 4
-_037C:
-	step 33, 1
-	step_end
-
 scr_seq_D23R0101_009:
 	scrcmd_609
 	lockall
@@ -489,85 +476,86 @@ _0655:
 	releaseall
 	end
 
-	.align 4
+
 _0664:
+
 	step 65, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _0670:
+
 	step 19, 9
 	step 32, 1
 	step_end
 
-	.align 4
 _067C:
+
 	step 19, 9
 	step_end
 
-	.align 4
 _0684:
+
 	step 12, 1
 	step 35, 1
 	step_end
 
-	.align 4
 _0690:
+
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _069C:
+
 	step 62, 9
 	step 33, 1
 	step_end
 
-	.align 4
 _06A8:
+
 	step 62, 9
 	step 34, 1
 	step_end
 
-	.align 4
 _06B4:
+
 	step 3, 1
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _06C8:
+
 	step 0, 1
 	step 71, 1
 	step 13, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _06DC:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _06E4:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _06EC:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _06F4:
+
 	step 33, 1
 	step_end
 
-	.align 4
 _06FC:
+
 	step 62, 1
 	step 3, 1
 	step 62, 1
@@ -617,8 +605,8 @@ _06FC:
 	step 2, 1
 	step_end
 
-	.align 4
 _07BC:
+
 	step 62, 1
 	step 2, 1
 	step 62, 1
@@ -666,8 +654,8 @@ _07BC:
 	step 1, 1
 	step_end
 
-	.align 4
 _0874:
+
 	step 65, 1
 	step 3, 1
 	step 71, 1
@@ -676,8 +664,8 @@ _0874:
 	step 75, 1
 	step_end
 
-	.align 4
 _0890:
+
 	step 65, 1
 	step 0, 1
 	step 71, 1
@@ -686,18 +674,18 @@ _0890:
 	step 75, 1
 	step_end
 
-	.align 4
 _08AC:
+
 	step 19, 3
 	step_end
 
-	.align 4
 _08B4:
+
 	step 16, 3
 	step_end
 
-	.align 4
 _08BC:
+
 	step 62, 1
 	step 0, 1
 	step 71, 1
@@ -705,8 +693,8 @@ _08BC:
 	step 72, 1
 	step_end
 
-	.align 4
 _08D4:
+
 	step 62, 1
 	step 3, 1
 	step 71, 1
@@ -714,48 +702,47 @@ _08D4:
 	step 72, 1
 	step_end
 
-	.align 4
 _08EC:
+
 	step 15, 2
 	step_end
 
-	.align 4
 _08F4:
+
 	step 12, 1
 	step 15, 1
 	step_end
 
-	.align 4
 _0900:
+
 	step 0, 1
 	step 71, 1
 	step 13, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0914:
+
 	step 3, 1
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _0928:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0930:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0938:
+
 	step 14, 9
 	step_end
-
 scr_seq_D23R0101_006:
 	simple_npc_msg 26
 	end
@@ -788,7 +775,6 @@ _09AF:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _09E5
 	goto _09DA
-	end
 
 _09CF:
 	npc_msg 29
@@ -846,7 +832,6 @@ _0A4B:
 _0A94:
 	npc_msg 36
 	goto _0AC3
-	end
 
 _0A9F:
 	npc_msg 38
@@ -876,7 +861,6 @@ _0AC3:
 _0B0C:
 	setvar VAR_SPECIAL_x8003, 2
 	goto _0B4A
-	end
 
 _0B1A:
 	setvar VAR_SPECIAL_x8003, 51
@@ -922,9 +906,6 @@ _0B98:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

@@ -45,13 +45,13 @@ scr_seq_D37R0101_002:
 	compare VAR_TEMP_x4001, 3
 	goto_if_eq _0228
 	clearflag FLAG_HIDE_GOLDENROD_UNDERGROUND_FRIEND
-	show_person obj_D37R0101_tsure_poke_static_marill
+	show_person obj_D37R0101_follower_mon_static_marill
 	compare VAR_TEMP_x4001, 30
 	goto_if_ne _0050
-	move_person_facing obj_D37R0101_tsure_poke_static_marill, 9, 0, 25, DIR_WEST
+	move_person_facing obj_D37R0101_follower_mon_static_marill, 9, 0, 25, DIR_WEST
 _0050:
 	play_se SEQ_SE_DP_KAIDAN2
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _0174
+	apply_movement obj_D37R0101_follower_mon_static_marill, _0174
 	wait_movement
 	wait 8, VAR_SPECIAL_RESULT
 	play_cry SPECIES_MARILL, 0
@@ -77,35 +77,35 @@ _00AB:
 	scrcmd_729 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _00EE
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _0218
+	apply_movement obj_D37R0101_follower_mon_static_marill, _0218
 	apply_movement obj_player, _0218
 	apply_movement obj_partner_poke, _0218
 	wait_movement
 	goto _0100
 
 _00EE:
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _0218
+	apply_movement obj_D37R0101_follower_mon_static_marill, _0218
 	apply_movement obj_player, _0218
 	wait_movement
 _0100:
 	buffer_players_name 0
-	gender_msgbox 8, 9
+	gender_msgbox 6, 9
 	closemsg
 	apply_movement obj_D37R0101_var_1, _01D0
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _01E0
+	apply_movement obj_D37R0101_follower_mon_static_marill, _01E0
 	wait_movement
-	gender_msgbox 9, 10
+	gender_msgbox 7, 10
 	giveitem_no_check ITEM_FASHION_CASE, 1
 	call _0354
-	gender_msgbox 10, 11
+	gender_msgbox 8, 11
 	closemsg
 	apply_movement obj_D37R0101_var_1, _01F0
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _0204
+	apply_movement obj_D37R0101_follower_mon_static_marill, _0204
 	wait_movement
 	play_se SEQ_SE_DP_KAIDAN2
 	setflag FLAG_HIDE_GOLDENROD_UNDERGROUND_FRIEND
 	hide_person obj_D37R0101_var_1
-	hide_person obj_D37R0101_tsure_poke_static_marill
+	hide_person obj_D37R0101_follower_mon_static_marill
 	wait_se SEQ_SE_DP_KAIDAN2
 	callstd std_fade_end_friend_music
 	setvar VAR_UNK_40F8, 1
@@ -113,8 +113,9 @@ _0100:
 	releaseall
 	end
 
-	.align 4
+
 _0174:
+
 	step 78, 1
 	step 39, 1
 	step 50, 2
@@ -134,63 +135,62 @@ _0174:
 	step 1, 1
 	step_end
 
-	.align 4
 _01BC:
+
 	step 12, 3
 	step_end
 
-	.align 4
 _01C4:
+
 	step 14, 1
 	step 75, 1
 	step_end
 
-	.align 4
 _01D0:
+
 	step 14, 1
 	step 13, 2
 	step 14, 1
 	step_end
 
-	.align 4
 _01E0:
+
 	step 63, 3
 	step 15, 1
 	step 13, 1
 	step_end
 
-	.align 4
 _01F0:
+
 	step 13, 2
 	step 14, 1
 	step 13, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0204:
+
 	step 13, 3
 	step 14, 1
 	step 13, 1
 	step 69, 1
 	step_end
 
-	.align 4
 _0218:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0220:
+
 	step 33, 1
 	step_end
-
 _0228:
 	clearflag FLAG_HIDE_GOLDENROD_UNDERGROUND_FRIEND
 	show_person obj_D37R0101_var_1
 	clearflag FLAG_HIDE_GOLDENROD_UNDERGROUND_FRIEND
-	show_person obj_D37R0101_tsure_poke_static_marill
-	lock obj_D37R0101_tsure_poke_static_marill
+	show_person obj_D37R0101_follower_mon_static_marill
+	lock obj_D37R0101_follower_mon_static_marill
 	callstd std_play_friend_music
 	move_person_facing obj_D37R0101_var_1, 25, 0, 9, DIR_NORTH
 	play_se SEQ_SE_DP_KAIDAN2
@@ -204,26 +204,26 @@ _0228:
 	apply_movement obj_player, _0310
 	apply_movement obj_D37R0101_var_1, _0318
 	wait 8, VAR_SPECIAL_RESULT
-	move_person_facing obj_D37R0101_tsure_poke_static_marill, 25, 0, 9, DIR_NORTH
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _0320
+	move_person_facing obj_D37R0101_follower_mon_static_marill, 25, 0, 9, DIR_NORTH
+	apply_movement obj_D37R0101_follower_mon_static_marill, _0320
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	buffer_players_name 0
-	gender_msgbox 8, 9
-	gender_msgbox 9, 10
+	gender_msgbox 6, 9
+	gender_msgbox 7, 10
 	giveitem_no_check ITEM_FASHION_CASE, 1
 	call _0354
-	gender_msgbox 10, 11
+	gender_msgbox 8, 11
 	closemsg
 	apply_movement obj_D37R0101_var_1, _0328
-	apply_movement obj_D37R0101_tsure_poke_static_marill, _033C
+	apply_movement obj_D37R0101_follower_mon_static_marill, _033C
 	wait_movement
 	play_se SEQ_SE_DP_KAIDAN2
 	setflag FLAG_HIDE_GOLDENROD_UNDERGROUND_FRIEND
 	hide_person obj_D37R0101_var_1
-	hide_person obj_D37R0101_tsure_poke_static_marill
+	hide_person obj_D37R0101_follower_mon_static_marill
 	wait_se SEQ_SE_DP_KAIDAN2
 	callstd std_fade_end_friend_music
 	setvar VAR_UNK_40F8, 1
@@ -231,43 +231,43 @@ _0228:
 	releaseall
 	end
 
-	.align 4
+
 _0308:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0310:
+
 	step 13, 2
 	step_end
 
-	.align 4
 _0318:
+
 	step 12, 2
 	step_end
 
-	.align 4
 _0320:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _0328:
+
 	step 15, 1
 	step 12, 4
 	step 14, 2
 	step 69, 1
 	step_end
 
-	.align 4
 _033C:
+
 	step 12, 1
 	step 15, 1
 	step 12, 4
 	step 14, 2
 	step 69, 1
 	step_end
-
 _0354:
 	call _03A8
 	call _03A8
@@ -367,9 +367,6 @@ _04A9:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

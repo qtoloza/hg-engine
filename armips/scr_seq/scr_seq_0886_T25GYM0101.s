@@ -126,7 +126,7 @@ scr_seq_T25GYM0101_000:
 	settrainerflag TRAINER_LASS_CATHY
 	settrainerflag TRAINER_BEAUTY_VICTORIA
 	settrainerflag TRAINER_BEAUTY_SAMANTHA
-	add_special_game_stat SCORE_EVENT_BADGE_GET
+	add_special_game_stat 22
 	move_person_facing obj_T25GYM0101_gsgirl1, 13, 0, 15, DIR_NORTH
 _017D:
 	npc_msg 2
@@ -200,24 +200,24 @@ scr_seq_T25GYM0101_001:
 	releaseall
 	end
 
-	.align 4
+
 _0260:
+
 	step 75, 1
 	step 12, 3
 	step_end
 
-	.align 4
 _026C:
+
 	step 13, 3
 	step 32, 1
 	step_end
 
-	.align 4
 _0278:
+
 	step 63, 1
 	step 12, 1
 	step_end
-
 scr_seq_T25GYM0101_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -257,9 +257,6 @@ _02DF:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

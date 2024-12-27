@@ -20,7 +20,7 @@
 .equ obj_T06_gsmiddleman1, 1
 .equ obj_T06_gswoman1, 2
 .equ obj_T06_gsman1, 3
-.equ obj_T06_tsure_poke_static_machop, 4
+.equ obj_T06_follower_mon_static_machop, 4
 .equ obj_T06_breakrock, 5
 .equ obj_T06_breakrock_2, 6
 .equ obj_T06_breakrock_3, 7
@@ -31,7 +31,7 @@
 .equ obj_T06_monstarball, 12
 .equ obj_T06_monstarball_2, 13
 .equ obj_T06_gsmiddleman1_2, 14
-.equ obj_T06_tsure_poke_static_suicune, 15
+.equ obj_T06_follower_mon_static_suicune, 15
 .equ obj_T06_minaki, 16
 .equ obj_T06_minaki_2, 17
 .equ obj_T06_daigo, 18

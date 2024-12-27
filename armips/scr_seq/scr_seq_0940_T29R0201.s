@@ -89,9 +89,6 @@ _00B1:
 	npc_msg 7
 	goto _0146
 
-_00DD:
-	goto _0101
-
 _00E3:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_ne _0101
@@ -123,9 +120,6 @@ _0148:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

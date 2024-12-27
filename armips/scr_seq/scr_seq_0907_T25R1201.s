@@ -47,7 +47,7 @@ scrdef scr_seq_T25R1201_015
 scrdef scr_seq_T25R1201_016
 scrdef scr_seq_T25R1201_017
 scrdef_end
-scrdef_end ; not sure why there are two of these...
+
 
 scr_seq_T25R1201_001:
 	compare VAR_UNK_4133, 6
@@ -65,9 +65,6 @@ scr_seq_T25R1201_002:
 	compare VAR_TEMP_x4000, 8
 	goto_if_eq _0084
 	goto _009D
-
-_007E:
-	goto _0097
 
 _0084:
 	compare VAR_TEMP_x4001, 2
@@ -107,21 +104,16 @@ _00FD:
 	scrcmd_309 77
 	return
 
-	.align 4
+
 _0108:
+
 	step 13, 1
 	step_end
 
-	.align 4
-_0110:
-	step 13, 1
-	step_end
-
-	.align 4
 _0118:
+
 	step 13, 2
 	step_end
-
 scr_seq_T25R1201_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -145,12 +137,10 @@ _014D:
 	case 1, _01A4
 	case 2, _0330
 	goto _0330
-	end
 
 _01A4:
 	npc_msg 2
 	goto _01AF
-	end
 
 _01AF:
 	menu_init_std_gmm 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -163,29 +153,24 @@ _01AF:
 	case 1, _0211
 	case 2, _021C
 	goto _021C
-	end
 
 _0206:
 	npc_msg 3
 	goto _01AF
-	end
 
 _0211:
 	npc_msg 4
 	goto _01AF
-	end
 
 _021C:
 	npc_msg 5
 	goto _014D
-	end
 
 _0227:
 	party_count_not_egg VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 2
 	goto_if_lt _0240
 	goto _035F
-	end
 
 _0240:
 	npc_msg 9
@@ -242,7 +227,6 @@ _0314:
 	wait_fade
 	call _00A7
 	goto _0343
-	end
 
 _0330:
 	setvar VAR_UNK_4133, 0
@@ -264,21 +248,18 @@ _0343:
 _0354:
 	npc_msg 1
 	goto _014B
-	end
 
 _035F:
 	get_party_count VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0378
 	goto _024D
-	end
 
 _0378:
 	count_pc_empty_space VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0391
 	goto _024D
-	end
 
 _0391:
 	touchscreen_menu_show
@@ -288,27 +269,27 @@ _0391:
 	releaseall
 	end
 
-	.align 4
+
 _03A0:
+
 	step 15, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _03AC:
+
 	step 12, 1
 	step_end
 
-	.align 4
 _03B4:
+
 	step 12, 2
 	step_end
 
-	.align 4
 _03BC:
+
 	step 1, 1
 	step_end
-
 _03C4:
 	callstd std_party_illegal
 	wait_button_or_walk_away
@@ -353,7 +334,6 @@ scr_seq_T25R1201_011:
 	lockall
 	setvar VAR_SPECIAL_x8005, 3
 	goto _047C
-	end
 
 _047C:
 	npc_msg 31
@@ -367,7 +347,6 @@ _047C:
 	case 0, _04D3
 	case 1, _04F8
 	goto _04CB
-	end
 
 _04CB:
 	touchscreen_menu_show
@@ -390,14 +369,12 @@ _04D3:
 _04F8:
 	npc_msg 32
 	goto _047C
-	end
 
 scr_seq_T25R1201_012:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8005, 4
 	goto _0517
-	end
 
 _0517:
 	npc_msg 29
@@ -411,7 +388,6 @@ _0517:
 	case 0, _056E
 	case 1, _0593
 	goto _0566
-	end
 
 _0566:
 	touchscreen_menu_show
@@ -434,7 +410,6 @@ _056E:
 _0593:
 	npc_msg 30
 	goto _0517
-	end
 
 scr_seq_T25R1201_013:
 	simple_npc_msg 27
@@ -469,22 +444,17 @@ scr_seq_T25R1201_015:
 _0622:
 	npc_msg 23
 	goto _067F
-	end
 
 _062D:
 	set_favorite_mon
 	npc_msg 20
 	goto _067F
-	end
 
 _063A:
 	buffer_mon_species_name 0, 0
 	npc_msg 21
 	goto _067F
-	end
 
-_064A:
-	npc_msg 18
 _064D:
 	npc_msg 19
 	touchscreen_menu_hide
@@ -499,7 +469,6 @@ _064D:
 _0674:
 	npc_msg 22
 	goto _067F
-	end
 
 _067F:
 	wait_button_or_walk_away
@@ -545,9 +514,6 @@ scr_seq_T25R1201_017:
 	releaseall
 	end
 	.align 4
-
-
-
 
 
 .close

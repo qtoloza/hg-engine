@@ -74,7 +74,7 @@ _006E:
 	takeitem ITEM_RAGE_CANDY_BAR, 1, VAR_SPECIAL_RESULT
 	npc_msg 4
 	closemsg
-	setvar VAR_SPECIAL_x8004, ITEM_TM64
+	setvar VAR_SPECIAL_x8004, 391
 	setvar VAR_SPECIAL_x8005, 1
 	callstd std_obtain_item_verbose
 _00BE:
@@ -110,14 +110,12 @@ _00F4:
 	releaseall
 	end
 
-	.align 4
+
 _0100:
+
 	step 75, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

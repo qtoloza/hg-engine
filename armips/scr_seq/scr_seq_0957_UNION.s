@@ -74,14 +74,12 @@ scr_seq_UNION_003:
 	case 3, _07CC
 	case 2, _0488
 	goto _00BC
-	end
 
 _00BC:
 	scrcmd_257 100
 	scrcmd_267 2, VAR_SPECIAL_RESULT
 	scrcmd_592 VAR_SPECIAL_RESULT
 	goto _00EC
-	end
 
 _00D2:
 	scrcmd_257 100
@@ -89,7 +87,6 @@ _00D2:
 	scrcmd_267 22, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	goto _00EC
-	end
 
 _00EC:
 	scrcmd_064 31, 3, 0, 1, VAR_SPECIAL_RESULT
@@ -112,7 +109,6 @@ _00EC:
 	case 7, _07A0
 	scrcmd_271 0, 7
 	goto _0784
-	end
 
 _0184:
 	scrcmd_271 0, 1
@@ -137,7 +133,6 @@ _01A1:
 	call _0BDA
 	non_npc_msg 16
 	goto _00D2
-	end
 
 _01ED:
 	party_count_not_egg VAR_SPECIAL_RESULT
@@ -164,13 +159,11 @@ _021B:
 	restore_overworld
 	call _0BDA
 	goto _00D2
-	end
 
 _0264:
 	scrcmd_267 20, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	goto _00D2
-	end
 
 _0276:
 	party_count_mons_at_or_below_level VAR_SPECIAL_RESULT, 30
@@ -208,13 +201,11 @@ _02A6:
 	scrcmd_230
 	call _0BDA
 	goto _00D2
-	end
 
 _0324:
 	scrcmd_267 19, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	goto _00D2
-	end
 
 _0336:
 	scrcmd_271 0, 4
@@ -237,7 +228,6 @@ _0353:
 	restore_overworld
 	call _0BDA
 	goto _0478
-	end
 
 _0396:
 	scrcmd_271 0, 5
@@ -260,7 +250,6 @@ _03B3:
 	restore_overworld
 	call _0BDA
 	goto _0478
-	end
 
 _03F6:
 	party_count_egg VAR_SPECIAL_RESULT
@@ -289,16 +278,11 @@ _0435:
 	restore_overworld
 	call _0BDA
 	goto _0478
-	end
 
 _0478:
 	releaseall
 	end
-_047C:
-	scrcmd_271 0, 1
-	closemsg
-	releaseall
-	end
+
 _0488:
 	npc_msg 38
 	wait 30, VAR_SPECIAL_RESULT
@@ -342,7 +326,6 @@ _04AF:
 	restore_overworld
 	fade_screen 6, 1, 1, RGB_BLACK
 	goto _0478
-	end
 
 _0528:
 	scrcmd_262
@@ -375,7 +358,6 @@ _0528:
 	restore_overworld
 	fade_screen 6, 1, 1, RGB_BLACK
 	goto _0478
-	end
 
 _05C3:
 	scrcmd_267 16, VAR_SPECIAL_RESULT
@@ -411,7 +393,6 @@ _05DB:
 	restore_overworld
 	fade_screen 6, 1, 1, RGB_BLACK
 	goto _0478
-	end
 
 _0654:
 	scrcmd_267 17, VAR_SPECIAL_RESULT
@@ -451,66 +432,50 @@ _06AE:
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait 30, VAR_SPECIAL_RESULT
 	goto _07BC
-	end
 
 _06C6:
 	scrcmd_267 4, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait 30, VAR_SPECIAL_RESULT
 	goto _07BC
-	end
 
 _06DE:
 	scrcmd_267 5, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait 30, VAR_SPECIAL_RESULT
 	goto _07BC
-	end
 
 _06F6:
 	scrcmd_267 6, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait 30, VAR_SPECIAL_RESULT
 	goto _07BC
-	end
-
-_071E:
-	scrcmd_267 7, VAR_SPECIAL_RESULT
-	non_npc_msg_var VAR_SPECIAL_RESULT
-	wait 30, VAR_SPECIAL_RESULT
-	goto _07BC
-	end
 
 _0726:
 	scrcmd_267 8, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait 30, VAR_SPECIAL_RESULT
 	goto _07BC
-	end
 
 _073E:
 	scrcmd_271 1, 1
 	npc_msg 36
 	goto _0BC2
-	end
 
 _074F:
 	scrcmd_267 21, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	goto _00D2
-	end
 
 _0761:
 	npc_msg 218
 	goto _00D2
-	end
 
 _076C:
 	scrcmd_267 8, VAR_SPECIAL_RESULT
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait 30, VAR_SPECIAL_RESULT
 	goto _07BC
-	end
 
 _0784:
 	scrcmd_267 23, VAR_SPECIAL_RESULT
@@ -548,7 +513,6 @@ _07CC:
 	scrcmd_592 7
 	wait_button_or_delay 30
 	goto _07E4
-	end
 
 _07E4:
 	npc_msg 9
@@ -590,13 +554,11 @@ _0863:
 	restore_overworld
 	call _0BDA
 	goto _07E4
-	end
 
 _08CA:
 	scrcmd_271 1, 1
 	npc_msg 17
 	goto _0BC2
-	end
 
 _08DB:
 	npc_msg 26
@@ -625,19 +587,16 @@ _08DB:
 	scrcmd_261 11
 	call _0BDA
 	goto _07E4
-	end
 
 _0952:
 	scrcmd_271 1, 1
 	npc_msg 20
 	goto _0BC2
-	end
 
 _0963:
 	scrcmd_271 1, 1
 	npc_msg 29
 	goto _0BC2
-	end
 
 _0974:
 	npc_msg 21
@@ -677,19 +636,16 @@ _0974:
 	scrcmd_261 11
 	call _0BDA
 	goto _07E4
-	end
 
 _0A22:
 	scrcmd_271 1, 1
 	npc_msg 23
 	goto _0BC2
-	end
 
 _0A33:
 	scrcmd_271 1, 1
 	npc_msg 24
 	goto _0BC2
-	end
 
 _0A44:
 	npc_msg 30
@@ -773,42 +729,31 @@ _0B6F:
 	scrcmd_271 1, 1
 	npc_msg 28
 	goto _0BC2
-	end
 
 _0B80:
 	npc_msg 35
 	goto _0BC2
-	end
 
 _0B8B:
 	scrcmd_261 11
 	npc_msg 25
 	wait 30, VAR_SPECIAL_RESULT
 	goto _0BC2
-	end
 
 _0BA0:
 	npc_msg 8
 	wait 30, VAR_SPECIAL_RESULT
 	goto _0BC2
-	end
 
 _0BB1:
 	npc_msg 10
 	wait 30, VAR_SPECIAL_RESULT
 	goto _0BC2
-	end
 
 _0BC2:
 	scrcmd_257 101
 	closemsg
 	scrcmd_266
-	releaseall
-	end
-
-_0BCE:
-	scrcmd_271 1, 1
-	closemsg
 	releaseall
 	end
 
@@ -827,7 +772,6 @@ scr_seq_UNION_006:
 	lockall
 	faceplayer
 	goto _0499
-	end
 
 scr_seq_UNION_007:
 	play_se SEQ_SE_DP_SELECT
@@ -835,7 +779,6 @@ scr_seq_UNION_007:
 	lockall
 	faceplayer
 	goto _0C1F
-	end
 
 _0C1F:
 	scrcmd_262
@@ -853,7 +796,6 @@ _0C2E:
 	case 0, _0CAF
 	case 1, _0C91
 	goto _0CA5
-	end
 
 _0C87:
 	npc_msg 158
@@ -869,7 +811,6 @@ _0C91:
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	touchscreen_menu_hide
 	goto _0C2E
-	end
 
 _0CA5:
 	touchscreen_menu_show
@@ -897,57 +838,44 @@ _0CAF:
 	case 4, _0D8C
 	case 5, _0D9B
 	goto _0C2E
-	end
 
 _0D50:
 	touchscreen_menu_show
 	npc_msg 160
 	touchscreen_menu_hide
 	goto _0CAF
-	end
 
 _0D5F:
 	touchscreen_menu_show
 	npc_msg 161
 	touchscreen_menu_hide
 	goto _0CAF
-	end
 
 _0D6E:
 	touchscreen_menu_show
 	npc_msg 162
 	touchscreen_menu_hide
 	goto _0CAF
-	end
 
 _0D7D:
 	touchscreen_menu_show
 	npc_msg 164
 	touchscreen_menu_hide
 	goto _0CAF
-	end
 
 _0D8C:
 	touchscreen_menu_show
 	npc_msg 165
 	touchscreen_menu_hide
 	goto _0CAF
-	end
 
 _0D9B:
 	touchscreen_menu_show
 	npc_msg 163
 	touchscreen_menu_hide
 	goto _0CAF
-	end
 
-_0DAA:
-	goto _0C2E
-	end
 	.align 4
-
-
-
 
 
 .close

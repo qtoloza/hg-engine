@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0146.inc"
-
 
 // text archive to grab from: 211.txt
 
@@ -67,14 +65,12 @@ scr_seq_0146_000:
 	goto_if_eq _00AD
 	closemsg
 	goto _093D
-	end
 
 _009E:
 	npc_msg 2
 	wait_button_or_walk_away
 	closemsg
 	goto _093D
-	end
 
 _00AD:
 	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_CUT
@@ -128,7 +124,6 @@ _016F:
 	compare VAR_SPECIAL_x8005, 0
 	goto_if_eq _016F
 	goto _093D
-	end
 
 scr_seq_0146_007:
 	scrcmd_609
@@ -217,14 +212,12 @@ scr_seq_0146_001:
 	goto_if_eq _02E6
 	closemsg
 	goto _093D
-	end
 
 _02D7:
 	npc_msg 4
 	wait_button_or_walk_away
 	closemsg
 	goto _093D
-	end
 
 _02E6:
 	bufferpartymonnick 0, VAR_SPECIAL_x8004
@@ -282,7 +275,6 @@ _03B4:
 	releaseall
 	scrcmd_rock_smash_item_check VAR_SPECIAL_x8007, VAR_SPECIAL_RESULT, VAR_SPECIAL_x8006
 	goto _0CEB
-	end
 
 scr_seq_0146_008:
 	scrcmd_609
@@ -342,7 +334,6 @@ _04AB:
 	releaseall
 	scrcmd_rock_smash_item_check VAR_SPECIAL_x8007, VAR_SPECIAL_RESULT, VAR_SPECIAL_x8006
 	goto _0CEB
-	end
 
 _04D0:
 	scrcmd_732 20
@@ -383,14 +374,12 @@ _051C:
 	goto_if_eq _0573
 	closemsg
 	goto _093D
-	end
 
 _0564:
 	npc_msg 9
 	wait_button_or_walk_away
 	closemsg
 	goto _093D
-	end
 
 _0573:
 	strength_flag_action 1, 0
@@ -437,7 +426,6 @@ _060E:
 	wait_button_or_walk_away
 	closemsg
 	goto _093D
-	end
 
 _061D:
 	npc_msg 10
@@ -497,7 +485,6 @@ _06D7:
 	wait_button_or_walk_away
 	closemsg
 	goto _0945
-	end
 
 scr_seq_0146_015:
 	play_se SEQ_SE_GS_IWAOTOSHI01
@@ -544,21 +531,18 @@ scr_seq_0146_003:
 	goto_if_eq _07B5
 	closemsg
 	goto _0941
-	end
 
 _0797:
 	npc_msg 22
 	wait_button_or_walk_away
 	closemsg
 	goto _0941
-	end
 
 _07A6:
 	npc_msg 23
 	wait_button_or_walk_away
 	closemsg
 	goto _0941
-	end
 
 _07B5:
 	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_ROCK_CLIMB
@@ -568,7 +552,6 @@ _07B5:
 	closemsg
 	rock_climb VAR_SPECIAL_x8004
 	goto _0941
-	end
 
 scr_seq_0146_010:
 	scrcmd_609
@@ -594,7 +577,6 @@ scr_seq_0146_004:
 	goto_if_eq _0833
 	closemsg
 	goto _0941
-	end
 
 _0826:
 	npc_msg 16
@@ -610,7 +592,6 @@ _0833:
 	closemsg
 	surf VAR_SPECIAL_x8004
 	goto _0941
-	end
 
 scr_seq_0146_011:
 	scrcmd_609
@@ -712,14 +693,12 @@ scr_seq_0146_005:
 	goto_if_eq _09A6
 	closemsg
 	goto _0941
-	end
 
 _0997:
 	npc_msg 26
 	wait_button_or_walk_away
 	closemsg
 	goto _0941
-	end
 
 _09A6:
 	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_WATERFALL
@@ -729,7 +708,6 @@ _09A6:
 	closemsg
 	waterfall VAR_SPECIAL_x8004
 	goto _0941
-	end
 
 scr_seq_0146_012:
 	scrcmd_609
@@ -760,14 +738,12 @@ scr_seq_0146_016:
 	goto_if_eq _0A43
 	closemsg
 	goto _0941
-	end
 
 _0A34:
 	npc_msg 31
 	wait_button_or_walk_away
 	closemsg
 	goto _0941
-	end
 
 _0A43:
 	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_WHIRLPOOL
@@ -777,7 +753,6 @@ _0A43:
 	closemsg
 	whirlpool VAR_SPECIAL_x8004
 	goto _0941
-	end
 
 scr_seq_0146_017:
 	scrcmd_609
@@ -809,14 +784,12 @@ scr_seq_0146_014:
 	goto_if_eq _0AD1
 	closemsg
 	goto _093D
-	end
 
 _0AC2:
 	npc_msg 34
 	wait_button_or_walk_away
 	closemsg
 	goto _093D
-	end
 
 _0AD1:
 	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT
@@ -981,9 +954,6 @@ _0D2C:
 	closemsg
 	end
 	.align 4
-
-
-
 
 
 .close

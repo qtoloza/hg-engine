@@ -154,19 +154,19 @@ _01FF:
 	wait_fade
 	goto _01D1
 
-	.align 4
+
 _022C:
+
 	step 40, 4
 	step 69, 1
 	step_end
 
-	.align 4
 _0238:
+
 	step 62, 3
 	step 20, 1
 	step 69, 1
 	step_end
-
 scr_seq_D24R0204_001:
 	scrcmd_609
 	lockall
@@ -202,14 +202,12 @@ _02A9:
 	releaseall
 	end
 
-	.align 4
+
 _02BC:
+
 	step 75, 1
 	step_end
 	.align 4
-
-
-
 
 
 .close

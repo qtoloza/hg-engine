@@ -62,21 +62,21 @@ _0066:
 	npc_msg 11
 	goto _00E4
 
-	.align 4
+
 _007C:
+
 	step 1, 1
 	step_end
 
-	.align 4
 _0084:
+
 	step 2, 1
 	step_end
 
-	.align 4
 _008C:
+
 	step 3, 1
 	step_end
-
 scr_seq_T07SP0101_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -176,9 +176,6 @@ scr_seq_T07SP0101_001:
 	simple_npc_msg 14
 	end
 	.align 4
-
-
-
 
 
 .close

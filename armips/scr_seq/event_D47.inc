@@ -21,15 +21,15 @@
 
 .equ obj_D47_gsman1, 0
 .equ obj_D47_gsgentleman, 1
-.equ obj_D47_tsure_poke_static_jigglypuff, 2
-.equ obj_D47_tsure_poke_static_kangaskhan, 3
+.equ obj_D47_follower_mon_static_jigglypuff, 2
+.equ obj_D47_follower_mon_static_kangaskhan, 3
 .equ obj_D47_middlewoman1_2, 4
 .equ obj_D47_gsbabyboy1, 5
 .equ obj_D47_gsoldman1, 6
 .equ obj_D47_gswoman1, 7
 .equ obj_D47_gswoman2, 8
-.equ obj_D47_tsure_poke_static_butterfree, 9
-.equ obj_D47_tsure_poke_static_slowpoke, 10
+.equ obj_D47_follower_mon_static_butterfree, 9
+.equ obj_D47_follower_mon_static_slowpoke, 10
 .equ obj_D47_gsbabygirl1, 11
 .equ obj_D47_gsmiddleman1, 12
 .equ obj_D47_workman, 13

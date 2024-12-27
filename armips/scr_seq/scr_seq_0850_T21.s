@@ -236,48 +236,49 @@ _0228:
 	setvar VAR_SCENE_CHERRYGROVE_CITY_OW, 1
 	end
 
-	.align 4
+
 _0350:
+
 	step 75, 1
 	step_end
 
-	.align 4
 _0358:
+
 	step 62, 1
 	step_end
 
-	.align 4
 _0360:
+
 	step 13, 1
 	step_end
 
-	.align 4
 _0368:
+
 	step 13, 2
 	step_end
 
-	.align 4
 _0370:
+
 	step 13, 3
 	step_end
 
-	.align 4
 _0378:
+
 	step 32, 1
 	step_end
 
-	.align 4
 _0380:
+
 	step 34, 1
 	step_end
 
-	.align 4
 _0388:
+
 	step 35, 1
 	step_end
 
-	.align 4
 _0390:
+
 	step 18, 2
 	step 16, 2
 	step 75, 1
@@ -286,8 +287,8 @@ _0390:
 	step 19, 1
 	step_end
 
-	.align 4
 _03AC:
+
 	step 18, 2
 	step 16, 3
 	step 63, 1
@@ -298,8 +299,8 @@ _03AC:
 	step 19, 1
 	step_end
 
-	.align 4
 _03D0:
+
 	step 18, 2
 	step 16, 4
 	step 63, 1
@@ -310,8 +311,8 @@ _03D0:
 	step 19, 1
 	step_end
 
-	.align 4
 _03F4:
+
 	step 18, 2
 	step 16, 4
 	step 63, 1
@@ -322,8 +323,8 @@ _03F4:
 	step 19, 1
 	step_end
 
-	.align 4
 _0418:
+
 	step 18, 1
 	step 16, 3
 	step 37, 1
@@ -331,8 +332,8 @@ _0418:
 	step 36, 1
 	step_end
 
-	.align 4
 _0430:
+
 	step 18, 1
 	step 16, 4
 	step 37, 1
@@ -340,8 +341,8 @@ _0430:
 	step 36, 1
 	step_end
 
-	.align 4
 _0448:
+
 	step 18, 1
 	step 16, 5
 	step 37, 1
@@ -349,8 +350,8 @@ _0448:
 	step 36, 1
 	step_end
 
-	.align 4
 _0460:
+
 	step 18, 1
 	step 16, 6
 	step 37, 1
@@ -358,52 +359,52 @@ _0460:
 	step 36, 1
 	step_end
 
-	.align 4
 _0478:
+
 	step 14, 2
 	step 12, 2
 	step 63, 1
 	step_end
 
-	.align 4
 _0488:
+
 	step 14, 2
 	step 12, 3
 	step 63, 1
 	step_end
 
-	.align 4
 _0498:
+
 	step 14, 2
 	step 12, 4
 	step 63, 1
 	step_end
 
-	.align 4
 _04A8:
+
 	step 14, 2
 	step 12, 5
 	step 63, 1
 	step_end
 
-	.align 4
 _04B8:
+
 	step 18, 9
 	step 39, 1
 	step 62, 7
 	step 36, 1
 	step_end
 
-	.align 4
 _04CC:
+
 	step 12, 1
 	step 14, 8
 	step 63, 2
 	step 32, 1
 	step_end
 
-	.align 4
 _04E0:
+
 	step 18, 6
 	step 16, 2
 	step 18, 1
@@ -412,15 +413,15 @@ _04E0:
 	step 36, 1
 	step_end
 
-	.align 4
 _04FC:
+
 	step 14, 7
 	step 12, 2
 	step 63, 1
 	step_end
 
-	.align 4
 _050C:
+
 	step 17, 2
 	step 18, 6
 	step 17, 8
@@ -430,8 +431,8 @@ _050C:
 	step 38, 1
 	step_end
 
-	.align 4
 _052C:
+
 	step 14, 1
 	step 13, 2
 	step 14, 6
@@ -441,8 +442,8 @@ _052C:
 	step 34, 1
 	step_end
 
-	.align 4
 _054C:
+
 	step 19, 16
 	step 38, 1
 	step 62, 6
@@ -451,8 +452,8 @@ _054C:
 	step 38, 1
 	step_end
 
-	.align 4
 _0568:
+
 	step 62, 1
 	step 13, 1
 	step 15, 16
@@ -460,16 +461,10 @@ _0568:
 	step 15, 5
 	step_end
 
-	.align 4
 _0580:
+
 	step 12, 2
 	step_end
-
-	.align 4
-_0588:
-	step 12, 1
-	step_end
-
 scr_seq_T21_002:
 	scrcmd_609
 	lockall
@@ -530,31 +525,31 @@ _063E:
 	setvar VAR_SCENE_CHERRYGROVE_CITY_OW, 2
 	end
 
-	.align 4
+
 _0680:
+
 	step 75, 1
 	step 37, 1
 	step_end
 
-	.align 4
 _068C:
+
 	step 18, 1
 	step 16, 9
 	step 35, 1
 	step_end
 
-	.align 4
 _069C:
+
 	step 19, 1
 	step 16, 9
 	step 34, 1
 	step_end
 
-	.align 4
 _06AC:
+
 	step 17, 9
 	step_end
-
 scr_seq_T21_003:
 	scrcmd_609
 	lockall
@@ -635,18 +630,14 @@ _07E4:
 	setflag FLAG_MET_PASSERBY_BOY
 	end
 
-_0800:
-	white_out
-	releaseall
-	end
 
-	.align 4
 _0808:
+
 	step 14, 7
 	step_end
 
-	.align 4
 _0810:
+
 	step 14, 6
 	step 75, 1
 	step 37, 1
@@ -661,8 +652,8 @@ _0810:
 	step 33, 1
 	step_end
 
-	.align 4
 _0844:
+
 	step 14, 6
 	step 75, 1
 	step 37, 1
@@ -677,40 +668,39 @@ _0844:
 	step 32, 1
 	step_end
 
-	.align 4
 _0878:
+
 	step 14, 11
 	step_end
 
-	.align 4
 _0880:
+
 	step 14, 5
 	step 12, 1
 	step 14, 6
 	step_end
 
-	.align 4
 _0890:
+
 	step 0, 1
 	step 71, 1
 	step 17, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _08A4:
+
 	step 1, 1
 	step 71, 1
 	step 16, 1
 	step 72, 1
 	step_end
 
-	.align 4
 _08B8:
+
 	step 63, 2
 	step 34, 1
 	step_end
-
 scr_seq_T21_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -819,8 +809,9 @@ _0A55:
 	releaseall
 	end
 
-	.align 4
+
 _0A6C:
+
 	step 15, 1
 	step 12, 2
 	step 14, 1
@@ -828,22 +819,22 @@ _0A6C:
 	step 33, 1
 	step_end
 
-	.align 4
 _0A84:
+
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0A90:
+
 	step 12, 1
 	step 14, 1
 	step 12, 3
 	step 33, 1
 	step_end
 
-	.align 4
 _0AA4:
+
 	step 13, 1
 	step 15, 2
 	step 12, 2
@@ -852,19 +843,18 @@ _0AA4:
 	step 33, 1
 	step_end
 
-	.align 4
 _0AC0:
+
 	step 63, 1
 	step 32, 1
 	step_end
 
-	.align 4
 _0ACC:
+
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
 scr_seq_T21_005:
 	scrcmd_055 2, 0
 	scrcmd_057 3
@@ -889,9 +879,6 @@ scr_seq_T21_008:
 	simple_npc_msg 17
 	end
 	.align 4
-
-
-
 
 
 .close

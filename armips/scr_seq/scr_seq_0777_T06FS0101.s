@@ -66,7 +66,4 @@ scr_seq_T06FS0101_003:
 	.align 4
 
 
-
-
-
 .close

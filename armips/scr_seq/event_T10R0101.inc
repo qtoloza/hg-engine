@@ -14,7 +14,7 @@
 .equ obj_T10R0101_pcwoman1, 0
 .equ obj_T10R0101_gsoldman1, 1
 .equ obj_T10R0101_gsfighter, 2
-.equ obj_T10R0101_tsure_poke_static_abra, 3
+.equ obj_T10R0101_follower_mon_static_abra, 3
 .equ obj_T10R0101_shopm1_2, 4
 .equ obj_T10R0101_gsrivel, 5
 .equ obj_T10R0101_pcwoman2, 6

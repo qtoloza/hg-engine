@@ -18,7 +18,7 @@
 
 .equ obj_T04_gsman1, 0
 .equ obj_T04_gswoman1, 1
-.equ obj_T04_tsure_poke_static_slowbro, 2
+.equ obj_T04_follower_mon_static_slowbro, 2
 .equ obj_T04_gsbigman, 3
 .equ obj_T04_gsman2, 4
 .equ obj_T04_gsboy1, 5

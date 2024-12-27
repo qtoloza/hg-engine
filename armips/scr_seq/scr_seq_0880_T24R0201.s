@@ -39,7 +39,6 @@ scr_seq_T24R0201_000:
 	goto_if_unset FLAG_GOT_LOAN_SHUCKLE, _0042
 	goto_if_set FLAG_DAILY_GOT_LOAN_SHUCKLE_TODAY, _00A2
 	goto _00AD
-	end
 
 _0037:
 	npc_msg 11
@@ -76,12 +75,10 @@ _007D:
 	setflag FLAG_GOT_LOAN_SHUCKLE
 	setflag FLAG_DAILY_GOT_LOAN_SHUCKLE_TODAY
 	goto _003A
-	end
 
 _00A2:
 	npc_msg 6
 	goto _003A
-	end
 
 _00AD:
 	npc_msg 5
@@ -142,7 +139,6 @@ _0181:
 	setflag FLAG_RETURNED_OR_INHERITED_LOAN_SHUCKLE
 _0192:
 	goto _003A
-	end
 
 _019A:
 	restore_overworld
@@ -153,18 +149,13 @@ _019A:
 _01AA:
 	npc_msg 10
 	goto _003A
-	end
 
 _01B5:
 	npc_msg 9
 	setflag FLAG_RETURNED_OR_INHERITED_LOAN_SHUCKLE
 	goto _003A
-	end
 
 	.align 4
-
-
-
 
 
 .close

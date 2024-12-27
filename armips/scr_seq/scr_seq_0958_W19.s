@@ -70,7 +70,4 @@ scr_seq_W19_005:
 	.align 4
 
 
-
-
-
 .close

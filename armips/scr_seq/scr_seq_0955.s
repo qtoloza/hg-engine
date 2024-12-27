@@ -20,8 +20,6 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
-.include "armips/scr_seq/event_0955.inc"
-
 
 // text archive to grab from: 732.txt
 
@@ -135,9 +133,6 @@ _0159:
 	simple_npc_msg 2
 	end
 	.align 4
-
-
-
 
 
 .close
