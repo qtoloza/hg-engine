@@ -52,4 +52,4 @@ DELETABLE_HMS equ 0
 // comment out the lines if you do not want anti-piracy to be applied to your ROM
 .definelabel APPLY_ANTIPIRACY, 0
 
-ABILITY_CHANGES_IMPLEMENTED equ 1
+ABILITY_CHANGES_IMPLEMENTED equ 0
