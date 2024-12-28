@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_P01R0306.inc"
+
 
 .create "build/a012/2_411", 0
 
@@ -28,13 +30,13 @@
 	.halfword 2, 0
 	.byte 1
 	.word scr_seq_P01R0306_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_P01R0306_map_scripts_2:
 	.halfword VAR_UNK_40CB, 5, 4
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

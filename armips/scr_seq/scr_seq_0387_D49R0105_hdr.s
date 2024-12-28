@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_D49R0105.inc"
+
 
 .create "build/a012/2_387", 0
 
@@ -28,9 +30,9 @@
 	.halfword 12, 0
 	.byte 2
 	.halfword 13, 0
-.byte 0
+	.byte 0
 
-.align 4
+	.align 4
 
 
 .close

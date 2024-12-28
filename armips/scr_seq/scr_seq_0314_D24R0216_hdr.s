@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_D24R0216.inc"
+
 
 .create "build/a012/2_314", 0
 
@@ -30,7 +32,7 @@
 	.halfword 5, 0
 	.byte 3
 	.halfword 7, 0
-.byte 0
+	.byte 0
 
 scr_seq_D24R0216_map_scripts_2:
 	.halfword VAR_SCENE_SINJOH_MYSTRI_ROOM, 2, 2
@@ -39,7 +41,7 @@ scr_seq_D24R0216_map_scripts_2:
 	.halfword VAR_UNK_40CE, 1, 6
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

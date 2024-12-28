@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_T08R0201.inc"
+
 
 .create "build/a012/2_585", 0
 
@@ -28,14 +30,14 @@
 	.halfword 1, 0
 	.byte 1
 	.word scr_seq_T08R0201_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_T08R0201_map_scripts_2:
 	.halfword VAR_UNK_4124, 1, 2
 	.halfword VAR_UNK_4124, 2, 3
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

@@ -20,18 +20,20 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_0072.inc"
+
 
 .create "build/a012/2_333", 0
 
 
 	.byte 1
 	.word scr_seq_0072_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_0072_map_scripts_2:
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

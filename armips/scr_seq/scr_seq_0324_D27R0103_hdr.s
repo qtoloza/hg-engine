@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_D27R0103.inc"
+
 
 .create "build/a012/2_324", 0
 
@@ -28,13 +30,13 @@
 	.word scr_seq_D27R0103_map_scripts_2-.-4
 	.byte 3
 	.halfword 2, 0
-.byte 0
+	.byte 0
 
 scr_seq_D27R0103_map_scripts_2:
 	.halfword VAR_UNK_40A7, 1, 1
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

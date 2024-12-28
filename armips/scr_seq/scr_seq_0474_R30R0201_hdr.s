@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_R30R0201.inc"
+
 
 .create "build/a012/2_474", 0
 
@@ -28,14 +30,14 @@
 	.word scr_seq_R30R0201_map_scripts_2-.-4
 	.byte 3
 	.halfword 4, 0
-.byte 0
+	.byte 0
 
 scr_seq_R30R0201_map_scripts_2:
 	.halfword VAR_SCENE_EMBEDDED_TOWER, 1, 3
 	.halfword VAR_SCENE_MR_POKEMONS_HOUSE, 0, 2
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

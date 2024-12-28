@@ -20,15 +20,17 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_R27.inc"
+
 
 .create "build/a012/2_466", 0
 
 
 	.byte 2
 	.halfword 4, 0
-.byte 0
+	.byte 0
 
-.align 4
+	.align 4
 
 
 .close

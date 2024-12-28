@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_T03R0101.inc"
+
 
 .create "build/a012/2_528", 0
 
@@ -30,9 +32,9 @@
 	.halfword 18, 0
 	.byte 3
 	.halfword 19, 0
-.byte 0
+	.byte 0
 
-.align 4
+	.align 4
 
 
 .close

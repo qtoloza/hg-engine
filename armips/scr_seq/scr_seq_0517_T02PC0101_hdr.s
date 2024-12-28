@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_T02PC0101.inc"
+
 
 .create "build/a012/2_517", 0
 
@@ -28,14 +30,14 @@
 	.halfword std_wireless_reset_state, 0
 	.byte 1
 	.word scr_seq_T02PC0101_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_T02PC0101_map_scripts_2:
 	.halfword VAR_UNK_4133, 2, std_union_room_return
 	.halfword VAR_UNK_4133, 1, std_wireless_colosseum_return
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

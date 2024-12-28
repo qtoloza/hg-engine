@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_D45R0102.inc"
+
 
 .create "build/a012/2_375", 0
 
@@ -30,13 +32,13 @@
 	.halfword 3, 0
 	.byte 1
 	.word scr_seq_D45R0102_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_D45R0102_map_scripts_2:
 	.halfword VAR_UNK_40FE, 2, 2
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

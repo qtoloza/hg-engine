@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_D31R0201.inc"
+
 
 .create "build/a012/2_330", 0
 
@@ -30,7 +32,7 @@
 	.halfword 23, 0
 	.byte 1
 	.word scr_seq_D31R0201_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_D31R0201_map_scripts_2:
 	.halfword VAR_UNK_414B, 1, 4
@@ -39,7 +41,7 @@ scr_seq_D31R0201_map_scripts_2:
 	.halfword VAR_UNK_414B, 255, 6
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close

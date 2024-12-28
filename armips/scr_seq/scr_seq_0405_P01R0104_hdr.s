@@ -20,6 +20,8 @@
 .include "asm/include/std_scripts.inc"
 .include "asm/include/trainers.inc"
 
+.include "armips/scr_seq/event_P01R0104.inc"
+
 
 .create "build/a012/2_405", 0
 
@@ -30,13 +32,13 @@
 	.halfword 4, 0
 	.byte 1
 	.word scr_seq_P01R0104_map_scripts_2-.-4
-.byte 0
+	.byte 0
 
 scr_seq_P01R0104_map_scripts_2:
 	.halfword VAR_BOAT_DIRECTION, 1, 2
 	.halfword 0
 
-.align 4
+	.align 4
 
 
 .close
