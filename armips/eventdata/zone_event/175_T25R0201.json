@@ -188,7 +188,7 @@
       "spriteId": "SPRITE_SUIT",
       "movement": 3,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fac",
+      "eventFlag": 16300,
       "scriptId": "_EV_scr_seq_T25R0201_006 + 1",
       "facingDirection": 0,
       "param0": 0,

@@ -187,7 +187,7 @@
       "spriteId": "SPRITE_JUGGRER",
       "movement": 15,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3ff8",
+      "eventFlag": 16376,
       "scriptId": "_EV_scr_seq_T22PC0101_006 + 1",
       "facingDirection": 0,
       "param0": 0,

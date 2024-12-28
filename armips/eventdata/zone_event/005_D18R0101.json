@@ -263,7 +263,7 @@
       "spriteId": "SPRITE_FOLLOWER_MON_MAGMAR",
       "movement": 15,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe9",
+      "eventFlag": 16361,
       "scriptId": "_EV_scr_seq_D18R0101_004 + 1",
       "facingDirection": 0,
       "param0": 0,

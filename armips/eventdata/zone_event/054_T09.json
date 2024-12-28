@@ -100,7 +100,7 @@
       "spriteId": "SPRITE_FOLLOWER_MON_HEATRAN",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fc2",
+      "eventFlag": 16322,
       "scriptId": "_EV_scr_seq_T09_006 + 1",
       "facingDirection": 1,
       "param0": 0,

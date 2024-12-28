@@ -413,7 +413,7 @@
       "spriteId": "SPRITE_FOLLOWER_MON_DEOXYS",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f98",
+      "eventFlag": 16280,
       "scriptId": 0,
       "facingDirection": 0,
       "param0": 0,
@@ -451,7 +451,7 @@
       "h": 1,
       "y": 0,
       "val": 0,
-      "var": "VAR_UNK_x6132"
+      "var": 24882
     }
   ]
 }

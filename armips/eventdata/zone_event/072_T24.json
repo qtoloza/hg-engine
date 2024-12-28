@@ -277,7 +277,7 @@
       "spriteId": "SPRITE_PRINCESS",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f59",
+      "eventFlag": 16217,
       "scriptId": "_EV_scr_seq_T24_016 + 1",
       "facingDirection": 3,
       "param0": 0,

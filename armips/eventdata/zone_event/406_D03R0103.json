@@ -305,7 +305,7 @@
       "spriteId": "SPRITE_GSRIVEL",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f5d",
+      "eventFlag": 16221,
       "scriptId": "_EV_scr_seq_D03R0103_002 + 1",
       "facingDirection": 1,
       "param0": 0,

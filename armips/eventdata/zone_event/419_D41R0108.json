@@ -24,7 +24,7 @@
       "spriteId": "SPRITE_RED",
       "movement": 52,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fa1",
+      "eventFlag": 16289,
       "scriptId": "_EV_scr_seq_D41R0108_001 + 1",
       "facingDirection": 0,
       "param0": 0,

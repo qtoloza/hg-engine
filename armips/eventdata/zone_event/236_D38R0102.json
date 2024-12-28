@@ -253,7 +253,7 @@
       "spriteId": "SPRITE_MONSTARBALL",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f7e",
+      "eventFlag": 16254,
       "scriptId": "std_itemball_d03r0103_dusk_stone",
       "facingDirection": 0,
       "param0": 0,

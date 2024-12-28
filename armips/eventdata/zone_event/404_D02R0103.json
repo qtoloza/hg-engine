@@ -42,7 +42,7 @@
       "spriteId": "SPRITE_FOLLOWER_MON_CRESSELIA",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fbf",
+      "eventFlag": 16319,
       "scriptId": "_EV_scr_seq_D02R0103_003 + 1",
       "facingDirection": 1,
       "param0": 0,

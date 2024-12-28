@@ -110,7 +110,7 @@
       "spriteId": "SPRITE_MONSTARBALL",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f7f",
+      "eventFlag": 16255,
       "scriptId": "std_itemball_d22r0101_shiny_stone",
       "facingDirection": 0,
       "param0": 0,

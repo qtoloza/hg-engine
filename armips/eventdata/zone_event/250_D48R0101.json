@@ -109,7 +109,7 @@
       "spriteId": "SPRITE_ROCKETW",
       "movement": 15,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe8",
+      "eventFlag": 16360,
       "scriptId": "_EV_scr_seq_D48R0101_008 + 1",
       "facingDirection": 0,
       "param0": 0,
@@ -126,7 +126,7 @@
       "spriteId": "SPRITE_ROCKETM",
       "movement": 16,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe8",
+      "eventFlag": 16360,
       "scriptId": "_EV_scr_seq_D48R0101_010 + 1",
       "facingDirection": 0,
       "param0": 0,
@@ -143,7 +143,7 @@
       "spriteId": "SPRITE_ROCKETW",
       "movement": 16,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe8",
+      "eventFlag": 16360,
       "scriptId": "_EV_scr_seq_D48R0101_012 + 1",
       "facingDirection": 0,
       "param0": 0,
@@ -160,7 +160,7 @@
       "spriteId": "SPRITE_ROCK",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe8",
+      "eventFlag": 16360,
       "scriptId": "_EV_scr_seq_D48R0101_013 + 1",
       "facingDirection": 0,
       "param0": 0,
@@ -177,7 +177,7 @@
       "spriteId": "SPRITE_ROCK",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe8",
+      "eventFlag": 16360,
       "scriptId": "_EV_scr_seq_D48R0101_013 + 1",
       "facingDirection": 0,
       "param0": 0,
@@ -215,7 +215,7 @@
       "h": 5,
       "y": 0,
       "val": 0,
-      "var": "VAR_UNK_x61a4"
+      "var": 24996
     },
     {
       "scriptId": "_EV_scr_seq_D48R0101_009 + 1",
@@ -225,7 +225,7 @@
       "h": 1,
       "y": 0,
       "val": 0,
-      "var": "VAR_UNK_x61a3"
+      "var": 24995
     },
     {
       "scriptId": "_EV_scr_seq_D48R0101_011 + 1",
@@ -235,7 +235,7 @@
       "h": 1,
       "y": 0,
       "val": 0,
-      "var": "VAR_UNK_x61a2"
+      "var": 24994
     },
     {
       "scriptId": "_EV_scr_seq_D48R0101_014 + 1",
@@ -245,7 +245,7 @@
       "h": 20,
       "y": 0,
       "val": 0,
-      "var": "VAR_UNK_x612e"
+      "var": 24878
     }
   ]
 }

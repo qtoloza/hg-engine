@@ -270,7 +270,7 @@
       "spriteId": "SPRITE_MONSTARBALL",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f65",
+      "eventFlag": 16229,
       "scriptId": "std_itemball_r42_dubious_disc",
       "facingDirection": 0,
       "param0": 0,

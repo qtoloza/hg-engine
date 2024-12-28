@@ -75,7 +75,7 @@
       "spriteId": "SPRITE_GSASSISTANTM",
       "movement": 3,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fac",
+      "eventFlag": 16300,
       "scriptId": "_EV_scr_seq_P01R0301_009 + 1",
       "facingDirection": 0,
       "param0": 0,

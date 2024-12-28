@@ -24,7 +24,7 @@
       "spriteId": "SPRITE_MONSTARBALL",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3f74",
+      "eventFlag": 16244,
       "scriptId": "std_itemball_d35r0103_tm46",
       "facingDirection": 0,
       "param0": 0,

@@ -136,7 +136,7 @@
       "spriteId": "SPRITE_FOLLOWER_MON_REGICE",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fd6",
+      "eventFlag": 16342,
       "scriptId": "_EV_scr_seq_D39R0103_003 + 1",
       "facingDirection": 1,
       "param0": 0,

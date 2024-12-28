@@ -136,7 +136,7 @@
       "spriteId": "SPRITE_MINAKI",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fa0",
+      "eventFlag": 16288,
       "scriptId": "_EV_scr_seq_T07PC0101_004 + 1",
       "facingDirection": 1,
       "param0": 0,

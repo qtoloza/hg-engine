@@ -210,7 +210,7 @@
       "spriteId": "SPRITE_ROCKETM",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fe8",
+      "eventFlag": 16360,
       "scriptId": "_EV_scr_seq_T26_014 + 1",
       "facingDirection": 0,
       "param0": 0,

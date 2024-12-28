@@ -421,7 +421,7 @@
       "spriteId": "SPRITE_BABYBOY1_12",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_TEMP_x3fca",
+      "eventFlag": 16330,
       "scriptId": "_EV_scr_seq_T06_015 + 1",
       "facingDirection": 0,
       "param0": 0,
