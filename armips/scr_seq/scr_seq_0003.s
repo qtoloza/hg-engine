@@ -59,7 +59,7 @@ scrdef scr_seq_0003_029
 scrdef scr_seq_0003_030
 scrdef scr_seq_0003_031
 scrdef scr_seq_0003_032
-scrdef scr_seq_0003_033
+scrdef scr_seq_0003_033_give_item_verbose
 scrdef scr_seq_0003_034
 scrdef scr_seq_0003_035
 scrdef scr_seq_0003_036
@@ -98,6 +98,7 @@ scrdef scr_seq_0003_068
 scrdef scr_seq_0003_069
 scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
+scrdef scr_seq_0003_072_repels
 scrdef_end
 
 scr_seq_0003_002:
@@ -138,7 +139,7 @@ _019B:
 
 _01AA:
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _01C5
 	set_avatar_bits PLAYER_TRANSITION_ROCKET_HEAL
 	goto _01C9
@@ -185,7 +186,7 @@ _023A:
 	apply_movement obj_player, _0468
 	wait_movement
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _026F
 	set_avatar_bits PLAYER_TRANSITION_ROCKET
 	goto _0273
@@ -223,7 +224,7 @@ _02CB:
 	apply_movement obj_player, _0468
 	wait_movement
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _02F3
 	set_avatar_bits PLAYER_TRANSITION_ROCKET
 	goto _02F7
@@ -267,7 +268,7 @@ _0364:
 	apply_movement obj_player, _0468
 	wait_movement
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _0391
 	set_avatar_bits PLAYER_TRANSITION_ROCKET
 	goto _0395
@@ -275,10 +276,10 @@ _0364:
 _0391:
 	set_avatar_bits PLAYER_TRANSITION_WALKING
 _0395:
-	update_avatar_state
 	get_party_lead_alive VAR_SPECIAL_x8009
 	compare VAR_SPECIAL_x8008, VAR_SPECIAL_x8009
 	goto_if_eq _03D4
+	update_avatar_state
 	wait 15, VAR_SPECIAL_x800A
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -335,22 +336,22 @@ _0445:
 	setvar VAR_SPECIAL_x8004, 1
 	goto _01AA
 
+.align 4
 
 _0454:
-
 	step 100, 1
 	step 62, 1
 	step_end
 
 _0460:
-
 	step 102, 1
 	step_end
 
 _0468:
-
 	step 104, 1
 	step_end
+
+
 scr_seq_0003_069:
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -420,7 +421,7 @@ _0574:
 _057A:
 	play_fanfare SEQ_ME_HYOUKA2
 	return
-
+	.byte 0x15, 0x00, 0x02, 0x00
 scr_seq_0003_003:
 	scrcmd_609
 	lockall
@@ -568,7 +569,7 @@ _074C:
 _0757:
 	npc_msg 21
 	goto _06F2
-
+	.byte 0x02, 0x00
 _0762:
 	save_wipe_extra_chunks
 	clearflag FLAG_MAPTEMP_020
@@ -577,13 +578,13 @@ _0762:
 _076A:
 	npc_msg 15
 	goto _06F2
-
+	.byte 0x02, 0x00
 _0775:
 	scrcmd_642 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0757
 	goto _076A
-
+	.byte 0x02, 0x00
 scr_seq_0003_007:
 	call _07AA
 	npc_msg 32
@@ -654,7 +655,7 @@ _0851:
 	wait_button_or_walk_away
 	return
 
-scr_seq_0003_033:
+scr_seq_0003_033_give_item_verbose:
 	call _085F
 	endstd
 	end
@@ -796,7 +797,7 @@ _0A2E:
 	goto_if_set FLAG_GAME_CLEAR, _0A8C
 	goto_if_unset FLAG_GAME_CLEAR, _0AD1
 	goto _0AD1
-
+	.byte 0x02, 0x00
 _0A78:
 	menu_item_add 61, 255, 0
 	return
@@ -838,7 +839,8 @@ _0B17:
 	menu_item_add 70, 79, 3
 	menu_item_add 72, 81, 5
 	return
-
+	.byte 0x46, 0x00, 0x47, 0x00, 0x50, 0x00, 0x04
+	.byte 0x00, 0x1b, 0x00
 _0B53:
 	menu_exec
 	switch VAR_SPECIAL_RESULT
@@ -1063,14 +1065,15 @@ scr_seq_0003_012:
 	closemsg
 	releaseall
 	end
-
+	.byte 0x2d
+	.byte 0x00, 0x2a, 0x1b, 0x00, 0x2d, 0x00, 0x2b, 0x1b, 0x00
 scr_seq_0003_013:
 	scrcmd_609
 	lockall
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _0ED4
 	set_avatar_bits PLAYER_TRANSITION_ROCKET_HEAL
 	goto _0ED8
@@ -1091,7 +1094,7 @@ _0ED8:
 	apply_movement obj_player, _0468
 	wait_movement
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _0F2E
 	set_avatar_bits PLAYER_TRANSITION_ROCKET
 	goto _0F32
@@ -1112,7 +1115,7 @@ _0F49:
 	apply_movement obj_player, _0468
 	wait_movement
 	get_player_state VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
+	compare VAR_SPECIAL_RESULT, PLAYER_STATE_ROCKET
 	goto_if_ne _0F6E
 	set_avatar_bits PLAYER_TRANSITION_ROCKET
 	goto _0F72
@@ -1188,26 +1191,27 @@ _104A:
 	setvar VAR_SPECIAL_x8007, 3
 	return
 
+.align 4
 
 _1054:
-
 	step 0, 1
 	step_end
 
 _105C:
-
 	step 1, 1
 	step_end
 
 _1064:
-
 	step 2, 1
 	step_end
+	.byte 0x00, 0x00, 0x01, 0x00
+	.byte 0xfe, 0x00, 0x00, 0x00, 0x03, 0x00, 0x01, 0x00, 0xfe, 0x00, 0x00, 0x00
 
 _107C:
-
 	step 1, 1
 	step_end
+
+
 scr_seq_0003_015:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1302,6 +1306,24 @@ scr_seq_0003_022:
 	releaseall
 	end
 
+scr_seq_0003_072_repels:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 118
+	yesno VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq scr_seq_0003_072_end
+	QueueNewRepel
+	PlayFanfare SEQ_SE_DP_CARD2
+	buffer_players_name 0
+	buffer_item_name 1, VAR_SPECIAL_RESULT
+	npc_msg 119
+	wait_button_or_walk_away
+scr_seq_0003_072_end:
+	closemsg
+	releaseall
+	end
+
 scr_seq_0003_023:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1354,7 +1376,7 @@ _126D:
 _1277:
 	npc_msg 108
 	goto _126D
-
+	.byte 0x02, 0x00
 scr_seq_0003_025:
 	simple_npc_msg 68
 	end
@@ -1367,7 +1389,8 @@ scr_seq_0003_028:
 	lockall
 	releaseall
 	end
-
+	.byte 0x2d
+	.byte 0x00, 0x58, 0x32, 0x00, 0x35, 0x00, 0x61, 0x00, 0x02, 0x00, 0x35, 0x00, 0x61, 0x00, 0x02, 0x00
 scr_seq_0003_029:
 	stop_bgm 0
 	get_player_gender VAR_SPECIAL_RESULT
@@ -1486,7 +1509,7 @@ scr_seq_0003_040:
 	setflag FLAG_GOT_ALL_FOUR_FRONTIER_PRINTS
 	add_special_game_stat_2 31
 	goto _13F6
-
+	.byte 0x02, 0x00
 _13F6:
 	endstd
 	end
@@ -1522,7 +1545,7 @@ _1444:
 
 scr_seq_0003_048:
 	goto _145E
-
+	.byte 0x02, 0x00
 _145E:
 	touchscreen_menu_hide
 	menu_init_std_gmm 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -1539,11 +1562,11 @@ _145E:
 scr_seq_0003_049:
 	mart_buy VAR_SPECIAL_x8004
 	goto _14DD
-
+	.byte 0x02, 0x00
 scr_seq_0003_050:
 	mart_sell
 	goto _14DD
-
+	.byte 0x02, 0x00
 scr_seq_0003_051:
 	touchscreen_menu_show
 	get_std_msg_naix 3, VAR_SPECIAL_RESULT
@@ -1558,10 +1581,10 @@ _14DD:
 	msgbox_extern VAR_SPECIAL_RESULT, 6
 	holdmsg
 	goto _145E
-
+	.byte 0x02, 0x00
 scr_seq_0003_052:
 	goto _14FB
-
+	.byte 0x02, 0x00
 _14FB:
 	touchscreen_menu_hide
 	menu_init_std_gmm 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -1578,11 +1601,11 @@ _14FB:
 scr_seq_0003_053:
 	special_mart_buy VAR_SPECIAL_x8004
 	goto _15A6
-
+	.byte 0x02, 0x00
 scr_seq_0003_054:
 	mart_sell
 	goto _15A6
-
+	.byte 0x02, 0x00
 scr_seq_0003_055:
 	touchscreen_menu_show
 	goto_if_set FLAG_SPECIAL_MART_PHARMACY, _15E8
@@ -1607,7 +1630,7 @@ _15A6:
 _15DE:
 	holdmsg
 	goto _14FB
-
+	.byte 0x02, 0x00
 _15E8:
 	get_std_msg_naix 3, VAR_SPECIAL_RESULT
 	msgbox_extern VAR_SPECIAL_RESULT, 2
@@ -1719,7 +1742,9 @@ scr_seq_0003_064:
 	closemsg
 	releaseall
 	end
-	.align 4
+
+
+
 
 
 .close
