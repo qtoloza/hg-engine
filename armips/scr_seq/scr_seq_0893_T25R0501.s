@@ -199,8 +199,8 @@ _023F:
 	goto_if_set 16232, _0345
 	npc_msg 13
 	npc_msg 14
-	giveitem_no_check ITEM_DEEPSEATOOTH, 1
-	giveitem_no_check ITEM_DEEPSEASCALE, 1
+	giveitem_no_check ITEM_DEEP_SEA_TOOTH, 1
+	giveitem_no_check ITEM_DEEP_SEA_CALE, 1
 	setflag 16232
 	npc_msg 18
 	wait_button_or_walk_away

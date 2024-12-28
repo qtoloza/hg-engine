@@ -1215,10 +1215,7 @@ _12CB:
 	wait 2, 94
 
 _12DF:
-
-_12DF:
 	apply_movement obj_partner_poke, _153E
-
 	get_save_file_state 599
 	snop
 	apply_movement 241, _14A0
@@ -1234,6 +1231,11 @@ _12F7:
 	wait 2, 13
 	end
 
+
+_130E:
+
+	step 13, 2
+	step_end
 
 _1314:
 
