@@ -424,7 +424,7 @@ _0631:
 	fade_screen 8, 1, 0, RGB_BLACK
 	wait_fade
 	hide_person obj_T25R0201_suit
-	fade_screen 8, 1, 1, RGB(10, 0, 0)
+	fade_screen 8, 1, 1, RGB_BLACK
 	wait_fade
 	releaseall
 	end

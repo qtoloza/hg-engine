@@ -297,7 +297,7 @@ _034F:
 	fade_screen 8, 1, 0, RGB_BLACK
 	wait_fade
 	hide_person obj_P01R0301_gsassistantm
-	fade_screen 8, 1, 1, RGB(10, 0, 0)
+	fade_screen 8, 1, 1, RGB_BLACK
 	wait_fade
 	releaseall
 	end
