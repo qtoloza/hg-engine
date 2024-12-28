@@ -136,7 +136,7 @@ _01BE:
 
 _01D7:
 	npc_msg 16
-	giveitem_no_check ITEM_THUNDERSTONE, 1
+	giveitem_no_check ITEM_THUNDER_STONE, 1
 	goto _0276
 
 _01F0:

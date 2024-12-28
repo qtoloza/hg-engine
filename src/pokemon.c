@@ -1516,12 +1516,13 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
     SetBoxMonData(boxmon,MON_DATA_POKEBALL,(u8 *)&i);
 
     // if(pow <= MAX_IVS){
-    SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&MAX_IVS);
-    SetBoxMonData(boxmon,MON_DATA_ATK_IV,(u8 *)&MAX_IVS);
-    SetBoxMonData(boxmon,MON_DATA_DEF_IV,(u8 *)&MAX_IVS);
-    SetBoxMonData(boxmon,MON_DATA_SPEED_IV,(u8 *)&MAX_IVS);
-    SetBoxMonData(boxmon,MON_DATA_SPATK_IV,(u8 *)&MAX_IVS);
-    SetBoxMonData(boxmon,MON_DATA_SPDEF_IV,(u8 *)&MAX_IVS);
+    pow=MAX_IVS;
+    SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&pow);
+    SetBoxMonData(boxmon,MON_DATA_ATK_IV,(u8 *)&pow);
+    SetBoxMonData(boxmon,MON_DATA_DEF_IV,(u8 *)&pow);
+    SetBoxMonData(boxmon,MON_DATA_SPEED_IV,(u8 *)&pow);
+    SetBoxMonData(boxmon,MON_DATA_SPATK_IV,(u8 *)&pow);
+    SetBoxMonData(boxmon,MON_DATA_SPDEF_IV,(u8 *)&pow);
     // }
     // else{ // why the fuck is it done like this
     //     i=gf_rand();
