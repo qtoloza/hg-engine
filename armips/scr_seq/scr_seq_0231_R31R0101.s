@@ -98,7 +98,7 @@ _0119:
 _0138:
 	wait_movement
 	buffer_players_name 0
-	buffer_players_name 0
+	buffer_players_name 0 ; why is this necessary?
 	gender_msgbox 2, 3
 	giveitem_no_check ITEM_VS_RECORDER, 1
 	gender_msgbox 4, 5

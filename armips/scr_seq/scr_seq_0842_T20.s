@@ -157,7 +157,7 @@ scr_seq_T20_008:
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	buffer_players_name 0
-	buffer_players_name 0
+	buffer_players_name 0 ; why is this necessary?
 	gender_msgbox 15, 16
 	closemsg
 	apply_movement obj_T20_var_1, _1D88

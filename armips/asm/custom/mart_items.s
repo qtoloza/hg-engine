@@ -26,6 +26,9 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ULTRA_BALL
 .halfword THREE_BADGES
 
+.halfword ITEM_MASTER_BALL
+.halfword EIGHT_BADGES
+
 .halfword ITEM_POTION
 .halfword ZERO_BADGES
 
