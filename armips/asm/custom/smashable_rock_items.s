@@ -7,18 +7,6 @@
 
 .open "base/overlay/overlay_0001.bin", 0x021E5900
 
-/* Ruins of Alph Table */
-.org 0x02209604
-
-.halfword ITEM_HELIX_FOSSIL
-.halfword ITEM_DOME_FOSSIL
-.halfword ITEM_ROOT_FOSSIL
-.halfword ITEM_CLAW_FOSSIL
-.halfword ITEM_ARMOR_FOSSIL
-.halfword ITEM_SKULL_FOSSIL
-.halfword ITEM_OLD_AMBER
-.halfword ITEM_DOME_FOSSIL
-
 /* Cliff Cave Table */
 .org 0x02209624
 

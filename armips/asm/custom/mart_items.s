@@ -163,7 +163,7 @@ EIGHT_BADGES equ 6
 /* Goldenrod Herb Shop */
 .org 0x020FBACA
 .halfword ITEM_HEAL_POWDER
-.halfword ITEM_ENERGYPOWDER
+.halfword ITEM_ENERGY_POWDER
 .halfword ITEM_ENERGY_ROOT
 .halfword ITEM_REVIVAL_HERB
 .halfword 0xFFFF
@@ -193,7 +193,7 @@ EIGHT_BADGES equ 6
 
 /* Mahogany Town Shop - Before Team Rocket */
 .org 0x020FBAB8
-.halfword ITEM_TINYMUSHROOM
+.halfword ITEM_TINY_MUSHROOM
 .halfword ITEM_POKE_BALL
 .halfword ITEM_POTION
 .halfword 0xFFFF
