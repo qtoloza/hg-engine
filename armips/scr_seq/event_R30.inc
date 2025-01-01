@@ -17,7 +17,7 @@
 .equ obj_R30_gsman1, 0
 .equ obj_R30_gsgirl2, 1
 .equ obj_R30_tree, 2
-.equ obj_R30_gsboy3, 3
+.equ obj_R30_gsboy3_2, 3
 .equ obj_R30_gsboy2, 4
 .equ obj_R30_gsboy2_3, 5
 .equ obj_R30_follower_mon_static_rattata, 6
