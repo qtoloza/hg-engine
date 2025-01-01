@@ -15,6 +15,6 @@
 .equ obj_R37_bonguri_2, 5
 .equ obj_R37_bonguri_3, 6
 .equ obj_R37_gswoman2, 7
-.equ obj_R37_gswoman2, 8
+.equ obj_R37_gswoman2_2, 8
 
 .endif //SCR_SEQ_R37_H_

@@ -22,7 +22,7 @@
 .equ obj_R32_fishing_2_2, 6
 .equ obj_R32_fishing_2_3, 7
 .equ obj_R32_campboy_2, 8
-.equ obj_R32_gsboy2, 9
+.equ obj_R32_gsboy2_2, 9
 .equ obj_R32_gsbigman_2, 10
 .equ obj_R32_gsman2, 11
 .equ obj_R32_monstarball, 12
