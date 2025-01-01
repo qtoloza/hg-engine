@@ -324,7 +324,7 @@ _03E2:
 	clearflag FLAG_UNK_2EF
 	end
 
-
+	.align 4
 _03E8:
 
 	step 1, 2
@@ -345,57 +345,57 @@ _03E8:
 	step 3, 1
 	step 69, 0
 	step_end
-
+	.align 4
 _042E:
 
 	step 2, 1
 	step 75, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _043C:
 
 	step 63, 5
 	step 3, 1
 	step_end
-
+	.align 4
 _0446:
 
 	step 2, 1
 	step 75, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _0454:
 
 	step 63, 4
 	step 3, 1
 	step_end
-
+	.align 4
 _045E:
 
 	step 15, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _0468:
 
 	step 2, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _0472:
 
 	step 63, 2
 	step 3, 1
 	step_end
-
+	.align 4
 _047C:
 
 	step 15, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0486:
 
 	step 1, 1

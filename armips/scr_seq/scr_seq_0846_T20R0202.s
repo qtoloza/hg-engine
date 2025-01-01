@@ -202,12 +202,12 @@ _024C:
 	releaseall
 	end
 
-
+	.align 4
 _0256:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _025C:
 
 	step 33, 3

@@ -270,22 +270,22 @@ _041E:
 	releaseall
 	end
 
-
+	.align 4
 _0434:
 
 	step 48, 2
 	step_end
-
+	.align 4
 _043C:
 
 	step 49, 2
 	step_end
-
+	.align 4
 _0444:
 
 	step 50, 2
 	step_end
-
+	.align 4
 _044C:
 
 	step 51, 2

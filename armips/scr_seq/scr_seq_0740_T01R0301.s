@@ -766,69 +766,69 @@ _0AAF:
 	setvar VAR_SCENE_EMBEDDED_TOWER, 1
 	return
 
-
+	.align 4
 _0AC6:
 
 	step 12, 5
 	step_end
-
+	.align 4
 _0ACC:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _0AD2:
 
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0ADC:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _0AE2:
 
 	step 33, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0AEC:
 
 	step 34, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0AF6:
 
 	step 13, 1
 	step 14, 3
 	step_end
-
+	.align 4
 _0B00:
 
 	step 35, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0B0A:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _0B10:
 
 	step 13, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _0B1A:
 
 	step 32, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0B24:
 
 	step 13, 1

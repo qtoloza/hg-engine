@@ -283,28 +283,28 @@ _032A:
 	releaseall
 	end
 
-
+	.align 4
 _036C:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0372:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _0378:
 
 	step 78, 5
 	step 77, 10
 	step_end
-
+	.align 4
 _0382:
 
 	step 77, 10
 	step_end
-
+	.align 4
 _0388:
 
 	step 3, 1

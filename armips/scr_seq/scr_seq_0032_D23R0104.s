@@ -185,13 +185,13 @@ _0209:
 	releaseall
 	end
 
-
+	.align 4
 _0210:
 
 	step 75, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _021C:
 
 	step 75, 1

@@ -107,14 +107,14 @@ _00E8:
 	releaseall
 	end
 
-
+	.align 4
 _00F4:
 
 	step 12, 1
 	step 15, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _0104:
 
 	step 13, 1

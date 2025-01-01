@@ -754,64 +754,64 @@ _0ACE:
 	setvar VAR_ROCKET_TRAP_GEODUDE_5, 1
 	end
 
-
+	.align 4
 _0BC6:
 
 	step 15, 5
 	step 12, 4
 	step_end
-
+	.align 4
 _0BD0:
 
 	step 15, 11
 	step_end
-
+	.align 4
 _0BD6:
 
 	step 61, 1
 	step 15, 11
 	step_end
-
+	.align 4
 _0BE0:
 
 	step 50, 2
 	step_end
-
+	.align 4
 _0BE6:
 
 	step 3, 1
 	step 51, 1
 	step 19, 5
 	step_end
-
+	.align 4
 _0BF4:
 
 	step 51, 2
 	step_end
-
+	.align 4
 _0BFA:
 
 	step 2, 1
 	step 50, 1
 	step 18, 10
 	step_end
-
+	.align 4
 _0C08:
 
 	step 48, 2
 	step_end
-
+	.align 4
 _0C0E:
 
 	step 14, 2
 	step_end
-
+	.align 4
 _0C14:
 
 	step 63, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _0C1E:
 
 	step 48, 2
@@ -822,29 +822,29 @@ _0C1E:
 	step 17, 1
 	step 18, 10
 	step_end
-
+	.align 4
 _0C3C:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0C42:
 
 	step 13, 5
 	step 35, 1
 	step_end
-
+	.align 4
 _0C4C:
 
 	step 14, 1
 	step_end
-
+	.align 4
 _0C52:
 
 	step 75, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0C5C:
 
 	step 48, 2
@@ -852,7 +852,7 @@ _0C5C:
 	step 63, 1
 	step 18, 12
 	step_end
-
+	.align 4
 _0C6E:
 
 	step 13, 2
@@ -860,51 +860,51 @@ _0C6E:
 	step 13, 3
 	step 35, 1
 	step_end
-
+	.align 4
 _0C80:
 
 	step 63, 1
 	step 16, 6
 	step 34, 1
 	step_end
-
+	.align 4
 _0C8E:
 
 	step 63, 2
 	step 16, 3
 	step_end
-
+	.align 4
 _0C98:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0C9E:
 
 	step 19, 10
 	step_end
-
+	.align 4
 _0CA4:
 
 	step 62, 1
 	step 19, 10
 	step_end
-
+	.align 4
 _0CAE:
 
 	step 51, 1
 	step_end
-
+	.align 4
 _0CB4:
 
 	step 18, 1
 	step_end
-
+	.align 4
 _0CBA:
 
 	step 16, 1
 	step_end
-
+	.align 4
 _0CC0:
 
 	step 16, 2
@@ -912,24 +912,24 @@ _0CC0:
 	step 17, 2
 	step 2, 1
 	step_end
-
+	.align 4
 _0CD2:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _0CD8:
 
 	step 61, 1
 	step 15, 2
 	step_end
-
+	.align 4
 _0CE2:
 
 	step 63, 4
 	step 12, 5
 	step_end
-
+	.align 4
 _0CEC:
 
 	step 12, 6
@@ -943,7 +943,7 @@ _0CEC:
 	step 63, 2
 	step 35, 1
 	step_end
-
+	.align 4
 _0D16:
 
 	step 61, 1
@@ -954,20 +954,20 @@ _0D16:
 	step 63, 4
 	step 14, 4
 	step_end
-
+	.align 4
 _0D34:
 
 	step 14, 2
 	step 33, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0D42:
 
 	step 62, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _0D4C:
 
 	step 61, 1
@@ -975,53 +975,53 @@ _0D4C:
 	step 12, 1
 	step 14, 5
 	step_end
-
+	.align 4
 _0D5E:
 
 	step 15, 6
 	step_end
-
+	.align 4
 _0D64:
 
 	step 61, 1
 	step 14, 1
 	step 15, 5
 	step_end
-
+	.align 4
 _0D72:
 
 	step 13, 2
 	step 15, 10
 	step_end
-
+	.align 4
 _0D7C:
 
 	step 13, 4
 	step 15, 10
 	step_end
-
+	.align 4
 _0D86:
 
 	step 14, 8
 	step_end
-
+	.align 4
 _0D8C:
 
 	step 61, 1
 	step 14, 8
 	step_end
-
+	.align 4
 _0D96:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _0D9C:
 
 	step 17, 6
 	step 18, 12
 	step_end
-
+	.align 4
 _0DA6:
 
 	step 62, 1
@@ -1029,7 +1029,7 @@ _0DA6:
 	step 17, 6
 	step 18, 12
 	step_end
-
+	.align 4
 _0DB8:
 
 	step 13, 6

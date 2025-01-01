@@ -249,17 +249,17 @@ _02D9:
 _02DF:
 	end
 
-
+	.align 4
 _02E1:
 
 	step 256, 65024
 	step 8960, 256
-
+	.align 4
 _02E7:
 
 	step 256, 65024
 	step 8448, 256
-
+	.align 4
 _02ED:
 
 	step 256, 65024

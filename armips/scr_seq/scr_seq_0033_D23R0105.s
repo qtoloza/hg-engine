@@ -169,49 +169,49 @@ _022B:
 	simple_npc_msg 5
 	end
 
-
+	.align 4
 _0240:
 
 	step 2, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _024C:
 
 	step 3, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _0258:
 
 	step 1, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _0264:
 
 	step 71, 1
 	step 19, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _0274:
 
 	step 71, 1
 	step 18, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _0284:
 
 	step 18, 1
 	step_end
-
+	.align 4
 _028C:
 
 	step 19, 1
 	step_end
-
+	.align 4
 _0294:
 
 	step 1, 1
@@ -221,7 +221,7 @@ _0294:
 	step 1, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _02B0:
 
 	step 2, 1
@@ -230,7 +230,7 @@ _02B0:
 	step 1, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _02C8:
 
 	step 0, 1
@@ -242,7 +242,7 @@ _02C8:
 	step 1, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _0310:
 
 	step 3, 1
@@ -251,7 +251,7 @@ _0310:
 	step 0, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0328:
 
 	step 3, 1
@@ -261,7 +261,7 @@ _0328:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0344:
 
 	step 3, 1

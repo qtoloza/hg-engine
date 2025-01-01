@@ -174,7 +174,7 @@ _021D:
 	releaseall
 	end
 
-
+	.align 4
 _0234:
 
 	step 15, 1
@@ -183,13 +183,13 @@ _0234:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _024C:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0258:
 
 	step 12, 1
@@ -197,7 +197,7 @@ _0258:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _026C:
 
 	step 12, 1
@@ -205,13 +205,13 @@ _026C:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0280:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _028C:
 
 	step 15, 1
@@ -955,7 +955,7 @@ scr_seq_D32_033:
 	releaseall
 	end
 
-
+	.align 4
 _10B0:
 
 	step 18, 5
@@ -975,7 +975,7 @@ scr_seq_D32_034:
 	releaseall
 	end
 
-
+	.align 4
 _10F4:
 
 	step 18, 6
@@ -995,7 +995,7 @@ scr_seq_D32_035:
 	releaseall
 	end
 
-
+	.align 4
 _1138:
 
 	step 19, 5
@@ -1015,7 +1015,7 @@ scr_seq_D32_036:
 	releaseall
 	end
 
-
+	.align 4
 _117C:
 
 	step 19, 6

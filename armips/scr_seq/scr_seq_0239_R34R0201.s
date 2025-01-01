@@ -116,7 +116,7 @@ _0116:
 	releaseall
 	end
 
-
+	.align 4
 _0120:
 
 	step 12, 1

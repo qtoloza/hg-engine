@@ -270,19 +270,19 @@ _0328:
 _032E:
 	goto _018A
 
-
+	.align 4
 _0334:
 
 	step 75, 1
 	step 12, 3
 	step_end
-
+	.align 4
 _033E:
 
 	step 13, 3
 	step 32, 1
 	step_end
-
+	.align 4
 _0348:
 
 	step 63, 1

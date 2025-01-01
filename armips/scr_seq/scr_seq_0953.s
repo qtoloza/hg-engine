@@ -1716,7 +1716,7 @@ _0EB3:
 	scrcmd_109 VAR_SPECIAL_LAST_TALKED, 16
 	return
 
-
+	.align 4
 _0EBC:
 
 	step 101, 1

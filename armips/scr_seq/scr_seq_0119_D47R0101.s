@@ -134,40 +134,40 @@ _017E:
 	releaseall
 	end
 
-
+	.align 4
 _01B4:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _01BC:
 
 	step 13, 2
 	step 14, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _01DC:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _01E4:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _01EC:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _01F4:
 
 	step 63, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0200:
 
 	step 0, 1
@@ -249,7 +249,7 @@ scr_seq_D47R0101_009:
 	releaseall
 	end
 
-
+	.align 4
 _0310:
 
 	step 1, 1
@@ -257,14 +257,14 @@ _0310:
 	step 65, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _0324:
 
 	step 12, 2
 	step 15, 3
 	step 12, 1
 	step_end
-
+	.align 4
 _0334:
 
 	step 13, 2
@@ -273,7 +273,7 @@ _0334:
 	step 75, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _034C:
 
 	step 14, 2
@@ -281,14 +281,14 @@ _034C:
 	step 15, 4
 	step 1, 1
 	step_end
-
+	.align 4
 _0360:
 
 	step 12, 4
 	step 15, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _0370:
 
 	step 13, 2
@@ -296,26 +296,26 @@ _0370:
 	step 13, 2
 	step 2, 1
 	step_end
-
+	.align 4
 _03B8:
 
 	step 65, 1
 	step 12, 3
 	step 3, 1
 	step_end
-
+	.align 4
 _03C8:
 
 	step 12, 2
 	step 15, 4
 	step 12, 1
 	step_end
-
+	.align 4
 _03D8:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _03E0:
 
 	step 65, 1
@@ -324,18 +324,18 @@ _03E0:
 	step 13, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _03F8:
 
 	step 15, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _0404:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _040C:
 
 	step 65, 3
@@ -662,13 +662,13 @@ _08B7:
 	scrcmd_309 77
 	return
 
-
+	.align 4
 _08C4:
 
 	step 15, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _08D0:
 
 	step 12, 4

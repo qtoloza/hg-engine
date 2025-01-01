@@ -352,12 +352,12 @@ _043E:
 	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
 	end
 
-
+	.align 4
 _0444:
 
 	step 21, 5
 	step_end
-
+	.align 4
 _044A:
 
 	step 71, 1
@@ -365,30 +365,30 @@ _044A:
 	step 63, 2
 	step 17, 2
 	step_end
-
+	.align 4
 _045C:
 
 	step 75, 1
 	step 71, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _046A:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _0470:
 
 	step 17, 1
 	step_end
-
+	.align 4
 _0476:
 
 	step 18, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0480:
 
 	step 18, 1

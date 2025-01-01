@@ -203,7 +203,7 @@ scr_seq_R22_003:
 	releaseall
 	end
 
-
+	.align 4
 _02CC:
 
 	step 75, 1
@@ -211,7 +211,7 @@ _02CC:
 	step 35, 1
 	step 65, 1
 	step_end
-
+	.align 4
 _02E0:
 
 	step 16, 2
@@ -221,25 +221,25 @@ _02E0:
 	step 35, 1
 	step 65, 1
 	step_end
-
+	.align 4
 _02FC:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0304:
 
 	step 13, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _0310:
 
 	step 12, 2
 	step 14, 2
 	step 12, 1
 	step_end
-
+	.align 4
 _0320:
 
 	step 34, 1
@@ -248,7 +248,7 @@ _0320:
 	step 65, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0338:
 
 	step 75, 1
@@ -257,7 +257,7 @@ _0338:
 	step 15, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _0350:
 
 	step 1, 1
@@ -266,7 +266,7 @@ _0350:
 	step 52, 1
 	step 71, 1
 	step_end
-
+	.align 4
 _037C:
 
 	step 32, 1
@@ -278,14 +278,14 @@ _037C:
 	step 65, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _03A0:
 
 	step 12, 5
 	step 14, 2
 	step 12, 2
 	step_end
-
+	.align 4
 _03B0:
 
 	step 62, 1
@@ -293,41 +293,41 @@ _03B0:
 	step 53, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _03C4:
 
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _03D0:
 
 	step 65, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _03DC:
 
 	step 12, 5
 	step 14, 2
 	step_end
-
+	.align 4
 _03E8:
 
 	step 19, 2
 	step 17, 4
 	step_end
-
+	.align 4
 _03F4:
 
 	step 14, 1
 	step_end
-
+	.align 4
 _03FC:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0404:
 
 	step 66, 1
@@ -337,35 +337,35 @@ _0404:
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0420:
 
 	step 17, 2
 	step 65, 1
 	step_end
-
+	.align 4
 _042C:
 
 	step 19, 1
 	step 17, 8
 	step_end
-
+	.align 4
 _0438:
 
 	step 35, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0444:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _044C:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0454:
 
 	step 14, 6
@@ -455,7 +455,7 @@ _0598:
 	releaseall
 	end
 
-
+	.align 4
 _05AC:
 
 	step 15, 1
@@ -464,13 +464,13 @@ _05AC:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05C4:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05D0:
 
 	step 12, 1
@@ -478,7 +478,7 @@ _05D0:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05E4:
 
 	step 12, 1
@@ -486,13 +486,13 @@ _05E4:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05F8:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0604:
 
 	step 15, 1

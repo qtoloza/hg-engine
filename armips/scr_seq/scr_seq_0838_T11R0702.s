@@ -655,18 +655,18 @@ _0934:
 	hide_person obj_T11R0702_rotomg
 	return
 
-
+	.align 4
 _093A:
 
 	step 70, 1
 	step_end
-
+	.align 4
 _0940:
 
 	step 45, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _094A:
 
 	step 1, 2

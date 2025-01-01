@@ -260,14 +260,14 @@ _0346:
 	releaseall
 	end
 
-
+	.align 4
 _0384:
 
 	step 75, 1
 	step 63, 2
 	step 1, 2
 	step_end
-
+	.align 4
 _0392:
 
 	step 16, 3
@@ -276,7 +276,7 @@ _0392:
 	step 0, 2
 	step 16, 3
 	step_end
-
+	.align 4
 _03A8:
 
 	step 16, 3
@@ -285,25 +285,25 @@ _03A8:
 	step 0, 2
 	step 16, 3
 	step_end
-
+	.align 4
 _03BE:
 
 	step 9, 1
 	step_end
-
+	.align 4
 _03C4:
 
 	step 40, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _03CE:
 
 	step 62, 3
 	step 20, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _03DC:
 
 	step 16, 3
@@ -312,7 +312,7 @@ _03DC:
 	step 0, 2
 	step 16, 3
 	step_end
-
+	.align 4
 _03F2:
 
 	step 1, 2
@@ -322,20 +322,20 @@ _03F2:
 	step 1, 2
 	step 13, 7
 	step_end
-
+	.align 4
 _040C:
 
 	step 41, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0416:
 
 	step 62, 3
 	step 21, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _0424:
 
 	step 1, 2
@@ -345,20 +345,20 @@ _0424:
 	step 1, 2
 	step 13, 7
 	step_end
-
+	.align 4
 _0444:
 
 	step 43, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _044E:
 
 	step 62, 3
 	step 23, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _045C:
 
 	step 1, 2
@@ -368,13 +368,13 @@ _045C:
 	step 1, 2
 	step 13, 7
 	step_end
-
+	.align 4
 _0476:
 
 	step 42, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0480:
 
 	step 62, 3

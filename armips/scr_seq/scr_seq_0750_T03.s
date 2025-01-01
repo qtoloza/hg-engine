@@ -620,24 +620,24 @@ _0864:
 	clearflag FLAG_HIDE_STEVEN_IN_HOUSE_AFTER_LATIS
 	return
 
-
+	.align 4
 _086A:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0874:
 
 	step 13, 4
 	step 2, 1
 	step_end
-
+	.align 4
 _087E:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _0884:
 
 	step 12, 1
@@ -645,25 +645,25 @@ _0884:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0896:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _08A0:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _08AE:
 
 	step 14, 3
 	step_end
-
+	.align 4
 _08B4:
 
 	step 12, 1
@@ -671,30 +671,30 @@ _08B4:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _08C6:
 
 	step 13, 2
 	step 14, 1
 	step_end
-
+	.align 4
 _08D0:
 
 	step 63, 1
 	step 15, 2
 	step 63, 1
 	step_end
-
+	.align 4
 _08DE:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _08E4:
 
 	step 15, 8
 	step_end
-
+	.align 4
 _08EA:
 
 	step 75, 1

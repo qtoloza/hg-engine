@@ -787,7 +787,7 @@ _0BBC:
 	clearflag FLAG_UNK_288
 	end
 
-
+	.align 4
 _0BC2:
 
 	step 15, 1
@@ -796,26 +796,26 @@ _0BC2:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0BD8:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0BE2:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0BEC:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0BFA:
 
 	step 0, 1
@@ -843,7 +843,7 @@ _0BFA:
 	step 0, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0C5C:
 
 	step 12, 1
@@ -851,7 +851,7 @@ _0C5C:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0C6E:
 
 	step 13, 1
@@ -861,7 +861,7 @@ _0C6E:
 	step 12, 2
 	step 33, 1
 	step_end
-
+	.align 4
 _0C88:
 
 	step 12, 1

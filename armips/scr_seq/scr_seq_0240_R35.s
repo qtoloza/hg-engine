@@ -290,7 +290,7 @@ _03C2:
 	releaseall
 	end
 
-
+	.align 4
 _03C8:
 
 	step 12, 1
@@ -298,26 +298,26 @@ _03C8:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _03DA:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _03E4:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _03EE:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _03FC:
 
 	step 12, 1

@@ -132,7 +132,7 @@ _0157:
 	releaseall
 	end
 
-
+	.align 4
 _0164:
 
 	step 1, 1
@@ -144,7 +144,7 @@ _0164:
 	step 0, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0188:
 
 	step 0, 1
@@ -156,7 +156,7 @@ _0188:
 	step 1, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _01AC:
 
 	step 2, 1
@@ -168,7 +168,7 @@ _01AC:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _01D0:
 
 	step 3, 1
@@ -273,7 +273,7 @@ _0353:
 	releaseall
 	end
 
-
+	.align 4
 _035C:
 
 	step 32, 1

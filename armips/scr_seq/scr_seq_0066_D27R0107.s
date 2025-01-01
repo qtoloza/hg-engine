@@ -187,22 +187,22 @@ _01DA:
 	releaseall
 	end
 
-
+	.align 4
 _01FA:
 
 	step 31, 1
 	step_end
-
+	.align 4
 _0200:
 
 	step 30, 1
 	step_end
-
+	.align 4
 _0206:
 
 	step 50, 3
 	step_end
-
+	.align 4
 _020C:
 
 	step 0, 1
@@ -213,7 +213,7 @@ _020C:
 	step 62, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _022A:
 
 	step 63, 1
@@ -222,7 +222,7 @@ _022A:
 	step 33, 1
 	step 13, 1
 	step_end
-
+	.align 4
 _0240:
 
 	step 2, 1
@@ -233,7 +233,7 @@ _0240:
 	step 62, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _025E:
 
 	step 63, 1
@@ -242,7 +242,7 @@ _025E:
 	step 33, 1
 	step 65, 1
 	step_end
-
+	.align 4
 _0274:
 
 	step 14, 1

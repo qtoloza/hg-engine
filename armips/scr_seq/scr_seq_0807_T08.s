@@ -844,23 +844,23 @@ _0E34:
 	case 3, _0D04
 	goto _0DA8
 
-
+	.align 4
 _0EDE:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0EE8:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0EEE:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _0EF4:
 
 	step 12, 1
@@ -868,20 +868,20 @@ _0EF4:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0F06:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0F10:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0F1E:
 
 	step 3, 1
@@ -901,7 +901,7 @@ _0F1E:
 	step 2, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0F60:
 
 	step 0, 1
@@ -921,7 +921,7 @@ _0F60:
 	step 1, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0FA2:
 
 	step 1, 1

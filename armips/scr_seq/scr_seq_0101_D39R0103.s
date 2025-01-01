@@ -100,7 +100,7 @@ _00EF:
 	releaseall
 	end
 
-
+	.align 4
 _00FE:
 
 	step 68, 1

@@ -145,14 +145,14 @@ _0178:
 	releaseall
 	end
 
-
+	.align 4
 _0188:
 
 	step 75, 1
 	step 63, 1
 	step 0, 2
 	step_end
-
+	.align 4
 _0196:
 
 	step 75, 1

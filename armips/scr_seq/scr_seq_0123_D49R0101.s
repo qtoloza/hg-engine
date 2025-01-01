@@ -58,17 +58,17 @@ scr_seq_D49R0101_023:
 	setflag FLAG_SYS_FLYPOINT_POKEATHLON
 	end
 
-
+	.align 4
 _0070:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0078:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _0080:
 
 	step 32, 1
@@ -163,7 +163,7 @@ _01E1:
 	setvar VAR_UNK_40E2, 1
 	end
 
-
+	.align 4
 _0200:
 
 	step 71, 1
@@ -172,7 +172,7 @@ _0200:
 	step 65, 2
 	step 18, 1
 	step_end
-
+	.align 4
 _0218:
 
 	step 71, 1
@@ -181,38 +181,38 @@ _0218:
 	step 65, 2
 	step 16, 1
 	step_end
-
+	.align 4
 _0230:
 
 	step 75, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _023C:
 
 	step 75, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0248:
 
 	step 23, 1
 	step 76, 10
 	step 34, 1
 	step_end
-
+	.align 4
 _0258:
 
 	step 76, 9
 	step_end
-
+	.align 4
 _0260:
 
 	step 61, 1
 	step 63, 8
 	step 35, 1
 	step_end
-
+	.align 4
 _0270:
 
 	step 33, 1
@@ -230,7 +230,7 @@ _0270:
 	step 17, 6
 	step 18, 6
 	step_end
-
+	.align 4
 _02AC:
 
 	step 19, 7
@@ -248,7 +248,7 @@ _02AC:
 	step 17, 6
 	step 18, 6
 	step_end
-
+	.align 4
 _02E8:
 
 	step 19, 7
@@ -267,21 +267,21 @@ _02E8:
 	step 18, 7
 	step 32, 1
 	step_end
-
+	.align 4
 _0328:
 
 	step 77, 2
 	step 78, 1
 	step 77, 8
 	step_end
-
+	.align 4
 _0338:
 
 	step 77, 1
 	step 78, 1
 	step 77, 9
 	step_end
-
+	.align 4
 _0348:
 
 	step 77, 9

@@ -1059,12 +1059,12 @@ _11BE:
 	goto_if_ne _11B2
 	goto _0428
 
-
+	.align 4
 _11DC:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _11E2:
 
 	step 1, 1
@@ -1092,12 +1092,12 @@ _11E2:
 	step 0, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _1244:
 
 	step 2, 1
 	step_end
-
+	.align 4
 _124A:
 
 	step 3, 1

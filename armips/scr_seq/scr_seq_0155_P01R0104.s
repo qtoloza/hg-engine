@@ -71,12 +71,12 @@ scr_seq_P01R0104_001:
 	releaseall
 	end
 
-
+	.align 4
 _0090:
 
 	step 13, 3
 	step_end
-
+	.align 4
 _0098:
 
 	step 14, 1
@@ -129,42 +129,42 @@ _0144:
 	releaseall
 	end
 
-
+	.align 4
 _0150:
 
 	step 2, 1
 	step 14, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _0160:
 
 	step 3, 1
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0170:
 
 	step 3, 1
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0180:
 
 	step 14, 1
 	step 0, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _0190:
 
 	step 15, 1
 	step 0, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _01A0:
 
 	step 12, 2

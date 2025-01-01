@@ -152,7 +152,7 @@ _01EA:
 	releaseall
 	end
 
-
+	.align 4
 _01F0:
 
 	step 1, 1
@@ -161,21 +161,21 @@ _01F0:
 	step 14, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0208:
 
 	step 2, 1
 	step 75, 1
 	step 14, 3
 	step_end
-
+	.align 4
 _0218:
 
 	step 13, 2
 	step 15, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _0228:
 
 	step 13, 3

@@ -141,13 +141,13 @@ _019A:
 	wait_movement
 	return
 
-
+	.align 4
 _01C4:
 
 	step 12, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _01D0:
 
 	step 13, 1
@@ -157,7 +157,7 @@ _01D0:
 	step 13, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _01EC:
 
 	step 63, 2

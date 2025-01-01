@@ -404,12 +404,12 @@ _050F:
 	goto_if_lt _050F
 	return
 
-
+	.align 4
 _053C:
 
 	step 15, 5
 	step_end
-
+	.align 4
 _0544:
 
 	step 14, 5

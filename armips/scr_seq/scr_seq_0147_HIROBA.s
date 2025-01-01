@@ -99,37 +99,37 @@ _00DB:
 	releaseall
 	end
 
-
+	.align 4
 _014C:
 
 	step 12, 7
 	step 14, 11
 	step_end
-
+	.align 4
 _0158:
 
 	step 12, 7
 	step 14, 9
 	step_end
-
+	.align 4
 _0164:
 
 	step 12, 7
 	step 14, 7
 	step_end
-
+	.align 4
 _0170:
 
 	step 12, 7
 	step 14, 5
 	step_end
-
+	.align 4
 _017C:
 
 	step 12, 7
 	step 14, 3
 	step_end
-
+	.align 4
 _0188:
 
 	step 12, 1
@@ -157,47 +157,47 @@ _0188:
 	step 61, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _01EC:
 
 	step 67, 1
 	step_end
-
+	.align 4
 _01F4:
 
 	step 12, 6
 	step 14, 12
 	step 35, 1
 	step_end
-
+	.align 4
 _0204:
 
 	step 12, 6
 	step 14, 10
 	step 35, 1
 	step_end
-
+	.align 4
 _0214:
 
 	step 12, 6
 	step 14, 8
 	step 35, 1
 	step_end
-
+	.align 4
 _0224:
 
 	step 12, 6
 	step 14, 6
 	step 35, 1
 	step_end
-
+	.align 4
 _0234:
 
 	step 12, 6
 	step 14, 4
 	step 35, 1
 	step_end
-
+	.align 4
 _0244:
 
 	step 32, 1

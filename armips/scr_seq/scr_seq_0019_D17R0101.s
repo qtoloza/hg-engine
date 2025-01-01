@@ -295,83 +295,83 @@ _0396:
 	wait_movement
 	return
 
-
+	.align 4
 _03A2:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _03A8:
 
 	step 71, 1
 	step 4, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _03B6:
 
 	step 3, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _03C0:
 
 	step 71, 1
 	step 13, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _03CE:
 
 	step 71, 1
 	step 6, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _03DC:
 
 	step 13, 2
 	step 14, 1
 	step 13, 1
 	step_end
-
+	.align 4
 _03EA:
 
 	step 12, 1
 	step 15, 2
 	step 15, 1
 	step_end
-
+	.align 4
 _03F8:
 
 	step 71, 1
 	step 15, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _0406:
 
 	step 13, 3
 	step_end
-
+	.align 4
 _040C:
 
 	step 15, 3
 	step_end
-
+	.align 4
 _0412:
 
 	step 13, 2
 	step 15, 1
 	step 13, 1
 	step_end
-
+	.align 4
 _0420:
 
 	step 13, 1
 	step 15, 3
 	step_end
-
+	.align 4
 _042A:
 
 	step 12, 1
@@ -379,31 +379,31 @@ _042A:
 	step 12, 2
 	step 33, 1
 	step_end
-
+	.align 4
 _043C:
 
 	step 14, 4
 	step 13, 1
 	step_end
-
+	.align 4
 _0446:
 
 	step 13, 2
 	step 15, 3
 	step_end
-
+	.align 4
 _0450:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _045A:
 
 	step 14, 4
 	step 33, 1
 	step_end
-
+	.align 4
 _0464:
 
 	step 12, 1
@@ -411,14 +411,14 @@ _0464:
 	step 12, 2
 	step 33, 1
 	step_end
-
+	.align 4
 _0476:
 
 	step 14, 4
 	step 12, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0484:
 
 	step 14, 4

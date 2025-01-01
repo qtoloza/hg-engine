@@ -215,7 +215,7 @@ _024E:
 	goto_if_ge _0228
 	end
 
-
+	.align 4
 _0272:
 
 	step 1, 2
@@ -236,12 +236,12 @@ _0272:
 	step 3, 1
 	step 69, 0
 	step_end
-
+	.align 4
 _02B8:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _02BE:
 
 	step 34, 1

@@ -469,7 +469,7 @@ _06E4:
 	releaseall
 	end
 
-
+	.align 4
 _0706:
 
 	step 2, 1
@@ -490,7 +490,7 @@ _0706:
 	step 1, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _074C:
 
 	step 1, 1

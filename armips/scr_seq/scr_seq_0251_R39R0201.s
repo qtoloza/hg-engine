@@ -159,12 +159,12 @@ _020C:
 	closemsg
 	goto _00D2
 
-
+	.align 4
 _021C:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0224:
 
 	step 34, 1

@@ -560,47 +560,47 @@ _0701:
 _0718:
 	goto _0238
 
-
+	.align 4
 _071E:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0724:
 
 	step 15, 1
 	step_end
-
+	.align 4
 _072A:
 
 	step 14, 3
 	step_end
-
+	.align 4
 _0730:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _0736:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _073C:
 
 	step 14, 2
 	step_end
-
+	.align 4
 _0742:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0748:
 
 	step 15, 3
 	step_end
-
+	.align 4
 _074E:
 
 	step 14, 1

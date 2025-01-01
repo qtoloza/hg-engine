@@ -121,7 +121,7 @@ _0110:
 	releaseall
 	end
 
-
+	.align 4
 _0134:
 
 	step 12, 1
@@ -145,7 +145,7 @@ _0169:
 	releaseall
 	end
 
-
+	.align 4
 _0178:
 
 	step 34, 1

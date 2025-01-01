@@ -421,7 +421,7 @@ _06DE:
 	releaseall
 	end
 
-
+	.align 4
 _06F8:
 
 	step 33, 1

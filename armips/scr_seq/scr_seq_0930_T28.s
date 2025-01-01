@@ -323,47 +323,47 @@ _04A5:
 	apply_movement obj_T28_gsmiddleman1, _0508
 	goto _049F
 
-
+	.align 4
 _04C6:
 
 	step 1, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _04D0:
 
 	step 19, 1
 	step 17, 1
 	step 18, 1
 	step_end
-
+	.align 4
 _04DE:
 
 	step 62, 2
 	step 18, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _04EC:
 
 	step 19, 1
 	step 17, 2
 	step 18, 1
 	step_end
-
+	.align 4
 _04FA:
 
 	step 62, 3
 	step 18, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0508:
 
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0512:
 
 	step 12, 2

@@ -123,13 +123,13 @@ scr_seq_D24R0216_001:
 	releaseall
 	end
 
-
+	.align 4
 _0178:
 
 	step 14, 4
 	step 35, 1
 	step_end
-
+	.align 4
 _0184:
 
 	step 75, 1
@@ -142,7 +142,7 @@ _0184:
 	step 10, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _01AC:
 
 	step 35, 1
@@ -151,7 +151,7 @@ _01AC:
 	step 63, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _01C4:
 
 	step 14, 4
@@ -184,7 +184,7 @@ scr_seq_D24R0216_002:
 	releaseall
 	end
 
-
+	.align 4
 _0230:
 
 	step 63, 1
@@ -193,22 +193,22 @@ _0230:
 	step 63, 1
 	step 18, 3
 	step_end
-
+	.align 4
 _0248:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0250:
 
 	step 15, 10
 	step_end
-
+	.align 4
 _0258:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0260:
 
 	step 15, 1
@@ -254,13 +254,13 @@ scr_seq_D24R0216_003:
 	releaseall
 	end
 
-
+	.align 4
 _0324:
 
 	step 14, 1
 	step 13, 1
 	step_end
-
+	.align 4
 _0330:
 
 	step 35, 1
@@ -289,7 +289,7 @@ scr_seq_D24R0216_006:
 _0387:
 	end
 
-
+	.align 4
 _038C:
 
 	step 68, 1

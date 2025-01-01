@@ -416,37 +416,37 @@ _060E:
 _0614:
 	goto _0357
 
-
+	.align 4
 _061A:
 
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0624:
 
 	step 12, 7
 	step_end
-
+	.align 4
 _062A:
 
 	step 63, 2
 	step 13, 1
 	step_end
-
+	.align 4
 _0634:
 
 	step 71, 1
 	step 14, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _0642:
 
 	step 33, 1
 	step 13, 7
 	step_end
-
+	.align 4
 _064C:
 
 	step 71, 1

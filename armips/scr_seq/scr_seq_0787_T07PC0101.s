@@ -113,7 +113,7 @@ _010A:
 	npc_msg 8
 	goto _00B4
 
-
+	.align 4
 _0122:
 
 	step 75, 1

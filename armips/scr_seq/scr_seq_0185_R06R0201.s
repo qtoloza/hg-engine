@@ -88,17 +88,17 @@ _0083:
 	releaseall
 	end
 
-
+	.align 4
 _00AC:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _00B2:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _00B8:
 
 	step 2, 1

@@ -617,26 +617,26 @@ _0BE7:
 	releaseall
 	end
 
-
+	.align 4
 _0C2A:
 
 	step 75, 1
 	step 14, 5
 	step 12, 1
 	step_end
-
+	.align 4
 _0C38:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _0C3E:
 
 	step 71, 1
 	step 9, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _0C4C:
 
 	step 3, 1
@@ -656,24 +656,24 @@ _0C4C:
 	step 0, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0C8E:
 
 	step 13, 2
 	step 14, 1
 	step 13, 7
 	step_end
-
+	.align 4
 _0C9C:
 
 	step 14, 9
 	step_end
-
+	.align 4
 _0CA2:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0CA8:
 
 	step 1, 1
@@ -685,7 +685,7 @@ _0CA8:
 	step 0, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0CCA:
 
 	step 0, 1
@@ -697,7 +697,7 @@ _0CCA:
 	step 1, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _0CEC:
 
 	step 3, 1
@@ -717,7 +717,7 @@ _0CEC:
 	step 2, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0D2E:
 
 	step 2, 1
@@ -729,7 +729,7 @@ _0D2E:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0D50:
 
 	step 1, 1
@@ -742,7 +742,7 @@ _0D50:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0D76:
 
 	step 0, 1
@@ -762,7 +762,7 @@ _0D76:
 	step 1, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0DB8:
 
 	step 3, 1
@@ -774,7 +774,7 @@ _0DB8:
 	step 2, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _0DDA:
 
 	step 0, 1
@@ -785,7 +785,7 @@ _0DDA:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0DF8:
 
 	step 1, 1
@@ -805,7 +805,7 @@ _0DF8:
 	step 0, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _0E3A:
 
 	step 2, 1
@@ -817,7 +817,7 @@ _0E3A:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0E5C:
 
 	step 17, 8
@@ -839,7 +839,7 @@ _0E5C:
 	step 16, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0EA6:
 
 	step 63, 1
@@ -850,7 +850,7 @@ _0EA6:
 	step 91, 21
 	step 32, 1
 	step_end
-
+	.align 4
 _0EC4:
 
 	step 63, 1
@@ -861,7 +861,7 @@ _0EC4:
 	step 91, 21
 	step 32, 1
 	step_end
-
+	.align 4
 _0EE2:
 
 	step 18, 2
@@ -924,7 +924,7 @@ _0EE2:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0FD0:
 
 	step 17, 1
@@ -940,7 +940,7 @@ _0FD0:
 	step 91, 21
 	step 32, 1
 	step_end
-
+	.align 4
 _1002:
 
 	step 63, 1
@@ -950,7 +950,7 @@ _1002:
 	step 91, 21
 	step 32, 1
 	step_end
-
+	.align 4
 _101C:
 
 	step 3, 1
@@ -964,17 +964,17 @@ _101C:
 	step 3, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _1046:
 
 	step 12, 2
 	step_end
-
+	.align 4
 _104C:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _1052:
 
 	step 15, 9

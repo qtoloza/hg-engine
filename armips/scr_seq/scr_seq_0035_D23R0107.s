@@ -95,13 +95,13 @@ _00E5:
 	releaseall
 	end
 
-
+	.align 4
 _00F4:
 
 	step 12, 2
 	step 33, 1
 	step_end
-
+	.align 4
 _0100:
 
 	step 15, 1

@@ -221,36 +221,36 @@ _02A2:
 	npc_msg 19
 	goto _024A
 
-
+	.align 4
 _02B0:
 
 	step 65, 1
 	step 37, 1
 	step_end
-
+	.align 4
 _02BC:
 
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _02C8:
 
 	step 18, 1
 	step 65, 1
 	step_end
-
+	.align 4
 _02D4:
 
 	step 39, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _02E0:
 
 	step 17, 5
 	step_end
-
+	.align 4
 _02E8:
 
 	step 18, 1
@@ -258,7 +258,7 @@ _02E8:
 	step 19, 1
 	step 17, 3
 	step_end
-
+	.align 4
 _02FC:
 
 	step 14, 1

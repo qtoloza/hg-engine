@@ -102,7 +102,7 @@ scr_seq_R43R0201_002:
 _0110:
 	end
 
-
+	.align 4
 _0114:
 
 	step 75, 1
@@ -110,7 +110,7 @@ _0114:
 	step 23, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _0128:
 
 	step 63, 6
@@ -120,7 +120,7 @@ _0128:
 	step 22, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0144:
 
 	step 62, 3
@@ -128,13 +128,13 @@ _0144:
 	step 20, 3
 	step 1, 1
 	step_end
-
+	.align 4
 _0158:
 
 	step 23, 1
 	step 20, 3
 	step_end
-
+	.align 4
 _0164:
 
 	step 63, 6
@@ -144,7 +144,7 @@ _0164:
 	step 23, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _0180:
 
 	step 75, 1
@@ -152,14 +152,14 @@ _0180:
 	step 22, 2
 	step 0, 1
 	step_end
-
+	.align 4
 _0194:
 
 	step 62, 3
 	step 22, 1
 	step 21, 4
 	step_end
-
+	.align 4
 _01A4:
 
 	step 23, 2

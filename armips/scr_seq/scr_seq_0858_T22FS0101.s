@@ -167,14 +167,14 @@ _0190:
 	apply_movement obj_T22FS0101_assistantm, _01D8
 	goto _0166
 
-
+	.align 4
 _01D8:
 
 	step 13, 2
 	step 14, 2
 	step 13, 1
 	step_end
-
+	.align 4
 _01E6:
 
 	step 14, 2

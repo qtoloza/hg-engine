@@ -131,7 +131,7 @@ _013C:
 	releaseall
 	end
 
-
+	.align 4
 _014A:
 
 	step 12, 8

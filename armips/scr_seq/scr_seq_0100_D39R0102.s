@@ -108,52 +108,52 @@ _0108:
 	releaseall
 	end
 
-
+	.align 4
 _0146:
 
 	step 40, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0150:
 
 	step 62, 3
 	step 20, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _015E:
 
 	step 41, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0168:
 
 	step 62, 3
 	step 21, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _0176:
 
 	step 42, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0180:
 
 	step 62, 3
 	step 22, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _018E:
 
 	step 43, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0198:
 
 	step 62, 3

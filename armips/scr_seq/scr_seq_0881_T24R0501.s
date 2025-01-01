@@ -80,7 +80,7 @@ _00B1:
 	simple_npc_msg 9
 	end
 
-
+	.align 4
 _00C4:
 
 	step 0, 1

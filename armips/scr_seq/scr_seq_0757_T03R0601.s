@@ -501,7 +501,7 @@ _0700:
 	releaseall
 	end
 
-
+	.align 4
 _0706:
 
 	step 75, 1

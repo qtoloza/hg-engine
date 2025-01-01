@@ -181,14 +181,14 @@ _027A:
 	releaseall
 	end
 
-
+	.align 4
 _0288:
 
 	step 1, 1
 	step 70, 1
 	step 13, 2
 	step_end
-
+	.align 4
 _02A0:
 
 	step 13, 2
@@ -719,29 +719,29 @@ scr_seq_0004_002:
 	scrcmd_284
 	end
 
-
+	.align 4
 _0BDC:
 
 	step 15, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0BE8:
 
 	step 14, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0BF4:
 
 	step 12, 2
 	step_end
-
+	.align 4
 _0BFC:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _0C04:
 
 	step 12, 1

@@ -182,12 +182,12 @@ _022C:
 	releaseall
 	end
 
-
+	.align 4
 _0232:
 
 	step 12, 6
 	step_end
-
+	.align 4
 _0238:
 
 	step 1, 2

@@ -241,12 +241,12 @@ _02D4:
 	releaseall
 	end
 
-
+	.align 4
 _02DA:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _02E0:
 
 	step 33, 1

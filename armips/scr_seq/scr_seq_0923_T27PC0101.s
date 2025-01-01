@@ -67,7 +67,7 @@ scr_seq_T27PC0101_001:
 	releaseall
 	end
 
-
+	.align 4
 _0084:
 
 	step 13, 4
@@ -77,13 +77,13 @@ _0084:
 	step 1, 1
 	step 62, 4
 	step_end
-
+	.align 4
 _00A0:
 
 	step 62, 20
 	step 12, 4
 	step_end
-
+	.align 4
 _00AC:
 
 	step 15, 1
@@ -91,7 +91,7 @@ _00AC:
 	step 14, 1
 	step 13, 2
 	step_end
-
+	.align 4
 _00C0:
 
 	step 62, 6

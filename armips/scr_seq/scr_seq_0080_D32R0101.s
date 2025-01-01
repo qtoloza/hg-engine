@@ -298,22 +298,22 @@ _0333:
 	following_pokemon_movement 48
 	return
 
-
+	.align 4
 _0384:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _038C:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _0394:
 
 	step 2, 1
 	step_end
-
+	.align 4
 _039C:
 
 	step 12, 3

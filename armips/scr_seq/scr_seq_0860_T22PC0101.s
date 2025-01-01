@@ -452,7 +452,7 @@ _0637:
 	releaseall
 	end
 
-
+	.align 4
 _0644:
 
 	step 63, 1
@@ -460,7 +460,7 @@ _0644:
 	step 63, 2
 	step 33, 1
 	step_end
-
+	.align 4
 _0656:
 
 	step 63, 1

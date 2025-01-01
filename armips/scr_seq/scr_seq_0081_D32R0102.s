@@ -318,7 +318,7 @@ _0409:
 	setflag FLAG_UNK_25B
 	end
 
-
+	.align 4
 _0430:
 
 	step 18, 1
@@ -327,13 +327,13 @@ _0430:
 	step 12, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0446:
 
 	step 63, 5
 	step 35, 1
 	step_end
-
+	.align 4
 _0450:
 
 	step 15, 1
@@ -342,18 +342,18 @@ _0450:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0466:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0470:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _0476:
 
 	step 16, 5
@@ -361,25 +361,25 @@ _0476:
 	step 12, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0488:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0492:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _04A0:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _04A6:
 
 	step 15, 1
@@ -388,7 +388,7 @@ _04A6:
 	step 12, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _04BC:
 
 	step 12, 1
@@ -396,7 +396,7 @@ _04BC:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _04CE:
 
 	step 16, 5
@@ -404,13 +404,13 @@ _04CE:
 	step 12, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _04E0:
 
 	step 63, 5
 	step 34, 1
 	step_end
-
+	.align 4
 _04EA:
 
 	step 12, 1
@@ -418,7 +418,7 @@ _04EA:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _04FC:
 
 	step 15, 1
@@ -427,7 +427,7 @@ _04FC:
 	step 12, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _0512:
 
 	step 19, 2

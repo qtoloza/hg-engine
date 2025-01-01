@@ -557,53 +557,53 @@ _0772:
 	releaseall
 	end
 
-
+	.align 4
 _0782:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _0788:
 
 	step 32, 3
 	step_end
-
+	.align 4
 _078E:
 
 	step 30, 4
 	step_end
-
+	.align 4
 _0794:
 
 	step 29, 4
 	step_end
-
+	.align 4
 _079A:
 
 	step 36, 6
 	step_end
-
+	.align 4
 _07A0:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _07A6:
 
 	step 28, 4
 	step_end
-
+	.align 4
 _07AC:
 
 	step 12, 3
 	step 3, 1
 	step_end
-
+	.align 4
 _07B6:
 
 	step 14, 10
 	step_end
-
+	.align 4
 _07BC:
 
 	step 13, 2

@@ -165,7 +165,7 @@ _01EC:
 	releaseall
 	end
 
-
+	.align 4
 _01F2:
 
 	step 1, 2

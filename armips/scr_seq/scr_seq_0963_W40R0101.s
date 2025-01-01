@@ -123,22 +123,22 @@ _00F9:
 	releaseall
 	end
 
-
+	.align 4
 _0116:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _011C:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0122:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _0128:
 
 	step 33, 1

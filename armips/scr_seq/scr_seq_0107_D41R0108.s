@@ -92,7 +92,7 @@ _00D3:
 	clearflag FLAG_HIDE_OAKS_LAB_SQUIRTLE_BALL
 	return
 
-
+	.align 4
 _0140:
 
 	step 75, 1

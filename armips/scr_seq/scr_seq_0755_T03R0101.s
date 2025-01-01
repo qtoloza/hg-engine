@@ -875,7 +875,7 @@ _0D2D:
 	clearflag FLAG_HIDE_CAMERON
 	end
 
-
+	.align 4
 _0D33:
 
 	step 256, 3072
@@ -884,61 +884,61 @@ _0D33:
 	step 768, 8448
 	step 256, 65024
 	step 16128, 256
-
+	.align 4
 _0D49:
 
 	step 256, 8192
 	step 256, 65024
 	step 8704, 256
-
+	.align 4
 _0D53:
 
 	step 256, 65024
 	step 16128, 256
-
+	.align 4
 _0D59:
 
 	step 256, 19200
 	step 256, 65024
 	step 18176, 256
-
+	.align 4
 _0D63:
 
 	step 256, 3840
 	step 256, 18432
 	step 256, 65024
 	step 8192, 256
-
+	.align 4
 _0D71:
 
 	step 256, 65024
 	step 3840, 256
-
+	.align 4
 _0D77:
 
 	step 256, 3328
 	step 256, 65024
 	step 3072, 768
-
+	.align 4
 _0D81:
 
 	step 768, 8448
 	step 256, 65024
 	step 3840, 256
-
+	.align 4
 _0D8B:
 
 	step 256, 3072
 	step 256, 256
 	step 256, 65024
 	step 3840, 256
-
+	.align 4
 _0D99:
 
 	step 256, 256
 	step 256, 65024
 	step 3328, 256
-
+	.align 4
 _0DA3:
 
 	step 256, 16128
@@ -946,19 +946,19 @@ _0DA3:
 	step 256, 256
 	step 256, 65024
 	step 8192, 256
-
+	.align 4
 _0DB5:
 
 	step 256, 65024
 	step 5120, 256
-
+	.align 4
 _0DBB:
 
 	step 256, 5888
 	step 256, 256
 	step 256, 65024
 	step 3072, 256
-
+	.align 4
 _0DC9:
 
 	step 256, 8192
@@ -967,17 +967,17 @@ _0DC9:
 	step 256, 18432
 	step 256, 65024
 	step 768, 256
-
+	.align 4
 _0DDF:
 
 	step 256, 65024
 	step 3584, 2048
-
+	.align 4
 _0DE5:
 
 	step 2048, 65024
 	step 3072, 256
-
+	.align 4
 _0DEB:
 
 	step 256, 3840

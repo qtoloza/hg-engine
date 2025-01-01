@@ -256,12 +256,12 @@ _030B:
 _031E:
 	goto _0274
 
-
+	.align 4
 _0324:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _032A:
 
 	step 63, 1
@@ -269,44 +269,44 @@ _032A:
 	step 12, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _033C:
 
 	step 63, 3
 	step 13, 3
 	step 35, 1
 	step_end
-
+	.align 4
 _034A:
 
 	step 34, 1
 	step 63, 2
 	step 34, 1
 	step_end
-
+	.align 4
 _0358:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _035E:
 
 	step 12, 2
 	step 14, 1
 	step 12, 1
 	step_end
-
+	.align 4
 _036C:
 
 	step 35, 1
 	step 1, 2
 	step_end
-
+	.align 4
 _0376:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _037C:
 
 	step 71, 1
@@ -317,12 +317,12 @@ _037C:
 	step 15, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _039A:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _03A0:
 
 	step 71, 1
@@ -333,13 +333,13 @@ _03A0:
 	step 15, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _03BE:
 
 	step 63, 1
 	step 12, 4
 	step_end
-
+	.align 4
 _03C8:
 
 	step 14, 1
@@ -347,7 +347,7 @@ _03C8:
 	step 13, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _03DA:
 
 	step 50, 1

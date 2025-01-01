@@ -611,26 +611,26 @@ _082E:
 	closemsg
 	return
 
-
+	.align 4
 _0832:
 
 	step 2, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _083C:
 
 	step 14, 2
 	step 12, 1
 	step_end
-
+	.align 4
 _0846:
 
 	step 63, 1
 	step 12, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _0854:
 
 	step 15, 1
@@ -639,74 +639,74 @@ _0854:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _086A:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0874:
 
 	step 14, 1
 	step_end
-
+	.align 4
 _087A:
 
 	step 63, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0884:
 
 	step 62, 1
 	step 14, 1
 	step 12, 1
 	step_end
-
+	.align 4
 _0892:
 
 	step 62, 1
 	step 12, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _08A0:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _08AA:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _08B8:
 
 	step 62, 1
 	step_end
-
+	.align 4
 _08BE:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _08C4:
 
 	step 15, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _08CE:
 
 	step 13, 1
 	step 15, 2
 	step 2, 1
 	step_end
-
+	.align 4
 _08DC:
 
 	step 12, 1
@@ -714,14 +714,14 @@ _08DC:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _08EE:
 
 	step 13, 1
 	step 15, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _08FC:
 
 	step 12, 1

@@ -39,7 +39,7 @@ scr_seq_R28R0101_002:
 	setvar VAR_UNK_4126, 1
 	end
 
-
+	.align 4
 _0020:
 
 	step 1, 1
@@ -112,25 +112,25 @@ _0135:
 	releaseall
 	end
 
-
+	.align 4
 _0140:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _014C:
 
 	step 63, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0158:
 
 	step 63, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _0164:
 
 	step 63, 1

@@ -490,25 +490,25 @@ _05E4:
 	releaseall
 	end
 
-
+	.align 4
 _05EC:
 
 	step 62, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _05F6:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _05FC:
 
 	step 12, 2
 	step 14, 3
 	step 12, 1
 	step_end
-
+	.align 4
 _060A:
 
 	step 33, 1

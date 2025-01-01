@@ -56,12 +56,12 @@ scr_seq_R08R0201_001:
 	releaseall
 	end
 
-
+	.align 4
 _0058:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _005E:
 
 	step 15, 1

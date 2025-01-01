@@ -289,22 +289,22 @@ _0364:
 	setvar VAR_LOAN_SPEAROW, 3
 	goto _0327
 
-
+	.align 4
 _03D0:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _03D6:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _03DC:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _03E2:
 
 	step 35, 1

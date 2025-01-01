@@ -321,53 +321,53 @@ _0475:
 	releaseall
 	end
 
-
+	.align 4
 _048D:
 
 	step 256, 3072
 	step 256, 65024
 	step 8192, 256
-
+	.align 4
 _0497:
 
 	step 256, 65024
 	step 3840, 256
-
+	.align 4
 _049D:
 
 	step 256, 3072
 	step 256, 65024
 	step 19200, 256
-
+	.align 4
 _04A7:
 
 	step 256, 16128
 	step 256, 8448
 	step 256, 65024
 	step 3328, 256
-
+	.align 4
 _04B5:
 
 	step 256, 65024
 	step 3072, 256
-
+	.align 4
 _04BB:
 
 	step 256, 8960
 	step 256, 65024
 	step 19200, 256
-
+	.align 4
 _04C5:
 
 	step 256, 16128
 	step 256, 65024
 	step 9984, 1024
-
+	.align 4
 _04CF:
 
 	step 1024, 65024
 	step 18176, 256
-
+	.align 4
 _04D5:
 
 	step 256, 2048
@@ -375,30 +375,30 @@ _04D5:
 	step 256, 2816
 	step 512, 65024
 	step 3328, 1024
-
+	.align 4
 _04E7:
 
 	step 1024, 3584
 	step 512, 3328
 	step 512, 65024
 	step 16128, 768
-
+	.align 4
 _04F5:
 
 	step 768, 3328
 	step 256, 65024
 	step 3328, 256
-
+	.align 4
 _04FF:
 
 	step 256, 65024
 	step 12544, 256
-
+	.align 4
 _0505:
 
 	step 256, 65024
 	step 8704, 256
-
+	.align 4
 _050B:
 
 	step 256, 16128
@@ -406,7 +406,7 @@ _050B:
 	step 256, 16128
 	step 256, 65024
 	step 2816, 512
-
+	.align 4
 _051D:
 
 	step 512, 2304
@@ -414,7 +414,7 @@ _051D:
 	step 512, 2304
 	step 512, 65024
 	step 8960, 256
-
+	.align 4
 _052F:
 
 	step 256, 19200

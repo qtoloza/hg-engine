@@ -48,7 +48,7 @@ scr_seq_T07R0701_005:
 	releaseall
 	end
 
-
+	.align 4
 _003C:
 
 	step 35, 1
@@ -108,12 +108,12 @@ scr_seq_T07R0701_003:
 	releaseall
 	end
 
-
+	.align 4
 _00D8:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _00E0:
 
 	step 32, 1

@@ -434,55 +434,55 @@ _0536:
 	releaseall
 	end
 
-
+	.align 4
 _0540:
 
 	step 15, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _054A:
 
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0554:
 
 	step 13, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _055E:
 
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0568:
 
 	step 15, 1
 	step 2, 1
 	step_end
-
+	.align 4
 _0572:
 
 	step 14, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _057C:
 
 	step 13, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _0586:
 
 	step 14, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _0590:
 
 	step 15, 1

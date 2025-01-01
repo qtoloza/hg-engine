@@ -108,7 +108,7 @@ _0104:
 	move_person_facing obj_D51R0101_kabigon, 13, 1, 28, DIR_NORTH
 	end
 
-
+	.align 4
 _0112:
 
 	step 32, 1
@@ -117,36 +117,36 @@ _0112:
 	step 12, 3
 	step 34, 1
 	step_end
-
+	.align 4
 _0128:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _012E:
 
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0138:
 
 	step 13, 4
 	step 14, 1
 	step 13, 4
 	step_end
-
+	.align 4
 _0146:
 
 	step 15, 7
 	step 12, 2
 	step_end
-
+	.align 4
 _0150:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _0156:
 
 	step 75, 1

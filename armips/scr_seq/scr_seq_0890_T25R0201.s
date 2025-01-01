@@ -1068,12 +1068,12 @@ _1100:
 	releaseall
 	end
 
-
+	.align 4
 _1106:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _110C:
 
 	step 75, 1

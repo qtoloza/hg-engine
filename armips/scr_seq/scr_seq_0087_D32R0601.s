@@ -402,7 +402,7 @@ _0607:
 	callstd std_bag_is_full_griseous_orb
 	end
 
-
+	.align 4
 _0618:
 
 	step 12, 2
@@ -410,13 +410,13 @@ _0618:
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _062C:
 
 	step 12, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0638:
 
 	step 12, 1
@@ -424,13 +424,13 @@ _0638:
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _064C:
 
 	step 12, 3
 	step 69, 1
 	step_end
-
+	.align 4
 _0658:
 
 	step 21, 2
@@ -439,14 +439,14 @@ _0658:
 	step 0, 1
 	step 70, 1
 	step_end
-
+	.align 4
 _0670:
 
 	step 21, 4
 	step 0, 1
 	step 70, 1
 	step_end
-
+	.align 4
 _0680:
 
 	step 21, 1
@@ -454,7 +454,7 @@ _0680:
 	step 21, 2
 	step 70, 1
 	step_end
-
+	.align 4
 _0694:
 
 	step 21, 3

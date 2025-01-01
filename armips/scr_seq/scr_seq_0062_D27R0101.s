@@ -147,23 +147,23 @@ _01A7:
 	releaseall
 	end
 
-
+	.align 4
 _01D2:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _01D8:
 
 	step 32, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _01E2:
 
 	step 17, 10
 	step_end
-
+	.align 4
 _01E8:
 
 	step 18, 3

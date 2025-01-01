@@ -218,7 +218,7 @@ _0253:
 	releaseall
 	end
 
-
+	.align 4
 _02C4:
 
 	step 15, 1
@@ -227,31 +227,31 @@ _02C4:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _02DA:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _02E4:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _02EA:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _02F4:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0302:
 
 	step 12, 1
@@ -259,7 +259,7 @@ _0302:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0314:
 
 	step 12, 1

@@ -60,7 +60,7 @@ _0063:
 	npc_msg 12
 	goto _0091
 
-
+	.align 4
 _0070:
 
 	step 14, 2
@@ -115,7 +115,7 @@ _00ED:
 	releaseall
 	end
 
-
+	.align 4
 _0120:
 
 	step 34, 1
@@ -148,12 +148,12 @@ _0168:
 	releaseall
 	end
 
-
+	.align 4
 _017C:
 
 	step 13, 3
 	step_end
-
+	.align 4
 _0184:
 
 	step 15, 1

@@ -191,7 +191,7 @@ _0265:
 	releaseall
 	end
 
-
+	.align 4
 _0270:
 
 	step 1, 2

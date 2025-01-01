@@ -115,32 +115,32 @@ scr_seq_R38R0101_004:
 	releaseall
 	end
 
-
+	.align 4
 _0132:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0138:
 
 	step 15, 1
 	step_end
-
+	.align 4
 _013E:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0144:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _014A:
 
 	step 15, 4
 	step_end
-
+	.align 4
 _0150:
 
 	step 14, 4

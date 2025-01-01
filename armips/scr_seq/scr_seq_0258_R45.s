@@ -183,13 +183,13 @@ _01FB:
 	releaseall
 	end
 
-
+	.align 4
 _0235:
 
 	step 768, 8448
 	step 256, 65024
 	step 3072, 256
-
+	.align 4
 _023F:
 
 	step 256, 3584
@@ -197,13 +197,13 @@ _023F:
 	step 768, 8448
 	step 256, 65024
 	step 16128, 256
-
+	.align 4
 _0251:
 
 	step 256, 8192
 	step 256, 65024
 	step 3840, 256
-
+	.align 4
 _025B:
 
 	step 256, 3072

@@ -101,25 +101,25 @@ _0126:
 	wait_movement
 	goto _0068
 
-
+	.align 4
 _0140:
 
 	step 13, 3
 	step 0, 1
 	step_end
-
+	.align 4
 _014C:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _0178:
 
 	step 15, 4
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _0188:
 
 	step 13, 1
@@ -127,14 +127,14 @@ _0188:
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _019C:
 
 	step 15, 8
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _01AC:
 
 	step 13, 1
@@ -142,14 +142,14 @@ _01AC:
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _01C0:
 
 	step 15, 12
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _01D0:
 
 	step 13, 1
@@ -157,14 +157,14 @@ _01D0:
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _01E4:
 
 	step 15, 16
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _01F4:
 
 	step 13, 1

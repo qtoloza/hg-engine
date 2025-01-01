@@ -103,7 +103,7 @@ scr_seq_D49R0104_003:
 	releaseall
 	end
 
-
+	.align 4
 _00F0:
 
 	step 48, 2

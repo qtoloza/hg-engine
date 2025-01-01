@@ -169,7 +169,7 @@ _01F2:
 	releaseall
 	end
 
-
+	.align 4
 _01F8:
 
 	step 1, 2

@@ -292,7 +292,7 @@ _0446:
 	setflag FLAG_UNK_97D
 	end
 
-
+	.align 4
 _0464:
 
 	step 13, 1
@@ -301,17 +301,17 @@ _0464:
 	step 15, 4
 	step 0, 1
 	step_end
-
+	.align 4
 _047C:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0484:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _048C:
 
 	step 13, 1
@@ -321,7 +321,7 @@ _048C:
 	step 12, 3
 	step 34, 1
 	step_end
-
+	.align 4
 _04A8:
 
 	step 13, 1
@@ -331,12 +331,12 @@ _04A8:
 	step 12, 2
 	step 35, 1
 	step_end
-
+	.align 4
 _04C4:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _04CC:
 
 	step 13, 1
@@ -346,40 +346,40 @@ _04CC:
 	step 12, 3
 	step 35, 1
 	step_end
-
+	.align 4
 _04E8:
 
 	step 12, 1
 	step 15, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _04F8:
 
 	step 13, 3
 	step 14, 4
 	step 75, 1
 	step_end
-
+	.align 4
 _0508:
 
 	step 13, 2
 	step 14, 3
 	step 75, 1
 	step_end
-
+	.align 4
 _0518:
 
 	step 15, 1
 	step_end
-
+	.align 4
 _0520:
 
 	step 13, 3
 	step 14, 4
 	step 75, 1
 	step_end
-
+	.align 4
 _0530:
 
 	step 14, 1
@@ -388,7 +388,7 @@ _0530:
 	step 63, 3
 	step 32, 1
 	step_end
-
+	.align 4
 _0548:
 
 	step 13, 6

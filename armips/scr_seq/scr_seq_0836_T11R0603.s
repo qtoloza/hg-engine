@@ -44,7 +44,7 @@ scr_seq_T11R0603_000:
 	releaseall
 	end
 
-
+	.align 4
 _0038:
 
 	step 14, 7

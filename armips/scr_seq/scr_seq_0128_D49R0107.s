@@ -121,38 +121,38 @@ _0154:
 	clearflag FLAG_HIDE_POKEATHLON_SUPREME_CUP_RECEPTIONIST
 	return
 
-
+	.align 4
 _015C:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0164:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _016C:
 
 	step 13, 3
 	step_end
-
+	.align 4
 _0174:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0180:
 
 	step 12, 3
 	step_end
-
+	.align 4
 _0188:
 
 	step 8, 1
 	step_end
-
+	.align 4
 _0190:
 
 	step 34, 1

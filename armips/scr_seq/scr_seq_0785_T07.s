@@ -342,12 +342,12 @@ _0434:
 	npc_msg 23
 	goto _03BE
 
-
+	.align 4
 _045C:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0464:
 
 	step 34, 1
@@ -490,7 +490,7 @@ _064F:
 	releaseall
 	end
 
-
+	.align 4
 _0664:
 
 	step 15, 1
@@ -499,13 +499,13 @@ _0664:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _067C:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0688:
 
 	step 12, 1
@@ -513,7 +513,7 @@ _0688:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _069C:
 
 	step 12, 1
@@ -521,13 +521,13 @@ _069C:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _06B0:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _06BC:
 
 	step 15, 1

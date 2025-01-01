@@ -80,12 +80,12 @@ scr_seq_R42R0101_004:
 	releaseall
 	end
 
-
+	.align 4
 _0088:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _008E:
 
 	step 14, 1

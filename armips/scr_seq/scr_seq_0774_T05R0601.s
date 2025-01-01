@@ -100,7 +100,7 @@ _008C:
 	setflag 16277
 	end
 
-
+	.align 4
 _0112:
 
 	step 32, 1

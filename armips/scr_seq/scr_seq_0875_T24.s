@@ -478,7 +478,7 @@ _0602:
 	goto_if_ge _055E
 	end
 
-
+	.align 4
 _0626:
 
 	step 36, 1
@@ -486,73 +486,73 @@ _0626:
 	step 12, 2
 	step 2, 1
 	step_end
-
+	.align 4
 _0638:
 
 	step 65, 3
 	step 3, 1
 	step_end
-
+	.align 4
 _0642:
 
 	step 13, 2
 	step 36, 1
 	step_end
-
+	.align 4
 _064C:
 
 	step 0, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _0656:
 
 	step 111, 1
 	step_end
-
+	.align 4
 _065C:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _0662:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _0668:
 
 	step 112, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _0672:
 
 	step 3, 1
 	step 63, 1
 	step 15, 2
 	step_end
-
+	.align 4
 _0680:
 
 	step 12, 5
 	step 15, 2
 	step 12, 2
 	step_end
-
+	.align 4
 _068E:
 
 	step 63, 6
 	step 1, 1
 	step_end
-
+	.align 4
 _0698:
 
 	step 13, 2
 	step 14, 2
 	step 13, 5
 	step_end
-
+	.align 4
 _06A6:
 
 	step 15, 1
@@ -561,20 +561,20 @@ _06A6:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _06BC:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _06C6:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _06D4:
 
 	step 12, 1

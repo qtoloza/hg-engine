@@ -331,52 +331,52 @@ scr_seq_D37R0104_003:
 _05CA:
 	end
 
-
+	.align 4
 _05CC:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _05D4:
 
 	step 14, 2
 	step_end
-
+	.align 4
 _05DC:
 
 	step 14, 2
 	step_end
-
+	.align 4
 _05E4:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _05EC:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _05F4:
 
 	step 12, 2
 	step_end
-
+	.align 4
 _05FC:
 
 	step 12, 2
 	step_end
-
+	.align 4
 _0604:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _060C:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _0614:
 
 	step 14, 2
@@ -433,7 +433,7 @@ _06D9:
 	releaseall
 	end
 
-
+	.align 4
 _06E0:
 
 	step 62, 6
@@ -441,13 +441,13 @@ _06E0:
 	step 13, 1
 	step 14, 4
 	step_end
-
+	.align 4
 _06F4:
 
 	step 75, 1
 	step 15, 1
 	step_end
-
+	.align 4
 _0700:
 
 	step 15, 4

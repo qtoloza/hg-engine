@@ -164,70 +164,70 @@ _0253:
 	setvar VAR_UNK_4132, 1
 	end
 
-
+	.align 4
 _0284:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _028C:
 
 	step 69, 1
 	step_end
-
+	.align 4
 _0294:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _029C:
 
 	step 38, 1
 	step_end
-
+	.align 4
 _02A4:
 
 	step 50, 2
 	step_end
-
+	.align 4
 _02AC:
 
 	step 14, 2
 	step 12, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _02BC:
 
 	step 14, 3
 	step_end
-
+	.align 4
 _02C4:
 
 	step 14, 2
 	step 13, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _02D4:
 
 	step 14, 2
 	step 12, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _02E4:
 
 	step 14, 4
 	step_end
-
+	.align 4
 _02EC:
 
 	step 14, 2
 	step 13, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _02FC:
 
 	step 63, 1
@@ -236,14 +236,14 @@ _02FC:
 	step 12, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0314:
 
 	step 63, 1
 	step 70, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _0324:
 
 	step 63, 1
@@ -252,7 +252,7 @@ _0324:
 	step 13, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _033C:
 
 	step 63, 1
@@ -261,14 +261,14 @@ _033C:
 	step 12, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _0354:
 
 	step 63, 1
 	step 70, 1
 	step 14, 3
 	step_end
-
+	.align 4
 _0364:
 
 	step 63, 1
@@ -277,14 +277,14 @@ _0364:
 	step 13, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _037C:
 
 	step 89, 1
 	step 90, 6
 	step 69, 1
 	step_end
-
+	.align 4
 _038C:
 
 	step 89, 1
@@ -293,21 +293,21 @@ _038C:
 	step 90, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _03A4:
 
 	step 88, 1
 	step 90, 6
 	step 69, 1
 	step_end
-
+	.align 4
 _03B4:
 
 	step 89, 1
 	step 90, 5
 	step 69, 1
 	step_end
-
+	.align 4
 _03C4:
 
 	step 89, 1
@@ -316,14 +316,14 @@ _03C4:
 	step 90, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _03DC:
 
 	step 88, 1
 	step 90, 5
 	step 69, 1
 	step_end
-
+	.align 4
 _03EC:
 
 	step 61, 1
@@ -332,7 +332,7 @@ _03EC:
 	step 18, 6
 	step 69, 1
 	step_end
-
+	.align 4
 _0404:
 
 	step 61, 1
@@ -343,7 +343,7 @@ _0404:
 	step 18, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _0424:
 
 	step 61, 1
@@ -352,7 +352,7 @@ _0424:
 	step 18, 6
 	step 69, 1
 	step_end
-
+	.align 4
 _043C:
 
 	step 61, 1
@@ -361,7 +361,7 @@ _043C:
 	step 18, 5
 	step 69, 1
 	step_end
-
+	.align 4
 _0454:
 
 	step 61, 1
@@ -372,7 +372,7 @@ _0454:
 	step 18, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _0474:
 
 	step 61, 1

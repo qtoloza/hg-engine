@@ -112,27 +112,27 @@ _014C:
 	play_se SEQ_SE_DP_KAIDAN2
 	return
 
-
+	.align 4
 _0154:
 
 	step 12, 2
 	step 33, 1
 	step_end
-
+	.align 4
 _0160:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0170:
 
 	step 1, 1
 	step 13, 1
 	step 45, 3
 	step_end
-
+	.align 4
 _0180:
 
 	step 13, 2

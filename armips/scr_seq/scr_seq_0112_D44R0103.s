@@ -933,12 +933,12 @@ _0F82:
 	setflag FLAG_GOT_DRATINI_FROM_MASTER_LONG_AGO
 	end
 
-
+	.align 4
 _0F88:
 
 	step 12, 8
 	step_end
-
+	.align 4
 _0F8E:
 
 	step 63, 1
@@ -947,7 +947,7 @@ _0F8E:
 	step 63, 8
 	step 2, 1
 	step_end
-
+	.align 4
 _0FA4:
 
 	step 63, 4
@@ -956,63 +956,63 @@ _0FA4:
 	step 12, 2
 	step 3, 1
 	step_end
-
+	.align 4
 _0FBA:
 
 	step 63, 1
 	step 71, 1
 	step 18, 1
 	step_end
-
+	.align 4
 _0FC8:
 
 	step 63, 1
 	step 10, 1
 	step_end
-
+	.align 4
 _0FD2:
 
 	step 63, 1
 	step 9, 1
 	step 10, 1
 	step_end
-
+	.align 4
 _0FE0:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0FE6:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _0FEC:
 
 	step 63, 2
 	step 3, 1
 	step_end
-
+	.align 4
 _0FF6:
 
 	step 8, 1
 	step 11, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _1004:
 
 	step 65, 2
 	step 0, 1
 	step_end
-
+	.align 4
 _100E:
 
 	step 72, 1
 	step 65, 2
 	step 0, 1
 	step_end
-
+	.align 4
 _101C:
 
 	step 71, 1
@@ -1022,12 +1022,12 @@ _101C:
 	step 23, 1
 	step 21, 4
 	step_end
-
+	.align 4
 _1036:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _103C:
 
 	step 15, 1
@@ -1036,38 +1036,38 @@ _103C:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _1052:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _105C:
 
 	step 63, 2
 	step 3, 1
 	step 63, 2
 	step_end
-
+	.align 4
 _106A:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _1070:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _107A:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _1088:
 
 	step 12, 1
@@ -1075,7 +1075,7 @@ _1088:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _109A:
 
 	step 12, 1

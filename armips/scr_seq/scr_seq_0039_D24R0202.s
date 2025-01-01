@@ -156,13 +156,13 @@ _0207:
 	wait_fade
 	goto _01D9
 
-
+	.align 4
 _0234:
 
 	step 40, 4
 	step 69, 1
 	step_end
-
+	.align 4
 _0240:
 
 	step 62, 3
@@ -199,7 +199,7 @@ _029A:
 	releaseall
 	end
 
-
+	.align 4
 _02AC:
 
 	step 75, 1

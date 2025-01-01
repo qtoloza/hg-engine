@@ -303,7 +303,7 @@ _03D5:
 	releaseall
 	end
 
-
+	.align 4
 _03EC:
 
 	step 14, 1
@@ -312,13 +312,13 @@ _03EC:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0404:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0410:
 
 	step 12, 1
@@ -326,13 +326,13 @@ _0410:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0424:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0430:
 
 	step 15, 1

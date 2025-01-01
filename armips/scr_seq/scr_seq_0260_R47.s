@@ -619,47 +619,47 @@ _088C:
 _0892:
 	end
 
-
+	.align 4
 _0894:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _089A:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _08A0:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _08A6:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _08AC:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _08B2:
 
 	step 2, 1
 	step_end
-
+	.align 4
 _08B8:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _08BE:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _08C4:
 
 	step 35, 1

@@ -65,26 +65,26 @@ _0078:
 	releaseall
 	end
 
-
+	.align 4
 _0084:
 
 	step 75, 1
 	step 18, 3
 	step_end
-
+	.align 4
 _0090:
 
 	step 0, 1
 	step 75, 1
 	step 18, 3
 	step_end
-
+	.align 4
 _00A0:
 
 	step 65, 3
 	step 1, 1
 	step_end
-
+	.align 4
 _00AC:
 
 	step 65, 3
@@ -132,13 +132,13 @@ _014A:
 	releaseall
 	end
 
-
+	.align 4
 _0150:
 
 	step 19, 1
 	step 17, 10
 	step_end
-
+	.align 4
 _015C:
 
 	step 71, 1
@@ -146,13 +146,13 @@ _015C:
 	step 72, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0170:
 
 	step 62, 12
 	step 2, 1
 	step_end
-
+	.align 4
 _017C:
 
 	step 62, 1

@@ -218,23 +218,23 @@ _0270:
 	releaseall
 	end
 
-
+	.align 4
 _02AA:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _02B0:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _02B6:
 
 	step 16, 7
 	step 0, 1
 	step_end
-
+	.align 4
 _02C0:
 
 	step 34, 1
@@ -243,7 +243,7 @@ _02C0:
 	step 62, 3
 	step 32, 1
 	step_end
-
+	.align 4
 _02D6:
 
 	step 14, 1

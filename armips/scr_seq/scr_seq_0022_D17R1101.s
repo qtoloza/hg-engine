@@ -214,7 +214,7 @@ _0252:
 	setflag FLAG_UNK_2CA
 	end
 
-
+	.align 4
 _0258:
 
 	step 75, 1

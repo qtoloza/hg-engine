@@ -409,7 +409,7 @@ _0539:
 	releaseall
 	end
 
-
+	.align 4
 _05AA:
 
 	step 14, 1
@@ -418,13 +418,13 @@ _05AA:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05C0:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _05CA:
 
 	step 15, 1
@@ -433,20 +433,20 @@ _05CA:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05E0:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _05EA:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _05F8:
 
 	step 12, 1
@@ -454,7 +454,7 @@ _05F8:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _060A:
 
 	step 12, 1

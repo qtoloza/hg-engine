@@ -294,7 +294,7 @@ _036F:
 	wait_movement
 	goto _0351
 
-
+	.align 4
 _03A7:
 
 	step 256, 15872
@@ -326,88 +326,88 @@ _03A7:
 	step 256, 0
 	step 256, 65024
 	step 19200, 256
-
+	.align 4
 _0419:
 
 	step 256, 16128
 	step 256, 65024
 	step 8192, 256
-
+	.align 4
 _0423:
 
 	step 256, 2048
 	step 512, 65024
 	step 2048, 256
-
+	.align 4
 _042D:
 
 	step 256, 65024
 	step 8448, 256
-
+	.align 4
 _0433:
 
 	step 256, 65024
 	step 3840, 256
-
+	.align 4
 _0439:
 
 	step 256, 3328
 	step 512, 8704
 	step 256, 65024
 	step 8960, 256
-
+	.align 4
 _0447:
 
 	step 256, 65024
 	step 3328, 512
-
+	.align 4
 _044D:
 
 	step 512, 3584
 	step 1280, 8448
 	step 256, 65024
 	step 8448, 256
-
+	.align 4
 _045B:
 
 	step 256, 2304
 	step 256, 65024
 	step 8192, 256
-
+	.align 4
 _0465:
 
 	step 256, 65024
 	step 3072, 256
-
+	.align 4
 _046B:
 
 	step 256, 65024
 	step 3328, 512
-
+	.align 4
 _0471:
 
 	step 512, 3584
 	step 1024, 8448
 	step 256, 65024
 	step 8192, 256
-
+	.align 4
 _047F:
 
 	step 256, 2048
 	step 512, 65024
 	step 8448, 256
-
+	.align 4
 _0489:
 
 	step 256, 65024
 	step 3328, 512
-
+	.align 4
 _048F:
 
 	step 512, 8960
 	step 256, 65024
 	step 3328, 512
-
+	.align 4
 _0499:
 
 	step 512, 3584

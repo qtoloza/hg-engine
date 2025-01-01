@@ -1144,31 +1144,31 @@ _1301:
 	npc_msg 60
 	goto _085B
 
-
+	.align 4
 _1348:
 
 	step 62, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _1354:
 
 	step 12, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _1360:
 
 	step 62, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _136C:
 
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _1378:
 
 	step 3, 1

@@ -259,12 +259,12 @@ _0519:
 	releaseall
 	end
 
-
+	.align 4
 _0556:
 
 	step 9, 2
 	step_end
-
+	.align 4
 _055C:
 
 	step 1, 2
@@ -285,17 +285,17 @@ _055C:
 	step 3, 1
 	step 69, 0
 	step_end
-
+	.align 4
 _05A2:
 
 	step 10, 2
 	step_end
-
+	.align 4
 _05A8:
 
 	step 11, 2
 	step_end
-
+	.align 4
 _05AE:
 
 	step 75, 1

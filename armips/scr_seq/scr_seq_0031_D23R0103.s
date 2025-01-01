@@ -186,12 +186,12 @@ _01E2:
 	releaseall
 	end
 
-
+	.align 4
 _01F0:
 
 	step 14, 2
 	step_end
-
+	.align 4
 _01F8:
 
 	step 15, 2

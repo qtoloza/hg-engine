@@ -205,28 +205,28 @@ _02A2:
 	releaseall
 	end
 
-
+	.align 4
 _0360:
 
 	step 75, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _036A:
 
 	step 12, 5
 	step_end
-
+	.align 4
 _0370:
 
 	step 33, 2
 	step_end
-
+	.align 4
 _0376:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _037C:
 
 	step 2, 4
@@ -252,7 +252,7 @@ _037C:
 	step 2, 1
 	step 0, 1
 	step_end
-
+	.align 4
 _03D6:
 
 	step 13, 5

@@ -99,41 +99,41 @@ scr_seq_T07R0203_010:
 	releaseall
 	end
 
-
+	.align 4
 _012C:
 
 	step 14, 4
 	step 75, 1
 	step_end
-
+	.align 4
 _0138:
 
 	step 14, 4
 	step_end
-
+	.align 4
 _0140:
 
 	step 14, 4
 	step_end
-
+	.align 4
 _0148:
 
 	step 14, 4
 	step_end
-
+	.align 4
 _0150:
 
 	step 13, 3
 	step 35, 1
 	step_end
-
+	.align 4
 _015C:
 
 	step 12, 2
 	step 14, 1
 	step 12, 1
 	step_end
-
+	.align 4
 _016C:
 
 	step 14, 1
@@ -141,13 +141,13 @@ _016C:
 	step 14, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0180:
 
 	step 12, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _018C:
 
 	step 12, 2

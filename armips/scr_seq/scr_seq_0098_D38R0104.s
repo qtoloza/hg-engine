@@ -318,7 +318,7 @@ _0418:
 	releaseall
 	end
 
-
+	.align 4
 _0440:
 
 	step 75, 1
@@ -337,7 +337,7 @@ _0440:
 	step 62, 1
 	step 49, 3
 	step_end
-
+	.align 4
 _047E:
 
 	step 75, 1

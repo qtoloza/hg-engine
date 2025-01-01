@@ -71,12 +71,12 @@ _006A:
 	releaseall
 	end
 
-
+	.align 4
 _0084:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _008C:
 
 	step 15, 1

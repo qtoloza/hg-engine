@@ -87,24 +87,24 @@ scr_seq_D35R0104_001:
 	setvar VAR_UNK_40AC, 1
 	end
 
-
+	.align 4
 _00EC:
 
 	step 14, 1
 	step_end
-
+	.align 4
 _00F4:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _00FC:
 
 	step 33, 1
 	step 13, 3
 	step 15, 3
 	step_end
-
+	.align 4
 _010C:
 
 	step 63, 1
@@ -113,12 +113,12 @@ _010C:
 	step 13, 3
 	step 15, 2
 	step_end
-
+	.align 4
 _0124:
 
 	step 14, 9
 	step_end
-
+	.align 4
 _012C:
 
 	step 61, 1
@@ -148,19 +148,19 @@ scr_seq_D35R0104_007:
 	releaseall
 	end
 
-
+	.align 4
 _018C:
 
 	step 51, 2
 	step_end
-
+	.align 4
 _0194:
 
 	step 1, 1
 	step 49, 1
 	step 17, 10
 	step_end
-
+	.align 4
 _01A4:
 
 	step 63, 1
@@ -222,35 +222,35 @@ _0221:
 	setvar VAR_UNK_40AC, 3
 	end
 
-
+	.align 4
 _0290:
 
 	step 13, 9
 	step 15, 2
 	step_end
-
+	.align 4
 _029C:
 
 	step 13, 10
 	step 15, 2
 	step_end
-
+	.align 4
 _02A8:
 
 	step 13, 11
 	step 15, 2
 	step_end
-
+	.align 4
 _02B4:
 
 	step 14, 2
 	step_end
-
+	.align 4
 _02BC:
 
 	step 19, 1
 	step_end
-
+	.align 4
 _02C4:
 
 	step 71, 1
@@ -258,7 +258,7 @@ _02C4:
 	step 55, 1
 	step 72, 1
 	step_end
-
+	.align 4
 _02D8:
 
 	step 40, 1
@@ -343,21 +343,21 @@ _0405:
 	releaseall
 	end
 
-
+	.align 4
 _040C:
 
 	step 12, 5
 	step 14, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _041C:
 
 	step 12, 5
 	step 14, 2
 	step 34, 1
 	step_end
-
+	.align 4
 _042C:
 
 	step 63, 3
@@ -365,19 +365,19 @@ _042C:
 	step 63, 3
 	step 13, 3
 	step_end
-
+	.align 4
 _0440:
 
 	step 63, 4
 	step 35, 1
 	step_end
-
+	.align 4
 _044C:
 
 	step 75, 1
 	step 63, 2
 	step_end
-
+	.align 4
 _0458:
 
 	step 1, 1
@@ -389,7 +389,7 @@ _0458:
 	step 0, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _047C:
 
 	step 1, 1
@@ -401,7 +401,7 @@ _047C:
 	step 0, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _04A8:
 
 	step 71, 1
@@ -419,14 +419,14 @@ _04A8:
 	step 16, 12
 	step 18, 4
 	step_end
-
+	.align 4
 _04E4:
 
 	step 13, 3
 	step 15, 2
 	step 51, 2
 	step_end
-
+	.align 4
 _04F4:
 
 	step 1, 1
@@ -463,7 +463,7 @@ _0561:
 	releaseall
 	end
 
-
+	.align 4
 _056C:
 
 	step 14, 3

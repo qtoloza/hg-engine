@@ -129,17 +129,17 @@ _0123:
 	releaseall
 	end
 
-
+	.align 4
 _0144:
 
 	step 49, 2
 	step_end
-
+	.align 4
 _014A:
 
 	step 51, 3
 	step_end
-
+	.align 4
 _0150:
 
 	step 9, 1

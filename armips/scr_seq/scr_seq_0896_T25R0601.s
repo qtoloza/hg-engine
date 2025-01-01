@@ -387,56 +387,56 @@ _055F:
 	releaseall
 	end
 
-
+	.align 4
 _056A:
 
 	step 12, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _0574:
 
 	step 63, 1
 	step 2, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _0582:
 
 	step 13, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _058C:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _0592:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _0598:
 
 	step 38, 4
 	step_end
-
+	.align 4
 _059E:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _05A4:
 
 	step 37, 4
 	step_end
-
+	.align 4
 _05AA:
 
 	step 36, 4
 	step_end
-
+	.align 4
 _05B0:
 
 	step 39, 4

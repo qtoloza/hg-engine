@@ -101,23 +101,23 @@ _00C9:
 	setvar VAR_UNK_408A, 1
 	end
 
-
+	.align 4
 _00E4:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _00EA:
 
 	step 12, 1
 	step 14, 4
 	step_end
-
+	.align 4
 _00F4:
 
 	step 14, 4
 	step_end
-
+	.align 4
 _00FA:
 
 	step 13, 1

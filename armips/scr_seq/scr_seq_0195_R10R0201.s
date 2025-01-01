@@ -178,7 +178,7 @@ _01F5:
 	releaseall
 	end
 
-
+	.align 4
 _0200:
 
 	step 75, 1

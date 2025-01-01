@@ -110,7 +110,7 @@ _00F4:
 	releaseall
 	end
 
-
+	.align 4
 _0100:
 
 	step 75, 1

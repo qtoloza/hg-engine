@@ -517,7 +517,7 @@ _0898:
 	releaseall
 	end
 
-
+	.align 4
 _08B0:
 
 	step 33, 1

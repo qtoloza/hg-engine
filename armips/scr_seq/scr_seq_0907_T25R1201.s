@@ -104,12 +104,12 @@ _00FD:
 	scrcmd_309 77
 	return
 
-
+	.align 4
 _0108:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0118:
 
 	step 13, 2
@@ -269,23 +269,23 @@ _0391:
 	releaseall
 	end
 
-
+	.align 4
 _03A0:
 
 	step 15, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _03AC:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _03B4:
 
 	step 12, 2
 	step_end
-
+	.align 4
 _03BC:
 
 	step 1, 1

@@ -63,7 +63,7 @@ _006B:
 	releaseall
 	end
 
-
+	.align 4
 _0078:
 
 	step 3, 1

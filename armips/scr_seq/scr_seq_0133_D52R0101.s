@@ -186,43 +186,43 @@ _0210:
 	clearflag FLAG_HIDE_EMBEDDED_TOWER_GROUDON
 	end
 
-
+	.align 4
 _021A:
 
 	step 12, 8
 	step 32, 1
 	step_end
-
+	.align 4
 _0224:
 
 	step 33, 1
 	step 13, 1
 	step_end
-
+	.align 4
 _022E:
 
 	step 12, 10
 	step 32, 1
 	step_end
-
+	.align 4
 _0238:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _023E:
 
 	step 33, 1
 	step 9, 2
 	step 32, 1
 	step_end
-
+	.align 4
 _024C:
 
 	step 12, 2
 	step 32, 1
 	step_end
-
+	.align 4
 _0256:
 
 	step 13, 8

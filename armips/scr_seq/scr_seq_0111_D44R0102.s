@@ -603,46 +603,46 @@ _08C8:
 	setflag FLAG_HIDE_VICTORY_ROAD_CLAIR
 	end
 
-
+	.align 4
 _08CE:
 
 	step 14, 1
 	step_end
-
+	.align 4
 _08D4:
 
 	step 15, 1
 	step_end
-
+	.align 4
 _08DA:
 
 	step 0, 1
 	step 75, 1
 	step_end
-
+	.align 4
 _08E4:
 
 	step 65, 2
 	step 13, 2
 	step_end
-
+	.align 4
 _08EE:
 
 	step 15, 2
 	step_end
-
+	.align 4
 _08F4:
 
 	step 12, 1
 	step 15, 3
 	step 12, 7
 	step_end
-
+	.align 4
 _0902:
 
 	step 0, 1
 	step_end
-
+	.align 4
 _0908:
 
 	step 65, 1
@@ -650,7 +650,7 @@ _0908:
 	step 14, 1
 	step 13, 1
 	step_end
-
+	.align 4
 _091A:
 
 	step 65, 1
@@ -661,14 +661,14 @@ _091A:
 	step 13, 2
 	step 0, 1
 	step_end
-
+	.align 4
 _0938:
 
 	step 13, 7
 	step 14, 3
 	step 13, 3
 	step_end
-
+	.align 4
 _0946:
 
 	step 63, 1
@@ -676,7 +676,7 @@ _0946:
 	step 14, 4
 	step 13, 4
 	step_end
-
+	.align 4
 _0958:
 
 	step 65, 4
@@ -684,22 +684,22 @@ _0958:
 	step 17, 5
 	step 0, 1
 	step_end
-
+	.align 4
 _096A:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0970:
 
 	step 36, 2
 	step_end
-
+	.align 4
 _0976:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _097C:
 
 	step 20, 1
@@ -707,38 +707,38 @@ _097C:
 	step 13, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _098E:
 
 	step 71, 1
 	step 20, 2
 	step_end
-
+	.align 4
 _0998:
 
 	step 65, 2
 	step 34, 1
 	step_end
-
+	.align 4
 _09A2:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _09AE:
 
 	step 12, 1
 	step 15, 2
 	step 12, 7
 	step_end
-
+	.align 4
 _09BC:
 
 	step 12, 4
 	step 15, 3
 	step 12, 7
 	step_end
-
+	.align 4
 _09CA:
 
 	step 71, 1
@@ -748,29 +748,29 @@ _09CA:
 	step 19, 4
 	step 16, 7
 	step_end
-
+	.align 4
 _09E4:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _09EA:
 
 	step 2, 1
 	step_end
-
+	.align 4
 _09F0:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _09F6:
 
 	step 12, 1
 	step 15, 1
 	step 12, 7
 	step_end
-
+	.align 4
 _0A04:
 
 	step 12, 1

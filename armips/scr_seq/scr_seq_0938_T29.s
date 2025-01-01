@@ -626,13 +626,13 @@ _0822:
 _0828:
 	end
 
-
+	.align 4
 _082A:
 
 	step 34, 1
 	step 50, 2
 	step_end
-
+	.align 4
 _0834:
 
 	step 33, 1

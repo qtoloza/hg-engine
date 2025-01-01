@@ -147,19 +147,19 @@ scr_seq_D35R0101_006:
 	releaseall
 	end
 
-
+	.align 4
 _0214:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _021C:
 
 	step 71, 1
 	step 23, 2
 	step 72, 1
 	step_end
-
+	.align 4
 _022C:
 
 	step 63, 3
@@ -167,7 +167,7 @@ _022C:
 	step 13, 1
 	step 63, 5
 	step_end
-
+	.align 4
 _0240:
 
 	step 0, 2
@@ -177,13 +177,13 @@ _0240:
 	step 0, 2
 	step 63, 5
 	step_end
-
+	.align 4
 _025C:
 
 	step 63, 1
 	step 12, 4
 	step_end
-
+	.align 4
 _0268:
 
 	step 75, 1
@@ -192,30 +192,30 @@ _0268:
 	step 22, 2
 	step 72, 1
 	step_end
-
+	.align 4
 _0280:
 
 	step 12, 1
 	step 3, 2
 	step 63, 2
 	step_end
-
+	.align 4
 _0290:
 
 	step 3, 2
 	step 75, 1
 	step_end
-
+	.align 4
 _029C:
 
 	step 15, 1
 	step_end
-
+	.align 4
 _02A4:
 
 	step 15, 1
 	step_end
-
+	.align 4
 _02AC:
 
 	step 23, 2
@@ -223,20 +223,20 @@ _02AC:
 	step 22, 2
 	step 72, 1
 	step_end
-
+	.align 4
 _02C0:
 
 	step 63, 3
 	step 1, 2
 	step_end
-
+	.align 4
 _02CC:
 
 	step 63, 3
 	step 0, 2
 	step 12, 2
 	step_end
-
+	.align 4
 _02DC:
 
 	step 63, 3

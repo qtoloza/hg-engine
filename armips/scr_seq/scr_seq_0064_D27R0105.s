@@ -56,13 +56,13 @@ _0043:
 	releaseall
 	end
 
-
+	.align 4
 _0070:
 
 	step 19, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _007C:
 
 	step 19, 1

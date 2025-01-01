@@ -469,47 +469,47 @@ scr_seq_D40R0107_005:
 	setvar VAR_UNK_40FA, 2
 	end
 
-
+	.align 4
 _0964:
 
 	step 8, 2
 	step_end
-
+	.align 4
 _096C:
 
 	step 63, 6
 	step 12, 1
 	step_end
-
+	.align 4
 _0978:
 
 	step 63, 5
 	step 14, 2
 	step_end
-
+	.align 4
 _0984:
 
 	step 14, 1
 	step 12, 6
 	step_end
-
+	.align 4
 _0990:
 
 	step 63, 5
 	step 15, 2
 	step_end
-
+	.align 4
 _099C:
 
 	step 15, 1
 	step 12, 6
 	step_end
-
+	.align 4
 _09A8:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _09B8:
 
 	step 3, 1
@@ -521,7 +521,7 @@ _09B8:
 	step 1, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _09DC:
 
 	step 2, 1
@@ -533,7 +533,7 @@ _09DC:
 	step 0, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0A00:
 
 	step 3, 1
@@ -545,7 +545,7 @@ _0A00:
 	step 1, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0A24:
 
 	step 1, 1
@@ -557,7 +557,7 @@ _0A24:
 	step 2, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0A48:
 
 	step 0, 1
@@ -569,7 +569,7 @@ _0A48:
 	step 3, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0A6C:
 
 	step 2, 1
@@ -583,7 +583,7 @@ _0A6C:
 	step 2, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0A98:
 
 	step 3, 1
@@ -597,7 +597,7 @@ _0A98:
 	step 3, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0AC4:
 
 	step 1, 1
@@ -611,7 +611,7 @@ _0AC4:
 	step 1, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0AF0:
 
 	step 0, 1
@@ -625,27 +625,27 @@ _0AF0:
 	step 0, 1
 	step 61, 1
 	step_end
-
+	.align 4
 _0B1C:
 
 	step 8, 2
 	step_end
-
+	.align 4
 _0B24:
 
 	step 9, 2
 	step_end
-
+	.align 4
 _0B2C:
 
 	step 10, 2
 	step_end
-
+	.align 4
 _0B34:
 
 	step 11, 2
 	step_end
-
+	.align 4
 _0B3C:
 
 	step 8, 1

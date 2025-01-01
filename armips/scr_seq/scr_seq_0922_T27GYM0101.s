@@ -230,28 +230,28 @@ _0286:
 	releaseall
 	end
 
-
+	.align 4
 _0290:
 
 	step 75, 1
 	step 13, 3
 	step 63, 1
 	step_end
-
+	.align 4
 _029E:
 
 	step 9, 1
 	step 71, 1
 	step 12, 1
 	step_end
-
+	.align 4
 _02AC:
 
 	step 63, 1
 	step 13, 1
 	step 63, 1
 	step_end
-
+	.align 4
 _02BA:
 
 	step 1, 2

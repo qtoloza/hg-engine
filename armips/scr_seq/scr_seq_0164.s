@@ -85,7 +85,7 @@ _00EE:
 	releaseall
 	end
 
-
+	.align 4
 _0100:
 
 	step 32, 1
@@ -312,59 +312,59 @@ _041C:
 	releaseall
 	end
 
-
+	.align 4
 _0474:
 
 	step 15, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0480:
 
 	step 12, 2
 	step_end
-
+	.align 4
 _0488:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _0490:
 
 	step 12, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _049C:
 
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _04A8:
 
 	step 1, 1
 	step 70, 1
 	step 13, 2
 	step_end
-
+	.align 4
 _04C0:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _04C8:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _04D0:
 
 	step 12, 1
 	step 15, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _04E0:
 
 	step 12, 1

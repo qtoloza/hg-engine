@@ -175,12 +175,12 @@ _01E1:
 	releaseall
 	end
 
-
+	.align 4
 _01EC:
 
 	step 51, 1
 	step_end
-
+	.align 4
 _01F2:
 
 	step 50, 1

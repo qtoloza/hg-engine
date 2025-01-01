@@ -163,7 +163,7 @@ _014E:
 	releaseall
 	end
 
-
+	.align 4
 _01B2:
 
 	step 3, 1
@@ -175,7 +175,7 @@ _01B2:
 	step 2, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _01D4:
 
 	step 0, 1
@@ -187,7 +187,7 @@ _01D4:
 	step 1, 1
 	step 3, 1
 	step_end
-
+	.align 4
 _01F6:
 
 	step 1, 1

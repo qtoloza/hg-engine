@@ -721,131 +721,131 @@ _0A71:
 	releaseall
 	end
 
-
+	.align 4
 _0AC4:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0ACC:
 
 	step 61, 1
 	step_end
-
+	.align 4
 _0AD4:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0ADC:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _0AE4:
 
 	step 13, 3
 	step_end
-
+	.align 4
 _0AEC:
 
 	step 13, 4
 	step_end
-
+	.align 4
 _0AF4:
 
 	step 13, 5
 	step_end
-
+	.align 4
 _0AFC:
 
 	step 13, 6
 	step_end
-
+	.align 4
 _0B04:
 
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B10:
 
 	step 12, 1
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B20:
 
 	step 12, 2
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B30:
 
 	step 12, 3
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B40:
 
 	step 12, 4
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B50:
 
 	step 12, 5
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B60:
 
 	step 12, 6
 	step 15, 1
 	step 34, 1
 	step_end
-
+	.align 4
 _0B70:
 
 	step 12, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _0B7C:
 
 	step 12, 2
 	step 35, 1
 	step_end
-
+	.align 4
 _0B88:
 
 	step 12, 3
 	step 35, 1
 	step_end
-
+	.align 4
 _0B94:
 
 	step 12, 4
 	step 35, 1
 	step_end
-
+	.align 4
 _0BA0:
 
 	step 12, 5
 	step 35, 1
 	step_end
-
+	.align 4
 _0BAC:
 
 	step 12, 6
 	step 35, 1
 	step_end
-
+	.align 4
 _0BB8:
 
 	step 12, 7
@@ -1117,26 +1117,26 @@ _0FDA:
 	releaseall
 	end
 
-
+	.align 4
 _0FE8:
 
 	step 20, 3
 	step 22, 2
 	step 1, 1
 	step_end
-
+	.align 4
 _0FF8:
 
 	step 1, 1
 	step_end
-
+	.align 4
 _1000:
 
 	step 21, 2
 	step 22, 4
 	step 0, 1
 	step_end
-
+	.align 4
 _1010:
 
 	step 21, 3
@@ -1179,7 +1179,7 @@ _109C:
 	setvar VAR_UNK_40E7, 3
 	end
 
-
+	.align 4
 _10B4:
 
 	step 75, 1
@@ -1187,7 +1187,7 @@ _10B4:
 	step 63, 1
 	step 14, 2
 	step_end
-
+	.align 4
 _10C8:
 
 	step 75, 1
@@ -1197,13 +1197,13 @@ _10C8:
 	step 13, 1
 	step 14, 1
 	step_end
-
+	.align 4
 _10E4:
 
 	step 75, 1
 	step 65, 1
 	step_end
-
+	.align 4
 _10F0:
 
 	step 13, 1
@@ -1218,7 +1218,7 @@ _10F0:
 	step 61, 1
 	step 14, 7
 	step_end
-
+	.align 4
 _1120:
 
 	step 12, 1
@@ -1260,7 +1260,7 @@ _1189:
 	setflag FLAG_UNK_1C0
 	end
 
-
+	.align 4
 _11A4:
 
 	step 15, 2

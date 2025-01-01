@@ -789,32 +789,32 @@ _0B99:
 	apply_movement obj_R34_var_1, _0BEE
 	goto _07F4
 
-
+	.align 4
 _0BC8:
 
 	step 75, 1
 	step 13, 1
 	step 15, 2
 	step_end
-
+	.align 4
 _0BD6:
 
 	step 63, 3
 	step 34, 1
 	step_end
-
+	.align 4
 _0BE0:
 
 	step 14, 2
 	step 12, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0BEE:
 
 	step 32, 1
 	step_end
-
+	.align 4
 _0BF4:
 
 	step 13, 6
@@ -822,40 +822,40 @@ _0BF4:
 	step 13, 2
 	step 35, 1
 	step_end
-
+	.align 4
 _0C06:
 
 	step 13, 7
 	step 15, 3
 	step 13, 1
 	step_end
-
+	.align 4
 _0C14:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0C1A:
 
 	step 75, 1
 	step_end
-
+	.align 4
 _0C20:
 
 	step 13, 1
 	step 35, 1
 	step_end
-
+	.align 4
 _0C2A:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0C30:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _0C36:
 
 	step 15, 1
@@ -864,80 +864,80 @@ _0C36:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0C4C:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _0C56:
 
 	step 75, 1
 	step 12, 2
 	step_end
-
+	.align 4
 _0C60:
 
 	step 15, 1
 	step 12, 1
 	step_end
-
+	.align 4
 _0C6A:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0C74:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
 	step_end
-
+	.align 4
 _0C82:
 
 	step 75, 1
 	step 14, 4
 	step_end
-
+	.align 4
 _0C8C:
 
 	step 3, 1
 	step_end
-
+	.align 4
 _0C92:
 
 	step 50, 2
 	step_end
-
+	.align 4
 _0C98:
 
 	step 75, 1
 	step 15, 4
 	step_end
-
+	.align 4
 _0CA2:
 
 	step 2, 1
 	step_end
-
+	.align 4
 _0CA8:
 
 	step 51, 2
 	step_end
-
+	.align 4
 _0CAE:
 
 	step 33, 1
 	step_end
-
+	.align 4
 _0CB4:
 
 	step 12, 1
 	step_end
-
+	.align 4
 _0CBA:
 
 	step 12, 1
@@ -945,24 +945,24 @@ _0CBA:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0CCC:
 
 	step 14, 1
 	step 12, 1
 	step_end
-
+	.align 4
 _0CD6:
 
 	step 15, 1
 	step 33, 1
 	step_end
-
+	.align 4
 _0CE0:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0CE6:
 
 	step 12, 1
@@ -970,96 +970,96 @@ _0CE6:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _0CF8:
 
 	step 14, 2
 	step 12, 1
 	step_end
-
+	.align 4
 _0D02:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0D08:
 
 	step 15, 3
 	step 32, 1
 	step_end
-
+	.align 4
 _0D12:
 
 	step 15, 3
 	step_end
-
+	.align 4
 _0D18:
 
 	step 63, 1
 	step 15, 3
 	step 32, 1
 	step_end
-
+	.align 4
 _0D26:
 
 	step 14, 3
 	step 12, 1
 	step_end
-
+	.align 4
 _0D30:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0D36:
 
 	step 13, 1
 	step_end
-
+	.align 4
 _0D3C:
 
 	step 12, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _0D46:
 
 	step 15, 1
 	step 12, 1
 	step 69, 1
 	step_end
-
+	.align 4
 _0D54:
 
 	step 12, 2
 	step 69, 1
 	step_end
-
+	.align 4
 _0D5E:
 
 	step 14, 3
 	step 12, 1
 	step_end
-
+	.align 4
 _0D68:
 
 	step 15, 4
 	step 32, 1
 	step_end
-
+	.align 4
 _0D72:
 
 	step 13, 1
 	step 15, 3
 	step_end
-
+	.align 4
 _0D7C:
 
 	step 63, 1
 	step 15, 4
 	step 32, 1
 	step_end
-
+	.align 4
 _0D8A:
 
 	step 14, 4

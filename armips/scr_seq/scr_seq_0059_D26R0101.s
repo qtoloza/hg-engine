@@ -146,13 +146,13 @@ _0198:
 	releaseall
 	end
 
-
+	.align 4
 _01AC:
 
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _01B8:
 
 	step 12, 1
@@ -160,7 +160,7 @@ _01B8:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _01CC:
 
 	step 12, 1
@@ -168,13 +168,13 @@ _01CC:
 	step 12, 3
 	step 33, 1
 	step_end
-
+	.align 4
 _01E0:
 
 	step 63, 1
 	step 32, 1
 	step_end
-
+	.align 4
 _01EC:
 
 	step 15, 1

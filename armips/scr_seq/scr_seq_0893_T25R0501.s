@@ -269,17 +269,17 @@ _0345:
 	releaseall
 	end
 
-
+	.align 4
 _0350:
 
 	step 34, 1
 	step_end
-
+	.align 4
 _0356:
 
 	step 13, 2
 	step_end
-
+	.align 4
 _035C:
 
 	step 3, 1

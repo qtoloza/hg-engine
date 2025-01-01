@@ -436,12 +436,12 @@ _05FF:
 	releaseall
 	end
 
-
+	.align 4
 _0610:
 
 	step 35, 1
 	step_end
-
+	.align 4
 _0618:
 
 	step 32, 1
