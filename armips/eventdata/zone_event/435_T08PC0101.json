@@ -183,8 +183,8 @@
       "y": 0
     },
     {
-      "id": "obj_T08PC0101_follower_mon_slowpoke",
-      "spriteId": "SPRITE_FOLLOWER_MON_SLOWPOKE",
+      "id": "obj_T08PC0101_follower_mon_static_slowpoke",
+      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_SLOWPOKE",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",

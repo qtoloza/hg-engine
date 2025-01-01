@@ -20,6 +20,6 @@
 .equ obj_T08PC0101_follower_mon_cloyster, 7
 .equ obj_T08PC0101_follower_mon_shellder, 8
 .equ obj_T08PC0101_follower_mon_shellder_2, 9
-.equ obj_T08PC0101_follower_mon_slowpoke, 10
+.equ obj_T08PC0101_follower_mon_static_slowpoke, 10
 
 .endif //SCR_SEQ_T08PC0101_H_

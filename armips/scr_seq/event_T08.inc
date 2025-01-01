@@ -50,7 +50,7 @@
 .equ obj_T08_follower_mon_cloyster_3, 25
 .equ obj_T08_follower_mon_cloyster_4, 26
 .equ obj_T08_follower_mon_venomoth, 27
-.equ obj_T08_follower_mon_chansey, 28
+.equ obj_T08_follower_mon_static_chansey, 28
 .equ obj_T08_gsleader13, 29
 .equ obj_T08_pcwoman1, 30
 

@@ -76,6 +76,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
 .halfword ITEM_LONELY_MINT
+.halfword 0xFFFF
 
 /* Violet City 2nd Clerk */
 .org 0x020FBA78
@@ -83,6 +84,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
 .halfword ITEM_ADAMANT_MINT
+.halfword 0xFFFF
 
 /* Azalea Town 2nd Clerk */
 .org 0x020FBAB0
@@ -90,6 +92,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
 .halfword ITEM_NAUGHTY_MINT
+.halfword 0xFFFF
 
 /* Goldenrod Dept Store 2F Lower */
 .org 0x020FBBEA
@@ -105,6 +108,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_AWAKENING
 .halfword ITEM_FULL_HEAL
 .halfword ITEM_NAIVE_MINT
+.halfword 0xFFFF
 
 /* Goldenrod Dept Store 2F Upper */
 .org 0x020FBC1A
@@ -121,6 +125,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_BUBBLE_MAIL
 .halfword ITEM_SPACE_MAIL
 .halfword ITEM_JOLLY_MINT
+.halfword 0xFFFF
 
 /* Goldenrod Dept Store 3F */
 .org 0x020FBBB4
@@ -133,6 +138,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_TM20
 .halfword ITEM_TM21
 .halfword ITEM_TM22
+.halfword 0xFFFF
 
 /* Goldenrod Dept Store 4F */
 .org 0x020FBAFA
@@ -143,6 +149,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_CARBOS
 .halfword ITEM_HP_UP
 .halfword ITEM_PP_UP
+.halfword 0xFFFF
 
 /* Goldenrod Dept Store 5F */
 .org 0x020FBC34
@@ -159,6 +166,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_TM43
 .halfword ITEM_TM49
 .halfword ITEM_TM52
+.halfword 0xFFFF
 
 /* Goldenrod Herb Shop */
 .org 0x020FBACA
@@ -167,6 +175,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ENERGY_ROOT
 .halfword ITEM_REVIVAL_HERB
 .halfword ITEM_BRAVE_MINT
+.halfword 0xFFFF
 
 /* Ecruteak City 2nd Clerk */
 .org 0x020FBA60
@@ -174,6 +183,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
 .halfword ITEM_BOLD_MINT
+.halfword 0xFFFF
 
 /* Olivine City 2nd Clerk */
 .org 0x020FBA88
@@ -181,6 +191,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_NET_BALL
 .halfword ITEM_IMPISH_MINT
+.halfword 0xFFFF
 
 /* Cianwood City Pharmacy */
 .org 0x020FBAD4
@@ -190,6 +201,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_FULL_HEAL
 .halfword ITEM_REVIVE
 .halfword ITEM_LAX_MINT
+.halfword 0xFFFF
 
 /* Mahogany Town Shop - Before Team Rocket */
 .org 0x020FBAB8
@@ -209,6 +221,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_RAZOR_FANG
 .halfword ITEM_PRISM_SCALE
 .halfword ITEM_RELAXED_MINT
+.halfword 0xFFFF
 
 /* Blackthorn City 2nd Clerk */
 .org 0x020FBA80
@@ -216,6 +229,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_NET_BALL
 .halfword ITEM_DUSK_BALL
 .halfword ITEM_MODEST_MINT
+.halfword 0xFFFF
 
 /* Safari Zone Gate Southwest Stall */
 .org 0x020FBAC0
@@ -224,12 +238,14 @@ EIGHT_BADGES equ 6
 .halfword ITEM_DUSK_BALL
 .halfword ITEM_QUICK_BALL
 .halfword ITEM_MILD_MINT
+.halfword 0xFFFF
 
 /* Vermillion City 2nd Clerk */
 .org 0x020FBA5A
 .halfword ITEM_AIR_MAIL
 .halfword ITEM_QUICK_BALL
 .halfword ITEM_RASH_MINT
+.halfword 0xFFFF
 
 /* Saffron City 2nd Clerk */
 .org 0x020FBA70
@@ -237,6 +253,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_DUSK_BALL
 .halfword ITEM_QUICK_BALL
 .halfword ITEM_QUIET_MINT
+.halfword 0xFFFF
 
 /* Lavender Town 2nd Clerk */
 .org 0x020FBA98
@@ -244,6 +261,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_DUSK_BALL
 .halfword ITEM_QUICK_BALL
 .halfword ITEM_CALM_MINT
+.halfword 0xFFFF
 
 /* Celadon Dept Store 2F Lower */
 .org 0x020FBC02
@@ -259,6 +277,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_AWAKENING
 .halfword ITEM_FULL_HEAL
 .halfword ITEM_HASTY_MINT
+.halfword 0xFFFF
 
 /* Celadon Dept Store 2F Upper */
 .org 0x020FBC4E
@@ -275,6 +294,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_BUBBLE_MAIL
 .halfword ITEM_SPACE_MAIL
 .halfword ITEM_TIMID_MINT
+.halfword 0xFFFF
 
 /* Celadon Dept Store 3F */
 .org 0x020FBC68
@@ -291,6 +311,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_TM72
 .halfword ITEM_TM76
 .halfword ITEM_TM77
+.halfword 0xFFFF
 
 /* Celadon Dept Store 4F */
 .org 0x020FBA68
@@ -298,6 +319,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_UP_GRADE
 .halfword ITEM_WHIPPED_DREAM
 .halfword ITEM_LINKING_CORD
+.halfword 0xFFFF
 
 /* Celadon Dept Store 5F Left */
 .org 0x020FBBC6
@@ -310,6 +332,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_ABILITY_CAPSULE
 .halfword ITEM_ABILITY_PATCH
 .halfword ITEM_SERIOUS_MINT
+.halfword 0xFFFF
 
 /* Celadon Dept Store 5F Right */
 .org 0x020FBB08
@@ -320,6 +343,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_CARBOS
 .halfword ITEM_HP_UP
 .halfword ITEM_PP_UP
+.halfword 0xFFFF
 
 /* Fuchsia City 2nd Clerk */
 .org 0x020FBA90
@@ -327,6 +351,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_DUSK_BALL
 .halfword ITEM_QUICK_BALL
 .halfword ITEM_GENTLE_MINT
+.halfword 0xFFFF
 
 /* Pewter City 2nd Clerk */
 .org 0x020FBAA0
@@ -334,6 +359,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_NEST_BALL
 .halfword ITEM_QUICK_BALL
 .halfword ITEM_CAREFUL_MINT
+.halfword 0xFFFF
 
 /* Viridian City 2nd Clerk */
 .org 0x020FBAA8
@@ -341,6 +367,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_NET_BALL
 .halfword ITEM_HEAL_BALL
 .halfword ITEM_SASSY_MINT
+.halfword 0xFFFF
 
 /* Mt. Moon Square Shop */
 .org 0x020FBB16
@@ -351,5 +378,6 @@ EIGHT_BADGES equ 6
 .halfword ITEM_WATER_STONE
 .halfword ITEM_LEAF_STONE
 .halfword ITEM_ICE_STONE
+.halfword 0xFFFF
 
 .close

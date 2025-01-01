@@ -462,8 +462,8 @@
       "y": 851968
     },
     {
-      "id": "obj_R47_follower_mon_blissey",
-      "spriteId": "SPRITE_FOLLOWER_MON_BLISSEY",
+      "id": "obj_R47_follower_mon_static_blissey",
+      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_BLISSEY",
       "movement": 16,
       "type": 0,
       "eventFlag": 16360,

@@ -184,7 +184,7 @@
     },
     {
       "id": "obj_T22PC0101_juggrer",
-      "spriteId": "SPRITE_JUGGRER",
+      "spriteId": "SPRITE_JUGGLER",
       "movement": 15,
       "type": 0,
       "eventFlag": 16376,

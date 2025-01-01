@@ -104,8 +104,8 @@
       "y": 0
     },
     {
-      "id": "obj_R32_ambrella",
-      "spriteId": "SPRITE_AMBRELLA",
+      "id": "obj_R32_gsboy2",
+      "spriteId": "SPRITE_GSBOY2",
       "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -206,8 +206,8 @@
       "y": 0
     },
     {
-      "id": "obj_R32_explore",
-      "spriteId": "SPRITE_EXPLORE",
+      "id": "obj_R32_gsboy2",
+      "spriteId": "SPRITE_GSBOY2",
       "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -240,8 +240,8 @@
       "y": 0
     },
     {
-      "id": "obj_R32_gsman3",
-      "spriteId": "SPRITE_GSMAN3",
+      "id": "obj_R32_gsman2",
+      "spriteId": "SPRITE_GSMAN2",
       "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",

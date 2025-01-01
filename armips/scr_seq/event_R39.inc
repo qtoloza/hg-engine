@@ -11,10 +11,10 @@
 .equ _EV_scr_seq_R39_007, 7
 .equ _EV_scr_seq_R39_008, 8
 
-.equ obj_R39_farmer, 0
+.equ obj_R39_seaman_2, 0
 .equ obj_R39_gsmiddleman1, 1
 .equ obj_R39_middlewoman1_2, 2
-.equ obj_R39_cowgirl, 3
+.equ obj_R39_mystery_2, 3
 .equ obj_R39_follower_mon_static_miltank, 4
 .equ obj_R39_follower_mon_static_miltank_2, 5
 .equ obj_R39_follower_mon_static_miltank_3, 6

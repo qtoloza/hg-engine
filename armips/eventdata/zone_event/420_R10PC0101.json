@@ -132,8 +132,8 @@
       "y": 0
     },
     {
-      "id": "obj_R10PC0101_follower_mon_blissey",
-      "spriteId": "SPRITE_FOLLOWER_MON_BLISSEY",
+      "id": "obj_R10PC0101_follower_mon_static_blissey",
+      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_BLISSEY",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",

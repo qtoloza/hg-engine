@@ -254,7 +254,7 @@ scr_seq_T08_016:
 	play_bgm SEQ_GS_VS_TRAINER_KANTO
 	npc_msg 27
 	closemsg
-	release obj_T08_follower_mon_chansey
+	release obj_T08_follower_mon_static_chansey
 	release obj_T08_follower_mon_cloyster_4
 	play_cry SPECIES_CHANSEY, 5
 	wait_cry
@@ -262,7 +262,7 @@ scr_seq_T08_016:
 	wait_cry
 	play_cry SPECIES_CHANSEY, 0
 	wait_cry
-	lock obj_T08_follower_mon_chansey
+	lock obj_T08_follower_mon_static_chansey
 	lock obj_T08_follower_mon_cloyster_4
 	fade_out_bgm 0, 10
 	reset_bgm
@@ -548,7 +548,7 @@ _06DB:
 	show_person obj_T08_gsboy2
 	show_person obj_T08_juggrer
 	hide_person obj_T08_follower_mon_venomoth
-	hide_person obj_T08_follower_mon_chansey
+	hide_person obj_T08_follower_mon_static_chansey
 	hide_person obj_T08_gsleader13
 	hide_person obj_T08_pcwoman1
 	hide_person obj_T08_woman1

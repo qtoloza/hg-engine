@@ -104,8 +104,8 @@
       "y": 0
     },
     {
-      "id": "obj_R30_idol",
-      "spriteId": "SPRITE_IDOL",
+      "id": "obj_R30_gsboy3",
+      "spriteId": "SPRITE_GSBOY3",
       "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -138,8 +138,8 @@
       "y": 0
     },
     {
-      "id": "obj_R30_woman1",
-      "spriteId": "SPRITE_WOMAN1",
+      "id": "obj_R30_gsboy2",
+      "spriteId": "SPRITE_GSBOY2",
       "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",

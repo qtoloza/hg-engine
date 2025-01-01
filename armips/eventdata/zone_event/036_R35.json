@@ -115,7 +115,7 @@
     },
     {
       "id": "obj_R35_juggrer",
-      "spriteId": "SPRITE_JUGGRER",
+      "spriteId": "SPRITE_JUGGLER",
       "movement": 5,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",

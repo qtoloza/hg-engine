@@ -48,7 +48,7 @@
 .equ obj_R47_rocketw_3, 22
 .equ obj_R47_rocketm_3, 23
 .equ obj_R47_seven1, 24
-.equ obj_R47_follower_mon_blissey, 25
+.equ obj_R47_follower_mon_static_blissey, 25
 .equ obj_R47_rocketm_4, 26
 .equ obj_R47_rocketw_4, 27
 .equ obj_R47_seven3, 28

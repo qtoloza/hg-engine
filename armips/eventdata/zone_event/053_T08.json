@@ -148,7 +148,7 @@
     },
     {
       "id": "obj_T08_juggrer",
-      "spriteId": "SPRITE_JUGGRER",
+      "spriteId": "SPRITE_JUGGLER",
       "movement": 0,
       "type": 0,
       "eventFlag": 16226,
@@ -521,8 +521,8 @@
       "y": 0
     },
     {
-      "id": "obj_T08_follower_mon_chansey",
-      "spriteId": "SPRITE_FOLLOWER_MON_CHANSEY",
+      "id": "obj_T08_follower_mon_static_chansey",
+      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_CHANSEY",
       "movement": 0,
       "type": 0,
       "eventFlag": 16227,

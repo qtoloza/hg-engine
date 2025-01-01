@@ -8054,8 +8054,8 @@ pokemon SPECIES_MUK
 pokemon SPECIES_WEEZING
 pokemon SPECIES_KLEFKI
 pokemon SPECIES_JOLTIK
-pokemon SPECIES_ROTOM
-pokemon SPECIES_ROTOM
+pokemon SPECIES_MUK
+pokemon SPECIES_WEEZING
 
 // day encounter slots
 pokemon SPECIES_ELECTABUZZ
@@ -8068,8 +8068,8 @@ pokemon SPECIES_MUK
 pokemon SPECIES_WEEZING
 pokemon SPECIES_KLEFKI
 pokemon SPECIES_JOLTIK
-pokemon SPECIES_ROTOM
-pokemon SPECIES_ROTOM
+pokemon SPECIES_MUK
+pokemon SPECIES_WEEZING
 
 // night encounter slots
 pokemon SPECIES_ELECTABUZZ
@@ -8082,8 +8082,8 @@ pokemon SPECIES_MUK
 pokemon SPECIES_WEEZING
 pokemon SPECIES_KLEFKI
 pokemon SPECIES_JOLTIK
-pokemon SPECIES_ROTOM
-pokemon SPECIES_ROTOM
+pokemon SPECIES_MUK
+pokemon SPECIES_WEEZING
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
