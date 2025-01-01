@@ -127,7 +127,7 @@ _0153:
 	npc_msg 2
 	play_fanfare SEQ_ME_POKEGET
 	wait_fanfare
-	give_mon SPECIES_TYROGUE, 10, 303, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TYROGUE, 5, 303, 0, 0, VAR_SPECIAL_RESULT
 	npc_msg 5
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT

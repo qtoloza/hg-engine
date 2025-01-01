@@ -447,8 +447,8 @@ _06A8:
 	goto_if_eq _0C13
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0C13
-	give_mon SPECIES_CHIMCHAR, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_PIPLUP, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_CHIMCHAR, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_PIPLUP, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 78
 	play_fanfare SEQ_ME_POKEGET
@@ -467,8 +467,8 @@ _0700:
 	goto_if_eq _0C13
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0C13
-	give_mon SPECIES_TURTWIG, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_PIPLUP, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TURTWIG, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_PIPLUP, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 79
 	play_fanfare SEQ_ME_POKEGET
@@ -487,8 +487,8 @@ _0758:
 	goto_if_eq _0C13
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0C13
-	give_mon SPECIES_TURTWIG, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_CHIMCHAR, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TURTWIG, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_CHIMCHAR, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 80
 	play_fanfare SEQ_ME_POKEGET

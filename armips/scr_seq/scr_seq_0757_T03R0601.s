@@ -380,8 +380,8 @@ _0521:
 	goto_if_eq _06EA
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _06EA
-	give_mon SPECIES_TORCHIC, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_MUDKIP, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TORCHIC, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_MUDKIP, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 31
 	play_fanfare SEQ_ME_POKEGET
@@ -400,8 +400,8 @@ _0579:
 	goto_if_eq _06EA
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _06EA
-	give_mon SPECIES_TREECKO, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_MUDKIP, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TREECKO, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_MUDKIP, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 32
 	play_fanfare SEQ_ME_POKEGET
@@ -420,8 +420,8 @@ _05D1:
 	goto_if_eq _06EA
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _06EA
-	give_mon SPECIES_TREECKO, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_TORCHIC, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TREECKO, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TORCHIC, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 33
 	play_fanfare SEQ_ME_POKEGET

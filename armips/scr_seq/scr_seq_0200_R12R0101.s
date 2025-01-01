@@ -111,8 +111,8 @@ _011E:
 	goto_if_eq _0292
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0292
-	give_mon SPECIES_CHARMANDER, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_SQUIRTLE, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_CHARMANDER, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_SQUIRTLE, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 7
 	play_fanfare SEQ_ME_POKEGET
@@ -138,8 +138,8 @@ _019A:
 	goto_if_eq _0292
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0292
-	give_mon SPECIES_BULBASAUR, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_SQUIRTLE, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_BULBASAUR, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_SQUIRTLE, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 8
 	play_fanfare SEQ_ME_POKEGET
@@ -165,8 +165,8 @@ _0216:
 	goto_if_eq _0292
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0292
-	give_mon SPECIES_BULBASAUR, 10, 155, 0, 0, VAR_SPECIAL_RESULT
-	give_mon SPECIES_CHARMANDER, 10, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_BULBASAUR, 5, 155, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_CHARMANDER, 5, 155, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	npc_msg 9
 	play_fanfare SEQ_ME_POKEGET

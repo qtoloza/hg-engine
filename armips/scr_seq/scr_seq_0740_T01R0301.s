@@ -285,8 +285,8 @@ _03CD:
 	goto_if_eq _06DA
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _06DA
-	check_national_dex_complete VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
+	count_national_dex_owned VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 721
 	goto_if_eq _06DE
 	releaseall
 	end
@@ -306,8 +306,8 @@ _0421:
 	goto_if_eq _06DA
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _06DA
-	check_national_dex_complete VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
+	count_national_dex_owned VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 721
 	goto_if_eq _06DE
 	releaseall
 	end

@@ -830,7 +830,7 @@ _0DF6:
 	npc_msg 27
 	play_fanfare SEQ_ME_SHINKAOME
 	wait_fanfare
-	give_mon SPECIES_DRAGONAIR, 45, 311, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_DRATINI, 5, 311, 0, 0, VAR_SPECIAL_RESULT
 	goto_if_set FLAG_FAILED_DRAGONS_DEN_QUIZ, _0EC4
 	set_mon_move VAR_SPECIAL_x8005, 0, MOVE_EXTREME_SPEED
 	npc_msg 32

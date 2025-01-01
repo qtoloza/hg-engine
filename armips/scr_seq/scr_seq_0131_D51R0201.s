@@ -601,8 +601,8 @@ _078F:
 	hasitem ITEM_IRON_PLATE, 1, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0C4E
-	check_national_dex_complete VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
+	count_national_dex_owned VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 721
 	goto_if_eq _0C5B
 	goto_if_unset 16328, _0C68
 	goto_if_unset 16304, _0C68
