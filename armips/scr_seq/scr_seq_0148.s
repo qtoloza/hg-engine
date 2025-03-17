@@ -121,7 +121,7 @@ _0142:
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait_fanfare
 	count_national_dex_owned VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 721
+	compare VAR_SPECIAL_RESULT, 720
 	goto_if_eq _0183
 	npc_msg 21
 	wait_button_or_walk_away

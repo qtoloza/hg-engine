@@ -286,7 +286,7 @@ _03CD:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _06DA
 	count_national_dex_owned VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 721
+	compare VAR_SPECIAL_RESULT, 720
 	goto_if_eq _06DE
 	releaseall
 	end
@@ -307,7 +307,7 @@ _0421:
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _06DA
 	count_national_dex_owned VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 721
+	compare VAR_SPECIAL_RESULT, 720
 	goto_if_eq _06DE
 	releaseall
 	end

@@ -602,7 +602,7 @@ _078F:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _0C4E
 	count_national_dex_owned VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 721
+	compare VAR_SPECIAL_RESULT, 720
 	goto_if_eq _0C5B
 	goto_if_unset 16328, _0C68
 	goto_if_unset 16304, _0C68
