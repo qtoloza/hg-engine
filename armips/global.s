@@ -26,8 +26,6 @@
 .include "armips/asm/tm.s" // make tms infinite
 .include "armips/asm/forget_hm.s" // allows hm to be forgotten
 
-.endif
-
 .if FAIRY_TYPE_IMPLEMENTED == 1
 
 .include "armips/asm/fairy.s" // repoints all the move table defines within the structure
