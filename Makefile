@@ -98,8 +98,6 @@ NDSTOOL := tools/ndstool
 NTRWAVTOOL := $(PYTHON) tools/ntrWavTool.py
 O2NARC := tools/o2narc
 SDATTOOL := $(PYTHON) tools/SDATTool.py
-SWAV2SWAR_EXE := tools/swav2swar.exe
-SWAV2SWAR := mono $(SWAV2SWAR_EXE)
 JSONPROC := tools/jsonproc
 
 # Compiler/Assembler/Linker settings
