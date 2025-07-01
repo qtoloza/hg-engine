@@ -7,9 +7,11 @@
 .equ _EV_scr_seq_D24R0102_003, 3
 .equ _EV_scr_seq_D24R0102_004, 4
 .equ _EV_scr_seq_D24R0102_005, 5
+.equ _EV_scr_seq_D24R0102_006, 6
 
 .equ obj_D24R0102_suit, 0
 .equ obj_D24R0102_gsassistantm, 1
 .equ obj_D24R0102_gsassistantm_2, 2
+.equ obj_D24R0102_gsassistantm_3, 3
 
 .endif //SCR_SEQ_D24R0102_H_

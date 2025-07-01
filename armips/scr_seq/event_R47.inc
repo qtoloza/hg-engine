@@ -6,6 +6,22 @@
 .equ _EV_scr_seq_R47_002, 2
 .equ _EV_scr_seq_R47_003, 3
 .equ _EV_scr_seq_R47_004, 4
+.equ _EV_scr_seq_R47_005, 5
+.equ _EV_scr_seq_R47_006, 6
+.equ _EV_scr_seq_R47_007, 7
+.equ _EV_scr_seq_R47_008, 8
+.equ _EV_scr_seq_R47_009, 9
+.equ _EV_scr_seq_R47_010, 10
+.equ _EV_scr_seq_R47_011, 11
+.equ _EV_scr_seq_R47_012, 12
+.equ _EV_scr_seq_R47_013, 13
+.equ _EV_scr_seq_R47_014, 14
+.equ _EV_scr_seq_R47_015, 15
+.equ _EV_scr_seq_R47_016, 16
+.equ _EV_scr_seq_R47_017, 17
+.equ _EV_scr_seq_R47_018, 18
+.equ _EV_scr_seq_R47_019, 19
+.equ _EV_scr_seq_R47_020, 20
 
 .equ obj_R47_monstarball, 0
 .equ obj_R47_monstarball_2, 1
@@ -20,5 +36,25 @@
 .equ obj_R47_gswoman2, 10
 .equ obj_R47_mount_2_2, 11
 .equ obj_R47_gsleader5, 12
+.equ obj_R47_rocketm, 13
+.equ obj_R47_rocketm_2, 14
+.equ obj_R47_seven5, 15
+.equ obj_R47_follower_mon_alakazam, 16
+.equ obj_R47_rocketw, 17
+.equ obj_R47_rocketw_2, 18
+.equ obj_R47_seven4, 19
+.equ obj_R47_follower_mon_claydol, 20
+.equ obj_R47_rock, 21
+.equ obj_R47_rocketw_3, 22
+.equ obj_R47_rocketm_3, 23
+.equ obj_R47_seven1, 24
+.equ obj_R47_follower_mon_static_blissey, 25
+.equ obj_R47_rocketm_4, 26
+.equ obj_R47_rocketw_4, 27
+.equ obj_R47_seven3, 28
+.equ obj_R47_follower_mon_arcanine, 29
+.equ obj_R47_rkanbuw, 30
+.equ obj_R47_rock_2, 31
+.equ obj_R47_rock_3, 32
 
 .endif //SCR_SEQ_R47_H_

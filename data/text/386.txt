@@ -1,5 +1,10 @@
 Oh, honey. You’re making a Pokédex?\rYou must be battling all kinds\nof Pokémon.\rTry using this TM for a change.
                      
 It’s Taunt.\rUse it and the target Pokémon\ncan only use moves that do damage\fto your Pokémon for a while.
-BUTTERFREE: Freeh!
+MOTHIM: Mothhh!
 Did you see the shrine that pays homage\nto the protector?\rThis protector watches over the forest\nfrom across time.\rI think that it must be a\nGrass-type Pokémon.
+Cynthia: Well, hello, {STRVAR_1 3, 0, 0}! I had a\nfeeling I might see you pass through\fhere. You’re probably wondering why\fI’m even here?\r
+Cynthia: I found an odd little artifact\nthat I felt you might somehow be able\fto use. It’s known as an Odd Keystone.\rHere, you can have it!\r
+It might be worth taking it to the\nWell in Azalea Town. I’ve heard of\fsightings of a weird Pokémon there.\r
+Cynthia: I hope it proves useful to\nyou. On a side note, you should come\fvisit the new archaelogical building\fin Goldenrod City. It’s in the process\fof replacing that old bike shop...\r
+Cynthia: Well then, see you!

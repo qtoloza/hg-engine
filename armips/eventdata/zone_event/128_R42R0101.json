@@ -15,8 +15,42 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 5,
+      "x": 6,
       "z": 4,
+      "y": 0
+    },
+    {
+      "id": "obj_R42R0101_mount",
+      "spriteId": "SPRITE_MOUNT",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_GOT_TM23_FROM_JASMINE",
+      "scriptId": "_EV_scr_seq_R42R0101_003 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 10,
+      "z": 7,
+      "y": 0
+    },
+    {
+      "id": "obj_R42R0101_explore",
+      "spriteId": "SPRITE_EXPLORE",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_GOT_TM23_FROM_JASMINE",
+      "scriptId": "_EV_scr_seq_R42R0101_004 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 10,
+      "z": 8,
       "y": 0
     }
   ],
@@ -34,6 +68,18 @@
       "header": "MAP_R42",
       "anchor": 0,
       "y": 0
+    }
+  ],
+  "coords": [
+    {
+      "scriptId": "_EV_scr_seq_R42R0101_002 + 1",
+      "x": 6,
+      "z": 6,
+      "w": 0,
+      "h": 0,
+      "y": 0,
+      "val": 0,
+      "var": 24998
     }
   ]
 }

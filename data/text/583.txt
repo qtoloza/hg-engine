@@ -5,3 +5,26 @@ Team Rocket...!
 A higher level Pokémon doesn’t\nalways win.\rAfter all, it may have a type\ndisadvantage.\rI don’t think there is a single\nPokémon that is the toughest.
 I think I’ve met you before...\rYou must have a reason for\nlooking like that...?
 Hey, I don’t mind restoring a Pokémon’s\nhealth, even when they belong to\fTeam Rocket...\rBut stay away from other places, OK?
+Well, hello there, trainer!\rWould you like to take a quiz? {YESNO 0}
+Excellent! Let’s get started!\rQuestion one!\rIs it true that Giovanni owns\na Level 54 NIDOQUEEN in Yellow? {YESNO 0}
+Aww... come back again!
+I’m sorry, but that’s the wrong\nanswer! Please, come and try again!
+Correct! Time for question number two!\rCan PIKACHU learn Surf\nwithin Pokémon Yellow? {YESNO 0}
+Correct! The semifinal question!\rCan MAGMAR learn Overheat\nin Fire Red or Leaf Green? {YESNO 0}
+Correct! The final question!\rIs it true that NIDORINA and\nNIDOQUEEN cannot breed? {YESNO 0}
+Congratulations!\nYou completed the quiz!\rYou can now pick a prized Pokémon!\nWhich would you like?
+Eh?\nYou don’t want any of them?
+TURTWIG
+CHIMCHAR
+PIPLUP
+Cancel
+Uhh...\nYour party is too full...
+Woohoo!\nLook out for more of us Quiz Masters!
+As you wish!\r
+{STRVAR_1 3, 0, 0} received a {STRVAR_1 0, 1, 0}!
+Do you want to give a\nnickname to {STRVAR_1 0, 1, 0}?
+Which Pokémon do you want?
+Brain is better than brawn!\rTry this TM out and I bet you’ll\nagree!\r
+Calm Mind raises the special stats\nof a Pokémon that uses it!
+Brawn is better than brain!\rTry this TM out and I bet you’ll\nagree!\r
+Bulk Up raises the physical stats\nof a Pokémon that uses it!

@@ -12,3 +12,4 @@ Thank you.\nPlease come again!
 You bought the {STRVAR_1 8, 0, 0}.\r
 Ouch!\nYour Bag is full!
 Well... Excuse me, but\nyou’re short of money.
+Have you heard of that cute\nPokémon called SHAYMIN?\rI’ve heard it’s extremely shy,\nbut it’s oh-so-cute!\rI wonder if one would ever\nshow up around here?

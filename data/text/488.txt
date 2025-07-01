@@ -12,8 +12,9 @@ I love CLEFAIRY, but I could never\ncatch one.\rSo I’m making do with a Poké 
 I love CLEFAIRY, but I could never\ncatch one. So I’m making do with a\fPoké Doll that I found.\rWhat?\nThe girl who lost this Poké Doll\fis sad...!\rOK. Could you take this Poké Doll\nback to that poor little girl?\rI’ll befriend a real CLEFAIRY on\nmy own one day!\r
 {STRVAR_1 3, 0, 0} received\nthe lost Poké Doll!
 You watch. I’m going to get a\nreal CLEFAIRY as my friend.
-Look at my darling BAYLEEF!\rThe leaf on its head is so cute\nand fashionable!
+Look at my darling Skuntank!\rIt’s so...\r...\rUgh...
 It’s a CLEFAIRY!\nHuh?\rOh, right. It’s a CLEFAIRY Poké Doll.
-BAYLEEF: Li liif!
+Skuntank: Skuuu!
 Let’s all listen politely to\nother Trainers.
 If someone brags, brag right back!
+This Rapidash...\nIt’s so precious... and...\rIt’s...cute...lovely...smart...\nadorable...irresistible...plus...\famazing...\rOh, so...wild...beautiful...\n...kind...\rWant to hug it... Warm and cuddly...\nOh, it’s...spectacular...captivating...\fsimply divine...

@@ -11,4 +11,9 @@ Well, hello!\nWe meet again!\rCynthia has gone back to Sinnoh.\fShe is the Sinno
 You seem so out of place, not even\nknowing why you are here.\rDo you want my ABRA to use a\nspecial power to take you home? {YESNO 0}
 OK. OK.\nPicture your house in your mind...\r
 OK... OK...\nThe best of luck to you!
-ABRA: Aabra...
+ABRA: AAbra...
+Cynthia: Regardless, do you wish\nto return to {COLOR 2}Goldenrod City{COLOR 0}? {YESNO 0}
+Cynthia: Inform me when you are\nready to leave.
+Cynthia: I can feel a legendary\npresence at the stage...\rRepresenting knowledge, emotion or\nwillpower...\r
+Cynthia: This place seems...\ncompletely desolate.\r
+Cynthia: I can feel a legendary\npresence at the stage...\rRepresenting antimatter, space or\ntime...\r

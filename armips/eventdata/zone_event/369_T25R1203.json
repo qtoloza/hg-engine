@@ -173,7 +173,7 @@
     },
     {
       "id": "obj_T25R1203_juggrer",
-      "spriteId": "SPRITE_JUGGRER",
+      "spriteId": "SPRITE_JUGGLER",
       "movement": 3,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",

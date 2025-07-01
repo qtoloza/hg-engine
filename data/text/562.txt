@@ -1,6 +1,7 @@
 A Pokémon you get in a trade\ngrows quickly.\rBut if you don’t have the right Gym\nBadge, they may disobey you.
-I collect Pokémon.\nDo you have BELLSPROUT?\rWant to trade it for my ONIX? {YESNO 0}
-Yay! I got myself BELLSPROUT!\nThanks!
-Huh? That’s not BELLSPROUT.\fWhat a letdown...
-You don’t want to trade? Aww...
-Hi, how’s my old ONIX doing?
+I collect Pokémon!\nDo you have RHYHORN?\rWant to trade it for my GLIGAR? {YESNO 0}
+Ho ho! I got myself RHYHORN!\nThank you!
+Eh? That’s not a RHYHORN.
+You don’t want to trade?\nThat’s a shame!
+Hi, how’s my buddy RHYHORN doing?\nIs he a strong RHYPERIOR yet?
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

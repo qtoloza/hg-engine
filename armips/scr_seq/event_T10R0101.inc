@@ -10,6 +10,8 @@
 .equ _EV_scr_seq_T10R0101_006, 6
 .equ _EV_scr_seq_T10R0101_007, 7
 .equ _EV_scr_seq_T10R0101_008, 8
+.equ _EV_scr_seq_T10R0101_009, 9
+.equ _EV_scr_seq_T10R0101_010, 10
 
 .equ obj_T10R0101_pcwoman1, 0
 .equ obj_T10R0101_gsoldman1, 1
@@ -20,5 +22,7 @@
 .equ obj_T10R0101_pcwoman2, 6
 .equ obj_T10R0101_pcwoman2_2, 7
 .equ obj_T10R0101_counterm, 8
+.equ obj_T10R0101_gsman3, 9
+.equ obj_T10R0101_follower_mon_tyranitar, 10
 
 .endif //SCR_SEQ_T10R0101_H_

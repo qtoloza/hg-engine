@@ -1,3 +1,32 @@
 Do any of your Pokémon know...\nwhat they call the hidden moves?\rWhen a Pokémon faints, it just means\nit doesn’t have the power to battle.\rBut it can still use hidden moves\noutside of battle!
 Bill’s PC can store up to 30\nPokémon per Box.
 Do you know what an Apricorn is?\rYou crack it open to discard the core\nand put it in this special machine...\fThen you can catch Pokémon!\rBefore Poké Balls became available,\neverybody used Apricorns to\fcatch Pokémon.\n
+Well, hello there, trainer!\rWould you like to take a quiz? {YESNO 0}
+Excellent! Let’s get started!\rQuestion one!\rIs SABLEYE the only Pokémon\nable to have the Stall ability? {YESNO 0}
+Aww... come back again!
+I’m sorry, but that’s the wrong\nanswer! Please, come and try again!
+Correct! Time for question two!\rIs the Lax Incense required in\norder to breed a MUNCHLAX? {YESNO 0}
+Correct! The semifinal question!\rIs it true that Reversal has\na maximum power of 150? {YESNO 0}
+Correct! The final question!\rDoes GARDEVOIR have a higher\nbase stat total than ALAKAZAM? {YESNO 0}
+Congratulations!\nYou completed the quiz!\rYou can now pick a prized Pokémon!\nWhich would you like?
+Eh?\nYou don’t want any of them?
+TREECKO
+TORCHIC
+MUDKIP
+Cancel
+Uhh...\nYour party is too full...
+Woohoo!\nLook out for more of us Quiz Masters!
+As you wish!\r
+{STRVAR_1 3, 0, 0} received a {STRVAR_1 0, 1, 0}!
+Do you want to give a\nnickname to {STRVAR_1 0, 1, 0}?
+Which Pokémon do you want?
+I collect Pokémon.\nDo you have a GIBLE?\rWant to trade it for my BELDUM? {YESNO 0}
+Yay! I got myself a BELDUM!\fThanks!
+Huh? That’s not GIBLE.\nThat’s such a letdown...
+You don’t want to trade? Darn...
+Hi, how’s my BELDUM doing?\nHas it evolved yet?
+Hey, kid! Wanna rock out!? {YESNO 0}
+Ha ha!\nYour answer barely matters!\rYou don’t even have an instrument!\rBut props for talking to me.\nI’ll give you this to reward you!\r
+Shock Wave is a cool Electric-type\nmove that will never miss. Rock on!
+VOLTORB: Bzzzzzzt!
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

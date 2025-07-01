@@ -66,3 +66,14 @@ I thought I would never see you again!\rWait a sec...\nSo we must be back to our
 I missed you so much!\rWait a sec...\nSo we must be back to our time!\r
 It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Rocket’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
 It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Rocket’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
+Boss Pokémon have been unlocked in\nRoute 32, Route 33 and Union Cave!
+{STRVAR_1 3, 0, 0} began to play the\nAzure Flute!\r
+Bii!\r
+{COLOR 1}There’s the feel of a shy Pokémon\nwho will only come out once{COLOR 0}.\rDo you want to try playing the\nAzure Flute? {YESNO 0}
+Man, where are the bugs today...\r
+Oh, hey! I wasn’t expecting to see any\nTrainers while I was out hunting...\rYou know, Bugs might be nasty-mean,\nbut they’re so beautiful too!\rI wouldn’t say ravishing, but still...\rAnyway! I like you! Take this as a\ntoken of our meeting!\r
+X-Scissor is a very normal Bug move,\nbut it’s decently strong!
+Gardenia: Ivysaur! Use Vine Whip!\r
+Gardenia: Oh, yes, that feels\nfantastic!\r...\rIt’s incredible! I don’t know how\nlong I can hold on! Keep it u-
+Gardenia: Ahhh! Er... H-hi... I don’t\nsuppose y-you saw that? I should have\fg-guessed there would be passing\fT-trainers...\rI’ll give you this TM, if you\nkeep what you saw a secret!\r
+Gardenia: The damage Grass Knot does\nto opponents increases with how heavy\fthey are.\rAnyway, I better be off. Goodbye!\nNo telling!

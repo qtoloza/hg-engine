@@ -3,4 +3,94 @@ Really? Great!\rGive me your name and phone number,\nand I’ll loan you a Bicyc
                   
 The main shop is at Cerulean\nback in Kanto.\rSay hello to the shop manager\nif you happen to go there!\rOur Bicycles are first-rate!\nYou can ride them in Kanto, too!
 Sigh... Oh, for the kindness\nof people...
-It’s a shiny new Bicycle!
+It’s a rusty old bicycle...
+Cynthia: {STRVAR_1 3, 0, 0}! It’s good to see you\nagain. This is an in-progress base that\fis built for archaeologists, so it’s\fa good place for me to stay around!\rCynthia: You know, if you find or get\ngiven any ancient looking items, you\fshould bring them to me. I might be\fable to help decipher their meaning.
+Cynthia: If you find anything\ninteresting that looks ancient,\fbring it to me. I might be able to\fshed some light on it.
+Cynthia: What is this item? Professor\nOak gave it to you? Hmm...\rHe said it’s called the Lock Capsule?\rI heard this is somehow related to\nthe golems of legend...\rLet me try something a moment...
+Cynthia: The capsule reacted very\nstrongly to that braille tablet\fI obtained from the Hoenn region...\rThe Lock Capsule seems to be giving off\nan aura!\rI wonder what that could mean.\rPerhaps the golems have surfaced\naround Johto?
+Cynthia: Are you searching for\nREGIROCK, REGICE, and REGISTEEL?\rIt’s hard to guess, but could they’ve\nappeared within Johto’s caves?\rIt might be worth your while to take a\ndeep look inside some of them.
+Hello, welcome to the new Goldenrod\nArchaeology Center!\rThis USED to be a bike shop, but they\nhaven’t cleared away half the trash...\rAhem! Will you need my help with the\nrevival of fossils, today?
+Stone Market
+Fossil Revival
+Never Mind
+Welcome to the Archaeology\nCenter’s Fossil Service!\rWould you like me to help you? {YESNO 0}
+Come back again!
+Okay!\nWhat would you like to get? {YESNO 0}
+Fire Stone\n$3,000
+Thunderstone\n$3,000
+Water Stone\n$3,000
+Leaf Stone\n$3,000
+Sun Stone\n$5,000
+Moon Stone\n$5,000
+Dawn Stone{CURSOR_X 90}$10,000
+Shiny Stone{CURSOR_X 90}$10,000
+Dusk Stone{CURSOR_X 90}$10,000
+Cancel
+Common Stones
+Rare Stones
+Everstone\n$1,000
+Uh... I hate to say it, but you\nhaven’t got enough money for that.
+Cynthia: Ah, welcome back! You engaged\nwith the three golems? Intruiging...\rI wonder if we can somehow find the\nfourth golem, REGIGIGAS.\rI’ll do some research into it.\nYou should come back sometime later.
+If you have any fossils on you, I can\nuse our technology to extract the DNA.\r
+Ah, you don’t wish to extract this\ntime? Very well, then.
+I’ll see what I can do. Give me some\ntime and come back later.
+I’ve extracted a {STRVAR_1 0, 0, 0} from your\nfossil. Take good care of it.\r
+Oh..!\nYour party seems full.\rWhy don’t you go to the PC\nto make some room?
+You haven’t got any fossils...\nMaybe you should smash some rocks.
+Do you want to extract a Pokémon\nfrom the {STRVAR_1 8, 0, 0}? {YESNO 0}
+{STRVAR_1 3, 0, 0} received\nthe {STRVAR_1 0, 1, 0}!
+Would you like to give a nickname\nto the {STRVAR_1 0, 1, 0} you received? {YESNO 0}
+Oh! Hello! Thank you for coming\nto our archaelogical center!\rThis place used to be pretty\nuseless...\rThen Cynthia showed up, and that all\nchanged. Her prowess is incredible!\rThat Steven Stone is pretty good\nwith archaeology, too...\rAnyway, since this is your first visit,\nlet me give you a generous gift!\rThe best archaeology has to offer!\r
+You can often find these fossils if\nyou check under breakable rocks.\rTreat those Skull and Armor Fossils\nwith care, though. As far as Johto is\fconcerned, they’re one-of-a-kind!\rYou can talk to the man at the counter\nif you want to try reviving them...
+Nice to see you again. Isn’t this\nplace fantastic?
+Cynthia: Oh! Is this what they\ncall the {COLOR 1}Red Chain{COLOR 0}?\rThis chain may lead us to\nsomewhere very special...\rYes, I believe this will lead us\nto the {COLOR 1}Sinjoh Ruins{COLOR 0}.\rTalk to me again if you\nwant to take a look.
+Cynthia: Talk to me again if\nyou want to take a look.
+Cynthia: Do you want to go\nto the {COLOR 1}Sinjoh Ruins{COLOR 0}? {YESNO 0}
+Woah! Isn’t that item you have there\nwhat they call the Enigma Stone?\nI heard about Steven’s excavation\nof that!\rCan I please take\na look at it!? {YESNO 0}
+Aww, man...\nWhy not?
+Yes! Thank you!\r
+{STRVAR_1 3, 0, 0} handed the Enigma Stone\nover to the archaeologist.
+This is quite an interesting stone...\nThough it’s totally covered in dirt.\rLet me give it a polish...\r
+I think... this is the legendary\nSoul Dew!\rThey say it contains the {COLOR 1}spirit\nof the Eon Pokémon{COLOR 0}.\rHere, you should keep it.\r
+If by some chance you capture\na legendary Pokémon, please show it\fto me!
+This trophy holds the names of\nthose Pokémon who our researchers,\fpast and present fought so hard\fto obtain information about.\rThey are known collectively as the\n{COLOR 1}Legendary Pokémon{COLOR 0}.\rRead on?
+Professor Elm: So, you like {COLOR 3}CHIKORITA{COLOR 0},\nthe Grass-type Pokémon?
+The {COLOR 2}Johto{COLOR 0} region is known for the\nbeasts of thunder, fire and water,\fthe guardians of sea and sky, and\fthe protector of the forest.\rThey are known as {COLOR 1}RAIKOU{COLOR 0}, {COLOR 1}ENTEI{COLOR 0},\n{COLOR 1}SUICUNE{COLOR 0}, {COLOR 1}LUGIA{COLOR 0}, {COLOR 1}HO-OH{COLOR 0} and {COLOR 1}CELEBI{COLOR 0}.\rRead on?
+The {COLOR 2}Hoenn{COLOR 0} region is known for the\ngolems of rock, ice and steel,\fthe twins known as the Eon Pokémon,\fthe titans of water, earth and sky,\fthe wishmaker and the alien virus.\rThey are known as {COLOR 1}REGIROCK{COLOR 0}, {COLOR 1}REGICE{COLOR 0},\n{COLOR 1}REGISTEEL{COLOR 0}, {COLOR 1}LATIAS{COLOR 0}, {COLOR 1}LATIOS{COLOR 0}, {COLOR 1}KYOGRE{COLOR 0},\f{COLOR 1}GROUDON{COLOR 0}, {COLOR 1}RAYQUAZA{COLOR 0}, {COLOR 1}JIRACHI{COLOR 0} and {COLOR 1}DEOXYS{COLOR 0}.\rRead on?
+The {COLOR 2}Sinnoh{COLOR 0} region is known for the\nembodiments of knowledge, emotion and\fwillpower, the creators of time, space\fand antimatter, the child of the\fplanet’s core, the leader of golems,\fthe protector of dreams, the prince\fof the sea, the force of nightmare,\fand the bringer of life and purity.\rThey are known as {COLOR 1}UXIE{COLOR 0}, {COLOR 1}MESPRIT{COLOR 0},{COLOR 1}\nAZELF{COLOR 0}, {COLOR 1}DIALGA{COLOR 0}, {COLOR 1}PALKIA{COLOR 0}, {COLOR 1}GIRATINA{COLOR 0},\f{COLOR 1}HEATRAN{COLOR 0}, {COLOR 1}REGIGIGAS{COLOR 0}, {COLOR 1}CRESSELIA{COLOR 0},\f{COLOR 1}MANAPHY{COLOR 0}, {COLOR 1}DARKRAI{COLOR 0}, and {COLOR 1}SHAYMIN{COLOR 0}.\rRead on?
+Mythology also states the existence\nof another legendary belonging to the\fSinnoh group, but little information is\fknown.\rOne carving suggests that this\nlegendary appears only when a\ftrainer has {COLOR 1}tamed every other of these\flegendary Pokémon{COLOR 0} from the four\fregions, making it a somewhat impossible \ftask for our scientists.\rRead on?
+Whether the more common Pokémon\n{COLOR 1}PHIONE{COLOR 0} can be called legendary is\funknown. There is mixed evidence, but\ffor now we choose to declare\fit as a regular Pokémon.\rRead on?
+The {COLOR 2}Unova{COLOR 0} region is also said to\ncontain a variety of legen...\r
+The rest of the pages are blank\nor ripped...
+Perhaps you would like to battle?\rI do want our Pokémon to have\na match. Are you prepared to be\fmy opponent? {YESNO 0}
+Before I sent out my Pokémon,\nmy heart begins to race...\rInteresting, my Pokémon in their Poké\nBalls appear to be quite happy.\rCould you be the reason?\r
+I see.\rPerhaps a wise choice.\nMy Pokémon aren’t to be taken lightly.
+You are indeed powerful...\nI’d expect nothing less.\rIf you want to let our Pokémon\nhave another chance at battle,\fplease let me know.
+Hey, you!
+You there! Do you know PHIONE?\rIf you can show me a PHIONE,\nI’ll give you a reward!
+By jove, it’s a real PHIONE!\rBut that’s not enough, you see!\r
+If you can show me a MANAPHY,\nthen I’ll really give you a reward!
+By jove, it’s a real MANAPHY!\rHere, take this!\r
+Thank you, young sir!\nFare thee well!
+Thank you, young lass!\nFare thee well!
+Cynthia: Congratulations on becoming\nthe Champion, {STRVAR_1 3, 0, 0}.\rI’d like to give you a reward\nin celebration.\rHowever, first, I want you to show me\none of the Sinnoh starters or one\fof their evolutions.\rCan you do that, {STRVAR_1 3, 0, 0}?\r
+I hate to say it, but the Pokémon\nbehind you isn’t what I was looking for!
+That is indeed one of the starters\ngiven out by Rowan in Sinnoh!\rSo you own a {COLOR 1}{STRVAR_1 0, 1, 0}{COLOR 0}...\rIn that case, I’d like you to have\nthese two Pokémon!\r
+{STRVAR_1 3, 0, 0} received {COLOR 2}CHIMCHAR{COLOR 0} and {COLOR 2}PIPLUP{COLOR 0}\nfrom Cynthia!
+{STRVAR_1 3, 0, 0} received {COLOR 2}TURTWIG{COLOR 0} and {COLOR 2}PIPLUP{COLOR 0}\nfrom Cynthia!
+{STRVAR_1 3, 0, 0} received {COLOR 2}TURTWIG{COLOR 0} and {COLOR 2}CHIMCHAR{COLOR 0}\nfrom Cynthia!
+Cynthia: You’ll do well with them,\nI’m quite sure of that.
+Your party’s too full, though. If you\ncan have at least two free slots, that\fwould be great.
+Hey, mister!\nIsn’t archaeology amazing?
+Hey, miss!\nIsn’t archaeology amazing?
+Hey, mister!\nDo you wanna trade some items?\rI’ve got some stuff you’re bound\nto like!\rTop is what you want!\nBottom is what I want! {YESNO 0}
+Hey, miss!\nDo you wanna trade some items?\rI’ve got some stuff you’re bound\nto like!\rTop is what you want!\nBottom is what I want! {YESNO 0}
+Sun Stone\nRed Shard
+Moon Stone\nBlue Shard
+Shiny Stone\nYellow Shard
+Dusk Stone\nGreen Shard
+Dawn Stone\nStardust
+I don’t want\nto trade.
+You don’t have the item I wanted\nin exchange for that...
+Yay! Thank you! Here’s your item!\r
+You don’t want to trade items?\nAww... come back again!

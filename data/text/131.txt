@@ -26,3 +26,15 @@ Ethan used Max Revive on CELEBI!\r
 Lyra used Max Revive on CELEBI!\r
 {COLOR 1}Time Travel{COLOR 0}......!\rThis is it! Please take us to our time!\r
 {COLOR 1}Time Travel{COLOR 0}......!\rThis is it! Please take us to our time!\r
+Hm? The radio seems to be working,\nbarely...\r
+Which program do you\nwant to tune into? {YESNO 0}
+Sixteen Hours
+The Black Rock
+Menacing Boom
+Cross Attack
+Jaws on Land
+Cancel
+{STRVAR_1 3, 0, 0} left the radio alone.
+{STRVAR_1 3, 0, 0} changed the radio channel...\r
+Huh?\r
+The radio seems busted...

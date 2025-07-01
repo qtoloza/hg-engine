@@ -2,8 +2,8 @@ Lt. Surge: Hey, you little tyke!\rIt may not be very smart to\nchallenge me, but
 Lt. Surge: Arrrgh!\nYou are strong!\rOK, kid.\nYou get the Thunder Badge!\r
 {STRVAR_1 3, 0, 0} received\nthe Thunder Badge from Lt. Surge!
 Lt. Surge: That Thunder Badge suits\nthose who’ve defeated me!\fTake good care of it, OK?\rThere is something else.\nHere is a great TM for you!\r
-Lt. Surge: That TM contains\nShock Wave... Zzzap!\rUse it to go like lightning!\rWhen you go north, you will see\na big city called Saffron!
-Lt. Surge: Hey, kid!\nStill slugging and chugging away?\rWhen you go north, you will see a\nbig city called Saffron!
+Lt. Surge: That TM contains\nShock Wave... Zzzap!\rUse it to go like lightning!\rYou should head towards Celadon.\nTake the Rock Tunnel route!\r
+Lt. Surge: Hey, kid!\nStill slugging and chugging away?\rYou should head towards Celadon.\nTake the Rock Tunnel route!
 Yo! Legend in the making!\nYou lucked out this time.\rThe traps at this Gym have been out\nof order for a while.\rBut the traps are back up and\nrunning now!\fWhy lucky, you may ask...\rBecause you can train yourself better\nthat way!\rMake up your mind and go for Lt. Surge!
 Whew! That was an electrifying bout!\nIt sure made my nerves tingle.
 Nope! Nothing here but trash.
@@ -13,3 +13,5 @@ The first electric fence is unlocked!
 The second electric fence is unlocked!\rNow the electric fences are gone, and\nthe path to the Leader is clear!
 Vermilion City Pokémon Gym
 Vermilion City Pokémon Gym\rGym Leader: Lt. Surge\nCertified Trainer!\f{STRVAR_1 3, 0, 0}
+Lt. Surge: Perhaps we can have an\nelectrifying rematch, sometime!\fI’ll give you my telephone number.\r
+{STRVAR_1 3, 0, 0} registered Lt. Surge\nin the Pokégear!

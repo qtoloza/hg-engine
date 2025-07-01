@@ -41,6 +41,7 @@ scrdef scr_seq_D22R0102_009
 scrdef scr_seq_D22R0102_010
 scrdef scr_seq_D22R0102_011
 scrdef scr_seq_D22R0102_012
+scrdef scr_seq_D22R0102_013
 scrdef_end
 
 scr_seq_D22R0102_003:
@@ -155,6 +156,20 @@ scr_seq_D22R0102_002:
 	scrcmd_058
 	trainer_tips 2, VAR_SPECIAL_RESULT
 	callstd std_signpost
+	end
+
+scr_seq_D22R0102_013:
+	goto_if_set 16278, _0151
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 33
+	giveitem_no_check ITEM_INSECT_PLATE, 1
+	closemsg
+	setflag 16278
+	releaseall
+	end
+
+_0151:
 	end
 	.align 4
 

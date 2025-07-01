@@ -17,3 +17,11 @@ Lyra: Hi, {STRVAR_1 3, 0, 0}!\nHow is your Pokémon?\rYou can talk to it as you 
 Ethan: Hi, {STRVAR_1 3, 0, 0}!\nHow is your Pokémon?\rYou can talk to it as you walk from time\nto time to nurture your friendship!\r...\rOh, I get it.\nAre you here to check on the award\fwith {STRVAR_1 1, 1, 0}?\r
 It’s a Wii!\rWii is huge in Johto, too!
 You shouldn’t mess with someone\nelse’s PC!
+Is this Lyra’s AZUMARILL?\nIt seems to be keeping watch.
+Is this Ethan’s AZUMARILL?\nIt seems to be keeping watch.
+AZUMARILL: Qurururoon!\r
+While you’re here, {STRVAR_1 3, 0, 0},\ndo you want to have a battle? {YESNO 0}
+Awesome! Here I come!\r
+Great! Here I come!\r
+Oh, alright then. No problem...
+That was fun!\rTell me if you want to battle again.

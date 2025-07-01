@@ -10,6 +10,7 @@
 .equ _EV_scr_seq_R29_006, 6
 .equ _EV_scr_seq_R29_007, 7
 .equ _EV_scr_seq_R29_008, 8
+.equ _EV_scr_seq_R29_009, 9
 
 .equ obj_R29_gsboy2, 0
 .equ obj_R29_gsbigman, 1

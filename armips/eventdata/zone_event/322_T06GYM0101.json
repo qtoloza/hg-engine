@@ -261,7 +261,7 @@
     },
     {
       "id": "obj_T06GYM0101_juggrer",
-      "spriteId": "SPRITE_JUGGRER",
+      "spriteId": "SPRITE_JUGGLER",
       "movement": 17,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",

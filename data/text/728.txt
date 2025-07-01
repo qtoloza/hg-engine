@@ -647,12 +647,12 @@ I just lost, so I’m trying to find\nmore Pokémon.\rWait! You look weak! Come 
 Oh...\nI’m out of Pokémon that can fight.\n
 I knew it--if you don’t have many\nPokémon, battles are harder!\fI need to catch more Pokémon!\n
 I’ve been waiting!\nLet’s battle now!\r
-You’re a Pokémon Trainer, right?\nThen you have to battle!\r
-That’s strange.\nI won before.\n
-Becoming a good Trainer is really tough.\nI’m going to battle other people to\fget better.\n
-Instead of a bug Pokémon, I found\na Trainer!\r
-Argh! You’re too strong!\n
-I ran out of Poké Balls while I was\ncatching Pokémon.\rI should’ve bought some more...\n
+You look like a new trainer. Let me\nshow you a lesson in flower power!\r
+Ah, I am bedazzled!\n
+Grass Pokémon specialize in disabling\ntheir foes. You should raise some!\n
+Hey, I just met you, and this is crazy!\nBut let’s have a battle.\rI’ll win, maybe!\r
+I lost so bad...\n
+I hope to get into a career in singing.\nDo you think I’m a good singer?\n
 I caught a bunch of Pokémon.\nLet me battle with you!\r
 Awwwww...\n
 You can catch Pokémon even if you have\nsix with you.\rIf you catch one, it’ll go to your Box\nautomatically.\n
@@ -782,9 +782,9 @@ You’ve come to the right place!\rTime for me to try out everything I’ve\nlea
 Hi! Aren’t you a cute Trainer!\nMay I see your Pokémon?\r
 I’m glad I got to see your Pokémon!\n
 When I see Pokémon, it seems to soothe\nmy nerves.\n
-Let me see what your Pokémon are\ncapable of.\r
-Ooh, your Pokémon have potential.\n
-You know how Pokémon have\ndifferent abilities?\rPeople are like that, too. Everyone has\ndifferent potential.\n
+All of ya’ll Pokémon look strong!\nMan, I feel enchanted to meet ya!\r
+Oh, wowzers! I saw sparks fly!\n
+The bond between ya’ll and yer Pokémon\nis like some sorta love story!\n
 Is it OK to brag about my Pokémon?\r
 I couldn’t brag...\n
 I’m not listening to your bragging!\nWe Pokéfans have a policy of not\flistening to other people brag!\n
@@ -792,9 +792,9 @@ I’ve been waiting!\nI’ve been wanting to brag to you!\r\n
 Such darling Pokémon. Let’s show our\nPokémon together at the same time.\r
 I don’t mind losing.\n
 Do you know about baby Pokémon?\nI’ll bet they’re just adorable!\n
-I just got back to Olivine.\nSo, how about a Pokémon battle?\r
+Hohoho! What say you to a battle,\nlil’ Trainer?\r
 Awaaargh!\n
-My Pokémon were caught and raised\noverseas. They’re my companions on\fthose long voyages.\n
+Ya’ll don’t know half the fun of\ndoin’ the farm!\n
 You have to warm up before going into\nthe water.\rThat’s basic.\r
 OK! I give up!\n
 Cianwood City is a good distance away\nfrom here.\n
@@ -1053,7 +1053,7 @@ Thanks for such a heated battle!\n
 The reason this tower’s burned is\nthat it was hit by lightning.\rThe fire I’m breathing is tiny\nin comparison...\n
 We adore our Pokémon, even if they\ndislike us. That’s what being a\fPokéfan is all about.\r
 M-my Pokémon!\n
-I lost the battle, but my Pokémon win\nthe prize for being the most lovely.\n
+I lost the battle, but my Pokémon win\nthe prize for being the most lovely.\rAlso, is it just me or is\nthe ground here really hard?\n
 My Pokémon is simply darling.\nLet me tell you how proud my\fdarling makes me.\r
 I can beat you in pride, but...\n
 I must say, your Pokémon are quite\ncute, too.\n
@@ -1197,6 +1197,7 @@ Being a Gym Leader isn’t just about\nbeing strong. A Leader also needs to\fbe 
 This was once a ninja hideout.\rThere are traps to confound intruders\nlike you.\r
 I see...\n
 The PC on my desk is the switch\nthat deactivates the PERSIAN\falarm system.\rDon’t you ever touch it, OK?\n
+The PC on my desk is the switch\nthat deactivates the PERSIAN\falarm system.\rDon’t you ever touch it, OK?\n
 Heh heh. Feeling lucky, punk?\rGo ahead, take another step.\nWe’ve got explosives set in the floor!\fStep on one, and--BOOM!\r
 Kaboom!\n
 Where are the traps planted?\nThat... Well...\rI don’t even remember!\n
@@ -1286,21 +1287,21 @@ We’ll tell on you.\rMaster will be angry with you.\n
 You don’t have enough Pokémon.\nCome back when you have more.\n
 ...!\n
 ...\n
-Welcome to Viridian Forest.\nEnjoy my Bug-type Pokémon!\r
+Welcome to Viridian Forest.\nEnjoy my beautiful Pokémon!\r
 That’s wonderful...\n
 Pretty impressive!\rI’m sure you can go anywhere with\nthat skill!\n
-Shh! Be quiet!\nThe bug Pokémon will run away!\r
-Phew...\n
-From Bug-type Pokémon come the sounds\nof munching on grass, walking on\fcrunchy leaves, swimming in puddles...\rFor bug Pokémon fans, knowing how to\ndistinguish these sounds is key!\n
-Wow, that’s a HUGE Pokémon!\r...\n...What kind of Trainer?!\r
-I couldn’t catch it!\n
-Has anyone ever told you that from\nbehind you look like a VENONAT?\n
-I’m sure that there’s nothing more\nefficient and beautiful in this world\fthan a Bug-type Pokémon.\r
-I lost beautifully!\n
-If this is it, then I don’t mind losing!\n
-There are many people out there who\nprefer solid bug Pokémon over squishy\fbug Pokémon.\r
-Thanks for your hard work,\nmy lovely Pokémon...\n
-Doesn’t matter what kind of Pokémon--\fas long as you like them, they all\nlook cute.\n\n
+The new Viridian Forest is no place\nfor the likes of children!\r
+Child or not, you are strong...\n
+Your skills are incredible for a\nlittle kid...\n
+Your Pokémon certainly look tough.\nLet’s put them to the test!\r
+I see...\n
+Keep your eyes out for a pink blur.\nThey say it’ll appear to a strong\fand kindhearted trainer.\n
+There are tales of a shy legendary\nPokémon wandering around this forest.\r
+Your resolve is impressive...\n
+Even if you catch a glimpse of that\nPokémon, it’ll probably run away!\n
+If you think you’re strong enough to\nbe in here, I hope you can prove it\fwith action!\r
+Thanks for your hard work,\nmy Pokémon...\n
+You certainly are strong. Still, keep\nyour guard up. This forest is no place\ffor carelessness.\n
 What did you come all the way out here\nfor, I wonder.\r
 I lost all the way out here...\n
 Trainers are everywhere.\n

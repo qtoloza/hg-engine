@@ -12,20 +12,20 @@ You put away the {STRVAR_1 8, 0, 0}\nin the {STRVAR_1 18, 1, 0} Pocket. {YESNO 0
 CANCEL
 TECHNICAL MACHINE
 HELD ITEMS
-SUBSTITUTE\n2,000 Coins
-SWORDS DANCE\n4,000 Coins
-REST\n6,000 Coins
-FLAMETHROWER\n10,000 Coins
-ICE BEAM\n10,000 Coins
-THUNDERBOLT\n10,000 Coins
+SUBSTITUTE\n1,000 Coins
+SWORDS DANCE\n1,000 Coins
+REST\n2,000 Coins
+FLAMETHROWER\n4,000 Coins
+ICE BEAM\n4,000 Coins
+THUNDERBOLT\n4,000 Coins
 SILK SCARF\n1,000 Coins
 WIDE LENS\n1,000 Coins
 ZOOM LENS\n1,000 Coins
 METRONOME\n1,000 Coins
-ABRA{CURSOR_X 103}200 Coins
-EKANS{CURSOR_X 103}700 Coins
-DRATINI{CURSOR_X 90}2,100 Coins
-SANDSHREW{CURSOR_X 103}700 Coins
+SMEARGLE{CURSOR_X 103}1,000 Coins
+TANGELA{CURSOR_X 103}2,300 Coins
+PORYGON{CURSOR_X 103}3,500 Coins
+TANGELA{CURSOR_X 103}2,300 Coins
 My name is Mr. Game!\rMy heart pounds with excitement when\npeople enjoy my Coin game!\rIn fact, that’s what I live for!\nYou look like quite a challenger!\rWhy don’t you play my Coin game?\rYou can get fabulous prizes if\nyou manage to collect a lot\fof Coins. {YESNO 0}
   
    
@@ -40,3 +40,20 @@ It seems you need a Coin Case\nto play...\r
 Mr. Game: Aha!\rYou must be here to play my Coin game!\nCome here and I’ll give you a Coin Case!
 Mr. Game: Show me how you play and\nmake my heart pound with excitement!\r
 Mr. Game: Huh?\rWhy don’t you sit across from me\nand show me how you play?
+Hello, sir!\nWould you like some coins?\r
+Hello, madam!\nWould you like some coins?\r
+Oh, you don’t have a Coin Case...\nYou should talk to Mr. Game.
+100 COINS{CURSOR_X 90}$1,000
+1,000 COINS{CURSOR_X 90}$10,000
+I’m sorry...\nYou haven’t got enough money...
+I’m sorry...\nYour Coin Case is full...
+How may I help?  {YESNO 0}
+We hope to help you again!
+Thank you for your purchase!\nWould you like anything else?
+BELLOSSOM: Bel! Bel!\r
+WYNAUT: Wynaut?
+WOBBUFFET: Wobba!
+SPINDA: Hello and welcome to\nSpinda’s Café!\r(...Uhh...)\r
+SPINDA: Spin-dah!
+LUDICOLO: Ludii!
+BELLOSSOM: Bellossommm!

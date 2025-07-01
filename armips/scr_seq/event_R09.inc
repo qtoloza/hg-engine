@@ -20,5 +20,6 @@
 .equ obj_R09_monstarball_2, 14
 .equ obj_R09_monstarball_3, 15
 .equ obj_R09_monstarball_4, 16
+.equ obj_R09_oldman1, 17
 
 .endif //SCR_SEQ_R09_H_

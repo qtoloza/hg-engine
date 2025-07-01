@@ -12,6 +12,8 @@
 .equ _EV_scr_seq_R36_008, 8
 .equ _EV_scr_seq_R36_009, 9
 .equ _EV_scr_seq_R36_010, 10
+.equ _EV_scr_seq_R36_011, 11
+.equ _EV_scr_seq_R36_012, 12
 
 .equ obj_R36_gsbigman, 0
 .equ obj_R36_gsgirl1, 1
@@ -22,5 +24,6 @@
 .equ obj_R36_gsboy1_2, 6
 .equ obj_R36_bonguri, 7
 .equ obj_R36_monstarball, 8
+.equ obj_R36_gsfighter, 9
 
 .endif //SCR_SEQ_R36_H_

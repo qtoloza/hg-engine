@@ -231,6 +231,23 @@
       "x": 540,
       "z": 175,
       "y": 0
+    },
+    {
+      "id": "obj_R44_monstarball_4",
+      "spriteId": "SPRITE_MONSTARBALL",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16263,
+      "scriptId": "std_itemball_d03r0103_electirizer",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 612,
+      "z": 171,
+      "y": 0
     }
   ],
   "warps": [

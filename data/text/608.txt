@@ -1,5 +1,8 @@
-Hi, I’m looking for this Pokémon.\rIf you have a KRABBY, would you\ntrade it for my VOLTORB? {YESNO 0}
-Great! Thank you!\rI finally got a KRABBY!
-You don’t have a KRABBY?\nThat’s too bad, then.
-You don’t have one either?\rGee, that’s really disappointing...
-Hi! The KRABBY you traded me is\ndoing great!
+Hi, I’m looking for a Pokémon!\rIf you have an ELECTABUZZ, would\nyou trade it for my SKARMORY? {YESNO 0}
+Great! Thank you!\rI finally got an ELECTABUZZ!
+You don’t have a ELECTABUZZ?\nThat’s too bad, then.
+You don’t have one either?\rThat’s really disappointing...
+Hi! The ELECTABUZZ you traded me is\ndoing great!
+Everyone loves Jasmine and her\nSteel-type Pokémon!\rLet me give you something so\nyou can have Steel-typed Pokémon!\r
+That Metal Coat is said to work on\nfew Pokémon, but will give compatible\fPokémon a coat of...\r...well, metal!
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

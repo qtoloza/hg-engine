@@ -77,7 +77,7 @@
     {
       "scriptId": "_EV_scr_seq_T01R0301_007 + 1",
       "type": 0,
-      "x": 9,
+      "x": 6666,
       "z": 3,
       "y": 0,
       "dir": 4
@@ -85,7 +85,7 @@
     {
       "scriptId": "_EV_scr_seq_T01R0301_009 + 1",
       "type": 0,
-      "x": 7,
+      "x": 6666,
       "z": 3,
       "y": 0,
       "dir": 4
@@ -93,7 +93,7 @@
     {
       "scriptId": "_EV_scr_seq_T01R0301_008 + 1",
       "type": 0,
-      "x": 8,
+      "x": 6666,
       "z": 3,
       "y": 0,
       "dir": 4
@@ -198,57 +198,6 @@
       "yRange": 0,
       "x": 12,
       "z": 12,
-      "y": 0
-    },
-    {
-      "id": "obj_T01R0301_monstarball",
-      "spriteId": "SPRITE_MONSTARBALL",
-      "movement": 0,
-      "type": 0,
-      "eventFlag": "FLAG_HIDE_OAKS_LAB_CHARMANDER_BALL",
-      "scriptId": 0,
-      "facingDirection": 0,
-      "param0": 0,
-      "param1": 0,
-      "param2": 0,
-      "xRange": 0,
-      "yRange": 0,
-      "x": 7,
-      "z": 3,
-      "y": 0
-    },
-    {
-      "id": "obj_T01R0301_monstarball_2",
-      "spriteId": "SPRITE_MONSTARBALL",
-      "movement": 0,
-      "type": 0,
-      "eventFlag": "FLAG_HIDE_OAKS_LAB_SQUIRTLE_BALL",
-      "scriptId": 0,
-      "facingDirection": 0,
-      "param0": 0,
-      "param1": 0,
-      "param2": 0,
-      "xRange": 0,
-      "yRange": 0,
-      "x": 8,
-      "z": 3,
-      "y": 0
-    },
-    {
-      "id": "obj_T01R0301_monstarball_3",
-      "spriteId": "SPRITE_MONSTARBALL",
-      "movement": 0,
-      "type": 0,
-      "eventFlag": "FLAG_HIDE_OAKS_LAB_BULBASAUR_BALL",
-      "scriptId": 0,
-      "facingDirection": 0,
-      "param0": 0,
-      "param1": 0,
-      "param2": 0,
-      "xRange": 0,
-      "yRange": 0,
-      "x": 9,
-      "z": 3,
       "y": 0
     }
   ],

@@ -109,30 +109,30 @@ A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt shines with
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark as dark can be.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt sparkles like eyes.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.
-A vital item that is needed to keep a\nstone tower from collapsing. Voices\ncan be heard from it occasionally.
+An item said to be related to a ghostly\nPokémon. Rumours stat throwing it down \na long distance may have effects.
 A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 A brightly gleaming orb to be held by\nDIALGA. It boosts the power of Dragon-\nand Steel-type moves.
 A beautifully glowing orb to be held by\nPALKIA. It boosts the power of Dragon-\nand Water-type moves.
 Stationery featuring a print of a\nrefreshingly green field.\nLet a Pokémon hold it for delivery.
@@ -421,25 +421,25 @@ The user creates a bizarre space in\nwhich slower Pokémon get to move\nfirst fo
 The foe is cut with a scythe or a claw.\nIt can also be used to cut down thin\ntrees.
 The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.
 It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.
-The foe is slugged with a punch thrown\nat maximum power. It can also be used\nto move boulders.
+The foe is slugged with a punch that\nmay reduce the opponent’s Attack stat.\nIt can also move boulders.
 Traps foes in a violent swirling\nwhirlpool. It can also be used to\ntraverse whirlpools.
 The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.
 The user charges the foe at an\nawesome speed. It can also be used\nto climb a waterfall.
 A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.
------
+
 A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.
 It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.
 A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.
-A card that lists the Battle Points\nyou have earned.\n
-A notebook that keeps a day-to-day\nrecord of your adventure so far.\n
+A dim sphere charged with the energy of\nincontrovertible conviction. It causes\ncertain species of Pokémon to evolve.
+A chunk of stone birthed from a world\nof nature. A certain Pokémon is said to\nreact strongly to the energy inside it.
 A case for storing Seals that can be\napplied to the Capsule cases of\nPoké Balls.
 A fancy case for the tidy arrangement\nand storage of whimsical Pokémon\nAccessories.
-A tiny bag that can hold ten Seals for\ndecorating Poké Balls.
+A dim sphere charged with the energy of\nmoonlight and vivacity. It causes a\ncertain species of Pokémon to evolve.
 A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.
-A large key for operating the doors of\nthe Valley Windworks in the canyon.\nIt was held by a Team Galactic Grunt.
-An ancient good-luck charm made of\nPokémon bones to be taken to the elder\nof Celestic Town.
+A dim sphere charged with the energy of\nsunlight and merriment. It causes a\ncertain species of Pokémon to evolve.
+A chunk of stone birthed from a world\nof snow. A certain Pokémon is said to\nreact strongly to the energy inside it.
 A card key for disengaging security\nsystems in the Galactic HQ. Losing it\ncan result in punishment, apparently.
-A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.
+A mythical chain said to be linked\nto the Sinnoh region and its\nlegendary Pokémon.
 A very convenient map that can be\nviewed anytime. It even shows your\npresent location.
 A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.
 A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.
@@ -452,8 +452,8 @@ A folding Bicycle that enables much\nfaster movement than the Running\nShoes.
 A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.
 A letter from Prof. Oak.\nWritten in it is a request for you to\ngo to Rt. 224.
 A feather that glows like the moon.\nIt is said to possess the power to\ndispel nightmares.
-A card needed for entering the inn in\nCanalave City. Oddly, the last date\nmarked on it was 50 years ago.
-A flute that puts out echoing sounds\nthat do not seem to be of this world.\nIt is unknown who made it.
+A stone birthed from a place with\nstrong magnetic forces. Some Pokémon\nreact with the energy contained inside.
+A heart shaped flute that allows a\nstrong trainer to calm or coax special\nPokémon. Nobody knows where it is from.
 The ticket required for sailing on the\nferry S.S. Aqua. It has a drawing of a\nship on it.
 The pass required for entering Pokémon\nContests. It has a drawing of an award\nribbon on it.
 A stone formed when boulders melted in\nintensely hot magma, then hardened.\nMagma remains sealed inside.
@@ -465,7 +465,7 @@ The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilsto
 A fantastic medicine dispensed by the\npharmacy in Cianwood City. It fully\nheals a Pokémon of any ailment.
 An amazing device that can record a\nbattle either between friends or at a\nspecial battle facility.
 A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.
-A high-tech key that has to be used at\na specific location. It emits a special\nelectric signal to open a door.
+A dim sphere charged with the energy of\nincontrovertible conviction. It causes\ncertain species of Pokémon to evolve.
 A handy box where you can store up to\n99 Apricorns of each kind.
 A report of all the discovered kinds\nof UNOWN.
 Handy containers for cultivating\nBerries wherever you go.
@@ -531,7 +531,7 @@ It holds Pokéathlon records. It’s a\ncard that shows how many times your\nPok
 It holds Pokéathlon records. It’s a\ncard that shows how many times you’ve\ninstructed your Pokémon.
 It holds Pokéathlon records. It’s a\ncard that shows how much time you’ve\nspent in the Pokéathlon.
 A shiny green orb that is said to have\na legend and has a deep connection with\nthe Hoenn region.
-A sturdy Capsule that can only be\nopened with a special key.
+A sturdy Capsule given to you by\nProf. Oak. It appears to have\nbraille patterns on it.
 A shiny red orb that is said to have\na legend and has a deep connection with\nthe Hoenn region.
 A shiny blue orb that is said to have\na legend and has a deep connection with\nthe Hoenn region.
 A crystal ball that was excavated from\nthe ground. A very beautiful stone that\nis covered with bits of rock and earth.
@@ -541,12 +541,12 @@ One of a variety of Mega Stones.\nHave Charizard hold it, and this stone\nwill e
 One of a variety of Mega Stones.\nHave Blastoise hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Beedrill hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Pidgeot hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Alakazam hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Slowbro hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave ALAKAZAM hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave SLOWBRO hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Gengar hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Kangaskhan hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Pinsir hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Gyarados hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave GYARADOS hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Aerodactyl hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Mewtwo hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Mewtwo hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -555,12 +555,12 @@ One of a variety of Mega Stones.\nHave Steelix hold it, and this stone\nwill ena
 One of a variety of Mega Stones.\nHave Scizor hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Heracross hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Houndoom hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Tyranitar hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave TYRANITAR hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Sceptile hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Blaziken hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Swampert hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Gardevoir hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Sableye hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave GARDEVOIR hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave SABLEYE hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Mawile hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Aggron hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Medicham hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -568,7 +568,7 @@ One of a variety of Mega Stones.\nHave Manectric hold it, and this stone\nwill e
 One of a variety of Mega Stones.\nHave Sharpedo hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Camerupt hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Altaria hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Banette hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave BANETTE hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Absol hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Glalie hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Salamence hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -577,7 +577,7 @@ One of a variety of Mega Stones.\nHave Latias hold it, and this stone\nwill enab
 One of a variety of Mega Stones.\nHave Latios hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Lopunny hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Garchomp hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave Lucario hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave LUCARIO hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Abomasnow hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Gallade hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Audino hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -755,7 +755,7 @@ Produce that the King of Bountiful\nHarvests’ beloved steed likes to eat.\nIt 
 Produce that the King of Bountiful\nHarvests’ beloved steed likes to eat.\nIt grew in a gloomy field.
 Reins of Unity Description
 A mysterious object made of wood. Part\nof it seems to be chipped. Maybe it’s\nmeant to be part of something.
-A catalog of devices that Rotom like.\nUse the catalog to have Rotom hop in\nand out of the devices listed within.
+A catalog of devices that ROTOM like.\nUse the catalog to have ROTOM hop in\nand out of the devices listed within.
 An item to be held by Dialga.\nThis large, glowing gem wells with power\nand allows the Pokémon to change form.
 An item to be held by Palkia.\nThis large, glowing orb wells with power\nand allows the Pokémon to change form.
 An item to be held by Giratina.\nThis large, glowing gem wells with power\nand allows the Pokémon to change form.

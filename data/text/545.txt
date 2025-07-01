@@ -1,9 +1,9 @@
-Hi, {STRVAR_1 3, 0, 0}!\nYou’re finally awake.\fYour friend Lyra was just here.\rShe was playing hide-and-seek with\nher MARILL.\rOh, I almost forgot! Our acquaintance,\nProfessor Elm, was looking for you.\rHe said he had a favor to ask of you.\rYou know where the lab is, right?\nIt’s right next door to us.\rBy the way, do you have everything\nyou need to go out?\fHere, use this Bag to carry things...\r
-Hi, {STRVAR_1 3, 0, 0}!\nYou’re finally awake.\fYour friend Ethan was just here.\rHe was playing hide-and-seek with\nhis MARILL.\rOh, I almost forgot! Our acquaintance,\nProfessor Elm, was looking for you.\rHe said he had a favor to ask of you.\rYou know where the lab is, right?\nIt’s right next door to us.\rBy the way, do you have everything\nyou need to go out?\fHere, use this Bag to carry things...\r
-This is your Trainer Card...\r
-Here you can save a record of\nyour progress...\r
-These are also rather helpful...\r
-Just try touching the buttons, and\nyou’ll know what to do in no time.\r
+About time you woke up! Professor Elm\nwanted to see you. Here’s your things.\r
+About time you woke up! Professor Elm\nwanted to see you. Here’s your things.\r
+I hear Johto has changed a lot in the\nlast few years...\r
+You should be careful, {STRVAR_1 3, 0, 0}!\nHere, take your Running Shoes along.\r
+You’ll probably want your bike and\nmusic player as well, {STRVAR_1 3, 0, 0}.\r
+I’m sure you know how to use these.\nOh, I hear Elm has a gift for you.\r
 Professor Elm has been waiting for\nyou, dear. Please, go and help him.
 Oh! {STRVAR_1 3, 0, 0}!\nThat’s a cute Pokémon you have.\rProfessor Elm must have given it\nto you?\rOh, Professor Elm has a task for you,\nyou say?\fWhat kind of task?\r...\rI see. That sounds a little difficult.\rBut when someone makes that kind of\nrequest of you, it must be important!\rOh, that’s right!\nI completely forgot!\rYour Pokégear came back from the\nrepair shop!\rHere you go!\r
 {STRVAR_1 3, 0, 0} received\nthe Pokégear!\r
@@ -37,3 +37,8 @@ The TV is playing a movie!\rTwo boys are in a cave searching\nfor treasure!\rI b
 Cinnabar Volcano Burger!\nMom’s specialty!
 A squeaky-clean sink!\nMom loves having it clean.
 What’s in the fridge...?\rLots of drinking water and\nsweeeet lemonade!
+The TV screen is filled with static...\nGive it a thump?
+{STRVAR_1 3, 0, 0} thumped the TV set.\r
+ROTOM disappeared into the TV...\rBut interference still remains!
+The TV set returned to normal.\nThe movie is still on!
+A Pokémon seems to be coming out!\r

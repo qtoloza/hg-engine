@@ -34,11 +34,13 @@ It’s a lawn mower.\nIt has an odd-shaped motor on it.\r
 It’s a lawn mower.\nIt has an odd-shaped motor on it.\rOh? ROTOM appears as if it wants\nto go into the motor.\rAllow it to enter the motor? {YESNO 0}
 ROTOM reluctantly gave up on entering\nthe lawn mower’s motor...
 There is a mysterious notebook here.\nIts age is impossible to tell.\r“It was by pure chance that I obtained\ninformation about the Pokémon ROTOM.\r“Remarkably, ROTOM has the ability to\nenter and merge with special motors.\r“It’s now known that ROTOM can stay\ninside a motor almost indefinitely.\r“However, it will emerge if it enters a\nUnion Room or a Wi-Fi Club.\r“ROTOM will also emerge from the motor\nif it is left at the Day Care.\r“ROTOM may also forget certain moves\nwhen it leaves a motor.\r“This Pokémon requires\nexhaustive observation and analysis.\r“To ensure I get all the credit,\nmy ROTOM research must be kept secret.\r“They will come to revere me as the\nscientific genius Char...”\rThe rest of the notebook is blank.
-                                                                                   
-                                                                                  
-                                                                                  
-                                                                                  
-                                                                                  
-                      
-                                              
-                 
+
+
+
+
+
+
+
+
+CLAYDOL: Cuuwaydol!
+(Looks like a merciful thief...)

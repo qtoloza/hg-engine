@@ -24,10 +24,10 @@ There is a huge waterfall deep in the\ncave there. It is said that LUGIA\rrests 
 Come again, if you so desire.
 It’s been quite some time since a\nTrainer has gained our Master’s\frare approval.\rIn fact, not since Master Lance.
 You know young Master Lance?\rHe looks so much like our Master\ndid in his youth.\fIt’s in their blood.
-Hm... Good to see you here.\rYour arrival is most fortunate.\nI have something for you.\rTake this DRATINI as proof that I\nnow know your worth.\r
-{STRVAR_1 3, 0, 0} received\nDRATINI from the Master!
+Hm... Good to see you here.\rYour arrival is most fortunate.\nI have something for you.\rTake this DRAGONAIR as proof that I\nnow know your worth.\r
+{STRVAR_1 3, 0, 0} received\nDRAGONAIR from the Master!
 Hm? Your party is full.
 Dragon Pokémon are symbolic of\nour clan.\rYou have shown that you can be\nentrusted with one.
 Clair appears to have learned an\ninvaluable lesson from you.\rI thank you as her grandfather.
 A boy close to your age is in\ntraining here.\rHe is much like Clair when she was\nyounger. It is a little worrisome...
-Give a nickname to the\nDRATINI you received? {YESNO 0}
+Give a nickname to the\nDRAGONAIR you received? {YESNO 0}
