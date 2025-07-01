@@ -668,6 +668,34 @@ $(SCR_SEQ_NARC): $(SCR_SEQ_DEPENDENCIES)
 
 NARC_FILES += $(SCR_SEQ_NARC)
 
+
+ZONE_EVENT_DIR := $(BUILD)/a032
+ZONE_EVENT_NARC := $(BUILD_NARC)/zone_event.narc
+ZONE_EVENT_TARGET := $(FILESYS)/a/0/3/2
+ZONE_EVENT_DEPENDENCIES_DIR := armips/eventdata/zone_event
+ZONE_EVENT_JSONS := $(sort $(wildcard $(ZONE_EVENT_DEPENDENCIES_DIR)/*.json))
+ZONE_EVENT_TEMPL := $(ZONE_EVENT_DEPENDENCIES_DIR).json.txt
+ZONE_EVENT_S     := $(ZONE_EVENT_JSONS:%.json=%.s)
+ZONE_EVENT_O     := $(ZONE_EVENT_JSONS:%.json=%.o)
+ZONE_EVENT_DEPS  := $(ZONE_EVENT_JSONS:%.json=%.d)
+ZONE_EVENT_BIN   := $(ZONE_EVENT_JSONS:%.json=%.bin)
+
+$(ZONE_EVENT_NARC): $(ZONE_EVENT_JSONS)
+	@for file in $(ZONE_EVENT_DEPENDENCIES_DIR)/*.json; do \
+		base=$$(basename $$file .json); \
+		$(JSONPROC) $$file $(ZONE_EVENT_TEMPL) $(ZONE_EVENT_DEPENDENCIES_DIR)/$$base.s; \
+	done
+	$(NARCHIVE) extract $(ZONE_EVENT_TARGET) -o $(ZONE_EVENT_DIR) -nf
+	for file in $(ZONE_EVENT_DEPENDENCIES_DIR)/*.s; do $(ARMIPS) $$file; done
+	$(NARCHIVE) create $@ $(ZONE_EVENT_DIR) -nf
+	$(RM) $(ZONE_EVENT_DEPENDENCIES_DIR)/*.s
+
+# for convenience, rebuild ZONE_EVENT_NARC every build so that DSPRE changes are not overwritten
+.PHONY: $(ZONE_EVENT_NARC)
+
+NARC_FILES += $(ZONE_EVENT_NARC)
+
+
 HEADBUTT_DIR := $(BUILD)/headbutttrees
 HEADBUTT_NARC := $(BUILD_NARC)/headbutt.narc
 HEADBUTT_TARGET := $(FILESYS)/a/2/5/2
