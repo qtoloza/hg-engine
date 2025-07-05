@@ -31,10 +31,10 @@ LEVEL_FALKNER equ 14
 
 LEVEL_ROUTE_32 equ 15 /* Also for Route 46 */
 LEVEL_UNION_CAVE equ 17 /* Also for Route 33 */
-LEVEL_SLOWPOKE_WELL equ 19
-LEVEL_PROTON_1 equ 20
-LEVEL_AZALEA_GYM equ 20
-LEVEL_BUGSY equ 22 /* Also used for Silver */
+LEVEL_SLOWPOKE_WELL equ 18
+LEVEL_PROTON_1 equ 19
+LEVEL_AZALEA_GYM equ 19
+LEVEL_BUGSY equ 21 /* Also used for Silver */
 
 LEVEL_ROUTE_34 equ 23 /* Also used for Ilex Forest */
 LEVEL_LYRA_2 equ 25
