@@ -1247,23 +1247,23 @@ scr_seq_0003_019:
 	end
 
 scr_seq_0003_020:
-	hasitem ITEM_BICYCLE, 1, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _1163
-	scrcmd_609
-	lockall
-	play_se SEQ_SE_DP_SELECT
-	player_on_bike_check VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _1140
-	npc_msg 59
-	yesno VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _115D
-	player_on_bike_set 1
-	closemsg
-	releaseall
-	end
+    hasitem ITEM_BIKE, 1, VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 0
+    goto_if_eq _1163
+    scrcmd_609
+    lockall
+    play_se SEQ_SE_DP_SELECT
+    player_on_bike_check VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq _1140
+    npc_msg 59
+    yesno VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq _115D
+    player_on_bike_set 1
+    closemsg
+    releaseall
+    end
 
 _1140:
 	npc_msg 60
