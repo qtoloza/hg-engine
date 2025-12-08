@@ -1588,7 +1588,7 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
 
     pokemon = AllocMonZeroed(heapId);
     ZeroMonData(pokemon);
-    PokeParaSet(pokemon, species, level, 32, FALSE, 0, 0, 0); // CreateMon
+    PokeParaSet(pokemon, species, level, MAX_IVS, FALSE, 0, 0, 0); // CreateMon - gift Pokemon get max IVs
     sub_020720FC(pokemon, profile, ITEM_POKE_BALL, ball, encounterType, heapId);
     sp1C = heldItem;
     SetMonData(pokemon, MON_DATA_HELD_ITEM, &sp1C);
@@ -1688,31 +1688,30 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
     i=ITEM_POKE_BALL;
     SetBoxMonData(boxmon,MON_DATA_POKEBALL,(u8 *)&i);
 
-    // if(pow <= MAX_IVS){
-    pow=MAX_IVS;
-    SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&pow);
-    SetBoxMonData(boxmon,MON_DATA_ATK_IV,(u8 *)&pow);
-    SetBoxMonData(boxmon,MON_DATA_DEF_IV,(u8 *)&pow);
-    SetBoxMonData(boxmon,MON_DATA_SPEED_IV,(u8 *)&pow);
-    SetBoxMonData(boxmon,MON_DATA_SPATK_IV,(u8 *)&pow);
-    SetBoxMonData(boxmon,MON_DATA_SPDEF_IV,(u8 *)&pow);
-    // }
-    // else{ // why the fuck is it done like this
-    //     i=gf_rand();
-    //     j=(i&(0x001f<< 0))>> 0;
-    //     SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&j);
-    //     j=(i&(0x001f<< 5))>> 5;
-    //     SetBoxMonData(boxmon,MON_DATA_ATK_IV,(u8 *)&j);
-    //     j=(i&(0x001f<<10))>>10;
-    //     SetBoxMonData(boxmon,MON_DATA_DEF_IV,(u8 *)&j);
-    //     i=gf_rand();
-    //     j=(i&(0x001f<< 0))>> 0;
-    //     SetBoxMonData(boxmon,MON_DATA_SPEED_IV,(u8 *)&j);
-    //     j=(i&(0x001f<< 5))>> 5;
-    //     SetBoxMonData(boxmon,MON_DATA_SPATK_IV,(u8 *)&j);
-    //     j=(i&(0x001f<<10))>>10;
-    //     SetBoxMonData(boxmon,MON_DATA_SPDEF_IV,(u8 *)&j);
-    // }
+    if(pow <= MAX_IVS){
+        SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&pow);
+        SetBoxMonData(boxmon,MON_DATA_ATK_IV,(u8 *)&pow);
+        SetBoxMonData(boxmon,MON_DATA_DEF_IV,(u8 *)&pow);
+        SetBoxMonData(boxmon,MON_DATA_SPEED_IV,(u8 *)&pow);
+        SetBoxMonData(boxmon,MON_DATA_SPATK_IV,(u8 *)&pow);
+        SetBoxMonData(boxmon,MON_DATA_SPDEF_IV,(u8 *)&pow);
+    }
+    else{
+        i=gf_rand();
+        j=(i&(0x001f<< 0))>> 0;
+        SetBoxMonData(boxmon,MON_DATA_HP_IV,(u8 *)&j);
+        j=(i&(0x001f<< 5))>> 5;
+        SetBoxMonData(boxmon,MON_DATA_ATK_IV,(u8 *)&j);
+        j=(i&(0x001f<<10))>>10;
+        SetBoxMonData(boxmon,MON_DATA_DEF_IV,(u8 *)&j);
+        i=gf_rand();
+        j=(i&(0x001f<< 0))>> 0;
+        SetBoxMonData(boxmon,MON_DATA_SPEED_IV,(u8 *)&j);
+        j=(i&(0x001f<< 5))>> 5;
+        SetBoxMonData(boxmon,MON_DATA_SPATK_IV,(u8 *)&j);
+        j=(i&(0x001f<<10))>>10;
+        SetBoxMonData(boxmon,MON_DATA_SPDEF_IV,(u8 *)&j);
+    }
 
     i = PokePersonalParaGet(species,PERSONAL_ABILITY_1);
     j = PokePersonalParaGet(species,PERSONAL_ABILITY_2);

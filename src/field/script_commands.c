@@ -59,6 +59,17 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
             ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
         }
 
+        // Set max IVs for egg
+        {
+            u8 maxIV = MAX_IVS;
+            SetMonData(pokemon, MON_DATA_HP_IV, &maxIV);
+            SetMonData(pokemon, MON_DATA_ATK_IV, &maxIV);
+            SetMonData(pokemon, MON_DATA_DEF_IV, &maxIV);
+            SetMonData(pokemon, MON_DATA_SPEED_IV, &maxIV);
+            SetMonData(pokemon, MON_DATA_SPATK_IV, &maxIV);
+            SetMonData(pokemon, MON_DATA_SPDEF_IV, &maxIV);
+        }
+
         PokeParty_Add(party, pokemon);
         sys_FreeMemoryEz(pokemon);
     }
@@ -121,6 +132,16 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
         ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
     }
 
+    // Set max IVs for Togepi egg
+    {
+        u8 maxIV = MAX_IVS;
+        SetMonData(togepi, MON_DATA_HP_IV, &maxIV);
+        SetMonData(togepi, MON_DATA_ATK_IV, &maxIV);
+        SetMonData(togepi, MON_DATA_DEF_IV, &maxIV);
+        SetMonData(togepi, MON_DATA_SPEED_IV, &maxIV);
+        SetMonData(togepi, MON_DATA_SPATK_IV, &maxIV);
+        SetMonData(togepi, MON_DATA_SPDEF_IV, &maxIV);
+    }
 
     PokeParty_Add(party, togepi);
 

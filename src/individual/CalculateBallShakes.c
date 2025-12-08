@@ -564,6 +564,19 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
         SetMonData(Battle_GetClientPartyMon(bw,sp->defence_client,0), MON_DATA_FRIENDSHIP, &friendship);
     }
 
+    // Set max IVs for caught Pokemon
+    if ((i & ~CRITICAL_CAPTURE_MASK) >= 4)
+    {
+        u8 maxIV = MAX_IVS;
+        struct PartyPokemon *caughtMon = Battle_GetClientPartyMon(bw, sp->defence_client, 0);
+        SetMonData(caughtMon, MON_DATA_HP_IV, &maxIV);
+        SetMonData(caughtMon, MON_DATA_ATK_IV, &maxIV);
+        SetMonData(caughtMon, MON_DATA_DEF_IV, &maxIV);
+        SetMonData(caughtMon, MON_DATA_SPEED_IV, &maxIV);
+        SetMonData(caughtMon, MON_DATA_SPATK_IV, &maxIV);
+        SetMonData(caughtMon, MON_DATA_SPDEF_IV, &maxIV);
+    }
+
 #ifdef GUARANTEE_CAPTURES
     if (Battle_CheckIfHasCaughtMon(bw, sp->battlemon[sp->defence_client].species)) {
         return 1 | CRITICAL_CAPTURE_MASK;
