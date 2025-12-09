@@ -35,6 +35,7 @@ scrdef scr_seq_T26PC0101_003
 scrdef scr_seq_T26PC0101_004
 scrdef scr_seq_T26PC0101_005
 scrdef scr_seq_T26PC0101_006
+scrdef scr_seq_T26PC0101_007
 scrdef_end
 
 scr_seq_T26PC0101_000:
@@ -238,6 +239,143 @@ _02C9:
 
 _02D4:
 	white_out
+	releaseall
+	end
+
+// Gen V (Unova) Show Starter - Give remaining two starters
+scr_seq_T26PC0101_007:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Check if not post-game
+	goto_if_unset FLAG_GAME_CLEAR, _unova_giver_not_postgame
+	// Check if already got the remaining starters
+	goto_if_set FLAG_GOT_UNOVA_STARTER_REST, _unova_giver_already_got
+	// Check if player has got the first starter
+	goto_if_unset FLAG_GOT_UNOVA_STARTER_FIRST, _unova_giver_no_first
+	// Check party lead species
+	npc_msg 14
+	get_party_lead_alive VAR_TEMP_x4000
+	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
+	// Check Snivy line (545-547)
+	compare VAR_TEMP_x4001, SPECIES_SNIVY
+	goto_if_eq _unova_giver_has_snivy
+	compare VAR_TEMP_x4001, SPECIES_SERVINE
+	goto_if_eq _unova_giver_has_snivy
+	compare VAR_TEMP_x4001, SPECIES_SERPERIOR
+	goto_if_eq _unova_giver_has_snivy
+	// Check Tepig line (548-550)
+	compare VAR_TEMP_x4001, SPECIES_TEPIG
+	goto_if_eq _unova_giver_has_tepig
+	compare VAR_TEMP_x4001, SPECIES_PIGNITE
+	goto_if_eq _unova_giver_has_tepig
+	compare VAR_TEMP_x4001, SPECIES_EMBOAR
+	goto_if_eq _unova_giver_has_tepig
+	// Check Oshawott line (551-553)
+	compare VAR_TEMP_x4001, SPECIES_OSHAWOTT
+	goto_if_eq _unova_giver_has_oshawott
+	compare VAR_TEMP_x4001, SPECIES_DEWOTT
+	goto_if_eq _unova_giver_has_oshawott
+	compare VAR_TEMP_x4001, SPECIES_SAMUROTT
+	goto_if_eq _unova_giver_has_oshawott
+	// Not a valid starter
+	npc_msg 16
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_unova_giver_not_postgame:
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_unova_giver_already_got:
+	npc_msg 22
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_unova_giver_no_first:
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_unova_giver_has_snivy:
+	// Give Tepig and Oshawott
+	buffer_species_name 1, VAR_TEMP_x4001, 0, 0
+	npc_msg 15
+	get_party_count VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 5
+	goto_if_eq _unova_giver_party_full
+	compare VAR_SPECIAL_RESULT, 6
+	goto_if_eq _unova_giver_party_full
+	give_mon SPECIES_TEPIG, 5, 0, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_OSHAWOTT, 5, 0, 0, 0, VAR_SPECIAL_RESULT
+	buffer_players_name 0
+	npc_msg 17
+	play_fanfare SEQ_ME_POKEGET
+	wait_fanfare
+	setflag FLAG_GOT_UNOVA_STARTER_REST
+	goto _unova_giver_finish
+
+_unova_giver_has_tepig:
+	// Give Snivy and Oshawott
+	buffer_species_name 1, VAR_TEMP_x4001, 0, 0
+	npc_msg 15
+	get_party_count VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 5
+	goto_if_eq _unova_giver_party_full
+	compare VAR_SPECIAL_RESULT, 6
+	goto_if_eq _unova_giver_party_full
+	give_mon SPECIES_SNIVY, 5, 0, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_OSHAWOTT, 5, 0, 0, 0, VAR_SPECIAL_RESULT
+	buffer_players_name 0
+	npc_msg 18
+	play_fanfare SEQ_ME_POKEGET
+	wait_fanfare
+	setflag FLAG_GOT_UNOVA_STARTER_REST
+	goto _unova_giver_finish
+
+_unova_giver_has_oshawott:
+	// Give Snivy and Tepig
+	buffer_species_name 1, VAR_TEMP_x4001, 0, 0
+	npc_msg 15
+	get_party_count VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 5
+	goto_if_eq _unova_giver_party_full
+	compare VAR_SPECIAL_RESULT, 6
+	goto_if_eq _unova_giver_party_full
+	give_mon SPECIES_SNIVY, 5, 0, 0, 0, VAR_SPECIAL_RESULT
+	give_mon SPECIES_TEPIG, 5, 0, 0, 0, VAR_SPECIAL_RESULT
+	buffer_players_name 0
+	npc_msg 19
+	play_fanfare SEQ_ME_POKEGET
+	wait_fanfare
+	setflag FLAG_GOT_UNOVA_STARTER_REST
+	goto _unova_giver_finish
+
+_unova_giver_party_full:
+	npc_msg 21
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_unova_giver_finish:
+	npc_msg 20
+	wait_button_or_walk_away
+	closemsg
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	hide_person obj_T26PC0101_unova_giver
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
 	releaseall
 	end
 

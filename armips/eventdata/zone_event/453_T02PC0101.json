@@ -130,6 +130,23 @@
       "x": 14,
       "z": 13,
       "y": 0
+    },
+    {
+      "id": "obj_T02PC0101_kalos_giver",
+      "spriteId": "SPRITE_GSWOMAN1",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_HIDE_PEWTER_PC_KALOS_GIVER",
+      "scriptId": "_EV_scr_seq_T02PC0101_004 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 12,
+      "z": 12,
+      "y": 0
     }
   ],
   "warps": [

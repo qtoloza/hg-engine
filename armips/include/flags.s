@@ -2226,8 +2226,17 @@ FLAG_UNK_B5D                                              equ 2909
 FLAG_UNK_B5E                                              equ 2910
 FLAG_UNK_B5F                                              equ 2911
 
+// Gen V/VI Starter Gift Flags
+FLAG_GOT_UNOVA_STARTER_FIRST                              equ 2912
+FLAG_GOT_UNOVA_STARTER_REST                               equ 2913
+FLAG_GOT_KALOS_STARTER_FIRST                              equ 2914
+FLAG_GOT_KALOS_STARTER_REST                               equ 2915
+FLAG_HIDE_MAHOGANY_PC_UNOVA_QUIZ                          equ 2916
+FLAG_HIDE_OLIVINE_PC_UNOVA_GIVER                          equ 2917
+FLAG_HIDE_VERMILION_PC_KALOS_QUIZ                         equ 2918
+FLAG_HIDE_PEWTER_PC_KALOS_GIVER                           equ 2919
 
-NUM_FLAGS                                                 equ  2912
+NUM_FLAGS                                                 equ  2913
 
 
 NUM_TEMP_FLAGS                                           equ     64

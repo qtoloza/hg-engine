@@ -11,3 +11,12 @@ Kimono Girl in front of\ndance theater?
 Flags set.
 Flags set.
 Have you finished\nthe Lighthouse?
+I’m looking for someone who has\nan Unova starter Pokémon!\rPlease show me the first Pokémon\nin your party!
+Oh! That’s a {STRVAR_1 0, 1, 0}!\nA wonderful Unova starter!\rI have two more Unova starters\nthat I’d like to give you!
+I’m sorry, but I don’t recognize\nthat as an Unova starter...\rPlease show me a Snivy, Tepig,\nor Oshawott (or evolution)!
+{STRVAR_1 3, 0, 0} received {COLOR 2}TEPIG{COLOR 0} and {COLOR 2}OSHAWOTT{COLOR 0}!
+{STRVAR_1 3, 0, 0} received {COLOR 2}SNIVY{COLOR 0} and {COLOR 2}OSHAWOTT{COLOR 0}!
+{STRVAR_1 3, 0, 0} received {COLOR 2}SNIVY{COLOR 0} and {COLOR 2}TEPIG{COLOR 0}!
+Take good care of them!\rI hope you enjoy exploring\nthe world of Unova Pokémon!
+Your party is full!\nPlease come back with room.
+I’m so glad I found someone who\nloves Unova Pokémon like I do!
