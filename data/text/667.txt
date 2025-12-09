@@ -28,14 +28,14 @@ Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rMy apologies. The Safari Zone isn’t\nquite
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rMy apologies. The Safari Zone isn’t\nquite ready yet. I’m sorry for the\finconvenience, but if you could be\fpatient just a little longer.\rI’ll call you later.
 ...
 ...
-Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a GEODUDE in\nthe Safari Zone?\rGive it your best shot!
-Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a GEODUDE in\nthe Safari Zone?\rGive it your best shot!
+Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a Geodude in\nthe Safari Zone?\rGive it your best shot!
+Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a Geodude in\nthe Safari Zone?\rGive it your best shot!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rSorry, I’m still thinking about the next\nchallenge. Could you give me a bit\fmore time?
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rSorry, I’m still thinking about the next\nchallenge. Could you give me a bit\fmore time?
 Oh hi, {STRVAR_1 3, 0, 0}!\nI’ve finally come up with the next\fchallenge.\rI’ll give you more details at the\nSafari Zone. See you there!
 Oh hi, {STRVAR_1 3, 0, 0}!\nI’ve finally come up with the next\fchallenge.\rI’ll give you more details at the\nSafari Zone. See you there!
-Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a SANDSHREW\nin the Desert Area?\rGive it your best shot!
-Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a SANDSHREW\nin the Desert Area?\rGive it your best shot!
+Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a Sandshrew\nin the Desert Area?\rGive it your best shot!
+Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a Sandshrew\nin the Desert Area?\rGive it your best shot!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rI’m trying to come up with a new way to\nplay in the Safari Zone.\rIf I come up with something, I’ll be\nsure to give you a call!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rI’m trying to come up with a new way to\nplay in the Safari Zone.\rIf I come up with something, I’ll be\nsure to give you a call!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rHow are you doing? Enjoying\nthe Safari Zone, are you?\rLater, I will talk to you...

@@ -3,6 +3,6 @@ Steven: {STRVAR_1 3, 0, 0}! Wait!
 Steven: Have you been hearing the calls\nof the Eon Pokémon? I have reason to\fbelieve they may want to test you...
 Steven: It’s them... these are truly\nthe Eon Pokémon of legend.\r{STRVAR_1 3, 0, 0}, they’re looking to\nchallenge you!\rProve yourself to them - and to me -\nto challenge the Pokémon League!\rYou should take these, too:\na little help from Hoenn’s Champion!
 Steven: You evidently haven’t proven\nyourself to them, yet!\rAlthough, if your Pokémon are in pain...\nI’ll be happy to oblige with some help.
-LATIOS: Shuaaaann!\r
-LATIAS: Huaaaaann!\r
-Steven: So, that’s that... you seem to\nhave made LATIAS and LATIOS happy.\rI’m sure this won’t be the last time I\nsee you, {STRVAR_1 3, 0, 0}, but until then!\rThe best of luck with your Pokémon\nLeague challenge!
+Latios: Shuaaaann!\r
+Latias: Huaaaaann!\r
+Steven: So, that’s that... you seem to\nhave made Latias and Latios happy.\rI’m sure this won’t be the last time I\nsee you, {STRVAR_1 3, 0, 0}, but until then!\rThe best of luck with your Pokémon\nLeague challenge!

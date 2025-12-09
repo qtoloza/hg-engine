@@ -153,9 +153,9 @@ A park
 A department store
 An amusement park
 A theater
-SWALOT Plop
-MIME JR. Top
-WOBBUFFET Pop
+Swalot Plop
+Mime Jr. Top
+Wobbuffet Pop
 Never played
 TV & music
 Games & computers
@@ -274,9 +274,9 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nI’d like to go to a department store.\r
 {STRVAR_1 3, 0, 0}:\nI’d like to go to an amusement park.\r
 {STRVAR_1 3, 0, 0}:\nI’d like to go to a theater.\r
-{STRVAR_1 3, 0, 0}:\nI’d say SWALOT Plop.\r
-{STRVAR_1 3, 0, 0}:\nI’d say MIME JR. Top.\r
-{STRVAR_1 3, 0, 0}:\nI’d say WOBBUFFET Pop.\r
+{STRVAR_1 3, 0, 0}:\nI’d say Swalot Plop.\r
+{STRVAR_1 3, 0, 0}:\nI’d say Mime Jr. Top.\r
+{STRVAR_1 3, 0, 0}:\nI’d say Wobbuffet Pop.\r
 {STRVAR_1 3, 0, 0}:\nI’ve never played one.\r
 {STRVAR_1 3, 0, 0}:\nTV and music, I guess.\r
 {STRVAR_1 3, 0, 0}:\nGames and computers, I guess.\r
@@ -395,9 +395,9 @@ Stop chatting
 {STRVAR_1 3, 0, 0}:\nA department store?\fYou must like shopping.\r
 {STRVAR_1 3, 0, 0}:\nAn amusement park! Of course!\r
 {STRVAR_1 3, 0, 0}:\nA theater sounds entertaining!\r
-{STRVAR_1 3, 0, 0}:\nOh, you’re good at SWALOT Plop!\r
-{STRVAR_1 3, 0, 0}:\nOh, you’re good at MIME JR. Top!\r
-{STRVAR_1 3, 0, 0}:\nOh, you’re good at WOBBUFFET Pop!\r
+{STRVAR_1 3, 0, 0}:\nOh, you’re good at Swalot Plop!\r
+{STRVAR_1 3, 0, 0}:\nOh, you’re good at Mime Jr. Top!\r
+{STRVAR_1 3, 0, 0}:\nOh, you’re good at Wobbuffet Pop!\r
 {STRVAR_1 3, 0, 0}:\nOh. You’ve never played any.\r
 {STRVAR_1 3, 0, 0}:\nTV and music! I see.\r
 {STRVAR_1 3, 0, 0}:\nGames and computers! I see.\r
@@ -727,9 +727,9 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nLet’s see... Over here...\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nLet’s see... Over here...\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nWell, if it were me...\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say SWALOT Plop.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say MIME JR. Top.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say WOBBUFFET Pop.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say Swalot Plop.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say Mime Jr. Top.\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’d say Wobbuffet Pop.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nI’ve never played one.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nTV and music, I guess.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nGames and computers, I guess.\r
@@ -807,9 +807,9 @@ Received a {STRVAR_3 2, 1, 0} from\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nFashionable clothes, I’d say.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nTomorrow’s weather, I’d say.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nNew pop stars, I’d say.\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at SWALOT Plop!\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at MIME JR. Top!\r
-{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at WOBBUFFET Pop!\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at Swalot Plop!\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at Mime Jr. Top!\r
+{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh, you’re good at Wobbuffet Pop!\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nOh. You’ve never played any.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nTV and music! I see.\r
 {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}:\nGames and computers! I see.\r

@@ -110,7 +110,7 @@ A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark 
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt sparkles like eyes.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.
 An item said to be related to a ghostly\nPokémon. Rumours stat throwing it down \na long distance may have effects.
-A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.
+A glowing orb to be held by Giratina.\nIt boosts the power of Dragon- and\nGhost-type moves.
 
 
 
@@ -133,8 +133,8 @@ A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost
 
 
 
-A brightly gleaming orb to be held by\nDIALGA. It boosts the power of Dragon-\nand Steel-type moves.
-A beautifully glowing orb to be held by\nPALKIA. It boosts the power of Dragon-\nand Water-type moves.
+A brightly gleaming orb to be held by\nDialga. It boosts the power of Dragon-\nand Steel-type moves.
+A beautifully glowing orb to be held by\nPalkia. It boosts the power of Dragon-\nand Water-type moves.
 Stationery featuring a print of a\nrefreshingly green field.\nLet a Pokémon hold it for delivery.
 Stationery featuring a print of flames\nin blazing red.\nLet a Pokémon hold it for delivery.
 Stationery featuring a print of a blue\nworld underwater.\nLet a Pokémon hold it for delivery.
@@ -223,9 +223,9 @@ An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe hold
 An item to be held by a Pokémon.\nIt is a shiny, silver powder that ups\nthe power of Bug-type moves.
 An item to be held by a Pokémon.\nIt doubles a battle’s prize money if\nthe holding Pokémon joins in.
 An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.
-A wondrous orb to be held by LATIOS\nor LATIAS. It raises both the\nSp. Atk and Sp. Def stats.
-An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.
-An item to be held by CLAMPERL.\nA scale that shines a faint pink, it\nraises the Sp. Def stat.
+A wondrous orb to be held by Latios\nor Latias. It raises both the\nSp. Atk and Sp. Def stats.
+An item to be held by Clamperl.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.
+An item to be held by Clamperl.\nA scale that shines a faint pink, it\nraises the Sp. Def stat.
 An item to be held by a Pokémon.\nIt enables the holder to flee from any\nwild Pokémon without fail.
 An item to be held by a Pokémon.\nThe Pokémon holding this peculiar stone\nis prevented from evolving.
 An item to be held by a Pokémon.\nThe holder may endure a potential KO\nattack, leaving it with just 1 HP.
@@ -234,7 +234,7 @@ An item to be held by a Pokémon.\nIt is a lens that boosts the holder’s\ncrit
 An item to be held by a Pokémon.\nIt is a special metallic film that ups\nthe power of Steel-type moves.
 An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.
 A thick and tough scale.\nDragon-type Pokémon may be holding\nthis item when caught.
-An item to be held by PIKACHU.\nIt is a puzzling orb that raises\nthe Attack and Sp. Atk stat.
+An item to be held by Pikachu.\nIt is a puzzling orb that raises\nthe Attack and Sp. Atk stat.
 An item to be held by a Pokémon.\nIt is a loose, silky sand that boosts\nthe power of Ground-type moves.
 An item to be held by a Pokémon.\nIt is an unbreakable stone that ups\nthe power of Rock-type moves.
 An item to be held by a Pokémon.\nIt is a seed imbued with life that ups\nthe power of Grass-type moves.
@@ -254,10 +254,10 @@ A transparent device filled with all\nsorts of data.\nIt was produced by Silph C
 An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.
 An item to be held by a Pokémon. It is\nincense with a curious aroma that\nboosts the power of Water-type moves.
 An item to be held by a Pokémon. The\ntricky aroma of this incense lowers the\nfoe’s accuracy.
-An item to be held by CHANSEY. It is a\npair of gloves that boosts CHANSEY’s\ncritical-hit ratio.
-An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.
-An item to be held by CUBONE or\nMAROWAK. It is a hard bone of some\nsort that boosts the Attack stat.
-An item to be held by FARFETCH’D. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.
+An item to be held by Chansey. It is a\npair of gloves that boosts Chansey’s\ncritical-hit ratio.
+An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.
+An item to be held by Cubone or\nMarowak. It is a hard bone of some\nsort that boosts the Attack stat.
+An item to be held by Farfetch’d. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.
 An item to be held by a Pokémon.\nIt boosts the “Cool” aspect of the\nholder in a Contest in Sinnoh.
 An item to be held by a Pokémon.\nIt boosts the “Beauty” aspect of the\nholder in a Contest in Sinnoh.
 An item to be held by a Pokémon.\nIt boosts the “Cute” aspect of the\nholder in a Contest in Sinnoh.
@@ -272,7 +272,7 @@ An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cos
 A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.
 An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.
 An item to be held by a Pokémon.\nIt is a bizarre orb that inflicts a\nburn on the holder in battle.
-An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.
+An item to be held by Ditto.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.
 An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.
 An item to be held by a Pokémon.\nIf the holder moves after the foe, its\naccuracy will be boosted.
 A Pokémon held item that boosts a move\nused consecutively. Its effect is\nreset if another move is used.
@@ -446,7 +446,7 @@ A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 co
 An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 A new, good-quality fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
-A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.
+A watering can shaped like a Psyduck.\nIt helps promote healthy growth of\nBerries planted in soft soil.
 A case for storing Poffin cooked from\nBerries.\n
 A folding Bicycle that enables much\nfaster movement than the Running\nShoes.
 A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.
@@ -467,7 +467,7 @@ An amazing device that can record a\nbattle either between friends or at a\nspec
 A flower sometimes bundled in bouquets\nto convey gratitude on special\noccasions like birthdays.
 A dim sphere charged with the energy of\nincontrovertible conviction. It causes\ncertain species of Pokémon to evolve.
 A handy box where you can store up to\n99 Apricorns of each kind.
-A report of all the discovered kinds\nof UNOWN.
+A report of all the discovered kinds\nof Unown.
 Handy containers for cultivating\nBerries wherever you go.
 It checks for unseen items in the area\nand makes noise and lights when it\nfinds something.
 A card to save points for the\nBuena’s Password show.
@@ -476,7 +476,7 @@ A very old-fashioned bell that makes a\ngentle ringing.
 A card key that opens a shutter in the\nRadio Tower.
 A key that opens a door in the\nGoldenrod Tunnel.
 A bottle used for watering plants in the\nBerry Pots.
-A scale from the red GYARADOS. It glows\nred like a flame.
+A scale from the red Gyarados. It glows\nred like a flame.
 The Poké Doll lost by the Copycat.
 A ticket required for riding the Magnet\nTrain. It allows you to ride whenever\nand however much you’d like.
 An important machine part for the\nPower Plant that was stolen.
@@ -541,12 +541,12 @@ One of a variety of Mega Stones.\nHave Charizard hold it, and this stone\nwill e
 One of a variety of Mega Stones.\nHave Blastoise hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Beedrill hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Pidgeot hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave ALAKAZAM hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave SLOWBRO hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Alakazam hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Slowbro hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Gengar hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Kangaskhan hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Pinsir hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave GYARADOS hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Gyarados hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Aerodactyl hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Mewtwo hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Mewtwo hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -555,12 +555,12 @@ One of a variety of Mega Stones.\nHave Steelix hold it, and this stone\nwill ena
 One of a variety of Mega Stones.\nHave Scizor hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Heracross hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Houndoom hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave TYRANITAR hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Tyranitar hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Sceptile hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Blaziken hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Swampert hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave GARDEVOIR hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave SABLEYE hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Gardevoir hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Sableye hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Mawile hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Aggron hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Medicham hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -568,7 +568,7 @@ One of a variety of Mega Stones.\nHave Manectric hold it, and this stone\nwill e
 One of a variety of Mega Stones.\nHave Sharpedo hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Camerupt hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Altaria hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave BANETTE hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Banette hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Absol hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Glalie hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Salamence hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -577,7 +577,7 @@ One of a variety of Mega Stones.\nHave Latias hold it, and this stone\nwill enab
 One of a variety of Mega Stones.\nHave Latios hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Lopunny hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Garchomp hold it, and this stone\nwill enable it to Mega Evolve in battle.
-One of a variety of Mega Stones.\nHave LUCARIO hold it, and this stone\nwill enable it to Mega Evolve in battle.
+One of a variety of Mega Stones.\nHave Lucario hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Abomasnow hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Gallade hold it, and this stone\nwill enable it to Mega Evolve in battle.
 One of a variety of Mega Stones.\nHave Audino hold it, and this stone\nwill enable it to Mega Evolve in battle.
@@ -755,7 +755,7 @@ Produce that the King of Bountiful\nHarvests’ beloved steed likes to eat.\nIt 
 Produce that the King of Bountiful\nHarvests’ beloved steed likes to eat.\nIt grew in a gloomy field.
 Reins of Unity Description
 A mysterious object made of wood. Part\nof it seems to be chipped. Maybe it’s\nmeant to be part of something.
-A catalog of devices that ROTOM like.\nUse the catalog to have ROTOM hop in\nand out of the devices listed within.
+A catalog of devices that Rotom like.\nUse the catalog to have Rotom hop in\nand out of the devices listed within.
 An item to be held by Dialga.\nThis large, glowing gem wells with power\nand allows the Pokémon to change form.
 An item to be held by Palkia.\nThis large, glowing orb wells with power\nand allows the Pokémon to change form.
 An item to be held by Giratina.\nThis large, glowing gem wells with power\nand allows the Pokémon to change form.

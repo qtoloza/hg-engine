@@ -8,7 +8,7 @@ Cynthia: {STRVAR_1 3, 0, 0}! It’s good to see you\nagain. This is an in-progre
 Cynthia: If you find anything\ninteresting that looks ancient,\fbring it to me. I might be able to\fshed some light on it.
 Cynthia: What is this item? Professor\nOak gave it to you? Hmm...\rHe said it’s called the Lock Capsule?\rI heard this is somehow related to\nthe golems of legend...\rLet me try something a moment...
 Cynthia: The capsule reacted very\nstrongly to that braille tablet\fI obtained from the Hoenn region...\rThe Lock Capsule seems to be giving off\nan aura!\rI wonder what that could mean.\rPerhaps the golems have surfaced\naround Johto?
-Cynthia: Are you searching for\nREGIROCK, REGICE, and REGISTEEL?\rIt’s hard to guess, but could they’ve\nappeared within Johto’s caves?\rIt might be worth your while to take a\ndeep look inside some of them.
+Cynthia: Are you searching for\nRegirock, Regice, and Registeel?\rIt’s hard to guess, but could they’ve\nappeared within Johto’s caves?\rIt might be worth your while to take a\ndeep look inside some of them.
 Hello, welcome to the new Goldenrod\nArchaeology Center!\rThis USED to be a bike shop, but they\nhaven’t cleared away half the trash...\rAhem! Will you need my help with the\nrevival of fossils, today?
 Stone Market
 Fossil Revival
@@ -30,7 +30,7 @@ Common Stones
 Rare Stones
 Everstone\n$1,000
 Uh... I hate to say it, but you\nhaven’t got enough money for that.
-Cynthia: Ah, welcome back! You engaged\nwith the three golems? Intruiging...\rI wonder if we can somehow find the\nfourth golem, REGIGIGAS.\rI’ll do some research into it.\nYou should come back sometime later.
+Cynthia: Ah, welcome back! You engaged\nwith the three golems? Intruiging...\rI wonder if we can somehow find the\nfourth golem, Regigigas.\rI’ll do some research into it.\nYou should come back sometime later.
 If you have any fossils on you, I can\nuse our technology to extract the DNA.\r
 Ah, you don’t wish to extract this\ntime? Very well, then.
 I’ll see what I can do. Give me some\ntime and come back later.
@@ -54,12 +54,12 @@ This is quite an interesting stone...\nThough it’s totally covered in dirt.\rL
 I think... this is the legendary\nSoul Dew!\rThey say it contains the {COLOR 1}spirit\nof the Eon Pokémon{COLOR 0}.\rHere, you should keep it.\r
 If by some chance you capture\na legendary Pokémon, please show it\fto me!
 This trophy holds the names of\nthose Pokémon who our researchers,\fpast and present fought so hard\fto obtain information about.\rThey are known collectively as the\n{COLOR 1}Legendary Pokémon{COLOR 0}.\rRead on?
-Professor Elm: So, you like {COLOR 3}CHIKORITA{COLOR 0},\nthe Grass-type Pokémon?
-The {COLOR 2}Johto{COLOR 0} region is known for the\nbeasts of thunder, fire and water,\fthe guardians of sea and sky, and\fthe protector of the forest.\rThey are known as {COLOR 1}RAIKOU{COLOR 0}, {COLOR 1}ENTEI{COLOR 0},\n{COLOR 1}SUICUNE{COLOR 0}, {COLOR 1}LUGIA{COLOR 0}, {COLOR 1}HO-OH{COLOR 0} and {COLOR 1}CELEBI{COLOR 0}.\rRead on?
-The {COLOR 2}Hoenn{COLOR 0} region is known for the\ngolems of rock, ice and steel,\fthe twins known as the Eon Pokémon,\fthe titans of water, earth and sky,\fthe wishmaker and the alien virus.\rThey are known as {COLOR 1}REGIROCK{COLOR 0}, {COLOR 1}REGICE{COLOR 0},\n{COLOR 1}REGISTEEL{COLOR 0}, {COLOR 1}LATIAS{COLOR 0}, {COLOR 1}LATIOS{COLOR 0}, {COLOR 1}KYOGRE{COLOR 0},\f{COLOR 1}GROUDON{COLOR 0}, {COLOR 1}RAYQUAZA{COLOR 0}, {COLOR 1}JIRACHI{COLOR 0} and {COLOR 1}DEOXYS{COLOR 0}.\rRead on?
-The {COLOR 2}Sinnoh{COLOR 0} region is known for the\nembodiments of knowledge, emotion and\fwillpower, the creators of time, space\fand antimatter, the child of the\fplanet’s core, the leader of golems,\fthe protector of dreams, the prince\fof the sea, the force of nightmare,\fand the bringer of life and purity.\rThey are known as {COLOR 1}UXIE{COLOR 0}, {COLOR 1}MESPRIT{COLOR 0},{COLOR 1}\nAZELF{COLOR 0}, {COLOR 1}DIALGA{COLOR 0}, {COLOR 1}PALKIA{COLOR 0}, {COLOR 1}GIRATINA{COLOR 0},\f{COLOR 1}HEATRAN{COLOR 0}, {COLOR 1}REGIGIGAS{COLOR 0}, {COLOR 1}CRESSELIA{COLOR 0},\f{COLOR 1}MANAPHY{COLOR 0}, {COLOR 1}DARKRAI{COLOR 0}, and {COLOR 1}SHAYMIN{COLOR 0}.\rRead on?
+Professor Elm: So, you like {COLOR 3}Chikorita{COLOR 0},\nthe Grass-type Pokémon?
+The {COLOR 2}Johto{COLOR 0} region is known for the\nbeasts of thunder, fire and water,\fthe guardians of sea and sky, and\fthe protector of the forest.\rThey are known as {COLOR 1}Raikou{COLOR 0}, {COLOR 1}Entei{COLOR 0},\n{COLOR 1}Suicune{COLOR 0}, {COLOR 1}Lugia{COLOR 0}, {COLOR 1}Ho-Oh{COLOR 0} and {COLOR 1}Celebi{COLOR 0}.\rRead on?
+The {COLOR 2}Hoenn{COLOR 0} region is known for the\ngolems of rock, ice and steel,\fthe twins known as the Eon Pokémon,\fthe titans of water, earth and sky,\fthe wishmaker and the alien virus.\rThey are known as {COLOR 1}Regirock{COLOR 0}, {COLOR 1}Regice{COLOR 0},\n{COLOR 1}Registeel{COLOR 0}, {COLOR 1}Latias{COLOR 0}, {COLOR 1}Latios{COLOR 0}, {COLOR 1}Kyogre{COLOR 0},\f{COLOR 1}Groudon{COLOR 0}, {COLOR 1}Rayquaza{COLOR 0}, {COLOR 1}Jirachi{COLOR 0} and {COLOR 1}Deoxys{COLOR 0}.\rRead on?
+The {COLOR 2}Sinnoh{COLOR 0} region is known for the\nembodiments of knowledge, emotion and\fwillpower, the creators of time, space\fand antimatter, the child of the\fplanet’s core, the leader of golems,\fthe protector of dreams, the prince\fof the sea, the force of nightmare,\fand the bringer of life and purity.\rThey are known as {COLOR 1}Uxie{COLOR 0}, {COLOR 1}Mesprit{COLOR 0},{COLOR 1}\nAzelf{COLOR 0}, {COLOR 1}Dialga{COLOR 0}, {COLOR 1}Palkia{COLOR 0}, {COLOR 1}Giratina{COLOR 0},\f{COLOR 1}Heatran{COLOR 0}, {COLOR 1}Regigigas{COLOR 0}, {COLOR 1}Cresselia{COLOR 0},\f{COLOR 1}Manaphy{COLOR 0}, {COLOR 1}Darkrai{COLOR 0}, and {COLOR 1}Shaymin{COLOR 0}.\rRead on?
 Mythology also states the existence\nof another legendary belonging to the\fSinnoh group, but little information is\fknown.\rOne carving suggests that this\nlegendary appears only when a\ftrainer has {COLOR 1}tamed every other of these\flegendary Pokémon{COLOR 0} from the four\fregions, making it a somewhat impossible \ftask for our scientists.\rRead on?
-Whether the more common Pokémon\n{COLOR 1}PHIONE{COLOR 0} can be called legendary is\funknown. There is mixed evidence, but\ffor now we choose to declare\fit as a regular Pokémon.\rRead on?
+Whether the more common Pokémon\n{COLOR 1}Phione{COLOR 0} can be called legendary is\funknown. There is mixed evidence, but\ffor now we choose to declare\fit as a regular Pokémon.\rRead on?
 The {COLOR 2}Unova{COLOR 0} region is also said to\ncontain a variety of legen...\r
 The rest of the pages are blank\nor ripped...
 Perhaps you would like to battle?\rI do want our Pokémon to have\na match. Are you prepared to be\fmy opponent? {YESNO 0}
@@ -67,18 +67,18 @@ Before I sent out my Pokémon,\nmy heart begins to race...\rInteresting, my Pok�
 I see.\rPerhaps a wise choice.\nMy Pokémon aren’t to be taken lightly.
 You are indeed powerful...\nI’d expect nothing less.\rIf you want to let our Pokémon\nhave another chance at battle,\fplease let me know.
 Hey, you!
-You there! Do you know PHIONE?\rIf you can show me a PHIONE,\nI’ll give you a reward!
-By jove, it’s a real PHIONE!\rBut that’s not enough, you see!\r
-If you can show me a MANAPHY,\nthen I’ll really give you a reward!
-By jove, it’s a real MANAPHY!\rHere, take this!\r
+You there! Do you know Phione?\rIf you can show me a Phione,\nI’ll give you a reward!
+By jove, it’s a real Phione!\rBut that’s not enough, you see!\r
+If you can show me a Manaphy,\nthen I’ll really give you a reward!
+By jove, it’s a real Manaphy!\rHere, take this!\r
 Thank you, young sir!\nFare thee well!
 Thank you, young lass!\nFare thee well!
 Cynthia: Congratulations on becoming\nthe Champion, {STRVAR_1 3, 0, 0}.\rI’d like to give you a reward\nin celebration.\rHowever, first, I want you to show me\none of the Sinnoh starters or one\fof their evolutions.\rCan you do that, {STRVAR_1 3, 0, 0}?\r
 I hate to say it, but the Pokémon\nbehind you isn’t what I was looking for!
 That is indeed one of the starters\ngiven out by Rowan in Sinnoh!\rSo you own a {COLOR 1}{STRVAR_1 0, 1, 0}{COLOR 0}...\rIn that case, I’d like you to have\nthese two Pokémon!\r
-{STRVAR_1 3, 0, 0} received {COLOR 2}CHIMCHAR{COLOR 0} and {COLOR 2}PIPLUP{COLOR 0}\nfrom Cynthia!
-{STRVAR_1 3, 0, 0} received {COLOR 2}TURTWIG{COLOR 0} and {COLOR 2}PIPLUP{COLOR 0}\nfrom Cynthia!
-{STRVAR_1 3, 0, 0} received {COLOR 2}TURTWIG{COLOR 0} and {COLOR 2}CHIMCHAR{COLOR 0}\nfrom Cynthia!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Chimchar{COLOR 0} and {COLOR 2}Piplup{COLOR 0}\nfrom Cynthia!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Turtwig{COLOR 0} and {COLOR 2}Piplup{COLOR 0}\nfrom Cynthia!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Turtwig{COLOR 0} and {COLOR 2}Chimchar{COLOR 0}\nfrom Cynthia!
 Cynthia: You’ll do well with them,\nI’m quite sure of that.
 Your party’s too full, though. If you\ncan have at least two free slots, that\fwould be great.
 Hey, mister!\nIsn’t archaeology amazing?

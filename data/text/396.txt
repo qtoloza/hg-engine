@@ -1,7 +1,7 @@
 Rt. 39\nSouth to Olivine City
 Moomoo Farm\nEnjoy Our Fresh and Tasty Milk
 Trainer Tips\rUse Headbutt on trees to shake\nPokémon out.\rDifferent kinds of Pokémon drop out\nof trees.\rUse Headbutt on any tree you see!
-MILTANK: Mooo!
+Miltank: Mooo!
 Baoba: ...Ohh!\nWhat you are holding is...\fwhat they call...a Pokédex!\fHaven’t seen one of those in ages.\rMy name is Baoba!\rI used to run a Safari Zone in\nFuchsia City, but it was becoming\fout of date with new entertainment\foptions coming out.\rI decided to go overseas to learn\nthe newest technology and open a\fstate-of-the-art Safari Zone\fin Cianwood.\rIt may be more than a coincidence\nthat we are chatting.\rWhy don’t we register each other’s\nnumbers in the Pokégear?\rI can give you a call once the Safari\nZone is open before I call anyone else!\r
 Do you want to register? {YESNO 0}
 That’s the way!\r
@@ -15,11 +15,11 @@ Lt. Surge: That’s OK...\rLet me know if you change your mind.
 Your Photo Album is full.\rAccess your PC to delete some pictures\nbefore you come back.
 Left step, right step, hop twice...\nNo, that’s not it!\rMove to the left, move to the right,\ncriss-cross...\rNo! That’s wrong too!\r
 Gah! You scared me.\rYou heard me trying to form dance\nmoves, huh?\rI could really do with inspiration...\r
-I bet if I were to see the graceful\ndancing of a {COLOR 2}BELLOSSOM{COLOR 0}, I’d know\fexactly what to do!
-Oh, wow! That’s a BELLOSSOM behind\nyou, isn’t it?\rCan you please ask it to\ndance for me? I’d appreciate it! {YESNO 0}
+I bet if I were to see the graceful\ndancing of a {COLOR 2}Bellossom{COLOR 0}, I’d know\fexactly what to do!
+Oh, wow! That’s a Bellossom behind\nyou, isn’t it?\rCan you please ask it to\ndance for me? I’d appreciate it! {YESNO 0}
 You won’t?\r...\rI was really hoping you would...
 Yes! Thank you so much!\r
-That did the trick! I definitely feel\na lot more inspired now. I can’t thank\fyou enough!\rHere, this TM should be useful\nfor your BELLOSSOM!\r
+That did the trick! I definitely feel\na lot more inspired now. I can’t thank\fyou enough!\rHere, this TM should be useful\nfor your Bellossom!\r
 Oh!
 While I was walking around here,\nI found this weird cuboid object on\fthe ground.\rI don’t know what it is, but it\nfeels somehow valuable.\rI’d like you to have it!\r
 Thank you for everything.\nBye-bye!

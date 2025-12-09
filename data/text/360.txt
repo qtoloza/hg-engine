@@ -1,5 +1,5 @@
 Pokémon League\nVictory Road Entrance
-It seems that CELEBI has made you\ntravel through time...\fto the past!\r
+It seems that Celebi has made you\ntravel through time...\fto the past!\r
 {STRVAR_1 3, 0, 0}: You told me...\nyou were the number one in the world!\rAre you gonna quit?\rWhat are you going to do now?\r
 {STRVAR_1 3, 0, 0}: What aspect of you was\nnumber one?\rGathering so many only to be defeated\nby a mere child!\r
 {STRVAR_1 3, 0, 0}: I don’t understand you!\rYou don’t make any sense!\r
@@ -15,11 +15,11 @@ Ethan: Ilex Forest has disappeared!\r...That’s not it.\nIt’s more like we ha
 Lyra: Ilex Forest has disappeared!\r...That’s not it.\nIt’s more like we have been\ftransported somewhere else...?\r
 {STRVAR_1 3, 0, 0}, something is strange!\rI heard the radio mentioning\nthe date from three years ago!\r
 {STRVAR_1 3, 0, 0}, something is strange!\rI heard the radio mentioning\nthe date from three years ago!\r
-Is that...am I looking at...\nCELEBI?\rThat explains it!\nCELEBI must have caused all this!\rMy grandpa once told me that\nCELEBI can travel through time using\fits mystic power called {COLOR 1}Time Travel{COLOR 0}!\rCELEBI must have taken us back in time!\nLiterally!\r
-Is that...am I looking at...\nCELEBI?\rThat explains it!\nCELEBI must have caused all this!\rMy grandpa once told me that\nCELEBI can travel through time using\fits mystic power called {COLOR 1}Time Travel{COLOR 0}!\rCELEBI must have taken us back in time!\nLiterally!\r
+Is that...am I looking at...\nCelebi?\rThat explains it!\nCelebi must have caused all this!\rMy grandpa once told me that\nCelebi can travel through time using\fits mystic power called {COLOR 1}Time Travel{COLOR 0}!\rCelebi must have taken us back in time!\nLiterally!\r
+Is that...am I looking at...\nCelebi?\rThat explains it!\nCelebi must have caused all this!\rMy grandpa once told me that\nCelebi can travel through time using\fits mystic power called {COLOR 1}Time Travel{COLOR 0}!\rCelebi must have taken us back in time!\nLiterally!\r
 {STRVAR_1 3, 0, 0}, there is someone else\nhere besides us! Let’s go find out who!\r
 {STRVAR_1 3, 0, 0}, there is someone else\nhere besides us! Let’s go find out who!\r
 Ethan: Who does he think he is?\nThat was unnecessary!\rBut what were they talking about?\nThe revival of {COLOR 1}Team Rocket{COLOR 0}...?\rThey say that Team Rocket was\nremoved from the Kanto region\fby a child three years ago.\rSo this really is three years ago!\r
 Lyra: Who does he think he is?\nThat was unnecessary!\rBut what were they talking about?\nThe revival of {COLOR 1}Team Rocket{COLOR 0}...?\rThey say that Team Rocket was\nremoved from the Kanto region\fby a child three years ago.\rSo this really is three years ago!\r
-Oh no! It’s happening again...!\rIt’s CELEBI’s {COLOR 1}Time Travel{COLOR 0}!\r
-Oh no! It’s happening again...!\rIt’s CELEBI’s {COLOR 1}Time Travel{COLOR 0}!\r
+Oh no! It’s happening again...!\rIt’s Celebi’s {COLOR 1}Time Travel{COLOR 0}!\r
+Oh no! It’s happening again...!\rIt’s Celebi’s {COLOR 1}Time Travel{COLOR 0}!\r
