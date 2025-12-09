@@ -30,6 +30,10 @@
 // i.e. defining this as "5", "7", or "8" would use a scaled formula, whereas "6" and others would use the default formula.  There is a multiplier of 255 / 390 to not artificially inflate the experience given as well with higher base experience.
 #define EXPERIENCE_FORMULA_GEN GEN_LATEST
 
+// EXP_MULTIPLIER is a percentage multiplier for experience gained
+// 100 = normal (1x), 200 = double (2x), 50 = half (0.5x), etc.
+#define EXP_MULTIPLIER 100
+
 // HIDDEN_ABILITIES defines whether or not Pokémon with their hidden ability bit set will receive their hidden abilities when being generated/changing form in battle.
 // commenting this line out essentially disables hidden abilities to maintain default behavior, while leaving this as-is will introduce hidden abilities and all of their handling.
 // just need to set the HIDDEN_ABILITIES_FLAG from the save and then every mon should be generated with its hidden ability until the flag is cleared from another script

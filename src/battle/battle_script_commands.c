@@ -1467,6 +1467,8 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
                 totalexp /= bottom;
             }
 
+            totalexp = (totalexp * EXP_MULTIPLIER) / 100;
+
             //debug_printf("[Task_DistributeExp_Extend] L = %d, Lp = %d, b = %d, top = %d, bottom = %d, exp = %d\n", level, Lp, base, top, bottom, totalexp);
 
             if (monCountFromItem)
@@ -1538,6 +1540,7 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
         // multiply by 255/390 (map audino to 255) to not get massively inflated experience rates
         totalexp = 255 * GetSpeciesBaseExp(sp->battlemon[sp->fainting_client].species, sp->battlemon[sp->fainting_client].form_no) / 390;//PokePersonalParaGet(sp->battlemon[sp->fainting_client].species, PERSONAL_EXP_YIELD);
         totalexp = (totalexp * sp->battlemon[sp->fainting_client].level) / 7;
+        totalexp = (totalexp * EXP_MULTIPLIER) / 100;
         if (monCountFromItem)
         {
             sp->obtained_exp = (totalexp / 2) / monCount;
