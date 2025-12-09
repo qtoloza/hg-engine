@@ -146,22 +146,22 @@ _01F0:
 
 _0209:
 	npc_msg 16
-	giveitem_no_check ITEM_WORKS_KEY, 1
+	giveitem_no_check ITEM_AUBADE_ORB, 1
 	goto _0276
 
 _0222:
 	npc_msg 16
-	giveitem_no_check ITEM_STICKER_BAG, 1
+	giveitem_no_check ITEM_SERENADE_ORB, 1
 	goto _0276
 
 _023B:
 	npc_msg 16
-	giveitem_no_check ITEM_GUIDEBOOK, 1
+	giveitem_no_check ITEM_LEAF_STONE, 1
 	goto _0276
 
 _0254:
 	npc_msg 16
-	giveitem_no_check ITEM_OLD_CHARM, 1
+	giveitem_no_check ITEM_ICE_STONE, 1
 	goto _0276
 
 _026D:
