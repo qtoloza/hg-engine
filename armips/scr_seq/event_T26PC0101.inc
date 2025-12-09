@@ -6,6 +6,8 @@
 .equ _EV_scr_seq_T26PC0101_002, 2
 .equ _EV_scr_seq_T26PC0101_003, 3
 .equ _EV_scr_seq_T26PC0101_004, 4
+.equ _EV_scr_seq_T26PC0101_005, 5
+.equ _EV_scr_seq_T26PC0101_006, 6
 
 .equ obj_T26PC0101_pcwoman1, 0
 .equ obj_T26PC0101_pcwoman2, 1
@@ -15,5 +17,6 @@
 .equ obj_T26PC0101_fishing_2, 5
 .equ obj_T26PC0101_gswoman1, 6
 .equ obj_T26PC0101_gswoman2, 7
+.equ obj_T26PC0101_pcwoman3, 8
 
 .endif //SCR_SEQ_T26PC0101_H_

@@ -247,6 +247,23 @@
       "x": 38,
       "z": 75,
       "y": 0
+    },
+    {
+      "id": "obj_EVERYWHERE_monstarball_10",
+      "spriteId": "SPRITE_MONSTARBALL",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16254,
+      "scriptId": "std_itemball_d03r0103_dusk_stone",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 54,
+      "z": 68,
+      "y": 0
     }
   ],
   "warps": [

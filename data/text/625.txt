@@ -1,3 +1,14 @@
-I heard that a red GYARADOS appeared\nat the Lake of Rage.\rThat’s odd, since even ordinary\nGYARADOS are rare in that lake...
-My top radio show?\nI’d say Pokémon Music.
-I’ve been hearing laughter on\nthe radio...\fIt’s creepy.
+Riley: It’s good to see you again,\n{STRVAR_1 3, 0, 0}.\rNow that you’re here, I can finally\ngive you that reward I promised\ffor helping us to defeat Team Rocket!\r
+Oh, your party is full. I can’t\ngive you my gift in that case...
+ {STRVAR_1 3, 0, 0} received an Egg!
+Riley: Within due course, that egg\nwill hatch into a {COLOR 2}RIOLU{COLOR 0}.\rWhen it does, I want you to\nshow it around the world!\rI have no doubt that’s\nin your capability, {STRVAR_1 3, 0, 0}!
+Riley: I hope RIOLU is doing well with\nyou. We should have a battle sometime\fin the future, wouldn’t you say?
+Buck: Hey, {STRVAR_1 3, 0, 0}! How’s it going?\nWe should totally have a smoking\fhot battle sometime!
+Riley: Hello, {STRVAR_1 3, 0, 0}. Has that RIOLU\nbeen happy with you? If it has, it’s\fprobably evolved into LUCARIO by now!\rAnyway, judging by the look that’s\ncurrently on your face...\rAre you looking to battle? {YESNO 0}
+We’re going to pull out all the stops!\r
+Intelligence is the key to\nbeing a truly skilled Trainer.\rWith the right knowledge, your\nchances of victory are much improved!
+What’s that? You don’t want to battle?\nPerhaps I sensed your aura wrong...
+Buck: Yeah! {STRVAR_1 3, 0, 0}!\nI’ve been hoping you’d show up!\rHow about we have that\nsmoking hot battle I mentioned! {YESNO 0}
+I’m telling you, I’m seriously tough!\r...\rAct surprised!\r
+Whew, too much!\nI better get back to training!\rYou know, {STRVAR_1 3, 0, 0}, I bet a battle\nbetween you and my brother would\fbe so awesome to watch! 
+Huh, what? You said no?\rThat takes the wind right\noutta my sails...

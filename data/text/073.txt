@@ -23,3 +23,14 @@ Ruins of Alph\nExploration Year 10
 Mystery Pokémon\nName: UNOWN\fA total of 26 kinds found.
 Ruins of Alph Research Report\rI dedicate this report to the\nResearch Center’s founder,\fProfessor Silktree...
 There are many academic books.\r“Mysteries of the Ancients”\n“Code-Breaking Guidebook”\f“Weathering Ruins”
+They say the Ruins of Alph are\nfilled with many different UNOWN.\rSo why is it that none of\nthem are to be found?
+Oh, you’re the person who\nreleased the UNOWN, right?\rI don’t know how many different\nUNOWN there are, but for every seven\fdifferent forms you catch, come and\fsee me. I’ll give you something nice!
+Oh, you’ve collected seven UNOWN!\rPlease, take this!\r
+This is a TM containing Hidden Power.\nIts type and power are unpredictable!\rYou’ve probably seen the UNOWN\nin the ruins use it.
+Ah, you’ve collected fourteen UNOWN!\rPlease, take this!\r
+This is an item that can give a boost\nto our systems, but we don’t really\fneed it!\rWho knows, perhaps there’s a\nPokémon who can use it somehow.
+Wow, you’ve collected twenty-one\nUNOWN!\rPlease, take this!\r
+A Master Ball will let you catch any\none Pokémon without fail. It’s a very\frare item that was donated to us, but\fwe don’t really need it!\rIt’s the least I can give you\nafter all your hard work.
+Incredible, you’ve collected\ntwenty-eight UNOWN!\rI think with that, our UNOWN research\nis complete. You’ve been a great help!\rPlease, take this!\r
+A Lucky Egg is an item that is very hard\nto come across, but has the ability\fto multiply the experience a Pokémon\fholding it receives!
+Thank you so much for your help\nwith our research!

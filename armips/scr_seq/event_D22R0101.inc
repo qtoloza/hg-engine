@@ -28,6 +28,9 @@
 .equ _EV_scr_seq_D22R0101_024, 24
 .equ _EV_scr_seq_D22R0101_025, 25
 .equ _EV_scr_seq_D22R0101_026, 26
+.equ _EV_scr_seq_D22R0101_027, 27
+.equ _EV_scr_seq_D22R0101_028, 28
+.equ _EV_scr_seq_D22R0101_029, 29
 
 .equ obj_D22R0101_monstarball, 0
 .equ obj_D22R0101_monstarball_2, 1
@@ -58,5 +61,7 @@
 .equ obj_D22R0101_gsmiddleman1_3, 26
 .equ obj_D22R0101_gsmiddleman1_4, 27
 .equ obj_D22R0101_gsleader2, 28
+.equ obj_D22R0101_follower_mon_shaymin, 29
+.equ obj_D22R0101_gswoman2_2, 30
 
 .endif //SCR_SEQ_D22R0101_H_

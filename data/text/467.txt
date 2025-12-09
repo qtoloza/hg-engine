@@ -17,3 +17,6 @@ Trendsetter of the Bicycle Boom\rCerulean Bike Main Shop
 There’s a notice here...\rStamp out thievery and make the city\na friendlier, more cheerful place!\fCerulean Police
 Rt. 24 Ahead\nEast to Cerulean Cape
 It’s locked...
+MEWTWO, caught?
+Yes
+No

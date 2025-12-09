@@ -1,2 +1,20 @@
-Once while I was battling, my Pokémon\ncouldn’t use any moves.\rThe Power Points, or PP, of its\nmoves were all gone.
-Sometimes, a healthy Pokémon\nmay be unable to use its moves.\rIf that happens, heal it at a\nPokémon Center or use an item.
+Cheryl: Oh, hello, {STRVAR_1 3, 0, 0}!\nIt’s nice to see you again when\fwe aren’t in a time of crisis.\rPerhaps you’d be interested in a\nbit of trading?\rI’ve got a CHANSEY I’d be willing\nto trade with you.\rHave you got a MUNCHLAX? {YESNO 0}
+Thank you for trading with me.\nI always wanted to try raising\fa SNORLAX.
+Hmm? I don’t think that’s a\nMUNCHLAX, {STRVAR_1 3, 0, 0}...
+You don’t want to trade?\nWell, that’s a shame.
+It amazes me just how much MUNCHLAX\neats. It’s expensive, but I wouldn’t\fgive it up for the world!\rBut enough about my end,\nhow is CHANSEY doing?
+Mira: Hey, {STRVAR_1 3, 0, 0}! We should have\na battle when we get stronger!
+Marley: Oh... {STRVAR_1 3, 0, 0}...\nIt’s good to see you are well...\rWe should battle at some point...\nI’d like that...\rJust a bit...
+Mira: Ohh! Mira has been waiting\nfor you to show up!\rMira wants to know if\nyou’d like to battle! {YESNO 0}
+You don’t want to?\nMira is disappointed...
+Mira found that fun. Mira wonders if\nshe can get stronger...
+Mira will show {STRVAR_1 3, 0, 0} how strong\nshe has gotten!\r
+Marley: Hello...\nWe’ve both grown quite strong...\rMight you...\nWish to battle me? {YESNO 0}
+Oh... You can be that mean?
+Excellent... Let’s get started...\r
+That was enjoyable... I like battling with you...\rJust a tiny bit.
+Cheryl: I hope my CHANSEY is\ndoing well with you, {STRVAR_1 3, 0, 0}!\rIn the meanwhile, would you\nlike to have a battle? {YESNO 0}
+I guess Pokémon aren’t always\nable to fight, right?
+Giggle... This should be fun!\rBut let me warn you, my Pokémon\ncan be quite rambunctious!\r
+Being a Trainer isn’t easy. The more\nyou battle, the more you discover.\rBut being a Trainer is very rewarding,\nwouldn’t you say?
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

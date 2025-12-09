@@ -11,6 +11,8 @@
 .equ _EV_scr_seq_D11R0106_007, 7
 .equ _EV_scr_seq_D11R0106_008, 8
 .equ _EV_scr_seq_D11R0106_009, 9
+.equ _EV_scr_seq_D11R0106_010, 10
+.equ _EV_scr_seq_D11R0106_011, 11
 
 .equ obj_D11R0106_gsleader15, 0
 .equ obj_D11R0106_sunglasses, 1
@@ -20,5 +22,6 @@
 .equ obj_D11R0106_gsassistantm, 5
 .equ obj_D11R0106_gsassistantm_2, 6
 .equ obj_D11R0106_gsassistantm_3, 7
+.equ obj_D11R0106_follower_mon_static_moltres, 8
 
 .endif //SCR_SEQ_D11R0106_H_

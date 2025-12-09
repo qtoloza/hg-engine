@@ -57,73 +57,24 @@ scrdef scr_seq_T06GYM0101_025
 scrdef_end
 
 scr_seq_T06GYM0101_021:
-	goto_if_set FLAG_UNK_31A, _0079
+	goto_if_set FLAG_UNK_31A, _0271
 	clearflag FLAG_SYS_SOLVED_LT_SURGE_GYM
-_0079:
 	vermilion_gym_init
 	get_phone_book_rematch PHONE_CONTACT_LT__SURGE, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 0
-	goto_if_ne _014A
-	goto_if_unset FLAG_CAUGHT_ZAPDOS, _0144
+	goto_if_ne _02BF
+	goto_if_unset FLAG_CAUGHT_ZAPDOS, _02C5
 	check_registered_phone_number PHONE_CONTACT_LT__SURGE, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 1
-	goto_if_eq _00FB
+	goto_if_eq _02CB
 	scrcmd_522 VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 9
-	goto_if_ne _00C7
+	goto_if_ne _02DC
 	setflag FLAG_UNK_2F0
-	goto _00F9
-
-_00C7:
-	compare VAR_TEMP_x4000, 10
-	goto_if_ne _00DE
-	setflag FLAG_UNK_2F0
-	goto _00F9
-
-_00DE:
-	compare VAR_TEMP_x4000, 11
-	goto_if_ne _00F5
-	setflag FLAG_UNK_2F0
-	goto _00F9
-
-_00F5:
-	clearflag FLAG_UNK_2F0
-_00F9:
-	end
-
-_00FB:
-	goto_if_set FLAG_TRADE_LT_SURGE_PIKACHU, _010C
-	setflag FLAG_UNK_2F0
-	end
-
-_010C:
-	get_weekday VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 5
-	goto_if_ne _0127
-	setflag FLAG_UNK_2F0
-	goto _0142
-
-_0127:
-	compare VAR_TEMP_x4000, 6
-	goto_if_ne _013E
-	setflag FLAG_UNK_2F0
-	goto _0142
-
-_013E:
-	clearflag FLAG_UNK_2F0
-_0142:
-	end
-
-_0144:
-	clearflag FLAG_UNK_2F0
-	end
-
-_014A:
-	setflag FLAG_UNK_2F0
-	end
+	goto _02F3
 
 scr_seq_T06GYM0101_022:
-	goto_if_set FLAG_UNK_31A, _0175
+	goto_if_set FLAG_UNK_31A, _02F5
 	make_object_visible obj_T06GYM0101_stop
 	make_object_visible obj_T06GYM0101_stop_2
 	make_object_visible obj_T06GYM0101_stop_3
@@ -132,138 +83,65 @@ scr_seq_T06GYM0101_022:
 	make_object_visible obj_T06GYM0101_stop_6
 	end
 
-_0175:
-	end
-
 scr_seq_T06GYM0101_000:
 	vermilion_gym_can_check 0, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_001:
 	vermilion_gym_can_check 1, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_002:
 	vermilion_gym_can_check 2, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_003:
 	vermilion_gym_can_check 3, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_004:
 	vermilion_gym_can_check 4, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_005:
 	vermilion_gym_can_check 5, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_006:
 	vermilion_gym_can_check 6, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_007:
 	vermilion_gym_can_check 7, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_008:
 	vermilion_gym_can_check 8, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_009:
 	vermilion_gym_can_check 9, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_010:
 	vermilion_gym_can_check 10, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_011:
 	vermilion_gym_can_check 11, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_012:
 	vermilion_gym_can_check 12, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_013:
 	vermilion_gym_can_check 13, VAR_SPECIAL_RESULT
-	goto _023A
+	goto _02F7
 
 scr_seq_T06GYM0101_014:
 	vermilion_gym_can_check 14, VAR_SPECIAL_RESULT
-	goto _023A
-
-_023A:
-	compare VAR_SPECIAL_RESULT, 4
-	goto_if_eq _027D
-	compare VAR_SPECIAL_RESULT, 2
-	goto_if_eq _02AA
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _028E
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_eq _02CE
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _02E5
-	end
-
-_027D:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	npc_msg 8
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_028E:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	npc_msg 9
-	wait_button_or_walk_away
-	closemsg
-	vermilion_gym_lock_action 0, 0
-	npc_msg 11
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_02AA:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	npc_msg 9
-	wait_button_or_walk_away
-	closemsg
-	vermilion_gym_lock_action 1, 0
-	setflag FLAG_SYS_SOLVED_LT_SURGE_GYM
-	stop_se SEQ_SE_GS_DENGEKIBARIA
-	npc_msg 12
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_02CE:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	npc_msg 10
-	wait_button_or_walk_away
-	closemsg
-	vermilion_gym_lock_action 0, 1
-	resample_vermilion_gym_cans
-	releaseall
-	end
-
-_02E5:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	npc_msg 8
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto _02F7
 
 scr_seq_T06GYM0101_015:
 	end
@@ -289,13 +167,13 @@ scr_seq_T06GYM0101_023:
 	faceplayer
 	check_badge BADGE_THUNDER, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _03C7
+	goto_if_eq _033A
 	npc_msg 0
 	closemsg
 	trainer_battle TRAINER_LEADER_LT_SURGE_LT__SURGE, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _03DD
+	goto_if_eq _0350
 	give_badge BADGE_THUNDER
 	addvar VAR_UNK_4135, 1
 	add_special_game_stat 22
@@ -315,36 +193,7 @@ scr_seq_T06GYM0101_023:
 	play_fanfare SEQ_ME_BADGE
 	wait_fanfare
 	npc_msg 3
-	goto _0389
-
-_0389:
-	goto_if_no_item_space ITEM_TM034, 1, _03BD
-	callstd std_give_item_verbose
-	setflag FLAG_GOT_TM34_FROM_LT_SURGE
-	npc_msg 4
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_03BD:
-	callstd std_bag_is_full
-	closemsg
-	releaseall
-	end
-
-_03C7:
-	goto_if_unset FLAG_GOT_TM34_FROM_LT_SURGE, _0389
-	npc_msg 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_03DD:
-	white_out
-	releaseall
-	end
+	goto _0356
 
 scr_seq_T06GYM0101_024:
 	play_se SEQ_SE_DP_SELECT
@@ -352,15 +201,8 @@ scr_seq_T06GYM0101_024:
 	faceplayer
 	check_badge BADGE_THUNDER, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0409
+	goto_if_eq _03A0
 	npc_msg 6
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_0409:
-	npc_msg 7
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -373,16 +215,204 @@ scr_seq_T06GYM0101_025:
 	check_badge BADGE_THUNDER, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _043B
+	goto_if_ne _03AB
 	npc_msg 13
-	goto _043E
+	goto _03B6
 
-_043B:
-	npc_msg 14
-_043E:
+_0271:
+	vermilion_gym_init
+	get_phone_book_rematch PHONE_CONTACT_LT__SURGE, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 0
+	goto_if_ne _02BF
+	goto_if_unset FLAG_CAUGHT_ZAPDOS, _02C5
+	check_registered_phone_number PHONE_CONTACT_LT__SURGE, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 1
+	goto_if_eq _02CB
+	scrcmd_522 VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 9
+	goto_if_ne _02DC
+	setflag FLAG_UNK_2F0
+	goto _02F3
+
+_02BF:
+	setflag FLAG_UNK_2F0
+	end
+
+_02C5:
+	clearflag FLAG_UNK_2F0
+	end
+
+_02CB:
+	goto_if_set FLAG_TRADE_LT_SURGE_PIKACHU, _03BE
+	setflag FLAG_UNK_2F0
+	end
+
+_02DC:
+	compare VAR_TEMP_x4000, 10
+	goto_if_ne _03D9
+	setflag FLAG_UNK_2F0
+	goto _02F3
+
+_02F3:
+	end
+
+_02F5:
+	end
+
+_02F7:
+	compare VAR_SPECIAL_RESULT, 4
+	goto_if_eq _03F0
+	compare VAR_SPECIAL_RESULT, 2
+	goto_if_eq _0401
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0425
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_eq _0441
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0458
+	end
+
+_033A:
+	goto_if_unset FLAG_GOT_TM34_FROM_LT_SURGE, _0356
+	npc_msg 5
 	wait_button_or_walk_away
 	closemsg
 	releaseall
+	end
+
+_0350:
+	white_out
+	releaseall
+	end
+
+_0356:
+	goto_if_no_item_space ITEM_TM034, 1, _0469
+	callstd std_give_item_verbose
+	setflag FLAG_GOT_TM34_FROM_LT_SURGE
+	npc_msg 4
+	npc_msg 15
+	buffer_players_name 0
+	buffer_players_name 0
+	npc_msg 16
+	play_fanfare SEQ_ME_POKEGEAR_REGIST
+	wait_fanfare
+	register_gear_number PHONE_CONTACT_LT__SURGE
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03A0:
+	npc_msg 7
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03AB:
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03B6:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03BE:
+	get_weekday VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 5
+	goto_if_ne _0473
+	setflag FLAG_UNK_2F0
+	goto _048A
+
+_03D9:
+	compare VAR_TEMP_x4000, 11
+	goto_if_ne _048C
+	setflag FLAG_UNK_2F0
+	goto _02F3
+
+_03F0:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 8
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0401:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 9
+	wait_button_or_walk_away
+	closemsg
+	vermilion_gym_lock_action 1, 0
+	setflag FLAG_SYS_SOLVED_LT_SURGE_GYM
+	stop_se SEQ_SE_GS_DENGEKIBARIA
+	npc_msg 12
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0425:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 9
+	wait_button_or_walk_away
+	closemsg
+	vermilion_gym_lock_action 0, 0
+	npc_msg 11
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0441:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 10
+	wait_button_or_walk_away
+	closemsg
+	vermilion_gym_lock_action 0, 1
+	resample_vermilion_gym_cans
+	releaseall
+	end
+
+_0458:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 8
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0469:
+	callstd std_bag_is_full
+	closemsg
+	releaseall
+	end
+
+_0473:
+	compare VAR_TEMP_x4000, 6
+	goto_if_ne _0492
+	setflag FLAG_UNK_2F0
+	goto _048A
+
+_048A:
+	end
+
+_048C:
+	clearflag FLAG_UNK_2F0
+	end
+
+_0492:
+	clearflag FLAG_UNK_2F0
 	end
 	.align 4
 

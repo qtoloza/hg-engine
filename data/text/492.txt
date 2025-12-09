@@ -2,6 +2,8 @@ Erika: Hello...\nLovely weather, isn’t it?\rIt’s so pleasant...\nI’m afrai
 Erika: Oh!\nI concede defeat...\rYou are remarkably strong...\nI shall give you the Rainbow Badge...\r
 {STRVAR_1 3, 0, 0} received\nthe Rainbow Badge.
 Erika: That was a delightful match.\nI felt inspired.\rPlease, I wish you to have this TM19\nas a special token.\rIt is Giga Drain.\nIt is a wonderful move that drains\fhalf the damage it inflicts to heal\fyour Pokémon.\rIt is indeed a horrifying move.\r
-Erika: Losing leaves a\nbitter aftertaste...\rBut knowing that there are strong\nTrainers spurs me to do better...
+Erika: Losing leaves a\nbitter aftertaste...\rBut knowing that there are strong\nTrainers spurs me to do better...\rIncidentially, I’ve heard that they’re\nallowing entry into Saffron City, now.\r
 Celadon City Pokémon Gym
 Celadon City Pokémon Gym\rGym Leader: Erika\nCertified Trainer!\f{STRVAR_1 3, 0, 0}
+Erika: Ah... I should give you my\nnumber, too.\r
+{STRVAR_1 3, 0, 0} registered Erika\nin the Pokégear!

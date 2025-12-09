@@ -37,6 +37,7 @@ scrdef scr_seq_T28_005
 scrdef scr_seq_T28_006
 scrdef scr_seq_T28_007
 scrdef scr_seq_T28_008
+scrdef scr_seq_T28_009
 scrdef_end
 
 scr_seq_T28_005:
@@ -44,9 +45,8 @@ scr_seq_T28_005:
 	setflag FLAG_UNK_0C5
 	setflag FLAG_ROCKET_TAKEOVER_ACTIVE
 	compare VAR_UNK_40F8, 0
-	goto_if_ne _0047
+	goto_if_ne _01BB
 	setvar VAR_UNK_40F8, 2
-_0047:
 	setvar VAR_SPECIAL_x8004, 1
 	setvar VAR_SPECIAL_x8005, 2
 	setvar VAR_SPECIAL_x8006, 2
@@ -59,193 +59,46 @@ scr_seq_T28_000:
 	lockall
 	faceplayer
 	compare VAR_SCENE_ROCKET_TAKEOVER, 5
-	goto_if_eq _0117
-	goto_if_set FLAG_GOT_RAGECANDYBAR, _010C
+	goto_if_eq _01D9
+	goto_if_set FLAG_GOT_RAGECANDYBAR, _0214
 	npc_msg 0
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0101
-_009D:
+	goto_if_eq _021F
 	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 200
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _00EC
-	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _00F7
+	goto_if_eq _022A
+	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _0235
 	callstd std_give_item_verbose
 	submoneyimmediate 200
 	npc_msg 5
 	wait_button_or_walk_away
 	setflag FLAG_GOT_RAGECANDYBAR
-	goto _014C
-
-_00EC:
-	npc_msg 7
-	wait_button_or_walk_away
-	goto _014C
-
-_00F7:
-	callstd std_bag_is_full
-	goto _014C
-
-_0101:
-	npc_msg 9
-	wait_button_or_walk_away
-	goto _014C
-
-_010C:
-	npc_msg 1
-	wait_button_or_walk_away
-	goto _014C
-
-_0117:
-	goto_if_set FLAG_GOT_RAGECANDYBAR, _0147
-	npc_msg 3
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _009D
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0101
-_0147:
-	npc_msg 4
-	wait_button_or_walk_away
-_014C:
-	closemsg
-	releaseall
-	end
+	goto _023F
 
 scr_seq_T28_001:
 	scrcmd_609
 	lockall
-	apply_movement obj_T28_gsmiddleman1, _0278
+	apply_movement obj_T28_gsmiddleman1, _04C6
 	wait_movement
 	toggle_following_pokemon_movement 0
 	wait_following_pokemon_movement
 	following_pokemon_movement 56
 	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 176
-	goto_if_ne _0193
-	apply_movement obj_T28_gsmiddleman1, _0284
-	apply_movement obj_player, _0294
-	goto _01A3
+	goto_if_ne _0245
+	apply_movement obj_T28_gsmiddleman1, _04D0
+	apply_movement obj_player, _04DE
+	goto _02FB
 
-_0193:
-	apply_movement obj_T28_gsmiddleman1, _02A4
-	apply_movement obj_player, _02B4
-_01A3:
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	goto_if_set FLAG_GOT_RAGECANDYBAR, _026D
-	npc_msg 0
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01DF
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0257
-_01DF:
-	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 300
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0262
-	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _00F7
-	callstd std_give_item_verbose
-	submoneyimmediate 300
-	npc_msg 6
-	closemsg
-	setflag FLAG_GOT_RAGECANDYBAR
-_0228:
-	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 176
-	goto_if_ne _0249
-	apply_movement obj_T28_gsmiddleman1, _02C4
-	goto _0251
-
-_0249:
-	apply_movement obj_T28_gsmiddleman1, _02D0
-_0251:
-	wait_movement
-	releaseall
-	end
-
-_0257:
-	npc_msg 10
-	closemsg
-	goto _0228
-
-_0262:
-	npc_msg 8
-	closemsg
-	goto _0228
-
-_026D:
-	npc_msg 2
-	closemsg
-	goto _0228
-
-	.align 4
-_0278:
-
-	step 1, 1
-	step 75, 1
-	step_end
-	.align 4
-_0284:
-
-	step 19, 1
-	step 17, 1
-	step 18, 1
-	step_end
-	.align 4
-_0294:
-
-	step 62, 2
-	step 18, 1
-	step 3, 1
-	step_end
-	.align 4
-_02A4:
-
-	step 19, 1
-	step 17, 2
-	step 18, 1
-	step_end
-	.align 4
-_02B4:
-
-	step 62, 3
-	step 18, 1
-	step 3, 1
-	step_end
-	.align 4
-_02C4:
-
-	step 12, 1
-	step 1, 1
-	step_end
-	.align 4
-_02D0:
-
-	step 12, 2
-	step 1, 1
-	step_end
 scr_seq_T28_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_GOT_RED_SCALE, _02FA
+	goto_if_set FLAG_GOT_RED_SCALE, _03A1
 	npc_msg 14
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_02FA:
-	npc_msg 15
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -282,6 +135,240 @@ scr_seq_T28_008:
 	trainer_tips 19, VAR_SPECIAL_RESULT
 	callstd std_signpost
 	end
+
+scr_seq_T28_009:
+	buffer_players_name 0
+	end
+
+_01BB:
+	setvar VAR_SPECIAL_x8004, 1
+	setvar VAR_SPECIAL_x8005, 2
+	setvar VAR_SPECIAL_x8006, 2
+	callstd std_phone_call
+	setvar VAR_MIDGAME_BADGES, 5
+	end
+
+_01D9:
+	goto_if_set FLAG_GOT_RAGECANDYBAR, _03AC
+	npc_msg 3
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _03B7
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _021F
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0214:
+	npc_msg 1
+	wait_button_or_walk_away
+	goto _023F
+
+_021F:
+	npc_msg 9
+	wait_button_or_walk_away
+	goto _023F
+
+_022A:
+	npc_msg 7
+	wait_button_or_walk_away
+	goto _023F
+
+_0235:
+	callstd std_bag_is_full
+	goto _023F
+
+_023F:
+	closemsg
+	releaseall
+	end
+
+_0245:
+	apply_movement obj_T28_gsmiddleman1, _04EC
+	apply_movement obj_player, _04FA
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	goto_if_set FLAG_GOT_RAGECANDYBAR, _0406
+	npc_msg 0
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0411
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _047B
+	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 300
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0486
+	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _0235
+	callstd std_give_item_verbose
+	submoneyimmediate 300
+	npc_msg 6
+	closemsg
+	setflag FLAG_GOT_RAGECANDYBAR
+	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 176
+	goto_if_ne _0491
+	apply_movement obj_T28_gsmiddleman1, _0508
+	goto _049F
+
+_02FB:
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	goto_if_set FLAG_GOT_RAGECANDYBAR, _0406
+	npc_msg 0
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0411
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _047B
+	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 300
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0486
+	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _0235
+	callstd std_give_item_verbose
+	submoneyimmediate 300
+	npc_msg 6
+	closemsg
+	setflag FLAG_GOT_RAGECANDYBAR
+	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 176
+	goto_if_ne _0491
+	apply_movement obj_T28_gsmiddleman1, _0508
+	goto _049F
+
+_03A1:
+	npc_msg 15
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03AC:
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03B7:
+	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 200
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _022A
+	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _0235
+	callstd std_give_item_verbose
+	submoneyimmediate 200
+	npc_msg 5
+	wait_button_or_walk_away
+	setflag FLAG_GOT_RAGECANDYBAR
+	goto _023F
+
+_0406:
+	npc_msg 2
+	closemsg
+	goto _04A5
+
+_0411:
+	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 300
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0486
+	goto_if_no_item_space ITEM_RAGE_CANDY_BAR, 1, _0235
+	callstd std_give_item_verbose
+	submoneyimmediate 300
+	npc_msg 6
+	closemsg
+	setflag FLAG_GOT_RAGECANDYBAR
+	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 176
+	goto_if_ne _0491
+	apply_movement obj_T28_gsmiddleman1, _0508
+	goto _049F
+
+_047B:
+	npc_msg 10
+	closemsg
+	goto _04A5
+
+_0486:
+	npc_msg 8
+	closemsg
+	goto _04A5
+
+_0491:
+	apply_movement obj_T28_gsmiddleman1, _0512
+	wait_movement
+	releaseall
+	end
+
+_049F:
+	wait_movement
+	releaseall
+	end
+
+_04A5:
+	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 176
+	goto_if_ne _0491
+	apply_movement obj_T28_gsmiddleman1, _0508
+	goto _049F
+
+	.align 4
+_04C6:
+
+	step 1, 1
+	step 75, 1
+	step_end
+	.align 4
+_04D0:
+
+	step 19, 1
+	step 17, 1
+	step 18, 1
+	step_end
+	.align 4
+_04DE:
+
+	step 62, 2
+	step 18, 1
+	step 3, 1
+	step_end
+	.align 4
+_04EC:
+
+	step 19, 1
+	step 17, 2
+	step 18, 1
+	step_end
+	.align 4
+_04FA:
+
+	step 62, 3
+	step 18, 1
+	step 3, 1
+	step_end
+	.align 4
+_0508:
+
+	step 12, 1
+	step 1, 1
+	step_end
+	.align 4
+_0512:
+
+	step 12, 2
+	step 1, 1
+	step_end
 	.align 4
 
 

@@ -2,10 +2,12 @@ Pryce: Pokémon have many experiences\nin their lives, just like we do.\rI, too,
 Pryce: I am impressed by your prowess.\rWith your strong will, I know you\nwill overcome all life’s obstacles.\fYou are worthy of this Badge!\r
 {STRVAR_1 3, 0, 0} received\nthe Glacier Badge from Pryce!
 Pryce: That Badge will raise the Special\nstats of Pokémon.\rIt also lets your Pokémon use\nWhirlpool to get across\freal whirlpools.\rAnd this... This is a gift from me!\r
-Pryce: That TM contains Hail.\rIt summons a hailstorm that lasts for\nfive turns. The hailstorm damages\fall types except Ice.
+Pryce: That TM contains Hail.\rIt summons a hailstorm that lasts for\nfive turns. The hailstorm damages\fall types except Ice.\r
 Pryce: When the ice and snow melt,\nspring arrives.\rYou and your Pokémon will be together\nfor many years to come.\fCherish your time together!
 Pryce: It is you...\rSince you are here, why don’t we\ntake a picture together? {YESNO 0}
 Pryce: I have advice to give you before\nwe take the picture.\rBreathe in and relax first.\nThen slowly begin to smile.\fAre you ready?\r
 Pryce: Let’s see...\nDid we get a good one?
 Pryce: That’s OK, too.\nSuit yourself.
 Your Photo Album is full.\rAccess your PC to delete\nsome pictures.
+Pryce: Incidentally, that was a good\nbattle.\rIn hope that we might face each other\nagain, I’ll give you my number.\r...\r
+{STRVAR_1 3, 0, 0} registered Pryce\nin the Pokégear!

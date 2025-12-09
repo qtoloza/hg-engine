@@ -13,3 +13,13 @@ Lt. Surge: OK! OK!\rShow me a very good smile!\r
 Lt. Surge: Wow!\nThis turned out to be a really\fgood one!\rWe root for Route 39!
 Lt. Surge: That’s OK...\rLet me know if you change your mind.
 Your Photo Album is full.\rAccess your PC to delete some pictures\nbefore you come back.
+Left step, right step, hop twice...\nNo, that’s not it!\rMove to the left, move to the right,\ncriss-cross...\rNo! That’s wrong too!\r
+Gah! You scared me.\rYou heard me trying to form dance\nmoves, huh?\rI could really do with inspiration...\r
+I bet if I were to see the graceful\ndancing of a {COLOR 2}BELLOSSOM{COLOR 0}, I’d know\fexactly what to do!
+Oh, wow! That’s a BELLOSSOM behind\nyou, isn’t it?\rCan you please ask it to\ndance for me? I’d appreciate it! {YESNO 0}
+You won’t?\r...\rI was really hoping you would...
+Yes! Thank you so much!\r
+That did the trick! I definitely feel\na lot more inspired now. I can’t thank\fyou enough!\rHere, this TM should be useful\nfor your BELLOSSOM!\r
+Oh!
+While I was walking around here,\nI found this weird cuboid object on\fthe ground.\rI don’t know what it is, but it\nfeels somehow valuable.\rI’d like you to have it!\r
+Thank you for everything.\nBye-bye!

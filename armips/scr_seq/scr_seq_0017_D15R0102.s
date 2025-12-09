@@ -31,6 +31,7 @@
 scrdef scr_seq_D15R0102_000
 scrdef scr_seq_D15R0102_001
 scrdef scr_seq_D15R0102_002
+scrdef scr_seq_D15R0102_003
 scrdef_end
 
 scr_seq_D15R0102_000:
@@ -42,6 +43,15 @@ scr_seq_D15R0102_001:
 
 scr_seq_D15R0102_002:
 	simple_npc_msg 1
+	end
+
+scr_seq_D15R0102_003:
+	lockall
+	hide_person 3
+	setflag 16383
+	giveitem_no_check ITEM_TM070, 1
+	closemsg
+	releaseall
 	end
 	.align 4
 

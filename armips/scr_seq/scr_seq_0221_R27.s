@@ -36,11 +36,8 @@ scrdef scr_seq_R27_004
 scrdef_end
 
 scr_seq_R27_003:
-	goto_if_set FLAG_UNK_168, _0026
+	goto_if_set FLAG_UNK_168, _0099
 	scrcmd_804 1
-	end
-
-_0026:
 	end
 
 scr_seq_R27_000:
@@ -50,55 +47,16 @@ scr_seq_R27_000:
 scr_seq_R27_001:
 	scrcmd_609
 	lockall
-	apply_movement obj_R27_gsbigman, _00A8
+	apply_movement obj_R27_gsbigman, _00E4
 	wait_movement
 	npc_msg 0
 	closemsg
 	get_player_coords VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 402
-	goto_if_ne _006F
-	apply_movement obj_R27_gsbigman, _00C4
-	goto _0092
+	goto_if_ne _009B
+	apply_movement obj_R27_gsbigman, _00EA
+	goto _00B6
 
-_006F:
-	compare VAR_TEMP_x4001, 403
-	goto_if_ne _008A
-	apply_movement obj_R27_gsbigman, _00B0
-	goto _0092
-
-_008A:
-	apply_movement obj_R27_gsbigman, _00B8
-_0092:
-	wait_movement
-	npc_msg 1
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	setvar VAR_UNK_408A, 1
-	end
-
-	.align 4
-_00A8:
-
-	step 75, 1
-	step_end
-	.align 4
-_00B0:
-
-	step 14, 4
-	step_end
-	.align 4
-_00B8:
-
-	step 13, 1
-	step 14, 4
-	step_end
-	.align 4
-_00C4:
-
-	step 12, 1
-	step 14, 4
-	step_end
 scr_seq_R27_002:
 	scrcmd_055 2, 0
 	scrcmd_057 3
@@ -114,6 +72,57 @@ scr_seq_R27_004:
 	scrcmd_060 VAR_SPECIAL_RESULT
 	callstd std_signpost
 	end
+
+_0099:
+	end
+
+_009B:
+	compare VAR_TEMP_x4001, 403
+	goto_if_ne _00C9
+	apply_movement obj_R27_gsbigman, _00F4
+	goto _00B6
+
+_00B6:
+	wait_movement
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	setvar VAR_UNK_408A, 1
+	end
+
+_00C9:
+	apply_movement obj_R27_gsbigman, _00FA
+	wait_movement
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	setvar VAR_UNK_408A, 1
+	end
+
+	.align 4
+_00E4:
+
+	step 75, 1
+	step_end
+	.align 4
+_00EA:
+
+	step 12, 1
+	step 14, 4
+	step_end
+	.align 4
+_00F4:
+
+	step 14, 4
+	step_end
+	.align 4
+_00FA:
+
+	step 13, 1
+	step 14, 4
+	step_end
 	.align 4
 
 

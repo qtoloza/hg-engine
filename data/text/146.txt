@@ -32,3 +32,41 @@ This place does not seem to respond...
 It seems that only a single ARCEUS\ncan stand here...
 Would you like to give a nickname\nto the {STRVAR_1 0, 1, 0}? {YESNO 0}
 It seems it no longer responds\nto this ARCEUS...
+Kyouuuun!\r
+Kyauun.\r
+Kyuuun...\r
+Gugyugubah!\r
+Gagyagyaah!\r
+Giygogagohgwooh!\r
+The centre of the stage regulates\nthe events of the Mystri Stage...
+It detects that there are still\nPokémon on the stage.
+The stage acknowledges your Earth\nBadge, and declares you strong\fenough to challenge the rulers of\ftime, space and antimatter.
+A
+As a reward for being able to capture\nit, DIALGA rewards you with its special\fOrb.\r
+DIALGA retreated into time...
+PALKIA retreated into space...
+GIRATINA retreated into an\nalternate dimension...
+As a reward for being able to capture\nit, PALKIA rewards you with its special\fOrb.\r
+As a reward for being able to capture\nit, GIRATINA rewards you with its special\fOrb.\r
+AZELF vanished...
+MESPRIT vanished...
+UXIE vanished...
+The stage determines if {STRVAR_1 3, 0, 0}\nhas accomplished the requirements to\fchallenge the beginning and end of\fcreation...\r
+{STRVAR_1 3, 0, 0} was judged to {COLOR 1}not have the\nnecessary items{COLOR 0} to continue the test.
+The Egg produced gave out\na blinding white light...\r
+The otherworldly forces are\nsatisfied with {STRVAR_1 3, 0, 0}’s achievements!\rYou will have but {COLOR 1}one chance{COLOR 0} to\nchallenge the creator.\rIf you happen to have any Master Balls,\nyou may use them, though it would\fdestroy the challenge of the fight...\rDo you want to continue? {YESNO 0}
+ARCEUS: Dodogyuuun!\r
+After {STRVAR_1 3, 0, 0} failed to capture it,\nARCEUS left the Mystri Stage,\fnever to be seen by mankind again...
+After {STRVAR_1 3, 0, 0} captured ARCEUS,\nthe stage began to collapse.\r
+{STRVAR_1 3, 0, 0} hurried back to Cynthia, in\nan effort to escape the Sinjoh Ruins.\r
+{STRVAR_1 3, 0, 0} and Cynthia teleported back\nto Johto, as the ruins collapsed,\fnever again to be trespassed...\r
+Congratulations to you, {STRVAR_1 3, 0, 0}, for\ncompleting {COLOR 1}Pokémon Sacred Gold{COLOR 0} and\f{COLOR 2}Pokémon Storm Silver{COLOR 0}!
+This is, if you hadn’t already\nfigured it out, the {COLOR 1}bad ending{COLOR 0}.\rIf you don’t reset now and try to\ncapture ARCEUS, your playthrough will\fforever remain...\r
+...{COLOR 1}incomplete{COLOR 0}.
+{STRVAR_1 3, 0, 0} was judged to {COLOR 1}not have\nsufficiently proven himself{COLOR 0} to\fcontinue the test.
+DEBUG 1\r
+DEBUG 2\r
+DEBUG 3\r
+DEBUG 4\r
+DEBUG 5\r
+DEBUG 6\r

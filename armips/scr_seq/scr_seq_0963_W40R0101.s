@@ -31,99 +31,118 @@
 scrdef scr_seq_W40R0101_000
 scrdef scr_seq_W40R0101_001
 scrdef scr_seq_W40R0101_002
+scrdef scr_seq_W40R0101_003
 scrdef_end
 
 scr_seq_W40R0101_001:
 	compare VAR_UNK_40E5, 1
-	goto_if_ge _0036
-	goto_if_set FLAG_GAME_CLEAR, _0028
-	end
-
-_0028:
-	move_person_facing obj_W40R0101_gsmiddleman1, 3, 0, 3, DIR_NORTH
-	end
-
-_0036:
-	setvar VAR_UNK_40E5, 2
+	goto_if_ge _0088
+	goto_if_set FLAG_GOT_TM23_FROM_JASMINE, _0090
 	end
 
 scr_seq_W40R0101_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
-	goto_if_set FLAG_UNK_0FB, _00BE
-	goto_if_set FLAG_GAME_CLEAR, _00B1
+	goto_if_set FLAG_UNK_0FB, _009E
+	goto_if_set FLAG_GAME_CLEAR, _00A9
 	get_player_facing VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 3
-	goto_if_ne _0079
-	apply_movement obj_W40R0101_gsmiddleman1, _00E4
-	goto _009C
+	goto_if_ne _00B6
+	apply_movement obj_W40R0101_gsmiddleman1, _0116
+	goto _00D1
 
-_0079:
-	compare VAR_TEMP_x4000, 2
-	goto_if_ne _0094
-	apply_movement obj_W40R0101_gsmiddleman1, _00DC
-	goto _009C
+scr_seq_W40R0101_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_set FLAG_GAME_CLEAR, _00E6
+	npc_msg 3
+	goto _00F1
 
-_0094:
-	apply_movement obj_W40R0101_gsmiddleman1, _00D4
-_009C:
-	wait_movement
-	npc_msg 0
-	closemsg
-	apply_movement obj_W40R0101_gsmiddleman1, _00CC
-	wait_movement
-	releaseall
+scr_seq_W40R0101_003:
+	buffer_players_name 0
 	end
 
-_00B1:
-	npc_msg 1
-	closemsg
-	releaseall
-	setflag FLAG_UNK_0FB
+_0088:
+	setvar VAR_UNK_40E5, 2
 	end
 
-_00BE:
+_0090:
+	move_person_facing obj_W40R0101_gsmiddleman1, 3, 0, 3, DIR_NORTH
+	end
+
+_009E:
 	npc_msg 2
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-	.align 4
-_00CC:
+_00A9:
+	npc_msg 1
+	closemsg
+	releaseall
+	setflag FLAG_UNK_0FB
+	end
 
-	step 32, 1
-	step_end
-	.align 4
-_00D4:
+_00B6:
+	compare VAR_TEMP_x4000, 2
+	goto_if_ne _00F9
+	apply_movement obj_W40R0101_gsmiddleman1, _011C
+	goto _00D1
 
-	step 33, 1
-	step_end
-	.align 4
-_00DC:
+_00D1:
+	wait_movement
+	npc_msg 0
+	closemsg
+	apply_movement obj_W40R0101_gsmiddleman1, _0122
+	wait_movement
+	releaseall
+	end
 
-	step 35, 1
-	step_end
-	.align 4
-_00E4:
-
-	step 34, 1
-	step_end
-scr_seq_W40R0101_002:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	goto_if_set FLAG_GAME_CLEAR, _0108
-	npc_msg 3
-	goto _010B
-
-_0108:
+_00E6:
 	npc_msg 4
-_010B:
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
+
+_00F1:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_00F9:
+	apply_movement obj_W40R0101_gsmiddleman1, _0128
+	wait_movement
+	npc_msg 0
+	closemsg
+	apply_movement obj_W40R0101_gsmiddleman1, _0122
+	wait_movement
+	releaseall
+	end
+
+	.align 4
+_0116:
+
+	step 34, 1
+	step_end
+	.align 4
+_011C:
+
+	step 35, 1
+	step_end
+	.align 4
+_0122:
+
+	step 32, 1
+	step_end
+	.align 4
+_0128:
+
+	step 33, 1
+	step_end
 	.align 4
 
 

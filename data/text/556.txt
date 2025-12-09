@@ -26,3 +26,7 @@ I’ll give ya de Berry set D\nfor de Green Shard, yah.\r
 Ya already have many Berries\nof dis set.\rCome back when ya need more, yah.\r
 We care about the traditional buildings\naround here. That’s why even the\fPoké Mart and Pokémon Center are\fpainted a bit somberly to blend in.
 Did you know that Pokégear allows you\nto put marks and memos on its Map?\rI’d love to have one of those\nPokégears, but my mom won’t let me.
+Boss Pokémon have been unlocked in\nRoutes 29, 31 and 46!
+Falkner: {STRVAR_1 3, 0, 0}, I must say, I\nrather enjoyed our battle!\rI’d like to give you my phone number.\nIt might be useful in the future!\r
+{STRVAR_1 3, 0, 0} registered Falkner\nin the Pokégear!
+Falkner: See you around, and good luck\nwith your future Gym challenges!

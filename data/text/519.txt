@@ -20,3 +20,7 @@ Blaine: Noooo!
 Your Photo Album is full.\rAccess your PC to delete\nsome pictures.
 There is a notice here...\rThe Cinnabar Gym has relocated\nto Seafoam Islands.\f           Blaine
 Cinnabar Island\nThe Ravaged Town of the Past
+(This route appears treacherous...\nIt’s a good idea to turn back.)
+Gwogobo gwobobobo!\r
+HEATRAN retreated underground...
+MOLTRES flew off...

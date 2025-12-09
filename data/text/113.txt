@@ -1,8 +1,8 @@
 Lance: Are you all right?\rYour Pokémon are hurt and tired.\nHere, give them some of my medicine.\r
 Lance: {STRVAR_1 3, 0, 0}, let’s give our\nbest for Pokémon.\r
 Lance: {STRVAR_1 3, 0, 0}, let’s give our\nbest for Pokémon.\r
-Ariana: Hold it right there!
-Ariana: We can’t let a brat like you\ndo as you please forever.\rIt’ll hurt Team Rocket’s pride over and\nover again. Making it lessen, you see.\r...So, it’s time to finish you. However\nstrong you may be, if the two of us\ffight at the same time, you’ll have no\fchance of winning. Don’t you agree?\rHee hee hee! Sorry, baby. Now, get\nready to be thrashed.\r
+Ariana: Stop right there, pest!
+Ariana: We can’t let a brat like you\ndo as you please again!\rIt’ll hurt Team Rocket’s pride each and\nevery time. Making it lessen, you see.\r...So, it’s time to finish you. However\nstrong you may be, if the two of us\ffight at the same time, you’ll have no\fchance of winning. Don’t you agree?\rHee hee hee! Sorry, baby. Now, get\nready to be thrashed.\r
 Lance: Hold it!\rA two-on-one battle?\nThat is so unfair!\rTypical of Team Rocket to be so sneaky.\nAllow me to join the battle!\r
 Ariana: What? You had an accomplice?\nWhere is your sense of dignity?\rAs interim boss in place of Giovanni,\nI’ll show you how wrong it is to meddle\fwith Team Rocket!\r
 Tch, you really are strong.\nIt’s too bad.\rIf you were to join Team Rocket, you\ncould become an Executive.\r
@@ -22,7 +22,7 @@ Lance: That’s Whirlpool.\rTeach it to a Pokémon to get across wild\nwater. Bu
 The door’s closed...\r{STRVAR_1 3, 0, 0} entered the password.\rThe door opened!\r
 It’s the radio transmitter that’s\nsending the sinister signal.\rIt’s working at full capacity.
 The radio transmitter has finally\nstopped its evil broadcast.
-MURKROW: The password is...\fHail Giovanni.\r
-MURKROW: The password is...\fHail Giovanni.\r
-MURKROW: The password is...\fHail Giovanni.\r
-MURKROW screamed the password,\nmimicking the voice of Petrel.\r..................\rThe voice-recognition system unlocked\nthe door!\r
+CHATOT: The password is...\fHail Giovanni.\r
+CHATOT: The password is...\fHail Giovanni.\r
+CHATOT: The password is...\fHail Giovanni.\r
+CHATOT screamed the password,\nmimicking the voice of Petrel.\r..................\rThe voice-recognition system unlocked\nthe door!\r

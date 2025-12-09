@@ -25,3 +25,24 @@ Which kind of Trainer would you like\nto be? {YESNO 0}
 I see! So {STRVAR_1 14, 0, 0} is the kind\nof Trainer you like.\rIf that’s the case, others may\ncome to see you in the same way.\r
 Talk to me again if you want to\nlet me know what kind of Trainer\fyou like best.
 Hello! You’ve been mistaken for\n{STRVAR_1 14, 0, 0}, haven’t you?\rBut I think you can also pass for\na different kind of Trainer.\rSo, how about telling me what kind of\nTrainer you like?\r
+Well, hello there, trainer!\rWould you like to take a quiz? {YESNO 0}
+Excellent! Let’s get started!\rQuestion one!\rWere any Hoenn Pokémon obtainable\nwithin Fire Red and Leaf Green? {YESNO 0}
+Aww... come back again!
+I’m sorry, but that’s the wrong\nanswer! Please, come and try again!
+Correct! Time for question two!\rIs a DRAGONAIR more than\nthirteen feet long? {YESNO 0}
+Correct! The semifinal question!\rIs it true that BULBASAUR was\nthe first Pokémon created? {YESNO 0}
+Correct! The final question!\rCan TROPIUS be found within\nDiamond and Pearl? {YESNO 0}
+Congratulations!\nYou completed the quiz!\rYou can now pick a prized Pokémon!\nWhich would you like?
+Eh?\nYou don’t want any of them?
+BULBASAUR
+CHARMANDER
+SQUIRTLE
+Cancel
+Uhh...\nYour party is too full...
+Woohoo!\nLook out for more of us Quiz Masters!
+As you wish!\r
+{STRVAR_1 3, 0, 0} received a {STRVAR_1 0, 1, 0}!
+Do you want to give a\nnickname to the {STRVAR_1 0, 1, 0}?
+Which Pokémon do you want?
+Hey, you’re a Trainer, right?\nRegardless of whether you’re a\frookie or not, please, take this!\r
+The Exp. Share, when held by a\nPokémon, will give it a fraction\fof whatever experience is earned in\fa battle. Use it with weak Pokémon!

@@ -1,7 +1,7 @@
-This area is great for fishing.\nLooking at all those people fishing,\fdid you feel like you wanted to try\ffishing, too?\rWould you like one of my Rods? {YESNO 0}
-                               
-                     
-When you want to go fishing,\nface the water and use the Rod first.\rThen concentrate and look closely\nat the water!\rAn “!” appears when a Pokémon\nhas taken a bite!\rPress the A Button quickly to pull back\non the line.\rYou’ll see what happens next.\rIf there’s water, be it the sea or\na stream, try out your Rod.
+This area is great for fishing. You\ncan see loads of Water-type Pokémon.\rDo you like Water-type Pokémon? {YESNO 0}
+
+
+That TM contains Water Pulse!\rIt pairs well with any Water\nPokémon you might come across.
 Oh. That’s rather disappointing...
 When you want to go fishing,\nface the water and use the Rod first.\rThen concentrate and look closely\nat the water!\rAn “!” appears when a Pokémon\nhas taken a bite!\rPress the A Button quickly to pull back\non the line.\rYou’ll see what happens next.\n
 What should I make my Pokémon hold?\rMaybe an item that increases\nits Attack power...
@@ -10,3 +10,6 @@ Way to go, little Apricorn collector!\rI feel so great, I want to give\nyou this
 How come? What a waste!\rI will show you how great\nApricorns are!\rTake this first.\r
 Lure Ball!\nThis Poké Ball makes it easy to catch\fthe Pokémon that appear when you\fgo fishing!\rActually, this is made from Apricorns.\nConsider those two as small gifts\ffrom me.\rIf you want more, go to Azalea Town.\nA man called Kurt can make special\fPoké Balls out of Apricorns.\rApricorns rule!
 Kurt is the hero of every Apricorn\ncollector out there.\rIf you are to go to Azalea Town,\nbe sure to visit him.\rApricorn, Apricornier, Apricorniest!
+This area is great for fishing.\nLooking at all those people fishing,\fdid you feel like you wanted to try\ffishing, too?\rDo you like fishing, lass?{YESNO 0}
+WOOPER: Upah!
+Fantastic! You should take this TM!\r

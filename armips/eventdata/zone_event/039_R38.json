@@ -163,6 +163,40 @@
       "x": 297,
       "z": 186,
       "y": 0
+    },
+    {
+      "id": "obj_R38_follower_mon_electabuzz",
+      "spriteId": "SPRITE_FOLLOWER_MON_ELECTABUZZ",
+      "movement": 15,
+      "type": 0,
+      "eventFlag": 16362,
+      "scriptId": "_EV_scr_seq_R38_003 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 6666,
+      "z": 6666,
+      "y": 0
+    },
+    {
+      "id": "obj_R38_monstarball_3",
+      "spriteId": "SPRITE_MONSTARBALL",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16339,
+      "scriptId": "std_itemball_r06_tm62",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 347,
+      "z": 175,
+      "y": 0
     }
   ],
   "warps": [

@@ -8,3 +8,4 @@ There is a large Pokémon staring\nat you...!\r
 ZAPDOS: Rorrrrrkoom!\r
 Kanto Power Plant
 Rock Tunnel
+{SIZE 200}What’s that?{SIZE 100}\r{SIZE 200}You want to eat a PIKACHU?{SIZE 100}\r{SIZE 200}Ain’t that illegal?{SIZE 100}\r(This old man seems a tad deaf.\nHopefully he’ll eventually move...)

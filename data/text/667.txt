@@ -1,7 +1,7 @@
 Baoba
 This has to be the first time I’ve done\nsomething like this from so close!\rI mean talking on the phone!
-Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nWe’ve finally opened the Safari Zone!\rDo you know where it is?\rYou know the Gate inside the cavern in\nCianwood City?\rIf you go through there and walk for a\nshort while, you should soon see the\fSafari Zone!\rWe’re a little out of the way, but\nplease come visit!
-Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nWe’ve finally opened the Safari Zone!\rDo you know where it is?\rYou know the Gate inside the cavern in\nCianwood City?\rIf you go through there and walk for a\nshort while, you should soon see the\fSafari Zone!\rWe’re a little out of the way, but\nplease come visit!
+Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nWe’ve finally opened the Safari Zone!\rDo you know where it is?\rYou know the Gate inside the cavern in\nCianwood City?\rIf you go through there and walk for a\nshort while, you should soon see the\fSafari Zone!\rWe’re a little out of the way, but\nplease come visit!\r..!\rWhat? Who are you?\rAyeeeeh!\rWho are these people in black clothing?\n{STRVAR_1 3, 0, 0}, please help!
+Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nWe’ve finally opened the Safari Zone!\rDo you know where it is?\rYou know the Gate inside the cavern in\nCianwood City?\rIf you go through there and walk for a\nshort while, you should soon see the\fSafari Zone!\rWe’re a little out of the way, but\nplease come visit!\r..!\rWhat? Who are you?\rAyeeeeh!\rWho are these people in black clothing?\n{STRVAR_1 3, 0, 0}, please help!
 Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nI’ve finally come up with the next test.\rI’ll give you more details at the Safari\nZone. See you there!
 Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nI’ve finally come up with the next test.\rI’ll give you more details at the Safari\nZone. See you there!
 Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rSorry to have kept you waiting!\nI thought of a new way to play!\rIt’s called Object Arrangement!\rI’ll give you more details at the\nSafari Zone. See you there!
@@ -26,8 +26,8 @@ Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rIt seems there’s been a sli
 Oh hi, {STRVAR_1 3, 0, 0}!\nThis is Warden Baoba.\rIt seems there’s been a slight change\nin the Pokémon at the Safari Zone!\rAfter some time with the same objects\nin the same Area, the types of Pokémon\fthat settle there change.\rWe’ve found that if you completely\nremove the Area and then restore it\fwith the same objects, the original\fPokémon come back.\fNo need to worry!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rMy apologies. The Safari Zone isn’t\nquite ready yet. I’m sorry for the\finconvenience, but if you could be\fpatient just a little longer.\rI’ll call you later.
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rMy apologies. The Safari Zone isn’t\nquite ready yet. I’m sorry for the\finconvenience, but if you could be\fpatient just a little longer.\rI’ll call you later.
-Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rThe Safari Zone is now open!\nCome visit anytime!\rDo you know where it is?\rYou know the Gate inside the cavern in\nCianwood City?\rIf you go through there and walk for a\nlittle ways, you should soon see the\fSafari Zone!\rWell, see you then!
-Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rThe Safari Zone is now open!\nCome visit anytime!\rDo you know where it is?\rYou know the Gate inside the cavern in\nCianwood City?\rIf you go through there and walk for a\nlittle ways, you should soon see the\fSafari Zone!\rWell, see you then!
+...
+...
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a GEODUDE in\nthe Safari Zone?\rGive it your best shot!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rDo you think you can catch a GEODUDE in\nthe Safari Zone?\rGive it your best shot!
 Hello?\nOh hi, {STRVAR_1 3, 0, 0}!\rSorry, I’m still thinking about the next\nchallenge. Could you give me a bit\fmore time?

@@ -18,23 +18,6 @@
       "x": 16,
       "z": 11,
       "y": 0
-    },
-    {
-      "id": "obj_D52R0102_mount_2",
-      "spriteId": "SPRITE_MOUNT_2",
-      "movement": 0,
-      "type": 0,
-      "eventFlag": "FLAG_HIDE_EMBEDDED_TOWER_KYOGRE_HIKER",
-      "scriptId": 0,
-      "facingDirection": 0,
-      "param0": 0,
-      "param1": 0,
-      "param2": 0,
-      "xRange": 0,
-      "yRange": 0,
-      "x": 16,
-      "z": 23,
-      "y": 0
     }
   ],
   "warps": [

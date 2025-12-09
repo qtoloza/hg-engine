@@ -34,6 +34,8 @@ scrdef scr_seq_T25R1002_002
 scrdef scr_seq_T25R1002_003
 scrdef scr_seq_T25R1002_004
 scrdef scr_seq_T25R1002_005
+scrdef scr_seq_T25R1002_006
+scrdef scr_seq_T25R1002_007
 scrdef_end
 
 scr_seq_T25R1002_000:
@@ -63,56 +65,80 @@ scr_seq_T25R1002_002:
 	lockall
 	faceplayer
 	compare VAR_SCENE_ROCKET_TAKEOVER, 3
-	goto_if_ne _0070
+	goto_if_ne _00F1
 	npc_msg 1
-	goto _0073
-
-_0070:
-	npc_msg 0
-_0073:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto _00FC
 
 scr_seq_T25R1002_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	compare VAR_SCENE_ROCKET_TAKEOVER, 3
-	goto_if_ne _0099
+	goto_if_ne _0104
 	npc_msg 5
-	goto _009C
-
-_0099:
-	npc_msg 4
-_009C:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto _010F
 
 scr_seq_T25R1002_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	compare VAR_SCENE_ROCKET_TAKEOVER, 3
-	goto_if_ne _00C2
+	goto_if_ne _0117
 	npc_msg 3
-	goto _00C5
-
-_00C2:
-	npc_msg 2
-_00C5:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto _0122
 
 scr_seq_T25R1002_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	npc_msg 6
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_T25R1002_006:
+	simple_npc_msg 9
+	end
+
+scr_seq_T25R1002_007:
+	play_cry SPECIES_IGGLYBUFF, 0
+	simple_npc_msg 10
+	end
+
+_00F1:
+	npc_msg 0
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_00FC:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0104:
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_010F:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0117:
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0122:
 	wait_button_or_walk_away
 	closemsg
 	releaseall

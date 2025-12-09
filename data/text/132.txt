@@ -3,3 +3,6 @@ Bugsy: I came to Kanto to look for\nBug-type Pokémon, so I can become\fa strong
 Bugsy: We can battle around lunch\non Thursdays!\fGive me a call!
 Bugsy: Oh, well...\nThat’s OK...
 Bugsy: Will you give me your phone\nnumber? {YESNO 0}
+Myuu!
+Myuu!\r
+MEW returned to its hiding place...

@@ -19,3 +19,15 @@ This is just between you and me.\nI got Surf from a man at Ecruteak.\fI think he
 Hey!\nGreat waves here!\rNo one can resist such\ngood waves!
 Rt. 40\nSouth to Cianwood City
 Battle Frontier Ahead
+Izumi: Ah, {STRVAR_1 3, 0, 0}!\nIt has been a long time.\rIn fact, I was looking for you.\nI’ve got an Egg here that was\fwashed up on the shore,\fbut it’s a little special compared\fto other Eggs you may have seen.\rWould you be willing to take it? {YESNO 0}
+Izumi: I see.\nCome back if you change your mind.
+Izumi: Thank you, {STRVAR_1 3, 0, 0}!\r
+{STRVAR_1 3, 0, 0} received the {COLOR 2}MANAPHY Egg{COLOR 0}!
+Izumi: You should be able to take\ncare of it the same as any other\fEgg. I shall take my leave...
+Izumi: Although I do want to give\nthis Egg to you...\r...Your party is full.
+Izumi: Hello, again.\nDo you wish to accept the Egg? {YESNO 0}
+They say schools of PHIONE\nsometimes cross the warm sea here.\rYou might encounter one if you’re\nreally lucky!\rI’d like to see one...\r
+That Pokémon you have behind you!\nSigh, that’s not a PHIONE...
+That Pokémon you have behind you!\r
+It’s a PHIONE!\nWow, you must be lucky!\rThank you for showing me.\nPlease, take these as thanks!\r
+Nobody really knows if PHIONE\ncounts as legendary or not.\rEither way, it’s still so cute!

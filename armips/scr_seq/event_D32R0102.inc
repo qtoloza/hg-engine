@@ -16,5 +16,6 @@
 .equ obj_D32R0102_gsman1, 2
 .equ obj_D32R0102_mount_2, 3
 .equ obj_D32R0102_gsgirl2, 4
+.equ obj_D32R0102_monstarball, 5
 
 .endif //SCR_SEQ_D32R0102_H_

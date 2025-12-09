@@ -13,8 +13,8 @@
   ],
   "objects": [
     {
-      "id": "obj_T30PC0101_gsgentleman",
-      "spriteId": "SPRITE_GSGENTLEMAN",
+      "id": "obj_T30PC0101_gorggeousw",
+      "spriteId": "SPRITE_GORGGEOUSW",
       "movement": 15,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",
@@ -49,18 +49,18 @@
     {
       "id": "obj_T30PC0101_gsman3",
       "spriteId": "SPRITE_GSMAN3",
-      "movement": 4,
+      "movement": 3,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",
       "scriptId": "_EV_scr_seq_T30PC0101_003 + 1",
-      "facingDirection": 0,
+      "facingDirection": 1,
       "param0": 0,
       "param1": 0,
       "param2": 0,
-      "xRange": 0,
+      "xRange": 1,
       "yRange": 1,
-      "x": 12,
-      "z": 15,
+      "x": 10,
+      "z": 16,
       "y": 0
     },
     {
@@ -129,6 +129,23 @@
       "yRange": 1,
       "x": 11,
       "z": 4,
+      "y": 0
+    },
+    {
+      "id": "obj_T30PC0101_follower_mon_horsea",
+      "spriteId": "SPRITE_FOLLOWER_MON_HORSEA",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_NOTHING",
+      "scriptId": "_EV_scr_seq_T30PC0101_004 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 5,
+      "z": 13,
       "y": 0
     }
   ],

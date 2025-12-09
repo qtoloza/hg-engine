@@ -13,5 +13,7 @@
 .equ obj_D39R0101_monstarball_2, 3
 .equ obj_D39R0101_monstarball_3, 4
 .equ obj_D39R0101_gsmiddleman1_2, 5
+.equ obj_D39R0101_monstarball_4, 6
+.equ obj_D39R0101_monstarball_5, 7
 
 .endif //SCR_SEQ_D39R0101_H_

@@ -6,5 +6,6 @@
 
 .equ obj_D23R0106_rkanbum, 0
 .equ obj_D23R0106_gsgentleman, 1
+.equ obj_D23R0106_sakaki, 2
 
 .endif //SCR_SEQ_D23R0106_H_

@@ -4,4 +4,21 @@ I... I’m crushed...\rMy training is still not enough...\nBut a loss is a loss.
 TYROGUE is a Fighting type.\nIt evolves into a tougher Pokémon.\rKeep up the hard work. I’ll keep\ntraining too. Farewell!
 You have no room in your party!
 Give a nickname to the TYROGUE you\nreceived? {YESNO 0}
-                         
+
+Zaza zari za...\r
+It’s JIRACHI!\r...\rBut it appears to be asleep,\ndespite the movement...\r
+There’s no way to wake it up...
+{STRVAR_1 3, 0, 0} began to play the\nAzure Flute!\r
+Do you want to try playing the\nAzure Flute? {YESNO 0}
+JIRACHI woke up!\r
+JIRACHI asked {STRVAR_1 3, 0, 0} to\nchoose one wish...\rBut with a warning that the wish\ncould {COLOR 1}only be performed once{COLOR 0}...\rWhat does {STRVAR_1 3, 0, 0}’s heart desire? {YESNO 0}
+The Power of Money
+Extreme Gambling
+Delicious Sweets
+Challenge JIRACHI
+JIRACHI granted your wish...\r
+{STRVAR_1 3, 0, 0} was given $300,000!\n(No matter how much room there is...)
+JIRACHI disappeared, not to be\nseen again for a millenium...
+{STRVAR_1 3, 0, 0}’s Coin Case was completely\nfilled!
+{STRVAR_1 3, 0, 0} was showered with sweets!
+JIRACHI moved forward to attack!\r

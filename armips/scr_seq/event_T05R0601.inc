@@ -10,5 +10,6 @@
 .equ obj_T05R0601_gsoldwoman1, 1
 .equ obj_T05R0601_gsgirl1, 2
 .equ obj_T05R0601_gswoman1, 3
+.equ obj_T05R0601_gsoldman1_2, 4
 
 .endif //SCR_SEQ_T05R0601_H_

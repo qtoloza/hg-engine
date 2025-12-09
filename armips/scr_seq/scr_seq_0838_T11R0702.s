@@ -36,6 +36,7 @@ scrdef scr_seq_T11R0702_004
 scrdef scr_seq_T11R0702_005
 scrdef scr_seq_T11R0702_006
 scrdef scr_seq_T11R0702_007
+scrdef scr_seq_T11R0702_008
 scrdef_end
 
 scr_seq_T11R0702_006:
@@ -46,107 +47,189 @@ scr_seq_T11R0702_006:
 	setflag FLAG_HIDE_SILPH_ROTOM_MOW
 	get_owned_rotom_formes VAR_TEMP_x4000, VAR_TEMP_x4001, VAR_TEMP_x4002, VAR_TEMP_x4003, VAR_TEMP_x4004
 	compare VAR_TEMP_x4000, 0
-	call_if_eq _0085
+	call_if_eq _01A2
 	compare VAR_TEMP_x4001, 0
-	call_if_eq _008B
+	call_if_eq _01A8
 	compare VAR_TEMP_x4002, 0
-	call_if_eq _0091
+	call_if_eq _01AE
 	compare VAR_TEMP_x4003, 0
-	call_if_eq _0097
+	call_if_eq _01B4
 	compare VAR_TEMP_x4004, 0
-	call_if_eq _009D
+	call_if_eq _01BA
 	end
-
-_0085:
-	clearflag FLAG_HIDE_SILPH_ROTOM_HEAT
-	return
-
-_008B:
-	clearflag FLAG_HIDE_SILPH_ROTOM_WASH
-	return
-
-_0091:
-	clearflag FLAG_HIDE_SILPH_ROTOM_FROST
-	return
-
-_0097:
-	clearflag FLAG_HIDE_SILPH_ROTOM_FAN
-	return
-
-_009D:
-	clearflag FLAG_HIDE_SILPH_ROTOM_MOW
-	return
 
 scr_seq_T11R0702_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 1
-	goto _0107
+	goto _01C0
 
 scr_seq_T11R0702_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 4
-	goto _0107
+	goto _01C0
 
 scr_seq_T11R0702_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 3
-	goto _0107
+	goto _01C0
 
 scr_seq_T11R0702_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 2
-	goto _0107
+	goto _01C0
 
 scr_seq_T11R0702_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	setvar VAR_SPECIAL_x8004, 5
-	goto _0107
+	goto _01C0
 
-_0107:
+scr_seq_T11R0702_007:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	count_transformed_rotoms_in_party VAR_SPECIAL_x8003, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_x8003, 0
+	goto_if_eq _0240
+	npc_msg 13
+	touchscreen_menu_hide
+	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+	menu_item_add 14, 255, 0
+	menu_item_add 19, 255, 1
+	menu_exec
+	switch VAR_SPECIAL_RESULT
+	case 0, _024D
+	goto _026C
+
+scr_seq_T11R0702_000:
+	simple_npc_msg 35
+	end
+
+scr_seq_T11R0702_008:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	npc_msg 44
+	play_cry SPECIES_CLAYDOL, 0
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	scrcmd_600
+	play_se SEQ_SE_PL_BOWABOWA
+	buffer_players_name 0
+	apply_movement obj_player, _094A
+	wait_movement
+	fade_screen 6, 1, 0, RGB_WHITE
+	wait_fade
+	warp MAP_T25, 0, 352, 369, DIR_SOUTH
+	fade_screen 6, 1, 1, RGB_WHITE
+	wait_fade
+	scrcmd_606
+	npc_msg 45
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_01A2:
+	clearflag FLAG_HIDE_SILPH_ROTOM_HEAT
+	return
+
+_01A8:
+	clearflag FLAG_HIDE_SILPH_ROTOM_WASH
+	return
+
+_01AE:
+	clearflag FLAG_HIDE_SILPH_ROTOM_FROST
+	return
+
+_01B4:
+	clearflag FLAG_HIDE_SILPH_ROTOM_FAN
+	return
+
+_01BA:
+	clearflag FLAG_HIDE_SILPH_ROTOM_MOW
+	return
+
+_01C0:
 	player_has_species VAR_SPECIAL_RESULT, SPECIES_ROTOM
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _07D8
+	goto_if_eq _0274
 	compare VAR_SPECIAL_x8004, 1
-	call_if_eq _0724
+	call_if_eq _02BB
 	compare VAR_SPECIAL_x8004, 3
-	call_if_eq _0729
+	call_if_eq _02C0
 	compare VAR_SPECIAL_x8004, 2
-	call_if_eq _072E
+	call_if_eq _02C5
 	compare VAR_SPECIAL_x8004, 4
-	call_if_eq _0733
+	call_if_eq _02CA
 	compare VAR_SPECIAL_x8004, 5
-	call_if_eq _0738
+	call_if_eq _02CF
 	count_transformed_rotoms_in_party VAR_SPECIAL_x8003, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_x8003, 1
-	goto_if_ge _01E5
+	goto_if_ge _02D4
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _073D
-	goto _0189
+	goto_if_eq _031E
+	goto _0376
 
-_0189:
+_0240:
+	npc_msg 18
+	wait_button_or_walk_away
+	closemsg
+	goto _03D0
+
+_024D:
+	count_transformed_rotoms_in_party VAR_SPECIAL_x8003, VAR_SPECIAL_RESULT
+	copyvar VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_x8003, 2
+	goto_if_ge _03D4
+	goto _043F
+
+_026C:
+	touchscreen_menu_show
+	closemsg
+	releaseall
+	end
+
+_0274:
 	compare VAR_SPECIAL_x8004, 1
-	call_if_eq _06FC
+	call_if_eq _04AC
 	compare VAR_SPECIAL_x8004, 3
-	call_if_eq _0704
+	call_if_eq _04B1
 	compare VAR_SPECIAL_x8004, 2
-	call_if_eq _070C
+	call_if_eq _04B6
 	compare VAR_SPECIAL_x8004, 4
-	call_if_eq _0714
+	call_if_eq _04BB
 	compare VAR_SPECIAL_x8004, 5
-	call_if_eq _071C
-	count_party_mons_of_species VAR_SPECIAL_RESULT, SPECIES_ROTOM
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _03B2
-	goto _03C0
+	call_if_eq _04C0
+	goto _026C
 
-_01E5:
+_02BB:
+	npc_msg 21
+	return
+
+_02C0:
+	npc_msg 24
+	return
+
+_02C5:
+	npc_msg 27
+	return
+
+_02CA:
+	npc_msg 30
+	return
+
+_02CF:
+	npc_msg 33
+	return
+
+_02D4:
 	touchscreen_menu_hide
 	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
 	menu_item_add 15, 255, 0
@@ -154,18 +237,69 @@ _01E5:
 	menu_item_add 16, 255, 2
 	menu_exec
 	switch VAR_SPECIAL_RESULT
-	case 0, _0189
-	case 1, _0231
-	goto _073D
+	case 0, _0376
+	case 1, _024D
+	goto _031E
 
-_0231:
-	count_transformed_rotoms_in_party VAR_SPECIAL_x8003, VAR_SPECIAL_RESULT
-	copyvar VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_x8003, 2
-	goto_if_ge _0332
-	goto _0252
+_031E:
+	compare VAR_SPECIAL_x8004, 1
+	call_if_eq _04C5
+	compare VAR_SPECIAL_x8004, 3
+	call_if_eq _04CC
+	compare VAR_SPECIAL_x8004, 2
+	call_if_eq _04D3
+	compare VAR_SPECIAL_x8004, 4
+	call_if_eq _04DA
+	compare VAR_SPECIAL_x8004, 5
+	call_if_eq _04E1
+	compare VAR_TEMP_x400A, 1
+	call_if_eq _04E8
+	nop_var_490 VAR_TEMP_x4006
+	goto _026C
 
-_0252:
+_0376:
+	compare VAR_SPECIAL_x8004, 1
+	call_if_eq _04FC
+	compare VAR_SPECIAL_x8004, 3
+	call_if_eq _0504
+	compare VAR_SPECIAL_x8004, 2
+	call_if_eq _050C
+	compare VAR_SPECIAL_x8004, 4
+	call_if_eq _0514
+	compare VAR_SPECIAL_x8004, 5
+	call_if_eq _051C
+	count_party_mons_of_species VAR_SPECIAL_RESULT, SPECIES_ROTOM
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0524
+	goto _0530
+
+_03D0:
+	releaseall
+	end
+
+_03D4:
+	npc_msg 7
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	closemsg
+	party_select_ui
+	get_party_selection VAR_SPECIAL_x8000
+	restore_overworld
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_SPECIAL_x8000, 255
+	goto_if_eq _0588
+	get_partymon_species VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _058E
+	compare VAR_SPECIAL_RESULT, 479
+	goto_if_ne _0599
+	get_party_mon_forme VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _05A4
+	goto _043F
+
+_043F:
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
 	npc_msg 11
 	update_rotom_forme VAR_SPECIAL_x8000, 0, 0, 0
@@ -174,18 +308,158 @@ _0252:
 	closemsg
 	get_party_mon_forme VAR_SPECIAL_x8000, VAR_SPECIAL_x8004
 	compare VAR_SPECIAL_x8004, 1
-	call_if_eq _0300
+	call_if_eq _05AF
 	compare VAR_SPECIAL_x8004, 3
-	call_if_eq _030A
+	call_if_eq _05B9
 	compare VAR_SPECIAL_x8004, 2
-	call_if_eq _0314
+	call_if_eq _05C3
 	compare VAR_SPECIAL_x8004, 4
-	call_if_eq _031E
+	call_if_eq _05CD
 	compare VAR_SPECIAL_x8004, 5
-	call_if_eq _0328
-	goto _02C1
+	call_if_eq _05D7
+	goto _05E1
 
-_02C1:
+_04AC:
+	npc_msg 20
+	return
+
+_04B1:
+	npc_msg 23
+	return
+
+_04B6:
+	npc_msg 26
+	return
+
+_04BB:
+	npc_msg 29
+	return
+
+_04C0:
+	npc_msg 32
+	return
+
+_04C5:
+	npc_msg 22
+	wait_button_or_walk_away
+	return
+
+_04CC:
+	npc_msg 25
+	wait_button_or_walk_away
+	return
+
+_04D3:
+	npc_msg 28
+	wait_button_or_walk_away
+	return
+
+_04DA:
+	npc_msg 31
+	wait_button_or_walk_away
+	return
+
+_04E1:
+	npc_msg 34
+	wait_button_or_walk_away
+	return
+
+_04E8:
+	release obj_partner_poke
+	apply_movement obj_partner_poke, _093A
+	wait_movement
+	lock obj_partner_poke
+	return
+
+_04FC:
+	setvar VAR_SPECIAL_x8001, 315
+	return
+
+_0504:
+	setvar VAR_SPECIAL_x8001, 59
+	return
+
+_050C:
+	setvar VAR_SPECIAL_x8001, 56
+	return
+
+_0514:
+	setvar VAR_SPECIAL_x8001, 403
+	return
+
+_051C:
+	setvar VAR_SPECIAL_x8001, 437
+	return
+
+_0524:
+	get_party_slot_with_species VAR_SPECIAL_x8000, SPECIES_ROTOM
+	goto _061E
+
+_0530:
+	npc_msg 7
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	closemsg
+	party_select_ui
+	get_party_selection VAR_SPECIAL_x8000
+	restore_overworld
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_SPECIAL_x8000, 255
+	goto_if_eq _031E
+	get_partymon_species VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _058E
+	compare VAR_SPECIAL_RESULT, 479
+	goto_if_ne _0599
+	goto _061E
+
+_0588:
+	touchscreen_menu_show
+	releaseall
+	end
+
+_058E:
+	npc_msg 8
+	wait_button_or_walk_away
+	goto _026C
+
+_0599:
+	npc_msg 9
+	wait_button_or_walk_away
+	goto _026C
+
+_05A4:
+	npc_msg 17
+	wait_button_or_walk_away
+	goto _026C
+
+_05AF:
+	clearflag FLAG_HIDE_SILPH_ROTOM_HEAT
+	show_person obj_T11R0702_rotomf
+	return
+
+_05B9:
+	clearflag FLAG_HIDE_SILPH_ROTOM_FROST
+	show_person obj_T11R0702_rotomi
+	return
+
+_05C3:
+	clearflag FLAG_HIDE_SILPH_ROTOM_WASH
+	show_person obj_T11R0702_rotomw
+	return
+
+_05CD:
+	clearflag FLAG_HIDE_SILPH_ROTOM_FAN
+	show_person obj_T11R0702_rotoms
+	return
+
+_05D7:
+	clearflag FLAG_HIDE_SILPH_ROTOM_MOW
+	show_person obj_T11R0702_rotomg
+	return
+
+_05E1:
 	scrcmd_815 0
 	get_player_coords VAR_SPECIAL_x8006, VAR_SPECIAL_x8007
 	get_player_facing VAR_SPECIAL_RESULT
@@ -194,170 +468,105 @@ _02C1:
 	wait_fade
 	nop_var_490 VAR_TEMP_x400B
 	compare VAR_TEMP_x400A, 1
-	call_if_eq _07BA
-	goto _08A4
+	call_if_eq _04E8
+	goto _03D0
 
-_0300:
-	clearflag FLAG_HIDE_SILPH_ROTOM_HEAT
-	show_person obj_T11R0702_rotomf
-	return
-
-_030A:
-	clearflag FLAG_HIDE_SILPH_ROTOM_FROST
-	show_person obj_T11R0702_rotomi
-	return
-
-_0314:
-	clearflag FLAG_HIDE_SILPH_ROTOM_WASH
-	show_person obj_T11R0702_rotomw
-	return
-
-_031E:
-	clearflag FLAG_HIDE_SILPH_ROTOM_FAN
-	show_person obj_T11R0702_rotoms
-	return
-
-_0328:
-	clearflag FLAG_HIDE_SILPH_ROTOM_MOW
-	show_person obj_T11R0702_rotomg
-	return
-
-_0332:
-	npc_msg 7
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	closemsg
-	party_select_ui
-	get_party_selection VAR_SPECIAL_x8000
-	restore_overworld
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	compare VAR_SPECIAL_x8000, 255
-	goto_if_eq _03AC
-	get_partymon_species VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _041A
-	compare VAR_SPECIAL_RESULT, 479
-	goto_if_ne _0427
-	get_party_mon_forme VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _039F
-	goto _0252
-
-_039F:
-	npc_msg 17
-	wait_button_or_walk_away
-	goto _089C
-
-_03AC:
-	touchscreen_menu_show
-	releaseall
-	end
-
-_03B2:
-	get_party_slot_with_species VAR_SPECIAL_x8000, SPECIES_ROTOM
-	goto _0434
-
-_03C0:
-	npc_msg 7
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	closemsg
-	party_select_ui
-	get_party_selection VAR_SPECIAL_x8000
-	restore_overworld
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	compare VAR_SPECIAL_x8000, 255
-	goto_if_eq _073D
-	get_partymon_species VAR_SPECIAL_x8000, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _041A
-	compare VAR_SPECIAL_RESULT, 479
-	goto_if_ne _0427
-	goto _0434
-
-_041A:
-	npc_msg 8
-	wait_button_or_walk_away
-	goto _089C
-
-_0427:
-	npc_msg 9
-	wait_button_or_walk_away
-	goto _089C
-
-_0434:
+_061E:
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_OVERHEAT, VAR_SPECIAL_x8000
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _04BE
+	goto_if_eq _06A6
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_BLIZZARD, VAR_SPECIAL_x8000
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _04BE
+	goto_if_eq _06A6
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_HYDRO_PUMP, VAR_SPECIAL_x8000
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _04BE
+	goto_if_eq _06A6
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_AIR_SLASH, VAR_SPECIAL_x8000
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _04BE
+	goto_if_eq _06A6
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_LEAF_STORM, VAR_SPECIAL_x8000
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _04BE
+	goto_if_eq _06A6
 	count_mon_moves VAR_SPECIAL_RESULT, VAR_SPECIAL_x8000
 	copyvar VAR_SPECIAL_x8002, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 4
-	goto_if_eq _051C
-	goto _04CC
+	goto_if_eq _06B2
+	goto _071E
 
-_04BE:
+_06A6:
 	setvar VAR_SPECIAL_x8002, 0
-	goto _04CC
+	goto _071E
 
-_04CC:
-	nop_var_490 VAR_TEMP_x4005
-	get_party_lead_alive VAR_TEMP_x4000
-	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 479
-	goto_if_ne _050C
-	compare VAR_TEMP_x4000, VAR_SPECIAL_x8000
-	goto_if_ne _0506
-	release obj_partner_poke
-	apply_movement obj_partner_poke, _06F0
-	wait_movement
-	lock obj_partner_poke
-_0506:
-	setvar VAR_TEMP_x400A, 1
-_050C:
-	bufferpartymonnick 0, VAR_SPECIAL_x8000
-	npc_msg 10
-	goto _0671
-
-_051C:
+_06B2:
 	nop_var_490 VAR_TEMP_x4007
 	get_party_lead_alive VAR_TEMP_x4000
 	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 479
-	goto_if_ne _0564
+	goto_if_ne _076C
 	nop_var_490 VAR_TEMP_x4000
 	nop_var_490 VAR_SPECIAL_x8000
 	compare VAR_TEMP_x4000, VAR_SPECIAL_x8000
-	goto_if_ne _055E
+	goto_if_ne _0790
 	release obj_partner_poke
-	apply_movement obj_partner_poke, _06F0
+	apply_movement obj_partner_poke, _0940
 	wait_movement
 	lock obj_partner_poke
-_055E:
 	setvar VAR_TEMP_x400A, 1
-_0564:
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
 	buffer_move_name 1, VAR_SPECIAL_x8001
 	npc_msg 0
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0649
-	goto _058A
+	goto_if_eq _07BA
+	goto _07E0
 
-_058A:
+_071E:
+	nop_var_490 VAR_TEMP_x4005
+	get_party_lead_alive VAR_TEMP_x4000
+	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 479
+	goto_if_ne _087C
+	compare VAR_TEMP_x4000, VAR_SPECIAL_x8000
+	goto_if_ne _088A
+	release obj_partner_poke
+	apply_movement obj_partner_poke, _0940
+	wait_movement
+	lock obj_partner_poke
+	setvar VAR_TEMP_x400A, 1
+	bufferpartymonnick 0, VAR_SPECIAL_x8000
+	npc_msg 10
+	goto _089E
+
+_076C:
+	bufferpartymonnick 0, VAR_SPECIAL_x8000
+	buffer_move_name 1, VAR_SPECIAL_x8001
+	npc_msg 0
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _07BA
+	goto _07E0
+
+_0790:
+	setvar VAR_TEMP_x400A, 1
+	bufferpartymonnick 0, VAR_SPECIAL_x8000
+	buffer_move_name 1, VAR_SPECIAL_x8001
+	npc_msg 0
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _07BA
+	goto _07E0
+
+_07BA:
+	bufferpartymonnick 0, VAR_SPECIAL_x8000
+	buffer_move_name 1, VAR_SPECIAL_x8001
+	npc_msg 2
+	wait_button_or_walk_away
+	compare VAR_TEMP_x400A, 1
+	call_if_eq _04E8
+	nop_var_490 VAR_TEMP_x400D
+	goto _026C
+
+_07E0:
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
 	closemsg
@@ -367,13 +576,13 @@ _058A:
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	compare VAR_SPECIAL_x8002, 4
-	goto_if_eq _0628
+	goto_if_eq _08FD
 	mon_get_move VAR_SPECIAL_RESULT, VAR_SPECIAL_x8000, VAR_SPECIAL_x8002
 	buffer_move_name 1, VAR_SPECIAL_RESULT
 	npc_msg 3
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0649
+	goto_if_eq _07BA
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
 	mon_get_move VAR_SPECIAL_RESULT, VAR_SPECIAL_x8000, VAR_SPECIAL_x8002
 	buffer_move_name 1, VAR_SPECIAL_RESULT
@@ -388,230 +597,96 @@ _058A:
 	play_fanfare SEQ_ME_LVUP
 	wait_fanfare
 	wait 16, VAR_SPECIAL_RESULT
-	goto _0671
+	goto _089E
 
-_0628:
-	buffer_move_name 1, VAR_SPECIAL_x8001
-	npc_msg 1
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _058A
-	goto _0649
-
-_0649:
+_087C:
 	bufferpartymonnick 0, VAR_SPECIAL_x8000
-	buffer_move_name 1, VAR_SPECIAL_x8001
-	npc_msg 2
-	wait_button_or_walk_away
-	compare VAR_TEMP_x400A, 1
-	call_if_eq _07BA
-	nop_var_490 VAR_TEMP_x400D
-	goto _089C
+	npc_msg 10
+	goto _089E
 
-_0671:
+_088A:
+	setvar VAR_TEMP_x400A, 1
+	bufferpartymonnick 0, VAR_SPECIAL_x8000
+	npc_msg 10
+	goto _089E
+
+_089E:
 	update_rotom_forme VAR_SPECIAL_x8000, VAR_SPECIAL_x8002, VAR_SPECIAL_x8001, VAR_SPECIAL_x8004
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
 	closemsg
 	compare VAR_SPECIAL_x8004, 1
-	call_if_eq _06D2
+	call_if_eq _091C
 	compare VAR_SPECIAL_x8004, 4
-	call_if_eq _06D8
+	call_if_eq _0922
 	compare VAR_SPECIAL_x8004, 3
-	call_if_eq _06DE
+	call_if_eq _0928
 	compare VAR_SPECIAL_x8004, 2
-	call_if_eq _06E4
+	call_if_eq _092E
 	compare VAR_SPECIAL_x8004, 5
-	call_if_eq _06EA
-	goto _02C1
+	call_if_eq _0934
+	goto _05E1
 
-_06D2:
+_08FD:
+	buffer_move_name 1, VAR_SPECIAL_x8001
+	npc_msg 1
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _07E0
+	goto _07BA
+
+_091C:
 	hide_person obj_T11R0702_rotomf
 	return
 
-_06D8:
+_0922:
 	hide_person obj_T11R0702_rotoms
 	return
 
-_06DE:
+_0928:
 	hide_person obj_T11R0702_rotomi
 	return
 
-_06E4:
+_092E:
 	hide_person obj_T11R0702_rotomw
 	return
 
-_06EA:
+_0934:
 	hide_person obj_T11R0702_rotomg
 	return
 
 	.align 4
-_06F0:
+_093A:
+
+	step 70, 1
+	step_end
+	.align 4
+_0940:
 
 	step 45, 2
 	step 69, 1
 	step_end
-_06FC:
-	setvar VAR_SPECIAL_x8001, 315
-	return
-
-_0704:
-	setvar VAR_SPECIAL_x8001, 59
-	return
-
-_070C:
-	setvar VAR_SPECIAL_x8001, 56
-	return
-
-_0714:
-	setvar VAR_SPECIAL_x8001, 403
-	return
-
-_071C:
-	setvar VAR_SPECIAL_x8001, 437
-	return
-
-_0724:
-	npc_msg 21
-	return
-
-_0729:
-	npc_msg 24
-	return
-
-_072E:
-	npc_msg 27
-	return
-
-_0733:
-	npc_msg 30
-	return
-
-_0738:
-	npc_msg 33
-	return
-
-_073D:
-	compare VAR_SPECIAL_x8004, 1
-	call_if_eq _0797
-	compare VAR_SPECIAL_x8004, 3
-	call_if_eq _079E
-	compare VAR_SPECIAL_x8004, 2
-	call_if_eq _07A5
-	compare VAR_SPECIAL_x8004, 4
-	call_if_eq _07AC
-	compare VAR_SPECIAL_x8004, 5
-	call_if_eq _07B3
-	compare VAR_TEMP_x400A, 1
-	call_if_eq _07BA
-	nop_var_490 VAR_TEMP_x4006
-	goto _089C
-
-_0797:
-	npc_msg 22
-	wait_button_or_walk_away
-	return
-
-_079E:
-	npc_msg 25
-	wait_button_or_walk_away
-	return
-
-_07A5:
-	npc_msg 28
-	wait_button_or_walk_away
-	return
-
-_07AC:
-	npc_msg 31
-	wait_button_or_walk_away
-	return
-
-_07B3:
-	npc_msg 34
-	wait_button_or_walk_away
-	return
-
-_07BA:
-	release obj_partner_poke
-	apply_movement obj_partner_poke, _07D0
-	wait_movement
-	lock obj_partner_poke
-	return
-
 	.align 4
-_07D0:
+_094A:
 
-	step 70, 1
+	step 1, 2
+	step 2, 2
+	step 0, 2
+	step 3, 2
+	step 1, 2
+	step 2, 2
+	step 0, 2
+	step 3, 2
+	step 1, 2
+	step 2, 2
+	step 0, 2
+	step 3, 2
+	step 1, 2
+	step 2, 2
+	step 0, 2
+	step 3, 1
+	step 69, 0
 	step_end
-_07D8:
-	compare VAR_SPECIAL_x8004, 1
-	call_if_eq _0821
-	compare VAR_SPECIAL_x8004, 3
-	call_if_eq _0826
-	compare VAR_SPECIAL_x8004, 2
-	call_if_eq _082B
-	compare VAR_SPECIAL_x8004, 4
-	call_if_eq _0830
-	compare VAR_SPECIAL_x8004, 5
-	call_if_eq _0835
-	goto _089C
-
-_0821:
-	npc_msg 20
-	return
-
-_0826:
-	npc_msg 23
-	return
-
-_082B:
-	npc_msg 26
-	return
-
-_0830:
-	npc_msg 29
-	return
-
-_0835:
-	npc_msg 32
-	return
-
-scr_seq_T11R0702_007:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	count_transformed_rotoms_in_party VAR_SPECIAL_x8003, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_x8003, 0
-	goto_if_eq _088D
-	npc_msg 13
-	touchscreen_menu_hide
-	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
-	menu_item_add 14, 255, 0
-	menu_item_add 19, 255, 1
-	menu_exec
-	switch VAR_SPECIAL_RESULT
-	case 0, _0231
-	goto _089C
-
-_088D:
-	npc_msg 18
-	wait_button_or_walk_away
-	closemsg
-	goto _08A4
-
-_089C:
-	touchscreen_menu_show
-	closemsg
-	releaseall
-	end
-
-_08A4:
-	releaseall
-	end
-
-scr_seq_T11R0702_000:
-	simple_npc_msg 35
-	end
 	.align 4
 
 

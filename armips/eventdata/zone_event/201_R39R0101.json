@@ -3,8 +3,8 @@
   "eventId": "201",
   "objects": [
     {
-      "id": "obj_R39R0101_gsmiddleman1",
-      "spriteId": "SPRITE_GSMIDDLEMAN1",
+      "id": "obj_R39R0101_farmer",
+      "spriteId": "SPRITE_FARMER",
       "movement": 15,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",

@@ -32,6 +32,7 @@ scrdef scr_seq_T30PC0101_000
 scrdef scr_seq_T30PC0101_001
 scrdef scr_seq_T30PC0101_002
 scrdef scr_seq_T30PC0101_003
+scrdef scr_seq_T30PC0101_004
 scrdef_end
 
 scr_seq_T30PC0101_000:
@@ -40,7 +41,17 @@ scr_seq_T30PC0101_000:
 	end
 
 scr_seq_T30PC0101_001:
-	simple_npc_msg 0
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_set 16261, _0096
+	npc_msg 0
+	giveitem_no_check ITEM_DRAGON_SCALE, 1
+	setflag 16261
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_T30PC0101_002:
@@ -49,6 +60,18 @@ scr_seq_T30PC0101_002:
 
 scr_seq_T30PC0101_003:
 	simple_npc_msg 2
+	end
+
+scr_seq_T30PC0101_004:
+	play_cry SPECIES_HORSEA, 0
+	simple_npc_msg 7
+	end
+
+_0096:
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 	.align 4
 

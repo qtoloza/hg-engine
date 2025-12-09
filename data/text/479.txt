@@ -1,1 +1,5 @@
-Lavender is a tiny, quiet town\nat the foot of the mountains.\rIt’s gotten a bit busier since the\nRadio Tower was built.
+Have you heard of the {COLOR 1}Magma Stone{COLOR 0}?\rIt’s a rare item said to have the\nmost awesome chemical properties.\rIf you happen to come across one,\nplease give it to me!\rI’ll trade you a special item\nin exchange for it!
+Ah, you have a {COLOR 1}Magma Stone{COLOR 0}!\rWould you be willing to trade it\nfor this rare Azure Flute?
+Oh... really? Come back if you\nchange your mind...
+Excellent! Here, take the{COLOR 2}\nAzure Flute{COLOR 0}!\r
+They say a trainer strong in both\nstrength and spirit can use that\fflute to conduct wonders with shrines\fand other legendary landmarks\faround Johto and Kanto.\rMe? I can’t do a thing with it!

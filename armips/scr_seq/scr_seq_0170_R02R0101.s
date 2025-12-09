@@ -29,6 +29,7 @@
 
 
 scrdef scr_seq_R02R0101_000
+scrdef scr_seq_R02R0101_001
 scrdef_end
 
 scr_seq_R02R0101_000:
@@ -37,6 +38,17 @@ scr_seq_R02R0101_000:
 	scrcmd_058
 	trainer_tips 0, VAR_SPECIAL_RESULT
 	callstd std_signpost
+	end
+
+scr_seq_R02R0101_001:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	play_cry SPECIES_PERSIAN, 0
+	wait_cry
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 	.align 4
 

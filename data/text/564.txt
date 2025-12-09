@@ -12,9 +12,15 @@ SLOWPOKE: ...\r...\r
 Azalea Town\nLiving Happily with Pokémon
 Kurt’s House\rApricorn and Nothing Else\nThe Stubborn Poké Ball Creator
 Azalea Town Pokémon Gym\nLeader: Bugsy\fThe Walking Bug Pokémon Encyclopedia
-SLOWPOKE Well\nAlso known as the Rainmaker Well.\rLocals believe that a SLOWPOKE’s\nyawn summons the rain.\rRecords show that a SLOWPOKE’s yawn\nended a drought 400 years ago.
+SLOWPOKE Well\nAlso known as the Rainmaker Well.\rLocals believe that a SLOWPOKE’s\nyawn summons the rain.\rRecords show that a SLOWPOKE’s yawn\nended a drought 400 years ago.\rPeople also report seeing a mysterious\npurple Pokémon erupting from a stone.
 Charcoal Kiln\rWe let our FARFETCH’D fetch branches\nfor charcoal!
 Who are you?\nYou don’t know us?\rWe are...\nTeam Rocket!\r...What?\nWe broke up a while ago?\rGive me a break!\nWe have not broken up!\rActually we did once.\nBut we have come back to\fpursue Giovanni’s ambition.\rEnough talking.\nShut up and just beat it!\r
 {SIZE 200}Thud!{SIZE 100}\r
 We have this tough guy called Kurt\nin this town.\fHe should be able to take care of it...
 I knew we could count on Kurt!
+Do you want to throw the\nOdd Keystone into the well? {YESNO 0}
+{STRVAR_1 3, 0, 0} threw the Odd Keystone\ninto the well.\r
+The SPIRITOMB calmed down and\nretreated into the well’s depths...
+Yulaaah!\r
+Huh! You found me! Darn!\rJust kidding! I used to be a thief,\nbut then I...\rNo, no way am I saying that!\rBut, kid, thievery isn’t always bad.\nI’ll let you prove it with this!\r
+Thief will allow you to steal an\nitem from your opponent.\rAlthough, they must be holding one,\nand your Pokémon must not!

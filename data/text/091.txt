@@ -4,3 +4,6 @@ Proton: Humph...\nTeam Rocket was indeed broken up\fthree years ago. But we cont
 A SLOWPOKE with its tail cut off...\rHuh? It has Mail. Read it? {YESNO 0}
 {STRVAR_1 3, 0, 0} read the Mail.\rBe good and look after the house\nwith Grandpa and SLOWPOKE.\f           Love, Dad
 A SLOWPOKE with its tail cut off...
+Haha!\nHaha!\rI am Carolyn!\nI am Andrew!\rWe are the Rocket Twins!\nWe are the Rocket Twins!\rPrepare to be crushed!\nPrepare to be crushed!\r
+Carolyn: We’ve been crushed!\nAndrew: We’ve been crushed!
+...

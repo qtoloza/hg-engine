@@ -88,3 +88,18 @@ Bugsy: OK! Let’s take one.\nSmile!\r
 Bugsy: Yay! This is a good one!
 Bugsy: Oh, I see...\nThat’s OK. I’m not sad.
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.
+...\rThis Pokémon seems too shy to respond.\rCould there be some way of coaxing\nit into knowing you don’t mean\fany harm?
+Do you want to try playing the\nAzure Flute? {YESNO 0}
+{STRVAR_1 3, 0, 0} began to play the\nAzure Flute!\r
+Kyuu uuhn.\r
+SHAYMIN responded to the\nAzure Flute!\r
+SHAYMIN ran off...
+Oh là là, zese Ouen Starter Pokémon\nare trés magnifique!\rYet, I have but deux of zem...\rWhat am I to do...
+Oh! You are le champion, non?\rPerhaps you have la Ouen Starter\nI seek?\r
+The Pokémon heading your party...\nIt is not the Pokémon that I wanted...
+Oh là là, that Pokémon heading your\nparty is la Ouen Starter I have\fbeen seeking!\rIt looks simply génial with you!\rOui, I believe I know what I\nmust do. I shall reunite la \fHoenn Starters!\r
+Your party... zit is too full\nfor such wonderous Pokémon...
+{STRVAR_1 3, 0, 0} received {COLOR 2}TORCHIC{COLOR 0} and {COLOR 2}MUDKIP{COLOR 0}\nfrom the foreign lady!
+Merci beaucoup, Trainer!\nAs you say, I bid you adieu!
+{STRVAR_1 3, 0, 0} received {COLOR 2}TREECKO{COLOR 0} and {COLOR 2}MUDKIP{COLOR 0}\nfrom the foreign lady!
+{STRVAR_1 3, 0, 0} received {COLOR 2}TREECKO{COLOR 0} and {COLOR 2}TORCHIC{COLOR 0}\nfrom the foreign lady!

@@ -13,8 +13,8 @@ Did you leave your Pokégear at home?\rYou should ask your mom.
 Yo, {STRVAR_1 3, 0, 0}!\rI hear Professor Elm discovered some\nnew Pokémon.
 ...\rSo this is the famous Elm Pokémon Lab...\r
 ...What are you staring at?\r
-Lyra: {STRVAR_1 3, 0, 0}!\rSo you picked...\n{STRVAR_1 0, 1, 0}!\rThat’s a cute Pokémon you have!\rWhen you walk with it, it’ll become\nmore friendly.\rYou should turn around and talk to it\nsometimes, too.\rOh, that’s right!\nWhy don’t you show it to your mom?\fSee ya!\r
-Ethan: {STRVAR_1 3, 0, 0}!\rSo you picked...\n{STRVAR_1 0, 1, 0}!\rThat’s a cute Pokémon you have!\rWhen you walk with it, it’ll become\nmore friendly.\rYou should turn around and talk to it\nsometimes, too.\rOh, that’s right!\nWhy don’t you show it to your mom?\fSee ya!\r
+Lyra: {STRVAR_1 3, 0, 0}!\rYou got yourself a Pokémon!\rI gotta say, it’s really cute!\rWhen you walk with it, it’ll become\nmore friendly.\rYou should turn around and talk to it\nsometimes, too.\rOh, that’s right!\nWhy don’t you show it to your mom?\fSee ya!\r
+Ethan: {STRVAR_1 3, 0, 0}!\rYou got yourself a Pokémon!\rI gotta say, it’s really cute!\rWhen you walk with it, it’ll become\nmore friendly.\rYou should turn around and talk to it\nsometimes, too.\rOh, that’s right!\nWhy don’t you show it to your mom?\fSee ya!\r
 Professor Elm: Wait one second!\r
 I almost completely forgot\nabout this...\fHere, I’ll give you my number.\r
 {STRVAR_1 3, 0, 0} registered Professor Elm\nin the Pokégear!
@@ -31,7 +31,7 @@ Where do you think you’re going,\n{STRVAR_1 3, 0, 0}?\r
 Where do you think you’re going,\n{STRVAR_1 3, 0, 0}?\r
 Lyra: Hmm... My Pokémon may be\nputting on some weight lately...
 Ethan: Hmm... My Pokémon may be\nputting on some weight lately...
-MARILL: Murfu.\r
+AZUMARILL: Murfu.\r
 New Bark Town\nWinds of a New Beginning
 {STRVAR_1 3, 0, 0}’s House
 Elm Pokémon Lab

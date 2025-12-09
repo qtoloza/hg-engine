@@ -1,24 +1,24 @@
-                                             
-     
-                                                  
-                        
-              
-                            
-                         
-         
-                                
-                             
-         
-                            
-                              
-                 
-                                                                                                        
-                             
-                     
-                                                
-               
-     
-                                 
+
+
+{STRVAR_1 3, 0, 0} found\n{STRVAR_1 8, 1, 0}!
+{STRVAR_1 3, 0, 0} put the {STRVAR_1 8, 1, 0}\nin the {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0} Pocket.
+Obtained the {STRVAR_1 8, 0, 0}!\rToo bad!\nThe Bag is full...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Your Pokémon look pretty tough.\nYou could go anywhere safely.
                       
                     
@@ -28,3 +28,6 @@ Your Pokémon look pretty tough.\nYou could go anywhere safely.
                                            
 Rt. 35\nSouth to Goldenrod City
 North to the National Park\nWest to the Pokéathlon Dome
+{STRVAR_1 3, 0, 0} found\n{STRVAR_1 8, 1, 0}!
+{STRVAR_1 3, 0, 0} put the {STRVAR_1 8, 1, 0}\nin the {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0} Pocket.
+Obtained the {STRVAR_1 8, 0, 0}!\rToo bad!\nThe Bag is full...

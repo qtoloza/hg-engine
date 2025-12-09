@@ -8,3 +8,4 @@ Morty: All right!\nCome and stand next to me.\r
 Morty: Mmmm...\nThis is a pretty good picture!
 Morty: I understand...\nyou must be busy with things.
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.
+Hm? There appears to be\nsomething in this pile of dirt...\r
