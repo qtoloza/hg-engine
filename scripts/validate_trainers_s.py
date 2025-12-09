@@ -156,7 +156,7 @@ def mon_additional_flag_check(trainer, mon, mon_index, flag, key):
 
 
 def trainer_flag_check(trainer, party, flag, key):
-    has_trainer_flag = flag in trainer["trainermontype"]
+    has_trainer_flag = flag in trainer["trainermontype"] or (flag != "TRAINER_DATA_TYPE_ADDITIONAL_FLAGS" and "TRAINER_MON_TYPE_FLAGS" in trainer["trainermontype"])
     all_have_key = all(key in mon for mon in party)
     any_have_key = any(key in mon for mon in party)
 
@@ -179,7 +179,7 @@ def validate_items(trainer, party):
 # this does not use the trainer_flag_check func because it has extra logic for move count
 def validate_moves(trainer, party):
     errors = []
-    has_moves_flag = 'TRAINER_DATA_TYPE_MOVES' in trainer["trainermontype"]
+    has_moves_flag = 'TRAINER_DATA_TYPE_MOVES' in trainer["trainermontype"] or "TRAINER_MON_TYPE_FLAGS" in trainer["trainermontype"]
     all_have_moves = all("move4" in mon for mon in party)
     any_have_moves = any("move1" in mon for mon in party)
     any_have_extra_moves = any("move5" in mon for mon in party)
