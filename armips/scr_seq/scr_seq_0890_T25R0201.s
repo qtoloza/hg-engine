@@ -106,7 +106,7 @@ scr_seq_T25R0201_005:
 	lockall
 	faceplayer
 	npc_msg 54
-	giveitem_no_check ITEM_STICKER_BAG, 1
+	giveitem_no_check ITEM_SOUL_DEW, 1
 	wait_button_or_walk_away
 	closemsg
 	releaseall
