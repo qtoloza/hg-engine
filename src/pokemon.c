@@ -1782,13 +1782,24 @@ bool8 LONG_CALL RevertFormChange(struct PartyPokemon *pp, u16 species, u8 form_n
 u32 gLastPokemonLevelForMoneyCalc;
 
 /**
- *  @brief set the hidden ability specifically for the starter
+ *  @brief set max IVs and the hidden ability specifically for the starter
  *
  *  @param party unused
- *  @param pp PartyPokemon whose hidden ability to set
+ *  @param pp PartyPokemon whose IVs and hidden ability to set
  */
 void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon *pp)
 {
+    // Set max IVs for starter (same as other gift Pokemon)
+    {
+        u8 maxIV = MAX_IVS;
+        SetMonData(pp, MON_DATA_HP_IV, &maxIV);
+        SetMonData(pp, MON_DATA_ATK_IV, &maxIV);
+        SetMonData(pp, MON_DATA_DEF_IV, &maxIV);
+        SetMonData(pp, MON_DATA_SPEED_IV, &maxIV);
+        SetMonData(pp, MON_DATA_SPATK_IV, &maxIV);
+        SetMonData(pp, MON_DATA_SPDEF_IV, &maxIV);
+    }
+
     if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
     {
         SET_MON_HIDDEN_ABILITY_BIT(pp)
