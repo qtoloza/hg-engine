@@ -50,7 +50,7 @@ scr_seq_T27R0801_000:
 _0044:
 	npc_msg 1
 	wait_button
-	goto_if_no_item_space ITEM_DOWSING_MCHN, 1, _0083
+	goto_if_no_item_space ITEM_DOWSING_MACHINE, 1, _0083
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_DOWSING_MACHINE
 	goto _0078

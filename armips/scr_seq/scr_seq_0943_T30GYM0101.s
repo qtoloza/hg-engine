@@ -149,7 +149,7 @@ _0188:
 _018E:
 	goto_if_set FLAG_GOT_TM59_FROM_CLAIR, _01C8
 	npc_msg 6
-	goto_if_no_item_space ITEM_TM59, 1, _01D3
+	goto_if_no_item_space ITEM_TM059, 1, _01D3
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM59_FROM_CLAIR
 	npc_msg 7

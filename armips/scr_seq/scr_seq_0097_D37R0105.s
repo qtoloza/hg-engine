@@ -46,12 +46,12 @@ scr_seq_D37R0105_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	getitemquantity ITEM_CARD_KEY, VAR_SPECIAL_RESULT
+	getitemquantity ITEM_CARD_KEY_JOHTO, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _005B
 	npc_msg 0
 	setflag FLAG_UNK_1C1
-	giveitem_no_check ITEM_CARD_KEY, 1
+	giveitem_no_check ITEM_CARD_KEY_JOHTO, 1
 _005B:
 	npc_msg 2
 	npc_msg 3

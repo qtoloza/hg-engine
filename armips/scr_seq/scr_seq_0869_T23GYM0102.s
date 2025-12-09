@@ -111,7 +111,7 @@ scr_seq_T23GYM0102_001:
 	add_special_game_stat 22
 	npc_msg 3
 _0136:
-	goto_if_no_item_space ITEM_TM89, 1, _016A
+	goto_if_no_item_space ITEM_TM089, 1, _016A
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM89_FROM_BUGSY
 	npc_msg 5

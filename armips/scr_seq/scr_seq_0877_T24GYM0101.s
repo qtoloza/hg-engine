@@ -75,7 +75,7 @@ _00A6:
 	goto _00AF
 
 _00AF:
-	goto_if_no_item_space ITEM_TM01, 1, _00E3
+	goto_if_no_item_space ITEM_TM001, 1, _00E3
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM01_FROM_CHUCK
 	npc_msg 6

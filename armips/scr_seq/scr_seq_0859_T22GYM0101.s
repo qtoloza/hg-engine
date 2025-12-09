@@ -114,7 +114,7 @@ scr_seq_T22GYM0101_001:
 	goto _0126
 
 _0126:
-	goto_if_no_item_space ITEM_TM51, 1, _015E
+	goto_if_no_item_space ITEM_TM051, 1, _015E
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM51_FROM_FALKNER
 	clearflag FLAG_HIDE_NEW_BARK_FRIENDS_ROOM_FRIEND

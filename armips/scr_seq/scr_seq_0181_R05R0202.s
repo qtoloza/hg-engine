@@ -66,7 +66,7 @@ _006E:
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 1
 	goto_if_eq _00E3
-	hasspaceforitem ITEM_TM64, 1, VAR_SPECIAL_RESULT
+	hasspaceforitem ITEM_TM064, 1, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _00F4
 	buffer_players_name 0

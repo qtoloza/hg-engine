@@ -37,7 +37,7 @@ scr_seq_T11R0501_000:
 	faceplayer
 	goto_if_set FLAG_GOT_TM29_FROM_MR_PSYCHIC, _0045
 	npc_msg 0
-	goto_if_no_item_space ITEM_TM29, 1, _0050
+	goto_if_no_item_space ITEM_TM029, 1, _0050
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM29_FROM_MR_PSYCHIC
 _0045:

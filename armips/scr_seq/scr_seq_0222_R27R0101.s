@@ -49,7 +49,7 @@ scr_seq_R27R0101_000:
 
 _003E:
 	npc_msg 1
-	goto_if_no_item_space ITEM_TM37, 1, _0075
+	goto_if_no_item_space ITEM_TM037, 1, _0075
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM37_FROM_ROUTE_27_WOMAN
 _006A:

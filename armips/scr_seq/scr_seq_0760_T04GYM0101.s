@@ -256,7 +256,7 @@ scr_seq_T04GYM0101_000:
 	goto _0307
 
 _0307:
-	goto_if_no_item_space ITEM_TM03, 1, _033E
+	goto_if_no_item_space ITEM_TM003, 1, _033E
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM03_FROM_MISTY
 	buffer_players_name 0

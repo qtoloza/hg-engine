@@ -76,7 +76,7 @@ _0071:
 	wait_movement
 	setflag FLAG_RESTORED_POWER
 	npc_msg 16
-	giveitem_no_check ITEM_TM57, 1
+	giveitem_no_check ITEM_TM057, 1
 	npc_msg 17
 	wait_button_or_walk_away
 	closemsg

@@ -132,7 +132,7 @@ scr_seq_T03GYM0101_000:
 	goto _016C
 
 _016C:
-	goto_if_no_item_space ITEM_TM80, 1, _01AE
+	goto_if_no_item_space ITEM_TM080, 1, _01AE
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM80_FROM_BROCK
 _0195:

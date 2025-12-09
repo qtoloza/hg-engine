@@ -550,7 +550,7 @@ scr_seq_T08GYM0101_001:
 	goto _074F
 
 _074F:
-	goto_if_no_item_space ITEM_TM84, 1, _0794
+	goto_if_no_item_space ITEM_TM084, 1, _0794
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM84_FROM_JANINE
 _0778:

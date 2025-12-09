@@ -56,7 +56,7 @@ _0042:
 	end
 
 _0065:
-	giveitem_no_check ITEM_BICYCLE, 1
+	giveitem_no_check ITEM_BIKE, 1
 	setflag FLAG_UNK_089
 	closemsg
 	touchscreen_menu_show

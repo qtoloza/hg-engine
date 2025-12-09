@@ -174,7 +174,7 @@ _01F8:
 	following_pokemon_movement 48
 	npc_msg 0
 	npc_msg 1
-	goto_if_no_item_space ITEM_TM59, 1, _02A7
+	goto_if_no_item_space ITEM_TM059, 1, _02A7
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM59_FROM_CLAIR
 	npc_msg 3

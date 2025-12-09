@@ -96,7 +96,7 @@ scr_seq_T02GYM0101_000:
 	goto _00F0
 
 _00F0:
-	goto_if_no_item_space ITEM_TM92, 1, _0127
+	goto_if_no_item_space ITEM_TM092, 1, _0127
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM92_FROM_BLUE
 	buffer_players_name 0

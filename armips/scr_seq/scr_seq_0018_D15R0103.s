@@ -144,7 +144,7 @@ scr_seq_D15R0103_002:
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _01A2
 	npc_msg 4
-	giveitem_no_check ITEM_TM70, 1
+	giveitem_no_check ITEM_TM070, 1
 	setflag FLAG_UNK_076
 	setflag FLAG_HIDE_VIOLET_GYM_GYM_GUY_AFTER_SPROUT
 	clearflag FLAG_HIDE_VIOLET_GYM_GYM_GUY_BEFORE_SPROUT
