@@ -1,6 +1,6 @@
 Vermilion Port is Kanto’s\nseaside gateway.\rLuxury liners from around the world\ndock here.
 My Pokémon is preparing the land\nfor construction.\rBut this odd tablet has stopped\nour progress...
-MAKUHITA: Guooh gogogoh!
+Makuhita: Guooh gogogoh!
 There are eight Gyms in Kanto.\rThat big building is Vermilion’s\nPokémon Gym.
 Skilled Trainers gather in Kanto.\nGym Leaders are especially strong.\rThey won’t be easy to defeat.
 You’ve started to collect Kanto\nGym Badges?\rDon’t you agree that the Trainers\nhere are tough?
@@ -12,24 +12,24 @@ Vermilion City\nThe Port of Exquisite Sunsets
 Vermilion City Pokémon Gym\nLeader: Lt. Surge\fThe Lightning American
 Pokémon Fan Club\nAll Pokémon Fans Welcome!
 Vermilion Port Entrance
-Eusine: That was so close!\nI thought I could corner it by\fambushing it here...\rBut running on the water...\nis beyond me.\rStill, I am starting to see a pattern.\fSUICUNE prefers water!\fThat means...\r
+Eusine: That was so close!\nI thought I could corner it by\fambushing it here...\rBut running on the water...\nis beyond me.\rStill, I am starting to see a pattern.\fSuicune prefers water!\fThat means...\r
 Sorry, {STRVAR_1 3, 0, 0}!\nI’ve got to go!\r
 Steven: Oh, hello, {STRVAR_1 3, 0, 0}.\nI wasn’t expecting to find you here!\rHave you had any luck collecting more\nof the Plate items? I’ve read they may\fbe connected to a mysterious place\fcalled the Mystri Stage. Maybe Cynthia\fcan help with that...\r
-Steven: By the way, have you heard of\na Pokémon called LATIAS?\rI’ve been investigating why LATIAS,\na Pokémon from Hoenn, decided to\fleave Hoenn to come here.\r
-Steven: By the way, have you heard of\na Pokémon called LATIOS?\rI’ve been investigating why LATIOS,\na Pokémon from Hoenn, decided to\fleave Hoenn to come here.\r
-LATIAS is a Pokémon that has a lot\nto do with Soul Dew, a gemlike Orb.\rConsidering the fact that LATIAS is now\nin Kanto, it is possible to assume that\fthis has to do with the Soul Dew.\r
-LATIOS is a Pokémon that has a lot\nto do with Soul Dew, a gemlike Orb.\rConsidering the fact that LATIOS is now\nin Kanto, it is possible to assume that\fthis has to do with Soul Dew.\r
-LATIAS is a Pokémon that travels\na great distance.\rIt’ll be difficult to find without any\nmachine to track it with.\rBut any Trainer will be drawn to it,\nwon’t they?\r
-LATIOS is a Pokémon that travels\na great distance.\rIt’ll be difficult to find without any\nmachine to track it with.\rBut any Trainer will be drawn to it,\nwon’t they?\r
+Steven: By the way, have you heard of\na Pokémon called Latias?\rI’ve been investigating why Latias,\na Pokémon from Hoenn, decided to\fleave Hoenn to come here.\r
+Steven: By the way, have you heard of\na Pokémon called Latios?\rI’ve been investigating why Latios,\na Pokémon from Hoenn, decided to\fleave Hoenn to come here.\r
+Latias is a Pokémon that has a lot\nto do with Soul Dew, a gemlike Orb.\rConsidering the fact that Latias is now\nin Kanto, it is possible to assume that\fthis has to do with the Soul Dew.\r
+Latios is a Pokémon that has a lot\nto do with Soul Dew, a gemlike Orb.\rConsidering the fact that Latios is now\nin Kanto, it is possible to assume that\fthis has to do with Soul Dew.\r
+Latias is a Pokémon that travels\na great distance.\rIt’ll be difficult to find without any\nmachine to track it with.\rBut any Trainer will be drawn to it,\nwon’t they?\r
+Latios is a Pokémon that travels\na great distance.\rIt’ll be difficult to find without any\nmachine to track it with.\rBut any Trainer will be drawn to it,\nwon’t they?\r
 Steven: While in the Kanto region, I’ve\nbeen staying in a house in Pewter City.\fYou should come visit, if you have time!\fParticularly if you happen to find that\fPokémon I just mentioned...\rMay our journeys cross again!\r
 Are you looking to challenge the\nVermilion Gym?\rSorry, but our Gym Leader is\ncurrently absent.\rWhy not check out the gyms in\nPewter and Cerulean City?
 Say, isn’t that a Machine Part\nfrom the Power Plant?\nShouldn’t you return it?
 A mysterious structure that has\nsome odd words on it...\r{COLOR 2}Bring here th spir f eo.\nWit and rt, eo shal me...{COLOR 0}\rThe writing is faded, and hard to\nmake out...
 A rush of wind...
-LATIAS: Huaaaaann!\r
-LATIAS: Huaaaaann!\r
+Latias: Huaaaaann!\r
+Latias: Huaaaaann!\r
 The {COLOR 2}Soul Dew{COLOR 0} appears to be reacting\nwith the tablet and sending out a\fsignal...\rIf it attracts an Eon Pokémon, you’ll\nhave {COLOR 1}only one chance{COLOR 0} to challenge\fit before it flies away.\rAre you prepared to continue?
 What’s this? The {COLOR 2}Enigma Stone{COLOR 0} appears\nto be changing form...
 My Pokémon is preparing the land\nfor construction.\rWith that tablet gone, we can\ncontinue our progress!
-LATIOS: Shuaaaann!\r
+Latios: Shuaaaann!\r
 Huh?

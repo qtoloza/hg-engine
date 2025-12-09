@@ -6,7 +6,7 @@ Let a Pokémon hold that Quick Claw.\rSometimes it will strike first\nduring bat
 It’s fun having a Pokémon out of its\nPoké Ball to walk with it,\fbut the Pokéwalker is a whole\fnew dimension.
 My mom can’t take my Pokémon and tells\nme not to play with it indoors.\fBut, hey!\rI can keep it in my Pokéwalker.\nThat way, I’m always with it!
 I take walks in the park, but I\nnever go into the grass.\rTrainers always want to battle...
-PERSIAN: Fufushaa!
+Persian: Fufushaa!
 Huff, puff, huff...\rI am...out of...breath!\nI’ve been running to try\fand charge the Pokéwalker!
                                                             
     
@@ -55,7 +55,7 @@ Abby: Somebody told me that colorful\nPokémon are more likely to win.\fI wonder
 William: I got the Pokémon I wanted,\nso I’m very happy.
                                               
                                               
-Benny: You know what?\nI caught a SCYTHER the other day,\fand I still didn’t win...
+Benny: You know what?\nI caught a Scyther the other day,\fand I still didn’t win...
                                              
                                               
 Barry: You have a better chance to win\nwhen your Pokémon is at a high level.\fBut it seems that there is more\fto winning.
@@ -64,7 +64,7 @@ Barry: You have a better chance to win\nwhen your Pokémon is at a high level.\f
 Cindy: I love Bug-type Pokémon.\rAm I repeating myself?
                                             
                                                      
-Josh: Somebody won the Contest\nwith a CATERPIE!
+Josh: Somebody won the Contest\nwith a Caterpie!
                                                                                     
                                        
 Samuel: Arrgh! I though it would\nscore higher.
@@ -92,14 +92,14 @@ Your Photo Album is full.\rAccess your PC and delete\nsome pictures.
 Do you want to try playing the\nAzure Flute? {YESNO 0}
 {STRVAR_1 3, 0, 0} began to play the\nAzure Flute!\r
 Kyuu uuhn.\r
-SHAYMIN responded to the\nAzure Flute!\r
-SHAYMIN ran off...
+Shaymin responded to the\nAzure Flute!\r
+Shaymin ran off...
 Oh là là, zese Ouen Starter Pokémon\nare trés magnifique!\rYet, I have but deux of zem...\rWhat am I to do...
 Oh! You are le champion, non?\rPerhaps you have la Ouen Starter\nI seek?\r
 The Pokémon heading your party...\nIt is not the Pokémon that I wanted...
 Oh là là, that Pokémon heading your\nparty is la Ouen Starter I have\fbeen seeking!\rIt looks simply génial with you!\rOui, I believe I know what I\nmust do. I shall reunite la \fHoenn Starters!\r
 Your party... zit is too full\nfor such wonderous Pokémon...
-{STRVAR_1 3, 0, 0} received {COLOR 2}TORCHIC{COLOR 0} and {COLOR 2}MUDKIP{COLOR 0}\nfrom the foreign lady!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Torchic{COLOR 0} and {COLOR 2}Mudkip{COLOR 0}\nfrom the foreign lady!
 Merci beaucoup, Trainer!\nAs you say, I bid you adieu!
-{STRVAR_1 3, 0, 0} received {COLOR 2}TREECKO{COLOR 0} and {COLOR 2}MUDKIP{COLOR 0}\nfrom the foreign lady!
-{STRVAR_1 3, 0, 0} received {COLOR 2}TREECKO{COLOR 0} and {COLOR 2}TORCHIC{COLOR 0}\nfrom the foreign lady!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Treecko{COLOR 0} and {COLOR 2}Mudkip{COLOR 0}\nfrom the foreign lady!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Treecko{COLOR 0} and {COLOR 2}Torchic{COLOR 0}\nfrom the foreign lady!

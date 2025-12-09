@@ -5,7 +5,7 @@ This Mail isn’t for me.
 Oh, hey! I got an email!\r...\nHuh?\fI don’t know this Pokémon.\fI’ll just let you take care of it.\r
 {STRVAR_1 3, 0, 0} handed over the Pokémon\nholding the Mail.
 {STRVAR_1 3, 0, 0} handed over the Mail.
-Let’s see...\r“Thank you for your Mail.\nIt was such an exciting adventure.\rI did not like ZUBAT, though...”\nThat’s what it says.\rI went to a dark cave the other day\nwith a friend.\rThat cave leads to another route.\nBy the way, I must thank you for\fbeing so kind.\rI’d like to do something good in return.\r
+Let’s see...\r“Thank you for your Mail.\nIt was such an exciting adventure.\rI did not like Zubat, though...”\nThat’s what it says.\rI went to a dark cave the other day\nwith a friend.\rThat cave leads to another route.\nBy the way, I must thank you for\fbeing so kind.\rI’d like to do something good in return.\r
 TM44 is...\n...Zzz...\f...\r...Umm... Rest!\rThe phrase “recover fast” became\nshortened to “Rest,” you see?\fThis is a move to sleep and recover HP.
 ...I’m\nsleepy...
 ...Wait!\nThat would make you not have\fany Pokémon!

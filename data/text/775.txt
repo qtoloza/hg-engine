@@ -176,7 +176,7 @@ ANY
       
 Please choose a Pokémon location.
 This Pokémon cannot be traded in this\nForme!\r
-Spiky-eared PICHU cannot be offered\nin trade. \r
+Spiky-eared Pichu cannot be offered\nin trade. \r
 This Pokémon cannot be traded while\nholding that item!\r
 O.T.
 There was an error while attempting to\nsend an authentication Wii message.\r

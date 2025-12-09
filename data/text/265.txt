@@ -295,8 +295,8 @@ Hm? It seems like it heard roaring in\nthe distance!
 {STRVAR_1 1, 0, 0} is shivering...
 {STRVAR_1 1, 0, 0} is staring intently at the\nfountain.
 {STRVAR_1 1, 0, 0} is happily looking at the\nfountain!
-{STRVAR_1 1, 0, 0} is glaring at the PERSIAN\nstatue!
-{STRVAR_1 1, 0, 0} is looking at the PERSIAN\nstatue and howling!
+{STRVAR_1 1, 0, 0} is glaring at the Persian\nstatue!
+{STRVAR_1 1, 0, 0} is looking at the Persian\nstatue and howling!
 {STRVAR_1 1, 0, 0} sent a ring-shaped cloud\nof spores into the air!
 {STRVAR_1 1, 0, 0} is sniffing the grass in\nthe pasture.
 {STRVAR_1 1, 0, 0} is staring straight at the\nPokémon League.
@@ -364,7 +364,7 @@ Hm? It seems like it heard roaring in\nthe distance!
 {STRVAR_1 1, 0, 0} yawned loudly!
 {STRVAR_1 1, 0, 0} is poking at your belly.
 {STRVAR_1 1, 0, 0} is staring intently at\n{STRVAR_1 3, 2, 0}’s face.
-{STRVAR_1 1, 0, 0} greeted FARFETCH’D!
+{STRVAR_1 1, 0, 0} greeted Farfetch’d!
 {STRVAR_1 1, 0, 0} can feel a nice, gentle\nbreeze.
 {STRVAR_1 1, 0, 0} is gazing restlessly at\nthe building.
 {STRVAR_1 1, 0, 0} is smelling the grass.
@@ -407,7 +407,7 @@ Hm? It seems like it heard roaring in\nthe distance!
 {STRVAR_1 1, 0, 0} is making its leaf twitch.
 {STRVAR_1 1, 0, 0} is waving its leaf around.
 {STRVAR_1 1, 0, 0} is throwing a leaf around!
-{STRVAR_1 1, 0, 0} seems to want to play with\nMARILL!
+{STRVAR_1 1, 0, 0} seems to want to play with\nMarill!
 {STRVAR_1 1, 0, 0} blew out a fireball.
 {STRVAR_1 1, 0, 0} blew out a couple\nof fireballs.
 {STRVAR_1 1, 0, 0} is breathing out fire!
@@ -735,8 +735,8 @@ Your Pokémon seems concerned that the\nmachine is running.
 {STRVAR_1 1, 0, 0} is looking restlessly at\nthe rock.
 {STRVAR_1 1, 0, 0} is running along the side\nof the pool!
 Why is it doing warm-up exercises?
-{STRVAR_1 1, 0, 0} greeted SLOWBRO!
-{STRVAR_1 1, 0, 0} greeted BAYLEEF!
+{STRVAR_1 1, 0, 0} greeted Slowbro!
+{STRVAR_1 1, 0, 0} greeted Bayleef!
 {STRVAR_1 1, 0, 0} is staring fixedly at\nthe sea.
 {STRVAR_1 1, 0, 0} seems to want to ride in\nthe boat!
 {STRVAR_1 1, 0, 0} seems to want to ride the\ntrain!
@@ -750,7 +750,7 @@ Why is it doing warm-up exercises?
 {STRVAR_1 1, 0, 0} swallowed hard.
 {STRVAR_1 1, 0, 0} is feeling nervous and a\ntouch claustrophobic.
 {STRVAR_1 1, 0, 0} seems to have run into\nsomething!
-{STRVAR_1 1, 0, 0} seems to want to play with\nAIPOM!
+{STRVAR_1 1, 0, 0} seems to want to play with\nAipom!
 {STRVAR_1 1, 0, 0} is rolling a rock around.
 {STRVAR_1 1, 0, 0} swallowed hard.
 {STRVAR_1 1, 0, 0} nodded slowly.

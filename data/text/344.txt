@@ -7,11 +7,11 @@ The generator’s up and running.\nIt’s making electricity to spare.
 The generator’s running again!
 Since the generator’s been fixed, the\nManager has been cheerful.
 All right! We can finally get the\nMagnet Train running again.
-I collect Pokémon.\nDo you have a QUAGSIRE?\rWant to trade it for my PORYGON2? {YESNO 0}
-Yay! I got myself a QUAGSIRE!\nThanks!
-Huh? That’s not QUAGSIRE.\nWhat a letdown...
+I collect Pokémon.\nDo you have a Quagsire?\rWant to trade it for my Porygon2? {YESNO 0}
+Yay! I got myself a Quagsire!\nThanks!
+Huh? That’s not Quagsire.\nWhat a letdown...
 You don’t want to trade? Aww...
-Hi, how’s my old PORYGON2 doing?
+Hi, how’s my old Porygon2 doing?
 Staff Mottos:\r1. Electricity is not infinite.\n2. Conserve wherever possible.\f3. Watch out for each other.\f4. Idle hands are not allowed.\f5. Wear shoes with rubber soles.\f6. The Manager is awesome.
 Use electricity wisely\nfor a bright and pleasant life.\f           Kanto Power Plant
 Pokémon magazines!\rPokémon Pal...\nPokémon Handbook...\rAdorable Pokémon...\rHm? There appears to be\nsomething between the books...\r

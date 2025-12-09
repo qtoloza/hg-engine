@@ -1,10 +1,10 @@
 You came from Olivine?\rDo you remember the four islands\nalong the way?\rI heard that a mythical sea creature is\nhiding in them.
-GLIGAR: Guraiiga!
-SNEASEL: Nyulaa!
-Hey, kid! Isn’t GLIGAR the\nbest Pokémon? {YESNO 0}
-You agree? Awesome. You should raise\nyour very own GLIGAR.\rThen use this to evolve it!\r
-Equip that item to a GLIGAR and level it\nup at night. It should evolve into a\ffabulous GLISCOR!
-Hey, kid! Isn’t SNEASEL the\nbest Pokémon? {YESNO 0}
-You agree? Awesome. You should raise\nyour very own SNEASEL.\rThen use this to evolve it!\r
-Equip that item to a SNEASEL and level\nit up at night. It should evolve into\fan extravagant Weavile!
+Gligar: Guraiiga!
+Sneasel: Nyulaa!
+Hey, kid! Isn’t Gligar the\nbest Pokémon? {YESNO 0}
+You agree? Awesome. You should raise\nyour very own Gligar.\rThen use this to evolve it!\r
+Equip that item to a Gligar and level it\nup at night. It should evolve into a\ffabulous Gliscor!
+Hey, kid! Isn’t Sneasel the\nbest Pokémon? {YESNO 0}
+You agree? Awesome. You should raise\nyour very own Sneasel.\rThen use this to evolve it!\r
+Equip that item to a Sneasel and level\nit up at night. It should evolve into\fan extravagant Weavile!
 You don’t think so?\rAt first, I was overjoyed to see you.\rNow, I only want you gone!

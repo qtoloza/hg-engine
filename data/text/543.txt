@@ -73,23 +73,23 @@ Professor Elm: {STRVAR_1 3, 0, 0}!\nThere you are!\rI called because I have some
 Professor Elm: {STRVAR_1 3, 0, 0}!\nThere you are!\rI called because I have something\nfor you.\rSee? It’s an S.S. Ticket.\nNow you can catch Pokémon in Kanto.\r
 Professor Elm: The Ticket will let you\ntake the Fast Ship that departs\ffrom Olivine City.\rBut you knew that already,\n{STRVAR_1 3, 0, 0}.\rAfter all, you’ve adventured all over\nwith your Pokémon.\rGive my regards to Professor Oak\nin Kanto!
 Professor Elm: The Ticket will let you\ntake the Fast Ship that departs\ffrom Olivine City.\rBut you knew that already,\n{STRVAR_1 3, 0, 0}.\rAfter all, you’ve adventured all over\nwith your Pokémon.\rGive my regards to Professor Oak\nin Kanto!
-Professor Elm: That is quite a\nrare PICHU!\fCan I take a look at it closely?\r
+Professor Elm: That is quite a\nrare Pichu!\fCan I take a look at it closely?\r
 Hmm...\nOne of the ears is spiky...\fThat’s strange.\fThere seems to be something more to it.\rIt really is a rare sight.\r
-You met it at the Ilex Forest?\rA mysterious Pokémon called CELEBI\nhas been sighted there, or so I heard.\r
+You met it at the Ilex Forest?\rA mysterious Pokémon called Celebi\nhas been sighted there, or so I heard.\r
 Speaking of that...\r
-Professor Oak once wrote about\nCELEBI and {COLOR 1}Time Travel{COLOR 0} in a research\fpaper he presented at a conference!\r
-Professor Elm: CELEBI can use its\nmystic power called {COLOR 1}Time Travel{COLOR 0}...to\ftravel to the past and future.\r
-If this PICHU has traveled through\ntime, perhaps you should take\fextra care of it, {STRVAR_1 3, 0, 0}.\rIt seems that this PICHU has been\naffected by traveling so far through\ftime with CELEBI.\rI’ll inform the Pokémon Center of it.\rThe lady at the reception should be\nable to tell you if anything may affect\fthat PICHU.
-If this PICHU has traveled through\ntime, perhaps you should take\fextra care of it, {STRVAR_1 3, 0, 0}.\rIt seems that this PICHU has been\naffected by traveling so far through\ftime with CELEBI.\rI’ll inform the Pokémon Center of it.\rThe lady at the reception should be\nable to tell you if anything may affect\fthat PICHU.
-Professor Elm: This PICHU doesn’t\nseem like a regular PICHU.\fI’ll find out more about it.
+Professor Oak once wrote about\nCelebi and {COLOR 1}Time Travel{COLOR 0} in a research\fpaper he presented at a conference!\r
+Professor Elm: Celebi can use its\nmystic power called {COLOR 1}Time Travel{COLOR 0}...to\ftravel to the past and future.\r
+If this Pichu has traveled through\ntime, perhaps you should take\fextra care of it, {STRVAR_1 3, 0, 0}.\rIt seems that this Pichu has been\naffected by traveling so far through\ftime with Celebi.\rI’ll inform the Pokémon Center of it.\rThe lady at the reception should be\nable to tell you if anything may affect\fthat Pichu.
+If this Pichu has traveled through\ntime, perhaps you should take\fextra care of it, {STRVAR_1 3, 0, 0}.\rIt seems that this Pichu has been\naffected by traveling so far through\ftime with Celebi.\rI’ll inform the Pokémon Center of it.\rThe lady at the reception should be\nable to tell you if anything may affect\fthat Pichu.
+Professor Elm: This Pichu doesn’t\nseem like a regular Pichu.\fI’ll find out more about it.
 Professor Elm: Hi, {STRVAR_1 3, 0, 0}!\r
 Professor Elm: Hi, {STRVAR_1 3, 0, 0}!\r
-Oh, wow, your Spiky-eared PICHU seems\nto like you a lot already, {STRVAR_1 3, 0, 0}.\r
-Oh, wow, your Spiky-eared PICHU seems\nto like you a lot already, {STRVAR_1 3, 0, 0}.\r
-Something’s funny...\nI would expect it to evolve into\fPIKACHU since it likes its Trainer\fthis much...\r
+Oh, wow, your Spiky-eared Pichu seems\nto like you a lot already, {STRVAR_1 3, 0, 0}.\r
+Oh, wow, your Spiky-eared Pichu seems\nto like you a lot already, {STRVAR_1 3, 0, 0}.\r
+Something’s funny...\nI would expect it to evolve into\fPikachu since it likes its Trainer\fthis much...\r
 Let me see...\rHmm...\rCould it be...\rJust as I thought!\r
-It seems that this PICHU will never\nevolve. It’s so strange!\rIts structure and the traveling\nthrough time must have affected\fits DNA.\rI’ve never heard of a Pokémon that\ndoesn’t evolve when it’s\fsupposed to...!
-Professor Elm: Your Spiky-eared PICHU\nlooks just fine!\rI’ve never heard of a Pokémon that\ndoesn’t evolve when it’s\fsupposed to.\fPlease take good care of it.
+It seems that this Pichu will never\nevolve. It’s so strange!\rIts structure and the traveling\nthrough time must have affected\fits DNA.\rI’ve never heard of a Pokémon that\ndoesn’t evolve when it’s\fsupposed to...!
+Professor Elm: Your Spiky-eared Pichu\nlooks just fine!\rI’ve never heard of a Pokémon that\ndoesn’t evolve when it’s\fsupposed to.\fPlease take good care of it.
 Would you like to heal\nyour Pokémon? {YESNO 0}
 {STRVAR_1 3, 0, 0} opened a book.\rTravel Tip 1: Touch the A Button\nicon on the Touch Screen.\rYou can check things, talk to people,\nand so on.
 {STRVAR_1 3, 0, 0} opened a book.\rTravel Tip 2: The Trainer Card is the\nidentification card for you as a Trainer\fto travel with your Pokémon.\rRecord your adventure with SAVE!

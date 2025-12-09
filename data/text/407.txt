@@ -15,7 +15,7 @@ Defeat us?\nWe’ll see about that, punk!\r
 ...Gah!\nRetreat!
 Mira: Thanks! There’s more of Team\nRocket up ahead, though.\rMira will heal your Pokémon!\r
 Mira: Keep going! There’s even more\nTeam Rocket members ahead!
-ALAKAZAM: Kazaa!
+Alakazam: Kazaa!
 This Team Rocket designed boulder\nrefuses to budge!
 Upon inspection, the boulder cracked\nand shattered.
 Buck: Aha! I was wondering when you\nwould arrive!\rWe came to help, but there’s more of\nthese Rocket goons than we can handle\falone... But, now you’re here!\rLet’s take ’em down!\r
@@ -23,19 +23,19 @@ Brats! Rats! Gnats!\r
 Yaa! Master Archer won’t be happy\nwith us...
 Buck: Ehehehe! That was a smoking-hot\nbattle! It’s not over yet, though!\rLemme heal your Pokémon!\r
 Buck: Baoba is still in the Safari\nZone Gate. You better help him!
-CLAYDOL: Cuuwaydol!
+Claydol: Cuuwaydol!
 Cheryl: Ah, you must be {STRVAR_1 3, 0, 0}.\rI was told of your arrival, but I’m\nsurprised to see you so soon!\rMay we defeat these goons?\r
 The Safari Zone is ours!\nYou aren’t taking it back!\r
 No way! How did we get beaten?
 Cheryl: Thank you for your help.\nYou have my gratitude.\rI’ll heal your Pokémon as thanks!\r
 Cheryl: The Safari Zone must be saved!
-BLISSEY: Buhliss!
+Blissey: Buhliss!
 Marley: I’ve been waiting for you...\rWe were able to hold them off...\nBut we couldn’t defeat them...\fBut now you’re here... We can.\fThat makes me happy...\rNow, we should defeat these people...\r
 Some shy girl and a kid aren’t\ngoing to beat us!\r
 Ayeeh! What just happened!?
 Marley: Thank you... I appreciate it...\nJust a bit...\rI’ll heal your Pokémon up...\r
 Marley: Bye-bye...\nYou’re almost there...
-ARCANINE: Arrrrrrrrr!
+Arcanine: Arrrrrrrrr!
 Ariana: Hold it!\rYou’ve gone far enough on this heroic\njourney. Get ready for a thrashing!\r
 Ariana: Tch... For a brat, you’re\nvery strong. I must inform Archer...
 Marley: Were you expecting a\ndouble battle...?\rI already beat the Rockets...

@@ -1,11 +1,11 @@
-Bill: Hi, {STRVAR_1 3, 0, 0}! Would you do me a\nfavour and take this CASTFORM?\rIt’s a rare Pokémon I obtained back\nin the days when I was a Collector.\rSomeone has to take care of it,\nbut I don’t really have the time.\rCan I count on you to play with it,\n{STRVAR_1 3, 0, 0}? {YESNO 0}
+Bill: Hi, {STRVAR_1 3, 0, 0}! Would you do me a\nfavor and take this Castform?\rIt’s a rare Pokémon I obtained back\nin the days when I was a Collector.\rSomeone has to take care of it,\nbut I don’t really have the time.\rCan I count on you to play with it,\n{STRVAR_1 3, 0, 0}? {YESNO 0}
 Bill: I knew you’d come through!\nYou’re the real deal! Way to go!\fOK, I’m counting on you.\fTake good care of it!\r
-{STRVAR_1 3, 0, 0} received\nthe CASTFORM!
-Bill: I received CASTFORM as a gift\nfor helping the Weather Institute in\fthe Hoenn region with some problems.\rI swear they give them out\nby the dozen...
+{STRVAR_1 3, 0, 0} received\nthe Castform!
+Bill: I received Castform as a gift\nfor helping the Weather Institute in\fthe Hoenn region with some problems.\rI swear they give them out\nby the dozen...
 Whoa, wait. You can’t carry any\nmore Pokémon.
 Oh... Now what to do?
 Bill: I used to do experiments on\ntransferring things.\rBoth the GTS and Nintendo Wi-Fi\nConnection were inspired by\fmy machine that transfers things!
-Give a nickname to\nthe CASTFORM you received? {YESNO 0}
+Give a nickname to\nthe Castform you received? {YESNO 0}
 
 Oh, you collect Pokémon?\nMy son Bill is an expert.\rHe just got called to the Pokémon\nCenter in Ecruteak City.
 Whatever happens, it makes me happy\nto see my own son.

@@ -39,6 +39,6 @@ A squeaky-clean sink!\nMom loves having it clean.
 What’s in the fridge...?\rLots of drinking water and\nsweeeet lemonade!
 The TV screen is filled with static...\nGive it a thump?
 {STRVAR_1 3, 0, 0} thumped the TV set.\r
-ROTOM disappeared into the TV...\rBut interference still remains!
+Rotom disappeared into the TV...\rBut interference still remains!
 The TV set returned to normal.\nThe movie is still on!
 A Pokémon seems to be coming out!\r

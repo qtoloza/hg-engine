@@ -1,4 +1,4 @@
-A bunch of DIGLETT popped out of the\nground! That was surprising!
+A bunch of Diglett popped out of the\nground! That was surprising!
 Brock: Small spaces surrounded by\nrocks make you feel peaceful,\fdon’t you agree?\rBy the way, do you want to\nexchange numbers? {YESNO 0}\n
 {STRVAR_1 3, 0, 0} registered Brock\nin the Pokégear!
 Brock: I would love to have a Pokémon\nbattle against you!\fGive me a call on Saturday nights!
@@ -9,12 +9,12 @@ Brock: All righty!\nStand next to me and relax!\r
 Brock: Yes!\nAnother great memory!
 Brock: Well...\nThat’s OK.
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.
-Brock: Hi, {STRVAR_1 3, 0, 0}!\nHave you seen a Pokémon called BONSLY?\rThey say you have to get it from\nan Egg...\rI am having a hard time finding one.\nIf you happen to have a BONSLY,\fcould you trade it for my RHYPERIOR? {YESNO 0}
-Brock: Hi, {STRVAR_1 3, 0, 0}!\nHave you seen a Pokémon called BONSLY?\rThey say you have to get it from an\nEgg...\rI am having a hard time finding one.\nIf you happen to have a BONSLY,\fcould you trade it for my RHYPERIOR? {YESNO 0}
+Brock: Hi, {STRVAR_1 3, 0, 0}!\nHave you seen a Pokémon called Bonsly?\rThey say you have to get it from\nan Egg...\rI am having a hard time finding one.\nIf you happen to have a Bonsly,\fcould you trade it for my Rhyperior? {YESNO 0}
+Brock: Hi, {STRVAR_1 3, 0, 0}!\nHave you seen a Pokémon called Bonsly?\rThey say you have to get it from an\nEgg...\rI am having a hard time finding one.\nIf you happen to have a Bonsly,\fcould you trade it for my Rhyperior? {YESNO 0}
 Brock: All right!\nLet’s trade!\r
 Brock: I thought you might have one,\nbut I guess it’s not that easy...\rIf you find one, remember to trade\nwith me, OK?
-Brock: I am looking for BONSLY.\nAre you saying you’ll trade\fit for my RHYPERIOR? {YESNO 0}
-Brock: Thank you!\nI have been looking for BONSLY!\rThe RHYPERIOR I gave you knows the move\nFissure! It rarely learns that move!\rI’m so proud of it, because it can\ntake down loads of Pokémon that\fare usually a tough matchup.\rTake good care of it for me!
-Brock: The RHYPERIOR I gave you knows the move\nFissure! It rarely learns that move!\rI’m so proud of it, because it can\ntake down loads of Pokémon that\fare usually a tough matchup.\rTake good care of it for me!\n\n
-Brock: Hey, now!\nThat is not a BONSLY!
+Brock: I am looking for Bonsly.\nAre you saying you’ll trade\fit for my Rhyperior? {YESNO 0}
+Brock: Thank you!\nI have been looking for Bonsly!\rThe Rhyperior I gave you knows the move\nFissure! It rarely learns that move!\rI’m so proud of it, because it can\ntake down loads of Pokémon that\fare usually a tough matchup.\rTake good care of it for me!
+Brock: The Rhyperior I gave you knows the move\nFissure! It rarely learns that move!\rI’m so proud of it, because it can\ntake down loads of Pokémon that\fare usually a tough matchup.\rTake good care of it for me!\n\n
+Brock: Hey, now!\nThat is not a Bonsly!
 After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

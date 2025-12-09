@@ -24,6 +24,6 @@ We take a step back when we are\ndefeated...\rDon’t you think we are downright
 We take a step back when we are\ndefeated...\rDon’t you think we are downright\nhonest?\rNever put us in the same category as\nScientists who help bad guys.\r
 Yo! Legend in the making!\rThis Gym has many Trainers and rocks\nin the way from the rebuilding.\fIt sure won’t be easy to get to Blaine!\rBut keep your cool and defeat the\nTrainers one by one, and you will surely\ffind the path!
 The Gym Leader rebuilding his Gym and\nthe Trainer from Johto who has come to\fchallenge that Gym Leader...\rI have witnessed a hot battle!
-MOLTRES flew off...
+Moltres flew off...
 Blaine: I’ll give you my number for\nwhen that eventually happens!\r... ... ...\r
 {STRVAR_1 3, 0, 0} registered Blaine\nin the Pokégear!

@@ -7,4 +7,4 @@ What’s up?\nNeed some medicine? {YESNO 0}
 
 
 
-I apologise, but we’re waiting for\nsupplies. Could you come back later?
+I apologize, but we’re waiting for\nsupplies. Could you come back later?

@@ -8,7 +8,7 @@ Hello?\rHi, {STRVAR_1 3, 0, 0}! If you’re done with\nyour errand, come on home
 Hello?\rOh, hi, {STRVAR_1 3, 0, 0}!\nWhat’s going on? How are you getting\falong with your Pokémon?\rYou know, I’ve found that if you’re\naffectionate to your Pokémon, they\frespond in kind.\r
 Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nYou’re visiting Cherrygrove City?\rYou know, you’re pretty close...\nHow about coming home for a bit?\r
 Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nOh, so you’re in Violet City...\rIsn’t that where Sprout Tower\nis? Did you go take a look?\r
-Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nOh, so you’re in Azalea Town...\rIsn’t that where the SLOWPOKE Well\nis? Did you go take a look?\r
+Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nOh, so you’re in Azalea Town...\rIsn’t that where the Slowpoke Well\nis? Did you go take a look?\r
 Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nOh, so you’re in Cianwood City...\rIsn’t that where they’re building that\nSafari Zone? Is it open yet?\r
 Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nOh, so you’re in Goldenrod City...\rIsn’t that where the Radio Tower\nis? Did you go take a look?\r
 Hello?\rOh, hi, {STRVAR_1 3, 0, 0}! Working hard?\nOh, so you’re in Olivine City...\rIsn’t that where that big Lighthouse\nis? Did you go take a look?\r

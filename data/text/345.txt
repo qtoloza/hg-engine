@@ -6,11 +6,11 @@ Someone made off with a part that’s\nessential for the generator.\rWithout it,
 This Power Plant had been abandoned in\nthe past.\rWe got it back up and running to provide\npower to the Magnet Train.
 The Power Plant’s Manager is up ahead.\rBut since someone wrecked the\ngenerator, he’s been both sad and,\fat times, furious...\rSometimes he would burst out laughing\nout of desperation.\fWe’ve had to go through so much...
 The Magnet Train consumes a lot\nof electricity.\rIt can’t move if the new generator\nisn’t operating.
-I collect Pokémon.\nDo you have a QUAGSIRE?\rWant to trade it for my PORYGON2? {YESNO 0}
-Yay! I got myself a QUAGSIRE!\nThanks!
-Huh? That’s not QUAGSIRE.\nWhat a letdown...
+I collect Pokémon.\nDo you have a Quagsire?\rWant to trade it for my Porygon2? {YESNO 0}
+Yay! I got myself a Quagsire!\nThanks!
+Huh? That’s not Quagsire.\nWhat a letdown...
 You don’t want to trade? Aww...
-Hi, how’s my old PORYGON2 doing?
+Hi, how’s my old Porygon2 doing?
 Manager: I-I-I’m ready to blast\nsomething!\rWho would dare steal a part from the\ngenerator?\rI spent so much time fixing it!\nIf I catch him, he’s going to see\fwhat I can do with my Charge Beam!
 Manager: Ah! Yeah!\nThe thing you have...\rIs that the part that was stolen from\nmy beloved generator?\rYou found it?\nThank you so much!\rNow, all I have to do is...\nattach this part here...\r
 Manager: Whirrrrrr!\rYes, it’s running!\nWhirrr, whirrr!\r

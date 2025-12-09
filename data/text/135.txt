@@ -28,18 +28,18 @@ Please enjoy the Area Customizer!
 {STRVAR_1 3, 0, 0} turned on\nthe Area Customizer!\r
 It is still under development.
 Huzzah! Thank you for defeating Team\nRocket! What a nightmare.\rI owe you my gratitude.\rNow, if I can resume what I was\ngoing to say...\rHi, I have been waiting for you!\nWhat do you think?\rThis is a brand-new Safari Zone.\nBy the way...\rI just had an idea.\nWould you like to take the Owner\fAptitude Test? {YESNO 0}
-Right on!\nLet me explain how the test works.\fIt’s very easy.\rAll you have to do is to catch one\nGEODUDE at the Safari and show it to me.\rThey are in the grass closest to the\nentrance. It shouldn’t take long\fbefore you catch one.\rGood luck!
+Right on!\nLet me explain how the test works.\fIt’s very easy.\rAll you have to do is to catch one\nGeodude at the Safari and show it to me.\rThey are in the grass closest to the\nentrance. It shouldn’t take long\fbefore you catch one.\rGood luck!
 Wow, I never thought anyone\nwould decline!\rYou can become the Safari Zone Owner,\ndon’t you see?\rOwner...\nIt’s got a nice ring to it, doesn’t it?\rYou should try the test! {YESNO 0}
-Oh, wonderful!\nYou’ve caught a GEODUDE!\fYou’ve passed the first test.\r..................\rHuh? Didn’t I tell you that there are\ntwo tests?\rThat’s right!\nBecoming an owner is not that easy.\rThe second test is...\nWell, I am still preparing for it.\rI will let you know once it’s ready.\nYou need to wait just a little.\fI will call you with the Pokégear.
-Show me the GEODUDE once you’ve\ncaught one.\rThey are in the grass closest to the\nentrance. It shouldn’t take long.\rGood luck!
-I’ve been waiting for you!\nThe test is ready.\rThis time can you catch a SANDSHREW\nand show it to me?\rSounds easy, right? Not really!\nSANDSHREW will not appear with the\fcurrent Safari Zone setting.\rAnd that’s where this comes in handy!\r
+Oh, wonderful!\nYou’ve caught a Geodude!\fYou’ve passed the first test.\r..................\rHuh? Didn’t I tell you that there are\ntwo tests?\rThat’s right!\nBecoming an owner is not that easy.\rThe second test is...\nWell, I am still preparing for it.\rI will let you know once it’s ready.\nYou need to wait just a little.\fI will call you with the Pokégear.
+Show me the Geodude once you’ve\ncaught one.\rThey are in the grass closest to the\nentrance. It shouldn’t take long.\rGood luck!
+I’ve been waiting for you!\nThe test is ready.\rThis time can you catch a Sandshrew\nand show it to me?\rSounds easy, right? Not really!\nSandshrew will not appear with the\fcurrent Safari Zone setting.\rAnd that’s where this comes in handy!\r
 This sophisticated, high-tech machine\nlets you customize Safari Zone Areas.\fI call it the Area Customizer!\rYou want to know how it works,\ndon’t you?\fIt’s a...secret!\rWell, you shouldn’t have trouble\noperating it. Just talk to the staff\fnext to me!\r
-I almost forgot!\rI was in the middle of explaining\nthe second test, wasn’t I?\rYou will not see SANDSHREW\nwith the current Safari Zone Areas,\rso you have to use the Area Customizer\nto change them.\rSANDSHREW live in the desert!\nGood luck!
-You did it!\rYou caught a SANDSHREW!\nI knew you could do it.\rYou’ve passed the test!\nYou are now the Safari Zone Owner!\r
+I almost forgot!\rI was in the middle of explaining\nthe second test, wasn’t I?\rYou will not see Sandshrew\nwith the current Safari Zone Areas,\rso you have to use the Area Customizer\nto change them.\rSandshrew live in the desert!\nGood luck!
+You did it!\rYou caught a Sandshrew!\nI knew you could do it.\rYou’ve passed the test!\nYou are now the Safari Zone Owner!\r
 I’ve always wanted to see young people\nplaying at the safari!\rI thought I might get some new ideas.\nThat should help you complete your\fPokédex.\rThat’s what I have been thinking.\r
 By the way, though you are now the\nSafari Zone Owner, would you kindly\fcontinue to pay admission?\fWe have our reasons.\rDon’t be upset. I’ll keep thinking about\nhow I can create new fun ways to\fhelp you complete your Pokédex.\rGo have fun at the Safari Zone!
 I will let you know as soon as I come up\nwith something new, using the Pokégear!
-Show me the SANDSHREW once you’ve\ncaught one. SANDSHREW live in the\fdesert! Good luck!
+Show me the Sandshrew once you’ve\ncaught one. Sandshrew live in the\fdesert! Good luck!
 Slow down.\rOnce the next test is ready, I will call\nyou using the Pokégear.\rGive me some time, OK?
 Hi, I have been waiting for you!\rI had an epiphany!\nA new attraction!\rI’ve decided to call it...\nObject Arrangement!\rThis is going to be fun!\nYou can place objects on the field as\fyou play at the Safari Zone!\r
 Not only that, but the types of\nPokémon you see will change depending\fon the types of objects you place.\rIsn’t it amazing?\nI will call you using the Pokégear if\fsomething else comes up!\r

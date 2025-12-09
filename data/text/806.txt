@@ -28,7 +28,7 @@ Il devient agressif lorsque son\ncorps contient trop d’électricité.\nIl la d
 Il vit sur des terres arides\népargnées par la pluie. Il se roule\nen boule pour se protéger.
 Il se met en boule pour percuter\nl’ennemi. Ses épines aiguisées\nfont beaucoup de dégâts.
 Bien qu’il rechigne à se battre,\nune goutte du poison sécrété par\nses piquants peut s’avérer fatale.
-Ce Pokémon dresse ses piquants\nen cas de danger. Ils poussent\nmoins vite que ceux de NIDORINO.
+Ce Pokémon dresse ses piquants\nen cas de danger. Ils poussent\nmoins vite que ceux de Nidorino.
 Son corps est recouvert d’écailles\nsolides. Il donnera sa vie pour\nsecourir les petits de son terrier. 
 Il jauge le terrain en laissant\nses oreilles dépasser de l’herbe.\nIl se défend avec sa corne toxique.
 D’un tempérament violent, il\nempale l’ennemi sur sa corne qui\ndistille un poison puissant.
@@ -44,8 +44,8 @@ Il aime le sang des humains et des\nPokémon. Il erre la nuit en quête\nd’un 
 En journée, il plante ses pieds-\nracines dans le sol. La nuit, il se \npromène en semant des graines.
 L’odeur du nectar de sa bouche \nest si répugnante qu’elle agresse\nles narines à deux kilomètres.
 Ses pétales sont les plus grands\ndu monde. Il marche en répandant\nun pollen extrêmement allergène.
-Des champignons appelés\n“tochukaso” poussent sur son dos.\nIls évoluent avec le PARAS hôte.
-Un champignon parasite plus gros\nque PARASECT contrôle son corps.\nIl répand des spores empoisonnées.
+Des champignons appelés\n“tochukaso” poussent sur son dos.\nIls évoluent avec le Paras hôte.
+Un champignon parasite plus gros\nque Parasect contrôle son corps.\nIl répand des spores empoisonnées.
 Ses grands yeux sont en fait\ndes amas d’yeux minuscules. La\nnuit, il est attiré par la lumière.
 Il répand ses écailles poudreuses\nen battant des ailes. Elles sont\ntoxiques au toucher.
 Un Pokémon qui vit sous terre.\nHabitué aux souterrains, il fuit la\nlumière du jour.
@@ -83,7 +83,7 @@ Ses extrémités génèrent les vagues\nélectromagnétiques qui le font\nvoler.
 Il est formé de trois MAGNETI liés\npar magnétisme. En groupe, ils\ndéclenchent un orage magnétique.
 Il ne peut pas vivre sans son\nlégume, c’est pourquoi il le\nprotégera au péril de sa vie.
 Ses deux cerveaux semblent\ncommuniquer leurs émotions\ngrâce à un lien télépathique.
-Quand DODUO connaît cette étrange\névolution, l’une de ses têtes se \ndédouble. Il atteint les 60 km/h.
+Quand Doduo connaît cette étrange\névolution, l’une de ses têtes se \ndédouble. Il atteint les 60 km/h.
 Un habitant des icebergs. \nEn mer, il utilise la corne sur \nsa tête pour briser la banquise.
 Son corps est couvert d’un grand\nmanteau blanc qui, dans la neige, le\ndissimule aux yeux des prédateurs.
 Il est né d’un torrent de boue\nexposé aux rayons X de la lune.\nIl vit dans les ordures.
@@ -148,7 +148,7 @@ L’un des Pokémon Oiseaux\nlégendaires. On dit que sa venue\nannonce l’arri
 On l’appelle “Pokémon mirage”\nen raison de sa rareté. On a\ndécouvert sa mue.
 La météo change brusquement quand\nil est entouré d’une aura. On dit\nqu’il peuple les mers et les lacs.
 On raconte qu’il vit quelque part\nen mer. Il guide les équipages\nnaufragés jusqu’à la terre ferme.
-Un Pokémon conçu en recombinant\nles gènes de MEW. On raconte qu’il\ns’agit du Pokémon le plus féroce.
+Un Pokémon conçu en recombinant\nles gènes de Mew. On raconte qu’il\ns’agit du Pokémon le plus féroce.
 Nombre de scientifiques voient en\nlui l’ancêtre des Pokémon car il\nmaîtrise toutes leurs capacités.
 Il jauge la température et\nl’humidité grâce à la feuille sur sa\ntête. Il raffole des bains de soleil.
 Le collier de bourgeons à son cou\nrépand un arôme épicé qui vous\ndonne du tonus.
@@ -169,7 +169,7 @@ Il tisse une toile fine mais solide\npour poser des pièges et se poste\ndans l�
 Il attache un fil à sa proie avant\nde la libérer. Il s’en servira pour\nla retrouver, elle et ses amis.
 Il vole rapidement et sans faire\nde bruit grâce à ses quatre ailes.\nC’est un Pokémon nocturne.
 Il envoie des décharges électriques\npositives et négatives du bout de ses\nantennes pour paralyser sa proie.
-La lumière de LANTURN surgit des\nprofondeurs. On le surnomme\n“étoile des profondeurs”.
+La lumière de Lanturn surgit des\nprofondeurs. On le surnomme\n“étoile des profondeurs”.
 Les poches sur ses joues sont\nencore trop petites pour\naccumuler beaucoup d’électricité.
 Sa silhouette rappelle une étoile.\nOn dit qu’il descend sur terre\nen chevauchant une étoile filante.
 Son corps est doux et élastique.\nQuand il commence à rebondir,\non ne peut plus l’arrêter.
@@ -313,7 +313,7 @@ Il absorbe l’énergie des poteaux\nélectriques et encourage ses amis\navec de
 Il encourage ses amis. Son corps\nproduit plus d’étincelles quand il\nest en mauvaise posture.
 Il communique avec ses pairs en\nallumant son postérieur la nuit. Il\nadore le doux parfum de LUMIVOLE.
 Il utilise son doux parfum pour\naider MUCIOLE à décrire des\narabesques dans le ciel nocturne.
-Les ROSELIA élevés avec une\neau claire et potable font de\nravissantes fleurs bariolées.
+Les Roselia élevés avec une\neau claire et potable font de\nravissantes fleurs bariolées.
 Il est principalement composé d’un\nestomac dont les sucs digestifs\ndissolvent tout ce qu’il avale.
 Il avale tout en une bouchée. Ses\nfollicules sécrètent des fluides\ntoxiques qui endorment l’ennemi.
 Il attaque en banc quand on menace\nson territoire. Ses dents aiguisées\npeuvent percer la coque d’un navire.
@@ -325,7 +325,7 @@ Il porte des volcans sur son dos.\nQuand le magma remonte, il\nfrissonne et entr
 Il tire son énergie du charbon qu’il\nbrûle dans sa carapace et crache\nde la suie noire en cas de danger.
 Il utilise sa queue comme un \nressort et bondit partout. Chaque\nnouveau choc fait battre son cœur.
 Les perles noires amplifient ses \npouvoirs psy. Sa danse étrange lui\npermet de contrôler ses ennemis.
-Les motifs sur leur fourrure sont\npropres à chaque SPINDA. Son pas\nchancelant le rend difficile à viser.
+Les motifs sur leur fourrure sont\npropres à chaque Spinda. Son pas\nchancelant le rend difficile à viser.
 Il creuse un trou conique dans le\nsable du désert et se terre en\nattendant qu’une proie trébuche.
 Ses violents battements d’ailes\ngénèrent des vagues d’ultrasons\nqui donnent mal au crâne.
 Son puissant battement d’ailes\nprovoque des tempêtes de sable.\nOn l’appelle “esprit du désert”.
@@ -333,7 +333,7 @@ En stockant l’eau dans son corps,\ncet habitant du désert peut \nsurvivre 30 
 Il sort la nuit pour chasser. Il\ntraque les proies épuisées après\nune journée dans le désert.
 Ses ailes sont comme des balles\nde coton. Perché sur la tête de \nquelqu’un, on dirait un chapeau.
 En vol, il ressemble à un nuage\ncotonneux. Il fredonne d’une voix\nde soprano.
-C’est le rival de SEVIPER depuis\ndes générations. Ses griffes\naiguisées sont son meilleur atout.
+C’est le rival de Seviper depuis\ndes générations. Ses griffes\naiguisées sont son meilleur atout.
 Le rival historique de MANGRIFF.\nIl affûte la lame de sa queue \nsur les rochers avant le combat.
 On suppose qu’il est lié au cycle\nlunaire, car il ne sort que les\nsoirs de pleine lune.
 Le bruit court que cette nouvelle\nespèce vient du soleil. Il produit\nde la lumière en tournoyant.

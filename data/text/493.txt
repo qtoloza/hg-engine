@@ -4,6 +4,6 @@ The Game Corner in this city used\nto be run by Team Rocket...\rBut when Team Ro
 Yo, {STRVAR_1 3, 0, 0}!\nIt’s been a while!\rSince we’re both here and there’s\nno rush, fancy a battle? {YESNO 0}
 Really? I wasn’t expecting you\nto turn down a challenge.\rOh well, I’m here all day.\nTell me if you want to fight!
 Awesome! Here I come, {STRVAR_1 3, 0, 0}!\r
-Amazing! Your skills haven’t dulled\na bit since challenging SUICUNE!\rDon’t be afraid to tell me\nif you want a rematch, though!
+Amazing! Your skills haven’t dulled\na bit since challenging Suicune!\rDon’t be afraid to tell me\nif you want a rematch, though!
 Oh, incredible! That’s {STRVAR_1 0, 1, 0} behind\nyou, isn’t it?\r{STRVAR_1 3, 0, 0}, your skills never cease\nto amaze me!\rSpeaking about amazing...\rHow about a battle to\n show you how amazing\fI can be, too? {YESNO 0}
-That flowing mane...\nThat graceful pose...\rOnly such beauty could belong to\nSUICUNE! Thank you for allowing me to\fsee it, {STRVAR_1 3, 0, 0}.\rAlthough I don’t need to prove\nanything to SUICUNE anymore...\rWould you be up\nfor a friendly battle? {YESNO 0}
+That flowing mane...\nThat graceful pose...\rOnly such beauty could belong to\nSuicune! Thank you for allowing me to\fsee it, {STRVAR_1 3, 0, 0}.\rAlthough I don’t need to prove\nanything to Suicune anymore...\rWould you be up\nfor a friendly battle? {YESNO 0}

@@ -1,4 +1,4 @@
-Go, RATTATA!\rTackle!\r
+Go, Rattata!\rTackle!\r
 What? This is a big battle!\fLeave me alone!\r
 A Pokémon can use its moves as long\nas the moves still have PP.\rWhen a move has no PP remaining, that\nPokémon cannot use that move.\rThen you should take your Pokémon to\nthe Pokémon Center.
 A Pokémon can use its moves as long\nas the moves still have PP.\rWhen a move has no PP remaining, that\nPokémon cannot use that move.\rThen you should take your Pokémon to\nthe Pokémon Center.
@@ -17,7 +17,7 @@ Cynthia: Tell me, {STRVAR_1 3, 0, 0}, have you\nheard a story that tells the tal
 Cynthia: You haven’t? I’ll briefly\nexplain. The story tells the tale of\fhow a trainer travels the lands of\fJohto and Kanto, catching all the\fPokémon known to mankind. He captures\fthe most basic of Pokémon, and even\fthe most mythical of Pokémon, to\feventually come face to face with\fthe one who the Pokémon call god...\r
 Cynthia: The archaeology in the Johto\nregion appears to back the existence\fof this story. It’s interesting, to\fbe sure.\r
 Cynthia: Thank you for listening to\nme, {STRVAR_1 3, 0, 0}. You know, you remind me\fof a trainer I knew from Sinnoh...\rYou may not know it yet, but I think\nyou are capable of great things.\rIn fact, I’d like to help you reach\nyour maximum potential!\rCynthia: Here, let me give you a\nsmall gift.\r
-{STRVAR_1 3, 0, 0} received an EEVEE!
-Would you like to give\nthe EEVEE a nickname? {YESNO 0}
-Cynthia: The numerous possibilities of\nevolution for EEVEE make it a very\finteresting Pokémon.\rI wonder what you’ll decide\nto evolve EEVEE into...?\r
+{STRVAR_1 3, 0, 0} received an Eevee!
+Would you like to give\nthe Eevee a nickname? {YESNO 0}
+Cynthia: The numerous possibilities of\nevolution for Eevee make it a very\finteresting Pokémon.\rI wonder what you’ll decide\nto evolve Eevee into...?\r
 Cynthia: Perhaps we’ll cross paths\nagain, {STRVAR_1 3, 0, 0}, but until then, farewell!

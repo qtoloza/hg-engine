@@ -59,5 +59,5 @@ I should teach Frenzy Plant to\nyour {STRVAR_1 0, 0, 0}? {YESNO 0}
                                                                             
                              
                          
-To the Pokémon listed here,\nthe ultimate moves may be taught!\rThe blazing Fire-type Pokémon\n{CURSOR_X 7}CHARIZARD TYPHLOSION\f{CURSOR_X 7}BLAZIKEN INFERNAPE\rThe restless Water-type Pokémon\n{CURSOR_X 7}BLASTOISE FERALIGATR\f{CURSOR_X 7}SWAMPERT EMPOLEON\rThe quiet Grass-type Pokémon\n{CURSOR_X 7}VENUSAUR MEGANIUM\f{CURSOR_X 7}SCEPTILE TORTERRA
+To the Pokémon listed here,\nthe ultimate moves may be taught!\rThe blazing Fire-type Pokémon\n{CURSOR_X 7}Charizard Typhlosion\f{CURSOR_X 7}Blaziken Infernape\rThe restless Water-type Pokémon\n{CURSOR_X 7}Blastoise Feraligatr\f{CURSOR_X 7}Swampert Empoleon\rThe quiet Grass-type Pokémon\n{CURSOR_X 7}Venusaur Meganium\f{CURSOR_X 7}Sceptile Torterra
 Well then, I will teach {STRVAR_1 0, 0, 0}\na move...\r
