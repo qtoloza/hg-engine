@@ -130,7 +130,7 @@ scr_seq_D11R0106_000:
 	goto _0175
 
 _0175:
-	goto_if_no_item_space ITEM_TM50, 1, _01AC
+	goto_if_no_item_space ITEM_TM050, 1, _01AC
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM50_FROM_BLAINE
 	buffer_players_name 0

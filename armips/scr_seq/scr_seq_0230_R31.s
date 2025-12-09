@@ -130,7 +130,7 @@ _0195:
 	goto_if_ne _01AD
 	scrcmd_606
 _01AD:
-	goto_if_no_item_space ITEM_TM44, 1, _01FC
+	goto_if_no_item_space ITEM_TM044, 1, _01FC
 	callstd std_give_item_verbose
 	compare VAR_LOAN_SPEAROW, 2
 	goto_if_ne _01EB

@@ -148,7 +148,7 @@ scr_seq_T27GYM0101_001:
 	goto _019B
 
 _019B:
-	goto_if_no_item_space ITEM_TM30, 1, _01CF
+	goto_if_no_item_space ITEM_TM030, 1, _01CF
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM30_FROM_MORTY
 	npc_msg 5

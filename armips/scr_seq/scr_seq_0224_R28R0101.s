@@ -96,7 +96,7 @@ _00F4:
 _00FC:
 	wait_movement
 	npc_msg 1
-	goto_if_no_item_space ITEM_TM47, 1, _0135
+	goto_if_no_item_space ITEM_TM047, 1, _0135
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM47_FROM_ROUTE_28_CELEBRITY
 _012A:

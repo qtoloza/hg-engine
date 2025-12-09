@@ -159,7 +159,7 @@ _021C:
 	goto _0138
 
 _028E:
-	goto_if_no_item_space ITEM_TM58, 1, _0990
+	goto_if_no_item_space ITEM_TM058, 1, _0990
 	buffer_item_name 0, VAR_SPECIAL_x8004
 	npc_msg 12
 	getmenuchoice VAR_SPECIAL_RESULT
@@ -184,7 +184,7 @@ _02D7:
 	goto _0180
 
 _0319:
-	goto_if_no_item_space ITEM_TM32, 1, _0990
+	goto_if_no_item_space ITEM_TM032, 1, _0990
 	buffer_item_name 0, VAR_SPECIAL_x8004
 	npc_msg 12
 	getmenuchoice VAR_SPECIAL_RESULT
@@ -209,7 +209,7 @@ _0362:
 	goto _0180
 
 _03A4:
-	goto_if_no_item_space ITEM_TM10, 1, _0990
+	goto_if_no_item_space ITEM_TM010, 1, _0990
 	buffer_item_name 0, VAR_SPECIAL_x8004
 	npc_msg 12
 	getmenuchoice VAR_SPECIAL_RESULT
@@ -234,7 +234,7 @@ _03ED:
 	goto _0180
 
 _042F:
-	goto_if_no_item_space ITEM_TM29, 1, _0990
+	goto_if_no_item_space ITEM_TM029, 1, _0990
 	buffer_item_name 0, VAR_SPECIAL_x8004
 	npc_msg 12
 	getmenuchoice VAR_SPECIAL_RESULT
@@ -259,7 +259,7 @@ _0478:
 	goto _0180
 
 _04BA:
-	goto_if_no_item_space ITEM_TM74, 1, _0990
+	goto_if_no_item_space ITEM_TM074, 1, _0990
 	buffer_item_name 0, VAR_SPECIAL_x8004
 	npc_msg 12
 	getmenuchoice VAR_SPECIAL_RESULT
@@ -284,7 +284,7 @@ _0503:
 	goto _0180
 
 _0545:
-	goto_if_no_item_space ITEM_TM68, 1, _0990
+	goto_if_no_item_space ITEM_TM068, 1, _0990
 	buffer_item_name 0, VAR_SPECIAL_x8004
 	npc_msg 12
 	getmenuchoice VAR_SPECIAL_RESULT

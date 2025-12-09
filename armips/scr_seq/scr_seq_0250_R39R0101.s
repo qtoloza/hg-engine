@@ -134,7 +134,7 @@ _0158:
 	goto_if_set FLAG_GOT_TM83_FROM_MOOMOO_FARM_WOMAN, _0197
 	npc_msg 8
 	wait_button
-	goto_if_no_item_space ITEM_TM83, 1, _01A2
+	goto_if_no_item_space ITEM_TM083, 1, _01A2
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM83_FROM_MOOMOO_FARM_WOMAN
 	goto _0197

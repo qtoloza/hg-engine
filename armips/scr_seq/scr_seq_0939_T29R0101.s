@@ -37,7 +37,7 @@ scr_seq_T29R0101_000:
 	lockall
 	faceplayer
 	npc_msg 0
-	goto_if_no_item_space ITEM_TM10, 1, _006B
+	goto_if_no_item_space ITEM_TM010, 1, _006B
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM10_FROM_LAKE_OF_RAGE_MAN
 	npc_msg 2

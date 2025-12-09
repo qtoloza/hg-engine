@@ -113,7 +113,7 @@ _012F:
 	play_fanfare SEQ_ME_BADGE
 	wait_fanfare
 	npc_msg 3
-	goto_if_no_item_space ITEM_TM07, 1, _018E
+	goto_if_no_item_space ITEM_TM007, 1, _018E
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM07_FROM_PRYCE
 	npc_msg 4

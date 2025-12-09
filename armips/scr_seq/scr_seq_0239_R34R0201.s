@@ -40,7 +40,7 @@ scr_seq_R34R0201_000:
 	goto_if_set FLAG_GOT_TM12_FROM_ILEX_FOREST_GATE_WOMAN, _0055
 	npc_msg 0
 	wait_button
-	goto_if_no_item_space ITEM_TM12, 1, _0060
+	goto_if_no_item_space ITEM_TM012, 1, _0060
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM12_FROM_ILEX_FOREST_GATE_WOMAN
 	goto _0055

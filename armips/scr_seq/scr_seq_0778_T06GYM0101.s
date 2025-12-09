@@ -318,7 +318,7 @@ scr_seq_T06GYM0101_023:
 	goto _0389
 
 _0389:
-	goto_if_no_item_space ITEM_TM34, 1, _03BD
+	goto_if_no_item_space ITEM_TM034, 1, _03BD
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM34_FROM_LT_SURGE
 	npc_msg 4

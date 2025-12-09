@@ -113,7 +113,7 @@ _00F5:
 _0100:
 	goto_if_set FLAG_GOT_TM11_FROM_RADIO_TOWER_WOMAN, _014D
 	npc_msg 5
-	goto_if_no_item_space ITEM_TM11, 1, _0142
+	goto_if_no_item_space ITEM_TM011, 1, _0142
 	callstd std_give_item_verbose
 	npc_msg 7
 	wait_button_or_walk_away
@@ -140,7 +140,7 @@ scr_seq_D23R0103_006:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	getitemquantity ITEM_CARD_KEY, VAR_SPECIAL_RESULT
+	getitemquantity ITEM_CARD_KEY_JOHTO, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _01B4
 	npc_msg 10
@@ -156,7 +156,7 @@ scr_seq_D23R0103_007:
 	goto_if_set FLAG_UNK_090, _01E2
 	npc_msg 11
 	closemsg
-	getitemquantity ITEM_CARD_KEY, VAR_SPECIAL_RESULT
+	getitemquantity ITEM_CARD_KEY_JOHTO, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_ne _01B4
 	npc_msg 13

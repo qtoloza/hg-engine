@@ -154,7 +154,7 @@ scr_seq_T26GYM0101_000:
 _01CB:
 	npc_msg 3
 _01CE:
-	goto_if_no_item_space ITEM_TM23, 1, _0202
+	goto_if_no_item_space ITEM_TM023, 1, _0202
 	callstd std_give_item_verbose
 	npc_msg 5
 	wait_button_or_walk_away

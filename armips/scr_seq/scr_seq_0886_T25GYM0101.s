@@ -152,7 +152,7 @@ _01A0:
 	setflag FLAG_UNK_998
 	npc_msg 5
 _01C4:
-	goto_if_no_item_space ITEM_TM45, 1, _01F8
+	goto_if_no_item_space ITEM_TM045, 1, _01F8
 	callstd std_give_item_verbose
 	npc_msg 7
 	wait_button_or_walk_away

@@ -168,7 +168,7 @@ scr_seq_R32_000:
 	faceplayer
 	goto_if_set FLAG_GOT_TM05_FROM_ROUTE_32_MAN, _023B
 	npc_msg 10
-	goto_if_no_item_space ITEM_TM05, 1, _0246
+	goto_if_no_item_space ITEM_TM005, 1, _0246
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM05_FROM_ROUTE_32_MAN
 _023B:

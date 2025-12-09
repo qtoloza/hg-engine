@@ -99,7 +99,7 @@ scr_seq_T11GYM0101_000:
 	goto _0102
 
 _0102:
-	goto_if_no_item_space ITEM_TM48, 1, _0136
+	goto_if_no_item_space ITEM_TM048, 1, _0136
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_TM48_FROM_SABRINA
 	npc_msg 4

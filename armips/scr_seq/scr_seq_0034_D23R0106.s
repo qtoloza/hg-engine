@@ -98,14 +98,14 @@ _0119:
 	get_game_version VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 7
 	goto_if_ne _014E
-	giveitem_no_check ITEM_RAINBOW_WING, 1
+	giveitem_no_check ITEM_RAINBOW_FEATHER, 1
 	setflag FLAG_UNK_093
 	npc_msg 5
 	closemsg
 	goto _0167
 
 _014E:
-	giveitem_no_check ITEM_SILVER_WING, 1
+	giveitem_no_check ITEM_SILVER_FEATHER, 1
 	setflag FLAG_UNK_094
 	npc_msg 6
 	closemsg
