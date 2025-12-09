@@ -29,14 +29,14 @@ Well, hello there, trainer!\rWould you like to take a quiz? {YESNO 0}
 Excellent! Let’s get started!\rQuestion one!\rWere any Hoenn Pokémon obtainable\nwithin Fire Red and Leaf Green? {YESNO 0}
 Aww... come back again!
 I’m sorry, but that’s the wrong\nanswer! Please, come and try again!
-Correct! Time for question two!\rIs a DRAGONAIR more than\nthirteen feet long? {YESNO 0}
-Correct! The semifinal question!\rIs it true that BULBASAUR was\nthe first Pokémon created? {YESNO 0}
-Correct! The final question!\rCan TROPIUS be found within\nDiamond and Pearl? {YESNO 0}
+Correct! Time for question two!\rIs a Dragonair more than\nthirteen feet long? {YESNO 0}
+Correct! The semifinal question!\rIs it true that Bulbasaur was\nthe first Pokémon created? {YESNO 0}
+Correct! The final question!\rCan Tropius be found within\nDiamond and Pearl? {YESNO 0}
 Congratulations!\nYou completed the quiz!\rYou can now pick a prized Pokémon!\nWhich would you like?
 Eh?\nYou don’t want any of them?
-BULBASAUR
-CHARMANDER
-SQUIRTLE
+Bulbasaur
+Charmander
+Squirtle
 Cancel
 Uhh...\nYour party is too full...
 Woohoo!\nLook out for more of us Quiz Masters!

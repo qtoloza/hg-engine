@@ -1,4 +1,4 @@
-Were you aware that any PORYGON is\ncapable of evolving into a PORYGON2?\rYou just need to Up-Grade it!\r
+Were you aware that any Porygon is\ncapable of evolving into a Porygon2?\rYou just need to Up-Grade it!\r
 After a long walk in the mountains to\nfind a Pokémon Center, when you’re\fjust about to fall flat...\rThen it feels like you are in paradise!
 Hello, and welcome to\nthe Pokémon Center.\rWe restore your tired Pokémon\nto full health.\rWould you like to rest your\nPokémon? {YESNO 0}
 Please, come back again any time!
@@ -11,9 +11,9 @@ Grunt: Yes, sir!\r
 Archer: Hm. I wasn’t expecting that.\nWe have what we need regardless.\rDon’t expect me to be so generous\nnext time!
 Riley: Whew, that should free this area\nfrom Team Rocket. You’ve been a great\fhelp to us, {STRVAR_1 3, 0, 0}. Thank you.\r
 Incidentially, did you ever talk to\nBill? He has a gift for you that I\fmight’ve had something to do with...\r
-What’s that? Bill gave you a RIOLU\nthat came from me? Ah, so my aura\fpredicted correctly... I felt that\fRIOLU would be placed in the hands\fof a good trainer, and it\fappears I was right!\r
+What’s that? Bill gave you a Riolu\nthat came from me? Ah, so my aura\fpredicted correctly... I felt that\fRiolu would be placed in the hands\fof a good trainer, and it\fappears I was right!\r
 At any rate, people should start\nreturning to the area now that\fthose goons are gone.\rI’ll see you around, {STRVAR_1 3, 0, 0}!
 I’ll see you in front of the\nSafari Zone, {STRVAR_1 3, 0, 0}!
 See you outside, sucker!
-PORYGON2: Pori!
-Just use that Up-Grade on any\nPORYGON, and it will evolve!
+Porygon2: Pori!
+Just use that Up-Grade on any\nPorygon, and it will evolve!

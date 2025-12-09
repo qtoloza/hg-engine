@@ -31,7 +31,7 @@ A town with a suspicious air to it.\nIt’s a hiding place for ninjas.
 A huge lake full of clear, blue water.
 A mysterious mountain village cut\ninto a rock face.
 A mountain where something mysterious\nawaits you underfoot.
-A tunnel dug by DIGLETT connecting\nVermilion City to Pewter City.
+A tunnel dug by Diglett connecting\nVermilion City to Pewter City.
 A mountain where a star fell.\nIt now holds a mysterious power.
 A cave that had collapsed once.\nIt has been reconstructed.
 A dark tunnel that begins in Lavender\nTown and comes out in Cerulean City.
@@ -45,8 +45,8 @@ A spacious and beautiful park. It’s\nconnected to the Pokéathlon Dome.
 An old building that has been reused\nas a radio broadcasting tower.
 A place where you can find a\nformer adventure.
 Deep underground, it’s connected to\nthe ocean. The water flows here.
-When SLOWPOKE are thirsty, they come\nhere to drink.
-It shines brightly over the ocean with\nthe power of AMPHAROS.
+When Slowpoke are thirsty, they come\nhere to drink.
+It shines brightly over the ocean with\nthe power of Ampharos.
 A Battle Stadium with five different\nsets of rules to enjoy.
 A place where people from all over\ncome to show off their strength.
                       

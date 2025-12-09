@@ -5,13 +5,13 @@ This elevator is out of order.\rIt may electrocute you. Stay away.
 
 
 
-Steven: We meet again!\nHave you been to Hoenn before?\rIt’s such a beautiful place, with the\nclearest ocean you can imagine.\rYou should visit sometime.\fHey!\rWhy don’t we trade Pokémon?\rI’ve been looking for FORRETRESS.\nI can trade my BELDUM for it. {YESNO 0}
-Steven: Will you trade FORRETRESS\nfor my BELDUM? {YESNO 0}
+Steven: We meet again!\nHave you been to Hoenn before?\rIt’s such a beautiful place, with the\nclearest ocean you can imagine.\rYou should visit sometime.\fHey!\rWhy don’t we trade Pokémon?\rI’ve been looking for Forretress.\nI can trade my Beldum for it. {YESNO 0}
+Steven: Will you trade Forretress\nfor my Beldum? {YESNO 0}
 Steven: OK, let’s trade!\r
 Steven: That’s too bad.
-Steven: Are you telling me that\nyou think that’s a FORRETRESS?
-Steven: You don’t see FORRETRESS in\nthe Hoenn region.\rIt’s my first time to actually see one.\nThank you so much!\rOh, look at the time. I really must go.\r
-Steven: This Pokémon seems to like\nyou a lot. Do you happen to like\fSteel-type Pokémon?\rI had a feeling.\nThat particular texture!\rThe cool and glowing bodies!\nSuch uniquenesses are only for\fSteel-type Pokémon!\rWhen it comes to the solitariness and\nnobleness you sense through the \frugged body, which is almost rebuffing\fwhen you hug, nothing comes close to\fBELDUM, I must say...\rIn short, my METAGROSS is\ntruly strong and cool!\r...\nOh, it seems that I got carried away.\rIt was a pleasure talking to you.\nBye!\r
+Steven: Are you telling me that\nyou think that’s a Forretress?
+Steven: You don’t see Forretress in\nthe Hoenn region.\rIt’s my first time to actually see one.\nThank you so much!\rOh, look at the time. I really must go.\r
+Steven: This Pokémon seems to like\nyou a lot. Do you happen to like\fSteel-type Pokémon?\rI had a feeling.\nThat particular texture!\rThe cool and glowing bodies!\nSuch uniquenesses are only for\fSteel-type Pokémon!\rWhen it comes to the solitariness and\nnobleness you sense through the \frugged body, which is almost rebuffing\fwhen you hug, nothing comes close to\fBeldum, I must say...\rIn short, my Metagross is\ntruly strong and cool!\r...\nOh, it seems that I got carried away.\rIt was a pleasure talking to you.\nBye!\r
 Hello...\nYou’re breaking up...\fI think it depends on how my dad feels.\rI see...\nI’ll be on my way. See you soon.\r
 Steven: Oh, hello again!\nYou know, I remember your eyes.\rWhen I see a Trainer whose eyes\ntwinkle, I always remember!\r
 Steven: You have a Pokédex, don’t you?\nSo you are also in search of Pokémon.\fLet me see...\rI think I can help you with that.\rLet’s say that you have stones in\nfront of you.\fWhich color would you pick? {YESNO 0}
@@ -32,9 +32,9 @@ Steven: You seem to be quite cautious.\rAre you avoiding any chance when a\npers
 Professor Elm: Oh, {STRVAR_1 3, 0, 0}! I bet you\nweren’t expecting to see me here,\fright?\rI was actually looking for you, since I\nheard you were collecting Gym Badges\fin Kanto.\rIt’s a bit belated, but for being known\nas Champion {STRVAR_1 3, 0, 0}, I’d like to give\fyou the other two Pokémon that you\fdidn’t choose so long ago.\rDon’t worry, they’re only rare,\nnot endangered!\r
 I hate to say it, but the Pokémon\nbehind you isn’t what I was looking for!
 That is indeed one of the starters\ngiven out by Rowan in Sinnoh!\rSo you own a {COLOR 1}{STRVAR_1 0, 1, 0}{COLOR 0}...\rIn that case, I’d like you to have\nthese two Pokémon!\r
-{STRVAR_1 3, 0, 0} received {COLOR 2}CYNDAQUIL{COLOR 0} and {COLOR 2}TOTODILE{COLOR 0}\nfrom Professor Elm!
-{STRVAR_1 3, 0, 0} received {COLOR 2}CHIKORITA{COLOR 0} and {COLOR 2}TOTODILE{COLOR 0}\nfrom Professor Elm!
-{STRVAR_1 3, 0, 0} received {COLOR 2}CHIKORITA{COLOR 0} and {COLOR 2}CYNDAQUIL{COLOR 0}\nfrom Professor Elm!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Cyndaquil{COLOR 0} and {COLOR 2}Totodile{COLOR 0}\nfrom Professor Elm!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Chikorita{COLOR 0} and {COLOR 2}Totodile{COLOR 0}\nfrom Professor Elm!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Chikorita{COLOR 0} and {COLOR 2}Cyndaquil{COLOR 0}\nfrom Professor Elm!
 Professor Elm: I’ll be returning to\nNew Bark Town, then.\rSee you around, {STRVAR_1 3, 0, 0}!
 But... your party is too full.\nCome and see me again another\ftime, please!
 

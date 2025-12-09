@@ -1,5 +1,5 @@
 Irwin
-You’re the best I’ve ever battled!\rHuh? You’re the one who saved all\nthe SLOWPOKE?\rWell, no wonder I couldn’t beat you!\nWould it be OK to get your number?\rI don’t want to miss anything you\ndo from now on! {YESNO 0}
+You’re the best I’ve ever battled!\rHuh? You’re the one who saved all\nthe Slowpoke?\rWell, no wonder I couldn’t beat you!\nWould it be OK to get your number?\rI don’t want to miss anything you\ndo from now on! {YESNO 0}
 Wow! Gee, thanks!\rNow I can call you anytime, whether\nanything’s up or not.\rYou know, just to chat!
 Oh, but...\nI’m not dangerous!\rI just want to call and chat about\neverything and nothing!
 You will tell me your phone number?{YESNO 0}
@@ -24,8 +24,8 @@ I saw, I saw, I saw!\rYou striding onto a ship, {STRVAR_1 3, 0, 0}!\rI can’t g
 I saw, I saw, I saw!\rYou striding onto a ship, {STRVAR_1 3, 0, 0}!\rI can’t get over how good you look with\nthe sea as your backdrop!\rI hate having to hang up on you!\nCall you later!
 I heard, I heard!\rYou got a Magnet Train Pass!\rWhen I saw you departing on the ship, I\nfelt sad that I wouldn’t be able to see\fyou for a while.\rBut since you have that Pass, you can\nzip back anytime!\fThat’s reassuring!\rWhat? You can Fly back anytime?\rWhat do you mean by Fly?\rCall you later!
 I heard, I heard!\rYou got a Magnet Train Pass!\rWhen I saw you departing on the ship, I\nfelt sad that I wouldn’t be able to see\fyou for a while.\rBut since you have that Pass, you can\nzip back anytime!\fThat’s reassuring!\rWhat? You can Fly back anytime?\rWhat do you mean by Fly?\rCall you later!
-I saw, I saw!\rYou waking up SNORLAX!\rI was watching you from afar, so I\ncouldn’t tell what you did exactly.\rDid you play a flute to wake it?\rWow! That’s like magic!\nCall you later!
-I saw, I saw!\rYou waking up SNORLAX!\rI was watching you from afar, so I\ncouldn’t tell what you did exactly.\rDid you play a flute to wake it?\rWow! That’s like magic!\nCall you later!
+I saw, I saw!\rYou waking up Snorlax!\rI was watching you from afar, so I\ncouldn’t tell what you did exactly.\rDid you play a flute to wake it?\rWow! That’s like magic!\nCall you later!
+I saw, I saw!\rYou waking up Snorlax!\rI was watching you from afar, so I\ncouldn’t tell what you did exactly.\rDid you play a flute to wake it?\rWow! That’s like magic!\nCall you later!
 {STRVAR_1 3, 0, 0}, I heard!\rYou’re kicking up a mighty ruckus over\nin Kanto!\rWhat a glorious rampage it must be!\nYou so rock!\rCall you later!
 {STRVAR_1 3, 0, 0}, I heard!\rYou’re kicking up a mighty ruckus over\nin Kanto!\rWhat a glorious rampage it must be!\nYou so rock!\rCall you later!
 I hear gossip about you all over\nthe place.\rIt just makes me sigh, {STRVAR_1 3, 0, 0}.\nHow did you get so strong?\rGo for the world championship now!\nI’ll always be cheering you on!\rCall you later!\f...Is that OK?

@@ -32,6 +32,6 @@ The Parade will be on later.\nPlease wait for it!\r
 Waiting for the Parade to come by...\nB Button: Cancel
 There’s no more room on the Floats...\r
 The Parade is over.\r
-{STRVAR_3 0, 0, 0}\rFlick Berries into the mouth of a\nrotating SWALOT.\rScore bonus points for getting Berries\nin consecutively.\rScore even more during Fever Time.\rTake deliberate aim or fire randomly--\nthe choice is yours!\r
-{STRVAR_3 0, 0, 0}\rRoll a ball while keeping a MIME JR.\nbalanced on top.\rIf the MIME JR. manages to stay on,\nlights flash and the applause begins.\rIf everyone manages to keep going,\nthe curtains will rise.\rTry to keep your MIME JR. balanced\nand on the ball!\r
-{STRVAR_3 0, 0, 0}\rPress down on the pump from\ndirectly above to pump maximum\fair into a balloon until it pops.\rPop balloons until time runs out.\rPressing the pump hard will make it\nturn red, increasing its capacity.\rThe circling WYNAUT can also help.\rLine a WYNAUT up with the pump to\nboost the air volume, but beware:\rlining up the pump with a skinny\nWYNAUT reduces the air volume.\r
+{STRVAR_3 0, 0, 0}\rFlick Berries into the mouth of a\nrotating Swalot.\rScore bonus points for getting Berries\nin consecutively.\rScore even more during Fever Time.\rTake deliberate aim or fire randomly--\nthe choice is yours!\r
+{STRVAR_3 0, 0, 0}\rRoll a ball while keeping a Mime Jr.\nbalanced on top.\rIf the Mime Jr. manages to stay on,\nlights flash and the applause begins.\rIf everyone manages to keep going,\nthe curtains will rise.\rTry to keep your Mime Jr. balanced\nand on the ball!\r
+{STRVAR_3 0, 0, 0}\rPress down on the pump from\ndirectly above to pump maximum\fair into a balloon until it pops.\rPop balloons until time runs out.\rPressing the pump hard will make it\nturn red, increasing its capacity.\rThe circling Wynaut can also help.\rLine a Wynaut up with the pump to\nboost the air volume, but beware:\rlining up the pump with a skinny\nWynaut reduces the air volume.\r

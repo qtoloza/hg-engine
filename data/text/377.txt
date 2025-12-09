@@ -14,8 +14,8 @@ Professor Oak: ...Ah!\rYou seem to be dependable.\nHow would you like to help me
 Go meet many kinds of Pokémon and\ncomplete that Pokédex!\fBut I’ve stayed too long.\rI have to get to Goldenrod for my\nusual radio show.\r{STRVAR_1 3, 0, 0}, I have a feeling that\nthis is not the last time we’ll meet...\rLet’s exchange numbers\njust to be on the safe side.\r
 Go meet many kinds of Pokémon and\ncomplete that Pokédex!\fBut I’ve stayed too long.\rI have to get to Goldenrod for my\nusual radio show.\r{STRVAR_1 3, 0, 0}, I have a feeling that\nthis is not the last time we’ll meet...\rLet’s exchange numbers\njust to be on the safe side.\r
 {STRVAR_1 3, 0, 0} registered Professor Oak\nin the Pokégear!\r
-Hm? That Red Scale! What’s that?\nA red GYARADOS?\fThat’s rare! I... I want it...\r{STRVAR_1 3, 0, 0}, would you\ncare to trade it?\rI can offer this Lucky Egg I got\nfrom a Nurse Joy. {YESNO 0}
-Hm? That Red Scale! What’s that?\nA red GYARADOS?\fThat’s rare! I... I want it...\r{STRVAR_1 3, 0, 0}, would you\ncare to trade it?\rI can offer this Lucky Egg I got\nfrom a Nurse Joy. {YESNO 0}
+Hm? That Red Scale! What’s that?\nA red Gyarados?\fThat’s rare! I... I want it...\r{STRVAR_1 3, 0, 0}, would you\ncare to trade it?\rI can offer this Lucky Egg I got\nfrom a Nurse Joy. {YESNO 0}
+Hm? That Red Scale! What’s that?\nA red Gyarados?\fThat’s rare! I... I want it...\r{STRVAR_1 3, 0, 0}, would you\ncare to trade it?\rI can offer this Lucky Egg I got\nfrom a Nurse Joy. {YESNO 0}
 
 Arrgh, I reckon yer Bag’s full.
 That’s disappointing.\nThat happens to be very rare.

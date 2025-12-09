@@ -1,6 +1,6 @@
 At the Pokémon League, you’ll get\ntested by the Elite Four.\fYou have to beat them all.\rIf you lose, you have to start\nall over!
-Some Trainers suddenly feel\ndiscouraged and leave.\rMy ABRA can take you home.\nBut...\rTrainers just Fly home lately...\nI feel left out.\fI am sure my ABRA feels the same way.
-ABRA: Aabra...
+Some Trainers suddenly feel\ndiscouraged and leave.\rMy Abra can take you home.\nBut...\rTrainers just Fly home lately...\nI feel left out.\fI am sure my Abra feels the same way.
+Abra: Aabra...
 {STRVAR_1 3, 0, 0}: Hold it.\rYou’re going to take the Pokémon\nLeague challenge now?\rYou’ll have to give up on that.\rMy well-trained-beyond-recognition\nPokémon are going to pound you.\rRight now, right here!\nI challenge you!\r
 {STRVAR_1 3, 0, 0}: ...Oh, no... I still can’t\nwin after all that training...\rI...I have to believe more in my\nPokémon...\r...No big deal.\nSorry to have got in the way.\rDon’t forget to rest your Pokémon\nbefore you challenge the Champion!\r
 Once you enter this door, you will be\nfacing the Elite Four.\rThey are really tough!\nYou cannot exit once you enter.\rThe Pokémon helpers aside will let you\nmove as you please through the rooms,\fbut you must defeat all of the\fElite Four to challenge the Champion!\rAre you ready?\fBe courageous and go for it!\r
@@ -25,6 +25,6 @@ LINK MULTI\nBATTLES
 WI-FI BATTLE\nROOM
 AVG WIN\nSTREAK
 RETURN
-TYRANITAR: Giraaas!
+Tyranitar: Giraaas!
 When you need a strong Rock-type\nmove, there’s only one choice!\rThe fabulous Stone Edge!\r
 Stone Edge is a powerful Rock move\nwith a high critical ratio!\rIt has a habit of missing a lot,\nthough...

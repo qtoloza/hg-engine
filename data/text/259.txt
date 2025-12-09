@@ -11,9 +11,9 @@ Here’s your cabin.\rYou can heal your Pokémon\nby taking a nap in the bed.\rT
 Most passengers are Trainers.\rThey’re all itching to battle in\ntheir cabins.
 Welcome to... Cinnabar Island...\nI suggest you... head north...
 (There’s an odd feeling... as if a\nlegendary force wanted you here.)
-You there! Do you know PHIONE?\rIf you can show me a PHIONE,\nI’ll give you a reward!
-By jove, it’s a real PHIONE!\rBut that’s not enough, you see!\r
-If you can show me a MANAPHY,\nthen I’ll really give you a reward!
-By jove, it’s a real MANAPHY!\rHere, take this!\r
+You there! Do you know Phione?\rIf you can show me a Phione,\nI’ll give you a reward!
+By jove, it’s a real Phione!\rBut that’s not enough, you see!\r
+If you can show me a Manaphy,\nthen I’ll really give you a reward!
+By jove, it’s a real Manaphy!\rHere, take this!\r
 Thank you, young sir!\nFare thee well!
 Thank you, young lass!\nFare thee well!

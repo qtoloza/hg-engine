@@ -75,11 +75,11 @@ Congratulations on achieving your\n50-win streak.\fYour winning Pokémon team ha
 As you can see, Battle Frontier is a\ngreat facility.\rYou know what?\rApparently, similar facilities are\navailable outside of Johto.
 Thank you for playing!\rYour Pokémon will be restored to\nfull...\fOh my!\rI’m not on duty today.\nI’m just here to enjoy myself.
 Me?\rI just made a debut as an Idol!\fI haven’t gotten much work yet.\rSo whenever I have time, I come here\nto battle Pokémon.
-I trained my little guy till we\ncouldn’t take any more.\rHe’s going to do a 50-win streak\nfor sure...\rRight, PIKACHU?
-PIKACHU: ...
+I trained my little guy till we\ncouldn’t take any more.\rHe’s going to do a 50-win streak\nfor sure...\rRight, Pikachu?
+Pikachu: ...
 I’ve always loved this kind of\nsee-through elevator since I\fwas young.\rOr not!\rWhen I was young, this kind of\nelevator was unheard of!
-Tee hee!\nAll the Trainers around us look\fso pathetic!\r...Actually, that’s the kind of mind-set\nthat makes you lose with one hit!\rDon’t let your guard down, PIKACHU!
-PIKACHU: Pichuu! Pichuu!
+Tee hee!\nAll the Trainers around us look\fso pathetic!\r...Actually, that’s the kind of mind-set\nthat makes you lose with one hit!\rDon’t let your guard down, Pikachu!
+Pikachu: Pichuu! Pichuu!
 Congratulations on achieving\na 50-win streak!\rThe Pokémon on your team will be\nprovided with commemorative Ribbons.
 Congratulations on advancing to\nRank {STRVAR_1 50, 0, 0}!\rThe Pokémon on your team will be\nprovided with commemorative Ribbons.
 Congratulations on defeating\nthe Tower Tycoon!\fThe Pokémon on your team will be\fprovided with commemorative Ribbons.

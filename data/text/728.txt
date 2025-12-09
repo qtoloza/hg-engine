@@ -80,7 +80,7 @@ Do you think you’ve won already?\n
 ...\rOK. I lost...\n
 ...\rWhew...\nWith my partners,\fI’m going to be the Champion!\n
 I hate to admit it, but you win.\n
-All right!\nSUICUNE, were you watching us?\n
+All right!\nSuicune, were you watching us?\n
 The wind is finally with us!\n
 We can still fly!\n
 I understand...\nI’ll bow out gracefully.\n
@@ -149,7 +149,7 @@ If you want to meet the Gym Leader, you\nhave to move the web using the switch.\
 You’ve come all this way, crossing the\nweb like a bug Pokémon!\rAllow me to teach you the charms of bug\nPokémon!\r
 You proved how tough you are...\n
 Just being in this Gym, I feel like I’ve\nturned into a bug Pokémon!\n
-You saved all the SLOWPOKE?\nWhew, you’re mighty!\rBut my grown-up Pokémon are pretty\ntough, too!\r
+You saved all the Slowpoke?\nWhew, you’re mighty!\rBut my grown-up Pokémon are pretty\ntough, too!\r
 Urrgggh!\n
 If you move the web with the switch,\nyou’ll be able to figure out where\fthe lift is going.\n
 You shouldn’t let your guard down just\n’cause I don’t look tough!\r
@@ -162,8 +162,8 @@ Oh, you are a cute little Trainer!\nI like you, but I won’t hold back!\r
 Let’s see...\nOops, it’s over?\n
 Wow, you must be good to beat me!\nKeep it up!\n
 Give it your best shot, or I’ll take\nyou down!\r
-No!\nOh, MEOWTH, I’m so sorry!\n
-I taught MEOWTH moves for taking\non any type...\n
+No!\nOh, Meowth, I’m so sorry!\n
+I taught Meowth moves for taking\non any type...\n
 I shall win!\r
 I... I... I lost!\n
 The one who most wants to win--will!\n
@@ -410,16 +410,16 @@ Aw, I can’t believe I lost...\n
 If you have a specific Pokémon that you\nwant to raise, put it out first, then\fswitch it right away.\rThat’s how to do it.\n
 I have a feeling that I can win.\nLet’s see if I’m right!\r
 Aww, you are too strong.\n
-I heard CLEFAIRY appear at Mt. Moon.\nBut where could they be?\n
+I heard Clefairy appear at Mt. Moon.\nBut where could they be?\n
 Um...\nI...\r
 ...\n
 ...\r...I’ll go train some more...\n
-My PHANPY is the cutest in the world.\r
-My PHANPY!\n
-Take a look at this--this PHANPY’s\nabsolutely adorable behavior!\rIsn’t it wonderfully cute?\nI just wanna squeeze it!\n
-My TEDDIURSA is the cutest in\nthe world.\r
-My TEDDIURSA!\n
-Take a look at this--this TEDDIURSA’s\nabsolutely adorable behavior!\rIsn’t it wonderfully cute?\nI just wanna squeeze it!\n
+My Phanpy is the cutest in the world.\r
+My Phanpy!\n
+Take a look at this--this Phanpy’s\nabsolutely adorable behavior!\rIsn’t it wonderfully cute?\nI just wanna squeeze it!\n
+My Teddiursa is the cutest in\nthe world.\r
+My Teddiursa!\n
+Take a look at this--this Teddiursa’s\nabsolutely adorable behavior!\rIsn’t it wonderfully cute?\nI just wanna squeeze it!\n
 We’re the Kanto Pokémon Federation\nTrainer group.\fWe’ll drive you under our wheels!\r
 S-sorry!\n
 The Kanto Pokémon Federation will\nnever fall!\n
@@ -490,21 +490,21 @@ Your Pokémon are remarkably\nwell trained.\n
 Check out my Pokémon. Just look at\ntheir coloring and plumage.\r
 Shoot!\nNot good enough!\n
 If you groom them, Pokémon get happy.\n
-Ha ha ha ha!\fWould you like to fight my pack\nof PIKACHU?\r
-My PIKACHU!\n
-You look like you have many Pokémon,\nbut PIKACHU is still the best.\n
+Ha ha ha ha!\fWould you like to fight my pack\nof Pikachu?\r
+My Pikachu!\n
+You look like you have many Pokémon,\nbut Pikachu is still the best.\n
 Bow down before my regal Pokémon!\r
 How... How dare you mock royalty!\n
 Doesn’t everyone wish to be\na ruler someday?\n
-I should go to Rock Tunnel to get\nmyself an ONIX.\r
+I should go to Rock Tunnel to get\nmyself an Onix.\r
 I lost...\n
 Geological features don’t appear to\nchange.\rBut they actually do change, little\nby little.\n
 Hey, I still wanted to battle you!\r
 Let me tell you, I had a hard time\ncatching my prized Pokémon.\r
 Awaaah!\n
-SQUIRTLE, CHARMANDER, and\nBULBASAUR...\fI think that’s a well-balanced mix.\n
+Squirtle, Charmander, and\nBulbasaur...\fI think that’s a well-balanced mix.\n
 Sometimes I go back to the places\nI met my Pokémon.\fThey bring back good memories.\r
-Where did I meet this PSYDUCK?\n
+Where did I meet this Psyduck?\n
 When and where did I get my Pokémon...\rI’ll bet if I checked my Trainer Memo,\nI’d remember!\n
 My dream is to fly with my beloved\nbird Pokémon.\r
 I can dream, but I can’t ever fly...\n
@@ -736,7 +736,7 @@ I was going to dazzle you with my prize\nPokémon. But your prowess\felectrified
 Yo! I’ve been waiting!\r
 I’ll go anywhere if bug Pokémon\nappear there.\r
 I see. So you can battle that way.\n
-My VENONAT won me the Bug-Catching\nContest at the National Park.\n
+My Venonat won me the Bug-Catching\nContest at the National Park.\n
 As long as I’ve got bug Pokémon, it\ndoesn’t matter how long I have to wait.\fI know I won’t get bored!\r
 My boyfriend’s weak, so I can’t rely\non him.\r
 Oh, my! You’re so strong!\n
@@ -827,16 +827,16 @@ Is that how you do it?\n
 There’s supposed to be a big Pokémon\ndeep beneath the Whirl Islands.\fI wonder what it could be?\n
 You look so elegant riding\nyour Pokémon.\r
 I’m crushed...\n
-Wasn’t there a hit song about a boy\nriding a LAPRAS?\n
+Wasn’t there a hit song about a boy\nriding a Lapras?\n
 The weather is so beautiful, I’m in\na daze!\r
 Ohhh!\n
 A sunburn is the worst for skin.\rBut I don’t use sunblock.\nI won’t pollute the water.\n
 If you need to rest, just tread water.\nYou’ll get your breath back so you can\fkeep on going strong.\r
 Oh! You have more energy than I do.\n
 I heard roars from deep inside\nthe islands.\n
-At night, STARYU gather near the\nwater’s surface.\r
+At night, Staryu gather near the\nwater’s surface.\r
 Oh, dear...\n
-The clusters of STARYU light up at the\nsame time. It’s so beautiful,\fit’s scary.\n
+The clusters of Staryu light up at the\nsame time. It’s so beautiful,\fit’s scary.\n
 Let me demonstrate the power of the\nPokémon I caught!\r
 What? That’s not right.\n
 I want to become the Trainer Champ\nusing the Pokémon I caught.\fThat’s the best part of fishing!\n
@@ -861,7 +861,7 @@ Oh, my poor Pokémon! Darlings!\n
 I’d be happy just to own a single\nrare Pokémon.\n
 I’ve been waiting!\nDid you bring any rare Pokémon\fwith you?\r
 Would you get this?\rSome red-haired kid made fun of my\nprecious Pokémon!\rHumph! My Pokémon’s great!\r
-My NIDOKING was outstanding!\n
+My Nidoking was outstanding!\n
 It’s OK for people to like different\ntypes of Pokémon.\rPokémon isn’t just about having the\nmost powerful one.\n
 Are you going to Lake of Rage, too?\nLet’s play for a little while!\r
 I played too much!\n
@@ -869,7 +869,7 @@ I’m having a picnic with Pokémon.\nWon’t you join us?\n
 Hey, you’re here!\nLet’s play!\r
 Do you know about the legendary\nbird Pokémon?\r
 Whew! You’re hot stuff.\n
-ARTICUNO, ZAPDOS, and MOLTRES are the\nthree legendary bird Pokémon.\rI heard there are other legendary\nbirds, though.\n
+Articuno, Zapdos, and Moltres are the\nthree legendary bird Pokémon.\rI heard there are other legendary\nbirds, though.\n
 How has it been?\nDid you see the legendary Pokémon?\r
 I can tell you’re a good Trainer by\nlooking at you.\rI’m good at Pokémon, and I can see that\nyou are, too.\r
 Tch! It’s a total loss on my part.\n
@@ -880,10 +880,10 @@ We all get better by experiencing many\nbattles. I battled a lot to become what\
 I’m gonna win for sure!\r
 Arrgh... That’s a shocking loss...\n
 It’s important to have conviction on\nyour side.\n
-Aack! You made me lose a POLIWAG!\nWhat are you going to do about it?\r
+Aack! You made me lose a Poliwag!\nWhat are you going to do about it?\r
 Just forget about it.\n
-That POLIWAG that got away...\nIt was huge.\rI swear it must’ve been 82 feet long!\n
-Hey! I’ve been waiting for you!\r...Oops, maybe I shouldn’t yell so loud.\nThe POLIWAG ran away...\r
+That Poliwag that got away...\nIt was huge.\rI swear it must’ve been 82 feet long!\n
+Hey! I’ve been waiting for you!\r...Oops, maybe I shouldn’t yell so loud.\nThe Poliwag ran away...\r
 I fish until I can’t anymore.\nI also battle until I drop.\fThat’s my relationship with my Pokémon.\r
 Hmmmm... This isn’t right.\n
 That’s 100 wins to 101 losses.\rI won’t battle again for a while.\n
@@ -932,9 +932,9 @@ Looks like I lost...\n
 If a Trainer spots another Trainer,\nhe or she has to make a challenge.\fThat is our destiny.\r
 Whew...\nGood battle.\n
 Pokémon and their Trainer become\npowerful through constant battling.\n
-The red GYARADOS?\nThat sounds scary.\fIt must be red with rage!\fMe?\rI’m not angry or anything, but\nlet’s battle!\r
+The red Gyarados?\nThat sounds scary.\fIt must be red with rage!\fMe?\rI’m not angry or anything, but\nlet’s battle!\r
 Good going!\n
-Come to think of it, I’ve seen a\npink BUTTERFREE.\n
+Come to think of it, I’ve seen a\npink Butterfree.\n
 Let me battle with the Pokémon\nI just caught!\r
 I might be an expert angler, but I stink\nas a Pokémon Trainer...\n
 I won’t lose as an angler! I catch\nPokémon all day.\n
@@ -1038,7 +1038,7 @@ Yes, your trust is real!\n
 It is not far to the Elder.\n
 I sway like leaves in the wind...\r
 Oh, I’m weak!\n
-I tried to copy BELLSPROUT’s gentle\nmovements for battle...\rBut I didn’t train well enough.\n
+I tried to copy Bellsprout’s gentle\nmovements for battle...\rBut I didn’t train well enough.\n
 The Elder’s TM lights even\npitch-black darkness.\r
 It is my head that is bright!\n
 Let there be light on your journey.\n
@@ -1091,7 +1091,7 @@ I feel lousy over losing! Bah!\nI hate useless Pokémon!\n
 Why did the door open? Did you have\nsomething to do with this?\r
 Gulp! This is a bleak moment.\n
 What?! You made it past our men in\nthe Underground? How could you have?\n
-Proton: Now, wait just one second!\rAren’t you the one who got in\nour way at the SLOWPOKE Well?\rI see... You’re doing all this because\nyou want to make me angry. Be careful!\rBut since you seem to wish it, I’ll show\nyou the full extent of a Team Rocket\fExecutive’s wrath!\r
+Proton: Now, wait just one second!\rAren’t you the one who got in\nour way at the Slowpoke Well?\rI see... You’re doing all this because\nyou want to make me angry. Be careful!\rBut since you seem to wish it, I’ll show\nyou the full extent of a Team Rocket\fExecutive’s wrath!\r
 Seriously, you’d chase me this far?!\n
 Ugh... What are you?!\n
 Phew...\n
@@ -1117,7 +1117,7 @@ No!\nForgive me, Giovanni!\n
 Hmmm...\nThis is a strange place.\r
 ...\n
 I like thinking here.\n
-ZUBAT’s Supersonic keeps confusing my\nPokémon. I’m seriously upset\fabout that!\r
+Zubat’s Supersonic keeps confusing my\nPokémon. I’m seriously upset\fabout that!\r
 I flamed out!\n
 I’ve practiced training my Pokémon,\nbut I’ve practiced breathing fire many\fmore times than that.\rDon’t try this at home, OK?\n
 If there’s light, a cave isn’t scary. If\nyou’re strong, Pokémon aren’t scary.\r
@@ -1161,7 +1161,7 @@ Just...\nToo strong...\n
 We need the money, but selling\nSlowpokeTails?\rIt’s tough being a Team Rocket Grunt!\n
 Humph! I was standing guard up top\nwhen some old coot yelled at me.\rHe startled me so much that I fell\ndown here.\rHow about I vent my anger and take it\nout on you!\r
 Arrgh! This is NOT my day!\n
-Sure, we’ve been hacking the tails off\nSLOWPOKE and selling them.\rTeam Rocket will do anything for money!\n
+Sure, we’ve been hacking the tails off\nSlowpoke and selling them.\rTeam Rocket will do anything for money!\n
 Stop taking SlowpokeTails?\rWhat?! You want us to disobey a direct\norder from Executive Proton?\rIf you want to stop us, you’ll have to\ndefeat us all! Go ahead and try!\r
 You rotten brat!\n
 SlowpokeTails grow back fast!\rBesides, it was an order from Proton,\nso I’m more concerned about that!\n
@@ -1173,7 +1173,7 @@ Oops...\nThey crashed...\n
 My bird Pokémon trained in Cianwood.\nSince I’ve lost, maybe we’ll go across\fthe sea.\n
 I travel the world to train my Pokémon.\nNow, I wish to battle with you.\r
 ...Aww... I must train some more...\n
-Jasmine used to use Rock Pokémon\nlike ONIX.\n
+Jasmine used to use Rock Pokémon\nlike Onix.\n
 Eh? This is no place for playing.\r
 Ah! I can see you’re serious.\n
 Up top is a Pokémon that keeps the\nLighthouse lit.\rPokémon glow when they are healthy,\njust like people.\n
@@ -1196,8 +1196,8 @@ Whoa, whoa. You’re overwhelming!\n
 Being a Gym Leader isn’t just about\nbeing strong. A Leader also needs to\fbe compassionate.\n
 This was once a ninja hideout.\rThere are traps to confound intruders\nlike you.\r
 I see...\n
-The PC on my desk is the switch\nthat deactivates the PERSIAN\falarm system.\rDon’t you ever touch it, OK?\n
-The PC on my desk is the switch\nthat deactivates the PERSIAN\falarm system.\rDon’t you ever touch it, OK?\n
+The PC on my desk is the switch\nthat deactivates the Persian\falarm system.\rDon’t you ever touch it, OK?\n
+The PC on my desk is the switch\nthat deactivates the Persian\falarm system.\rDon’t you ever touch it, OK?\n
 Heh heh. Feeling lucky, punk?\rGo ahead, take another step.\nWe’ve got explosives set in the floor!\fStep on one, and--BOOM!\r
 Kaboom!\n
 Where are the traps planted?\nThat... Well...\rI don’t even remember!\n
@@ -1499,9 +1499,9 @@ I suppose if you tried to swim in an\nelectric bikini, you’d get a shock!\n
 Hey, Trainer! How about you put on a\nswimsuit, too?\r
 I didn’t want to lose...\n
 I wonder if there’s any place that sells\nswimsuits that suit my Pokémon?\n
-The teacher from the swimming class\nwhere I learned to swim had a face just\flike a POLIWHIRL.\r
+The teacher from the swimming class\nwhere I learned to swim had a face just\flike a Poliwhirl.\r
 I’m sorry, Teacher...\n
-Due to the incredible resemblance,\nwe called our teacher\fProfessor POLIWHIRL!\n
+Due to the incredible resemblance,\nwe called our teacher\fProfessor Poliwhirl!\n
 Swimming is a full-body exercise, so it’s\nreally good for building strength!\r
 My Pokémon and I have no\nbody strength...\n
 To win more, I need to work on\nmy stamina!\n
@@ -1527,10 +1527,10 @@ You are pretty good!\n
 The reason I’m going on a picnic...\rIt’s because I really want to smell\nthe fresh air...\rDo you know what I mean?\n
 Hey! Hugh!\r
 I mistook you for someone else...\n
-I came to explore Mt. Mortar, but I got\nseparated from my partner...\rDid you run into a Trainer who uses a\nSEADRA? That SEADRA is really good at\fusing Waterfall.\n
+I came to explore Mt. Mortar, but I got\nseparated from my partner...\rDid you run into a Trainer who uses a\nSeadra? That Seadra is really good at\fusing Waterfall.\n
 Yo! Markus!\r
 Oops!\nI really mixed you up!\n
-I came to explore Mt. Mortar, but I got\nseparated from my partner...\rDid you run into a Trainer who uses a\nSLOWPOKE? That SLOWPOKE is really good\fat using Strength.\n
+I came to explore Mt. Mortar, but I got\nseparated from my partner...\rDid you run into a Trainer who uses a\nSlowpoke? That Slowpoke is really good\fat using Strength.\n
 I’m not losing this time!\r
 I lost to some kid?\n
 A while back, this karate guy wanted\nto battle. He was ridiculously good.\rHe just thrashed me silly.\rHe said something about training and\nwent in deeper. I wonder why?\n

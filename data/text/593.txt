@@ -2,10 +2,10 @@ The ladies at this department store\neven greet kids like me with respect.\rThat
 The ladies at this department store\nnever change their attitude.\rBe it in front of a regular customer\nor a Team Rocket member.\rThat’s what I call professional!
 The existence of this department store\ntells me that Goldenrod is a big city.\rThe selection here is unmatched\nanywhere else.
 You better listen to me.\rQuit being a Team Rocket member\nalready!
-I got my SMEARGLE at the Game Corner.\fNow it’s my best partner.
-Oh, Team Rocket!\nPlease don’t take my CACNEA away!
+I got my Smeargle at the Game Corner.\fNow it’s my best partner.
+Oh, Team Rocket!\nPlease don’t take my Cacnea away!
 Your Travel Companion\n2F Trainer’s Market
 Hm? Who are you? A Pokémon Trainer, I\npresume?\rYour name is {STRVAR_1 3, 0, 0}? I see...\rI’m Cynthia. I’m visiting Johto on\nsome archaeology business.\rI assume you’ve seen the Ruins of Alph?\nA very interesting place, indeed...\rWell, {STRVAR_1 3, 0, 0}, perhaps we’ll cross paths\nin the future. It was nice to meet you.
 Perhaps we’ll cross paths in the\nfuture. It was nice to meet you.
 Hey, hey! Did you know they sell\nsome evolution stones here now?
-IGGLYBUFF: Buubuu!
+Igglybuff: Buubuu!

@@ -1,2 +1,2 @@
-Roll the ball while keeping MIME JR.\nbalanced on top.
+Roll the ball while keeping Mime Jr.\nbalanced on top.
      

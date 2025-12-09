@@ -119,7 +119,7 @@ Distortion World
 Global Terminal
 Villa
 Battleground
-ROTOM’s Room
+Rotom’s Room
 T.G. Eterna Bldg
 Iron Ruins
 Iceberg Ruins
@@ -195,7 +195,7 @@ Route 45
 Route 46
 Route 47
 Route 48
-DIGLETT’s Cave
+Diglett’s Cave
 Mt. Moon
 Cerulean Cave
 Rock Tunnel
@@ -209,7 +209,7 @@ National Park
 Radio Tower
 Ruins of Alph
 Union Cave
-SLOWPOKE Well
+Slowpoke Well
 Lighthouse
 Team Rocket HQ
 Ilex Forest

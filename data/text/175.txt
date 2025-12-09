@@ -110,8 +110,8 @@ End
 ♡Set National Pokédex
 ♡Seen National Pokédex
 ♡Seen Sinnoh Pokédex
-DEOXYS save data
-SHELLOS save data
+Deoxys save data
+Shellos save data
 ♡Set all languages
 ♡Set a random-select language
 ♡Set English

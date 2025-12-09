@@ -17,13 +17,13 @@ Ethan: They keep calling for their boss.\nI feel sorry they don’t know he’s\
 Lyra: They keep calling for their boss.\nI feel sorry they don’t know he’s\fnot coming.\rAfter this, {STRVAR_1 3, 0, 0}, you will\ndefeat them!\r...Wait a second!\r{STRVAR_1 3, 0, 0}, you’re still here.\nThen, who will defeat Team Rocket...?\r
 Not again...!\nI’ve had enough!\fPlease let me go back to my time!\r
 Not again...!\nI’ve had enough!\fPlease let me go back to my time!\r
-CELEBI is traveling through time!\nIt is going back to the time before\fthis strange adventure began...\r
+Celebi is traveling through time!\nIt is going back to the time before\fthis strange adventure began...\r
 There is a radio that no longer works...
 You cannot turn on the radio.\nGiovanni must have left it here...
-CELEBI...!\rWe need it to get better, or we will\nnever be able to go back to our time!\r
-CELEBI...!\rWe need it to get better, or we will\nnever be able to go back to our time!\r
-Ethan used Max Revive on CELEBI!\r
-Lyra used Max Revive on CELEBI!\r
+Celebi...!\rWe need it to get better, or we will\nnever be able to go back to our time!\r
+Celebi...!\rWe need it to get better, or we will\nnever be able to go back to our time!\r
+Ethan used Max Revive on Celebi!\r
+Lyra used Max Revive on Celebi!\r
 {COLOR 1}Time Travel{COLOR 0}......!\rThis is it! Please take us to our time!\r
 {COLOR 1}Time Travel{COLOR 0}......!\rThis is it! Please take us to our time!\r
 Hm? The radio seems to be working,\nbarely...\r
