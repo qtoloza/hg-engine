@@ -33,9 +33,21 @@ scrdef scr_seq_D39R0101_001
 scrdef scr_seq_D39R0101_002
 scrdef scr_seq_D39R0101_003
 scrdef scr_seq_D39R0101_004
+scrdef scr_seq_D39R0101_005
 scrdef_end
 
 scr_seq_D39R0101_001:
+	// === Zygarde Visibility Control (Tier 3) ===
+	goto_if_set FLAG_HIDE_ZYGARDE, _zygarde_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_zygarde_entry
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_zygarde_entry
+	goto_if_unset FLAG_CAUGHT_YVELTAL, _hide_zygarde_entry
+	clearflag FLAG_HIDE_ZYGARDE
+	goto _zygarde_vis_done
+_hide_zygarde_entry:
+	setflag FLAG_HIDE_ZYGARDE
+_zygarde_vis_done:
+	// === Original Entry Script ===
 	goto_if_unset FLAG_UNK_189, _0144
 	clearflag FLAG_UNK_189
 	end
@@ -396,6 +408,62 @@ _047C:
 	step 12, 3
 	step 33, 1
 	step_end
+	.align 4
+
+// Zygarde encounter (Lv50 Dragon/Ground)
+scr_seq_D39R0101_005:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _zygarde_not_postgame
+	play_cry SPECIES_ZYGARDE, 0
+	npc_msg 8
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_ZYGARDE, 50, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _zygarde_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _zygarde_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _zygarde_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _zygarde_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _zygarde_defeated
+	setflag FLAG_HIDE_ZYGARDE
+	hide_person obj_D39R0101_zygarde
+	releaseall
+	end
+
+_zygarde_not_postgame:
+	releaseall
+	end
+
+_zygarde_lost:
+	white_out
+	releaseall
+	end
+
+_zygarde_fled:
+	releaseall
+	end
+
+_zygarde_defeated:
+	npc_msg 9
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_zygarde_caught:
+	setflag FLAG_CAUGHT_ZYGARDE
+	return
+
 	.align 4
 
 

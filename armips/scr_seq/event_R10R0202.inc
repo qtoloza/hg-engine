@@ -12,6 +12,8 @@
 .equ _EV_scr_seq_R10R0202_008, 8
 .equ _EV_scr_seq_R10R0202_009, 9
 .equ _EV_scr_seq_R10R0202_010, 10
+.equ _EV_scr_seq_R10R0202_011, 11
+.equ _EV_scr_seq_R10R0202_012, 12
 
 .equ obj_R10R0202_policeman, 0
 .equ obj_R10R0202_gsassistantm, 1
@@ -20,5 +22,6 @@
 .equ obj_R10R0202_gsassistantm_3, 4
 .equ obj_R10R0202_gsassistantm_4, 5
 .equ obj_R10R0202_gsbigman, 6
+.equ obj_R10R0202_cobalion, 7
 
 .endif //SCR_SEQ_R10R0202_H_

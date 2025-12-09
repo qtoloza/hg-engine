@@ -37,6 +37,8 @@ scrdef scr_seq_D24R0101_005
 scrdef scr_seq_D24R0101_006
 scrdef scr_seq_D24R0101_007
 scrdef scr_seq_D24R0101_008
+scrdef scr_seq_D24R0101_009
+scrdef scr_seq_D24R0101_010
 scrdef_end
 
 scr_seq_D24R0101_006:
@@ -51,6 +53,16 @@ scr_seq_D24R0101_006:
 	end
 
 scr_seq_D24R0101_005:
+	// === Hoopa Visibility Control (Tier 4) ===
+	goto_if_set FLAG_HIDE_HOOPA, _hoopa_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_hoopa_entry
+	goto_if_unset FLAG_UNLOCKED_MT_SILVER, _hide_hoopa_entry
+	clearflag FLAG_HIDE_HOOPA
+	goto _hoopa_vis_done
+_hide_hoopa_entry:
+	setflag FLAG_HIDE_HOOPA
+_hoopa_vis_done:
+	// === Original Entry Script ===
 	goto_if_unset FLAG_UNK_189, _01AB
 	clearflag FLAG_UNK_189
 	end
@@ -631,6 +643,86 @@ _08C6:
 	step 13, 1
 	step 37, 1
 	step_end
+	.align 4
+
+// Hoopa encounter (Lv45 Psychic/Ghost)
+scr_seq_D24R0101_009:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _hoopa_not_postgame
+	play_cry SPECIES_HOOPA, 0
+	npc_msg 13
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_HOOPA, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _hoopa_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _hoopa_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _hoopa_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _hoopa_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _hoopa_defeated
+	setflag FLAG_HIDE_HOOPA
+	hide_person obj_D24R0101_hoopa
+	releaseall
+	end
+
+_hoopa_not_postgame:
+	releaseall
+	end
+
+_hoopa_lost:
+	white_out
+	releaseall
+	end
+
+_hoopa_fled:
+	releaseall
+	end
+
+_hoopa_defeated:
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_hoopa_caught:
+	setflag FLAG_CAUGHT_HOOPA
+	return
+
+	.align 4
+
+// Researcher NPC - Hoopa hint
+scr_seq_D24R0101_010:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Hoopa hint dialogue
+	goto_if_unset FLAG_UNLOCKED_MT_SILVER, _researcher_normal
+	goto_if_set FLAG_CAUGHT_HOOPA, _researcher_post_hoopa
+	// Pre-Hoopa hint
+	npc_msg 12
+	goto _researcher_end
+_researcher_post_hoopa:
+	npc_msg 13
+	goto _researcher_end
+_researcher_normal:
+	npc_msg 12
+_researcher_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
 	.align 4
 
 

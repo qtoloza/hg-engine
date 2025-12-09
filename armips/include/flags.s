@@ -2236,7 +2236,58 @@ FLAG_HIDE_OLIVINE_PC_UNOVA_GIVER                          equ 2917
 FLAG_HIDE_VERMILION_PC_KALOS_QUIZ                         equ 2918
 FLAG_HIDE_PEWTER_PC_KALOS_GIVER                           equ 2919
 
-NUM_FLAGS                                                 equ  2913
+// Gen V Legendary Hide Flags
+FLAG_HIDE_COBALION                                        equ 2920
+FLAG_HIDE_TERRAKION                                       equ 2921
+FLAG_HIDE_VIRIZION                                        equ 2922
+FLAG_HIDE_TORNADUS                                        equ 2923
+FLAG_HIDE_THUNDURUS                                       equ 2924
+FLAG_HIDE_LANDORUS                                        equ 2925
+FLAG_HIDE_RESHIRAM                                        equ 2926
+FLAG_HIDE_ZEKROM                                          equ 2927
+FLAG_HIDE_KYUREM                                          equ 2928
+FLAG_HIDE_KELDEO                                          equ 2929
+FLAG_HIDE_MELOETTA                                        equ 2930
+FLAG_HIDE_GENESECT                                        equ 2931
+
+// Gen VI Legendary Hide Flags
+FLAG_HIDE_XERNEAS                                         equ 2932
+FLAG_HIDE_YVELTAL                                         equ 2933
+FLAG_HIDE_ZYGARDE                                         equ 2934
+FLAG_HIDE_DIANCIE                                         equ 2935
+FLAG_HIDE_HOOPA                                           equ 2936
+FLAG_HIDE_VOLCANION                                       equ 2937
+
+// Flags to hide NPCs when legendaries appear in their locations
+FLAG_HIDE_DRAGON_DEN_NPCS                                 equ 2938
+FLAG_HIDE_LIGHTHOUSE_TOP_NPCS                             equ 2939
+FLAG_HIDE_LIGHTHOUSE_GENIE_NPCS                           equ 2940
+FLAG_HIDE_POWER_PLANT_NPCS                                equ 2953
+FLAG_HIDE_ROTOM_ROOM_NPCS                                 equ 2954
+FLAG_HIDE_RADIO_TOWER_5F_NPCS                             equ 2955
+
+// Gen 5/6 Legendary Catch Tracking Flags (for chain prerequisites)
+FLAG_CAUGHT_COBALION                                      equ 2941
+FLAG_CAUGHT_TERRAKION                                     equ 2942
+FLAG_CAUGHT_VIRIZION                                      equ 2943
+FLAG_CAUGHT_TORNADUS                                      equ 2944
+FLAG_CAUGHT_THUNDURUS                                     equ 2945
+FLAG_CAUGHT_LANDORUS                                      equ 2946
+FLAG_CAUGHT_RESHIRAM                                      equ 2947
+FLAG_CAUGHT_ZEKROM                                        equ 2948
+FLAG_CAUGHT_KYUREM                                        equ 2949
+FLAG_CAUGHT_XERNEAS                                       equ 2950
+FLAG_CAUGHT_YVELTAL                                       equ 2951
+FLAG_CAUGHT_ZYGARDE                                       equ 2952
+FLAG_CAUGHT_VOLCANION                                     equ 2953
+FLAG_CAUGHT_KELDEO                                        equ 2954
+FLAG_CAUGHT_HOOPA                                         equ 2955
+FLAG_CAUGHT_MELOETTA                                      equ 2956
+FLAG_CAUGHT_GENESECT                                      equ 2957
+FLAG_CAUGHT_DIANCIE                                       equ 2958
+
+
+NUM_FLAGS                                                 equ  2959
 
 
 NUM_TEMP_FLAGS                                           equ     64

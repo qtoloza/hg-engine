@@ -52,6 +52,23 @@
       "x": 25,
       "z": 1,
       "y": 0
+    },
+    {
+      "id": "obj_D23R0106_meloetta",
+      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MELOETTA",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_HIDE_MELOETTA",
+      "scriptId": "_EV_scr_seq_D23R0106_002 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 8,
+      "z": 5,
+      "y": 0
     }
   ],
   "warps": [

@@ -10,6 +10,7 @@
 .equ _EV_scr_seq_T11R0702_006, 6
 .equ _EV_scr_seq_T11R0702_007, 7
 .equ _EV_scr_seq_T11R0702_008, 8
+.equ _EV_scr_seq_T11R0702_009, 9
 
 .equ obj_T11R0702_rotomf, 0
 .equ obj_T11R0702_rotoms, 1
@@ -18,5 +19,6 @@
 .equ obj_T11R0702_rotomg, 4
 .equ obj_T11R0702_babyboy1_2, 5
 .equ obj_T11R0702_follower_mon_claydol, 6
+.equ obj_T11R0702_genesect, 7
 
 .endif //SCR_SEQ_T11R0702_H_

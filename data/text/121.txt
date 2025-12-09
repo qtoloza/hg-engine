@@ -22,3 +22,9 @@ JIRACHI disappeared, not to be\nseen again for a millenium...
 {STRVAR_1 3, 0, 0}’s Coin Case was completely\nfilled!
 {STRVAR_1 3, 0, 0} was showered with sweets!
 JIRACHI moved forward to attack!\r
+You carry the aura of three great\nwarriors upon you.\rThe legends speak of a fourth -\na young one who trained alongside\fthe Swords of Justice.\rIt reveals itself only to those\nthe trio has deemed worthy.\rSeek where water meets stone,\nin the deepest caves...\r
+All four Swords of Justice,\nunited under one trainer.\rYou’ve proven yourself worthy\nof the ancient warriors.\rTheir spirits will guide you.\r
+Shiimmer...\r
+Xerneas faded into the light...
+PSSSSHHH!\r
+Volcanion vented steam and vanished...

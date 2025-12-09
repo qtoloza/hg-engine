@@ -126,7 +126,29 @@ scr_seq_T23_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_BEAT_AZALEA_ROCKETS, _038C
+	goto_if_unset FLAG_BEAT_AZALEA_ROCKETS, _oldman_prerocket
+	// Postgame Aura Trio hint dialogue chain
+	goto_if_unset FLAG_GAME_CLEAR, _038C
+	goto_if_set FLAG_CAUGHT_VOLCANION, _oldman_post_volcanion
+	goto_if_set FLAG_CAUGHT_ZYGARDE, _oldman_post_zygarde
+	goto_if_set FLAG_CAUGHT_YVELTAL, _oldman_post_yveltal
+	goto_if_set FLAG_CAUGHT_XERNEAS, _oldman_post_xerneas
+	// Pre-Xerneas hint
+	npc_msg 27
+	goto _0384
+_oldman_post_xerneas:
+	npc_msg 28
+	goto _0384
+_oldman_post_yveltal:
+	npc_msg 29
+	goto _0384
+_oldman_post_zygarde:
+	npc_msg 30
+	goto _0384
+_oldman_post_volcanion:
+	npc_msg 31
+	goto _0384
+_oldman_prerocket:
 	npc_msg 5
 	goto _0384
 

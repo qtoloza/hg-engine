@@ -77,3 +77,7 @@ Gardenia: Ivysaur! Use Vine Whip!\r
 Gardenia: Oh, yes, that feels\nfantastic!\r...\rIt’s incredible! I don’t know how\nlong I can hold on! Keep it u-
 Gardenia: Ahhh! Er... H-hi... I don’t\nsuppose y-you saw that? I should have\fg-guessed there would be passing\fT-trainers...\rI’ll give you this TM, if you\nkeep what you saw a secret!\r
 Gardenia: The damage Grass Knot does\nto opponents increases with how heavy\fthey are.\rAnyway, I better be off. Goodbye!\nNo telling!
+The Farfetch’d have been restless.\nThey sense something in the deepest\fpart of the forest.\rAn old presence. A protector.\rIt only reveals itself to those\nwho’ve proven their worth to its\fcompanions of iron and stone.\r
+The forest feels at peace now.\nYou must have found the protector.\rThree warriors, united in purpose.\nI wonder if there are more...\r
+Swiii...\r
+Virizion disappeared into the leaves...

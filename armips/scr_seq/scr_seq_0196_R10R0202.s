@@ -39,7 +39,30 @@ scrdef scr_seq_R10R0202_007
 scrdef scr_seq_R10R0202_008
 scrdef scr_seq_R10R0202_009
 scrdef scr_seq_R10R0202_010
+scrdef scr_seq_R10R0202_011
+scrdef scr_seq_R10R0202_012
 scrdef_end
+
+// Map entry script - Cobalion + NPC visibility control
+scr_seq_R10R0202_012:
+	// === Cobalion + NPC Visibility Control ===
+	// If Cobalion is present (not hidden), hide the NPCs
+	goto_if_set FLAG_HIDE_COBALION, _cobalion_hidden_entry
+	// Cobalion not caught - check tier requirements
+	goto_if_unset FLAG_GAME_CLEAR, _hide_cobalion_show_npcs
+	// Cobalion meets tier requirements (Tier 1) - hide NPCs
+	setflag FLAG_HIDE_POWER_PLANT_NPCS
+	end
+
+_hide_cobalion_show_npcs:
+	setflag FLAG_HIDE_COBALION
+	clearflag FLAG_HIDE_POWER_PLANT_NPCS
+	end
+
+_cobalion_hidden_entry:
+	// Cobalion already caught/hidden - show NPCs
+	clearflag FLAG_HIDE_POWER_PLANT_NPCS
+	end
 
 scr_seq_R10R0202_006:
 	play_se SEQ_SE_DP_SELECT
@@ -150,7 +173,25 @@ scr_seq_R10R0202_003:
 	end
 
 scr_seq_R10R0202_001:
-	simple_npc_msg 4
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Cobalion hint dialogue - postgame only
+	goto_if_unset FLAG_GAME_CLEAR, _worker1_normal
+	goto_if_set FLAG_CAUGHT_COBALION, _worker1_post_catch
+	goto_if_set FLAG_HIDE_COBALION, _worker1_normal  // Already fled/defeated
+	// Pre-catch hint
+	npc_msg 22
+	goto _worker1_end
+_worker1_post_catch:
+	npc_msg 23
+	goto _worker1_end
+_worker1_normal:
+	npc_msg 4
+_worker1_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_R10R0202_002:
@@ -310,6 +351,67 @@ _03A6:
 
 	step 0, 1
 	step_end
+	.align 4
+
+// Cobalion encounter (Lv45 Steel/Fighting) - Power Plant
+scr_seq_R10R0202_011:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _cobalion_not_postgame
+	play_cry SPECIES_COBALION, 0
+	npc_msg 24
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_COBALION, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _cobalion_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _cobalion_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _cobalion_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _cobalion_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _cobalion_defeated
+	setflag FLAG_HIDE_COBALION
+	hide_person obj_R10R0202_cobalion
+	// Show NPCs after Cobalion is gone
+	clearflag FLAG_HIDE_POWER_PLANT_NPCS
+	releaseall
+	end
+
+_cobalion_not_postgame:
+	releaseall
+	end
+
+_cobalion_lost:
+	white_out
+	releaseall
+	end
+
+_cobalion_fled:
+	// Show NPCs after Cobalion flees
+	clearflag FLAG_HIDE_POWER_PLANT_NPCS
+	releaseall
+	end
+
+_cobalion_defeated:
+	npc_msg 25
+	wait_button_or_walk_away
+	closemsg
+	clearflag FLAG_HIDE_POWER_PLANT_NPCS
+	releaseall
+	end
+
+_cobalion_caught:
+	setflag FLAG_CAUGHT_COBALION
+	return
+
 	.align 4
 
 

@@ -37,3 +37,6 @@ That is indeed one of the starters\ngiven out by Rowan in Sinnoh!\rSo you own a 
 {STRVAR_1 3, 0, 0} received {COLOR 2}CHIKORITA{COLOR 0} and {COLOR 2}CYNDAQUIL{COLOR 0}\nfrom Professor Elm!
 Professor Elm: I’ll be returning to\nNew Bark Town, then.\rSee you around, {STRVAR_1 3, 0, 0}!
 But... your party is too full.\nCome and see me again another\ftime, please!
+
+Welcome. This is Silph Co.’s\nhead office building.\rOh, you’re a trainer? The top\nfloor has been off-limits lately.\fSomething about old equipment\nmalfunctioning... strange noises\fcoming from the storage room.\rThe scientists seem nervous\nabout it, but I’m sure it’s nothing.\r
+Welcome. This is Silph Co.’s\nhead office building.\rThings have been much calmer\naround here lately.\fThe scientists finally stopped\nworrying about the storage room.\r

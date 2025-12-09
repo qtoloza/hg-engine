@@ -6,6 +6,7 @@
 .equ _EV_scr_seq_D39R0101_002, 2
 .equ _EV_scr_seq_D39R0101_003, 3
 .equ _EV_scr_seq_D39R0101_004, 4
+.equ _EV_scr_seq_D39R0101_005, 5
 
 .equ obj_D39R0101_monstarball, 0
 .equ obj_D39R0101_gsmiddleman1, 1
@@ -15,5 +16,6 @@
 .equ obj_D39R0101_gsmiddleman1_2, 5
 .equ obj_D39R0101_monstarball_4, 6
 .equ obj_D39R0101_monstarball_5, 7
+.equ obj_D39R0101_zygarde, 8
 
 .endif //SCR_SEQ_D39R0101_H_

@@ -32,7 +32,35 @@ scrdef scr_seq_D38R0104_000
 scrdef scr_seq_D38R0104_001
 scrdef scr_seq_D38R0104_002
 scrdef scr_seq_D38R0104_003
+scrdef scr_seq_D38R0104_004
+scrdef scr_seq_D38R0104_005
+scrdef scr_seq_D38R0104_006
 scrdef_end
+
+// Map entry script - Xerneas (Tier 1) and Volcanion (Tier 4) visibility
+scr_seq_D38R0104_006:
+	// === Xerneas Visibility Control (Tier 1) ===
+	goto_if_set FLAG_HIDE_XERNEAS, _xerneas_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_xerneas_entry
+	clearflag FLAG_HIDE_XERNEAS
+	goto _xerneas_vis_done
+_hide_xerneas_entry:
+	setflag FLAG_HIDE_XERNEAS
+_xerneas_vis_done:
+	// === Volcanion Visibility Control (Tier 4) ===
+	// Requires all 3 Aura Trio + MT_SILVER
+	goto_if_set FLAG_HIDE_VOLCANION, _volcanion_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_volcanion_entry
+	goto_if_unset FLAG_UNLOCKED_MT_SILVER, _hide_volcanion_entry
+	goto_if_unset FLAG_CAUGHT_XERNEAS, _hide_volcanion_entry
+	goto_if_unset FLAG_CAUGHT_YVELTAL, _hide_volcanion_entry
+	goto_if_unset FLAG_CAUGHT_ZYGARDE, _hide_volcanion_entry
+	clearflag FLAG_HIDE_VOLCANION
+	goto _volcanion_vis_done
+_hide_volcanion_entry:
+	setflag FLAG_HIDE_VOLCANION
+_volcanion_vis_done:
+	end
 
 scr_seq_D38R0104_000:
 	play_se SEQ_SE_DP_SELECT
@@ -103,6 +131,24 @@ scr_seq_D38R0104_003:
 
 _0121:
 	setflag FLAG_GOT_TYROGUE_FROM_KARATE_KING
+	// Check for Keldeo hint - requires all 3 Swords caught
+	goto_if_unset FLAG_CAUGHT_COBALION, _karate_king_normal
+	goto_if_unset FLAG_CAUGHT_TERRAKION, _karate_king_normal
+	goto_if_unset FLAG_CAUGHT_VIRIZION, _karate_king_normal
+	goto_if_set FLAG_CAUGHT_KELDEO, _karate_king_post_keldeo
+	// Pre-Keldeo hint
+	npc_msg 25
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+_karate_king_post_keldeo:
+	npc_msg 26
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+_karate_king_normal:
 	npc_msg 3
 	wait_button_or_walk_away
 	closemsg
@@ -342,6 +388,118 @@ _047E:
 
 	step 75, 1
 	step_end
+	.align 4
+
+// Xerneas encounter (Lv70 Fairy)
+scr_seq_D38R0104_004:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _xerneas_not_postgame
+	play_cry SPECIES_XERNEAS, 0
+	npc_msg 26
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_XERNEAS, 70, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _xerneas_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _xerneas_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _xerneas_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _xerneas_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _xerneas_defeated
+	setflag FLAG_HIDE_XERNEAS
+	hide_person obj_D38R0104_xerneas
+	releaseall
+	end
+
+_xerneas_not_postgame:
+	releaseall
+	end
+
+_xerneas_lost:
+	white_out
+	releaseall
+	end
+
+_xerneas_fled:
+	releaseall
+	end
+
+_xerneas_defeated:
+	npc_msg 27
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_xerneas_caught:
+	setflag FLAG_CAUGHT_XERNEAS
+	return
+
+	.align 4
+
+// Volcanion encounter (Lv45 Fire/Water) - Mt Mortar Depths
+scr_seq_D38R0104_005:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _volcanion_not_postgame
+	play_cry SPECIES_VOLCANION, 0
+	npc_msg 27
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_VOLCANION, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _volcanion_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _volcanion_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _volcanion_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _volcanion_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _volcanion_defeated
+	setflag FLAG_HIDE_VOLCANION
+	hide_person obj_D38R0104_volcanion
+	releaseall
+	end
+
+_volcanion_not_postgame:
+	releaseall
+	end
+
+_volcanion_lost:
+	white_out
+	releaseall
+	end
+
+_volcanion_fled:
+	releaseall
+	end
+
+_volcanion_defeated:
+	npc_msg 29
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_volcanion_caught:
+	setflag FLAG_CAUGHT_VOLCANION
+	return
+
 	.align 4
 
 

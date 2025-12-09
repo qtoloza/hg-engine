@@ -7,6 +7,7 @@
 .equ _EV_scr_seq_T28PC0101_003, 3
 .equ _EV_scr_seq_T28PC0101_004, 4
 .equ _EV_scr_seq_T28PC0101_005, 5
+.equ _EV_scr_seq_T28PC0101_006, 6
 
 .equ obj_T28PC0101_gsboy1, 0
 .equ obj_T28PC0101_gswoman3, 1
@@ -17,5 +18,6 @@
 .equ obj_T28PC0101_gsmiddleman1, 6
 .equ obj_T28PC0101_gentleman, 7
 .equ obj_T28PC0101_follower_mon_poliwhirl, 8
+.equ obj_T28PC0101_unova_quiz, 9
 
 .endif //SCR_SEQ_T28PC0101_H_

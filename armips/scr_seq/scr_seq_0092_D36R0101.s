@@ -55,9 +55,22 @@ scrdef scr_seq_D36R0101_023
 scrdef scr_seq_D36R0101_024
 scrdef scr_seq_D36R0101_025
 scrdef scr_seq_D36R0101_026
+scrdef scr_seq_D36R0101_027
+scrdef scr_seq_D36R0101_028
 scrdef_end
 
 scr_seq_D36R0101_000:
+	// === Virizion Visibility Control (Tier 3) ===
+	goto_if_set FLAG_HIDE_VIRIZION, _virizion_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_virizion_entry
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_virizion_entry
+	goto_if_unset FLAG_CAUGHT_TERRAKION, _hide_virizion_entry
+	clearflag FLAG_HIDE_VIRIZION
+	goto _virizion_vis_done
+_hide_virizion_entry:
+	setflag FLAG_HIDE_VIRIZION
+_virizion_vis_done:
+	// === Original Entry Script ===
 	get_friend_sprite VAR_OBJ_0
 	goto_if_unset FLAG_UNK_189, _06A7
 	clearflag FLAG_UNK_189
@@ -3018,6 +3031,87 @@ _285C:
 
 	step 75, 1
 	step_end
+	.align 4
+
+// Virizion encounter (Lv45 Grass/Fighting)
+scr_seq_D36R0101_027:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _virizion_not_postgame
+	play_cry SPECIES_VIRIZION, 0
+	npc_msg 81
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_VIRIZION, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _virizion_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _virizion_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _virizion_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _virizion_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _virizion_defeated
+	setflag FLAG_HIDE_VIRIZION
+	hide_person obj_D36R0101_virizion
+	releaseall
+	end
+
+_virizion_not_postgame:
+	releaseall
+	end
+
+_virizion_lost:
+	white_out
+	releaseall
+	end
+
+_virizion_fled:
+	releaseall
+	end
+
+_virizion_defeated:
+	npc_msg 82
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_virizion_caught:
+	setflag FLAG_CAUGHT_VIRIZION
+	return
+
+	.align 4
+
+// Forest Elder NPC - Virizion hint (Swords of Justice arc)
+scr_seq_D36R0101_028:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Only show hint if player has caught Terrakion (Tier 3 prereq)
+	goto_if_unset FLAG_CAUGHT_TERRAKION, _forest_elder_normal
+	goto_if_set FLAG_CAUGHT_VIRIZION, _forest_elder_post_catch
+	// Pre-catch hint
+	npc_msg 79
+	goto _forest_elder_end
+_forest_elder_post_catch:
+	npc_msg 80
+	goto _forest_elder_end
+_forest_elder_normal:
+	// Generic dialogue
+	npc_msg 79
+_forest_elder_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
 	.align 4
 
 

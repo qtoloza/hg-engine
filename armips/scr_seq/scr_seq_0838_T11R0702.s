@@ -37,9 +37,32 @@ scrdef scr_seq_T11R0702_005
 scrdef scr_seq_T11R0702_006
 scrdef scr_seq_T11R0702_007
 scrdef scr_seq_T11R0702_008
+scrdef scr_seq_T11R0702_009
 scrdef_end
 
 scr_seq_T11R0702_006:
+	// === Genesect + NPC Visibility Control ===
+	// If Genesect is present (not hidden), hide the NPCs
+	goto_if_set FLAG_HIDE_GENESECT, _genesect_hidden
+	// Genesect is visible - check tier requirements
+	goto_if_unset FLAG_GAME_CLEAR, _hide_genesect_show_npcs
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_genesect_show_npcs
+	// Genesect meets tier requirements - hide NPCs
+	setflag FLAG_HIDE_ROTOM_ROOM_NPCS
+	goto _rotom_logic
+
+_hide_genesect_show_npcs:
+	setflag FLAG_HIDE_GENESECT
+	clearflag FLAG_HIDE_ROTOM_ROOM_NPCS
+	goto _rotom_logic
+
+_genesect_hidden:
+	// Genesect already caught/hidden - show NPCs
+	clearflag FLAG_HIDE_ROTOM_ROOM_NPCS
+	goto _rotom_logic
+
+_rotom_logic:
+	// === Rotom Form Visibility Logic ===
 	setflag FLAG_HIDE_SILPH_ROTOM_HEAT
 	setflag FLAG_HIDE_SILPH_ROTOM_WASH
 	setflag FLAG_HIDE_SILPH_ROTOM_FROST
@@ -687,6 +710,70 @@ _094A:
 	step 3, 1
 	step 69, 0
 	step_end
+	.align 4
+
+// Genesect encounter (Lv50 Bug/Steel) - Silph Co Rotom Room
+// Tier 3: Requires FLAG_GAME_CLEAR + FLAG_UNLOCKED_WEST_KANTO
+scr_seq_T11R0702_009:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _genesect_not_available
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _genesect_not_available
+	play_cry SPECIES_GENESECT, 0
+	npc_msg 46
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_GENESECT, 50, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _genesect_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _genesect_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _genesect_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _genesect_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _genesect_defeated
+	setflag FLAG_HIDE_GENESECT
+	hide_person obj_T11R0702_genesect
+	// Show NPCs after Genesect is gone
+	clearflag FLAG_HIDE_ROTOM_ROOM_NPCS
+	releaseall
+	end
+
+_genesect_not_available:
+	releaseall
+	end
+
+_genesect_lost:
+	white_out
+	releaseall
+	end
+
+_genesect_fled:
+	// Show NPCs after Genesect flees
+	clearflag FLAG_HIDE_ROTOM_ROOM_NPCS
+	releaseall
+	end
+
+_genesect_defeated:
+	npc_msg 47
+	wait_button_or_walk_away
+	closemsg
+	// Show NPCs after Genesect defeated
+	clearflag FLAG_HIDE_ROTOM_ROOM_NPCS
+	releaseall
+	end
+
+_genesect_caught:
+	setflag FLAG_CAUGHT_GENESECT
+	return
+
 	.align 4
 
 

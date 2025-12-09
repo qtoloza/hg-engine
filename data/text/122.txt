@@ -6,3 +6,5 @@ Me oh my...\nIs that you, {STRVAR_1 3, 0, 0}?\fFancy meeting you here!\rTo tell 
 {SIZE 200}SHOVE!{SIZE 100}\r
 Don’t be so cruel.\nYou will push my back,\fwon’t you? {YESNO 0}
 You really are kind.\rThank you so much!\r
+Zzzzrrrr...\r
+Zygarde dispersed into cells...

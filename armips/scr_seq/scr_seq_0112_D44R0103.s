@@ -34,9 +34,25 @@ scrdef scr_seq_D44R0103_002
 scrdef scr_seq_D44R0103_003
 scrdef scr_seq_D44R0103_004
 scrdef scr_seq_D44R0103_005
+scrdef scr_seq_D44R0103_006
 scrdef_end
 
 scr_seq_D44R0103_004:
+	// === Kyurem Visibility Control (Tier 3) ===
+	goto_if_set FLAG_HIDE_KYUREM, _kyurem_not_present
+	// Check tier requirements
+	goto_if_unset FLAG_GAME_CLEAR, _hide_kyurem_entry
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_kyurem_entry
+	goto_if_unset FLAG_CAUGHT_ZEKROM, _hide_kyurem_entry
+	// Kyurem meets requirements - hide NPCs
+	clearflag FLAG_HIDE_KYUREM
+	setflag FLAG_HIDE_DRAGON_DEN_NPCS
+	goto _continue_map_entry
+_hide_kyurem_entry:
+	setflag FLAG_HIDE_KYUREM
+_kyurem_not_present:
+	clearflag FLAG_HIDE_DRAGON_DEN_NPCS
+_continue_map_entry:
 	goto_if_unset FLAG_UNK_189, _0365
 	clearflag FLAG_UNK_189
 	end
@@ -182,7 +198,32 @@ scr_seq_D44R0103_000:
 	goto _048F
 
 scr_seq_D44R0103_001:
-	simple_npc_msg 24
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Tao Trio hint dialogue chain
+	goto_if_unset FLAG_GAME_CLEAR, _dragon_sage_normal
+	goto_if_set FLAG_CAUGHT_KYUREM, _dragon_sage_post_kyurem
+	goto_if_set FLAG_CAUGHT_ZEKROM, _dragon_sage_post_zekrom
+	goto_if_set FLAG_CAUGHT_RESHIRAM, _dragon_sage_post_reshiram
+	// Pre-Reshiram hint
+	npc_msg 34
+	goto _dragon_sage_end
+_dragon_sage_post_reshiram:
+	npc_msg 35
+	goto _dragon_sage_end
+_dragon_sage_post_zekrom:
+	npc_msg 36
+	goto _dragon_sage_end
+_dragon_sage_post_kyurem:
+	npc_msg 37
+	goto _dragon_sage_end
+_dragon_sage_normal:
+	npc_msg 24
+_dragon_sage_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_D44R0103_002:
@@ -1083,6 +1124,64 @@ _109A:
 	step 12, 3
 	step 33, 1
 	step_end
+	.align 4
+
+// Kyurem encounter (Lv70 Dragon/Ice)
+scr_seq_D44R0103_006:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _kyurem_not_postgame
+	play_cry SPECIES_KYUREM, 0
+	npc_msg 37
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_KYUREM, 70, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _kyurem_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _kyurem_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _kyurem_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _kyurem_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _kyurem_defeated
+	setflag FLAG_HIDE_KYUREM
+	clearflag FLAG_HIDE_DRAGON_DEN_NPCS
+	hide_person obj_D44R0103_kyurem
+	releaseall
+	end
+
+_kyurem_not_postgame:
+	releaseall
+	end
+
+_kyurem_lost:
+	white_out
+	releaseall
+	end
+
+_kyurem_fled:
+	releaseall
+	end
+
+_kyurem_defeated:
+	npc_msg 38
+	wait_button_or_walk_away
+	closemsg
+	clearflag FLAG_HIDE_DRAGON_DEN_NPCS
+	releaseall
+	end
+
+_kyurem_caught:
+	setflag FLAG_CAUGHT_KYUREM
+	return
+
 	.align 4
 
 

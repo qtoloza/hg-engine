@@ -73,7 +73,22 @@ scr_seq_T11R0701_005:
 	end
 
 scr_seq_T11R0701_000:
-	simple_npc_msg 0
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _silph_receptionist_normal
+	goto_if_set FLAG_CAUGHT_GENESECT, _silph_receptionist_post_genesect
+	npc_msg 40
+	goto _silph_receptionist_end
+_silph_receptionist_post_genesect:
+	npc_msg 41
+	goto _silph_receptionist_end
+_silph_receptionist_normal:
+	npc_msg 0
+_silph_receptionist_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_T11R0701_001:

@@ -30,9 +30,32 @@
 
 scrdef scr_seq_D23R0106_000
 scrdef scr_seq_D23R0106_001
+scrdef scr_seq_D23R0106_002
 scrdef_end
 
 scr_seq_D23R0106_000:
+	// === Meloetta + NPC Visibility Control ===
+	// If Meloetta is present (not hidden), hide the NPCs
+	goto_if_set FLAG_HIDE_MELOETTA, _meloetta_hidden_entry
+	// Meloetta not caught - check tier requirements
+	goto_if_unset FLAG_GAME_CLEAR, _hide_meloetta_show_npcs
+	goto_if_unset FLAG_RESTORED_POWER, _hide_meloetta_show_npcs
+	// Meloetta meets tier requirements - hide NPCs
+	setflag FLAG_HIDE_RADIO_TOWER_5F_NPCS
+	goto _radio_tower_rocket_logic
+
+_hide_meloetta_show_npcs:
+	setflag FLAG_HIDE_MELOETTA
+	clearflag FLAG_HIDE_RADIO_TOWER_5F_NPCS
+	goto _radio_tower_rocket_logic
+
+_meloetta_hidden_entry:
+	// Meloetta already caught/hidden - show NPCs
+	clearflag FLAG_HIDE_RADIO_TOWER_5F_NPCS
+	goto _radio_tower_rocket_logic
+
+_radio_tower_rocket_logic:
+	// === Original Rocket Takeover Logic ===
 	setflag FLAG_HIDE_ROCKET_TAKEOVER_1
 	setflag FLAG_HIDE_ROCKET_TAKEOVER_2
 	setvar VAR_UNK_4125, 0
@@ -394,6 +417,70 @@ _0548:
 	step 13, 6
 	step 15, 4
 	step_end
+	.align 4
+
+// Meloetta encounter (Lv45 Normal/Psychic) - Radio Tower 5F
+// Tier 2: Requires FLAG_GAME_CLEAR + FLAG_RESTORED_POWER
+scr_seq_D23R0106_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _meloetta_not_available
+	goto_if_unset FLAG_RESTORED_POWER, _meloetta_not_available
+	play_cry SPECIES_MELOETTA, 0
+	npc_msg 13
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_MELOETTA, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _meloetta_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _meloetta_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _meloetta_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _meloetta_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _meloetta_defeated
+	setflag FLAG_HIDE_MELOETTA
+	hide_person obj_D23R0106_meloetta
+	// Show NPCs after Meloetta is gone
+	clearflag FLAG_HIDE_RADIO_TOWER_5F_NPCS
+	releaseall
+	end
+
+_meloetta_not_available:
+	releaseall
+	end
+
+_meloetta_lost:
+	white_out
+	releaseall
+	end
+
+_meloetta_fled:
+	// Show NPCs after Meloetta flees
+	clearflag FLAG_HIDE_RADIO_TOWER_5F_NPCS
+	releaseall
+	end
+
+_meloetta_defeated:
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	// Show NPCs after Meloetta defeated
+	clearflag FLAG_HIDE_RADIO_TOWER_5F_NPCS
+	releaseall
+	end
+
+_meloetta_caught:
+	setflag FLAG_CAUGHT_MELOETTA
+	return
+
 	.align 4
 
 

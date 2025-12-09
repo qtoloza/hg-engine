@@ -162,7 +162,32 @@ scr_seq_T26_007:
 	end
 
 scr_seq_T26_008:
-	simple_npc_msg 1
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Forces of Nature hint dialogue chain
+	goto_if_unset FLAG_GAME_CLEAR, _sailor_normal
+	goto_if_set FLAG_CAUGHT_LANDORUS, _sailor_post_landorus
+	goto_if_set FLAG_CAUGHT_THUNDURUS, _sailor_post_thundurus
+	goto_if_set FLAG_CAUGHT_TORNADUS, _sailor_post_tornadus
+	// Pre-Tornadus hint
+	npc_msg 12
+	goto _sailor_end
+_sailor_post_tornadus:
+	npc_msg 13
+	goto _sailor_end
+_sailor_post_thundurus:
+	npc_msg 14
+	goto _sailor_end
+_sailor_post_landorus:
+	npc_msg 15
+	goto _sailor_end
+_sailor_normal:
+	npc_msg 1
+_sailor_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_T26_009:

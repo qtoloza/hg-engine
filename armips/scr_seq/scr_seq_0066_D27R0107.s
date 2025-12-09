@@ -34,6 +34,7 @@ scrdef scr_seq_D27R0107_002
 scrdef scr_seq_D27R0107_003
 scrdef scr_seq_D27R0107_004
 scrdef scr_seq_D27R0107_005
+scrdef scr_seq_D27R0107_006
 scrdef_end
 
 scr_seq_D27R0107_003:
@@ -41,6 +42,13 @@ scr_seq_D27R0107_003:
 	end
 
 scr_seq_D27R0107_004:
+	// Hide NPCs when Reshiram is present (FLAG_HIDE_RESHIRAM is cleared)
+	goto_if_set FLAG_HIDE_RESHIRAM, _reshiram_not_present_entry
+	setflag FLAG_HIDE_LIGHTHOUSE_TOP_NPCS
+	goto _continue_d27r0107_entry
+_reshiram_not_present_entry:
+	clearflag FLAG_HIDE_LIGHTHOUSE_TOP_NPCS
+_continue_d27r0107_entry:
 	goto_if_set FLAG_UNK_1D8, _0093
 	make_object_visible obj_D27R0107_stop
 	end
@@ -249,6 +257,64 @@ _0274:
 	step 12, 3
 	step 35, 1
 	step_end
+	.align 4
+
+// Reshiram encounter (Lv70 Dragon/Fire)
+scr_seq_D27R0107_006:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _reshiram_not_postgame
+	play_cry SPECIES_RESHIRAM, 0
+	npc_msg 13
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_RESHIRAM, 70, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _reshiram_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _reshiram_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _reshiram_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _reshiram_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _reshiram_defeated
+	setflag FLAG_HIDE_RESHIRAM
+	clearflag FLAG_HIDE_LIGHTHOUSE_TOP_NPCS
+	hide_person obj_D27R0107_reshiram
+	releaseall
+	end
+
+_reshiram_not_postgame:
+	releaseall
+	end
+
+_reshiram_lost:
+	white_out
+	releaseall
+	end
+
+_reshiram_fled:
+	releaseall
+	end
+
+_reshiram_defeated:
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	clearflag FLAG_HIDE_LIGHTHOUSE_TOP_NPCS
+	releaseall
+	end
+
+_reshiram_caught:
+	setflag FLAG_CAUGHT_RESHIRAM
+	return
+
 	.align 4
 
 

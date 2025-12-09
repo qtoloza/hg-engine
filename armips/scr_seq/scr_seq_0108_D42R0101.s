@@ -30,7 +30,23 @@
 
 scrdef scr_seq_D42R0101_000
 scrdef scr_seq_D42R0101_001
+scrdef scr_seq_D42R0101_002
+scrdef scr_seq_D42R0101_003
+scrdef scr_seq_D42R0101_004
 scrdef_end
+
+// Map entry script - Diancie visibility control (Tier 3)
+scr_seq_D42R0101_003:
+	// === Diancie Visibility Control (Tier 3) ===
+	goto_if_set FLAG_HIDE_DIANCIE, _diancie_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_diancie_entry
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_diancie_entry
+	clearflag FLAG_HIDE_DIANCIE
+	goto _diancie_vis_done
+_hide_diancie_entry:
+	setflag FLAG_HIDE_DIANCIE
+_diancie_vis_done:
+	end
 
 scr_seq_D42R0101_000:
 	play_se SEQ_SE_DP_SELECT
@@ -102,6 +118,84 @@ _00F1:
 	clearflag 16341
 	releaseall
 	end
+	.align 4
+
+// Diancie encounter (Lv45 Rock/Fairy)
+scr_seq_D42R0101_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _diancie_not_postgame
+	play_cry SPECIES_DIANCIE, 0
+	npc_msg 9
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_DIANCIE, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _diancie_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _diancie_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _diancie_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _diancie_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _diancie_defeated
+	setflag FLAG_HIDE_DIANCIE
+	hide_person obj_D42R0101_diancie
+	releaseall
+	end
+
+_diancie_not_postgame:
+	releaseall
+	end
+
+_diancie_lost:
+	white_out
+	releaseall
+	end
+
+_diancie_fled:
+	releaseall
+	end
+
+_diancie_defeated:
+	npc_msg 10
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_diancie_caught:
+	setflag FLAG_CAUGHT_DIANCIE
+	return
+
+	.align 4
+
+// Jewel collector NPC - Diancie hint
+scr_seq_D42R0101_004:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _collector_normal
+	goto_if_set FLAG_CAUGHT_DIANCIE, _collector_post_diancie
+	npc_msg 7
+	goto _collector_end
+_collector_post_diancie:
+	npc_msg 8
+	goto _collector_end
+_collector_normal:
+	npc_msg 7
+_collector_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
 	.align 4
 
 

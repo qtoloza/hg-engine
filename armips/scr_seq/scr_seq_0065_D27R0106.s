@@ -30,9 +30,56 @@
 
 scrdef scr_seq_D27R0106_000
 scrdef scr_seq_D27R0106_001
+scrdef scr_seq_D27R0106_002
+scrdef scr_seq_D27R0106_003
+scrdef scr_seq_D27R0106_004
 scrdef_end
 
 scr_seq_D27R0106_001:
+	// === Tiered Genie Visibility Control ===
+
+	// Tornadus: Tier 1 (FLAG_GAME_CLEAR only)
+	goto_if_set FLAG_HIDE_TORNADUS, _check_thundurus_visibility
+	goto_if_unset FLAG_GAME_CLEAR, _hide_tornadus
+	clearflag FLAG_HIDE_TORNADUS
+	goto _check_thundurus_visibility
+_hide_tornadus:
+	setflag FLAG_HIDE_TORNADUS
+
+_check_thundurus_visibility:
+	// Thundurus: Tier 2 (FLAG_RESTORED_POWER + Tornadus caught)
+	goto_if_set FLAG_HIDE_THUNDURUS, _check_landorus_visibility
+	goto_if_unset FLAG_GAME_CLEAR, _hide_thundurus
+	goto_if_unset FLAG_RESTORED_POWER, _hide_thundurus
+	goto_if_unset FLAG_CAUGHT_TORNADUS, _hide_thundurus
+	clearflag FLAG_HIDE_THUNDURUS
+	goto _check_landorus_visibility
+_hide_thundurus:
+	setflag FLAG_HIDE_THUNDURUS
+
+_check_landorus_visibility:
+	// Landorus: Tier 3 (FLAG_UNLOCKED_WEST_KANTO + Thundurus caught)
+	goto_if_set FLAG_HIDE_LANDORUS, _genie_npc_logic
+	goto_if_unset FLAG_GAME_CLEAR, _hide_landorus
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_landorus
+	goto_if_unset FLAG_CAUGHT_THUNDURUS, _hide_landorus
+	clearflag FLAG_HIDE_LANDORUS
+	goto _genie_npc_logic
+_hide_landorus:
+	setflag FLAG_HIDE_LANDORUS
+
+_genie_npc_logic:
+	// Hide NPCs when any genie is present (flag cleared = visible)
+	goto_if_unset FLAG_HIDE_TORNADUS, _genies_present
+	goto_if_unset FLAG_HIDE_THUNDURUS, _genies_present
+	goto_if_unset FLAG_HIDE_LANDORUS, _genies_present
+	// All genies are gone, show NPCs
+	clearflag FLAG_HIDE_LIGHTHOUSE_GENIE_NPCS
+	goto _continue_genie_entry
+_genies_present:
+	// At least one genie is present, hide NPCs
+	setflag FLAG_HIDE_LIGHTHOUSE_GENIE_NPCS
+_continue_genie_entry:
 	goto_if_unset FLAG_UNK_189, _001B
 	clearflag FLAG_UNK_189
 	end
@@ -148,6 +195,174 @@ _017C:
 	step 12, 1
 	step 1, 1
 	step_end
+	.align 4
+
+// Tornadus encounter (Lv50 Flying)
+scr_seq_D27R0106_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _tornadus_not_postgame
+	play_cry SPECIES_TORNADUS, 0
+	npc_msg 1405
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_TORNADUS, 50, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _tornadus_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _tornadus_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _tornadus_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _tornadus_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _tornadus_defeated
+	setflag FLAG_HIDE_TORNADUS
+	hide_person obj_D27R0106_tornadus
+	releaseall
+	end
+
+_tornadus_not_postgame:
+	releaseall
+	end
+
+_tornadus_lost:
+	white_out
+	releaseall
+	end
+
+_tornadus_fled:
+	releaseall
+	end
+
+_tornadus_defeated:
+	npc_msg 1410
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_tornadus_caught:
+	setflag FLAG_CAUGHT_TORNADUS
+	return
+
+	.align 4
+
+// Thundurus encounter (Lv50 Electric/Flying)
+scr_seq_D27R0106_003:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _thundurus_not_postgame
+	play_cry SPECIES_THUNDURUS, 0
+	npc_msg 1406
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_THUNDURUS, 50, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _thundurus_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _thundurus_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _thundurus_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _thundurus_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _thundurus_defeated
+	setflag FLAG_HIDE_THUNDURUS
+	hide_person obj_D27R0106_thundurus
+	releaseall
+	end
+
+_thundurus_not_postgame:
+	releaseall
+	end
+
+_thundurus_lost:
+	white_out
+	releaseall
+	end
+
+_thundurus_fled:
+	releaseall
+	end
+
+_thundurus_defeated:
+	npc_msg 1411
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_thundurus_caught:
+	setflag FLAG_CAUGHT_THUNDURUS
+	return
+
+	.align 4
+
+// Landorus encounter (Lv50 Ground/Flying)
+scr_seq_D27R0106_004:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _landorus_not_postgame
+	play_cry SPECIES_LANDORUS, 0
+	npc_msg 1407
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_LANDORUS, 50, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _landorus_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _landorus_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _landorus_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _landorus_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _landorus_defeated
+	setflag FLAG_HIDE_LANDORUS
+	hide_person obj_D27R0106_landorus
+	releaseall
+	end
+
+_landorus_not_postgame:
+	releaseall
+	end
+
+_landorus_lost:
+	white_out
+	releaseall
+	end
+
+_landorus_fled:
+	releaseall
+	end
+
+_landorus_defeated:
+	npc_msg 1412
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_landorus_caught:
+	setflag FLAG_CAUGHT_LANDORUS
+	return
+
 	.align 4
 
 

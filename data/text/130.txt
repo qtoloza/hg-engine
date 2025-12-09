@@ -31,3 +31,9 @@ Dragon Pokémon are symbolic of\nour clan.\rYou have shown that you can be\nentr
 Clair appears to have learned an\ninvaluable lesson from you.\rI thank you as her grandfather.
 A boy close to your age is in\ntraining here.\rHe is much like Clair when she was\nyounger. It is a little worrisome...
 Give a nickname to the\nDRAGONAIR you received? {YESNO 0}
+Our ancient scrolls speak of\ntwin dragons from a distant land.\rOne white as truth, one black\nas ideals. Yin and yang.\fThe Lighthouse has long been a\nbeacon of truth for sailors...\rPerhaps that’s why I sense\nsomething stirring there.\r
+You’ve encountered the white dragon?\nThe spirit of truth itself!\rBut remember - where truth exists,\nideals are never far behind.\rThere is a place in Johto where\nideals burn eternal, where flames\fhave tested trainers for generations.\rSeek it, and the black dragon\nmay reveal itself to you.\r
+Truth and ideals, united in you.\nThe dragons have chosen wisely.\rBut legends speak of a third...\nborn from their original unity.\rIt appears only when balance\nis sought.\rThe Dragon’s Den may hold more\nsecrets than even we know.\r
+The Tao Trio, complete at last.\nYou hold the balance of\ftruth, ideals, and emptiness.\rThe dragons’ power is yours.\r
+Kree...eee...\r
+Kyurem withdrew into the void...
