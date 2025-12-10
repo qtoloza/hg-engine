@@ -10,6 +10,7 @@
 .equ _EV_scr_seq_T08GYM0101_006, 6
 .equ _EV_scr_seq_T08GYM0101_007, 7
 .equ _EV_scr_seq_T08GYM0101_008, 8
+.equ _EV_scr_seq_T08GYM0101_009, 9
 
 .equ obj_T08GYM0101_picnicgirl_2, 0
 .equ obj_T08GYM0101_gsgirl1, 1

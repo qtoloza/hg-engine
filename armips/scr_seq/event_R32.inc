@@ -11,6 +11,7 @@
 .equ _EV_scr_seq_R32_007, 7
 .equ _EV_scr_seq_R32_008, 8
 .equ _EV_scr_seq_R32_009, 9
+.equ _EV_scr_seq_R32_010, 10
 
 .equ obj_R32_gsbigman, 0
 .equ obj_R32_gsmiddleman1, 1

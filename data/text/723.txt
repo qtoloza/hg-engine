@@ -148,9 +148,9 @@ I need to raise my Pokémon some\nmore!\r
 I’ll snag you with my net!
 It’s in the bag!\r
 Hey!\nDon’t run away!\r
-Where can I find a giant HERACROSS?
-I want a huge HERACROSS.\nLike, king size!\r
-If only I had a giant HERACROSS...\r
+Where can I find a giant Heracross?
+I want a huge Heracross.\nLike, king size!\r
+If only I had a giant Heracross...\r
 Prepare to lose!
 The enemy is mine!\r
 I lie shattered...\r
@@ -860,7 +860,7 @@ Hello, you there! Yes, you!\nHold up. Hold it, I say!
 OK, kids shouldn’t be out now.\nGo home, and be quick about it.\r
 You shouldn’t mess with a police\nofficer like that.\r
 Sssnork... Zzz...
-CLEFAIRY... Mumble...\nWait for me... Sssnork...\r
+Clefairy... Mumble...\nWait for me... Sssnork...\r
 Mutter...\nEhehe... Ssssnore...\r
 Let’s keep this elegant!
 Mmm, yes!\r

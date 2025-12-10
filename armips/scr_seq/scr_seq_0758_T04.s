@@ -42,39 +42,20 @@ scrdef scr_seq_T04_010
 scrdef scr_seq_T04_011
 scrdef scr_seq_T04_012
 scrdef scr_seq_T04_013
+scrdef scr_seq_T04_014
 scrdef_end
 
 scr_seq_T04_012:
-	goto_if_unset FLAG_UNK_189, _004B
+	goto_if_unset FLAG_UNK_189, _0219
 	clearflag FLAG_UNK_189
-	end
-
-_004B:
-	get_weekday VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 4
-	goto_if_eq _006F
-	compare VAR_TEMP_x4000, 0
-	goto_if_eq _006F
-	setflag FLAG_HIDE_CAMERON
-	end
-
-_006F:
-	clearflag FLAG_HIDE_CAMERON
 	end
 
 scr_seq_T04_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_RESTORED_POWER, _0093
+	goto_if_set FLAG_RESTORED_POWER, _023D
 	npc_msg 0
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_0093:
-	npc_msg 1
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -106,29 +87,13 @@ scr_seq_T04_004:
 	lockall
 	faceplayer
 	compare VAR_SCENE_ROUTE_24_ROCKET, 3
-	goto_if_ge _012C
+	goto_if_ge _0248
 	compare VAR_UNK_411C, 2
-	goto_if_eq _0123
+	goto_if_eq _0253
 	compare VAR_UNK_411C, 1
-	goto_if_eq _011A
+	goto_if_eq _025C
 	npc_msg 6
-	goto _012F
-
-_011A:
-	npc_msg 7
-	goto _012F
-
-_0123:
-	npc_msg 8
-	goto _012F
-
-_012C:
-	npc_msg 9
-_012F:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto _0265
 
 scr_seq_T04_005:
 	play_se SEQ_SE_DP_SELECT
@@ -195,10 +160,10 @@ scr_seq_T04_011:
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _02F5
+	goto_if_eq _026D
 	photo_album_is_full VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0309
+	goto_if_eq _0281
 	get_std_msg_naix 2, VAR_SPECIAL_RESULT
 	msgbox_extern VAR_SPECIAL_RESULT, 1
 	closemsg
@@ -207,38 +172,92 @@ scr_seq_T04_011:
 	following_pokemon_movement 55
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _0246
-	apply_movement obj_player, _0320
-	apply_movement obj_T04_gsmiddleman1, _036C
-	goto _0294
+	goto_if_ne _0295
+	apply_movement obj_player, _03EC
+	apply_movement obj_T04_gsmiddleman1, _0402
+	goto _02B0
 
-_0246:
+scr_seq_T04_014:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	npc_msg 19
+	wait_button_or_walk_away
+	closemsg
+	goto_if_set 16304, _0311
+	npc_msg 21
+	releaseall
+	end
+
+_0219:
+	get_weekday VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 4
+	goto_if_eq _0318
+	compare VAR_TEMP_x4000, 0
+	goto_if_eq _0318
+	setflag FLAG_HIDE_CAMERON
+	end
+
+_023D:
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0248:
+	npc_msg 9
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0253:
+	npc_msg 8
+	goto _0265
+
+_025C:
+	npc_msg 7
+	goto _0265
+
+_0265:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_026D:
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0281:
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0295:
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _0261
-	apply_movement obj_player, _0338
-	goto _0294
+	goto_if_ne _031E
+	apply_movement obj_player, _040C
+	goto _02B0
 
-_0261:
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _0284
-	apply_movement obj_player, _0358
-	apply_movement obj_T04_gsmiddleman1, _036C
-	goto _0294
-
-_0284:
-	apply_movement obj_player, _0344
-	apply_movement obj_T04_gsmiddleman1, _036C
-_0294:
+_02B0:
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	scrcmd_729 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _02BB
-	apply_movement obj_partner_poke, _0378
+	goto_if_ne _0341
+	apply_movement obj_partner_poke, _0416
 	wait_movement
-_02BB:
 	setflag FLAG_UNK_189
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -254,24 +273,67 @@ _02BB:
 	releaseall
 	end
 
-_02F5:
+_0311:
+	npc_msg 20
+	releaseall
+	end
+
+_0318:
+	clearflag FLAG_HIDE_CAMERON
+	end
+
+_031E:
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _037B
+	apply_movement obj_player, _0424
+	apply_movement obj_T04_gsmiddleman1, _0402
+	goto _02B0
+
+_0341:
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 55
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
 	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 5
+	msgbox_extern VAR_SPECIAL_RESULT, 2
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_0309:
+_037B:
+	apply_movement obj_player, _0436
+	apply_movement obj_T04_gsmiddleman1, _0402
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	scrcmd_729 VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _0341
+	apply_movement obj_partner_poke, _0416
+	wait_movement
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 55
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
 	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 3
+	msgbox_extern VAR_SPECIAL_RESULT, 2
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
 	.align 4
-_0320:
+_03EC:
 
 	step 15, 1
 	step 12, 2
@@ -280,39 +342,39 @@ _0320:
 	step 33, 1
 	step_end
 	.align 4
-_0338:
-
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_0344:
-
-	step 12, 1
-	step 14, 1
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_0358:
-
-	step 12, 1
-	step 15, 1
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_036C:
+_0402:
 
 	step 63, 1
 	step 32, 1
 	step_end
 	.align 4
-_0378:
+_040C:
+
+	step 12, 3
+	step 33, 1
+	step_end
+	.align 4
+_0416:
 
 	step 15, 1
 	step 12, 1
 	step 1, 1
+	step_end
+	.align 4
+_0424:
+
+	step 12, 1
+	step 15, 1
+	step 12, 3
+	step 33, 1
+	step_end
+	.align 4
+_0436:
+
+	step 12, 1
+	step 14, 1
+	step 12, 3
+	step 33, 1
 	step_end
 	.align 4
 

@@ -2556,3 +2556,5 @@ Meteorite
 Scarlet Book
 Violet Book
 Briar’s Book
+Aubade Orb
+Serenade Orb

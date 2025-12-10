@@ -4,7 +4,7 @@ ListJump3
 ListJump4
 Pokémon League
 ListJump5
-UNOWN
+Unown
 Gym list
 Close
 buil01-00-00

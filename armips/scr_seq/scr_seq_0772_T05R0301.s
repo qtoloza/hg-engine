@@ -32,7 +32,49 @@ scrdef scr_seq_T05R0301_000
 scrdef_end
 
 scr_seq_T05R0301_000:
-	simple_npc_msg 0
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	hasitem ITEM_AZURE_FLUTE, 1, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _008C
+	npc_msg 0
+	wait_button_or_walk_away
+	closemsg
+	hasitem ITEM_MAGMA_STONE, 1, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0043
+	releaseall
+	end
+
+_0043:
+	npc_msg 1
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0066
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0066:
+	npc_msg 3
+	takeitem ITEM_MAGMA_STONE, 1, VAR_SPECIAL_RESULT
+	giveitem_no_check ITEM_AZURE_FLUTE, 1
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_008C:
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 	.align 4
 

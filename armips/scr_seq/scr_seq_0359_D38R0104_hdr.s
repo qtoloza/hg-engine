@@ -26,6 +26,8 @@
 .create "build/a012/2_359", 0
 
 
+	.byte 2
+	.halfword 7, 0
 	.byte 0
 
 	.align 4

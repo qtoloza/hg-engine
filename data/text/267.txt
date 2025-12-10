@@ -26,5 +26,5 @@ INFO
 EXIT
 Sorry, we’re getting things ready.\nPlease come back later.
 Pardon us for the inconvenience...\nbut people wearing black clothing,\fpeople who engage in unlawful\factivities, and people who are\fmembers of Team Rocket\fare barred from participating.
-Pardon us for the inconvenience.\rWe have received word from Professor\nElm in New Bark Town that a PICHU\rwith spiky ears cannot be allowed\nto enter.\rPlease place it in your PC Box and\nenter again.
+Pardon us for the inconvenience.\rWe have received word from Professor\nElm in New Bark Town that a Pichu\rwith spiky ears cannot be allowed\nto enter.\rPlease place it in your PC Box and\nenter again.
 Pardon us for the inconvenience.\rThe Spiky-eared Pokémon you are\ntraveling with...\fIt’s a kind that doesn’t appear in the\fPokémon Center’s database, so we\funfortunately cannot allow it to pass.\rPlease place it in a PC Box and\ncome back.

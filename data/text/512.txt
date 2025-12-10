@@ -14,3 +14,26 @@ I’ll give ya de Berry set F\nfor de Blue Shard, yah!\r
 I’ll give ya de Berry set G\nfor de Yellow Shard, yah!\r
 I’ll give ya de Berry set H\nfor de Green Shard, yah!\r
 Ya already have many Berries\nof dis set.\rCome back when ya need more, yah!\r
+Shellder: Yerrrr!
+Cloyster: Crouu.
+Did you want to challenge the Gym\nLeader? This Shellder situation has\fcaused quite a ruckus...\rJanine is probably around the city\nsomewhere, trying to fix it...
+The recent volcano eruption at\nCinnabar Island caused the Pokémon of\fSeafoam Islands to get riled up.\rNow we’re swarmed with Shellder!\rEek!
+These Shellder are blocking half of\nthe city’s facilities. Fuchsia may not\fbe large, but this is still a humongous\finconvenience! Argh!
+Chansey: Chans!!
+Cloyster: Neerrrr!!
+Janine: Venomoth, use Bug Buzz!\r
+Janine: Oh, hi! Say, you wouldn’t just\nhappen to be {STRVAR_1 3, 0, 0}, would you?\rI’ve heard about you from the other\nKanto Gym Leaders, but you’ve picked\fa great time to arrive!\rOr bad, depending on how you see it...\r
+Janine: We need to get rid of this\nswarm of Shellder and Cloyster!\rI reckon that if we defeat all of the\nCloyster around town, the gangs should\fpack up and leave.\rBut Nurse Joy and I are preoccupied\nwith this lot... there’s more inside the\fPal Park building, so this is going to\ftake us quite a while...\r
+Janine: Say, {STRVAR_1 3, 0, 0}, could you do me a\nfavour, and try to weed out any of\fthe Cloyster still hanging around the\fcity, please?
+Nurse Joy: Blast them with an\nIce Beam, Chansey!\r
+Nurse Joy: Oh, did you want to heal\nyour Pokémon? I’ve been too busy\fhelping out to attend the Pokémon\fCenter at the moment...\rLet me heal them right here!\r
+Please come back any time!\rWell, until the Shellder are gone...
+Janine: I swear this is endless...\r
+The Cloyster squared up, ready\nto have a fight!\r
+It doesn’t look like fighting the\nShellder did much...
+The Shellder is poised, ready\nto attack!\r
+The Shellder may have been caught,\nbut another Shellder quickly took its\fspot.\rFighting the Shellder doesn’t do\nall that much...
+After a leader Cloyster was defeated,\nsome of the Shellder left...
+Thank you for saving me from that gang\nof Pokémon! But, I was so frightened\fthat I can’t stop moving like this!
+Janine: Okay, Venomoth, pump up the\naction! Silver Wind!\r
+Janine: Whew, that should do it!\nI wonder if I handled that like\fDad would have chosen to...\rAnyway, {STRVAR_1 3, 0, 0}, I really appreciate\nthe help you gave us in sorting this\fwhole situation out!\rIt would be my, er.... honor, to\nbattle with you for the Soul Badge!\rOf course, you don’t have to do it\nright now, technically...\rAnyway! I’ll be in the Gym.\rDon’t take too long, okay?

@@ -21,8 +21,9 @@
 .equ _EV_scr_seq_T11R0101_017, 17
 .equ _EV_scr_seq_T11R0101_018, 18
 .equ _EV_scr_seq_T11R0101_019, 19
+.equ _EV_scr_seq_T11R0101_020, 20
 
-.equ obj_T11R0101_gsfighter, 0
+.equ obj_T11R0101_pcwoman1, 0
 .equ obj_T11R0101_gsleader3, 1
 .equ obj_T11R0101_gsleader13, 2
 .equ obj_T11R0101_gsleader8, 3
@@ -39,5 +40,6 @@
 .equ obj_T11R0101_gsleader6, 14
 .equ obj_T11R0101_gsleader7, 15
 .equ obj_T11R0101_gsleader15, 16
+.equ obj_T11R0101_shopm1_2, 17
 
 .endif //SCR_SEQ_T11R0101_H_

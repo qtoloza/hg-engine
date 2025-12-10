@@ -29,54 +29,85 @@
 
 
 scrdef scr_seq_T26R0601_000
+scrdef scr_seq_T26R0601_001
+scrdef scr_seq_T26R0601_002
+scrdef scr_seq_T26R0601_003
+scrdef scr_seq_T26R0601_004
 scrdef_end
 
 scr_seq_T26R0601_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_GOT_GOOD_ROD, _008E
+	goto_if_set FLAG_UNK_ABB, _00D9
+	scrcmd_379 VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 3
+	goto_if_eq _00E4
+	compare VAR_TEMP_x4000, 4
+	goto_if_eq _00E4
 	npc_msg 0
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0040
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0079
-	end
-
-_0040:
-	goto_if_no_item_space ITEM_GOOD_ROD, 1, _0084
-	npc_msg 1
-	wait_button_or_walk_away
-	callstd std_give_item_verbose
-	setflag FLAG_GOT_GOOD_ROD
+	goto_if_eq _011E
 	npc_msg 3
+	giveitem_no_check ITEM_SUN_STONE, 1
+	npc_msg 2
+	setflag FLAG_UNK_ABB
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_0079:
+scr_seq_T26R0601_001:
+	simple_npc_msg 6
+	end
+
+scr_seq_T26R0601_002:
+	play_cry SPECIES_CLEFAIRY, 0
+	simple_npc_msg 7
+	end
+
+scr_seq_T26R0601_003:
+	play_cry SPECIES_SUNFLORA, 0
+	simple_npc_msg 8
+	end
+
+scr_seq_T26R0601_004:
+	simple_npc_msg 9
+	end
+
+_00D9:
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_00E4:
+	npc_msg 1
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _011E
 	npc_msg 4
+	giveitem_no_check ITEM_MOON_STONE, 1
+	npc_msg 2
+	setflag FLAG_UNK_ABB
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_0084:
-	callstd std_bag_is_full
-	closemsg
-	releaseall
-	end
-
-_008E:
+_011E:
 	npc_msg 5
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
+
 	.align 4
 
 

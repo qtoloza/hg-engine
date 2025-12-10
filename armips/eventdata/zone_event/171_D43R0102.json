@@ -112,6 +112,23 @@
       "x": 50,
       "z": 28,
       "y": 0
+    },
+    {
+      "id": "obj_D43R0102_keldeo",
+      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_KELDEO",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_HIDE_KELDEO",
+      "scriptId": "_EV_scr_seq_D43R0102_002 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 44,
+      "z": 23,
+      "y": 0
     }
   ],
   "warps": [

@@ -16,21 +16,21 @@ I’ll explain “Snow Throw” for you.\nSnow Throw may not ring a bell but...\
 I’ll explain “Goal Roll” for you.\nYour Pokémon try to roll the ball into\fthe Goals of the other Pokémon teams.\rMost balls will give you one point.\rGold-colored balls will give you\ntwo points.\rThe number of points will decide\nyour rank, and that decides the score.\rThis is an event for powerful and\nskillful Pokémon... Ones just like me!\rDo you understand what I mean?\rOK, do you have any more questions?\r
 Young Pokéathlete!\rDon’t forget to do your Pokéathlon\nstretches before exercise!
 Me? Are you interested in me?\nHahaha!\fOh, don’t be shy.\rSome people call me the “big brother”!\rBut really, the big brother is...\n...\f...\fmy twin brother!\rThe “big brother,” as they say, is\nreally the younger brother.\rSo this “big brother” has a\nbigger brother...\rDo you get what I mean?\r
-RATTATA: Ratta.
-RATTATA: Grrrr.
-MACHOP: Awwwrr...
-MACHOP: Yahhh!
-BUTTERFREE: Fluttah fluttah...
-BUTTERFREE: Bing bing!
+Rattata: Ratta.
+Rattata: Grrrr.
+Machop: Awwwrr...
+Machop: Yahhh!
+Butterfree: Fluttah fluttah...
+Butterfree: Bing bing!
 The Pokéathlon is all about scores.\rNo one knows who’s going to win\nuntil the last moment!
 Pokéathlete {STRVAR_1 3, 0, 0} is\nalways splendid!\rI can’t take my eyes off\nthat Pokéathlete!\r...\nWait... Wow! Is that really you?
 Aprijuice for victory!\rYour Pokémon can show their\ntrue Performance potential!
 Aprijuice for victory!\rWhat drink do you use,\nPokéathlete {STRVAR_1 3, 0, 0}?\rI’ll buy what you buy!\fI’m a big fan!
-Er... I...I will try to win at every\ncourse with MAGIKARP!
-Pokéathlete {STRVAR_1 3, 0, 0}!\rEr... How...how can I win at every\ncourse with MAGIKARP?
+Er... I...I will try to win at every\ncourse with Magikarp!
+Pokéathlete {STRVAR_1 3, 0, 0}!\rEr... How...how can I win at every\ncourse with Magikarp?
 I will break my personal record\nat Hurdle Dash!\rOK, which Pokémon should\nI choose...?
 Y-y-you’re Pokéathlete {STRVAR_1 3, 0, 0}!\rI have no clue how I could possibly\nreach where you are!\fYou are the Pokéathlon itself!
-Wow!\nThat guy over there is Magnus,\fthe Pokéathlon owner!\rI heard he once beat a MACHAMP at\narm wrestling. Could it be true?
+Wow!\nThat guy over there is Magnus,\fthe Pokéathlon owner!\rI heard he once beat a Machamp at\narm wrestling. Could it be true?
 Yikes!\nPokéathlete {STRVAR_1 3, 0, 0}!\rI am a huge fan of yours!\nOh my...what should I do?\fCan you give me an autograph?
 Arrgh!
 Arrgh!\nPokéathlete {STRVAR_1 3, 0, 0}!\rYou make me feel young again!\fI’ll root for you!

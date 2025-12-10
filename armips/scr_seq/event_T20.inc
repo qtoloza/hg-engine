@@ -29,6 +29,6 @@
 .equ obj_T20_gsmiddleman1, 6
 .equ obj_T20_gsmama, 7
 .equ obj_T20_var_1_2, 8
-.equ obj_T20_follower_mon_static_marill_2, 9
+.equ obj_T20_follower_mon_azumarill, 9
 
 .endif //SCR_SEQ_T20_H_

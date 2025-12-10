@@ -29,6 +29,7 @@
 
 
 scrdef scr_seq_D23R0107_000
+scrdef scr_seq_D23R0107_001
 scrdef_end
 
 scr_seq_D23R0107_000:
@@ -108,6 +109,12 @@ _0100:
 	step 12, 1
 	step 1, 1
 	step_end
+	.align 4
+
+// D23R0107_001 - unused placeholder (elevator script continues in 000)
+scr_seq_D23R0107_001:
+	end
+
 	.align 4
 
 

@@ -32,3 +32,6 @@ Clair: Are you ready?\r
 Clair: Excellent one of me!\nAnother cool picture.
 Clair: That’s too bad.
 Your Photo Album is full.\rAccess your PC and delete\nsome pictures.\n
+Clair: Well, you don’t need to be\nso rude about it!\r
+Clair: And I will give you my number!\nThere will come a time where I’ll\fprevail!\r... ... ...\r
+{STRVAR_1 3, 0, 0} registered Clair\nin the Pokégear!

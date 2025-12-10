@@ -33,6 +33,13 @@ scrdef scr_seq_T25SP0101_001
 scrdef scr_seq_T25SP0101_002
 scrdef scr_seq_T25SP0101_003
 scrdef scr_seq_T25SP0101_004
+scrdef scr_seq_T25SP0101_005
+scrdef scr_seq_T25SP0101_006
+scrdef scr_seq_T25SP0101_007
+scrdef scr_seq_T25SP0101_008
+scrdef scr_seq_T25SP0101_009
+scrdef scr_seq_T25SP0101_010
+scrdef scr_seq_T25SP0101_011
 scrdef_end
 
 scr_seq_T25SP0101_000:
@@ -41,8 +48,8 @@ scr_seq_T25SP0101_000:
 	faceplayer
 	hasitem ITEM_COIN_CASE, 1, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _006A
-	apply_movement obj_T25SP0101_suit, _0080
+	goto_if_eq _0254
+	apply_movement obj_T25SP0101_suit, _11DC
 	wait_movement
 	npc_msg 40
 	closemsg
@@ -56,67 +63,15 @@ scr_seq_T25SP0101_000:
 	releaseall
 	end
 
-_006A:
-	npc_msg 38
-	apply_movement obj_T25SP0101_suit, _0080
-	wait_movement
-	npc_msg 39
-	goto _00E8
-
-	.align 4
-_0080:
-
-	step 1, 1
-	step_end
-	.align 4
-_0088:
-
-	step 2, 1
-	step_end
-	.align 4
-_0090:
-
-	step 3, 1
-	step_end
 scr_seq_T25SP0101_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	get_player_facing VAR_TEMP_x4002
 	compare VAR_TEMP_x4002, 1
-	goto_if_ne _00BD
-	call _00F0
-	goto _00C5
-
-_00BD:
-	apply_movement obj_T25SP0101_suit, _0080
-_00C5:
-	wait_movement
-	hasitem ITEM_COIN_CASE, 1, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _00E5
-	npc_msg 41
-	goto _00E8
-
-_00E5:
-	npc_msg 39
-_00E8:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_00F0:
-	get_player_coords VAR_TEMP_x4002, VAR_TEMP_x4003
-	compare VAR_TEMP_x4002, 6
-	goto_if_ne _0111
-	apply_movement obj_T25SP0101_suit, _0088
-	goto _0119
-
-_0111:
-	apply_movement obj_T25SP0101_suit, _0090
-_0119:
-	return
+	goto_if_ne _026A
+	call _0292
+	goto _02B3
 
 scr_seq_T25SP0101_002:
 	play_se SEQ_SE_DP_SELECT
@@ -124,51 +79,12 @@ scr_seq_T25SP0101_002:
 	faceplayer
 	hasitem ITEM_COIN_CASE, 1, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0175
+	goto_if_eq _02D3
 	compare VAR_TEMP_x4001, 0
-	goto_if_ne _0154
+	goto_if_ne _02E9
 	npc_msg 34
 	setvar VAR_TEMP_x4001, 1
-	goto _016D
-
-_0154:
-	compare VAR_TEMP_x4001, 1
-	goto_if_ne _016A
-	npc_msg 35
-	goto _016D
-
-_016A:
-	npc_msg 36
-_016D:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_0175:
-	compare VAR_TEMP_x4001, 0
-	goto_if_ne _018B
-	npc_msg 28
-	goto _018E
-
-_018B:
-	npc_msg 37
-_018E:
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _01C5
-	npc_msg 31
-	setvar VAR_TEMP_x4001, 1
-	giveitem_no_check ITEM_COIN_CASE, 1
-	npc_msg 32
-	goto _00E8
-
-_01C5:
-	setvar VAR_TEMP_x4001, 1
-	npc_msg 33
-	goto _00E8
+	goto _02FF
 
 scr_seq_T25SP0101_003:
 	play_se SEQ_SE_DP_SELECT
@@ -178,300 +94,15 @@ scr_seq_T25SP0101_003:
 	npc_msg 0
 	touchscreen_menu_hide
 	scrcmd_116 0, 20, 2
-_01EC:
 	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
 	menu_item_add 12, 255, 0
 	menu_item_add 13, 255, 1
 	menu_item_add 11, 255, 2
 	menu_exec
 	switch VAR_TEMP_x4000
-	case 0, _0234
-	case 1, _02D0
-	goto _0C17
-
-_0234:
-	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
-	menu_item_add 14, 255, 0
-	menu_item_add 15, 255, 1
-	menu_item_add 16, 255, 2
-	menu_item_add 17, 255, 3
-	menu_item_add 18, 255, 4
-	menu_item_add 19, 255, 5
-	menu_item_add 11, 255, 6
-	menu_exec
-	switch VAR_TEMP_x4000
-	case 0, _0342
-	case 1, _03CD
-	case 2, _0458
-	case 3, _04E3
-	case 4, _056E
-	case 5, _05F9
-	goto _01EC
-
-_02D0:
-	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
-	menu_item_add 20, 255, 0
-	menu_item_add 21, 255, 1
-	menu_item_add 22, 255, 2
-	menu_item_add 23, 255, 3
-	menu_item_add 11, 255, 4
-	menu_exec
-	switch VAR_TEMP_x4000
-	case 0, _0684
-	case 1, _070F
-	case 2, _079A
-	case 3, _0825
-	goto _01EC
-
-_0342:
-	goto_if_no_item_space ITEM_TM090, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _038B
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0234
-_038B:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 2000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 2000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _0234
-
-_03CD:
-	goto_if_no_item_space ITEM_TM075, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0416
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0234
-_0416:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 4000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 4000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _0234
-
-_0458:
-	goto_if_no_item_space ITEM_TM044, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _04A1
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0234
-_04A1:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 6000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 6000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _0234
-
-_04E3:
-	goto_if_no_item_space ITEM_TM035, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _052C
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0234
-_052C:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 10000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 10000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _0234
-
-_056E:
-	goto_if_no_item_space ITEM_TM013, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _05B7
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0234
-_05B7:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 10000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 10000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _0234
-
-_05F9:
-	goto_if_no_item_space ITEM_TM024, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0642
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0234
-_0642:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 10000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 10000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _0234
-
-_0684:
-	goto_if_no_item_space ITEM_SILK_SCARF, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _06CD
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _02D0
-_06CD:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 1000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 1000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _02D0
-
-_070F:
-	goto_if_no_item_space ITEM_WIDE_LENS, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0758
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _02D0
-_0758:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 1000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 1000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _02D0
-
-_079A:
-	goto_if_no_item_space ITEM_ZOOM_LENS, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _07E3
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _02D0
-_07E3:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 1000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 1000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _02D0
-
-_0825:
-	goto_if_no_item_space ITEM_METRONOME, 1, _0B45
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	npc_msg 3
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _086E
-	closemsg
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _02D0
-_086E:
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 1000
-	goto_if_lt _0BE6
-	npc_msg 4
-	play_se SEQ_SE_DP_REGI
-	take_coins 1000
-	scrcmd_118 0
-	buffer_item_name 0, VAR_SPECIAL_x8004
-	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
-	buffer_pocket_name 1, VAR_SPECIAL_RESULT
-	npc_msg 10
-	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
-	goto _02D0
+	case 0, _0307
+	case 1, _03A3
+	goto _0415
 
 scr_seq_T25SP0101_004:
 	play_se SEQ_SE_DP_SELECT
@@ -483,13 +114,189 @@ scr_seq_T25SP0101_004:
 	scrcmd_116 0, 20, 2
 	get_game_version VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 7
-	goto_if_ne _08E5
-	goto _08EB
+	goto_if_ne _0422
+	goto _0428
 
-_08E5:
-	goto _0948
+scr_seq_T25SP0101_005:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	gender_msgbox 42, 43
+	hasitem ITEM_COIN_CASE, 1, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0485
+	npc_msg 44
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
 
-_08EB:
+scr_seq_T25SP0101_006:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_BELLOSSOM, 0
+	npc_msg 52
+	wait_cry
+	buffer_players_name 0
+	apply_movement obj_T25SP0101_follower_mon_bellossom, _11E2
+	wait_movement
+	faceplayer
+	play_cry SPECIES_BELLOSSOM, 0
+	npc_msg 58
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_T25SP0101_007:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_WYNAUT, 0
+	npc_msg 53
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_T25SP0101_008:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_WOBBUFFET, 0
+	npc_msg 54
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_T25SP0101_009:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_set 16372, _04E6
+	npc_msg 55
+	play_cry SPECIES_SPINDA, 0
+	npc_msg 56
+	setflag 16372
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_T25SP0101_010:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_LUDICOLO, 0
+	npc_msg 57
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_T25SP0101_011:
+	end
+
+_0254:
+	npc_msg 38
+	apply_movement obj_T25SP0101_suit, _11DC
+	wait_movement
+	npc_msg 39
+	goto _04F9
+
+_026A:
+	apply_movement obj_T25SP0101_suit, _11DC
+	wait_movement
+	hasitem ITEM_COIN_CASE, 1, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0501
+	npc_msg 41
+	goto _04F9
+
+_0292:
+	get_player_coords VAR_TEMP_x4002, VAR_TEMP_x4003
+	compare VAR_TEMP_x4002, 6
+	goto_if_ne _050C
+	apply_movement obj_T25SP0101_suit, _1244
+	goto _0516
+
+_02B3:
+	wait_movement
+	hasitem ITEM_COIN_CASE, 1, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0501
+	npc_msg 41
+	goto _04F9
+
+_02D3:
+	compare VAR_TEMP_x4001, 0
+	goto_if_ne _0518
+	npc_msg 28
+	goto _0552
+
+_02E9:
+	compare VAR_TEMP_x4001, 1
+	goto_if_ne _0589
+	npc_msg 35
+	goto _02FF
+
+_02FF:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0307:
+	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
+	menu_item_add 14, 255, 0
+	menu_item_add 15, 255, 1
+	menu_item_add 16, 255, 2
+	menu_item_add 17, 255, 3
+	menu_item_add 18, 255, 4
+	menu_item_add 19, 255, 5
+	menu_item_add 11, 255, 6
+	menu_exec
+	switch VAR_TEMP_x4000
+	case 0, _0594
+	case 1, _061D
+	case 2, _06A6
+	case 3, _072F
+	case 4, _07B8
+	case 5, _0841
+	goto _08CA
+
+_03A3:
+	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
+	menu_item_add 20, 255, 0
+	menu_item_add 21, 255, 1
+	menu_item_add 22, 255, 2
+	menu_item_add 23, 255, 3
+	menu_item_add 11, 255, 4
+	menu_exec
+	switch VAR_TEMP_x4000
+	case 0, _0912
+	case 1, _099B
+	case 2, _0A24
+	case 3, _0AAD
+	goto _08CA
+
+_0415:
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	goto _0B36
+
+_0422:
+	goto _0B42
+
+_0428:
 	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
 	menu_item_add 24, 255, 0
 	menu_item_add 25, 255, 1
@@ -497,12 +304,348 @@ _08EB:
 	menu_item_add 11, 255, 3
 	menu_exec
 	switch VAR_TEMP_x4000
-	case 0, _09A5
-	case 1, _09B1
-	case 2, _09BD
-	goto _0C17
+	case 0, _0B9F
+	case 1, _0BAB
+	case 2, _0BB7
+	goto _0415
 
-_0948:
+_0485:
+	script_overlay_cmd 3, 0
+	npc_msg 49
+	touchscreen_menu_hide
+	scrcmd_116 0, 20, 2
+	show_money_box 20, 7
+	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+	menu_item_add 45, 255, 0
+	menu_item_add 46, 255, 1
+	menu_item_add 11, 255, 2
+	menu_exec
+	switch VAR_SPECIAL_RESULT
+	case 0, _0BC3
+	case 1, _0C0D
+	npc_msg 50
+	goto _0C57
+
+_04E6:
+	play_cry SPECIES_SPINDA, 0
+	npc_msg 56
+	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04F9:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0501:
+	npc_msg 39
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_050C:
+	apply_movement obj_T25SP0101_suit, _124A
+	return
+
+_0516:
+	return
+
+_0518:
+	npc_msg 37
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0C69
+	npc_msg 31
+	setvar VAR_TEMP_x4001, 1
+	giveitem_no_check ITEM_COIN_CASE, 1
+	npc_msg 32
+	goto _04F9
+
+_0552:
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0C69
+	npc_msg 31
+	setvar VAR_TEMP_x4001, 1
+	giveitem_no_check ITEM_COIN_CASE, 1
+	npc_msg 32
+	goto _04F9
+
+_0589:
+	npc_msg 36
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0594:
+	goto_if_no_item_space ITEM_TM090, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0C90
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0307
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_061D:
+	goto_if_no_item_space ITEM_TM075, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0CD9
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0307
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_06A6:
+	goto_if_no_item_space ITEM_TM044, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0D19
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0307
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 2000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 2000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_072F:
+	goto_if_no_item_space ITEM_TM035, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0D59
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0307
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 4000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 4000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_07B8:
+	goto_if_no_item_space ITEM_TM013, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0D99
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0307
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 4000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 4000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0841:
+	goto_if_no_item_space ITEM_TM024, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0DD9
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0307
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 4000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 4000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_08CA:
+	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
+	menu_item_add 12, 255, 0
+	menu_item_add 13, 255, 1
+	menu_item_add 11, 255, 2
+	menu_exec
+	switch VAR_TEMP_x4000
+	case 0, _0307
+	case 1, _03A3
+	goto _0415
+
+_0912:
+	goto_if_no_item_space ITEM_SILK_SCARF, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0E19
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _03A3
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_099B:
+	goto_if_no_item_space ITEM_WIDE_LENS, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0E59
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _03A3
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0A24:
+	goto_if_no_item_space ITEM_ZOOM_LENS, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0E99
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _03A3
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0AAD:
+	goto_if_no_item_space ITEM_METRONOME, 1, _0C78
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	npc_msg 3
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0ED9
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _03A3
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0B36:
+	scrcmd_117
+	touchscreen_menu_show
+	script_overlay_cmd 3, 1
+	releaseall
+	end
+
+_0B42:
 	menu_init 1, 1, 0, 1, VAR_TEMP_x4000
 	menu_item_add 24, 255, 0
 	menu_item_add 27, 255, 1
@@ -510,177 +653,455 @@ _0948:
 	menu_item_add 11, 255, 3
 	menu_exec
 	switch VAR_TEMP_x4000
-	case 0, _09A5
-	case 1, _09C9
-	case 2, _09BD
-	goto _0C17
+	case 0, _0B9F
+	case 1, _0F19
+	case 2, _0BB7
+	goto _0415
 
-_09A5:
-	setorcopyvar VAR_TEMP_x4002, 63
-	goto _09D5
+_0B9F:
+	setorcopyvar VAR_TEMP_x4002, 235
+	goto _0F25
 
-_09B1:
-	setorcopyvar VAR_TEMP_x4002, 23
-	goto _09D5
+_0BAB:
+	setorcopyvar VAR_TEMP_x4002, 114
+	goto _0F25
 
-_09BD:
-	setorcopyvar VAR_TEMP_x4002, 147
-	goto _09D5
+_0BB7:
+	setorcopyvar VAR_TEMP_x4002, 137
+	goto _0F25
 
-_09C9:
-	setorcopyvar VAR_TEMP_x4002, 27
-	goto _09D5
+_0BC3:
+	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 1000
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0F43
+	checkgivecoins VAR_SPECIAL_RESULT, 100
+	snop
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0F58
+	submoneyimmediate 1000
+	give_coins 100
+	scrcmd_118 0
+	update_money_box
+	play_se SEQ_SE_DP_REGI
+	wait_se SEQ_SE_DP_REGI
+	npc_msg 51
+	goto _0F61
 
-_09D5:
+_0C0D:
+	hasenoughmoneyimmediate VAR_SPECIAL_RESULT, 10000
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0F43
+	checkgivecoins VAR_SPECIAL_RESULT, 1000
+	snop
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0F58
+	submoneyimmediate 10000
+	give_coins 1000
+	scrcmd_118 0
+	update_money_box
+	play_se SEQ_SE_DP_REGI
+	wait_se SEQ_SE_DP_REGI
+	npc_msg 51
+	goto _0F61
+
+_0C57:
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	scrcmd_117
+	hide_money_box
+	script_overlay_cmd 3, 1
+	releaseall
+	end
+
+_0C69:
+	setvar VAR_TEMP_x4001, 1
+	npc_msg 33
+	goto _04F9
+
+_0C78:
+	npc_msg 5
+	closemsg
+	compare VAR_SPECIAL_x8004, 417
+	goto_if_ne _0FAC
+	goto _0307
+
+_0C90:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0CD0:
+	npc_msg 2
+	goto _0FBF
+
+_0CD9:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0D19:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 2000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 2000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0D59:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 4000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 4000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0D99:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 4000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 4000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0DD9:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 4000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 4000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _0307
+
+_0E19:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0E59:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0E99:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0ED9:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _0CD0
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	take_coins 1000
+	scrcmd_118 0
+	buffer_item_name 0, VAR_SPECIAL_x8004
+	getitempocket VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
+	scrcmd_208 1, VAR_SPECIAL_RESULT
+	npc_msg 10
+	giveitem VAR_SPECIAL_x8004, 1, VAR_SPECIAL_RESULT
+	goto _03A3
+
+_0F19:
+	setorcopyvar VAR_TEMP_x4002, 114
+	goto _0F25
+
+_0F25:
 	get_party_count VAR_SPECIAL_x8005
 	compare VAR_SPECIAL_x8005, 6
-	goto_if_ne _09F3
+	goto_if_ne _0FD2
 	npc_msg 6
 	wait_button_or_walk_away
 	closemsg
-	goto _0C26
+	goto _0B36
 
-_09F3:
+_0F43:
+	npc_msg 47
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	scrcmd_117
+	hide_money_box
+	script_overlay_cmd 3, 1
+	releaseall
+	end
+
+_0F58:
+	npc_msg 48
+	goto _0C57
+
+_0F61:
+	menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
+	menu_item_add 45, 255, 0
+	menu_item_add 46, 255, 1
+	menu_item_add 11, 255, 2
+	menu_exec
+	switch VAR_SPECIAL_RESULT
+	case 0, _0BC3
+	case 1, _0C0D
+	npc_msg 50
+	goto _0C57
+
+_0FAC:
+	compare VAR_SPECIAL_x8004, 402
+	goto_if_ne _1007
+	goto _0307
+
+_0FBF:
+	compare VAR_SPECIAL_x8004, 417
+	goto_if_ne _0FAC
+	goto _0307
+
+_0FD2:
 	buffer_species_name 1, VAR_TEMP_x4002, 0, 0
 	npc_msg 7
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0A34
+	goto_if_eq _101A
 	closemsg
 	get_game_version VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 7
-	goto_if_ne _0A2E
-	goto _08EB
+	goto_if_ne _103E
+	goto _0428
 
-_0A2E:
-	goto _0948
+_1007:
+	compare VAR_SPECIAL_x8004, 371
+	goto_if_ne _1044
+	goto _0307
 
-_0A34:
-	compare VAR_TEMP_x4002, 63
-	goto_if_ne _0A58
+_101A:
+	compare VAR_TEMP_x4002, 235
+	goto_if_ne _1057
 	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 200
-	goto_if_lt _0BF1
-	goto _0AB1
+	compare VAR_SPECIAL_x8006, 1000
+	goto_if_lt _107B
+	goto _1095
 
-_0A58:
-	compare VAR_TEMP_x4002, 23
-	goto_if_ne _0A7C
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 700
-	goto_if_lt _0BF1
-	goto _0AB1
+_103E:
+	goto _0B42
 
-_0A7C:
-	compare VAR_TEMP_x4002, 27
-	goto_if_ne _0AA0
-	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 700
-	goto_if_lt _0BF1
-	goto _0AB1
+_1044:
+	compare VAR_SPECIAL_x8004, 362
+	goto_if_ne _10CF
+	goto _0307
 
-_0AA0:
+_1057:
+	compare VAR_TEMP_x4002, 114
+	goto_if_ne _10E2
 	get_coin_amount VAR_SPECIAL_x8006
-	compare VAR_SPECIAL_x8006, 2100
-	goto_if_lt _0BF1
-_0AB1:
+	compare VAR_SPECIAL_x8006, 2300
+	goto_if_lt _107B
+	goto _1095
+
+_107B:
+	npc_msg 2
+	get_game_version VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 7
+	goto_if_ne _1106
+	goto _0428
+
+_1095:
 	npc_msg 4
 	play_se SEQ_SE_DP_REGI
-	give_mon VAR_TEMP_x4002, 15, 0, 0, 0, VAR_SPECIAL_RESULT
+	give_mon VAR_TEMP_x4002, 22, 0, 0, 0, VAR_SPECIAL_RESULT
 	buffer_players_name 0
 	buffer_species_name 1, VAR_TEMP_x4002, 0, 0
 	npc_msg 8
-	compare VAR_TEMP_x4002, 63
-	goto_if_ne _0AEB
-	take_coins 200
-	goto _0B1D
+	compare VAR_TEMP_x4002, 235
+	goto_if_ne _110C
+	take_coins 1000
+	goto _1123
 
-_0AEB:
-	compare VAR_TEMP_x4002, 23
-	goto_if_ne _0B02
-	take_coins 700
-	goto _0B1D
+_10CF:
+	compare VAR_SPECIAL_x8004, 340
+	goto_if_ne _113D
+	goto _0307
 
-_0B02:
-	compare VAR_TEMP_x4002, 27
-	goto_if_ne _0B19
-	take_coins 700
-	goto _0B1D
+_10E2:
+	compare VAR_TEMP_x4002, 114
+	goto_if_ne _1150
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 2300
+	goto_if_lt _107B
+	goto _1095
 
-_0B19:
-	take_coins 2100
-_0B1D:
+_1106:
+	goto _0B42
+
+_110C:
+	compare VAR_TEMP_x4002, 114
+	goto_if_ne _119B
+	take_coins 2300
+	goto _1123
+
+_1123:
 	scrcmd_118 0
 	get_game_version VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 7
-	goto_if_ne _0B3D
-	goto _08EB
+	goto_if_ne _11B2
+	goto _0428
 
-_0B3D:
-	goto _0948
-
-_0B45:
-	npc_msg 5
-	closemsg
-_0B4A:
-	compare VAR_SPECIAL_x8004, 417
-	goto_if_ne _0B63
-	goto _0234
-
-_0B63:
-	compare VAR_SPECIAL_x8004, 402
-	goto_if_ne _0B7C
-	goto _0234
-
-_0B7C:
-	compare VAR_SPECIAL_x8004, 371
-	goto_if_ne _0B95
-	goto _0234
-
-_0B95:
-	compare VAR_SPECIAL_x8004, 362
-	goto_if_ne _0BAE
-	goto _0234
-
-_0BAE:
-	compare VAR_SPECIAL_x8004, 340
-	goto_if_ne _0BC7
-	goto _0234
-
-_0BC7:
+_113D:
 	compare VAR_SPECIAL_x8004, 351
-	goto_if_ne _0BE0
-	goto _0234
+	goto_if_ne _11B8
+	goto _0307
 
-_0BE0:
-	goto _02D0
+_1150:
+	get_coin_amount VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_x8006, 3500
+	goto_if_lt _107B
+	npc_msg 4
+	play_se SEQ_SE_DP_REGI
+	give_mon VAR_TEMP_x4002, 22, 0, 0, 0, VAR_SPECIAL_RESULT
+	buffer_players_name 0
+	buffer_species_name 1, VAR_TEMP_x4002, 0, 0
+	npc_msg 8
+	compare VAR_TEMP_x4002, 235
+	goto_if_ne _110C
+	take_coins 2300
+	goto _1123
 
-_0BE6:
-	npc_msg 2
-	goto _0B4A
+_119B:
+	compare VAR_TEMP_x4002, 459
+	goto_if_ne _11BE
+	take_coins 2300
+	goto _1123
 
-_0BF1:
-	npc_msg 2
+_11B2:
+	goto _0B42
+
+_11B8:
+	goto _03A3
+
+_11BE:
+	take_coins 3500
+	scrcmd_118 0
 	get_game_version VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 7
-	goto_if_ne _0C11
-	goto _08EB
+	goto_if_ne _11B2
+	goto _0428
 
-_0C11:
-	goto _0948
+	.align 4
+_11DC:
 
-_0C17:
-	npc_msg 1
-	wait_button_or_walk_away
-	closemsg
-	goto _0C26
+	step 1, 1
+	step_end
+	.align 4
+_11E2:
 
-_0C26:
-	scrcmd_117
-	touchscreen_menu_show
-	script_overlay_cmd 3, 1
-	releaseall
-	end
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step 1, 1
+	step 2, 1
+	step 0, 1
+	step 3, 1
+	step_end
+	.align 4
+_1244:
+
+	step 2, 1
+	step_end
+	.align 4
+_124A:
+
+	step 3, 1
+	step_end
 	.align 4
 
 

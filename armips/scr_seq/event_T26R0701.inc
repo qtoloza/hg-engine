@@ -8,6 +8,7 @@
 .equ _EV_scr_seq_T26R0701_004, 4
 .equ _EV_scr_seq_T26R0701_005, 5
 .equ _EV_scr_seq_T26R0701_006, 6
+.equ _EV_scr_seq_T26R0701_007, 7
 
 .equ obj_T26R0701_fishing_2, 0
 .equ obj_T26R0701_seaman_2, 1
@@ -15,5 +16,6 @@
 .equ obj_T26R0701_gsmiddleman1, 3
 .equ obj_T26R0701_gsleader6, 4
 .equ obj_T26R0701_seaman_2_3, 5
+.equ obj_T26R0701_fishing_2_2, 6
 
 .endif //SCR_SEQ_T26R0701_H_

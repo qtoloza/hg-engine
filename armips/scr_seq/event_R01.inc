@@ -4,6 +4,7 @@
 .equ _EV_scr_seq_R01_000, 0
 .equ _EV_scr_seq_R01_001, 1
 .equ _EV_scr_seq_R01_002, 2
+.equ _EV_scr_seq_R01_003, 3
 
 .equ obj_R01_gswoman3, 0
 .equ obj_R01_gsman3, 1

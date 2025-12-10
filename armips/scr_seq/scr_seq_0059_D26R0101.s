@@ -31,9 +31,22 @@
 scrdef scr_seq_D26R0101_000
 scrdef scr_seq_D26R0101_001
 scrdef scr_seq_D26R0101_002
+scrdef scr_seq_D26R0101_003
+scrdef scr_seq_D26R0101_004
 scrdef_end
 
 scr_seq_D26R0101_002:
+	// Terrakion visibility: Tier 2 (FLAG_RESTORED_POWER + Cobalion caught)
+	goto_if_set FLAG_HIDE_TERRAKION, _terrakion_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_terrakion_entry
+	goto_if_unset FLAG_RESTORED_POWER, _hide_terrakion_entry
+	goto_if_unset FLAG_CAUGHT_COBALION, _hide_terrakion_entry
+	clearflag FLAG_HIDE_TERRAKION
+	goto _terrakion_vis_done
+_hide_terrakion_entry:
+	setflag FLAG_HIDE_TERRAKION
+_terrakion_vis_done:
+
 	goto_if_unset FLAG_UNK_189, _001F
 	clearflag FLAG_UNK_189
 	end
@@ -181,6 +194,87 @@ _01EC:
 	step 12, 1
 	step 1, 1
 	step_end
+	.align 4
+
+// Terrakion encounter (Lv45 Rock/Fighting)
+scr_seq_D26R0101_003:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _terrakion_not_postgame
+	play_cry SPECIES_TERRAKION, 0
+	npc_msg 3
+	closemsg
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_TERRAKION, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _terrakion_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _terrakion_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _terrakion_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _terrakion_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _terrakion_defeated
+	setflag FLAG_HIDE_TERRAKION
+	hide_person obj_D26R0101_terrakion
+	releaseall
+	end
+
+_terrakion_not_postgame:
+	releaseall
+	end
+
+_terrakion_lost:
+	white_out
+	releaseall
+	end
+
+_terrakion_fled:
+	releaseall
+	end
+
+_terrakion_defeated:
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_terrakion_caught:
+	setflag FLAG_CAUGHT_TERRAKION
+	return
+
+	.align 4
+
+// Hiker NPC - Swords of Justice lore hint
+scr_seq_D26R0101_004:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Only show hint dialogue after Cobalion caught
+	goto_if_unset FLAG_CAUGHT_COBALION, _hiker_no_hint
+	goto_if_set FLAG_CAUGHT_TERRAKION, _hiker_post_terrakion
+	// Pre-Terrakion hint (Cobalion caught, Terrakion not yet)
+	npc_msg 1
+	goto _hiker_end
+_hiker_post_terrakion:
+	npc_msg 2
+	goto _hiker_end
+_hiker_no_hint:
+	// Generic dialogue if player hasn't caught Cobalion
+	npc_msg 1
+_hiker_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
 	.align 4
 
 

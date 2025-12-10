@@ -59,8 +59,25 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 14,
-      "z": 8,
+      "x": 6666,
+      "z": 6666,
+      "y": 0
+    },
+    {
+      "id": "obj_T11R0701_doctor",
+      "spriteId": "SPRITE_DOCTOR",
+      "movement": 3,
+      "type": 0,
+      "eventFlag": 16282,
+      "scriptId": "_EV_scr_seq_T11R0701_006 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 1,
+      "yRange": 1,
+      "x": 8,
+      "z": 9,
       "y": 0
     }
   ],

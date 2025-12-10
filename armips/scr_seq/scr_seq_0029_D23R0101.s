@@ -236,7 +236,17 @@ scr_seq_D23R0101_003:
 scr_seq_D23R0101_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
+	faceplayer
+	goto_if_unset FLAG_RESTORED_POWER, _mary_fan_normal
+	goto_if_set FLAG_CAUGHT_MELOETTA, _mary_fan_post_meloetta
+	npc_msg 47
+	goto _mary_fan_end
+_mary_fan_post_meloetta:
+	npc_msg 48
+	goto _mary_fan_end
+_mary_fan_normal:
 	npc_msg 17
+_mary_fan_end:
 	wait_button_or_walk_away
 	closemsg
 	releaseall

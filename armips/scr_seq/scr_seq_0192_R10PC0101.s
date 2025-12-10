@@ -32,6 +32,7 @@ scrdef scr_seq_R10PC0101_000
 scrdef scr_seq_R10PC0101_001
 scrdef scr_seq_R10PC0101_002
 scrdef scr_seq_R10PC0101_003
+scrdef scr_seq_R10PC0101_004
 scrdef_end
 
 scr_seq_R10PC0101_000:
@@ -44,16 +45,28 @@ scr_seq_R10PC0101_001:
 	end
 
 scr_seq_R10PC0101_002:
-	goto_if_set FLAG_RESTORED_POWER, _004F
+	goto_if_set FLAG_RESTORED_POWER, _008F
 	simple_npc_msg 1
-	end
-
-_004F:
-	simple_npc_msg 2
 	end
 
 scr_seq_R10PC0101_003:
 	simple_npc_msg 3
+	end
+
+scr_seq_R10PC0101_004:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_BLISSEY, 0
+	wait_cry
+	npc_msg 4
+	giveitem_no_check ITEM_TM070, 1
+	closemsg
+	releaseall
+	end
+
+_008F:
+	simple_npc_msg 2
 	end
 	.align 4
 

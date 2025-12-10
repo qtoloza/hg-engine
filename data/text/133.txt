@@ -2,17 +2,28 @@ Baoba: It is you!\nIt must have been a long way.\rWelcome to the Safari Zone!\nI
 Baoba: I will keep upgrading my safari.\nI will let you know using Pokégear if I\fmake any changes.\r
 Safari Zone...\rIt makes me feel like I am in a\nforeign country.\fIt brings up a strange feeling.
 ..................\n(I am not a talker.)
-KANGASKHAN: ..................
-This Safari Zone is great!\rI just kept going after Pokémon!\nThat made my JIGGLYPUFF upset though.
-JIGGLYPUFF: Puu pupuu.
+Smeargle: ..................
+This Safari Zone is great!\rI just kept going after Pokémon!\nThat made my Jigglypuff upset though.
+Jigglypuff: Puu pupuu.
 Safari, safari,\nit is so much fun.\rSafari, safari,\nso interesting, huh!\rSo many Pokémon are waiting for us!\r...That’s a song I made up.\nI sing it when I am in the Safari Zone.
 Airily goes the Safari Ball under the\nblue sky. Sprinkly goes your sweat to\fcelebrate a friendship.\rI love the Safari Zone!\r...I made a whole jingle out of it.\nYou think anyone would be interested?
 I’ve decided to carry Pokémon drinks.\rThis will be new to me, but I will do\nmy best...\r
 Oh, you want to buy something?\nCan you wait while I get it ready?\rJust a minute...\f..................\r
-BUTTERFREE: Flu flu.
-There are many Pokémon to choose from,\nbut nothing beats the cuteness of\fSLOWPOKE.\rPeople often say that I look like one!
-SLOWPOKE: ...Yawn?
+Beautifly: Flu flu.
+There are many Pokémon to choose from,\nbut nothing beats the cuteness of\fSlowpoke.\rPeople often say that I look like one!
+Slowpoke: ...Yawn?
 I have always wanted to catch my first\nPokémon at the Safari Zone.
 You may be under the impression\nthere is a sophisticated system to\fcustomizing the Safari Zone, right?\rThe real truth is that...
 Arrrgh...\nI am so exhausted...\fThis job uses so much of your energy...
 Safari Zone\rThis is where everything is thrilling.\nFeel free to come by and experience\fthe wild!
+Sorry! We’re currently closed for...\nrepairs! Fufufu!
+Talk to the boss!
+Riley: {STRVAR_1 3, 0, 0}, get by my side!
+Archer: Now that we’re in position... I\nwon’t let you interfere with our plans!\r
+Archer: Face me directly, like a\nproper trainer!
+Archer: Hm. I wasn’t expecting that.\nWe have what we need regardless.\rDon’t expect me to be so generous\nnext time!
+Riley: Whew, that should free this area\nfrom Team Rocket. You’ve been a great\fhelp to us, {STRVAR_1 3, 0, 0}. Thank you.\r
+My companions and I are living in Johto\ncurrently, as our co-operation was\frequested with the new Battle Frontier\fthey have been putting up here.\rI’ve heard the Battle Frontier is now\nclose to completion--it just needs a\flittle bit more time.\rPerhaps you’d like to visit us\nsometime in the future?\rBuck and myself have a little house\nin Mahogany Town, and the girls are\fin Goldenrod City. I’m sure they’d\fall like to see you again!\r
+My companions and I are living in Johto\ncurrently, as our co-operation was\frequested with the new Battle Frontier\fthey have been putting up here.\rI’ve heard the Battle Frontier is now\nclose to completion--it just needs a\flittle bit more time.\rPerhaps you’d like to visit us\nsometime in the future?\rBuck and myself have a little house\nin Mahogany Town, and the girls are\fin Goldenrod City. I’m sure they’d\fall like to see you again!\r
+At any rate, people should start\nreturning to the area now that\fthose goons are gone.\rI’ll see you around, {STRVAR_1 3, 0, 0}!
+I’ll see you around, {STRVAR_1 3, 0, 0}!
