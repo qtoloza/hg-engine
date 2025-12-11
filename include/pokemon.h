@@ -826,7 +826,7 @@ enum
 #define NATURE_QUIRKY  (24)
 
 
-#define MAX_EVOS_PER_POKE (9)
+#define MAX_EVOS_PER_POKE (12)
 
 
 #define gDimorphismTable ((u8 *)(0x020FECAE))
