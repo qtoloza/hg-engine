@@ -151,7 +151,7 @@ _0209:
 
 _0222:
 	npc_msg 16
-	giveitem_no_check ITEM_ICE_STONE, 1
+	giveitem_no_check ITEM_SERENADE_ORB, 1
 	goto _0276
 
 _023B:
@@ -161,7 +161,7 @@ _023B:
 
 _0254:
 	npc_msg 16
-	giveitem_no_check ITEM_SERENADE_ORB, 1
+	giveitem_no_check ITEM_ICE_STONE, 1
 	goto _0276
 
 _026D:
