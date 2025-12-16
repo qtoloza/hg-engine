@@ -6,12 +6,12 @@ CANCEL
 OK
 CLOSE
 Red Apricorn
-Ylw Apricorn
-Blu Apricorn
-Grn Apricorn
-Pnk Apricorn
-Wht Apricorn
-Blk Apricorn
+Yellow Apricorn
+Blue Apricorn
+Green Apricorn
+Pink Apricorn
+White Apricorn
+Black Apricorn
 Holden
 Elaine
 Gilmore
@@ -23,8 +23,9 @@ Stam. Juice
 Skill Juice
 Jump Juice
 Speed Juice
-{STRVAR_1 51, 0, 0}
 
+
+{STRVAR_1 51, 0, 0}
 Collected Apricorns are inside.
 Put the Apricorn in the Apriblender.
 Haven’t blended enough yet...
@@ -39,12 +40,12 @@ Select which Apricorns to give.
 Give how many?
 Give {STRVAR_1 51, 1, 0} {STRVAR_1 8, 0, 0}?
 Red Apricorn\nA red Apricorn.\nIt assails your nostrils.
-Ylw Apricorn\nA yellow Apricorn.\nIt has an invigorating scent.
-Blu Apricorn\nA blue Apricorn.\nIt smells a bit like grass.
-Grn Apricorn\nA green Apricorn.\nIt has a mysterious, aromatic scent.
-Pnk Apricorn\nA pink Apricorn.\nIt has a nice, sweet scent.
-Wht Apricorn\nA white Apricorn.\nIt doesn’t smell like anything.
-Blk Apricorn\nA black Apricorn.\nIt has an indescribable scent.
+Yellow Apricorn\nA yellow Apricorn.\nIt has an invigorating scent.
+Blue Apricorn\nA blue Apricorn.\nIt smells a bit like grass.
+Green Apricorn\nA green Apricorn.\nIt has a mysterious, aromatic scent.
+Pink Apricorn\nA pink Apricorn.\nIt has a nice, sweet scent.
+White Apricorn\nA white Apricorn.\nIt doesn’t smell like anything.
+Black Apricorn\nA black Apricorn.\nIt has an indescribable scent.
 Apriblender
 {STRVAR_1 8, 0, 0}\nFlavor {STRVAR_1 52, 1, 0} Mildness {STRVAR_1 52, 2, 0}\nCan still put in {STRVAR_1 50, 3, 0}
 ~How to Make Aprijuice~\nCollect Apricorns and put them\nin the Apriblender!\rYou can make a drink with one,\nbut the more Apricorns,\nthe better the taste!\rPut the Apricorns in and blend\nby running to the next town!
