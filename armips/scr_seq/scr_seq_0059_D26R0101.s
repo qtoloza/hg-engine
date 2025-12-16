@@ -47,6 +47,14 @@ _hide_terrakion_entry:
 	setflag FLAG_HIDE_TERRAKION
 _terrakion_vis_done:
 
+	// Hiker visibility: only show when both Terrakion and Kurt are not present
+	goto_if_unset FLAG_HIDE_TERRAKION, _hide_hiker
+	goto_if_unset FLAG_UNK_1AA, _hide_hiker
+	clearflag FLAG_HIDE_D26R0101_HIKER
+	goto _hiker_vis_done
+_hide_hiker:
+	setflag FLAG_HIDE_D26R0101_HIKER
+_hiker_vis_done:
 	goto_if_unset FLAG_UNK_189, _001F
 	clearflag FLAG_UNK_189
 	end

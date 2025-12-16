@@ -68,7 +68,7 @@
       "spriteId": "SPRITE_GSBIGMAN",
       "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_NOTHING",
+      "eventFlag": "FLAG_HIDE_D26R0101_HIKER",
       "scriptId": "_EV_scr_seq_D26R0101_004 + 1",
       "facingDirection": 0,
       "param0": 0,

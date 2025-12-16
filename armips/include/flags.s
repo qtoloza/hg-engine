@@ -2286,8 +2286,9 @@ FLAG_CAUGHT_MELOETTA                                      equ 2956
 FLAG_CAUGHT_GENESECT                                      equ 2957
 FLAG_CAUGHT_DIANCIE                                       equ 2958
 
+FLAG_HIDE_D26R0101_HIKER                                  equ 2959
 
-NUM_FLAGS                                                 equ  2959
+NUM_FLAGS                                                 equ  2960
 
 
 NUM_TEMP_FLAGS                                           equ     64
