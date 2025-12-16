@@ -1930,7 +1930,7 @@ _1170: // Trainer 42
     trainertextentry  42, TEXT_DEFEATED_IN_OVERWORLD, "I like thinking here.\n"
 
 _117C: // Trainer 319
-    trainertextentry 319, TEXT_NOTICE_IN_OVERWORLD, "ZUBAT’s Supersonic keeps confusing my\nPokémon. I’m seriously upset\fabout that!\r"
+    trainertextentry 319, TEXT_NOTICE_IN_OVERWORLD, "Zubat’s Supersonic keeps confusing my\nPokémon. I’m seriously upset\fabout that!\r"
     trainertextentry 319, TEXT_DEFEATED_IN_BATTLE, "I flamed out!\n"
     trainertextentry 319, TEXT_DEFEATED_IN_OVERWORLD, "I’ve practiced training my Pokémon,\nbut I’ve practiced breathing fire many\fmore times than that.\rDon’t try this at home, OK?\n"
 
