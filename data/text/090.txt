@@ -1,1 +1,5 @@
 Kurt: Hey there, {STRVAR_1 3, 0, 0}!\rThe guard up top took off when\nI shouted at him.\rBut then I took a tumble down the well.\rI slammed down hard on my back,\nso I can’t move.\rRats! If I were fit, my Pokémon\nwould’ve punished them...\rAh, it can’t be helped.\r{STRVAR_1 3, 0, 0}, show them how gutsy\nyou are in my place!
+My grandfather told stories of\niron-willed Pokémon that protected\fthe weak during ancient wars.\rHe said they split up across the\nland, each guarding different terrain.\rOne of steel in places of power...\nOne of rock in caverns deep...\fOne of grass in ancient forests.\rYou have a look about you.\nLike you’ve met one already.\r
+You found the stone warrior too?\nMy grandfather would be amazed.\rThe stories say there’s a third,\nhiding in an ancient forest...\r
+Grrraaah!\r
+Terrakion vanished into the rock...

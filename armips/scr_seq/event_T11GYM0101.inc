@@ -6,6 +6,7 @@
 .equ _EV_scr_seq_T11GYM0101_002, 2
 .equ _EV_scr_seq_T11GYM0101_003, 3
 .equ _EV_scr_seq_T11GYM0101_004, 4
+.equ _EV_scr_seq_T11GYM0101_005, 5
 
 .equ obj_T11GYM0101_itako, 0
 .equ obj_T11GYM0101_mystery_2, 1

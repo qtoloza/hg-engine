@@ -1,2 +1,10 @@
+Hi! I collect cute Pokémon!\nDo you have a Mime Jr.?\rWanna trade it for my Smoochum? {YESNO 0}
+Wow! Thank you!\nI always wanted Mime Jr.!
+
+You don’t want to trade?\nAww, sugar!
+Your Mime Jr. is sooo cute!\nIt even evolved into a Mr. Mime!\rIs my old friend Smoochum a\nsweepin’ dancin’ Jynx yet?
 This happened when I was young.\rThe sky suddenly turned black.\nA giant Flying-type Pokémon was\fblocking out the sun.\rI wonder what that Pokémon was?\rIt was like a bird and like a dragon.
 Is there really a Pokémon that big?\fIf it exists, it must be powerful.
+Mister, that’s not Smoochum.\nI know what Smoochum looks like!
+Miss, that’s not Smoochum.\nI know what Smoochum looks like!
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

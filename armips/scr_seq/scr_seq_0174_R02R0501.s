@@ -29,11 +29,54 @@
 
 
 scrdef scr_seq_R02R0501_000
+scrdef scr_seq_R02R0501_001
 scrdef_end
 
 scr_seq_R02R0501_000:
 	simple_npc_msg 0
 	end
+
+scr_seq_R02R0501_001:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	apply_movement obj_R02R0501_counterm, _007C
+	wait_movement
+	check_badge BADGE_EARTH, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _006B
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _0082
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	releaseall
+	end
+
+_006B:
+	npc_msg 2
+	setvar 24884, 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+	.align 4
+_007C:
+
+	step 75, 1
+	step_end
+	.align 4
+_0082:
+
+	step 12, 1
+	step_end
 	.align 4
 
 

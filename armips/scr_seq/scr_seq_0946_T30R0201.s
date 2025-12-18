@@ -33,13 +33,44 @@ scrdef scr_seq_T30R0201_001
 scrdef_end
 
 scr_seq_T30R0201_000:
-	simple_npc_msg 0
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	getitemquantity ITEM_SUPER_ROD, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _0076
+	npc_msg 0
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0081
+	npc_msg 1
+	giveitem_no_check ITEM_SUPER_ROD, 1
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_T30R0201_001:
-	play_cry SPECIES_DRATINI, 0
-	simple_npc_msg 2
+	play_cry SPECIES_DRAGONAIR, 0
+	simple_npc_msg 4
 	wait_cry
+	end
+
+_0076:
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0081:
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 	.align 4
 

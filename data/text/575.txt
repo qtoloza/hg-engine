@@ -2,6 +2,13 @@ Have you met the maniac in this city?\rHe’s always bragging about his\nrare Po
 You can’t help showing off the Pokémon\nyou have, don’t you agree?\rI’d love to show mine to a friend of mine\nwho lives in Violet...
 The Pokémon at this Gym are all rough\nand tough.\rThey could blow me away in a second.\fLet me give you a piece of advice.\rThe Gym Leader uses Fighting-type\nPokémon.\rYou can try to fool them with\nPsychic-type Pokémon.\rOr simply defeat them before they\ncan demonstrate their power.\rBy the way, Chuck, the Gym Leader,\nis into his waterfall training.\rHe won’t be able to hear you unless\nyou somehow stop the pounding water.
 {STRVAR_1 3, 0, 0}! You won, didn’t you?\nYour face tells me you did.
-Huh? Do you happen to...\nhave only one Pokémon?\rThat must be hard on you.\n...\rThat’s right!\nI’ll give you a TENTACOOL!\rI just caught a little too many.\nI was going to release it,\fso take it. Go ahead!\r
-{STRVAR_1 3, 0, 0} received\nthe TENTACOOL!
-Want to give a nickname to\nthe TENTACOOL? {YESNO 0}
+Huh? Do you happen to...\nhave only one Pokémon?\rThat must be hard on you.\n...\rThat’s right!\nI’ll give you a Tentacool!\rI just caught a little too many.\nI was going to release it,\fso take it. Go ahead!\r
+{STRVAR_1 3, 0, 0} received\nthe Tentacool!
+Want to give a nickname to\nthe Tentacool? {YESNO 0}
+Hoo hah! Through singular discipline,\nwe will reign supreme!\r
+A Choice Band will boost your attack\nstrength by a generous amount.\rThe downside? Your Pokémon can only\nuse one attack until it leaves the\fbattle!
+Meditite: Asaaaan!
+There’s a nifty little item I’d like\nto gift you with for watching us.\rIt’s known as a Choice Band!\r
+We will be strong!\r
+We will prevail!\r
+Hoo hah!\r

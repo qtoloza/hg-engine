@@ -22,8 +22,8 @@ The Footprint Stamp is a panel where\nyou can play with the footprints of the\fP
                                                                           
 We hope you’ll enjoy yourself in the\nWi-Fi Plaza before your time is up.\r
 Tap Toys are toys that you can play\nwith only in the Wi-Fi Plaza.\rBesides playing with them on your own,\nyou can also share Tap Toys with\ffriends.\rThe Tap Toys can be powered up\nplaying Plaza Games, too.\rWe hope you’ll come up with your own\nways of enjoying them!\r
-{STRVAR_3 0, 0, 0} is one of the\nPlaza Games.\rUp to four players can take part.\rThe rule is simple: just flick Berries\ninto the mouth of a rotating SWALOT.\rThe player with the highest score will\nbe rewarded with a Tap Toy upgrade.\r
-{STRVAR_3 0, 0, 0} is one of the\nPlaza Games.\rUp to four players can take part.\rThe rule is simple: roll a ball to\nkeep MIME JR. from falling off.\rThe player who keeps the MIME JR. on\nthe ball longest will be rewarded with\fa Tap Toy upgrade.\r
+{STRVAR_3 0, 0, 0} is one of the\nPlaza Games.\rUp to four players can take part.\rThe rule is simple: just flick Berries\ninto the mouth of a rotating Swalot.\rThe player with the highest score will\nbe rewarded with a Tap Toy upgrade.\r
+{STRVAR_3 0, 0, 0} is one of the\nPlaza Games.\rUp to four players can take part.\rThe rule is simple: roll a ball to\nkeep Mime Jr. from falling off.\rThe player who keeps the Mime Jr. on\nthe ball longest will be rewarded with\fa Tap Toy upgrade.\r
 {STRVAR_3 0, 0, 0} is one of the\nPlaza Games.\rUp to four players can take part.\rThe rule is simple: just pump up\nballoons until they pop.\rPop at least ten, and all participants\nwill be rewarded with a Tap Toy\fupgrade.\r
 When your remaining visiting time drops\nbelow half, the spotlights in the\fWi-Fi Plaza are turned on.\rWe hope you will enjoy the different\natmosphere it creates.\r
 When your visiting time is almost up,\nthe lighting is turned off.\rThen, fireworks displays are put on\nthroughout the Wi-Fi Plaza.\rWe hope you will enjoy the fireworks as\nyour visit winds down.\r
@@ -39,9 +39,9 @@ EXIT
 {STRVAR_3 0, 0, 0}
 {STRVAR_3 1, 0, 0}
 PLAZA SURVEY
-Roll the ball to keep MIME JR. balanced\non it.
-Toss Berries into the mouth of a\nrotating SWALOT.
-Press the WOBBUFFET pump and pop\nballoons with the other players.
+Roll the ball to keep Mime Jr. balanced\non it.
+Toss Berries into the mouth of a\nrotating Swalot.
+Press the Wobbuffet pump and pop\nballoons with the other players.
 ID No.
 NAME
 LOCATION

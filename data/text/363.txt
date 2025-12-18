@@ -14,7 +14,7 @@ You took on one more battle than\nyou expected, but you won anyway.\rAs promised
 But after seeing how you battle,\nI want to see how I’ll fare.\fHow about it? Let me take you on.\r
 I’ve never had a battle this\nwonderful!\rYou and your Pokémon are\nreally strong!
 Sea Cottage\nBill’s House
-Eusine: Puff, puff...\nI am...no match for you.\f...As I predicted.\r..................\n...Go ahead.\rSince I met you in the Burned Tower\nat Ecruteak City, I’ve sort of known\fthat SUICUNE would choose you.\r
-Eusine: Take a look at it!\nSUICUNE is waiting for you!\fIt has been waiting for a battle\fwith a worthy Trainer to whom\fit can entrust itself!
-Eusine: {STRVAR_1 3, 0, 0}...\nYou two are truly amazing...\rI have never seen a battle\nthis intense!\fI have no regrets...\rFarewell, SUICUNE!\nFarewell...{STRVAR_1 3, 0, 0}!\r
-Eusine: {STRVAR_1 3, 0, 0}...\nThere is nothing to be ashamed of.\rNo one can pick on you just because\nyou ran from SUICUNE.\rIt’s just that SUICUNE is such an\namazing Pokémon. That’s all.\fAnyway, SUICUNE is gone again.\fIt’s back to square one...\r
+Eusine: Puff, puff...\nI am...no match for you.\f...As I predicted.\r..................\n...Go ahead.\rSince I met you in the Burned Tower\nat Ecruteak City, I’ve sort of known\fthat Suicune would choose you.\r
+Eusine: Take a look at it!\nSuicune is waiting for you!\fIt has been waiting for a battle\fwith a worthy Trainer to whom\fit can entrust itself!
+Eusine: {STRVAR_1 3, 0, 0}...\nYou two are truly amazing...\rI have never seen a battle\nthis intense!\fI have no regrets...\rFarewell, Suicune!\rI’m going to return to my hometown.\fI’ll likely see you again, {STRVAR_1 3, 0, 0}!\r
+Eusine: {STRVAR_1 3, 0, 0}...\nThere is nothing to be ashamed of.\rNo one can pick on you just because\nyou ran from Suicune.\rIt’s just that Suicune is such an\namazing Pokémon. That’s all.\fAnyway, Suicune is gone again.\fIt’s back to square one...\r

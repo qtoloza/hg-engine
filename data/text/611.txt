@@ -12,3 +12,9 @@ Jasmine: Are you ready?\r
 Jasmine: You did a fine job.\nWe look good.
 Jasmine: I see...
 Your Photo Album is full.\rAccess your PC to delete\nsome pictures.
+Olivine is on the sea!\rAnd if it’s on the sea, there is bound\nto be something to catch!\rI’ve fished here for 30 years.\rWould you like to face the sea\nand fish? {YESNO 0}
+Ah, hahah!\nWe have ourselves a new angler!
+
+Water-type Pokémon aren’t found\nin the sea alone.\fThey go wherever there is water.
+Whaaat? You don’t like to fish!?\fIncomprehensible!
+How are things?\nLand the big one?

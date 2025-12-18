@@ -1,1 +1,2 @@
-Custom item description
+A peculiar orb that makes a certain\nspecies of Pokémon evolve. It glows\nwith the brilliance of dawn.
+A peculiar orb that makes a certain\nspecies of Pokémon evolve. It shimmers\nwith the mystery of dusk.

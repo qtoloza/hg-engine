@@ -69,6 +69,23 @@
       "x": 35,
       "z": 14,
       "y": 0
+    },
+    {
+      "id": "obj_P01R0301_gsassistantm",
+      "spriteId": "SPRITE_GSASSISTANTM",
+      "movement": 3,
+      "type": 0,
+      "eventFlag": 16300,
+      "scriptId": "_EV_scr_seq_P01R0301_009 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 2,
+      "yRange": 2,
+      "x": 5,
+      "z": 5,
+      "y": 0
     }
   ],
   "warps": [

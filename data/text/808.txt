@@ -3,8 +3,8 @@ Dopo la nascita, cresce traendo\nnutrimento dal seme piantato\nsul suo dorso.
 Quando il bocciolo che ha sul dorso\nsi gonfia, emana un dolce profumo.\nÈ indice dell’imminente fioritura.
 Dopo la pioggia, il fiore sul suo\ndorso emana un profumo più\nintenso e attira gli altri Pokémon.
 La fiamma sulla punta della coda\nindica la sua vitalità. Se sta bene,\nla fiamma è più ardente.
-Sui monti rocciosi, sua dimora,\nla coda di CHARMELEON brilla\ncome una stella nella notte.
-Pare che la temperatura della\nfiamma di CHARIZARD aumenti\ndopo che ha affrontato dure lotte.
+Sui monti rocciosi, sua dimora,\nla coda di Charmeleon brilla\ncome una stella nella notte.
+Pare che la temperatura della\nfiamma di Charizard aumenti\ndopo che ha affrontato dure lotte.
 Si ritira nel suo guscio e, alla prima\noccasione, contrattacca colpendo\nil nemico con spruzzi d’acqua.
 Pare che viva 10000 anni. Ha\nla coda ricoperta da una folta\npelliccia, indice di longevità.
 I getti d’acqua lanciati dai\ncannoni sul suo guscio riescono\na perforare persino l’acciaio.
@@ -16,7 +16,7 @@ Si nasconde dai predatori dietro\nle foglie e fra i rami, in attesa\ndell’evol
 Vola intorno al nemico ad alta\nvelocità, attacca con i pungiglioni\navvelenati e si allontana rapido.
 È docile e preferisce evitare i\nconflitti. Ma se viene disturbato,\ncontrattacca ferocemente.
 Sorvola il suo ampio territorio a\ncaccia di prede, afferrandole con\ni suoi artigli affilati.
-Sbattendo le ali a più non posso,\nPIDGEOT crea un vento tanto\nforte da piegare alberi possenti.
+Sbattendo le ali a più non posso,\nPidgeot crea un vento tanto\nforte da piegare alberi possenti.
 Un’incredibile vitalità gli permette\ndi adattarsi a qualsiasi tipo di\nhabitat. È estremamente cauto.
 Si affila le zanne in perenne\ncrescita rosicchiando cose dure.\nRiesce a frantumare persino i muri.
 Sbatte con foga le sue alette per\nsollevarsi in volo. Cerca le prede\nbeccando nell’erba.
@@ -28,7 +28,7 @@ Diventa aggressivo se accumula\nin sé troppa carica elettrica.\nScarica l’ele
 Vive in zone aride con precipitazioni\nminime. Si arrotola come se fosse\nuna palla per difendersi dai nemici.
 Si arrotola come una palla e rotola\nsul dorso verso i nemici. Gli aculei\naguzzi provocano gravi danni.
 Non ama combattere, ma anche una\nsola goccia del veleno che secerne\ndagli aculei può essere fatale.
-Quando avverte il pericolo, rizza\ngli aculei, che fuoriescono più\nlentamente di quelli di NIDORINO.
+Quando avverte il pericolo, rizza\ngli aculei, che fuoriescono più\nlentamente di quelli di Nidorino.
 Una robusta armatura ricopre\nl’intero corpo. Protegge i propri\ncuccioli a costo della vita.
 Esamina l’ambiente circostante\ntendendo le orecchie sopra l’erba.\nSi protegge con il corno velenoso.
 Ha un temperamento violento e\ninfilza i nemici con il corno, che,\nall’impatto, rilascia veleno.
@@ -44,8 +44,8 @@ Ama il sangue umano e quello dei\nPokémon. Vola nel buio della notte\nin cerca 
 Durante il giorno, pianta i piedi\nper terra come se fossero radici.\nDi notte cammina seminando.
 Il fluido che fuoriesce dalla sua\nbocca è così puzzolente che si\nsente anche a 2 km di distanza.
 I suoi petali sono i più grandi al\nmondo. Mentre cammina diffonde\nun polline che causa allergie.
-Ha sul dorso dei funghi chiamati\ntochukaso, che crescono insieme\nal PARAS su cui si trovano.
-PARASECT è controllato da un fungo\nancora più grosso del suo corpo.\nDiffonde spore velenose.
+Ha sul dorso dei funghi chiamati\ntochukaso, che crescono insieme\nal Paras su cui si trovano.
+Parasect è controllato da un fungo\nancora più grosso del suo corpo.\nDiffonde spore velenose.
 I suoi grandi occhi sono in realtà\nun insieme di tanti piccoli occhi.\nDi notte, è attirato dalla luce.
 Sbattendo le ali sparge una\npolvere velenosa a contatto\ncon la pelle.
 Un Pokémon che vive sottoterra.\nPoiché è abituato a vivere al buio,\nnon sopporta la luce solare.
@@ -64,7 +64,7 @@ Ha dei muscoli tanto sviluppati da\nriuscire ad attraversare a nuoto\nl’Oceano
 Dorme per 18 ore al giorno.\nAnche da sveglio, si teletrasporta\nrimanendo seduto.
 Se si avvicina, fa apparire nella\ntelevisione un’ombra inquietante\nche porta sfortuna a chi la guarda.
 La sua incredibile memoria gli\nfa ricordare ogni evento fin dalla\nnascita. Il suo QI supera 5000.
-Solleva GRAVELER ripetutamente\nper mantenersi forte. Conosce\nogni tipo di arte marziale.
+Solleva Graveler ripetutamente\nper mantenersi forte. Conosce\nogni tipo di arte marziale.
 La sua incredibile forza può essere\nmolto pericolosa. Indossa una cin-\ntura per tenerla sotto controllo.
 Tira pugni con le quattro braccia\nad una velocità impressionante.\nScaglia 1000 pugni ogni 2 secondi.
 Preferisce gli habitat caldi e umidi.\nCattura velocemente le prede \ncon i suoi rampicanti.
@@ -78,12 +78,12 @@ Muta il guscio una volta all’anno. Il\nsuo corpo duro come la roccia non\nè s
 Un’ora dopo la nascita, gli\ncrescono criniera e coda, che gli\ndonano un aspetto solenne.
 Galoppa alla velocità di 240 km/h.\nCorre come una freccia facendo\nondeggiare la criniera ardente.
 Anche se è lento, è abile a pescare\ncon la coda. Non avverte alcun\ndolore se gliela mordono.
-Non è molto perspicace, ma sembra\naguzzare l’ingegno se lo SHELLDER\nche ha sulla coda lo morde.
+Non è molto perspicace, ma sembra\naguzzare l’ingegno se lo Shellder\nche ha sulla coda lo morde.
 Gli elementi laterali generano onde\nmagnetiche che lo mantengono in\nsospeso. Si nutre d’elettricità.
-Pokémon formato da tre MAGNEMITE\nuniti dalla forza magnetica. Più di\ntre creano una tempesta magnetica.
+Pokémon formato da tre Magnemite\nuniti dalla forza magnetica. Più di\ntre creano una tempesta magnetica.
 Non può vivere senza il gambo che\ntiene con un’ala. Lo difende dagli\nattacchi a costo della vita.
 I suoi due cervelli si comunicano\nle emozioni grazie ai poteri\ntelepatici.
-Quando DODUO si evolve in questo\nstrano essere, una delle due teste\nsi divide a metà. Corre a 60 km/h.
+Quando Doduo si evolve in questo\nstrano essere, una delle due teste\nsi divide a metà. Corre a 60 km/h.
 Pokémon che vive sugli iceberg.\nNuota spaccando il ghiaccio\ncon la punta che ha sulla testa.
 Ha il corpo ricoperto da una\npelliccia bianca che, sulla neve,\nlo rende meno visibile ai predatori.
 Nacque quando il fango di un fiume\nsudicio fu esposto ai raggi X della\nluna. Vive nella sporcizia.
@@ -92,7 +92,7 @@ Nuota all’indietro aprendo e\nchiudendo le due valve. La lingua\nè sempre fuo
 Quando lotta si protegge tenendo\nla conchiglia chiusa e spara punte\nper respingere i nemici.
 Il suo corpo è costituito al 95%\nda gas che possono venir spazzati\nvia da venti improvvisi.
 Riesce a superare qualsiasi\nostacolo. Si nasconde nei muri\nper osservare il nemico.
-Si nasconde nell’ombra. Pare che\nnei luoghi in cui GENGAR si cela,\nla temperatura si abbassi di 5°C.
+Si nasconde nell’ombra. Pare che\nnei luoghi in cui Gengar si cela,\nla temperatura si abbassi di 5°C.
 Si muove sottoterra provocando\nscosse e boati. Può raggiungere\nanche la velocità di 80 km/h.
 Riesce ad indovinare cosa sognano\nle persone annusandole con il suo\ngrande naso. Ama i sogni divertenti.
 Con il suo pendolo fa addormentare\nchiunque nel giro di tre secondi,\nanche chi si è appena svegliato.
@@ -101,7 +101,7 @@ La chela più grande ha una potenza\ndi 10000 cavalli, ma è così pesante\nche 
 Sembra una Poké Ball. Toccandolo si\nrischia di prendere la scossa e di\nfarlo esplodere.
 Quando ha accumulato elettricità\nfino quasi a scoppiare, si fa\ntrasportare dal vento.
 Queste sei uova comunicano per\ntelepatia. Si riuniscono subito\nanche se vengono divise.
-Noto come “Giungla in moto”. Se\nuna testa diventa troppo grande,\ncade e si trasforma in EXEGGCUTE.
+Noto come “Giungla in moto”. Se\nuna testa diventa troppo grande,\ncade e si trasforma in Exeggcute.
 Piange pensando alla madre scomparsa\ne dal teschio che ha in testa proviene\nun rumore sordo e continuo.
 Pokémon selvatico che tiene in\nmano un osso sin dalla nascita.\nLo usa abilmente come arma.
 I suoi arti inferiori si allungano del\ndoppio, il che sbalordisce i nemici\nche lo vedono per la prima volta.
@@ -148,8 +148,8 @@ Un Pokémon uccello leggendario.\nSi dice che la sua apparizione\npreannunci l�
 Detto “Pokémon miraggio” perché\nè stato avvistato da pochi. È facile\ntrovare la sua pelle della muta.
 Se il suo corpo emana un’aura, il\ntempo cambia all’istante. Si dice\nche viva nei mari e nei laghi.
 Si dice che faccia la sua tana da\nqualche parte nel mare. Porta a\nriva le vittime di naufragi.
-Un Pokémon creato usando i geni\ndi MEW. Si dice che fra i Pokémon\nsia quello con l’animo più crudele.
-Poiché sa usare qualsiasi mossa,\nmolti scienziati ritengono che MEW\nsia l’antenato di tutti i Pokémon.
+Un Pokémon creato usando i geni\ndi Mew. Si dice che fra i Pokémon\nsia quello con l’animo più crudele.
+Poiché sa usare qualsiasi mossa,\nmolti scienziati ritengono che Mew\nsia l’antenato di tutti i Pokémon.
 Usa la foglia sulla sua testa\nper misurare la temperatura e\nl’umidità. Ama crogiolarsi al sole.
 Le foglie attorno al suo collo\nemanano un aroma speziato\ndall’effetto energizzante.
 Il suo respiro ha lo straordinario\npotere di far tornare rigogliosi\npiante secche e fiori avvizziti.
@@ -184,22 +184,22 @@ Quando finisce la stagione delle\npiogge, lo si vede danzare sotto\ni caldi ragg
 Si tuffa in acqua e usa la coda come\ngalleggiante. Ama mangiare le piante\nche crescono sul fondo dei fiumi.
 Vive nei fiumi e nei laghi. Il suo\ncolore e i disegni confondono i\nnemici in acqua.
 Ha l’aspetto di un albero, ma il\nsuo corpo è più simile alla roccia.\nÈ debole contro l’acqua.
-Ama radunare gruppi e atteggiarsi\na capogruppo.\nI suoi versi richiamano POLIWAG.
-Giunge sospinto dai venti. Si dice\nche quando HOPPIP appare su campi\ne monti, la primavera sia in arrivo.
+Ama radunare gruppi e atteggiarsi\na capogruppo.\nI suoi versi richiamano Poliwag.
+Giunge sospinto dai venti. Si dice\nche quando Hoppip appare su campi\ne monti, la primavera sia in arrivo.
 Il suo fiore sboccia appena l’aria\nsi riscalda. Fluttua nel cielo\nper assorbire l’energia solare.
 Sospinto dai venti stagionali, gira\nintorno al globo sparpagliando i\nsuoi semi simili al cotone.
 Usa la coda per raccogliere i\nfrutti che sono fuori portata. La\nsua coda è più agile delle mani.
-Cade improvvisamente giù dal cielo\nal mattino. Dopo un’estate fredda,\nla popolazione di SUNKERN esplode.
+Cade improvvisamente giù dal cielo\nal mattino. Dopo un’estate fredda,\nla popolazione di Sunkern esplode.
 Trae energia dalla luce del sole e\nsi muove di continuo per cercare\ndi assorbirne sempre di più.
 Ha un campo visivo a 360° senza\nmuovere la testa. Riesce a vedere\npersino le prede alle sue spalle.
 Vive nell’acqua fredda e quando\nvuole dormire si seppellisce a\nmetà nei fondali melmosi.
 È pigro per natura. Sta sul fondo\ndei fiumi con la bocca aperta in\nattesa di afferrare la preda.
 Il suo pelo è simile al velluto.\nQuando usa i suoi poteri psichici,\nla sfera che ha sulla fronte brilla.
-La luce lunare ha mutato la\nstruttura genetica di EEVEE. Si\ncela nel buio in attesa della preda.
+La luce lunare ha mutato la\nstruttura genetica di Eevee. Si\ncela nel buio in attesa della preda.
 Si dice che l’incontro notturno\ncon questo Pokémon sia un\npresagio infausto.
-Il morso di SHELLDER gli ha infuso\nun’intelligenza pari a quella di\nrinomati scienziati.
+Il morso di Shellder gli ha infuso\nun’intelligenza pari a quella di\nrinomati scienziati.
 Ama avvicinarsi alle persone in\npiena notte per terrorizzarle con\nil suo urlo stridulo.
-È a forma di lettera di un antico\nalfabeto. È un mistero chi sia\napparso prima, l’alfabeto o UNOWN.
+È a forma di lettera di un antico\nalfabeto. È un mistero chi sia\napparso prima, l’alfabeto o Unown.
 Cerca di tenere nascosta la sua\ncoda nera ad ogni costo. Pare\nche essa celi un segreto.
 Ha due cervelli, uno piccolo anche\nsulla coda. Morde per respingere i\nnemici che si avvicinano da dietro.
 Ha l’aspetto di una pigna. Il suo\nguscio lo protegge dai Pokémon\nuccello che lo beccano per errore.
@@ -224,7 +224,7 @@ Vivono numerosi nei limpidi mari del\nsud. Pare che non riescano a\nsopravvivere
 Emette potenti getti d’acqua con i\nquali riesce ad abbattere persino\nle prede in volo.
 Vive nelle spaccature delle rocce\ne del fondo marino. Con le sue ven-\ntose afferra saldamente la preda.
 Trascina il cibo avvolgendolo nella\ncoda e ha l’abitudine di condividerlo\ncon chi si perde fra le montagne.
-Quando il mare è calmo, è possibile\nvedere branchi di MANTINE nuotare\nleggiadri come se volassero.
+Quando il mare è calmo, è possibile\nvedere branchi di Mantine nuotare\nleggiadri come se volassero.
 È interamente rivestito da\nun’armatura dura come l’acciaio.\nVola alla velocità di 300 km/h.
 Trasmette i suoi stati d’animo con\nvari versi. Lavora in gruppo per\ncatturare le prede con l’astuzia.
 Molto tempo fa, si riteneva che\nle sue urla sinistre coincidessero\ncon la chiamata finale.
@@ -239,7 +239,7 @@ Combatte mentre gira come una\ntrottola. La forza centrifuga de-\ncuplica il suo
 Analizza tutto con le labbra e con\nesse riesce a memorizzare ciò che\ngli piace e ciò che non gli piace.
 Genera elettricità roteando le\nbraccia. Tuttavia non riesce ad\nimmagazzinare l’energia creata.
 La sua temperatura corporea è di\ncirca 600°C. Se le fiamme che lancia\nsono gialle significa che è in forma.
-Si dice che se un bambino beve\nil latte di MILTANK crescerà bene\ne da adulto sarà sano e buono.
+Si dice che se un bambino beve\nil latte di Miltank crescerà bene\ne da adulto sarà sano e buono.
 Questo Pokémon buono cura i\nPokémon malati e li fa guarire.\nPercepisce la tristezza altrui.
 Pare che sia caduto con un\nfulmine. Può scagliare saette dalle\nnuvole di pioggia che ha sul dorso.
 Si dice che quando emette il suo\nverso, da qualche parte nel mondo\nun vulcano stia eruttando.
@@ -263,8 +263,8 @@ Pokémon di natura ostinata.\nInsegue la preda prescelta\nfinché questa non è 
 Caccia le prede in branco. Non\ndisobbedisce mai agli ordini di\nun Allenatore abile.
 Avanza a zigzag. È bravo a trovare\nstrumenti nell’erba e sul terreno.
 Carica la preda ad una velocità di\n100 km/h. Ma dal momento che\nva solo dritto, sbaglia spesso.
-Ama mangiare le foglie. Se STARLY lo\nattacca, si difende con gli aculei\nche ha sulla parte posteriore.
-SILCOON si ancora ai rami con\nfili di seta. In questa posizione\naspetta immobile l’evoluzione.
+Ama mangiare le foglie. Se Starly lo\nattacca, si difende con gli aculei\nche ha sulla parte posteriore.
+Silcoon si ancora ai rami con\nfili di seta. In questa posizione\naspetta immobile l’evoluzione.
 Ha un’indole aggressiva. Conficca\nla sua bocca lunga e sottile nelle\nprede e ne succhia i fluidi.
 Dentro, il suo bozzolo è caldo. Ogni\ncellula del suo corpo contribuisce\na creare energia per l’evoluzione.
 Pokémon notturno. Attirato dalla\nluce dei lampioni, divora le foglie\ndegli alberi lungo i viali.
@@ -311,9 +311,9 @@ L’elettricità immagazzinata nella\npelliccia gli stimola i muscoli e\naumenta
 Scarica elettricità dalla criniera.\nCrea nubi temporalesche in\ncielo che fanno cadere saette.
 Incoraggia gli amici con un vivace\nscoppiettio di scintille. Assorbe\nelettricità dai pali telefonici.
 Incoraggia gli amici e, se questi\nperdono, il suo corpo emette\nuna maggiore quantità di scintille.
-Di notte comunica con gli altri\nilluminando la sua coda.\nAma il dolce aroma di ILLUMISE.
-Con il suo dolce aroma dirige il volo\ndi VOLBEAT, che disegna figure\nluminose nel cielo stellato.
-ROSELIA, cresciuto bevendo acqua\npulita, è noto perché fa crescere\nfiori dai vividi colori.
+Di notte comunica con gli altri\nilluminando la sua coda.\nAma il dolce aroma di Illumise.
+Con il suo dolce aroma dirige il volo\ndi Volbeat, che disegna figure\nluminose nel cielo stellato.
+Roselia, cresciuto bevendo acqua\npulita, è noto perché fa crescere\nfiori dai vividi colori.
 La maggior parte del suo corpo è\nstomaco. I suoi succhi gastrici\ndissolvono subito ciò che ingerisce.
 Inghiotte intera qualsiasi cosa.\nDai pori traspira un liquido tossico\ncon cui bagna i nemici.
 Attacca in branco chi invade il\nsuo territorio. Le zanne aguzze\nlacerano anche gli scafi delle navi.
@@ -325,7 +325,7 @@ Ha dei vulcani sul dorso. Se il\nmagma nel suo corpo aumenta,\ntrema e poi erutt
 Genera energia bruciando carbone\nall’interno della corazza. Se è in\npericolo, emette fuliggine scura.
 Rimbalza costantemente usando la\ncoda come una molla. Il movimento\nsollecita il cuore e lo fa battere.
 Usa perle nere per amplificare i\nsuoi poteri psichici. Con una danza\nacquisisce controllo sul nemico.
-Non ci sono due SPINDA con lo stes-\nso motivo maculato. Il suo passo\nbarcollante confonde i nemici.
+Non ci sono due Spinda con lo stes-\nso motivo maculato. Il suo passo\nbarcollante confonde i nemici.
 Scava fosse coniche nella sabbia\ndel deserto e attende che le prede\ncadano in trappola.
 Fa vibrare violentemente le ali\ngenerando onde ultrasoniche che\nprovocano il mal di testa.
 Genera tempeste di sabbia con il\nbattito delle ali. È detto anche\n“Spirito primordiale del deserto”.
@@ -333,8 +333,8 @@ Immagazzina acqua nel corpo e\nriesce a sopravvivere nel deserto\nsenz’acqua a
 Diventa attivo di notte, quando va\na caccia di prede stremate dalla\ncalura del deserto.
 Le sue ali sono come batuffoli. Se si\nappoggia sulla testa di qualcuno,\nsembra un cappello di cotone.
 Quando lotta, sembra una morbida\nnuvola. Canticchia con la sua\nvoce da soprano.
-Da generazioni, è acerrimo nemico\ndi SEVIPER. Gli artigli aguzzi sono\nle sue armi più potenti.
-È acerrimo nemico di ZANGOOSE.\nPrima della lotta, affila sulle rocce\nla sua coda simile ad una spada.
+Da generazioni, è acerrimo nemico\ndi Seviper. Gli artigli aguzzi sono\nle sue armi più potenti.
+È acerrimo nemico di Zangoose.\nPrima della lotta, affila sulle rocce\nla sua coda simile ad una spada.
 Diventa attivo nelle notti di luna\npiena, pertanto si dice che abbia\nqualche legame con le fasi lunari.
 Nuova specie di Pokémon che si\ndice provenga dal sole. Emana luce\nroteando vorticosamente.
 Il suo corpo è ricoperto da una\npellicola viscida, che gli permette\ndi sgusciare via, se afferrato.
@@ -359,7 +359,7 @@ Poiché mangiava sempre i suoi frutti\npreferiti, questi hanno cominciato\na cre
 Le sue urla sono così potenti da\nfar volar via i nemici. Comunica con\nsette versi differenti.
 Percepisce l’arrivo di disastri na-\nturali e appare alla gente solo per\navvisarla del pericolo imminente.
 Questi Pokémon si allenano in\ngruppo caricandosi l’un l’altro per\nrafforzarsi. Amano i frutti dolci.
-Secondo alcune leggende delle\nregioni fredde, uno SNORUNT porta\nprosperità alla casa in cui vive.
+Secondo alcune leggende delle\nregioni fredde, uno Snorunt porta\nprosperità alla casa in cui vive.
 Per difendersi, riveste il suo corpo\ncon un’armatura di ghiaccio, fatta\ncongelando l’umidità dell’aria.
 Poiché il suo corpo non è adatto al\nnuoto, rotola su lastre di ghiaccio\nper raggiungere la riva.
 Fa roteare oggetti sul naso\nper controllarne l’odore e la\nconsistenza.
@@ -372,8 +372,8 @@ Vive nei mari caldi. Si dice che le\ncoppie che trovano questo Pokémon\nricever
 Sogna di poter volare un giorno e,\npertanto, si allena regolarmente\ngettandosi da alture.
 Nella sua dura corazza le cellule\nhanno cominciato a cambiare.\nQuando si evolve, la corazza cade.
 Il suo forte desiderio di volare ha\nprovocato una mutazione cellulare\ne gli sono spuntate le ali.
-Comunica con i suoi simili mediante\nonde magnetiche. I gruppi di BELDUM\nsi muovono in perfetta sintonia.
-È sorto dalla fusione di due BELDUM.\nIl suo corpo d’acciaio non viene\nscalfito neanche se urta un jet.
+Comunica con i suoi simili mediante\nonde magnetiche. I gruppi di Beldum\nsi muovono in perfetta sintonia.
+È sorto dalla fusione di due Beldum.\nIl suo corpo d’acciaio non viene\nscalfito neanche se urta un jet.
 È formato dalla fusione di due\nMETANG. Ha quattro cervelli e\nl’intelligenza di un supercomputer.
 È formato interamente da rocce.\nSe si staccano nella lotta, ne cerca\naltre per sostituirle.
 Il suo corpo è costituito da ghiac-\ncio dell’era glaciale. Mantiene\nl’aria a una temperatura di -200°C.
@@ -411,10 +411,10 @@ Tira testate talmente potenti da\nfrantumare anche oggetti durissimi.
 Pokémon che viveva nella giungla\ncirca 100 milioni di anni fa. Il suo\nmuso è molto resistente.
 Respinge qualsiasi attacco\nfrontale. È un Pokémon docile\nche si nutre di erba e di bacche.
 Per ripararsi dal freddo e dai venti\ninvernali si copre con un manto\nfatto di rami e foglie.
-Con l’evoluzione, il manto di BURMY\ndiventa parte del corpo di questo\nPokémon. Non se ne separa mai.
-Ama il nettare dei fiori. Ruba e\nmangia il nettare raccolto da \nCOMBEE.
-Pokémon formato da altri tre.\nÈ sempre impegnato a portare il\nnettare dei fiori a VESPIQUEN.
-Il suo addome funge da rifugio per\nle larve, che nutre con il nettare\nraccolto da COMBEE.
+Con l’evoluzione, il manto di Burmy\ndiventa parte del corpo di questo\nPokémon. Non se ne separa mai.
+Ama il nettare dei fiori. Ruba e\nmangia il nettare raccolto da \nCombee.
+Pokémon formato da altri tre.\nÈ sempre impegnato a portare il\nnettare dei fiori a Vespiquen.
+Il suo addome funge da rifugio per\nle larve, che nutre con il nettare\nraccolto da Combee.
 Forma delle palle di pelo cariche\nelettrostaticamente e le conserva\nnegli alberi insieme alle bacche.
 Ha un collare che funge da galleg-\ngiante. Quando nuota, la sua testa\nrimane sempre fuori dall’acqua.
 Nuota con il suo grosso galleg-\ngiante e aiuta a soccorrere\nchi sta per annegare.
@@ -428,7 +428,7 @@ Di giorno fluttua con aria\nsonnolenta, ma di notte vola via\nin gruppo. Nessuno
 Sbaraglia i nemici dispiegando con\nforza le orecchie arrotolate. Fa\npiangere di dolore anche gli adulti.
 Pokémon molto cauto. Se percepisce\nun pericolo, si avvolge nelle sue\norecchie morbide e pelose.
 I suoi versi sembrano incantesimi.\nChi li sente è tormentato da\nemicranie e allucinazioni.
-Diventa attivo di notte e lo si vede\nspesso in compagnia di numerosi\nMURKROW.
+Diventa attivo di notte e lo si vede\nspesso in compagnia di numerosi\nMurkrow.
 Se disturbato, tira fuori gli arti-\ngli; se soddisfatto, fa le fusa. La\nsua incostanza piace a molti.
 Si introduce sfacciatamente\nnelle tane degli altri Pokémon\nrivendicandole poi come proprie.
 Emette versi muovendo la sfera\nche ha nella gola.\nSi muove saltellando agilmente.
@@ -438,7 +438,7 @@ Il suo aspetto ricorda alcuni\noggetti ritrovati in antiche tombe,\nma non si sa
 Il suo ritrovamento in un cantiere\ndopo un sonno di 2000 anni fece a\nsuo tempo molto scalpore.
 Sembra che pianga tutto il tempo.\nIn realtà regola il livello dei fluidi\ndel corpo eliminando gli eccessi.
 Imita i movimenti dei nemici. Quando\nun nemico viene imitato, non riesce\npiù a distogliere lo sguardo da lui.
-Ama gli oggetti bianchi e tondi.\nImita CHANSEY trasportando una\nroccia a forma di uovo.
+Ama gli oggetti bianchi e tondi.\nImita Chansey trasportando una\nroccia a forma di uovo.
 Può imparare il linguaggio umano.\nSe un gruppo si raduna, tutti\nimparano le stesse parole.
 Pokémon formato da 108 spiriti. È\nstato imprigionato nella fessura di\nuna Roccianima.
 Nidifica in piccole cavità orizzontali\nnelle pareti delle grotte. Si avven-\nta sulle prede che si avvicinano.
@@ -462,7 +462,7 @@ Crea bufere di neve sui monti\nricoperti da nevi perenni.\nÈ l’abominevole es
 Questi Pokémon vivono in zone fred-\nde in gruppi di quattro o cinque.\nInsieme sono cacciatori abilissimi.
 Si è evoluto in seguito all’esposi-\nzione a uno speciale campo magneti-\nco. Tre unità generano magnetismo.
 Avvolge ogni cosa con la sua lingua\nallungabile. Chi si avvicina troppo,\nsi ritroverà tutto bagnato di bava.
-Mette rocce nelle cavità dei suoi\npalmi e le getta con tutta la sua\nforza. Talvolta lancia GEODUDE.
+Mette rocce nelle cavità dei suoi\npalmi e le getta con tutta la sua\nforza. Talvolta lancia Geodude.
 Intrappola le prede con gli arti,\nche sono costituiti da liane. Se ne\nperde uno, non si turba affatto.
 Tocca il nemico con le sue due\ncode e rilascia una scarica\nelettrica di oltre 20000 volt.
 Spara palle di fuoco di oltre\n2000°C dagli arti superiori.\nVive nei crateri dei vulcani.

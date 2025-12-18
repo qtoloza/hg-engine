@@ -47,8 +47,65 @@ scr_seq_T05R0601_002:
 	end
 
 scr_seq_T05R0601_003:
-	simple_npc_msg 3
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset 16277, _0069
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
+
+_0069:
+	npc_msg 4
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _008C
+	npc_msg 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_008C:
+	buffer_players_name 0
+	gender_msgbox 6, 7
+	closemsg
+	fade_screen 6, 3, 0, RGB_BLACK
+	fade_out_bgm 0, 10
+	stop_bgm 0
+	wait_fade
+	apply_movement obj_T05R0601_gsoldman1_2, _0112
+	wait_movement
+	apply_movement obj_T05R0601_gsoldman1_2, _0112
+	wait_movement
+	apply_movement obj_T05R0601_gsoldman1_2, _0112
+	wait_movement
+	apply_movement obj_T05R0601_gsoldman1_2, _0112
+	wait_movement
+	apply_movement obj_T05R0601_gsoldman1_2, _0112
+	wait_movement
+	apply_movement obj_T05R0601_gsoldman1_2, _0112
+	wait_movement
+	reset_bgm
+	fade_screen 6, 3, 1, RGB_BLACK
+	wait_fade
+	npc_msg 8
+	giveitem_no_check ITEM_SPOOKY_PLATE, 1
+	closemsg
+	releaseall
+	setflag 16277
+	end
+
+	.align 4
+_0112:
+
+	step 32, 1
+	step 33, 1
+	step_end
 	.align 4
 
 

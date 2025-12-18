@@ -4,11 +4,12 @@ The odd tree is on Route 36.\nPlease be careful!
 Lalala lalalala.\nHave plenty of water, my lovely!\r
 Are you using the Berry Pots?\rYou can pick any of the Berries you\nhave planted.\rDon’t forget to water them!
 How...\n...\f...\f...\fcute!\rWhere did you get that...\noh-so-cute Pokémon?\r
-SHAYMIN, is it?\nIt’s so cute!\rI know!\rLet me give it a flower!\nI have just the one for it!\r
-The Gracidea will look perfect on\nSHAYMIN!\fPut it on SHAYMIN in the daylight.
+Shaymin, is it?\nIt’s so cute!\rI know!\rLet me give it a flower!\nI have just the one for it!\r
+The Gracidea will look perfect on\nShaymin!\fPut it on Shaymin in the daylight.
 Mulch!\nAnyone want Mulch?\rBerries love Mulch.\nIt makes Berries grow faster!\r
 That {STRVAR_1 8, 0, 0} is a mix of\nhigh-quality soil and Pokémon’s...\fer...you know...\rIt’s full of nutrients!\nBerries will surely benefit from it.
 Thank you.\nPlease come again!
 You bought the {STRVAR_1 8, 0, 0}.\r
 Ouch!\nYour Bag is full!
 Well... Excuse me, but\nyou’re short of money.
+Have you heard of that cute\nPokémon called Shaymin?\rI’ve heard it’s extremely shy,\nbut it’s oh-so-cute!\rI wonder if one would ever\nshow up around here?

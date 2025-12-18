@@ -24,6 +24,12 @@
 .equ _EV_scr_seq_D36R0101_020, 20
 .equ _EV_scr_seq_D36R0101_021, 21
 .equ _EV_scr_seq_D36R0101_022, 22
+.equ _EV_scr_seq_D36R0101_023, 23
+.equ _EV_scr_seq_D36R0101_024, 24
+.equ _EV_scr_seq_D36R0101_025, 25
+.equ _EV_scr_seq_D36R0101_026, 26
+.equ _EV_scr_seq_D36R0101_027, 27
+.equ _EV_scr_seq_D36R0101_028, 28
 
 .equ obj_D36R0101_follower_mon_static_farfetchd, 0
 .equ obj_D36R0101_gsbigman, 1
@@ -43,5 +49,11 @@
 .equ obj_D36R0101_gsoldman1, 15
 .equ obj_D36R0101_var_1, 16
 .equ obj_D36R0101_follower_mon_static_marill, 17
+.equ obj_D36R0101_follower_mon_breloom, 18
+.equ obj_D36R0101_follower_mon_celebi, 19
+.equ obj_D36R0101_gsboy3, 20
+.equ obj_D36R0101_leader2, 21
+.equ obj_D36R0101_virizion, 22
+.equ obj_D36R0101_forest_elder, 23
 
 .endif //SCR_SEQ_D36R0101_H_

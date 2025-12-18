@@ -159,8 +159,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 472,
-      "z": 176,
+      "x": 499,
+      "z": 179,
       "y": 0
     },
     {
@@ -169,7 +169,7 @@
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ITEMBALL_R42_DUBIOUS_DISC",
-      "scriptId": "std_itemball_r42_dubious_disc",
+      "scriptId": "std_itemball_d38r0102_escape_rope",
       "facingDirection": 0,
       "param0": 0,
       "param1": 0,
@@ -186,7 +186,7 @@
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ITEMBALL_R42_TM65",
-      "scriptId": "std_itemball_r42_tm65",
+      "scriptId": "std_itemball_d38r0102_escape_rope",
       "facingDirection": 0,
       "param0": 0,
       "param1": 0,
@@ -210,8 +210,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 460,
-      "z": 181,
+      "x": 6666,
+      "z": 6666,
       "y": 0
     },
     {
@@ -263,6 +263,23 @@
       "yRange": 0,
       "x": 452,
       "z": 181,
+      "y": 0
+    },
+    {
+      "id": "obj_R42_monstarball_4",
+      "spriteId": "SPRITE_MONSTARBALL",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16229,
+      "scriptId": "std_itemball_r42_dubious_disc",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 469,
+      "z": 184,
       "y": 0
     }
   ],

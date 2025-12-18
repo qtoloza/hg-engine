@@ -2,3 +2,12 @@ Hey! You have a Pokédex!\nDid Professor Oak give that to you?
 I got quite a shock at the Gym.\nThere were all these girls who\flooked identical.
 I’m Janine! Hocus-pocus...\nPoof!\r
 See? I look just like her now!\r...?\rHuh? Didn’t work?
+Cloyster: Crouu!
+Do you want to...\nheal your Pokémon..? {YESNO 0}
+It doesn’t look like Cloyster\ncares about your response...
+Shellder: Herr!
+Shellder: Derr...
+Slowpoke: ...Yawn?
+Cloyster ignored your answer,\nlooking for a fight!\r
+Woah!\nThis Cloyster looks a bit different..!\r
+The not-so-lazy Pokémon fled\nthe scene after the Cloyster was\fdefeated.

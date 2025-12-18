@@ -7,6 +7,8 @@ Clair: What’s the matter?\rIs it too much to expect of you?
 Clair: You’ve kept me waiting!\rHere! Take this!\r
 Clair: That contains Dragon Pulse.\rWell, Dragon Pulse is a kind of...umm...\nNever mind!\rIt’s a huge energy of some kind.\nIf you don’t want it, you don’t\fhave to take it.\r
 What is this? You don’t have room?
-Clair: What’s the matter?\rAren’t you headed to the\nPokémon League?\rYour face...it tells me you have some\nunfinished business...\rWait a sec!\nYou came from New Bark Town\fwhere Professor Elm’s Lab is, right?\rYou may want to go back to\nNew Bark Town.\rWhatever you have to face from now,\nit’ll be more difficult.\rBut don’t you dare give up!\rIf you do, I’ll feel even worse\nabout having lost to you!\r...\nGive it your all.
+Clair: What’s the matter?\rAren’t you headed to the\nPokémon League?\rYour face...it tells me you have some\nunfinished business...\rWait a sec!\nYou came from New Bark Town\fwhere Professor Elm’s Lab is, right?\rYou may want to go back to\nNew Bark Town.\rWhatever you have to face from now,\nit’ll be more difficult.\rBut don’t you dare give up!\rIf you do, I’ll feel even worse\nabout having lost to you!\r...\nGive it your all.\r
 Blackthorn City Pokémon Gym
 Blackthorn City Pokémon Gym\rLeader: Clair\nCertified Trainer!\f{STRVAR_1 3, 0, 0}
+Clair: And I will give you my number!\nThere will come a time where I’ll\fprevail!\r... ... ...\r
+{STRVAR_1 3, 0, 0} registered Clair\nin the Pokégear!

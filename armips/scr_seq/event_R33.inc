@@ -3,6 +3,7 @@
 
 .equ _EV_scr_seq_R33_000, 0
 .equ _EV_scr_seq_R33_001, 1
+.equ _EV_scr_seq_R33_002, 2
 
 .equ obj_R33_mount_2, 0
 .equ obj_R33_bonguri, 1

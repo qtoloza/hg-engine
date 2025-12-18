@@ -7,11 +7,13 @@
 .equ _EV_scr_seq_D44R0103_003, 3
 .equ _EV_scr_seq_D44R0103_004, 4
 .equ _EV_scr_seq_D44R0103_005, 5
+.equ _EV_scr_seq_D44R0103_006, 6
 
 .equ obj_D44R0103_chourou, 0
 .equ obj_D44R0103_gsoldman1, 1
 .equ obj_D44R0103_gsoldman1_2, 2
 .equ obj_D44R0103_gsleader8, 3
 .equ obj_D44R0103_gsmiddleman1, 4
+.equ obj_D44R0103_kyurem, 5
 
 .endif //SCR_SEQ_D44R0103_H_

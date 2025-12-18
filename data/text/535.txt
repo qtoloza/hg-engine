@@ -10,10 +10,11 @@ The Magnet Train is a super-modern\nrail liner that uses electricity and\fmagnet
 Whew...\rHow many times have I gone back\nand forth between Kanto and Johto?
 Before the Magnet Train station was\nbuilt, there was a house here.\rA little girl who was called Copycat\nused to live in it.
 Hi. Do you have a Magnet Train Pass?\rI have one.\rAll the people in Saffron who ride the\nMagnet Train have Passes.
-Lt. Surge: Oh! I never expected to see\nyou at a place like this!\fWhat a coincidence!\rI can feel great electric power around\nthe Magnet Train station!\rYou had a PIKACHU, didn’t you?\nHow about trading it for my\fFrench PIKACHU? {YESNO 0}
-Lt. Surge: My PIKACHU and\nyour PIKACHU up for a trade,\fwhat do you think?
+Lt. Surge: Oh! I never expected to see\nyou at a place like this!\fWhat a coincidence!\rI can feel great electric power around\nthe Magnet Train station!\rYou had a Pikachu, didn’t you?\nHow about trading it for my\fFrench Pikachu? {YESNO 0}
+Lt. Surge: My Pikachu and\nyour Pikachu up for a trade,\fwhat do you think?
 Lt. Surge: Wow! Electrifying!\nLet’s trade ’em now!\r
-Lt. Surge: Shocking!\nI want to share my feelings for\fPIKACHU with you!\rI’m ready anytime, so just bring\na PIKACHU, OK?
+Lt. Surge: Shocking!\nI want to share my feelings for\fPikachu with you!\rI’m ready anytime, so just bring\na Pikachu, OK?
 Lt. Surge: Yeah!\nI’m so ecstatic! I’ll see you around.\fGood-bye!\r
-Lt. Surge: What? That is not\nthe right Pokémon!\rI won’t trade my PIKACHU for\nanything other than PIKACHU.
+Lt. Surge: What? That is not\nthe right Pokémon!\rI won’t trade my Pikachu for\nanything other than Pikachu.
 We request that you make sure your\nPokémon are well behaved or put away\fin their Poké Balls so they won’t lick\fother passengers’ faces.\fThank you.
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r

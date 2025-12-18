@@ -1,3 +1,10 @@
 You came from Olivine?\rDo you remember the four islands\nalong the way?\rI heard that a mythical sea creature is\nhiding in them.
-I heard that you can only see it if\nyou have a Silver Wing.\rIt must have the same scent as\nthe creature.
-I’ve heard that the whirlpools around\nthe islands are caused by the\fsea creature.\rYou might need a special move to\nget past them.
+Gligar: Guraiiga!
+Sneasel: Nyulaa!
+Hey, kid! Isn’t Gligar the\nbest Pokémon? {YESNO 0}
+You agree? Awesome. You should raise\nyour very own Gligar.\rThen use this to evolve it!\r
+Equip that item to a Gligar and level it\nup at night. It should evolve into a\ffabulous Gliscor!
+Hey, kid! Isn’t Sneasel the\nbest Pokémon? {YESNO 0}
+You agree? Awesome. You should raise\nyour very own Sneasel.\rThen use this to evolve it!\r
+Equip that item to a Sneasel and level\nit up at night. It should evolve into\fan extravagant Weavile!
+You don’t think so?\rAt first, I was overjoyed to see you.\rNow, I only want you gone!

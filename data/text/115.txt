@@ -1,9 +1,9 @@
-Oh, man... My boss is going to be\nangry...\rThe FARFETCH’D that cut trees for\ncharcoal took off in the forest.\rCan you catch them for me?\nFARFETCH’D have sensitive ears.\rIf you step on a branch, they will face\ntoward you. That’s your chance.\rSneak up from behind and catch them...\nDo you think you can do that?
-Wow! You found a FARFETCH’D!\nThank you!\rBut...\nThere is one more missing.\rIf you step on a branch, it will face\nthat way, remember?\rThat’s your chance to catch it.\nSneak up on it slowly from behind.
+Oh, man... My boss is going to be\nangry...\rThe Farfetch’d that cut trees for\ncharcoal took off in the forest.\rCan you catch them for me?\nFarfetch’d have sensitive ears.\rIf you step on a branch, they will face\ntoward you. That’s your chance.\rSneak up from behind and catch them...\nDo you think you can do that?
+Wow! You found a Farfetch’d!\nThank you!\rBut...\nThere is one more missing.\rIf you step on a branch, it will face\nthat way, remember?\rThat’s your chance to catch it.\nSneak up on it slowly from behind.
 Wow!\nYou got me both of them.\fThank you so much!\rMy boss’s Pokémon won’t obey me,\nbecause I don’t have a Badge.\rPhew. You saved me.
-FARFETCH’D: Kwaa!\r
-FARFETCH’D: Kwaa!
-{STRVAR_1 3, 0, 0} caught the FARFETCH’D!\r
+Farfetch’d: Kwaa!\r
+Farfetch’d: Kwaa!
+{STRVAR_1 3, 0, 0} caught the Farfetch’d!\r
 Ah!\nMy Far and Fetch’d!\rYou found them for us, kid?\nWithout them, we wouldn’t be able to\fcut trees for charcoal.\rThanks, kid!\rNow, how can I thank you...?\nI know! Here, take this.\r
                       
 That’s the HM Cut. Teach that to a\nPokémon to clear small trees.\rOf course, you have to have the Gym\nBadge from Azalea to use it.
@@ -33,25 +33,25 @@ You will...?\nAren’t you lost in the forest as well?\fHow do you know how to g
 Me oh my...\nYou are lost yourself, aren’t you?\r
 Wow! Are you going to\nshow me how to get out?\fYou are such a smart Pokémon!\r
 See you.\r
-FARFETCH’D noticed you!\nIt seems to face the direction of the\fnoise when you step on a branch.
+Farfetch’d noticed you!\nIt seems to face the direction of the\fnoise when you step on a branch.
 You need to catch it from behind.
 You snuck up and caught it from\nbehind before it noticed you!
-It’s a PICHU...!\nOne of its ears is spiky!\r
+It’s a Pichu...!\nOne of its ears is spiky!\r
 It wants to join your party.\nLet it join you!\r
-Spiky-eared PICHU has joined\nyour party!
+Spiky-eared Pichu has joined\nyour party!
 ...Your party is full!\r
 ...Your party is full!\rFirst go store a Pokémon in a PC Box.
-Spiky-eared PICHU: Zapzap chu!\r
+Spiky-eared Pichu: Zapzap chu!\r
 {STRVAR_1 3, 0, 0} received the Poké Ball!
-Would you like to give a nickname\nto the Spiky-eared PICHU? {YESNO 0}
+Would you like to give a nickname\nto the Spiky-eared Pichu? {YESNO 0}
 Hey, hey!\nYou should not tamper with that shrine!\fPeople are said to disappear.\r
 Kids and Pokémon sometimes disappear\naround this shrine.\rIt is believed that a Pokémon which\nwanders across time does that.\rIt is truly a strange thing...\r
-Well, well, this must be...\rThis must be the PICHU that has lived in\nthis forest for some time.\rWhen I saw it the first time, it looked\nlonely. It is full of energy today.\r
+Well, well, this must be...\rThis must be the Pichu that has lived in\nthis forest for some time.\rWhen I saw it the first time, it looked\nlonely. It is full of energy today.\r
 I see.\nIt seems that these old friends\ffinally meet again after a long time.\r
 You are carrying a lot of Pokémon.\rWhy don’t you store one of them\nat the Pokémon Center?\fI will take care of it in the mean time.
 Being with friends should make it happy.\nTake good care of it.\r
 Oh, here it is!\nYoung Pokémon Trainer,\fI will give you this Poké Ball.\rI used to use them when I was younger.\rDon’t worry.\nIt’s still in good condition.\r
-It seems that Spiky-eared PICHU\nwants to stay in your Poké Ball.\r
+It seems that Spiky-eared Pichu\nwants to stay in your Poké Ball.\r
 You named it {STRVAR_1 1, 0, 0}?\nSuch a cute name!\r
 It’s been waiting for you\nall this time.\rTalk to it. That’ll make it happy.
 Ethan: Hi, {STRVAR_1 3, 0, 0}.\nHave you heard of the legend of\fthe shrine?\rThey say that people disappear when\nthey tamper with it.\r
@@ -60,9 +60,24 @@ Ethan: ...\nWhat was that?\r
 Lyra: ...\nWhat was that?\r
 Ethan: Traveling through time\nsure doesn’t feel good.\r
 Lyra: Traveling through time\nsure doesn’t feel good.\r
-Hey, my MARILL!\r
-Hey, my MARILL!\r
+Hey, my Marill!\r
+Hey, my Marill!\r
 I thought I would never see you again!\rWait a sec...\nSo we must be back to our time!\r
 I missed you so much!\rWait a sec...\nSo we must be back to our time!\r
 It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Rocket’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
 It was all so bizarre.\nBut now that we are safely back to our\ftime and Team Rocket’s terrible design\ffell through, we can say...\fall’s well that ends well, right?\r{STRVAR_1 3, 0, 0}, you never cease to\ninspire great adventures!\rIt sure was an exhausting day, though.\nI better get going.\rSee you!\r
+Boss Pokémon have been unlocked in\nRoute 32, Route 33 and Union Cave!
+{STRVAR_1 3, 0, 0} began to play the\nAzure Flute!\r
+Bii!\r
+{COLOR 1}There’s the feel of a shy Pokémon\nwho will only come out once{COLOR 0}.\rDo you want to try playing the\nAzure Flute? {YESNO 0}
+Man, where are the bugs today...\r
+Oh, hey! I wasn’t expecting to see any\nTrainers while I was out hunting...\rYou know, Bugs might be nasty-mean,\nbut they’re so beautiful too!\rI wouldn’t say ravishing, but still...\rAnyway! I like you! Take this as a\ntoken of our meeting!\r
+X-Scissor is a very normal Bug move,\nbut it’s decently strong!
+Gardenia: Ivysaur! Use Vine Whip!\r
+Gardenia: Oh, yes, that feels\nfantastic!\r...\rIt’s incredible! I don’t know how\nlong I can hold on! Keep it u-
+Gardenia: Ahhh! Er... H-hi... I don’t\nsuppose y-you saw that? I should have\fg-guessed there would be passing\fT-trainers...\rI’ll give you this TM, if you\nkeep what you saw a secret!\r
+Gardenia: The damage Grass Knot does\nto opponents increases with how heavy\fthey are.\rAnyway, I better be off. Goodbye!\nNo telling!
+The Farfetch’d have been restless.\nThey sense something in the deepest\fpart of the forest.\rAn old presence. A protector.\rIt only reveals itself to those\nwho’ve proven their worth to its\fcompanions of iron and stone.\r
+The forest feels at peace now.\nYou must have found the protector.\rThree warriors, united in purpose.\nI wonder if there are more...\r
+Swiii...\r
+Virizion disappeared into the leaves...

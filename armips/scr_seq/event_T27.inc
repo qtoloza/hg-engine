@@ -18,6 +18,8 @@
 .equ _EV_scr_seq_T27_014, 14
 .equ _EV_scr_seq_T27_015, 15
 .equ _EV_scr_seq_T27_016, 16
+.equ _EV_scr_seq_T27_017, 17
+.equ _EV_scr_seq_T27_018, 18
 
 .equ obj_T27_gsgirl1, 0
 .equ obj_T27_gsboy1, 1
@@ -28,5 +30,8 @@
 .equ obj_T27_gsrivel, 6
 .equ obj_T27_gsoldman1_3, 7
 .equ obj_T27_gsmiddleman1, 8
+.equ obj_T27_dancer, 9
+.equ obj_T27_clown, 10
+.equ obj_T27_monstarball, 11
 
 .endif //SCR_SEQ_T27_H_

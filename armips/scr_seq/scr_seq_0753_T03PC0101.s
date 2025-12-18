@@ -44,13 +44,13 @@ scr_seq_T03PC0101_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_TRADE_PEWTER_CITY_HAUNTER_XATU, _00C9
+	goto_if_set FLAG_TRADE_PEWTER_CITY_HAUNTER_XATU, _012F
 	npc_msg 3
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _00BE
+	goto_if_eq _013A
 	closemsg
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -60,40 +60,28 @@ scr_seq_T03PC0101_001:
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	compare VAR_SPECIAL_RESULT, 255
-	goto_if_eq _00BE
+	goto_if_eq _013A
 	load_npc_trade 9
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	get_partymon_species VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
 	npc_trade_get_req_species VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_x8005, VAR_SPECIAL_RESULT
-	goto_if_ne _00B1
+	goto_if_ne _0145
 	npc_trade_exec VAR_SPECIAL_x8004
 	npc_trade_end
+	set_mon_move VAR_SPECIAL_x8004, 0, MOVE_ZAP_CANNON
 	setflag FLAG_TRADE_PEWTER_CITY_HAUNTER_XATU
 	npc_msg 4
 	wait_button_or_walk_away
 	closemsg
-	releaseall
-	end
-
-_00B1:
-	npc_trade_end
-	npc_msg 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_00BE:
-	npc_msg 6
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_00C9:
-	npc_msg 7
-	wait_button_or_walk_away
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	play_se SEQ_SE_GS_SUZUSYUTUGEN_RU
+	wait_se SEQ_SE_GS_SUZUSYUTUGEN_RU
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	npc_msg 8
+	giveitem_no_check ITEM_SECRET_KEY, 1
 	closemsg
 	releaseall
 	end
@@ -116,6 +104,28 @@ scr_seq_T03PC0101_003:
 
 scr_seq_T03PC0101_004:
 	simple_npc_msg 2
+	end
+
+_012F:
+	npc_msg 7
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_013A:
+	npc_msg 6
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0145:
+	npc_trade_end
+	npc_msg 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 	.align 4
 

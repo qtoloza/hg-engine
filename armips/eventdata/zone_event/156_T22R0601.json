@@ -20,8 +20,8 @@
       "y": 0
     },
     {
-      "id": "obj_T22R0601_gsboy1",
-      "spriteId": "SPRITE_GSBOY1",
+      "id": "obj_T22R0601_mount_2",
+      "spriteId": "SPRITE_MOUNT_2",
       "movement": 3,
       "type": 0,
       "eventFlag": "FLAG_NOTHING",

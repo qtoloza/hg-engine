@@ -12,13 +12,11 @@
 .equ _EV_scr_seq_T01R0301_008, 8
 .equ _EV_scr_seq_T01R0301_009, 9
 .equ _EV_scr_seq_T01R0301_010, 10
+.equ _EV_scr_seq_T01R0301_011, 11
 
 .equ obj_T01R0301_ookido, 0
 .equ obj_T01R0301_assistantm, 1
 .equ obj_T01R0301_assistantm_2, 2
 .equ obj_T01R0301_assistantm_3, 3
-.equ obj_T01R0301_monstarball, 4
-.equ obj_T01R0301_monstarball_2, 5
-.equ obj_T01R0301_monstarball_3, 6
 
 .endif //SCR_SEQ_T01R0301_H_

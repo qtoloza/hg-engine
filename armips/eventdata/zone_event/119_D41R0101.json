@@ -61,6 +61,23 @@
       "x": 12,
       "z": 40,
       "y": 0
+    },
+    {
+      "id": "obj_D41R0101_babyboy1_12",
+      "spriteId": "SPRITE_BABYBOY1_12",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16309,
+      "scriptId": "_EV_scr_seq_D41R0101_002 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 15,
+      "z": 13,
+      "y": 0
     }
   ],
   "warps": [

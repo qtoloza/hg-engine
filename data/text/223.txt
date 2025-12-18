@@ -1,1 +1,2 @@
-a {COLOR 255}Custom Item{COLOR 0}
+an {COLOR 255}Aubade Orb{COLOR 0}
+a {COLOR 255}Serenade Orb{COLOR 0}

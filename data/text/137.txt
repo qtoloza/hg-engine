@@ -6,23 +6,23 @@ You’re amazing, bud!\nThis is a pleasant surprise!\rTo see a Pokéathlete with
 I feel it!\rThe twinkle in your eyes!\nThe twinkle of friendship!\rYou’re ready to participate in the\nPokéathlon, bud!\rMost of all, your mutual trust and\nteamwork with Pokémon makes me\fbelieve anything is possible!\rAll right. Follow me, bud!\r
 Hmmm...\r
 Running and jumping and...\nThere are so many events for Pokémon\fto choose from. Which one should I try?
-ODDISH: Odd! Odd!
+Oddish: Odd! Odd!
 There is more to Pokémon than battling!
-MEOWTH: Nyaah!
+Meowth: Nyaah!
 It’s not good at battles...but no\nPokémon can beat it at running, thanks\fto the walk we take every morning!
 Huff huff!\nEveryday training is the sure way\fto glory!\rDashing 1,000 times!\nThat’s my goal for now.\r
 What’s your goal?\nHaving a goal lets you enjoy life more.
 ............\nOh, you have done the dash 1,000 times?\rI thought it was basically impossible,\nbut you make me feel courageous.\rThank you!\nPlease take this!\r
 I’ve become your fan! I would run\nanywhere for you!\fI’ll be supporting you!
-PIDGEY: Po po!
+Pidgey: Po po!
 Have you heard of Aprijuice?\rPokémon can increase their Performance\nwith food and drink.\rAprijuice is a drink developed from\nnutrition research to improve\fPerformance.\rIf you let your Pokémon drink it before\na Pokéathlon event, it will show its\ftrue potential!
-SLOWBRO: Whick!
+Slowbro: Whick!
 Each Pokémon has its unique traits.\rA true Pokéathlete knows them and lets\nthe true Performance of his or her\fPokémon emerge!
-MACHOP: Machao!
+Machop: Machao!
 Oh!\nThey look good today!\rThey weren’t so well yesterday, but\nwe’ll win today for sure!
-SLOWPOKE: Moah!
-FARFETCH’D: Teree!
-PSYDUCK: Guack!
+Slowpoke: Moah!
+Farfetch’d: Teree!
+Psyduck: Guack!
 Energy drink!\nWelcome to the Aprijuice stand!\rAre you giving your Pokémon Aprijuice?\nI can explain anything you\fneed to know about it! {YESNO 0}
 Energy drink!\nWelcome to the Aprijuice stand!\rHuh? What’s that confused look about?\nYou don’t know about Aprijuice?\fThere, take this!\r
 {STRVAR_1 3, 0, 0} received\nthe Apriblender!

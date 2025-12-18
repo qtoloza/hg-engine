@@ -1,1 +1,36 @@
-I used to enjoy snoozing\nwith the radio on...\rIt’s broken and is being fixed now.\r...\n...\f...\f...\rIt’s too quiet to fall asleep!
+Ah, {STRVAR_1 3, 0, 0}, I see you found the\nplace I said I was staying in.\r
+Tell me, {STRVAR_1 3, 0, 0}...\nDid you find any trace of the\fEon Pokémon I told you of previously?\r
+Perhaps not...\rIf you do happen to capture it,\nI’d appreciate if you could show\fme Latias in person.
+Oh! That Pokémon following you...\rThat definitely appears to be Latias.\rHm?
+Perhaps not...\rIf you do happen to capture it,\nI’d appreciate if you could show\fme Latios in person.
+This stone I excavated seems\nto be reacting to Latias...\rPerhaps you should take it\nto be checked by an expert.\rThere’s somebody in Goldenrod City who\nmight be fit for the job.\r
+Hi!\r
+Oh! That Pokémon following you...\rThat definitely appears to be Latios.\rHm?
+You should take the {COLOR 2}Enigma Stone{COLOR 0}\nto be checked by an expert.\rThere’s somebody in Goldenrod City who\nmight be fit for the job.
+This stone I excavated seems\nto be reacting to Latios...\rPerhaps you should take it\nto be checked by an expert.\rThere’s somebody in Goldenrod City who\nmight be fit for the job.\r
+I wonder if Regigigas could be\nin Johto or Kanto, too.\rIt recently disappeared from the\nSnowpoint Temple in Sinnoh,\fbut definitely wasn’t captured.\rOf course, if it is around, it probably\nwon’t wake up {COLOR 1}unless Regirock, Regice\fand Registeel are nearby{COLOR 0}.\r
+Although, it’s a mystery why\nit’d be here in the first place...
+A dusty book with an interesting\ncover design. Read the book?
+This chapter holds the names of\nthose Pokémon who our researchers,\fpast and present fought so hard\fto obtain information about.\rThey are known collectively as the\n{COLOR 1}Legendary Pokémon{COLOR 0}.\r
+The {COLOR 2}Kanto{COLOR 0} region is known for the birds\nof ice, thunder and fire, for the\felusive parent of all DNA and its\fgenetically engineered child.\rThey are known as {COLOR 1}Articuno{COLOR 0}, {COLOR 1}Zapdos{COLOR 0},\n{COLOR 1}Moltres{COLOR 0}, {COLOR 1}Mewtwo{COLOR 0} and {COLOR 1}Mew{COLOR 0}.\r
+The {COLOR 2}Johto{COLOR 0} region is known for the\nbeasts of thunder, fire and water,\fthe guardians of sea and sky, and\fthe protector of the forest.\rThey are known as {COLOR 1}Raikou{COLOR 0}, {COLOR 1}Entei{COLOR 0},\n{COLOR 1}Suicune{COLOR 0}, {COLOR 1}Lugia{COLOR 0}, {COLOR 1}Ho-Oh{COLOR 0} and {COLOR 1}Celebi{COLOR 0}.\r
+The {COLOR 2}Hoenn{COLOR 0} region is known for the\ntitans of rock, ice and steel,\fthe twins known as the Eon Pokémon,\fthe guardians of water, earth and sky,\fthe wishmaker and the alien virus.\rThey are known as {COLOR 1}Regirock{COLOR 0}, {COLOR 1}Regice{COLOR 0},\n{COLOR 1}Registeel{COLOR 0}, {COLOR 1}Latias{COLOR 0}, {COLOR 1}Latios{COLOR 0}, {COLOR 1}Kyogre{COLOR 0},\f{COLOR 1}Groudon{COLOR 0}, {COLOR 1}Rayquaza{COLOR 0}, {COLOR 1}Jirachi{COLOR 0} and {COLOR 1}Deoxys{COLOR 0}.\r
+The {COLOR 2}Sinnoh{COLOR 0} region is known for the\nembodiments of knowledge, emotion and\fwillpower, the creators of time, space\fand antimatter, the child of the\fplanet’s core, the leader of titans,\fthe protector of dreams, the prince\fof the sea, the force of nightmares,\fand the bringer of life and purity.\rThey are known as {COLOR 1}Uxie{COLOR 0}, {COLOR 1}Mesprit{COLOR 0},{COLOR 1}\nAzelf{COLOR 0}, {COLOR 1}Dialga{COLOR 0}, {COLOR 1}Palkia{COLOR 0}, {COLOR 1}Giratina{COLOR 0},\f{COLOR 1}Heatran{COLOR 0}, {COLOR 1}Regigigas{COLOR 0}, {COLOR 1}Cresselia{COLOR 0},\f{COLOR 1}Manaphy{COLOR 0}, {COLOR 1}Darkrai{COLOR 0}, and {COLOR 1}Shaymin{COLOR 0}.\r
+Mythology also states the existence\nof another legendary belonging to the\fSinnoh group, but little information is\fknown.\rA carving suggests the collection of\nall sixteen Plate items is necessary\fto even catch a glimpse of the\flegendary. The Plate items are said\fto naturally gravitate towards their\felements, but between the ground we\fwalk on and the people who populate\four world, they could be anywhere.\fAs such, researching this unknown\flegendary is incredibly difficult for\four scientists to manage.\r
+Whether the more common Pokémon\n{COLOR 1}Phione{COLOR 0} can be called legendary is\funknown. There is mixed evidence, but\ffor now we choose to declare\fit as a regular Pokémon.\r
+The {COLOR 2}Unova{COLOR 0} region is also said to\ncontain a variety of legendary...\r
+The rest of the pages are blank\nor ripped...
+Read on? {YESNO 0}
+Steven: Legendaries are incredible.\nI’ve been reading up on them with\fthat book on my table.\rEven as a Champion, I rarely get\nto see such interesting Pokémon...
+While we’re here, would you\nconsider a friendly battle? {YESNO 0}
+I’m glad to hear that as being your\nanswer. It’s been a while since I’ve\fcompeted against a trainer like you,\fbut I’m sure I’ll enjoy it!\r
+An expert performance, if I\nsay so myself. Tell me if you want to\fhave another go.
+Do you think the Champion of\nHoenn is too tough for you?\rYou won’t know until you try!
+Steven: I’ve heard you’re\nan impeccable Trainer, and I’d like\fto give you a gift.\rBefore I do, though, I don’t\nsuppose you’d be able to show\fme a Treecko, Torchic, Mudkip, or\fone of their evolutions?\r
+The Pokémon behind you isn’t\none of the ones I mentioned, I’m afraid.\rRegardless, I’ll be waiting for you to\nbring the correct one to me.
+Oh, yes, that is one of the Pokémon\nI wanted you to bring.\rSo you own a {STRVAR_1 0, 1, 0}...\rIn that case, I shall gift you\nwith these!\r
+{STRVAR_1 3, 0, 0} received {COLOR 2}Torchic{COLOR 0} and {COLOR 2}Mudkip{COLOR 0}\nfrom Steven!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Treecko{COLOR 0} and {COLOR 2}Mudkip{COLOR 0}\nfrom Steven!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Treecko{COLOR 0} and {COLOR 2}Torchic{COLOR 0}\nfrom Steven!
+Steven: Please do take good care\nof them. It’ll make me happy.
+Your party... you don’t have\nenough free space to receive my gifts.

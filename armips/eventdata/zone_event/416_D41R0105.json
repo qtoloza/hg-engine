@@ -21,8 +21,8 @@
   ],
   "objects": [
     {
-      "id": "obj_D41R0105_follower_mon_static_moltres",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MOLTRES",
+      "id": "obj_D41R0105_follower_mon_regigigas",
+      "spriteId": "SPRITE_FOLLOWER_MON_REGIGIGAS",
       "movement": 15,
       "type": 0,
       "eventFlag": "FLAG_HIDE_MT_SILVER_CAVE_MOLTRES",

@@ -29,9 +29,13 @@
 
 
 scrdef scr_seq_EVERYWHERE_000
+scrdef scr_seq_EVERYWHERE_001
 scrdef_end
 
 scr_seq_EVERYWHERE_000:
+	end
+
+scr_seq_EVERYWHERE_001:
 	end
 	.align 4
 

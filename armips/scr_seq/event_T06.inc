@@ -15,12 +15,15 @@
 .equ _EV_scr_seq_T06_011, 11
 .equ _EV_scr_seq_T06_012, 12
 .equ _EV_scr_seq_T06_013, 13
+.equ _EV_scr_seq_T06_014, 14
+.equ _EV_scr_seq_T06_015, 15
+.equ _EV_scr_seq_T06_016, 16
 
-.equ obj_T06_gsoldman1, 0
+.equ obj_T06_gsoldwoman1, 0
 .equ obj_T06_gsmiddleman1, 1
 .equ obj_T06_gswoman1, 2
 .equ obj_T06_gsman1, 3
-.equ obj_T06_follower_mon_static_machop, 4
+.equ obj_T06_follower_mon_makuhita, 4
 .equ obj_T06_breakrock, 5
 .equ obj_T06_breakrock_2, 6
 .equ obj_T06_breakrock_3, 7
@@ -35,5 +38,9 @@
 .equ obj_T06_minaki, 16
 .equ obj_T06_minaki_2, 17
 .equ obj_T06_daigo, 18
+.equ obj_T06_gsman2, 19
+.equ obj_T06_babyboy1_12, 20
+.equ obj_T06_follower_mon_static_latias, 21
+.equ obj_T06_follower_mon_static_latios, 22
 
 .endif //SCR_SEQ_T06_H_

@@ -15,6 +15,7 @@
 .equ _EV_scr_seq_T04_011, 11
 .equ _EV_scr_seq_T04_012, 12
 .equ _EV_scr_seq_T04_013, 13
+.equ _EV_scr_seq_T04_014, 14
 
 .equ obj_T04_gsman1, 0
 .equ obj_T04_gswoman1, 1

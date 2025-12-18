@@ -41,101 +41,173 @@ scrdef_end
 scr_seq_T04GYM0101_007:
 	get_phone_book_rematch PHONE_CONTACT_MISTY, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 0
-	goto_if_ne _00ED
+	goto_if_ne _0267
 	check_badge BADGE_EARTH, VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 0
-	goto_if_eq _00E5
+	goto_if_eq _026D
 	compare VAR_SCENE_ROUTE_25, 1
-	goto_if_eq _00E7
+	goto_if_eq _026F
 	compare VAR_SCENE_ROUTE_25, 2
-	goto_if_eq _00E7
+	goto_if_eq _026F
 	check_registered_phone_number PHONE_CONTACT_MISTY, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 1
-	goto_if_eq _00AD
+	goto_if_eq _0275
 	scrcmd_522 VAR_TEMP_x4000
 	compare VAR_TEMP_x4000, 16
-	goto_if_ne _0090
+	goto_if_ne _0290
 	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-	goto _00AB
-
-_0090:
-	compare VAR_TEMP_x4000, 17
-	goto_if_ne _00A7
-	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-	goto _00AB
-
-_00A7:
-	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-_00AB:
-	end
-
-_00AD:
-	scrcmd_522 VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 14
-	goto_if_ne _00C8
-	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-	goto _00E3
-
-_00C8:
-	compare VAR_TEMP_x4000, 15
-	goto_if_ne _00DF
-	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-	goto _00E3
-
-_00DF:
-	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-_00E3:
-	end
-
-_00E5:
-	end
-
-_00E7:
-	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-	end
-
-_00ED:
-	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
-	end
+	goto _02A7
 
 scr_seq_T04GYM0101_004:
 	scrcmd_609
 	lockall
 	stop_bgm SEQ_GS_GYM
 	play_bgm SEQ_GS_EYE_ROCKET
-	apply_movement obj_T04GYM0101_rocketm, _01C8
+	apply_movement obj_T04GYM0101_rocketm, _0444
 	wait_movement
 	play_se SEQ_SE_DP_WALL_HIT2
 	npc_msg 0
-	apply_movement obj_T04GYM0101_rocketm, _01D0
+	apply_movement obj_T04GYM0101_rocketm, _044A
 	wait_movement
 	npc_msg 1
-	apply_movement obj_T04GYM0101_rocketm, _01E4
+	apply_movement obj_T04GYM0101_rocketm, _045C
 	wait_movement
 	npc_msg 2
-	apply_movement obj_T04GYM0101_rocketm, _01F4
+	apply_movement obj_T04GYM0101_rocketm, _046A
 	wait_movement
 	npc_msg 3
 	closemsg
 	scrcmd_729 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0179
+	goto_if_eq _02A9
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0159
+	goto_if_eq _02F5
 	end
 
-_0159:
-	apply_movement obj_T04GYM0101_rocketm, _01FC
-	apply_movement obj_player, _0204
-	apply_movement obj_partner_poke, _0210
-	wait_movement
-	goto _018B
+scr_seq_T04GYM0101_006:
+	scrcmd_814
+	goto_if_set FLAG_HIDE_CERULEAN_GYM_MACHINE_PART, _0315
+	make_object_visible obj_T04GYM0101_stop
+	make_object_visible obj_T04GYM0101_stop_2
+	end
 
-_0179:
-	apply_movement obj_T04GYM0101_rocketm, _01FC
-	apply_movement obj_player, _0204
+scr_seq_T04GYM0101_005:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	buffer_players_name 0
+	npc_msg 16
+	goto_if_no_item_space ITEM_MACHINE_PART, 1, _0317
+	callstd std_obtain_item_verbose
+	hide_person obj_T04GYM0101_stop
+	hide_person obj_T04GYM0101_stop_2
+	setflag FLAG_HIDE_CERULEAN_GYM_MACHINE_PART
+	setvar VAR_SCENE_ROUTE_24_ROCKET, 4
+	closemsg
+	releaseall
+	end
+
+scr_seq_T04GYM0101_000:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0321
+	npc_msg 8
+	closemsg
+	trainer_battle TRAINER_LEADER_MISTY_MISTY, 0, 0, 0
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0337
+	give_badge BADGE_CASCADE
+	addvar VAR_UNK_4135, 1
+	add_special_game_stat 22
+	settrainerflag TRAINER_SWIMMER_F_DIANA
+	settrainerflag TRAINER_SWIMMER_F_BRIANA
+	settrainerflag TRAINER_SWIMMER_F_JOY
+	settrainerflag TRAINER_SAILOR_PARKER
+	settrainerflag TRAINER_SAILOR_EDDIE
+	npc_msg 9
+	buffer_players_name 0
+	npc_msg 10
+	play_fanfare SEQ_ME_BADGE
+	wait_fanfare
+	call_if_set FLAG_UNK_14D, _033D
+	buffer_players_name 0
+	npc_msg 11
+	goto _0349
+
+scr_seq_T04GYM0101_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	compare VAR_UNK_4088, 2
+	goto_if_ne _0396
+	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
+	buffer_players_name 0
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _039F
+	npc_msg 6
+	goto _03A8
+
+scr_seq_T04GYM0101_003:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	compare VAR_UNK_4088, 2
+	goto_if_ne _03AE
+	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
+	buffer_players_name 0
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _03B9
+	npc_msg 6
+	goto _03C2
+
+scr_seq_T04GYM0101_001:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _03C8
+	npc_msg 14
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0267:
+	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	end
+
+_026D:
+	end
+
+_026F:
+	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	end
+
+_0275:
+	scrcmd_522 VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 14
+	goto_if_ne _03D3
+	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	goto _03EA
+
+_0290:
+	compare VAR_TEMP_x4000, 17
+	goto_if_ne _03EC
+	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	goto _02A7
+
+_02A7:
+	end
+
+_02A9:
+	apply_movement obj_T04GYM0101_rocketm, _0470
+	apply_movement obj_player, _0476
 	wait_movement
-_018B:
 	play_se SEQ_SE_DP_KAIDAN2
 	hide_person obj_T04GYM0101_rocketm
 	wait_se SEQ_SE_DP_KAIDAN2
@@ -151,13 +223,142 @@ _018B:
 	releaseall
 	end
 
+_02F5:
+	apply_movement obj_T04GYM0101_rocketm, _0470
+	apply_movement obj_player, _0476
+	apply_movement obj_partner_poke, _0480
+	wait_movement
+	goto _03F2
+
+_0315:
+	end
+
+_0317:
+	callstd std_bag_is_full
+	closemsg
+	releaseall
+	end
+
+_0321:
+	goto_if_unset FLAG_GOT_TM03_FROM_MISTY, _0349
+	npc_msg 13
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0337:
+	white_out
+	releaseall
+	end
+
+_033D:
+	clearflag FLAG_HIDE_ROUTE_25_SUICUNE
+	setvar VAR_SCENE_ROUTE_25, 1
+	return
+
+_0349:
+	goto_if_no_item_space ITEM_TM003, 1, _042C
+	callstd std_give_item_verbose
+	setflag FLAG_GOT_TM03_FROM_MISTY
+	buffer_players_name 0
+	npc_msg 12
+	npc_msg 17
+	buffer_players_name 0
+	buffer_players_name 0
+	npc_msg 18
+	play_fanfare SEQ_ME_POKEGEAR_REGIST
+	wait_fanfare
+	register_gear_number PHONE_CONTACT_MISTY
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0396:
+	npc_msg 4
+	goto _0436
+
+_039F:
+	npc_msg 7
+	goto _0436
+
+_03A8:
+	goto _0436
+
+_03AE:
+	npc_msg 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03B9:
+	npc_msg 7
+	goto _0436
+
+_03C2:
+	goto _0436
+
+_03C8:
+	npc_msg 15
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_03D3:
+	compare VAR_TEMP_x4000, 15
+	goto_if_ne _043E
+	setflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	goto _03EA
+
+_03EA:
+	end
+
+_03EC:
+	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	end
+
+_03F2:
+	play_se SEQ_SE_DP_KAIDAN2
+	hide_person obj_T04GYM0101_rocketm
+	wait_se SEQ_SE_DP_KAIDAN2
+	stop_bgm SEQ_GS_EYE_ROCKET
+	play_bgm SEQ_GS_GYM
+	setflag FLAG_HIDE_CERULEAN_GYM_ROCKET
+	clearflag FLAG_HIDE_ROUTE_24_ROCKET
+	clearflag FLAG_HIDE_ROUTE_25_MISTY
+	clearflag FLAG_HIDE_ROUTE_25_MISTYS_BOYFRIEND
+	setvar VAR_UNK_411C, 2
+	setvar VAR_SCENE_ROUTE_24_ROCKET, 1
+	setvar VAR_UNK_4088, 1
+	releaseall
+	end
+
+_042C:
+	callstd std_bag_is_full
+	closemsg
+	releaseall
+	end
+
+_0436:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_043E:
+	clearflag FLAG_HIDE_CERULEAN_GYM_POPULATION
+	end
+
 	.align 4
-_01C8:
+_0444:
 
 	step 21, 5
 	step_end
 	.align 4
-_01D0:
+_044A:
 
 	step 71, 1
 	step 56, 1
@@ -165,198 +366,33 @@ _01D0:
 	step 17, 2
 	step_end
 	.align 4
-_01E4:
+_045C:
 
 	step 75, 1
 	step 71, 1
 	step 12, 2
 	step_end
 	.align 4
-_01F4:
+_046A:
 
 	step 13, 2
 	step_end
 	.align 4
-_01FC:
+_0470:
 
 	step 17, 1
 	step_end
 	.align 4
-_0204:
+_0476:
 
 	step 18, 1
 	step 3, 1
 	step_end
 	.align 4
-_0210:
+_0480:
 
 	step 18, 1
 	step_end
-scr_seq_T04GYM0101_006:
-	scrcmd_814
-	goto_if_set FLAG_HIDE_CERULEAN_GYM_MACHINE_PART, _022F
-	make_object_visible obj_T04GYM0101_stop
-	make_object_visible obj_T04GYM0101_stop_2
-	end
-
-_022F:
-	end
-
-scr_seq_T04GYM0101_005:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	buffer_players_name 0
-	npc_msg 16
-	goto_if_no_item_space ITEM_MACHINE_PART, 1, _027C
-	callstd std_obtain_item_verbose
-	hide_person obj_T04GYM0101_stop
-	hide_person obj_T04GYM0101_stop_2
-	setflag FLAG_HIDE_CERULEAN_GYM_MACHINE_PART
-	setvar VAR_SCENE_ROUTE_24_ROCKET, 4
-	closemsg
-	releaseall
-	end
-
-_027C:
-	callstd std_bag_is_full
-	closemsg
-	releaseall
-	end
-
-scr_seq_T04GYM0101_000:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0348
-	npc_msg 8
-	closemsg
-	trainer_battle TRAINER_LEADER_MISTY_MISTY, 0, 0, 0
-	check_battle_won VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _035E
-	give_badge BADGE_CASCADE
-	addvar VAR_UNK_4135, 1
-	add_special_game_stat 22
-	settrainerflag TRAINER_SWIMMER_F_DIANA
-	settrainerflag TRAINER_SWIMMER_F_BRIANA
-	settrainerflag TRAINER_SWIMMER_F_JOY
-	settrainerflag TRAINER_SAILOR_PARKER
-	settrainerflag TRAINER_SAILOR_EDDIE
-	npc_msg 9
-	buffer_players_name 0
-	npc_msg 10
-	play_fanfare SEQ_ME_BADGE
-	wait_fanfare
-	call_if_set FLAG_UNK_14D, _0364
-	buffer_players_name 0
-	npc_msg 11
-	goto _0307
-
-_0307:
-	goto_if_no_item_space ITEM_TM003, 1, _033E
-	callstd std_give_item_verbose
-	setflag FLAG_GOT_TM03_FROM_MISTY
-	buffer_players_name 0
-	npc_msg 12
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_033E:
-	callstd std_bag_is_full
-	closemsg
-	releaseall
-	end
-
-_0348:
-	goto_if_unset FLAG_GOT_TM03_FROM_MISTY, _0307
-	npc_msg 13
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_035E:
-	white_out
-	releaseall
-	end
-
-_0364:
-	clearflag FLAG_HIDE_ROUTE_25_SUICUNE
-	setvar VAR_SCENE_ROUTE_25, 1
-	return
-
-scr_seq_T04GYM0101_002:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	compare VAR_UNK_4088, 2
-	goto_if_ne _03AD
-	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
-	buffer_players_name 0
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _03A4
-	npc_msg 6
-	goto _03A7
-
-_03A4:
-	npc_msg 7
-_03A7:
-	goto _03F6
-
-_03AD:
-	npc_msg 4
-	goto _03F6
-
-scr_seq_T04GYM0101_003:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	compare VAR_UNK_4088, 2
-	goto_if_ne _03F3
-	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
-	buffer_players_name 0
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _03EA
-	npc_msg 6
-	goto _03ED
-
-_03EA:
-	npc_msg 7
-_03ED:
-	goto _03F6
-
-_03F3:
-	npc_msg 5
-_03F6:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-scr_seq_T04GYM0101_001:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	check_badge BADGE_CASCADE, VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0424
-	npc_msg 14
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_0424:
-	npc_msg 15
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
 	.align 4
 
 

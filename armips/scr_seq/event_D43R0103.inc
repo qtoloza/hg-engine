@@ -8,6 +8,7 @@
 .equ _EV_scr_seq_D43R0103_004, 4
 .equ _EV_scr_seq_D43R0103_005, 5
 .equ _EV_scr_seq_D43R0103_006, 6
+.equ _EV_scr_seq_D43R0103_007, 7
 
 .equ obj_D43R0103_gsrivel, 0
 .equ obj_D43R0103_monstarball, 1
@@ -20,5 +21,6 @@
 .equ obj_D43R0103_breakrock_5, 8
 .equ obj_D43R0103_breakrock_6, 9
 .equ obj_D43R0103_breakrock_7, 10
+.equ obj_D43R0103_pcwoman1, 11
 
 .endif //SCR_SEQ_D43R0103_H_

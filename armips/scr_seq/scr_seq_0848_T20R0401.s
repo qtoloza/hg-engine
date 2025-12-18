@@ -29,15 +29,16 @@
 
 
 scrdef scr_seq_T20R0401_000
+scrdef scr_seq_T20R0401_001
 scrdef_end
 
 scr_seq_T20R0401_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_HIDE_NEW_BARK_FRIENDS_ROOM_FRIEND, _0035
+	goto_if_set FLAG_HIDE_NEW_BARK_FRIENDS_ROOM_FRIEND, _0050
 	compare VAR_SCENE_ELMS_LAB, 1
-	goto_if_ge _0044
+	goto_if_ge _005F
 	buffer_players_name 0
 	gender_msgbox 0, 1
 	wait_button_or_walk_away
@@ -45,7 +46,18 @@ scr_seq_T20R0401_000:
 	releaseall
 	end
 
-_0035:
+scr_seq_T20R0401_001:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	buffer_players_name 0
+	gender_msgbox 20, 21
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0050:
 	buffer_players_name 0
 	gender_msgbox 2, 3
 	wait_button_or_walk_away
@@ -53,7 +65,7 @@ _0035:
 	releaseall
 	end
 
-_0044:
+_005F:
 	buffer_players_name 0
 	gender_msgbox 4, 5
 	wait_button_or_walk_away

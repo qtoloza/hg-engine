@@ -30,6 +30,9 @@
 
 scrdef scr_seq_R42R0101_000
 scrdef scr_seq_R42R0101_001
+scrdef scr_seq_R42R0101_002
+scrdef scr_seq_R42R0101_003
+scrdef scr_seq_R42R0101_004
 scrdef_end
 
 scr_seq_R42R0101_000:
@@ -38,6 +41,55 @@ scr_seq_R42R0101_000:
 scr_seq_R42R0101_001:
 	simple_npc_msg 0
 	end
+
+scr_seq_R42R0101_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	apply_movement obj_R42R0101_counterm, _0088
+	wait_movement
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _008E
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	releaseall
+	end
+
+scr_seq_R42R0101_003:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_R42R0101_004:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+	.align 4
+_0088:
+
+	step 75, 1
+	step_end
+	.align 4
+_008E:
+
+	step 14, 1
+	step_end
 	.align 4
 
 

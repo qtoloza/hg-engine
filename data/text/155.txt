@@ -27,8 +27,8 @@ Dist. flag 3 ON
 Dist. flag 3 OFF
 T25 Radio 01
 T25 Radio 02
-HO-OH Event A ON
-LUGIA Event A ON
+Ho-Oh Event A ON
+Lugia Event A ON
 5 Maiko Battle
 Pkth RecWin All
 Pkth RecWin Clear

@@ -9,6 +9,7 @@
 .equ _EV_scr_seq_T26GYM0101_005, 5
 .equ _EV_scr_seq_T26GYM0101_006, 6
 .equ _EV_scr_seq_T26GYM0101_007, 7
+.equ _EV_scr_seq_T26GYM0101_008, 8
 
 .equ obj_T26GYM0101_gsleader6, 0
 .equ obj_T26GYM0101_gsgirl1, 1

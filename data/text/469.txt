@@ -10,8 +10,10 @@ Misty: I was expecting you,\nyou pest!\rYou may have a lot of Johto Gym Badges,\
 Misty: You really are good...\rI’ll admit that you are skilled...\rHere you go.\nIt’s the Cascade Badge.\r
 {STRVAR_1 3, 0, 0} received\nthe Cascade Badge from Misty!
 Misty: Here is another memento\nfrom this battle. Take it!\r
-Misty: It contains the move\nWater Pulse.\rIt can sometimes confuse your foe.\rYou’ve managed to defeat Trainers\nall the way from Johto.\fI’m sure you have a good use for it.
+Misty: It contains the move\nWater Pulse.\rIt can sometimes confuse your foe.\rYou’ve managed to defeat Trainers\nall the way from Johto.\fI’m sure you have a good use for it.\r
 Misty: Does Johto have a lot of\npowerful Trainers?\rI will someday go on my journey\nto battle with powerful Trainers!
 Yo! Legend in the making!\rSince Misty was away, I went out\nfor some fun, too.\fHe-he-he.
 Hoo, you showed me how tough you are.\rAs always, that was one great battle!
 ...!\r{STRVAR_1 3, 0, 0} picked up the black item\nthat was by the pool.\rIt’s a Part from a machine!\r
+Misty: And just to make sure you aren’t\na pest, I’ll give you my number!\r
+{STRVAR_1 3, 0, 0} registered Misty\nin the Pokégear!

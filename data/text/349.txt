@@ -2,3 +2,11 @@ I’m the Fishing Guru’s younger brother.\rYou seem to like fishing.\nAm I rig
 Yes, yes. Just as I thought!\rHere, fishing fan!\nTake this--it’s a Super Rod.\r
 Try your hand at fishing wherever there\nis water.\rRemember--you can catch different\nPokémon depending on which Rod you use.
 Huh?\nMy own eyes deceived me?
+Professor Oak: Oh! {STRVAR_1 3, 0, 0}! I see\nyou’ve found my secret retreat.\rI used to like living in the depths\nof a valley, but I’ve grown quite used\fto the seaside in recent years!\rRegardless! I’d like to gift you with\nsome Pokémon I give to trainers\fstarting in the Kanto region.\rBut first, I’d like you to show me\na Kanto starter of your own!\r
+The Pokémon behind you isn’t\na Kanto starter, I’m afraid!
+Oh! That is certainly a {STRVAR_1 0, 1, 0}...\nI always was a fan of that Pokémon!\rVery well, here you go!\r
+{STRVAR_1 3, 0, 0} received {COLOR 2}Charmander{COLOR 0} and {COLOR 2}Squirtle{COLOR 0}\nfrom Professor Oak!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Bulbasaur{COLOR 0} and {COLOR 2}Squirtle{COLOR 0}\nfrom Professor Oak!
+{STRVAR_1 3, 0, 0} received {COLOR 2}Bulbasaur{COLOR 0} and\n{COLOR 2}Charmander{COLOR 0} from Professor Oak!
+Professor Oak: I should probably\nreturn to my lab in Pallet Town!\rUntil we meet again!
+You’re going to have to make room\nin your party, {STRVAR_1 3, 0, 0}!

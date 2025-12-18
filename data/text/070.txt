@@ -1,4 +1,4 @@
-Archer: Oh? You managed to get\nthis far...?\fYou must be quite the Trainer.\rWe intend to take over this\nRadio Tower and officially announce\four comeback.\rThat should bring our boss Giovanni\nback from his solitary training.\rWe are going to regain our\nformer glory...\rI will not allow you to interfere with\nour meticulous plans!\r
+Archer: Oh? You managed to get\nthis far yet again...?\fYou must be quite the Trainer.\rWe have taken over this Radio Tower\nand officially announced our comeback.\rThat should bring our boss Giovanni\nback from his solitary training.\rWe are going to regain our\nformer glory...\rI will not allow you to interfere with\nour meticulous plans!\r
 Archer: How could this be...?\rOur dreams have come to naught.\nI was not up to the task after all.\rLike Giovanni has done before me, I will\ndisband Team Rocket here today.\rFarewell...\r
 Director: Oh...!\rYou have already defeated them?\nThank you!\rYour courageous actions have saved\nPokémon nationwide.\rYou are well worth this.\nPlease take it!\r
 {STRVAR_1 3, 0, 0} received\nthe Rainbow Wing!
@@ -8,3 +8,8 @@ There used to be a tower right here.\rWhen the tower was replaced with the\nRadi
 Oh, I almost forgot!\rAccording to my friend from Cianwood\nCity, the legendary Pokémon will not\fappear if you just go up to the top of\fthe Bell Tower with only that\fRainbow Wing.\rApparently there is something else\nyou need... Or something like that.\rI wonder what it was...\rI can’t remember.\r
 Oh, I almost forgot!\rAccording to my friend from Cianwood\nCity, the legendary Pokémon will not\fappear if you just go down the cave at\fWhirl Islands with only that\fSilver Wing.\rApparently there is something else\nyou need... Or something like that.\rI wonder what it was...\rI can’t remember.\r
 Are you expecting something?\nThis is what they call Fake Out.\rI really must go back to my office this\ntime. See ya!\r
+Archer: Giovanni, sir!\nYou’ve returned!
+Giovanni: So, once again a child\ndefeats Team Rocket...\rIs Team Rocket forever doomed to be\ndefeated by mere children...?\r...
+Giovanni: My arrival is marked by a\nkid beating a Team Rocket executive?\rDisgraceful.\rListen, kid. You’ve gotten yourself\ninvolved in grown-up matters.\rI will show you the power of Team\nRocket, and the fruits of our plans!\rPrepare to experience a world of\npain!\r
+La la la~\r
+Meloetta’s melody faded away...

@@ -1,7 +1,7 @@
 Radio is good, you know?\rCool music and Pokémon information...\nSurprising news and moving dramas...\fIt has everything!\rThe only thing missing would be images.\r..................\nOops, they call that a TV!
 Lullabies on the radio make wild\nPokémon sleepy.\rThat’s why you don’t see many Pokémon\nwhen the radio plays lullabies in the\ftall grass.
 Why would they want to take over the\nRadio Tower?
-JIGGLYPUFF: Jiggly...
+Jigglypuff: Jiggly...
 Sorry. Authorized personnel only\nbeyond this point.\rIt wasn’t that way before. There’s\nsomething wrong with the Director...
 Feel free to look around anywhere.\nThe Director is nice again, just as he\fwas before.
 2F Sales
@@ -38,21 +38,21 @@ Your Blue Card points have reached\ntheir max.\fI will give you a new card!\r
 You received a new Blue Card!
 Please join the show again!\r
 Somebody needs to put a beating on this\nmean Team Rocket!\fLike three years ago even!
-CYNDAQUIL
-TOTODILE
-CHIKORITA
+Cyndaquil
+Totodile
+Chikorita
 Potion
 Antidote
 Parlyz Heal
 Poké Ball
 Great Ball
 Ultra Ball
-PIKACHU
-RATTATA
-GEODUDE
-HOOTHOOT
-SPINARAK
-DROWZEE
+Pikachu
+Rattata
+Geodude
+Hoothoot
+Spinarak
+Drowzee
 New Bark Town
 Cherrygrove City
 Azalea Town
