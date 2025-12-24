@@ -2213,82 +2213,70 @@ FLAG_UNK_B50                                              equ 2896
 FLAG_UNK_B51                                              equ 2897
 FLAG_UNK_B52                                              equ 2898
 FLAG_UNK_B53                                              equ 2899
-FLAG_UNK_B54                                              equ 2900
-FLAG_UNK_B55                                              equ 2901
-FLAG_UNK_B56                                              equ 2902
-FLAG_UNK_B57                                              equ 2903
-FLAG_UNK_B58                                              equ 2904
-FLAG_UNK_B59                                              equ 2905
-FLAG_UNK_B5A                                              equ 2906
-FLAG_UNK_B5B                                              equ 2907
-FLAG_UNK_B5C                                              equ 2908
-FLAG_UNK_B5D                                              equ 2909
-FLAG_UNK_B5E                                              equ 2910
-FLAG_UNK_B5F                                              equ 2911
 
 // Gen V/VI Starter Gift Flags
-FLAG_GOT_UNOVA_STARTER_FIRST                              equ 2912
-FLAG_GOT_UNOVA_STARTER_REST                               equ 2913
-FLAG_GOT_KALOS_STARTER_FIRST                              equ 2914
-FLAG_GOT_KALOS_STARTER_REST                               equ 2915
-FLAG_HIDE_MAHOGANY_PC_UNOVA_QUIZ                          equ 2916
-FLAG_HIDE_OLIVINE_PC_UNOVA_GIVER                          equ 2917
-FLAG_HIDE_VERMILION_PC_KALOS_QUIZ                         equ 2918
-FLAG_HIDE_PEWTER_PC_KALOS_GIVER                           equ 2919
+FLAG_GOT_UNOVA_STARTER_FIRST                              equ 2900
+FLAG_GOT_UNOVA_STARTER_REST                               equ 2901
+FLAG_GOT_KALOS_STARTER_FIRST                              equ 2902
+FLAG_GOT_KALOS_STARTER_REST                               equ 2903
+FLAG_HIDE_MAHOGANY_PC_UNOVA_QUIZ                          equ 2904
+FLAG_HIDE_OLIVINE_PC_UNOVA_GIVER                          equ 2905
+FLAG_HIDE_VERMILION_PC_KALOS_QUIZ                         equ 2906
+FLAG_HIDE_PEWTER_PC_KALOS_GIVER                           equ 2907
 
 // Gen V Legendary Hide Flags
-FLAG_HIDE_COBALION                                        equ 2920
-FLAG_HIDE_TERRAKION                                       equ 2921
-FLAG_HIDE_VIRIZION                                        equ 2922
-FLAG_HIDE_TORNADUS                                        equ 2923
-FLAG_HIDE_THUNDURUS                                       equ 2924
-FLAG_HIDE_LANDORUS                                        equ 2925
-FLAG_HIDE_RESHIRAM                                        equ 2926
-FLAG_HIDE_ZEKROM                                          equ 2927
-FLAG_HIDE_KYUREM                                          equ 2928
-FLAG_HIDE_KELDEO                                          equ 2929
-FLAG_HIDE_MELOETTA                                        equ 2930
-FLAG_HIDE_GENESECT                                        equ 2931
+FLAG_HIDE_COBALION                                        equ 2908
+FLAG_HIDE_TERRAKION                                       equ 2909
+FLAG_HIDE_VIRIZION                                        equ 2910
+FLAG_HIDE_TORNADUS                                        equ 2911
+FLAG_HIDE_THUNDURUS                                       equ 2912
+FLAG_HIDE_LANDORUS                                        equ 2913
+FLAG_HIDE_RESHIRAM                                        equ 2914
+FLAG_HIDE_ZEKROM                                          equ 2915
+FLAG_HIDE_KYUREM                                          equ 2916
+FLAG_HIDE_KELDEO                                          equ 2917
+FLAG_HIDE_MELOETTA                                        equ 2918
+FLAG_HIDE_GENESECT                                        equ 2919
 
 // Gen VI Legendary Hide Flags
-FLAG_HIDE_XERNEAS                                         equ 2932
-FLAG_HIDE_YVELTAL                                         equ 2933
-FLAG_HIDE_ZYGARDE                                         equ 2934
-FLAG_HIDE_DIANCIE                                         equ 2935
-FLAG_HIDE_HOOPA                                           equ 2936
-FLAG_HIDE_VOLCANION                                       equ 2937
+FLAG_HIDE_XERNEAS                                         equ 2920
+FLAG_HIDE_YVELTAL                                         equ 2921
+FLAG_HIDE_ZYGARDE                                         equ 2922
+FLAG_HIDE_DIANCIE                                         equ 2923
+FLAG_HIDE_HOOPA                                           equ 2924
+FLAG_HIDE_VOLCANION                                       equ 2925
 
 // Flags to hide NPCs when legendaries appear in their locations
-FLAG_HIDE_DRAGON_DEN_NPCS                                 equ 2938
-FLAG_HIDE_LIGHTHOUSE_TOP_NPCS                             equ 2939
-FLAG_HIDE_LIGHTHOUSE_GENIE_NPCS                           equ 2940
-FLAG_HIDE_POWER_PLANT_NPCS                                equ 2953
-FLAG_HIDE_ROTOM_ROOM_NPCS                                 equ 2954
-FLAG_HIDE_RADIO_TOWER_5F_NPCS                             equ 2955
+FLAG_HIDE_D26R0101_HIKER                                  equ 2926
+FLAG_HIDE_DRAGON_DEN_NPCS                                 equ 2927
+FLAG_HIDE_LIGHTHOUSE_TOP_NPCS                             equ 2928
+FLAG_HIDE_LIGHTHOUSE_GENIE_NPCS                           equ 2929
+FLAG_HIDE_POWER_PLANT_NPCS                                equ 2930
+FLAG_HIDE_ROTOM_ROOM_NPCS                                 equ 2931
+FLAG_HIDE_RADIO_TOWER_5F_NPCS                             equ 2932
 
 // Gen 5/6 Legendary Catch Tracking Flags (for chain prerequisites)
-FLAG_CAUGHT_COBALION                                      equ 2941
-FLAG_CAUGHT_TERRAKION                                     equ 2942
-FLAG_CAUGHT_VIRIZION                                      equ 2943
-FLAG_CAUGHT_TORNADUS                                      equ 2944
-FLAG_CAUGHT_THUNDURUS                                     equ 2945
-FLAG_CAUGHT_LANDORUS                                      equ 2946
-FLAG_CAUGHT_RESHIRAM                                      equ 2947
-FLAG_CAUGHT_ZEKROM                                        equ 2948
-FLAG_CAUGHT_KYUREM                                        equ 2949
-FLAG_CAUGHT_XERNEAS                                       equ 2950
-FLAG_CAUGHT_YVELTAL                                       equ 2951
-FLAG_CAUGHT_ZYGARDE                                       equ 2952
-FLAG_CAUGHT_VOLCANION                                     equ 2953
-FLAG_CAUGHT_KELDEO                                        equ 2954
-FLAG_CAUGHT_HOOPA                                         equ 2955
-FLAG_CAUGHT_MELOETTA                                      equ 2956
-FLAG_CAUGHT_GENESECT                                      equ 2957
-FLAG_CAUGHT_DIANCIE                                       equ 2958
+FLAG_CAUGHT_COBALION                                      equ 2933
+FLAG_CAUGHT_TERRAKION                                     equ 2934
+FLAG_CAUGHT_VIRIZION                                      equ 2935
+FLAG_CAUGHT_TORNADUS                                      equ 2936
+FLAG_CAUGHT_THUNDURUS                                     equ 2937
+FLAG_CAUGHT_LANDORUS                                      equ 2938
+FLAG_CAUGHT_RESHIRAM                                      equ 2939
+FLAG_CAUGHT_ZEKROM                                        equ 2940
+FLAG_CAUGHT_KYUREM                                        equ 2941
+FLAG_CAUGHT_KELDEO                                        equ 2942
+FLAG_CAUGHT_MELOETTA                                      equ 2943
+FLAG_CAUGHT_GENESECT                                      equ 2944
+FLAG_CAUGHT_XERNEAS                                       equ 2945
+FLAG_CAUGHT_YVELTAL                                       equ 2946
+FLAG_CAUGHT_ZYGARDE                                       equ 2947
+FLAG_CAUGHT_DIANCIE                                       equ 2948
+FLAG_CAUGHT_HOOPA                                         equ 2949
+FLAG_CAUGHT_VOLCANION                                     equ 2950
 
-FLAG_HIDE_D26R0101_HIKER                                  equ 2959
 
-NUM_FLAGS                                                 equ  2960
+NUM_FLAGS                                                 equ  2951
 
 
 NUM_TEMP_FLAGS                                           equ     64
