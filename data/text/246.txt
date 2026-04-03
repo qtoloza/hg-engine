@@ -76,13 +76,13 @@ Samuel: It’s so disappointing...\nI won’t forget this defeat, and...
 Kipp: I’ve studied bug Pokémon a lot.\nI’m going to win for sure.
 Kipp: I study a lot, but that’s not\nenough to win.
 Kipp: Could you give me some tips?\nI want to win!
-{TRNAME}Don
-{TRNAME}Ed
-{TRNAME}Abby
-{TRNAME}William
-{TRNAME}Benny
-{TRNAME}Barry
-{TRNAME}Cindy
-{TRNAME}Josh
-{TRNAME}Samuel
-{TRNAME}Kipp
+Don
+Ed
+Abby
+William
+Benny
+Barry
+Cindy
+Josh
+Samuel
+Kipp
