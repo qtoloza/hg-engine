@@ -113,10 +113,10 @@ trainerdata 495, "Boy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PASSERBY
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -126,11 +126,11 @@ party 495
     abilityslot 0
     level LEVEL_SILVER_1
     pokemon SPECIES_CHIKORITA
-    item 0
+    item ITEM_NONE
     move MOVE_TACKLE
     move MOVE_GROWL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OVERGROW
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -144,10 +144,10 @@ trainerdata 496, "Boy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PASSERBY
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -157,11 +157,11 @@ party 496
     abilityslot 0
     level LEVEL_SILVER_1
     pokemon SPECIES_CYNDAQUIL
-    item 0
+    item ITEM_NONE
     move MOVE_TACKLE
     move MOVE_LEER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -175,10 +175,10 @@ trainerdata 497, "Boy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PASSERBY
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -188,11 +188,11 @@ party 497
     abilityslot 0
     level LEVEL_SILVER_1
     pokemon SPECIES_TOTODILE
-    item 0
+    item ITEM_NONE
     move MOVE_SCRATCH
     move MOVE_LEER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TORRENT
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -208,10 +208,10 @@ trainerdata 8, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -221,11 +221,11 @@ party 8
     abilityslot 0
     level LEVEL_ROUTE_30+1
     pokemon SPECIES_RATTATA
-    item 0
+    item ITEM_NONE
     move MOVE_QUICK_ATTACK
     move MOVE_TAIL_WHIP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_RUN_AWAY
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -239,10 +239,10 @@ trainerdata 47, "Mikey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -252,11 +252,11 @@ party 47
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_PIDGEY
-    item 0
+    item ITEM_NONE
     move MOVE_GUST
     move MOVE_TACKLE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -269,11 +269,11 @@ party 47
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_ZIGZAGOON
-    item 0
+    item ITEM_NONE
     move MOVE_TACKLE
     move MOVE_TAIL_WHIP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PICKUP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -288,10 +288,10 @@ trainerdata 11, "Bernie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -301,11 +301,11 @@ party 11
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_SENTRET
-    item 0
+    item ITEM_NONE
     move MOVE_QUICK_ATTACK
     move MOVE_DEFENSE_CURL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -318,11 +318,11 @@ party 11
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_SNUBBULL
-    item 0
+    item ITEM_NONE
     move MOVE_BITE
     move MOVE_TACKLE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_RUN_AWAY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -335,11 +335,11 @@ party 11
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_SUNKERN
-    item 0
+    item ITEM_NONE
     move MOVE_ABSORB
     move MOVE_TACKLE
     move MOVE_GROWTH
-    move 0
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -353,10 +353,10 @@ trainerdata 249, "Don"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -366,11 +366,11 @@ party 249
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_CATERPIE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_TACKLE
     move MOVE_STRING_SHOT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -383,11 +383,11 @@ party 249
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_WEEDLE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_POISON_STING
     move MOVE_STRING_SHOT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -400,11 +400,11 @@ party 249
     abilityslot 0
     level LEVEL_ROUTE_30
     pokemon SPECIES_WURMPLE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_POISON_STING
     move MOVE_STRING_SHOT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -420,10 +420,10 @@ trainerdata 279, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -433,7 +433,7 @@ party 279
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_FLAME_WHEEL
     move MOVE_CRUNCH
@@ -451,10 +451,10 @@ trainerdata 280, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -464,7 +464,7 @@ party 280
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_FLAME_WHEEL
     move MOVE_CRUNCH
@@ -482,10 +482,10 @@ trainerdata 510, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 1
-    item 0
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -495,7 +495,7 @@ party 510
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_FLAME_WHEEL
     move MOVE_CRUNCH
@@ -516,10 +516,10 @@ trainerdata 19, "Raphael"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -529,11 +529,11 @@ party 19
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_GEODUDE
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_THROW
     move MOVE_TACKLE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ROCK_HEAD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -546,11 +546,11 @@ party 19
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_MACHOP
-    item 0
+    item ITEM_NONE
     move MOVE_LOW_KICK
     move MOVE_FORESIGHT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -563,11 +563,11 @@ party 19
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_BIDOOF
-    item 0
+    item ITEM_NONE
     move MOVE_TACKLE
     move MOVE_DEFENSE_CURL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SIMPLE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -581,10 +581,10 @@ trainerdata 4, "Wade"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -594,7 +594,7 @@ party 4
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_LEDYBA
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_COMET_PUNCH
     move MOVE_SUPERSONIC
@@ -611,7 +611,7 @@ party 4
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_PINECO
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_BIDE
     move MOVE_SELF_DESTRUCT
@@ -628,7 +628,7 @@ party 4
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_SPINARAK
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_POISON_STING
     move MOVE_STRING_SHOT
@@ -647,10 +647,10 @@ trainerdata 40, "Rosemary"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -660,11 +660,11 @@ party 40
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_HOPPIP
-    item 0
+    item ITEM_NONE
     move MOVE_ABSORB
     move MOVE_FAIRY_WIND
     move MOVE_LEECH_SEED
-    move 0
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -677,11 +677,11 @@ party 40
     abilityslot 0
     level LEVEL_ROUTE_31
     pokemon SPECIES_PSYDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_GUN
     move MOVE_CONFUSION
     move MOVE_DISABLE
-    move 0
+    move MOVE_NONE
     ability ABILITY_DAMP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -695,10 +695,10 @@ trainerdata 739, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -712,7 +712,7 @@ party 739
     move MOVE_BUBBLE
     move MOVE_NONE
     move MOVE_TAIL_WHIP
-    move 0
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -760,10 +760,10 @@ trainerdata 740, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -777,7 +777,7 @@ party 740
     move MOVE_BUBBLE
     move MOVE_NONE
     move MOVE_TAIL_WHIP
-    move 0
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -825,10 +825,10 @@ trainerdata 741, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -842,7 +842,7 @@ party 741
     move MOVE_BUBBLE
     move MOVE_NONE
     move MOVE_TAIL_WHIP
-    move 0
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -890,10 +890,10 @@ trainerdata 742, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -907,7 +907,7 @@ party 742
     move MOVE_BUBBLE
     move MOVE_NONE
     move MOVE_TAIL_WHIP
-    move 0
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -955,10 +955,10 @@ trainerdata 743, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -972,7 +972,7 @@ party 743
     move MOVE_BUBBLE
     move MOVE_NONE
     move MOVE_TAIL_WHIP
-    move 0
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -1020,10 +1020,10 @@ trainerdata 744, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1037,7 +1037,7 @@ party 744
     move MOVE_BUBBLE
     move MOVE_NONE
     move MOVE_TAIL_WHIP
-    move 0
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -1087,10 +1087,10 @@ trainerdata 461, "Wade"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1100,7 +1100,7 @@ party 461
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_LEDIAN
-    item 0
+    item ITEM_NONE
     move MOVE_U_TURN
     move MOVE_ACROBATICS
     move MOVE_BRICK_BREAK
@@ -1117,7 +1117,7 @@ party 461
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_CROSS_POISON
     move MOVE_SHADOW_SNEAK
@@ -1134,7 +1134,7 @@ party 461
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MASQUERAIN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
@@ -1152,10 +1152,10 @@ trainerdata 460, "Wade"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1165,7 +1165,7 @@ party 460
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_LEDIAN
-    item 0
+    item ITEM_NONE
     move MOVE_U_TURN
     move MOVE_ACROBATICS
     move MOVE_BRICK_BREAK
@@ -1182,7 +1182,7 @@ party 460
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_CROSS_POISON
     move MOVE_SHADOW_SNEAK
@@ -1199,7 +1199,7 @@ party 460
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MASQUERAIN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
@@ -1217,10 +1217,10 @@ trainerdata 512, "Wade"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1230,7 +1230,7 @@ party 512
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_LEDIAN
-    item 0
+    item ITEM_NONE
     move MOVE_U_TURN
     move MOVE_ACROBATICS
     move MOVE_BRICK_BREAK
@@ -1247,7 +1247,7 @@ party 512
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_CROSS_POISON
     move MOVE_SHADOW_SNEAK
@@ -1264,7 +1264,7 @@ party 512
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MASQUERAIN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
@@ -1284,10 +1284,10 @@ trainerdata 786, "Forrest"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1301,7 +1301,7 @@ party 786
     move MOVE_SCRATCH
     move MOVE_COVET
     move MOVE_BABY_DOLL_EYES
-    move 0
+    move MOVE_NONE
     ability ABILITY_QUICK_FEET
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -1318,7 +1318,7 @@ party 786
     move MOVE_ECHOED_VOICE
     move MOVE_ASTONISH
     move MOVE_SUPERSONIC
-    move 0
+    move MOVE_NONE
     ability ABILITY_SOUNDPROOF
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -1332,10 +1332,10 @@ trainerdata 787, "Christian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1345,7 +1345,7 @@ party 787
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_CLEFFA
-    item 0
+    item ITEM_NONE
     move MOVE_DISARMING_VOICE
     move MOVE_POUND
     move MOVE_WORK_UP
@@ -1362,7 +1362,7 @@ party 787
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_IGGLYBUFF
-    item 0
+    item ITEM_NONE
     move MOVE_DISARMING_VOICE
     move MOVE_POUND
     move MOVE_WORK_UP
@@ -1382,10 +1382,10 @@ trainerdata 51, "Nico"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1395,7 +1395,7 @@ party 51
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID
     move MOVE_WRAP
@@ -1412,7 +1412,7 @@ party 51
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID
     move MOVE_WRAP
@@ -1429,7 +1429,7 @@ party 51
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID
     move MOVE_WRAP
@@ -1447,10 +1447,10 @@ trainerdata 43, "Chow"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1460,7 +1460,7 @@ party 43
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID
     move MOVE_WRAP
@@ -1477,7 +1477,7 @@ party 43
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BUDEW
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_WATER_SPORT
     move MOVE_STUN_SPORE
@@ -1494,7 +1494,7 @@ party 43
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_ODDISH
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ABSORB
     move MOVE_ACID
@@ -1512,10 +1512,10 @@ trainerdata 52, "Edmond"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1525,7 +1525,7 @@ party 52
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID
     move MOVE_WRAP
@@ -1542,7 +1542,7 @@ party 52
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_CHERUBI
-    item 0
+    item ITEM_NONE
     move MOVE_LEAFAGE
     move MOVE_LEECH_SEED
     move MOVE_STUN_SPORE
@@ -1559,7 +1559,7 @@ party 52
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_SHROOMISH
-    item 0
+    item ITEM_NONE
     move MOVE_ABSORB
     move MOVE_LEECH_SEED
     move MOVE_STUN_SPORE
@@ -1577,10 +1577,10 @@ trainerdata 53, "Jin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1590,7 +1590,7 @@ party 53
     abilityslot 0
     level LEVEL_VIOLET_CITY+2
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID
     move MOVE_WRAP
@@ -1607,7 +1607,7 @@ party 53
     abilityslot 0
     level LEVEL_VIOLET_CITY+2
     pokemon SPECIES_EXEGGCUTE
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_CONFUSION
     move MOVE_BARRAGE
@@ -1625,10 +1625,10 @@ trainerdata 55, "Neal"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1638,7 +1638,7 @@ party 55
     abilityslot 0
     level LEVEL_VIOLET_CITY+2
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_HIDDEN_POWER
     move MOVE_ACID
     move MOVE_WRAP
@@ -1655,11 +1655,11 @@ party 55
     abilityslot 0
     level LEVEL_VIOLET_CITY+2
     pokemon SPECIES_ABRA
-    item 0
+    item ITEM_NONE
     move MOVE_HIDDEN_POWER
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SYNCHRONIZE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -1673,10 +1673,10 @@ trainerdata 54, "Troy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1686,7 +1686,7 @@ party 54
     abilityslot 0
     level LEVEL_VIOLET_CITY+2
     pokemon SPECIES_BELLSPROUT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_HIDDEN_POWER
     move MOVE_WRAP
@@ -1703,7 +1703,7 @@ party 54
     abilityslot 0
     level LEVEL_VIOLET_CITY+2
     pokemon SPECIES_GASTLY
-    item 0
+    item ITEM_NONE
     move MOVE_NIGHT_SHADE
     move MOVE_HIDDEN_POWER
     move MOVE_POISON_GAS
@@ -1721,10 +1721,10 @@ trainerdata 290, "Li"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELDER
     nummons 4
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1804,10 +1804,10 @@ trainerdata 866, "Li"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELDER
     nummons 6
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1922,10 +1922,10 @@ trainerdata 50, "Abe"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -1939,7 +1939,7 @@ party 50
     move MOVE_AERIAL_ACE
     move MOVE_FURY_ATTACK
     move MOVE_GROWL
-    move 0
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -1956,7 +1956,7 @@ party 50
     move MOVE_WING_ATTACK
     move MOVE_QUICK_ATTACK
     move MOVE_GROWL
-    move 0
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -1973,7 +1973,7 @@ party 50
     move MOVE_WATER_PULSE
     move MOVE_PLUCK
     move MOVE_DEFOG
-    move 0
+    move MOVE_NONE
     ability ABILITY_BIG_PECKS
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -1987,10 +1987,10 @@ trainerdata 29, "Rod"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2004,7 +2004,7 @@ party 29
     move MOVE_AIR_CUTTER
     move MOVE_QUICK_ATTACK
     move MOVE_MUD_SLAP
-    move 0
+    move MOVE_NONE
     ability ABILITY_TANGLED_FEET
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -2021,7 +2021,7 @@ party 29
     move MOVE_WING_ATTACK
     move MOVE_QUICK_ATTACK
     move MOVE_GROWL
-    move 0
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -2038,7 +2038,7 @@ party 29
     move MOVE_AIR_CUTTER
     move MOVE_QUICK_ATTACK
     move MOVE_GROWL
-    move 0
+    move MOVE_NONE
     ability ABILITY_SUPER_LUCK
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -2053,10 +2053,10 @@ trainerdata 63, "Heath"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2119,10 +2119,10 @@ trainerdata 87, "Ingrid"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2184,10 +2184,10 @@ trainerdata 20, "Falkner"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_FALKNER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2217,7 +2217,7 @@ party 20
     item ITEM_CHERI_BERRY
     move MOVE_PLUCK
     move MOVE_QUICK_ATTACK
-    move 0
+    move MOVE_NONE
     move MOVE_WORK_UP
     ability ABILITY_EARLY_BIRD
     ball ITEM_GREAT_BALL
@@ -2302,10 +2302,10 @@ trainerdata 147, "Ted"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2315,7 +2315,7 @@ party 147
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_MANKEY
-    item 0
+    item ITEM_NONE
     move MOVE_KARATE_CHOP
     move MOVE_FURY_SWIPES
     move MOVE_LOW_KICK
@@ -2332,7 +2332,7 @@ party 147
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_PATRAT
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_BITE
     move MOVE_BIDE
@@ -2350,10 +2350,10 @@ trainerdata 151, "Erin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2363,7 +2363,7 @@ party 151
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_PONYTA
-    item 0
+    item ITEM_NONE
     move MOVE_FLAME_CHARGE
     move MOVE_DOUBLE_KICK
     move MOVE_TAIL_WHIP
@@ -2380,7 +2380,7 @@ party 151
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_PICHU
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDER_SHOCK
     move MOVE_NUZZLE
     move MOVE_CHARM
@@ -2397,7 +2397,7 @@ party 151
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_CHERUBI
-    item 0
+    item ITEM_NONE
     move MOVE_MAGICAL_LEAF
     move MOVE_LEECH_SEED
     move MOVE_STUN_SPORE
@@ -2415,10 +2415,10 @@ trainerdata 154, "Bailey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2428,7 +2428,7 @@ party 154
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_GEODUDE
-    item 0
+    item ITEM_NONE
     move MOVE_BULLDOZE
     move MOVE_ROLLOUT
     move MOVE_ROCK_POLISH
@@ -2445,7 +2445,7 @@ party 154
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_ROGGENROLA
-    item 0
+    item ITEM_NONE
     move MOVE_HEADBUTT
     move MOVE_MUD_SLAP
     move MOVE_TACKLE
@@ -2462,7 +2462,7 @@ party 154
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_GEODUDE
-    item 0
+    item ITEM_NONE
     move MOVE_BULLDOZE
     move MOVE_ROLLOUT
     move MOVE_ROCK_POLISH
@@ -2482,10 +2482,10 @@ trainerdata 335, "Erin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2495,7 +2495,7 @@ party 335
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SUNFLORA
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
     move MOVE_GRASS_WHISTLE
@@ -2512,7 +2512,7 @@ party 335
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_RAPIDASH
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_SMART_STRIKE
     move MOVE_POISON_JAB
@@ -2529,7 +2529,7 @@ party 335
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_BELLOSSOM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_MOONBLAST
@@ -2546,7 +2546,7 @@ party 335
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_CHERRIM
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
     move MOVE_LEECH_SEED
@@ -2564,10 +2564,10 @@ trainerdata 453, "Erin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2577,7 +2577,7 @@ party 453
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SUNFLORA
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
     move MOVE_GRASS_WHISTLE
@@ -2594,7 +2594,7 @@ party 453
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_RAPIDASH
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_SMART_STRIKE
     move MOVE_POISON_JAB
@@ -2611,7 +2611,7 @@ party 453
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_BELLOSSOM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_MOONBLAST
@@ -2628,7 +2628,7 @@ party 453
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_CHERRIM
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
     move MOVE_LEECH_SEED
@@ -2646,10 +2646,10 @@ trainerdata 603, "Erin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2659,7 +2659,7 @@ party 603
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SUNFLORA
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
     move MOVE_GRASS_WHISTLE
@@ -2676,7 +2676,7 @@ party 603
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_RAPIDASH
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_SMART_STRIKE
     move MOVE_POISON_JAB
@@ -2693,7 +2693,7 @@ party 603
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_BELLOSSOM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_MOONBLAST
@@ -2710,7 +2710,7 @@ party 603
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_CHERRIM
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
     move MOVE_LEECH_SEED
@@ -2730,10 +2730,10 @@ trainerdata 49, "Albert"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2743,7 +2743,7 @@ party 49
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_ZUBAT
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_FANG
     move MOVE_WING_ATTACK
     move MOVE_BITE
@@ -2760,7 +2760,7 @@ party 49
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_SHINX
-    item 0
+    item ITEM_NONE
     move MOVE_SPARK
     move MOVE_BITE
     move MOVE_QUICK_ATTACK
@@ -2778,10 +2778,10 @@ trainerdata 27, "Liz"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2791,7 +2791,7 @@ party 27
     abilityslot 0
     level LEVEL_ROUTE_32+1
     pokemon SPECIES_NIDORINA
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_FANG
     move MOVE_DOUBLE_KICK
     move MOVE_BITE
@@ -2810,10 +2810,10 @@ trainerdata 88, "Colson"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2823,7 +2823,7 @@ party 88
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_OMANYTE
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_GUN
     move MOVE_ANCIENT_POWER
     move MOVE_MUD_SHOT
@@ -2840,7 +2840,7 @@ party 88
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_KABUTO
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_JET
     move MOVE_ANCIENT_POWER
     move MOVE_MUD_SHOT
@@ -2857,7 +2857,7 @@ party 88
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_NOSEPASS
-    item 0
+    item ITEM_NONE
     move MOVE_ANCIENT_POWER
     move MOVE_THUNDER_SHOCK
     move MOVE_HARDEN
@@ -2875,10 +2875,10 @@ trainerdata 26, "Roland"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2888,7 +2888,7 @@ party 26
     abilityslot 0
     level LEVEL_ROUTE_32+1
     pokemon SPECIES_NIDORINO
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_STING
     move MOVE_DOUBLE_KICK
     move MOVE_HORN_ATTACK
@@ -2906,10 +2906,10 @@ trainerdata 57, "Ralph"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2919,7 +2919,7 @@ party 57
     abilityslot 0
     level LEVEL_ROUTE_32+1
     pokemon SPECIES_GOLDEEN
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_PULSE
     move MOVE_PECK
     move MOVE_HORN_ATTACK
@@ -2937,10 +2937,10 @@ trainerdata 60, "Henry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -2950,7 +2950,7 @@ party 60
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_POLIWAG
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_DOUBLE_SLAP
     move MOVE_MUD_SHOT
@@ -2967,7 +2967,7 @@ party 60
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_STARYU
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_RAPID_SPIN
     move MOVE_PSYWAVE
@@ -2984,7 +2984,7 @@ party 60
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_CORPHISH
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_JET
     move MOVE_VICE_GRIP
     move MOVE_HARDEN
@@ -3002,10 +3002,10 @@ trainerdata 18, "Justin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3015,11 +3015,11 @@ party 18
     abilityslot 0
     level 20 /* Intentionally not pinned */
     pokemon SPECIES_MAGIKARP
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_FLAIL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -3033,10 +3033,10 @@ trainerdata 56, "Gordon"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3046,7 +3046,7 @@ party 56
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_WOOPER
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_PULSE
     move MOVE_MUD_BOMB
     move MOVE_ACID_SPRAY
@@ -3063,7 +3063,7 @@ party 56
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_POOCHYENA
-    item 0
+    item ITEM_NONE
     move MOVE_ASSURANCE
     move MOVE_TACKLE
     move MOVE_SWAGGER
@@ -3080,7 +3080,7 @@ party 56
     abilityslot 0
     level LEVEL_ROUTE_32
     pokemon SPECIES_TEDDIURSA
-    item 0
+    item ITEM_NONE
     move MOVE_FURY_SWIPES
     move MOVE_FEINT_ATTACK
     move MOVE_COVET
@@ -3098,10 +3098,10 @@ trainerdata 383, "Peter"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 2
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3146,10 +3146,10 @@ trainerdata 347, "Owain"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3163,7 +3163,7 @@ party 347
     move MOVE_FLAME_WHEEL
     move MOVE_BITE
     move MOVE_HOWL
-    move 0
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -3180,7 +3180,7 @@ party 347
     move MOVE_ARM_THRUST
     move MOVE_COMET_PUNCH
     move MOVE_LEER
-    move 0
+    move MOVE_NONE
     ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -3197,7 +3197,7 @@ party 347
     move MOVE_TWISTER
     move MOVE_WING_ATTACK
     move MOVE_SCREECH
-    move 0
+    move MOVE_NONE
     ability ABILITY_INFILTRATOR
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -3214,7 +3214,7 @@ party 347
     move MOVE_ROCK_SLIDE
     move MOVE_PURSUIT
     move MOVE_LEER
-    move 0
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -3231,10 +3231,10 @@ trainerdata 276, "Liz"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3244,7 +3244,7 @@ party 276
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_CRUNCH
@@ -3261,7 +3261,7 @@ party 276
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -3278,7 +3278,7 @@ party 276
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -3296,10 +3296,10 @@ trainerdata 277, "Liz"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3309,7 +3309,7 @@ party 277
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_CRUNCH
@@ -3326,7 +3326,7 @@ party 277
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -3343,7 +3343,7 @@ party 277
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -3361,10 +3361,10 @@ trainerdata 518, "Liz"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3374,7 +3374,7 @@ party 518
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_CRUNCH
@@ -3391,7 +3391,7 @@ party 518
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -3408,7 +3408,7 @@ party 518
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -3426,10 +3426,10 @@ trainerdata 462, "Ralph"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3439,7 +3439,7 @@ party 462
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_SMART_STRIKE
     move MOVE_POISON_JAB
@@ -3456,7 +3456,7 @@ party 462
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_AQUA_TAIL
     move MOVE_PIN_MISSILE
@@ -3473,7 +3473,7 @@ party 462
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_LUMINEON
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_SILVER_WIND
@@ -3491,10 +3491,10 @@ trainerdata 463, "Ralph"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3504,7 +3504,7 @@ party 463
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_SMART_STRIKE
     move MOVE_POISON_JAB
@@ -3521,7 +3521,7 @@ party 463
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_AQUA_TAIL
     move MOVE_PIN_MISSILE
@@ -3538,7 +3538,7 @@ party 463
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_LUMINEON
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_SILVER_WIND
@@ -3556,10 +3556,10 @@ trainerdata 515, "Ralph"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3569,7 +3569,7 @@ party 515
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_SMART_STRIKE
     move MOVE_POISON_JAB
@@ -3586,7 +3586,7 @@ party 515
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_AQUA_TAIL
     move MOVE_PIN_MISSILE
@@ -3603,7 +3603,7 @@ party 515
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_LUMINEON
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_SILVER_WIND
@@ -3623,10 +3623,10 @@ trainerdata 384, "Daniel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3636,7 +3636,7 @@ party 384
     abilityslot 0
     level LEVEL_UNION_CAVE+1
     pokemon SPECIES_ONIX
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_THROW
     move MOVE_DRAGON_BREATH
     move MOVE_BIND
@@ -3654,10 +3654,10 @@ trainerdata 25, "Russel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3667,7 +3667,7 @@ party 25
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_GEODUDE
-    item 0
+    item ITEM_NONE
     move MOVE_BULLDOZE
     move MOVE_ROLLOUT
     move MOVE_ROCK_POLISH
@@ -3684,7 +3684,7 @@ party 25
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_ARON
-    item 0
+    item ITEM_NONE
     move MOVE_METAL_CLAW
     move MOVE_ROCK_TOMB
     move MOVE_HEADBUTT
@@ -3701,7 +3701,7 @@ party 25
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_RHYHORN
-    item 0
+    item ITEM_NONE
     move MOVE_BULLDOZE
     move MOVE_ROCK_THROW
     move MOVE_FURY_ATTACK
@@ -3719,10 +3719,10 @@ trainerdata 319, "Bill"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0
-    item 0
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3732,7 +3732,7 @@ party 319
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_KOFFING
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_SLUDGE
     move MOVE_GYRO_BALL
@@ -3749,7 +3749,7 @@ party 319
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_SLUGMA
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_ROCK_THROW
     move MOVE_CLEAR_SMOG
@@ -3766,7 +3766,7 @@ party 319
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_MAGBY
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_FEINT_ATTACK
     move MOVE_CONFUSE_RAY
@@ -3784,10 +3784,10 @@ trainerdata 23, "Larry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3797,7 +3797,7 @@ party 23
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_SLOWPOKE
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_GUN
     move MOVE_CONFUSION
     move MOVE_GROWL
@@ -3814,7 +3814,7 @@ party 23
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_CUBONE
-    item 0
+    item ITEM_NONE
     move MOVE_BONE_CLUB
     move MOVE_HEADBUTT
     move MOVE_GROWL
@@ -3831,7 +3831,7 @@ party 23
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_LICKITUNG
-    item 0
+    item ITEM_NONE
     move MOVE_STOMP
     move MOVE_LICK
     move MOVE_KNOCK_OFF
@@ -3849,10 +3849,10 @@ trainerdata 390, "Ray"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3862,7 +3862,7 @@ party 390
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_KOFFING
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_SLUDGE
     move MOVE_ASSURANCE
@@ -3879,7 +3879,7 @@ party 390
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_NUMEL
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_MAGNITUDE
     move MOVE_AMNESIA
@@ -3896,7 +3896,7 @@ party 390
     abilityslot 0
     level LEVEL_UNION_CAVE
     pokemon SPECIES_VULPIX
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_QUICK_ATTACK
     move MOVE_CONFUSE_RAY
@@ -3915,10 +3915,10 @@ trainerdata 106, "Hideki"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -3932,7 +3932,7 @@ party 106
     move MOVE_POWER_UP_PUNCH
     move MOVE_FAKE_OUT
     move MOVE_FORESIGHT
-    move 0
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -3945,7 +3945,7 @@ party 106
     abilityslot 0
     level LEVEL_UNION_CAVE+2
     pokemon SPECIES_TIMBURR
-    item 0
+    item ITEM_NONE
     move MOVE_LOW_KICK
     move MOVE_ROCK_TOMB
     move MOVE_BIDE
@@ -3962,7 +3962,7 @@ party 106
     abilityslot 0
     level LEVEL_UNION_CAVE+2
     pokemon SPECIES_MAKUHITA
-    item 0
+    item ITEM_NONE
     move MOVE_FORCE_PALM
     move MOVE_ROCK_TOMB
     move MOVE_KNOCK_OFF
@@ -3982,10 +3982,10 @@ trainerdata 201, "Andrew"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 2
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4030,10 +4030,10 @@ trainerdata 202, "Calvin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 2
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4043,7 +4043,7 @@ party 202
     abilityslot 0
     level LEVEL_MORTY
     pokemon SPECIES_FRAXURE
-    item 0
+    item ITEM_NONE
     move MOVE_DUAL_CHOP
     move MOVE_CRUNCH
     move MOVE_SLASH
@@ -4060,7 +4060,7 @@ party 202
     abilityslot 0
     level LEVEL_MORTY
     pokemon SPECIES_KANGASKHAN
-    item 0
+    item ITEM_NONE
     move MOVE_DIZZY_PUNCH
     move MOVE_SUCKER_PUNCH
     move MOVE_CIRCLE_THROW
@@ -4078,10 +4078,10 @@ trainerdata 204, "Leonard"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4091,7 +4091,7 @@ party 204
     abilityslot 0
     level LEVEL_MORTY
     pokemon SPECIES_MACHOKE
-    item 0
+    item ITEM_NONE
     move MOVE_SUBMISSION
     move MOVE_KNOCK_OFF
     move MOVE_DUAL_CHOP
@@ -4109,10 +4109,10 @@ trainerdata 203, "Phillip"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4122,7 +4122,7 @@ party 203
     abilityslot 0
     level LEVEL_MORTY
     pokemon SPECIES_GRAVELER
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_BLAST
     move MOVE_MAGNITUDE
     move MOVE_ROCK_POLISH
@@ -4140,10 +4140,10 @@ trainerdata 205, "Nick"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4205,10 +4205,10 @@ trainerdata 206, "Gwen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4287,10 +4287,10 @@ trainerdata 363, "Emma"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 1
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4320,10 +4320,10 @@ trainerdata 61, "Anthony"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4333,7 +4333,7 @@ party 61
     abilityslot 0
     level LEVEL_UNION_CAVE+1
     pokemon SPECIES_DUNSPARCE
-    item 0
+    item ITEM_NONE
     move MOVE_HEADBUTT
     move MOVE_ROLLOUT
     move MOVE_GLARE
@@ -4353,10 +4353,10 @@ trainerdata 100, "Anthony"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4366,7 +4366,7 @@ party 100
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_GRAVELER
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_HAMMER_ARM
@@ -4383,7 +4383,7 @@ party 100
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MACHOKE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_ROCK_SLIDE
     move MOVE_KNOCK_OFF
@@ -4400,7 +4400,7 @@ party 100
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_PROBOPASS
-    item 0
+    item ITEM_NONE
     move MOVE_FLASH_CANNON
     move MOVE_POWER_GEM
     move MOVE_DISCHARGE
@@ -4418,10 +4418,10 @@ trainerdata 155, "Anthony"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4431,7 +4431,7 @@ party 155
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_GRAVELER
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_HAMMER_ARM
@@ -4448,7 +4448,7 @@ party 155
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MACHOKE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_ROCK_SLIDE
     move MOVE_KNOCK_OFF
@@ -4465,7 +4465,7 @@ party 155
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_PROBOPASS
-    item 0
+    item ITEM_NONE
     move MOVE_FLASH_CANNON
     move MOVE_POWER_GEM
     move MOVE_DISCHARGE
@@ -4483,10 +4483,10 @@ trainerdata 523, "Anthony"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4496,7 +4496,7 @@ party 523
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_GRAVELER
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_HAMMER_ARM
@@ -4513,7 +4513,7 @@ party 523
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MACHOKE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_ROCK_SLIDE
     move MOVE_KNOCK_OFF
@@ -4530,7 +4530,7 @@ party 523
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_PROBOPASS
-    item 0
+    item ITEM_NONE
     move MOVE_FLASH_CANNON
     move MOVE_POWER_GEM
     move MOVE_DISCHARGE
@@ -4550,10 +4550,10 @@ trainerdata 101, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4563,7 +4563,7 @@ party 101
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_RATTATA
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_BITE
     move MOVE_PURSUIT
@@ -4580,7 +4580,7 @@ party 101
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_MANKEY
-    item 0
+    item ITEM_NONE
     move MOVE_KARATE_CHOP
     move MOVE_FURY_SWIPES
     move MOVE_ASSURANCE
@@ -4597,7 +4597,7 @@ party 101
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_GRIMER
-    item 0
+    item ITEM_NONE
     move MOVE_ACID_SPRAY
     move MOVE_MUD_BOMB
     move MOVE_DISABLE
@@ -4615,10 +4615,10 @@ trainerdata 13, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4628,7 +4628,7 @@ party 13
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_EKANS
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_TAIL
     move MOVE_MUD_BOMB
     move MOVE_BITE
@@ -4645,7 +4645,7 @@ party 13
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_SPEAROW
-    item 0
+    item ITEM_NONE
     move MOVE_AERIAL_ACE
     move MOVE_FURY_ATTACK
     move MOVE_PURSUIT
@@ -4662,7 +4662,7 @@ party 13
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_TENTACOOL
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_ACID_SPRAY
     move MOVE_WRAP
@@ -4680,10 +4680,10 @@ trainerdata 12, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4693,7 +4693,7 @@ party 12
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_ZUBAT
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_FANG
     move MOVE_AIR_CUTTER
     move MOVE_ABSORB
@@ -4710,7 +4710,7 @@ party 12
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_VOLTORB
-    item 0
+    item ITEM_NONE
     move MOVE_CHARGE_BEAM
     move MOVE_SONIC_BOOM
     move MOVE_SWIFT
@@ -4727,7 +4727,7 @@ party 12
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_DROWZEE
-    item 0
+    item ITEM_NONE
     move MOVE_PSYBEAM
     move MOVE_DREAM_EATER
     move MOVE_HEADBUTT
@@ -4746,10 +4746,10 @@ trainerdata 141, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4759,7 +4759,7 @@ party 141
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_ODDISH
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_ACID
     move MOVE_LEECH_SEED
@@ -4776,7 +4776,7 @@ party 141
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_MEOWTH
-    item 0
+    item ITEM_NONE
     move MOVE_PAY_DAY
     move MOVE_FEINT_ATTACK
     move MOVE_ASSIST
@@ -4793,7 +4793,7 @@ party 141
     abilityslot 0
     level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_GASTLY
-    item 0
+    item ITEM_NONE
     move MOVE_CLEAR_SMOG
     move MOVE_NIGHT_SHADE
     move MOVE_MEAN_LOOK
@@ -4811,10 +4811,10 @@ trainerdata 486, "Proton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4895,10 +4895,10 @@ trainerdata 68, "Al"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -4929,7 +4929,7 @@ party 68
     move MOVE_BUG_BITE
     move MOVE_RAZOR_LEAF
     move MOVE_STRING_SHOT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -4960,10 +4960,10 @@ trainerdata 67, "Benny"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5025,10 +5025,10 @@ trainerdata 69, "Josh"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5091,10 +5091,10 @@ trainerdata 138, "Sammy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5156,10 +5156,10 @@ trainerdata 10, "Amy & Mimi"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TWINS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -5173,7 +5173,7 @@ party 10
     move MOVE_STRUGGLE_BUG
     move MOVE_HELPING_HAND
     move MOVE_MOONLIGHT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -5190,7 +5190,7 @@ party 10
     move MOVE_STRUGGLE_BUG
     move MOVE_HELPING_HAND
     move MOVE_MOONLIGHT
-    move 0
+    move MOVE_NONE
     ability ABILITY_TINTED_LENS
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -5205,10 +5205,10 @@ trainerdata 375, "Anders"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5288,10 +5288,10 @@ trainerdata 107, "Louise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5353,10 +5353,10 @@ trainerdata 21, "Bugsy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BUGSY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5472,10 +5472,10 @@ trainerdata 763, "Pallardo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BURGLAR
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5485,7 +5485,7 @@ party 763
     abilityslot 0
     level 18
     pokemon SPECIES_RATTATA
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_BITE
     move MOVE_QUICK_ATTACK
@@ -5503,10 +5503,10 @@ trainerdata 1, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5602,10 +5602,10 @@ trainerdata 266, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5701,10 +5701,10 @@ trainerdata 269, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5803,10 +5803,10 @@ trainerdata 165, "Wayne"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5816,7 +5816,7 @@ party 165
     abilityslot 0
     level LEVEL_ROUTE_34+1
     pokemon SPECIES_PARASECT
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_BULLET_SEED
     move MOVE_LEECH_SEED
@@ -5836,10 +5836,10 @@ trainerdata 166, "Marianne"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5849,7 +5849,7 @@ party 166
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_FURRET
-    item 0
+    item ITEM_NONE
     move MOVE_SLAM
     move MOVE_BRUTAL_SWING
     move MOVE_QUICK_ATTACK
@@ -5866,7 +5866,7 @@ party 166
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_BULLDOZE
     move MOVE_SLAM
@@ -5883,7 +5883,7 @@ party 166
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_SUNFLORA
-    item 0
+    item ITEM_NONE
     move MOVE_MAGICAL_LEAF
     move MOVE_WEATHER_BALL
     move MOVE_MORNING_SUN
@@ -5903,10 +5903,10 @@ trainerdata 62, "Samuel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5916,7 +5916,7 @@ party 62
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
     move MOVE_PURSUIT
@@ -5933,7 +5933,7 @@ party 62
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_SANDSLASH
-    item 0
+    item ITEM_NONE
     move MOVE_MAGNITUDE
     move MOVE_CRUSH_CLAW
     move MOVE_PIN_MISSILE
@@ -5951,10 +5951,10 @@ trainerdata 65, "Gina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -5964,7 +5964,7 @@ party 65
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_SKIPLOOM
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_ACROBATICS
     move MOVE_LEECH_SEED
@@ -5981,7 +5981,7 @@ party 65
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_ROSELIA
-    item 0
+    item ITEM_NONE
     move MOVE_MAGICAL_LEAF
     move MOVE_POISON_STING
     move MOVE_SLEEP_POWDER
@@ -5998,7 +5998,7 @@ party 65
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_IVYSAUR
-    item 0
+    item ITEM_NONE
     move MOVE_MAGICAL_LEAF
     move MOVE_TAKE_DOWN
     move MOVE_GROWTH
@@ -6016,10 +6016,10 @@ trainerdata 64, "Ian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6029,7 +6029,7 @@ party 64
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_MANKEY
-    item 0
+    item ITEM_NONE
     move MOVE_LOW_KICK
     move MOVE_ASSURANCE
     move MOVE_FURY_SWIPES
@@ -6046,7 +6046,7 @@ party 64
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_DIGLETT
-    item 0
+    item ITEM_NONE
     move MOVE_DIG
     move MOVE_MUD_BOMB
     move MOVE_ASTONISH
@@ -6064,10 +6064,10 @@ trainerdata 409, "Brandon"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6163,10 +6163,10 @@ trainerdata 764, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6245,10 +6245,10 @@ trainerdata 765, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6327,10 +6327,10 @@ trainerdata 766, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6409,10 +6409,10 @@ trainerdata 767, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6491,10 +6491,10 @@ trainerdata 768, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6573,10 +6573,10 @@ trainerdata 769, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6655,10 +6655,10 @@ trainerdata 6, "Keith"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POLICEMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6668,7 +6668,7 @@ party 6
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_GROWLITHE
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_FANG
     move MOVE_TAKE_DOWN
     move MOVE_BITE
@@ -6685,7 +6685,7 @@ party 6
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_ELECTRIKE
-    item 0
+    item ITEM_NONE
     move MOVE_SPARK
     move MOVE_BITE
     move MOVE_SNARL
@@ -6702,7 +6702,7 @@ party 6
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_HERDIER
-    item 0
+    item ITEM_NONE
     move MOVE_TAKE_DOWN
     move MOVE_BITE
     move MOVE_YAWN
@@ -6720,10 +6720,10 @@ trainerdata 66, "Todd"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6733,7 +6733,7 @@ party 66
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_SLUGMA
-    item 0
+    item ITEM_NONE
     move MOVE_LAVA_PLUME
     move MOVE_ANCIENT_POWER
     move MOVE_CLEAR_SMOG
@@ -6750,7 +6750,7 @@ party 66
     abilityslot 0
     level LEVEL_ROUTE_34
     pokemon SPECIES_PSYDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_PULSE
     move MOVE_PSYSHOCK
     move MOVE_DISABLE
@@ -6770,10 +6770,10 @@ trainerdata 417, "Jenn"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6804,7 +6804,7 @@ party 417
     move MOVE_SURF
     move MOVE_SILVER_WIND
     move MOVE_DAZZLING_GLEAM
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -6835,10 +6835,10 @@ trainerdata 120, "Irene"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6900,10 +6900,10 @@ trainerdata 118, "Kate"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6984,10 +6984,10 @@ trainerdata 142, "Gina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -6997,7 +6997,7 @@ party 142
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_WHIMSICOTT
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_MOONBLAST
     move MOVE_HURRICANE
@@ -7014,7 +7014,7 @@ party 142
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_JUMPLUFF
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_ACROBATICS
     move MOVE_U_TURN
@@ -7031,7 +7031,7 @@ party 142
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_VENUSAUR
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_EARTH_POWER
@@ -7049,10 +7049,10 @@ trainerdata 334, "Gina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7062,7 +7062,7 @@ party 334
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_WHIMSICOTT
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_MOONBLAST
     move MOVE_HURRICANE
@@ -7079,7 +7079,7 @@ party 334
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_JUMPLUFF
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_ACROBATICS
     move MOVE_U_TURN
@@ -7096,7 +7096,7 @@ party 334
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_VENUSAUR
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_EARTH_POWER
@@ -7114,10 +7114,10 @@ trainerdata 520, "Gina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7127,7 +7127,7 @@ party 520
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_WHIMSICOTT
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_MOONBLAST
     move MOVE_HURRICANE
@@ -7144,7 +7144,7 @@ party 520
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_JUMPLUFF
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_ACROBATICS
     move MOVE_U_TURN
@@ -7161,7 +7161,7 @@ party 520
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_VENUSAUR
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_EARTH_POWER
@@ -7179,10 +7179,10 @@ trainerdata 616, "Ian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7192,7 +7192,7 @@ party 616
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_PRIMEAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_RAGE_FIST
     move MOVE_PUNISHMENT
@@ -7209,7 +7209,7 @@ party 616
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_SUCKER_PUNCH
@@ -7227,10 +7227,10 @@ trainerdata 617, "Ian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7240,7 +7240,7 @@ party 617
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_PRIMEAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_RAGE_FIST
     move MOVE_PUNISHMENT
@@ -7257,7 +7257,7 @@ party 617
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_SUCKER_PUNCH
@@ -7275,10 +7275,10 @@ trainerdata 618, "Ian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7288,7 +7288,7 @@ party 618
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_PRIMEAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_RAGE_FIST
     move MOVE_PUNISHMENT
@@ -7305,7 +7305,7 @@ party 618
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_SUCKER_PUNCH
@@ -7323,10 +7323,10 @@ trainerdata 274, "Todd"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7336,7 +7336,7 @@ party 274
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ZEN_HEADBUTT
     move MOVE_POWER_GEM
@@ -7353,7 +7353,7 @@ party 274
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MAGCARGO
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
@@ -7370,7 +7370,7 @@ party 274
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_DOUBLE_EDGE
@@ -7388,10 +7388,10 @@ trainerdata 275, "Todd"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7401,7 +7401,7 @@ party 275
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ZEN_HEADBUTT
     move MOVE_POWER_GEM
@@ -7418,7 +7418,7 @@ party 275
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MAGCARGO
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
@@ -7435,7 +7435,7 @@ party 275
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_DOUBLE_EDGE
@@ -7453,10 +7453,10 @@ trainerdata 525, "Todd"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7466,7 +7466,7 @@ party 525
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ZEN_HEADBUTT
     move MOVE_POWER_GEM
@@ -7483,7 +7483,7 @@ party 525
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MAGCARGO
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
@@ -7500,7 +7500,7 @@ party 525
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_DOUBLE_EDGE
@@ -7521,10 +7521,10 @@ trainerdata 158, "Kiyo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7588,10 +7588,10 @@ trainerdata 233, "Eric"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7601,7 +7601,7 @@ party 233
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_GRIMER, 1
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_FANG
     move MOVE_KNOCK_OFF
     move MOVE_PURSUIT
@@ -7618,7 +7618,7 @@ party 233
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_TRUBBISH
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE
     move MOVE_DOUBLE_SLAP
     move MOVE_CLEAR_SMOG
@@ -7636,10 +7636,10 @@ trainerdata 391, "Issac"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7649,7 +7649,7 @@ party 391
     abilityslot 0
     level LEVEL_ROUTE_35+1
     pokemon SPECIES_LICKITUNG
-    item 0
+    item ITEM_NONE
     move MOVE_CUT
     move MOVE_KNOCK_OFF
     move MOVE_SUPERSONIC
@@ -7667,10 +7667,10 @@ trainerdata 393, "Teru"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7680,7 +7680,7 @@ party 393
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_MAGNEMITE
-    item 0
+    item ITEM_NONE
     move MOVE_CHARGE_BEAM
     move MOVE_MIRROR_SHOT
     move MOVE_SONIC_BOOM
@@ -7697,7 +7697,7 @@ party 393
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_VOLTORB
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_SWIFT
     move MOVE_SONIC_BOOM
@@ -7714,7 +7714,7 @@ party 393
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_PORYGON
-    item 0
+    item ITEM_NONE
     move MOVE_SWIFT
     move MOVE_PSYBEAM
     move MOVE_CHARGE_BEAM
@@ -7732,10 +7732,10 @@ trainerdata 392, "Donald"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7745,7 +7745,7 @@ party 392
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_SLOWPOKE, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ACID
     move MOVE_ZEN_HEADBUTT
     move MOVE_WATER_PULSE
@@ -7762,7 +7762,7 @@ party 392
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_NIDORINO
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_STING
     move MOVE_FURY_ATTACK
     move MOVE_DOUBLE_KICK
@@ -7782,10 +7782,10 @@ trainerdata 77, "Kim"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7795,7 +7795,7 @@ party 77
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_VULPIX, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ICY_WIND
     move MOVE_HEX
     move MOVE_MIST
@@ -7812,7 +7812,7 @@ party 77
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_GLOOM
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_VENOSHOCK
     move MOVE_STUN_SPORE
@@ -7829,7 +7829,7 @@ party 77
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_PACHIRISU
-    item 0
+    item ITEM_NONE
     move MOVE_SPARK
     move MOVE_HYPER_FANG
     move MOVE_CHARM
@@ -7847,10 +7847,10 @@ trainerdata 74, "Ivan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7860,7 +7860,7 @@ party 74
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_DIGLETT, 1
-    item 0
+    item ITEM_NONE
     move MOVE_DIG
     move MOVE_METAL_CLAW
     move MOVE_SUCKER_PUNCH
@@ -7877,7 +7877,7 @@ party 74
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_WEEPINBELL
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID_SPRAY
     move MOVE_SLAM
@@ -7894,7 +7894,7 @@ party 74
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_WARTORTLE
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_RAPID_SPIN
     move MOVE_PROTECT
@@ -7912,10 +7912,10 @@ trainerdata 75, "Elliot"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7925,7 +7925,7 @@ party 75
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_SANDSHREW, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ICE_BALL
     move MOVE_METAL_CLAW
     move MOVE_FURY_SWIPES
@@ -7942,7 +7942,7 @@ party 75
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_BUIZEL
-    item 0
+    item ITEM_NONE
     move MOVE_DIVE
     move MOVE_BITE
     move MOVE_SONIC_BOOM
@@ -7959,7 +7959,7 @@ party 75
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_LINOONE
-    item 0
+    item ITEM_NONE
     move MOVE_TAKE_DOWN
     move MOVE_COVET
     move MOVE_PIN_MISSILE
@@ -7977,10 +7977,10 @@ trainerdata 76, "Brooke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -7990,7 +7990,7 @@ party 76
     abilityslot 0
     level LEVEL_ROUTE_35 + 1
     monwithform SPECIES_RAICHU, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_PSYCHIC
     move MOVE_DOUBLE_KICK
@@ -8008,10 +8008,10 @@ trainerdata 7, "Irwin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8021,11 +8021,11 @@ party 7
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_VOLTORB
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_SONIC_BOOM
     move MOVE_SELF_DESTRUCT
-    move 0
+    move MOVE_NONE
     ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -8038,11 +8038,11 @@ party 7
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_VOLTORB, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_BULLET_SEED
     move MOVE_SELF_DESTRUCT
-    move 0
+    move MOVE_NONE
     ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -8055,11 +8055,11 @@ party 7
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_VOLTORB
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_SONIC_BOOM
     move MOVE_SELF_DESTRUCT
-    move 0
+    move MOVE_NONE
     ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -8072,11 +8072,11 @@ party 7
     abilityslot 0
     level LEVEL_ROUTE_35
     monwithform SPECIES_VOLTORB, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_BULLET_SEED
     move MOVE_SELF_DESTRUCT
-    move 0
+    move MOVE_NONE
     ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -8090,10 +8090,10 @@ trainerdata 388, "Walt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8103,7 +8103,7 @@ party 388
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_TORKOAL
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CLEAR_SMOG
     move MOVE_WITHDRAW
@@ -8120,7 +8120,7 @@ party 388
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_CHARMELEON
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_DRAGON_RAGE
     move MOVE_METAL_CLAW
@@ -8137,7 +8137,7 @@ party 388
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_MAGMAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CLEAR_SMOG
     move MOVE_LOW_KICK
@@ -8157,10 +8157,10 @@ trainerdata 167, "Jackie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8222,10 +8222,10 @@ trainerdata 80, "Dirk"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POLICEMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8235,7 +8235,7 @@ party 80
     abilityslot 0
     level LEVEL_ROUTE_35+1
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_UPROAR
     move MOVE_AIR_SLASH
     move MOVE_EXTRASENSORY
@@ -8253,10 +8253,10 @@ trainerdata 78, "Arnie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8266,7 +8266,7 @@ party 78
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_VENONAT
-    item 0
+    item ITEM_NONE
     move MOVE_LEECH_LIFE
     move MOVE_POISON_FANG
     move MOVE_PSYBEAM
@@ -8283,7 +8283,7 @@ party 78
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_KRICKETUNE
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_SLASH
     move MOVE_SCREECH
@@ -8300,7 +8300,7 @@ party 78
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_NINJASK
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_AERIAL_ACE
     move MOVE_METAL_CLAW
@@ -8318,10 +8318,10 @@ trainerdata 72, "Bryan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8402,10 +8402,10 @@ trainerdata 454, "Irwin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8415,7 +8415,7 @@ party 454
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8432,7 +8432,7 @@ party 454
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8449,7 +8449,7 @@ party 454
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8467,10 +8467,10 @@ trainerdata 455, "Irwin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8480,7 +8480,7 @@ party 455
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8497,7 +8497,7 @@ party 455
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8514,7 +8514,7 @@ party 455
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8532,10 +8532,10 @@ trainerdata 527, "Irwin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8545,7 +8545,7 @@ party 527
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8562,7 +8562,7 @@ party 527
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8579,7 +8579,7 @@ party 527
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_VOLT_SWITCH
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
@@ -8597,10 +8597,10 @@ trainerdata 619, "Walt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8610,7 +8610,7 @@ party 619
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_TORKOAL
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_BODY_SLAM
     move MOVE_BODY_PRESS
@@ -8627,7 +8627,7 @@ party 619
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -8644,7 +8644,7 @@ party 619
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -8662,10 +8662,10 @@ trainerdata 620, "Walt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8675,7 +8675,7 @@ party 620
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_TORKOAL
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_BODY_SLAM
     move MOVE_BODY_PRESS
@@ -8692,7 +8692,7 @@ party 620
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -8709,7 +8709,7 @@ party 620
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -8727,10 +8727,10 @@ trainerdata 621, "Walt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8740,7 +8740,7 @@ party 621
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_TORKOAL
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_BODY_SLAM
     move MOVE_BODY_PRESS
@@ -8757,7 +8757,7 @@ party 621
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -8774,7 +8774,7 @@ party 621
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -8792,10 +8792,10 @@ trainerdata 360, "Arnie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8805,7 +8805,7 @@ party 360
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_PSYCHIC
@@ -8822,7 +8822,7 @@ party 360
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_CRUSTLE
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_STONE_EDGE
     move MOVE_NIGHT_SLASH
@@ -8839,7 +8839,7 @@ party 360
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_NINJASK
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_ACROBATICS
     move MOVE_METAL_CLAW
@@ -8857,10 +8857,10 @@ trainerdata 449, "Arnie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8870,7 +8870,7 @@ party 449
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_PSYCHIC
@@ -8887,7 +8887,7 @@ party 449
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_CRUSTLE
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_STONE_EDGE
     move MOVE_NIGHT_SLASH
@@ -8904,7 +8904,7 @@ party 449
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NINJASK
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_ACROBATICS
     move MOVE_METAL_CLAW
@@ -8922,10 +8922,10 @@ trainerdata 513, "Arnie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -8935,7 +8935,7 @@ party 513
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_PSYCHIC
@@ -8952,7 +8952,7 @@ party 513
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_CRUSTLE
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_STONE_EDGE
     move MOVE_NIGHT_SLASH
@@ -8969,7 +8969,7 @@ party 513
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NINJASK
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_ACROBATICS
     move MOVE_METAL_CLAW
@@ -8989,10 +8989,10 @@ trainerdata 182, "Beverly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9020,10 +9020,10 @@ trainerdata 178, "Jack"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9033,9 +9033,9 @@ party 178
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_MIMEJR
-    item 0
+    item ITEM_NONE
     move MOVE_PSYBEAM
-    move 0
+    move MOVE_NONE
     move MOVE_BARRIER
     move MOVE_TICKLE
     ability ABILITY_TECHNICIAN
@@ -9050,7 +9050,7 @@ party 178
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_HATENNA
-    item 0
+    item ITEM_NONE
     move MOVE_PSYBEAM
     move MOVE_DRAINING_KISS
     move MOVE_LIFE_DEW
@@ -9067,7 +9067,7 @@ party 178
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_GROWLITHE
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_FANG
     move MOVE_TAKE_DOWN
     move MOVE_BITE
@@ -9085,10 +9085,10 @@ trainerdata 181, "William"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9116,10 +9116,10 @@ trainerdata 184, "Krise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9129,7 +9129,7 @@ party 184
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_CUBONE
-    item 0
+    item ITEM_NONE
     move MOVE_BONEMERANG
     move MOVE_ROCK_SMASH
     move MOVE_RAGE
@@ -9146,7 +9146,7 @@ party 184
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_BUNEARY
-    item 0
+    item ITEM_NONE
     move MOVE_DIZZY_PUNCH
     move MOVE_JUMP_KICK
     move MOVE_FAKE_OUT
@@ -9163,7 +9163,7 @@ party 184
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_GLOOM
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_VENOSHOCK
     move MOVE_GROWTH
@@ -9183,10 +9183,10 @@ trainerdata 436, "Beverly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9214,10 +9214,10 @@ trainerdata 437, "Beverly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9245,10 +9245,10 @@ trainerdata 611, "Beverly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9276,10 +9276,10 @@ trainerdata 430, "Jack"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9289,7 +9289,7 @@ party 430
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_BARRIER
@@ -9306,7 +9306,7 @@ party 430
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_PSYCHIC
     move MOVE_HYPNOSIS
@@ -9323,7 +9323,7 @@ party 430
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_CRUNCH
@@ -9341,10 +9341,10 @@ trainerdata 431, "Jack"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9354,7 +9354,7 @@ party 431
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_BARRIER
@@ -9371,7 +9371,7 @@ party 431
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_PSYCHIC
     move MOVE_HYPNOSIS
@@ -9388,7 +9388,7 @@ party 431
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_CRUNCH
@@ -9406,10 +9406,10 @@ trainerdata 503, "Jack"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9419,7 +9419,7 @@ party 503
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_BARRIER
@@ -9436,7 +9436,7 @@ party 503
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_PSYCHIC
     move MOVE_HYPNOSIS
@@ -9453,7 +9453,7 @@ party 503
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_CRUNCH
@@ -9471,10 +9471,10 @@ trainerdata 613, "Krise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9501,7 +9501,7 @@ party 613
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_LOPUNNY
-    item 0
+    item ITEM_NONE
     move MOVE_RETURN
     move MOVE_JUMP_KICK
     move MOVE_FAKE_OUT
@@ -9518,7 +9518,7 @@ party 613
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_VILEPLUME
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_VENOSHOCK
     move MOVE_STUN_SPORE
@@ -9536,10 +9536,10 @@ trainerdata 614, "Krise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9566,7 +9566,7 @@ party 614
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_LOPUNNY
-    item 0
+    item ITEM_NONE
     move MOVE_RETURN
     move MOVE_JUMP_KICK
     move MOVE_FAKE_OUT
@@ -9583,7 +9583,7 @@ party 614
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_VILEPLUME
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_VENOSHOCK
     move MOVE_STUN_SPORE
@@ -9601,10 +9601,10 @@ trainerdata 615, "Krise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9631,7 +9631,7 @@ party 615
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_LOPUNNY
-    item 0
+    item ITEM_NONE
     move MOVE_RETURN
     move MOVE_JUMP_KICK
     move MOVE_FAKE_OUT
@@ -9648,7 +9648,7 @@ party 615
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_VILEPLUME
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_VENOSHOCK
     move MOVE_STUN_SPORE
@@ -9668,10 +9668,10 @@ trainerdata 395, "Mark"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9733,10 +9733,10 @@ trainerdata 24, "Alan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9746,7 +9746,7 @@ party 24
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_YANMA
-    item 0
+    item ITEM_NONE
     move MOVE_SILVER_WIND
     move MOVE_AIR_CUTTER
     move MOVE_SONIC_BOOM
@@ -9763,7 +9763,7 @@ party 24
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_KIRLIA
-    item 0
+    item ITEM_NONE
     move MOVE_PSYBEAM
     move MOVE_DRAINING_KISS
     move MOVE_MAGICAL_LEAF
@@ -9780,7 +9780,7 @@ party 24
     abilityslot 0
     level LEVEL_ROUTE_35
     pokemon SPECIES_TANGELA
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_BIND
     move MOVE_INGRAIN
@@ -9800,10 +9800,10 @@ trainerdata 432, "Alan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9813,7 +9813,7 @@ party 432
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_XATU
-    item 0
+    item ITEM_NONE
     move MOVE_PSYSHOCK
     move MOVE_AIR_SLASH
     move MOVE_OMINOUS_WIND
@@ -9830,7 +9830,7 @@ party 432
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_YANMEGA
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_ANCIENT_POWER
@@ -9847,7 +9847,7 @@ party 432
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_EERIE_IMPULSE
@@ -9864,7 +9864,7 @@ party 432
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_TANGROWTH
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_EARTHQUAKE
     move MOVE_ANCIENT_POWER
@@ -9882,10 +9882,10 @@ trainerdata 433, "Alan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9895,7 +9895,7 @@ party 433
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_XATU
-    item 0
+    item ITEM_NONE
     move MOVE_PSYSHOCK
     move MOVE_AIR_SLASH
     move MOVE_OMINOUS_WIND
@@ -9912,7 +9912,7 @@ party 433
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_YANMEGA
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_ANCIENT_POWER
@@ -9929,7 +9929,7 @@ party 433
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_EERIE_IMPULSE
@@ -9946,7 +9946,7 @@ party 433
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_TANGROWTH
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_EARTHQUAKE
     move MOVE_ANCIENT_POWER
@@ -9964,10 +9964,10 @@ trainerdata 505, "Alan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -9977,7 +9977,7 @@ party 505
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_XATU
-    item 0
+    item ITEM_NONE
     move MOVE_PSYSHOCK
     move MOVE_AIR_SLASH
     move MOVE_OMINOUS_WIND
@@ -9994,7 +9994,7 @@ party 505
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_YANMEGA
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_ANCIENT_POWER
@@ -10011,7 +10011,7 @@ party 505
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_EERIE_IMPULSE
@@ -10028,7 +10028,7 @@ party 505
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_TANGROWTH
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_EARTHQUAKE
     move MOVE_ANCIENT_POWER
@@ -10048,10 +10048,10 @@ trainerdata 5, "Victoria"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10113,10 +10113,10 @@ trainerdata 70, "Samantha"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10161,10 +10161,10 @@ trainerdata 22, "Carrie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10227,10 +10227,10 @@ trainerdata 168, "Chester"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10292,10 +10292,10 @@ trainerdata 169, "Hilda"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10357,10 +10357,10 @@ trainerdata 71, "Cathy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10388,10 +10388,10 @@ trainerdata 30, "Whitney"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_WHITNEY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10506,10 +10506,10 @@ trainerdata 386, "Greg"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10537,10 +10537,10 @@ trainerdata 81, "Tori & Til"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TWINS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -10550,7 +10550,7 @@ party 81
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_PLUSLE
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_SWIFT
     move MOVE_CHARM
@@ -10567,7 +10567,7 @@ party 81
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_MINUN
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_SWIFT
     move MOVE_CHARM
@@ -10585,10 +10585,10 @@ trainerdata 679, "Callie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10598,7 +10598,7 @@ party 679
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_SPRITZEE
-    item 0
+    item ITEM_NONE
     move MOVE_DRAINING_KISS
     move MOVE_SWEET_KISS
     move MOVE_ATTRACT
@@ -10615,7 +10615,7 @@ party 679
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_SWIRLIX
-    item 0
+    item ITEM_NONE
     move MOVE_DRAINING_KISS
     move MOVE_STRING_SHOT
     move MOVE_FAKE_TEARS
@@ -10632,7 +10632,7 @@ party 679
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_AROMATISSE
-    item 0
+    item ITEM_NONE
     move MOVE_DRAINING_KISS
     move MOVE_CHARGE_BEAM
     move MOVE_SWEET_KISS
@@ -10650,10 +10650,10 @@ trainerdata 680, "Kassandra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10663,7 +10663,7 @@ party 680
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_SWIRLIX
-    item 0
+    item ITEM_NONE
     move MOVE_DRAINING_KISS
     move MOVE_STRING_SHOT
     move MOVE_FAKE_TEARS
@@ -10680,7 +10680,7 @@ party 680
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_SPRITZEE
-    item 0
+    item ITEM_NONE
     move MOVE_DRAINING_KISS
     move MOVE_SWEET_KISS
     move MOVE_ATTRACT
@@ -10697,7 +10697,7 @@ party 680
     abilityslot 0
     level LEVEL_ROUTE_37
     pokemon SPECIES_SLURPUFF
-    item 0
+    item ITEM_NONE
     move MOVE_DRAINING_KISS
     move MOVE_YAWN
     move MOVE_FAKE_TEARS
@@ -10718,10 +10718,10 @@ trainerdata 869, "Bandy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10731,7 +10731,7 @@ party 869
     abilityslot 0
     level LEVEL_ROUTE_42 + 1
     pokemon SPECIES_SNEASEL
-    item 0
+    item ITEM_NONE
     move MOVE_ICY_WIND
     move MOVE_SNARL
     move MOVE_SURF
@@ -10748,7 +10748,7 @@ party 869
     abilityslot 0
     level LEVEL_ROUTE_42 + 1
     pokemon SPECIES_KADABRA
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHO_CUT
     move MOVE_THUNDER_PUNCH
     move MOVE_FIRE_PUNCH
@@ -10765,7 +10765,7 @@ party 869
     abilityslot 0
     level LEVEL_ROUTE_42 + 1
     pokemon SPECIES_GABITE
-    item 0
+    item ITEM_NONE
     move MOVE_SCORCHING_SANDS
     move MOVE_DRAGON_BREATH
     move MOVE_INCINERATE
@@ -10782,7 +10782,7 @@ party 869
     abilityslot 0
     level LEVEL_ROUTE_42 + 1
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_SCALD
     move MOVE_HIDDEN_POWER
     move MOVE_DARK_PULSE
@@ -10801,10 +10801,10 @@ trainerdata 870, "Ultro"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10814,11 +10814,11 @@ party 870
     abilityslot 0
     level LEVEL_JASMINE
     pokemon SPECIES_ARCHEOPS
-    item 0
+    item ITEM_NONE
     move MOVE_U_TURN
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_DEFEATIST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -10833,10 +10833,10 @@ trainerdata 871, "Ultro"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10846,11 +10846,11 @@ party 871
     abilityslot 0
     level LEVEL_CLAIR
     pokemon SPECIES_POIPOLE
-    item 0
+    item ITEM_NONE
     move MOVE_PROTECT
     move MOVE_TOXIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_BEAST_BOOST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -10866,10 +10866,10 @@ trainerdata 601, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10879,7 +10879,7 @@ party 601
     abilityslot 0
     level LEVEL_ROUTE_42
     pokemon SPECIES_HOUNDOUR
-    item 0
+    item ITEM_NONE
     move MOVE_INCINERATE
     move MOVE_CRUNCH
     move MOVE_SMOG
@@ -10896,7 +10896,7 @@ party 601
     abilityslot 0
     level LEVEL_ROUTE_42
     pokemon SPECIES_KOFFING
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_GYRO_BALL
     move MOVE_POISON_GAS
@@ -10913,7 +10913,7 @@ party 601
     abilityslot 0
     level LEVEL_ROUTE_42
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
     move MOVE_REVERSAL
@@ -10933,10 +10933,10 @@ trainerdata 537, "Harrison"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -10946,7 +10946,7 @@ party 537
     abilityslot 0
     level LEVEL_ROUTE_42
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_DOUBLE_KICK
@@ -10963,7 +10963,7 @@ party 537
     abilityslot 0
     level LEVEL_ROUTE_42
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_DRILL_RUN
     move MOVE_DOUBLE_KICK
@@ -10982,10 +10982,10 @@ trainerdata 376, "Mathis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11064,10 +11064,10 @@ trainerdata 539, "Markus"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11077,7 +11077,7 @@ party 539
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_SLOWKING
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_PSYSHOCK
     move MOVE_STRENGTH
@@ -11096,10 +11096,10 @@ trainerdata 170, "Luke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11160,7 +11160,7 @@ party 170
     abilityslot 0
     level LEVEL_ROUTE_42+2
     pokemon SPECIES_HOUNDOOM
-    item 0
+    item ITEM_NONE
     move MOVE_FLAME_CHARGE
     move MOVE_CRUNCH
     move MOVE_TRAILBLAZE
@@ -11179,10 +11179,10 @@ trainerdata 538, "Hugh"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11192,7 +11192,7 @@ party 538
     abilityslot 0
     level LEVEL_CLAIR
     pokemon SPECIES_KINGDRA
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_WATERFALL
     move MOVE_DRAGON_PULSE
@@ -11212,10 +11212,10 @@ trainerdata 123, "Tully"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11225,7 +11225,7 @@ party 123
     abilityslot 0
     level LEVEL_ROUTE_42+2
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_BARB_BARRAGE
     move MOVE_FELL_STINGER
     move MOVE_AQUA_JET
@@ -11243,10 +11243,10 @@ trainerdata 129, "Shane"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11256,7 +11256,7 @@ party 129
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_PUPITAR
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_BULLDOZE
     move MOVE_PAYBACK
@@ -11273,7 +11273,7 @@ party 129
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_CLODSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_BULLDOZE
     move MOVE_MEGAHORN
@@ -11290,7 +11290,7 @@ party 129
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_BRINE
     move MOVE_BITE
     move MOVE_THRASH
@@ -11308,10 +11308,10 @@ trainerdata 134, "Benjamin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11321,7 +11321,7 @@ party 134
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_GRAVELER
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_MAGNITUDE
     move MOVE_STEALTH_ROCK
@@ -11338,7 +11338,7 @@ party 134
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_LAIRON
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_IRON_HEAD
     move MOVE_TAKE_DOWN
@@ -11355,7 +11355,7 @@ party 134
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_BOLDORE
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_MUD_SLAP
     move MOVE_STEALTH_ROCK
@@ -11372,7 +11372,7 @@ party 134
     abilityslot 0
     level LEVEL_ROUTE_42+1
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_DIG
     move MOVE_TRI_ATTACK
     move MOVE_NIGHT_SLASH
@@ -11392,10 +11392,10 @@ trainerdata 323, "Tully"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11405,7 +11405,7 @@ party 323
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_BASCULIN
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_DOUBLE_EDGE
@@ -11422,7 +11422,7 @@ party 323
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_PIN_MISSILE
     move MOVE_AQUA_TAIL
@@ -11439,7 +11439,7 @@ party 323
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_POISON_JAB
     move MOVE_MEGAHORN
@@ -11456,7 +11456,7 @@ party 323
     abilityslot 0
     level REMATCH_LEVEL_1
     monwithform SPECIES_BASCULIN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_DOUBLE_EDGE
@@ -11474,10 +11474,10 @@ trainerdata 324, "Tully"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11487,7 +11487,7 @@ party 324
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_BASCULIN
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_DOUBLE_EDGE
@@ -11504,7 +11504,7 @@ party 324
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_PIN_MISSILE
     move MOVE_AQUA_TAIL
@@ -11521,7 +11521,7 @@ party 324
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_POISON_JAB
     move MOVE_MEGAHORN
@@ -11538,7 +11538,7 @@ party 324
     abilityslot 0
     level REMATCH_LEVEL_2
     monwithform SPECIES_BASCULIN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_DOUBLE_EDGE
@@ -11556,10 +11556,10 @@ trainerdata 517, "Tully"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11569,7 +11569,7 @@ party 517
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_BASCULIN
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_DOUBLE_EDGE
@@ -11586,7 +11586,7 @@ party 517
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_PIN_MISSILE
     move MOVE_AQUA_TAIL
@@ -11603,7 +11603,7 @@ party 517
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_POISON_JAB
     move MOVE_MEGAHORN
@@ -11620,7 +11620,7 @@ party 517
     abilityslot 0
     level REMATCH_LEVEL_3
     monwithform SPECIES_BASCULIN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_DOUBLE_EDGE
@@ -11640,10 +11640,10 @@ trainerdata 405, "Phil"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11722,10 +11722,10 @@ trainerdata 124, "Wilton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11735,7 +11735,7 @@ party 124
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_POISON_JAB
     move MOVE_SCALE_SHOT
@@ -11753,10 +11753,10 @@ trainerdata 125, "Edgar"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11766,7 +11766,7 @@ party 125
     abilityslot 0
     level LEVEL_ROUTE_44
     pokemon SPECIES_REMORAID
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_ACID_SPRAY
     move MOVE_MUD_SHOT
@@ -11783,7 +11783,7 @@ party 125
     abilityslot 0
     level LEVEL_ROUTE_44
     pokemon SPECIES_REMORAID
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_ACID_SPRAY
     move MOVE_MUD_SHOT
@@ -11800,7 +11800,7 @@ party 125
     abilityslot 0
     level LEVEL_ROUTE_44
     pokemon SPECIES_OCTILLERY
-    item 0
+    item ITEM_NONE
     move MOVE_OCTAZOOKA
     move MOVE_AURORA_BEAM
     move MOVE_SIGNAL_BEAM
@@ -11818,10 +11818,10 @@ trainerdata 406, "Zach"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11831,7 +11831,7 @@ party 406
     abilityslot 0
     level LEVEL_ROUTE_44
     pokemon SPECIES_RHYHORN
-    item 0
+    item ITEM_NONE
     move MOVE_DRILL_RUN
     move MOVE_ROCK_SLIDE
     move MOVE_FURY_ATTACK
@@ -11848,7 +11848,7 @@ party 406
     abilityslot 0
     level LEVEL_ROUTE_44
     pokemon SPECIES_BASTIODON
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_BLAST
     move MOVE_METAL_BURST
     move MOVE_STEALTH_ROCK
@@ -11865,7 +11865,7 @@ party 406
     abilityslot 0
     level LEVEL_ROUTE_44
     pokemon SPECIES_RAMPARDOS
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_ASSURANCE
     move MOVE_HAMMER_ARM
@@ -11883,10 +11883,10 @@ trainerdata 137, "Vance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -11948,10 +11948,10 @@ trainerdata 407, "Allen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12014,10 +12014,10 @@ trainerdata 408, "Cybil"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12081,10 +12081,10 @@ trainerdata 325, "Wilton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12094,7 +12094,7 @@ party 325
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12111,7 +12111,7 @@ party 325
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12128,7 +12128,7 @@ party 325
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12146,10 +12146,10 @@ trainerdata 450, "Wilton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12159,7 +12159,7 @@ party 450
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12176,7 +12176,7 @@ party 450
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12193,7 +12193,7 @@ party 450
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12211,10 +12211,10 @@ trainerdata 608, "Wilton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12224,7 +12224,7 @@ party 608
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12241,7 +12241,7 @@ party 608
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12258,7 +12258,7 @@ party 608
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -12276,10 +12276,10 @@ trainerdata 447, "Vance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12289,7 +12289,7 @@ party 447
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_ALTARIA
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_DUAL_WINGBEAT
     move MOVE_DRAGON_PULSE
@@ -12306,7 +12306,7 @@ party 447
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_DELIBIRD
-    item 0
+    item ITEM_NONE
     move MOVE_FREEZE_DRY
     move MOVE_DRILL_PECK
     move MOVE_ICE_SHARD
@@ -12321,9 +12321,9 @@ party 447
 
     ivs 0
     abilityslot 0
-    level 28
+    level REMATCH_LEVEL_1
     pokemon SPECIES_NOCTOWL
-    item REMATCH_LEVEL_1
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HURRICANE
     move MOVE_OMINOUS_WIND
@@ -12341,10 +12341,10 @@ trainerdata 448, "Vance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12354,7 +12354,7 @@ party 448
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ALTARIA
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_DUAL_WINGBEAT
     move MOVE_DRAGON_PULSE
@@ -12371,7 +12371,7 @@ party 448
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_DELIBIRD
-    item 0
+    item ITEM_NONE
     move MOVE_FREEZE_DRY
     move MOVE_DRILL_PECK
     move MOVE_ICE_SHARD
@@ -12386,9 +12386,9 @@ party 448
 
     ivs 0
     abilityslot 0
-    level 28
+    level REMATCH_LEVEL_2
     pokemon SPECIES_NOCTOWL
-    item REMATCH_LEVEL_2
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HURRICANE
     move MOVE_OMINOUS_WIND
@@ -12406,10 +12406,10 @@ trainerdata 612, "Vance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12419,7 +12419,7 @@ party 612
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ALTARIA
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_DUAL_WINGBEAT
     move MOVE_DRAGON_PULSE
@@ -12436,7 +12436,7 @@ party 612
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_DELIBIRD
-    item 0
+    item ITEM_NONE
     move MOVE_FREEZE_DRY
     move MOVE_DRILL_PECK
     move MOVE_ICE_SHARD
@@ -12451,9 +12451,9 @@ party 612
 
     ivs 0
     abilityslot 0
-    level 28
+    level REMATCH_LEVEL_3
     pokemon SPECIES_NOCTOWL
-    item REMATCH_LEVEL_3
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HURRICANE
     move MOVE_OMINOUS_WIND
@@ -12474,10 +12474,10 @@ trainerdata 813, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12487,7 +12487,7 @@ party 813
     abilityslot 0
     level LEVEL_ROUTE_44+2
     monwithform SPECIES_RATICATE, 1
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_KNOCK_OFF
     move MOVE_SUPER_FANG
@@ -12504,7 +12504,7 @@ party 813
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_FELL_STINGER
     move MOVE_POISON_JAB
     move MOVE_FRUSTRATION
@@ -12521,7 +12521,7 @@ party 813
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_PRIMEAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_FRUSTRATION
     move MOVE_ASSURANCE
@@ -12540,10 +12540,10 @@ trainerdata 814, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12553,7 +12553,7 @@ party 814
     abilityslot 0
     level LEVEL_ROUTE_44+2
     monwithform SPECIES_PERSIAN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_FOUL_PLAY
     move MOVE_POWER_GEM
     move MOVE_FRUSTRATION
@@ -12570,7 +12570,7 @@ party 814
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_ARBOK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_CRUNCH
     move MOVE_FIRE_FANG
@@ -12587,7 +12587,7 @@ party 814
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_FEAROW
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_DRILL_PECK
     move MOVE_DRILL_RUN
@@ -12606,10 +12606,10 @@ trainerdata 770, "Will"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_WILL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12707,10 +12707,10 @@ trainerdata 263, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12806,10 +12806,10 @@ trainerdata 267, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -12905,10 +12905,10 @@ trainerdata 270, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13004,10 +13004,10 @@ trainerdata 282, "Ned"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13017,7 +13017,7 @@ party 282
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_MAGCARGO
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_ANCIENT_POWER
     move MOVE_CLEAR_SMOG
@@ -13035,10 +13035,10 @@ trainerdata 281, "Richard"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13048,7 +13048,7 @@ party 281
     abilityslot 0
     level LEVEL_ROUTE_44+2
     pokemon SPECIES_CAMERUPT
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_EARTH_POWER
     move MOVE_ROCK_SLIDE
@@ -13068,10 +13068,10 @@ trainerdata 494, "Georgina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MEDIUM
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13133,10 +13133,10 @@ trainerdata 89, "Grace"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MEDIUM
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13198,10 +13198,10 @@ trainerdata 493, "Edith"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MEDIUM
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13263,10 +13263,10 @@ trainerdata 46, "Martha"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MEDIUM
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13329,10 +13329,10 @@ trainerdata 504, "Ping"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13378,10 +13378,10 @@ trainerdata 506, "Jeffrey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13426,10 +13426,10 @@ trainerdata 31, "Morty"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_MORTY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13546,10 +13546,10 @@ trainerdata 105, "Foster"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13559,11 +13559,11 @@ party 105
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_SANDSHREW
-    item 0
+    item ITEM_NONE
     move MOVE_FURY_CUTTER
     move MOVE_SAND_ATTACK
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -13576,11 +13576,11 @@ party 105
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BALTOY
-    item 0
+    item ITEM_NONE
     move MOVE_CONFUSION
     move MOVE_MUD_SLAP
     move MOVE_POWER_TRICK
-    move 0
+    move MOVE_NONE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -13593,11 +13593,11 @@ party 105
     abilityslot 0
     level LEVEL_VIOLET_CITY
     pokemon SPECIES_BRONZOR
-    item 0
+    item ITEM_NONE
     move MOVE_CONFUSION
     move MOVE_CONFUSE_RAY
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -13611,10 +13611,10 @@ trainerdata 42, "Nathan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13645,10 +13645,10 @@ trainerdata 410, "Harry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13710,10 +13710,10 @@ trainerdata 82, "Toby"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13775,10 +13775,10 @@ trainerdata 398, "Valerie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13840,10 +13840,10 @@ trainerdata 400, "Dana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13888,10 +13888,10 @@ trainerdata 397, "Chad"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -13936,10 +13936,10 @@ trainerdata 524, "Olivia"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14003,10 +14003,10 @@ trainerdata 464, "Dana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14016,7 +14016,7 @@ party 464
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_PSYSHOCK
     move MOVE_DISABLE
@@ -14033,7 +14033,7 @@ party 464
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_ROSERADE
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_VENOSHOCK
     move MOVE_LEECH_SEED
@@ -14050,7 +14050,7 @@ party 464
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_AMPHAROS
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_POWER_GEM
     move MOVE_SIGNAL_BEAM
@@ -14068,10 +14068,10 @@ trainerdata 465, "Dana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14081,7 +14081,7 @@ party 465
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_PSYSHOCK
     move MOVE_DISABLE
@@ -14098,7 +14098,7 @@ party 465
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ROSERADE
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_VENOSHOCK
     move MOVE_LEECH_SEED
@@ -14115,7 +14115,7 @@ party 465
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_AMPHAROS
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_POWER_GEM
     move MOVE_SIGNAL_BEAM
@@ -14133,10 +14133,10 @@ trainerdata 528, "Dana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14146,7 +14146,7 @@ party 528
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_PSYSHOCK
     move MOVE_DISABLE
@@ -14163,7 +14163,7 @@ party 528
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ROSERADE
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_VENOSHOCK
     move MOVE_LEECH_SEED
@@ -14180,7 +14180,7 @@ party 528
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_AMPHAROS
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_POWER_GEM
     move MOVE_SIGNAL_BEAM
@@ -14198,10 +14198,10 @@ trainerdata 434, "Chad"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14211,7 +14211,7 @@ party 434
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MAGNETON
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
     move MOVE_TRI_ATTACK
@@ -14228,7 +14228,7 @@ party 434
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_MAGICAL_LEAF
@@ -14246,10 +14246,10 @@ trainerdata 435, "Chad"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14259,7 +14259,7 @@ party 435
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MAGNETON
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
     move MOVE_TRI_ATTACK
@@ -14276,7 +14276,7 @@ party 435
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_MAGICAL_LEAF
@@ -14294,10 +14294,10 @@ trainerdata 507, "Chad"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14307,7 +14307,7 @@ party 507
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MAGNETON
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
     move MOVE_TRI_ATTACK
@@ -14324,7 +14324,7 @@ party 507
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_MAGICAL_LEAF
@@ -14344,10 +14344,10 @@ trainerdata 389, "Nelson"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14426,10 +14426,10 @@ trainerdata 39, "Eugene"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14491,10 +14491,10 @@ trainerdata 45, "Ruth"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14539,10 +14539,10 @@ trainerdata 44, "Derek"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14588,10 +14588,10 @@ trainerdata 171, "Taylor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14672,10 +14672,10 @@ trainerdata 438, "Derek"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14737,10 +14737,10 @@ trainerdata 439, "Derek"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14802,10 +14802,10 @@ trainerdata 610, "Derek"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14869,10 +14869,10 @@ trainerdata 728, "Charlotte"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14882,7 +14882,7 @@ party 728
     abilityslot 0
     level LEVEL_ROUTE_39+1
     pokemon SPECIES_BELLOSSOM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_BLIZZARD
     move MOVE_STUN_SPORE
     move MOVE_SLEEP_POWDER
@@ -14902,10 +14902,10 @@ trainerdata 401, "Alfred"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -14967,10 +14967,10 @@ trainerdata 211, "Huey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15032,10 +15032,10 @@ trainerdata 73, "Theo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15114,10 +15114,10 @@ trainerdata 215, "Connie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15129,7 +15129,7 @@ party 215
     pokemon SPECIES_MAWILE
     item ITEM_NONE
     move MOVE_IRON_HEAD
-    move 0
+    move MOVE_NONE
     move MOVE_FIRE_FANG
     move MOVE_CRUNCH
     ability ABILITY_INTIMIDATE
@@ -15162,10 +15162,10 @@ trainerdata 37, "Preston"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15210,10 +15210,10 @@ trainerdata 213, "Kent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15275,10 +15275,10 @@ trainerdata 217, "Denis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15324,10 +15324,10 @@ trainerdata 212, "Terrell"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15407,10 +15407,10 @@ trainerdata 214, "Roberta"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15491,10 +15491,10 @@ trainerdata 672, "Alfred"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15504,7 +15504,7 @@ party 672
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HURRICANE
     move MOVE_SHADOW_BALL
@@ -15521,7 +15521,7 @@ party 672
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_STOUTLAND
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_THUNDER_FANG
     move MOVE_FIRE_FANG
@@ -15539,10 +15539,10 @@ trainerdata 673, "Alfred"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15552,7 +15552,7 @@ party 673
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HURRICANE
     move MOVE_SHADOW_BALL
@@ -15569,7 +15569,7 @@ party 673
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_STOUTLAND
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_THUNDER_FANG
     move MOVE_FIRE_FANG
@@ -15587,10 +15587,10 @@ trainerdata 674, "Alfred"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15600,7 +15600,7 @@ party 674
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HURRICANE
     move MOVE_SHADOW_BALL
@@ -15617,7 +15617,7 @@ party 674
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_STOUTLAND
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_THUNDER_FANG
     move MOVE_FIRE_FANG
@@ -15635,10 +15635,10 @@ trainerdata 440, "Huey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15648,7 +15648,7 @@ party 440
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_MANTINE
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_SIGNAL_BEAM
@@ -15665,7 +15665,7 @@ party 440
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_POLITOED
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
     move MOVE_HYPER_VOICE
@@ -15682,7 +15682,7 @@ party 440
     abilityslot 0
     level REMATCH_LEVEL_1
     monwithform SPECIES_GASTRODON, 1
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
     move MOVE_CLEAR_SMOG
@@ -15700,10 +15700,10 @@ trainerdata 441, "Huey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15713,7 +15713,7 @@ party 441
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MANTINE
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_SIGNAL_BEAM
@@ -15730,7 +15730,7 @@ party 441
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_POLITOED
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
     move MOVE_HYPER_VOICE
@@ -15747,7 +15747,7 @@ party 441
     abilityslot 0
     level REMATCH_LEVEL_2
     monwithform SPECIES_GASTRODON, 1
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
     move MOVE_CLEAR_SMOG
@@ -15765,10 +15765,10 @@ trainerdata 509, "Huey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15778,7 +15778,7 @@ party 509
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MANTINE
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_SIGNAL_BEAM
@@ -15795,7 +15795,7 @@ party 509
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_POLITOED
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
     move MOVE_HYPER_VOICE
@@ -15812,7 +15812,7 @@ party 509
     abilityslot 0
     level REMATCH_LEVEL_3
     monwithform SPECIES_GASTRODON, 1
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
     move MOVE_CLEAR_SMOG
@@ -15832,10 +15832,10 @@ trainerdata 16, "Simon"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15863,10 +15863,10 @@ trainerdata 9, "Elaine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15894,10 +15894,10 @@ trainerdata 86, "Randall"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15925,10 +15925,10 @@ trainerdata 85, "Paula"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -15958,10 +15958,10 @@ trainerdata 95, "Charlie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16023,10 +16023,10 @@ trainerdata 97, "Berke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16088,10 +16088,10 @@ trainerdata 94, "Wendy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16153,10 +16153,10 @@ trainerdata 96, "George"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16252,10 +16252,10 @@ trainerdata 99, "Matthew"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16317,10 +16317,10 @@ trainerdata 90, "Kaylee"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16382,10 +16382,10 @@ trainerdata 91, "Susie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16447,10 +16447,10 @@ trainerdata 93, "Kara"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16512,10 +16512,10 @@ trainerdata 98, "Ronald"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16577,10 +16577,10 @@ trainerdata 92, "Denise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16644,10 +16644,10 @@ trainerdata 498, "Eusine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MYSTERY_MAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16745,10 +16745,10 @@ trainerdata 868, "Sasha"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16761,8 +16761,8 @@ party 868
     item ITEM_FOCUS_SASH
     move MOVE_MEGAHORN
     move MOVE_REVERSAL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOXIE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -16778,10 +16778,10 @@ trainerdata 157, "Lao"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16860,10 +16860,10 @@ trainerdata 159, "Lung"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -16942,10 +16942,10 @@ trainerdata 156, "Yoshi"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17024,10 +17024,10 @@ trainerdata 251, "Nob"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17106,10 +17106,10 @@ trainerdata 34, "Chuck"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_CHUCK
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17225,10 +17225,10 @@ trainerdata 771, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17308,7 +17308,7 @@ party 771
     pokemon SPECIES_MEGANIUM
     item ITEM_SITRUS_BERRY
     move MOVE_PETAL_DANCE
-    move 0
+    move MOVE_NONE
     move MOVE_ANCIENT_POWER
     move MOVE_SYNTHESIS
     ability ABILITY_OVERGROW
@@ -17324,10 +17324,10 @@ trainerdata 772, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17423,10 +17423,10 @@ trainerdata 773, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17523,10 +17523,10 @@ trainerdata 774, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17606,7 +17606,7 @@ party 774
     pokemon SPECIES_MEGANIUM
     item ITEM_SITRUS_BERRY
     move MOVE_PETAL_DANCE
-    move 0
+    move MOVE_NONE
     move MOVE_ANCIENT_POWER
     move MOVE_SYNTHESIS
     ability ABILITY_OVERGROW
@@ -17622,10 +17622,10 @@ trainerdata 775, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17721,10 +17721,10 @@ trainerdata 776, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17821,10 +17821,10 @@ trainerdata 194, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17834,7 +17834,7 @@ party 194
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_MUK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_SHADOW_PUNCH
     move MOVE_MUD_BOMB
@@ -17851,7 +17851,7 @@ party 194
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_PARASECT
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_LEECH_LIFE
     move MOVE_STRENGTH_SAP
@@ -17870,10 +17870,10 @@ trainerdata 207, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17883,7 +17883,7 @@ party 207
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_GLOOM
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_VENOSHOCK
     move MOVE_MOONBLAST
@@ -17900,7 +17900,7 @@ party 207
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_WEEPINBELL
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_POISON_JAB
     move MOVE_KNOCK_OFF
@@ -17917,7 +17917,7 @@ party 207
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_PERSIAN
-    item 0
+    item ITEM_NONE
     move MOVE_FURY_SWIPES
     move MOVE_FEINT_ATTACK
     move MOVE_POWER_GEM
@@ -17939,10 +17939,10 @@ trainerdata 208, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -17952,7 +17952,7 @@ party 208
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_BEEDRILL
-    item 0
+    item ITEM_NONE
     move MOVE_TWINEEDLE
     move MOVE_POISON_JAB
     move MOVE_ASSURANCE
@@ -17969,7 +17969,7 @@ party 208
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_BARB_BARRAGE
     move MOVE_PIN_MISSILE
@@ -17986,7 +17986,7 @@ party 208
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_HYPNO
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HEADBUTT
     move MOVE_BARRIER
@@ -18005,10 +18005,10 @@ trainerdata 221, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18018,7 +18018,7 @@ party 221
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_HAUNTER
-    item 0
+    item ITEM_NONE
     move MOVE_SHADOW_BALL
     move MOVE_VENOSHOCK
     move MOVE_NIGHTMARE
@@ -18035,7 +18035,7 @@ party 221
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_SNEASEL
-    item 0
+    item ITEM_NONE
     move MOVE_ICE_PUNCH
     move MOVE_FEINT_ATTACK
     move MOVE_METAL_CLAW
@@ -18052,7 +18052,7 @@ party 221
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_TENTACRUEL
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_POISON_JAB
     move MOVE_BARRIER
@@ -18071,10 +18071,10 @@ trainerdata 225, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18084,7 +18084,7 @@ party 225
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_LICKITUNG
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_KNOCK_OFF
     move MOVE_SUPERSONIC
@@ -18101,7 +18101,7 @@ party 225
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_SEVIPER
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_NIGHT_SLASH
     move MOVE_ICE_FANG
@@ -18118,7 +18118,7 @@ party 225
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_BANETTE
-    item 0
+    item ITEM_NONE
     move MOVE_SHADOW_CLAW
     move MOVE_FRUSTRATION
     move MOVE_KNOCK_OFF
@@ -18137,10 +18137,10 @@ trainerdata 226, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18150,7 +18150,7 @@ party 226
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_SANDSLASH
-    item 0
+    item ITEM_NONE
     move MOVE_DRILL_RUN
     move MOVE_GYRO_BALL
     move MOVE_CRUSH_CLAW
@@ -18167,7 +18167,7 @@ party 226
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_SHARPEDO
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_NIGHT_SLASH
     move MOVE_SKULL_BASH
@@ -18186,10 +18186,10 @@ trainerdata 229, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18199,7 +18199,7 @@ party 229
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
     move MOVE_FLAME_WHEEL
@@ -18216,7 +18216,7 @@ party 229
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_TOXICROAK
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_LOW_KICK
     move MOVE_MUD_BOMB
@@ -18235,10 +18235,10 @@ trainerdata 262, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18248,7 +18248,7 @@ party 262
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_FEAROW
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_DRILL_PECK
     move MOVE_DRILL_RUN
@@ -18265,7 +18265,7 @@ party 262
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_PURUGLY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_NIGHT_SLASH
     move MOVE_FAKE_OUT
@@ -18286,10 +18286,10 @@ trainerdata 778, "Proton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18369,10 +18369,10 @@ trainerdata 779, "Petrel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PETREL
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18418,9 +18418,9 @@ party 779
     pokemon SPECIES_DITTO
     item ITEM_SILK_SCARF
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -18452,10 +18452,10 @@ trainerdata 782, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18518,10 +18518,10 @@ trainerdata 783, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18586,10 +18586,10 @@ trainerdata 831, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18686,10 +18686,10 @@ trainerdata 832, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18786,10 +18786,10 @@ trainerdata 833, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18887,10 +18887,10 @@ trainerdata 834, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -18987,10 +18987,10 @@ trainerdata 835, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19087,10 +19087,10 @@ trainerdata 836, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19190,10 +19190,10 @@ trainerdata 777, "Hexagon Bros"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype DOUBLE_BATTLE
     endentry
@@ -19203,7 +19203,7 @@ party 777
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_CAMERUPT
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_EARTH_POWER
     move MOVE_ROCK_SLIDE
@@ -19220,7 +19220,7 @@ party 777
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_WAILORD
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_SPOUT
     move MOVE_HEAVY_SLAM
     move MOVE_BODY_SLAM
@@ -19237,7 +19237,7 @@ party 777
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_SLAKING
-    item 0
+    item ITEM_NONE
     move MOVE_CRUSH_CLAW
     move MOVE_NIGHT_SLASH
     move MOVE_HAMMER_ARM
@@ -19254,7 +19254,7 @@ party 777
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTRO_BALL
     move MOVE_FIRE_FANG
     move MOVE_CRUNCH
@@ -19271,7 +19271,7 @@ party 777
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_SWALOT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_BODY_SLAM
     move MOVE_STOCKPILE
@@ -19288,7 +19288,7 @@ party 777
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_SHIFTRY
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_FEINT_ATTACK
     move MOVE_AIR_CUTTER
@@ -19309,10 +19309,10 @@ trainerdata 273, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19322,7 +19322,7 @@ party 273
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_SALAZZLE
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_LASH
     move MOVE_VENOSHOCK
     move MOVE_DRAGON_RAGE
@@ -19339,7 +19339,7 @@ party 273
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_MANDIBUZZ
-    item 0
+    item ITEM_NONE
     move MOVE_DARK_PULSE
     move MOVE_AIR_CUTTER
     move MOVE_BONE_RUSH
@@ -19356,7 +19356,7 @@ party 273
     abilityslot 0
     level LEVEL_SAFARI_ROCKET
     pokemon SPECIES_CARNIVINE
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_BUG_BITE
     move MOVE_CRUNCH
@@ -19375,10 +19375,10 @@ trainerdata 292, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19388,7 +19388,7 @@ party 292
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_KROKOROK
-    item 0
+    item ITEM_NONE
     move MOVE_BULLDOZE
     move MOVE_CRUNCH
     move MOVE_SWAGGER
@@ -19405,7 +19405,7 @@ party 292
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_REVAVROOM
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_HEAD
     move MOVE_POISON_JAB
     move MOVE_MAGNET_RISE
@@ -19424,10 +19424,10 @@ trainerdata 295, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19437,7 +19437,7 @@ party 295
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_MORGREM
-    item 0
+    item ITEM_NONE
     move MOVE_FALSE_SURRENDER
     move MOVE_PLAY_ROUGH
     move MOVE_TORMENT
@@ -19454,7 +19454,7 @@ party 295
     abilityslot 0
     level LEVEL_SAFARI_ROCKET+1
     pokemon SPECIES_LOKIX
-    item 0
+    item ITEM_NONE
     move MOVE_LUNGE
     move MOVE_KNOCK_OFF
     move MOVE_LOW_KICK
@@ -19474,10 +19474,10 @@ trainerdata 781, "Archer"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19487,7 +19487,7 @@ party 781
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN+2
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_ELECTROWEB
     move MOVE_FOUL_PLAY
     move MOVE_LIGHT_SCREEN
@@ -19504,7 +19504,7 @@ party 781
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN+2
     pokemon SPECIES_OCTILLERY
-    item 0
+    item ITEM_NONE
     move MOVE_OCTAZOOKA
     move MOVE_ICE_BEAM
     move MOVE_MUD_SHOT
@@ -19521,7 +19521,7 @@ party 781
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN+3
     pokemon SPECIES_HOUNDOOM
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_SNARL
     move MOVE_HYPER_VOICE
@@ -19540,10 +19540,10 @@ trainerdata 780, "Ariana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19624,10 +19624,10 @@ trainerdata 837, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19742,10 +19742,10 @@ trainerdata 838, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19860,10 +19860,10 @@ trainerdata 839, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19979,10 +19979,10 @@ trainerdata 731, "Devin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -19992,7 +19992,7 @@ party 731
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN+1
     pokemon SPECIES_DUDUNSPARCE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_DRILL
     move MOVE_DRILL_RUN
     move MOVE_LUNGE
@@ -20010,10 +20010,10 @@ trainerdata 732, "Grant"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20023,7 +20023,7 @@ party 732
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN
     pokemon SPECIES_JUMPLUFF
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_BOUNCE
     move MOVE_FAIRY_WIND
@@ -20040,7 +20040,7 @@ party 732
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN
     pokemon SPECIES_AZUMARILL
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_PLAY_ROUGH
     move MOVE_ROLLOUT
@@ -20058,10 +20058,10 @@ trainerdata 730, "Thom & Kae"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_DOUBLE_TEAM
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -20140,10 +20140,10 @@ trainerdata 729, "Duff & Eda"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNG_COUPLE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -20153,7 +20153,7 @@ party 729
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN
     pokemon SPECIES_ONIX
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_BULLDOZE
     move MOVE_SLAM
@@ -20170,7 +20170,7 @@ party 729
     abilityslot 0
     level LEVEL_SAFARI_ROCKET_ADMIN
     pokemon SPECIES_CLOYSTER
-    item 0
+    item ITEM_NONE
     move MOVE_BUBBLE_BEAM
     move MOVE_AURORA_BEAM
     move MOVE_LIFE_DEW
@@ -20191,10 +20191,10 @@ trainerdata 304, "Preston"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20257,10 +20257,10 @@ trainerdata 305, "Connie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20323,10 +20323,10 @@ trainerdata 174, "Cesar"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20389,10 +20389,10 @@ trainerdata 526, "Breanna"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20454,10 +20454,10 @@ trainerdata 33, "Jasmine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_JASMINE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20572,10 +20572,10 @@ trainerdata 403, "Spencer"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20585,7 +20585,7 @@ party 403
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_SANDSLASH
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_CRUSH_CLAW
     move MOVE_PIN_MISSILE
@@ -20602,7 +20602,7 @@ party 403
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_SWOOBAT
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_AIR_SLASH
     move MOVE_ATTRACT
@@ -20619,7 +20619,7 @@ party 403
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_SAWSBUCK
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_HORN_LEECH
     move MOVE_JUMP_KICK
@@ -20637,10 +20637,10 @@ trainerdata 402, "Tiffany"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20650,7 +20650,7 @@ party 402
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_CLEFABLE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_TRI_ATTACK
     move MOVE_COSMIC_POWER
@@ -20667,7 +20667,7 @@ party 402
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_ALLURING_VOICE
     move MOVE_HYPER_VOICE
     move MOVE_STOCKPILE
@@ -20684,7 +20684,7 @@ party 402
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_GRANBULL
-    item 0
+    item ITEM_NONE
     move MOVE_PLAY_ROUGH
     move MOVE_CLOSE_COMBAT
     move MOVE_COUNTER
@@ -20702,10 +20702,10 @@ trainerdata 122, "Marvin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20715,7 +20715,7 @@ party 122
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ICE_FANG
     move MOVE_CRUNCH
@@ -20732,7 +20732,7 @@ party 122
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_LANTURN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_DISCHARGE
     move MOVE_SIGNAL_BEAM
@@ -20749,7 +20749,7 @@ party 122
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_WHISCASH
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_ZEN_HEADBUTT
@@ -20766,7 +20766,7 @@ party 122
     abilityslot 0
     level LEVEL_ROUTE_43
     monwithform SPECIES_BASCULEGION, 1
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_SHADOW_BALL
     move MOVE_SCALE_SHOT
@@ -20784,10 +20784,10 @@ trainerdata 131, "Brent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20797,7 +20797,7 @@ party 131
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_DRILL_RUN
     move MOVE_POISON_JAB
     move MOVE_DOUBLE_KICK
@@ -20814,7 +20814,7 @@ party 131
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_TROPIUS
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_AIR_SLASH
     move MOVE_DRAGON_HAMMER
@@ -20831,7 +20831,7 @@ party 131
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_AGGRON
-    item 0
+    item ITEM_NONE
     move MOVE_HEAVY_SLAM
     move MOVE_ROCK_BLAST
     move MOVE_IRON_DEFENSE
@@ -20848,7 +20848,7 @@ party 131
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_EELEKTROSS
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_LIQUIDATION
     move MOVE_BOUNCE
@@ -20867,10 +20867,10 @@ trainerdata 180, "Bobby"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20880,7 +20880,7 @@ party 180
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_BUTTERFREE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_PSYCHIC
@@ -20897,7 +20897,7 @@ party 180
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_MASQUERAIN
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_BUBBLE_BEAM
@@ -20914,7 +20914,7 @@ party 180
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_MOTHIM
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_PSYCHIC
@@ -20931,7 +20931,7 @@ party 180
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_VIKAVOLT
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_BUG_BUZZ
     move MOVE_MUD_SHOT
@@ -20949,10 +20949,10 @@ trainerdata 132, "Ron"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -20962,7 +20962,7 @@ party 132
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_DRILL_RUN
     move MOVE_POISON_JAB
     move MOVE_DOUBLE_KICK
@@ -20979,7 +20979,7 @@ party 132
     abilityslot 0
     level LEVEL_ROUTE_43
     monwithform SPECIES_SLOWKING, 1
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_VENOSHOCK
     move MOVE_POWER_GEM
@@ -20997,10 +20997,10 @@ trainerdata 130, "Beckett"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21010,7 +21010,7 @@ party 130
     abilityslot 0
     level LEVEL_ROUTE_43
     monwithform SPECIES_SLOWBRO, 2
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_VENOSHOCK
     move MOVE_AQUA_TAIL
@@ -21027,7 +21027,7 @@ party 130
     abilityslot 0
     level LEVEL_ROUTE_43
     pokemon SPECIES_EXPLOUD
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_CRUNCH
     move MOVE_EXTRASENSORY
@@ -21047,10 +21047,10 @@ trainerdata 466, "Tiffany"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21060,7 +21060,7 @@ party 466
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_AROMATISSE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_PSYCHIC
     move MOVE_ATTRACT
@@ -21077,7 +21077,7 @@ party 466
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_SLURPUFF
-    item 0
+    item ITEM_NONE
     move MOVE_PLAY_ROUGH
     move MOVE_ENERGY_BALL
     move MOVE_FAKE_TEARS
@@ -21094,7 +21094,7 @@ party 466
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_CLEFABLE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_FOCUS_BLAST
     move MOVE_METRONOME
@@ -21112,10 +21112,10 @@ trainerdata 467, "Tiffany"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21125,7 +21125,7 @@ party 467
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_AROMATISSE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_PSYCHIC
     move MOVE_ATTRACT
@@ -21142,7 +21142,7 @@ party 467
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SLURPUFF
-    item 0
+    item ITEM_NONE
     move MOVE_PLAY_ROUGH
     move MOVE_ENERGY_BALL
     move MOVE_FAKE_TEARS
@@ -21159,7 +21159,7 @@ party 467
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_CLEFABLE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_FOCUS_BLAST
     move MOVE_METRONOME
@@ -21177,10 +21177,10 @@ trainerdata 522, "Tiffany"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21190,7 +21190,7 @@ party 522
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_AROMATISSE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_PSYCHIC
     move MOVE_ATTRACT
@@ -21207,7 +21207,7 @@ party 522
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SLURPUFF
-    item 0
+    item ITEM_NONE
     move MOVE_PLAY_ROUGH
     move MOVE_ENERGY_BALL
     move MOVE_FAKE_TEARS
@@ -21224,7 +21224,7 @@ party 522
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_CLEFABLE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_FOCUS_BLAST
     move MOVE_METRONOME
@@ -21242,10 +21242,10 @@ trainerdata 172, "Brent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21255,7 +21255,7 @@ party 172
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_POISON_JAB
     move MOVE_ICE_BEAM
@@ -21272,7 +21272,7 @@ party 172
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_TROPIUS
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_AIR_SLASH
     move MOVE_BODY_SLAM
@@ -21289,7 +21289,7 @@ party 172
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_LICKILICKY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_ROLLOUT
     move MOVE_GYRO_BALL
@@ -21306,7 +21306,7 @@ party 172
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_POISON_JAB
     move MOVE_THUNDERBOLT
@@ -21324,10 +21324,10 @@ trainerdata 173, "Brent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21337,7 +21337,7 @@ party 173
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_POISON_JAB
     move MOVE_ICE_BEAM
@@ -21354,7 +21354,7 @@ party 173
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_TROPIUS
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_AIR_SLASH
     move MOVE_BODY_SLAM
@@ -21371,7 +21371,7 @@ party 173
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_LICKILICKY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_ROLLOUT
     move MOVE_GYRO_BALL
@@ -21388,7 +21388,7 @@ party 173
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_POISON_JAB
     move MOVE_THUNDERBOLT
@@ -21406,10 +21406,10 @@ trainerdata 530, "Brent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21419,7 +21419,7 @@ party 530
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_POISON_JAB
     move MOVE_ICE_BEAM
@@ -21436,7 +21436,7 @@ party 530
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_TROPIUS
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_AIR_SLASH
     move MOVE_BODY_SLAM
@@ -21453,7 +21453,7 @@ party 530
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_LICKILICKY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_ROLLOUT
     move MOVE_GYRO_BALL
@@ -21470,7 +21470,7 @@ party 530
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_POISON_JAB
     move MOVE_THUNDERBOLT
@@ -21490,10 +21490,10 @@ trainerdata 126, "Andre"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21503,7 +21503,7 @@ party 126
     abilityslot 0
     level LEVEL_LAKE_OF_RAGE
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ICE_FANG
     move MOVE_CRUNCH
@@ -21521,10 +21521,10 @@ trainerdata 127, "Raymond"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21534,7 +21534,7 @@ party 127
     abilityslot 0
     level LEVEL_LAKE_OF_RAGE
     monwithform SPECIES_BASCULIN, 0
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_THRASH
@@ -21551,7 +21551,7 @@ party 127
     abilityslot 0
     level LEVEL_LAKE_OF_RAGE
     monwithform SPECIES_BASCULIN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_THRASH
@@ -21568,7 +21568,7 @@ party 127
     abilityslot 0
     level LEVEL_LAKE_OF_RAGE
     monwithform SPECIES_BASCULIN, 2
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
     move MOVE_THRASH
@@ -21586,10 +21586,10 @@ trainerdata 116, "Lois"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21651,10 +21651,10 @@ trainerdata 109, "Alton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21718,10 +21718,10 @@ trainerdata 223, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21731,7 +21731,7 @@ party 223
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_HYPNO
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_HEADBUTT
     move MOVE_WAKE_UP_SLAP
@@ -21748,7 +21748,7 @@ party 223
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_FANG
     move MOVE_ACROBATICS
     move MOVE_LEECH_LIFE
@@ -21766,10 +21766,10 @@ trainerdata 224, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21779,7 +21779,7 @@ party 224
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
     move MOVE_MEGA_DRAIN
@@ -21796,7 +21796,7 @@ party 224
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_MUK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_SHADOW_PUNCH
     move MOVE_DISABLE
@@ -21813,7 +21813,7 @@ party 224
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
     move MOVE_REVERSAL
@@ -21831,10 +21831,10 @@ trainerdata 216, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21844,7 +21844,7 @@ party 216
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_MIGHTYENA
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_PLAY_ROUGH
     move MOVE_FIRE_FANG
@@ -21861,7 +21861,7 @@ party 216
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_WATCHOG
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
     move MOVE_LOW_KICK
@@ -21878,7 +21878,7 @@ party 216
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_TOXICROAK
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_CROSS_CHOP
     move MOVE_MUD_BOMB
@@ -21896,10 +21896,10 @@ trainerdata 470, "Gregg"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21909,7 +21909,7 @@ party 470
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_MAGNETON
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
     move MOVE_TRI_ATTACK
@@ -21926,7 +21926,7 @@ party 470
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_PORYGON2
-    item 0
+    item ITEM_NONE
     move MOVE_TRI_ATTACK
     move MOVE_SIGNAL_BEAM
     move MOVE_DISCHARGE
@@ -21943,7 +21943,7 @@ party 470
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_BEHEEYEM
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_PSYSHOCK
     move MOVE_CHARGE_BEAM
@@ -21961,10 +21961,10 @@ trainerdata 220, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -21974,7 +21974,7 @@ party 220
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
@@ -21991,7 +21991,7 @@ party 220
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DRAPION
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_NIGHT_SLASH
     move MOVE_X_SCISSOR
@@ -22008,7 +22008,7 @@ party 220
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_LOKIX
-    item 0
+    item ITEM_NONE
     move MOVE_LUNGE
     move MOVE_KNOCK_OFF
     move MOVE_SUCKER_PUNCH
@@ -22026,10 +22026,10 @@ trainerdata 218, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22039,7 +22039,7 @@ party 218
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_FANG
     move MOVE_AIR_SLASH
     move MOVE_SCREECH
@@ -22056,7 +22056,7 @@ party 218
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DUSCLOPS
-    item 0
+    item ITEM_NONE
     move MOVE_NIGHT_SHADE
     move MOVE_ICE_PUNCH
     move MOVE_CONFUSE_RAY
@@ -22073,7 +22073,7 @@ party 218
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_PRIMEAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_CHOP
     move MOVE_RAGE_FIST
     move MOVE_ASSURANCE
@@ -22091,10 +22091,10 @@ trainerdata 468, "Ross"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22104,7 +22104,7 @@ party 468
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_SONIC_BOOM
     move MOVE_METAL_SOUND
@@ -22121,7 +22121,7 @@ party 468
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_WEEZING
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_HEAT_WAVE
     move MOVE_GYRO_BALL
@@ -22139,10 +22139,10 @@ trainerdata 404, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22152,7 +22152,7 @@ party 404
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_ARBOK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_CRUNCH
     move MOVE_SCALE_SHOT
@@ -22169,7 +22169,7 @@ party 404
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_FEAROW
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_DRILL_PECK
     move MOVE_NIGHT_SLASH
@@ -22186,7 +22186,7 @@ party 404
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_VILEPLUME
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_SLUDGE_BOMB
     move MOVE_MOONBLAST
@@ -22204,10 +22204,10 @@ trainerdata 469, "Mitch"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22217,11 +22217,11 @@ party 469
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DITTO
-    item 0
+    item ITEM_NONE
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -22234,11 +22234,11 @@ party 469
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DITTO
-    item 0
+    item ITEM_NONE
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -22251,11 +22251,11 @@ party 469
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DITTO
-    item 0
+    item ITEM_NONE
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -22269,10 +22269,10 @@ trainerdata 222, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22282,7 +22282,7 @@ party 222
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT+2
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_CRUNCH
     move MOVE_REVERSAL
@@ -22300,10 +22300,10 @@ trainerdata 219, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22313,7 +22313,7 @@ party 219
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     monwithform SPECIES_RATICATE, 1
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_CRUNCH
     move MOVE_REVERSAL
@@ -22330,7 +22330,7 @@ party 219
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_SCRAFTY
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_BRICK_BREAK
     move MOVE_ZEN_HEADBUTT
@@ -22347,7 +22347,7 @@ party 219
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_SHARPEDO
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_CRUNCH
     move MOVE_ICE_FANG
@@ -22366,10 +22366,10 @@ trainerdata 306, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22379,7 +22379,7 @@ party 306
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_POISON_JAB
     move MOVE_KNOCK_OFF
@@ -22396,7 +22396,7 @@ party 306
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_LIEPARD
-    item 0
+    item ITEM_NONE
     move MOVE_DARK_PULSE
     move MOVE_PLAY_ROUGH
     move MOVE_ASSIST
@@ -22413,7 +22413,7 @@ party 306
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_TENTACRUEL
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_SLUDGE_WAVE
     move MOVE_ACID_SPRAY
@@ -22432,10 +22432,10 @@ trainerdata 288, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22548,10 +22548,10 @@ trainerdata 289, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22664,10 +22664,10 @@ trainerdata 271, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22781,10 +22781,10 @@ trainerdata 840, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22794,7 +22794,7 @@ party 840
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_CROBAT
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_ACROBATICS
     move MOVE_GIGA_DRAIN
@@ -22811,7 +22811,7 @@ party 840
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_ELECTIVIRE
-    item 0
+    item ITEM_NONE
     move MOVE_SUPERCELL_SLAM
     move MOVE_DARKEST_LARIAT
     move MOVE_FLAMETHROWER
@@ -22828,7 +22828,7 @@ party 840
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_DUSKNOIR
-    item 0
+    item ITEM_NONE
     move MOVE_PHANTOM_FORCE
     move MOVE_THUNDER_PUNCH
     move MOVE_FIRE_PUNCH
@@ -22847,10 +22847,10 @@ trainerdata 841, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22860,7 +22860,7 @@ party 841
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_HURRICANE
     move MOVE_EARTHQUAKE
@@ -22877,7 +22877,7 @@ party 841
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_PSYCHIC
     move MOVE_THUNDERBOLT
@@ -22894,7 +22894,7 @@ party 841
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_HYDREIGON
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_SCALE_SHOT
     move MOVE_ROCK_SLIDE
@@ -22912,10 +22912,10 @@ trainerdata 675, "Lance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -22945,10 +22945,10 @@ trainerdata 480, "Diana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SKIER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23027,10 +23027,10 @@ trainerdata 483, "Patton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BOARDER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23109,10 +23109,10 @@ trainerdata 482, "Deandre"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BOARDER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23191,10 +23191,10 @@ trainerdata 481, "Jill"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SKIER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23273,10 +23273,10 @@ trainerdata 484, "Gerardo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BOARDER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23355,10 +23355,10 @@ trainerdata 32, "Pryce"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_PRYCE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23474,10 +23474,10 @@ trainerdata 307, "Ruben"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23557,10 +23557,10 @@ trainerdata 338, "Gillian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23640,10 +23640,10 @@ trainerdata 340, "Marcia"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23656,8 +23656,8 @@ party 340
     item ITEM_WIDE_LENS
     move MOVE_POPULATION_BOMB
     move MOVE_TIDY_UP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -23724,10 +23724,10 @@ trainerdata 143, "Erik"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23737,7 +23737,7 @@ party 143
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_PUPITAR
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_PAYBACK
@@ -23754,7 +23754,7 @@ party 143
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
     move MOVE_HEAVY_SLAM
@@ -23772,10 +23772,10 @@ trainerdata 108, "Ryan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23837,10 +23837,10 @@ trainerdata 145, "Parry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23850,7 +23850,7 @@ party 145
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_DURANT
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_IRON_HEAD
     move MOVE_CRUNCH
@@ -23867,7 +23867,7 @@ party 145
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_HEAVY_SLAM
     move MOVE_EARTHQUAKE
     move MOVE_FIRE_FANG
@@ -23885,10 +23885,10 @@ trainerdata 121, "Kelly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -23950,10 +23950,10 @@ trainerdata 17, "Kenji"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24015,10 +24015,10 @@ trainerdata 146, "Timothy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24028,7 +24028,7 @@ party 146
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_NIGHT_SLASH
     move MOVE_SANDSTORM
@@ -24045,7 +24045,7 @@ party 146
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_CLAYDOL
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
@@ -24062,7 +24062,7 @@ party 146
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_MUDSDALE
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_HEAVY_SLAM
     move MOVE_SUPERPOWER
@@ -24080,10 +24080,10 @@ trainerdata 144, "Michael"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24093,7 +24093,7 @@ party 144
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_KLAWF
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_HIGH_HORSEPOWER
     move MOVE_CRABHAMMER
@@ -24110,7 +24110,7 @@ party 144
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_TORKOAL
-    item 0
+    item ITEM_NONE
     move MOVE_HEAT_WAVE
     move MOVE_CLEAR_SMOG
     move MOVE_BODY_SLAM
@@ -24127,7 +24127,7 @@ party 144
     abilityslot 0
     level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_CRUSTLE
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_WRECKER
     move MOVE_ROCK_SLIDE
     move MOVE_X_SCISSOR
@@ -24147,10 +24147,10 @@ trainerdata 451, "Parry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24160,7 +24160,7 @@ party 451
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_GIGALITH
-    item 0
+    item ITEM_NONE
     move MOVE_STONE_EDGE
     move MOVE_IRON_HEAD
     move MOVE_GRAVITY
@@ -24177,7 +24177,7 @@ party 451
     abilityslot 0
     level REMATCH_LEVEL_1
     monwithform SPECIES_GOLEM, 1
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_STONE_EDGE
     move MOVE_HEAVY_SLAM
@@ -24194,7 +24194,7 @@ party 451
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
@@ -24212,10 +24212,10 @@ trainerdata 452, "Parry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24225,7 +24225,7 @@ party 452
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_GIGALITH
-    item 0
+    item ITEM_NONE
     move MOVE_STONE_EDGE
     move MOVE_IRON_HEAD
     move MOVE_GRAVITY
@@ -24242,7 +24242,7 @@ party 452
     abilityslot 0
     level REMATCH_LEVEL_2
     monwithform SPECIES_GOLEM, 1
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_STONE_EDGE
     move MOVE_HEAVY_SLAM
@@ -24259,7 +24259,7 @@ party 452
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
@@ -24277,10 +24277,10 @@ trainerdata 606, "Parry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24290,7 +24290,7 @@ party 606
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_GIGALITH
-    item 0
+    item ITEM_NONE
     move MOVE_STONE_EDGE
     move MOVE_IRON_HEAD
     move MOVE_GRAVITY
@@ -24307,7 +24307,7 @@ party 606
     abilityslot 0
     level REMATCH_LEVEL_3
     monwithform SPECIES_GOLEM, 1
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_STONE_EDGE
     move MOVE_HEAVY_SLAM
@@ -24324,7 +24324,7 @@ party 606
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
@@ -24342,10 +24342,10 @@ trainerdata 250, "Kenji"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24355,7 +24355,7 @@ party 250
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_AQUA_TAIL
@@ -24372,7 +24372,7 @@ party 250
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_HITMONLEE
-    item 0
+    item ITEM_NONE
     move MOVE_HIGH_JUMP_KICK
     move MOVE_BLAZE_KICK
     move MOVE_MEGA_KICK
@@ -24389,7 +24389,7 @@ party 250
     abilityslot 0
     level REMATCH_LEVEL_1
     pokemon SPECIES_CONKELDURR
-    item 0
+    item ITEM_NONE
     move MOVE_DRAIN_PUNCH
     move MOVE_ROCK_SLIDE
     move MOVE_THUNDER_PUNCH
@@ -24407,10 +24407,10 @@ trainerdata 278, "Kenji"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24420,7 +24420,7 @@ party 278
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_AQUA_TAIL
@@ -24437,7 +24437,7 @@ party 278
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_HITMONLEE
-    item 0
+    item ITEM_NONE
     move MOVE_HIGH_JUMP_KICK
     move MOVE_BLAZE_KICK
     move MOVE_MEGA_KICK
@@ -24454,7 +24454,7 @@ party 278
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_CONKELDURR
-    item 0
+    item ITEM_NONE
     move MOVE_DRAIN_PUNCH
     move MOVE_ROCK_SLIDE
     move MOVE_THUNDER_PUNCH
@@ -24472,10 +24472,10 @@ trainerdata 605, "Kenji"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24485,7 +24485,7 @@ party 605
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_AQUA_TAIL
@@ -24502,7 +24502,7 @@ party 605
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_HITMONLEE
-    item 0
+    item ITEM_NONE
     move MOVE_HIGH_JUMP_KICK
     move MOVE_BLAZE_KICK
     move MOVE_MEGA_KICK
@@ -24519,7 +24519,7 @@ party 605
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_CONKELDURR
-    item 0
+    item ITEM_NONE
     move MOVE_DRAIN_PUNCH
     move MOVE_ROCK_SLIDE
     move MOVE_THUNDER_PUNCH
@@ -24540,10 +24540,10 @@ trainerdata 185, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24553,7 +24553,7 @@ party 185
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_THUNDERBOLT
     move MOVE_FLAME_WHEEL
@@ -24570,7 +24570,7 @@ party 185
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_MIGHTYENA
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_PLAY_ROUGH
     move MOVE_DOUBLE_EDGE
@@ -24587,7 +24587,7 @@ party 185
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_SANDSLASH
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_GYRO_BALL
@@ -24605,10 +24605,10 @@ trainerdata 198, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24618,7 +24618,7 @@ party 198
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_ARBOK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_THUNDER_FANG
     move MOVE_FIRE_FANG
@@ -24635,7 +24635,7 @@ party 198
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_BANETTE
-    item 0
+    item ITEM_NONE
     move MOVE_PHANTOM_FORCE
     move MOVE_FRUSTRATION
     move MOVE_SKITTER_SMACK
@@ -24652,7 +24652,7 @@ party 198
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_SNEASLER
-    item 0
+    item ITEM_NONE
     move MOVE_DIRE_CLAW
     move MOVE_LOW_KICK
     move MOVE_NIGHT_SLASH
@@ -24670,10 +24670,10 @@ trainerdata 187, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24683,7 +24683,7 @@ party 187
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_HYPNO
-    item 0
+    item ITEM_NONE
     move MOVE_DREAM_EATER
     move MOVE_WAKE_UP_SLAP
     move MOVE_DAZZLING_GLEAM
@@ -24700,7 +24700,7 @@ party 187
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_EELEKTROSS
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_CRUNCH
@@ -24718,10 +24718,10 @@ trainerdata 188, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24731,7 +24731,7 @@ party 188
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_ACROBATICS
     move MOVE_ZEN_HEADBUTT
@@ -24748,7 +24748,7 @@ party 188
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_PRIMEAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_ACROBATICS
     move MOVE_OUTRAGE
@@ -24765,7 +24765,7 @@ party 188
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_REVAVROOM
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_HEAD
     move MOVE_POISON_JAB
     move MOVE_BULLDOZE
@@ -24783,10 +24783,10 @@ trainerdata 186, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24796,7 +24796,7 @@ party 186
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
     move MOVE_HEAT_WAVE
@@ -24813,7 +24813,7 @@ party 186
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_LIEPARD
-    item 0
+    item ITEM_NONE
     move MOVE_FOUL_PLAY
     move MOVE_PLAY_ROUGH
     move MOVE_PSYCHO_CUT
@@ -24830,7 +24830,7 @@ party 186
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_MANDIBUZZ
-    item 0
+    item ITEM_NONE
     move MOVE_FOUL_PLAY
     move MOVE_FLY
     move MOVE_TOXIC
@@ -24848,10 +24848,10 @@ trainerdata 189, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24861,7 +24861,7 @@ party 189
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_WEEZING
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_GYRO_BALL
     move MOVE_DOUBLE_HIT
@@ -24878,7 +24878,7 @@ party 189
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_MUK
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_SHADOW_PUNCH
     move MOVE_BRICK_BREAK
@@ -24895,7 +24895,7 @@ party 189
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_OVERQWIL
-    item 0
+    item ITEM_NONE
     move MOVE_BARB_BARRAGE
     move MOVE_CRUNCH
     move MOVE_TOXIC
@@ -24913,10 +24913,10 @@ trainerdata 471, "Garett"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24926,7 +24926,7 @@ party 471
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     monwithform SPECIES_ROTOM, 4
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_AIR_SLASH
     move MOVE_SHADOW_BALL
@@ -24943,7 +24943,7 @@ party 471
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_MAGNEZONE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLASH_CANNON
     move MOVE_BODY_PRESS
@@ -24961,10 +24961,10 @@ trainerdata 192, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -24974,7 +24974,7 @@ party 192
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     monwithform SPECIES_MUK, 1
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_CRUNCH
     move MOVE_ROCK_SLIDE
@@ -24991,7 +24991,7 @@ party 192
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     monwithform SPECIES_WEEZING, 1
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_STRANGE_STEAM
     move MOVE_SHADOW_BALL
@@ -25009,10 +25009,10 @@ trainerdata 472, "Trenton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25022,7 +25022,7 @@ party 472
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     monwithform SPECIES_ROTOM, 5
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_LEAF_STORM
     move MOVE_DARK_PULSE
@@ -25039,7 +25039,7 @@ party 472
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS
     pokemon SPECIES_PORYGON_Z
-    item 0
+    item ITEM_NONE
     move MOVE_TRI_ATTACK
     move MOVE_DISCHARGE
     move MOVE_DARK_PULSE
@@ -25057,10 +25057,10 @@ trainerdata 200, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25070,7 +25070,7 @@ party 200
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_SEVIPER
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_CRUNCH
     move MOVE_COIL
@@ -25088,10 +25088,10 @@ trainerdata 487, "Petrel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PETREL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25154,9 +25154,9 @@ party 487
     pokemon SPECIES_DITTO
     item ITEM_CHOICE_SCARF
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -25206,10 +25206,10 @@ trainerdata 195, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25219,7 +25219,7 @@ party 195
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     monwithform SPECIES_RATICATE, 1
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_SUCKER_PUNCH
     move MOVE_SLUDGE_BOMB
@@ -25237,10 +25237,10 @@ trainerdata 193, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25250,7 +25250,7 @@ party 193
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_PARASECT
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_LEECH_LIFE
     move MOVE_CROSS_POISON
@@ -25267,7 +25267,7 @@ party 193
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_DUSKNOIR
-    item 0
+    item ITEM_NONE
     move MOVE_PHANTOM_FORCE
     move MOVE_POWER_UP_PUNCH
     move MOVE_THUNDER_PUNCH
@@ -25285,10 +25285,10 @@ trainerdata 197, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25298,7 +25298,7 @@ party 197
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_CRUNCH
     move MOVE_FLAME_WHEEL
@@ -25316,10 +25316,10 @@ trainerdata 228, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25329,7 +25329,7 @@ party 228
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_SKITTER_SMACK
     move MOVE_CROSS_POISON
     move MOVE_SUCKER_PUNCH
@@ -25346,7 +25346,7 @@ party 228
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_ENERGY_BALL
@@ -25363,7 +25363,7 @@ party 228
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_LOKIX
-    item 0
+    item ITEM_NONE
     move MOVE_LUNGE
     move MOVE_KNOCK_OFF
     move MOVE_AERIAL_ACE
@@ -25381,10 +25381,10 @@ trainerdata 283, "Orson"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BURGLAR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25394,7 +25394,7 @@ party 283
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_ARCANINE
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_PSYCHIC_FANGS
     move MOVE_PLAY_ROUGH
@@ -25411,7 +25411,7 @@ party 283
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_KECLEON
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_SHADOW_CLAW
     move MOVE_LOW_KICK
@@ -25428,7 +25428,7 @@ party 283
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_DARMANITAN
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_PUNCH
     move MOVE_HAMMER_ARM
     move MOVE_ROCK_SLIDE
@@ -25446,10 +25446,10 @@ trainerdata 14, "Duncan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BURGLAR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25459,7 +25459,7 @@ party 14
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_MIGHTYENA
-    item 0
+    item ITEM_NONE
     move MOVE_SUCKER_PUNCH
     move MOVE_DOUBLE_EDGE
     move MOVE_PLAY_ROUGH
@@ -25476,7 +25476,7 @@ party 14
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_WEEZING
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_DOUBLE_HIT
     move MOVE_PAIN_SPLIT
@@ -25493,7 +25493,7 @@ party 14
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
     move MOVE_PSYCHIC
@@ -25511,10 +25511,10 @@ trainerdata 199, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25524,7 +25524,7 @@ party 199
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_POISON_JAB
     move MOVE_FRUSTRATION
@@ -25541,7 +25541,7 @@ party 199
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_LICKILICKY
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_MUDDY_WATER
     move MOVE_HAMMER_ARM
@@ -25558,7 +25558,7 @@ party 199
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+1
     pokemon SPECIES_CARNIVINE
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_CRUNCH
     move MOVE_SLUDGE_BOMB
@@ -25577,10 +25577,10 @@ trainerdata 196, "Resix"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25590,7 +25590,7 @@ party 196
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_MAGCARGO 
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_ANCIENT_POWER
     move MOVE_EARTH_POWER
@@ -25607,7 +25607,7 @@ party 196
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_CAMERUPT
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_EARTH_POWER
     move MOVE_ROCK_SLIDE
@@ -25624,7 +25624,7 @@ party 196
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_CENTISKORCH
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_LASH
     move MOVE_LUNGE
     move MOVE_SCALD
@@ -25643,10 +25643,10 @@ trainerdata 227, "Blusix"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25656,7 +25656,7 @@ party 227
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_WALREIN
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ICE_FANG
     move MOVE_CRUNCH
@@ -25673,7 +25673,7 @@ party 227
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_WAILORD
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_SPOUT
     move MOVE_HEAVY_SLAM
     move MOVE_BULLDOZE
@@ -25690,7 +25690,7 @@ party 227
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_GRAPPLOCT
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_LIQUIDATION
     move MOVE_ICE_PUNCH
@@ -25709,10 +25709,10 @@ trainerdata 341, "Yellosix"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25722,7 +25722,7 @@ party 341
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_LANTURN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_DISCHARGE
     move MOVE_SIGNAL_BEAM
@@ -25739,7 +25739,7 @@ party 341
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_CRUNCH
     move MOVE_FIRE_FANG
@@ -25756,7 +25756,7 @@ party 341
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_MIMIKYU
-    item 0
+    item ITEM_NONE
     move MOVE_PLAY_ROUGH
     move MOVE_SHADOW_CLAW
     move MOVE_WOOD_HAMMER
@@ -25775,10 +25775,10 @@ trainerdata 342, "Browsix"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25788,7 +25788,7 @@ party 342
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_CLAYDOL
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_EARTH_POWER
     move MOVE_ICE_BEAM
@@ -25805,7 +25805,7 @@ party 342
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_SLAKING
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_HAMMER_ARM
     move MOVE_NIGHT_SLASH
@@ -25822,7 +25822,7 @@ party 342
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_MUDSDALE
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_HEAVY_SLAM
     move MOVE_BODY_PRESS
@@ -25841,10 +25841,10 @@ trainerdata 343, "Purpsix"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25854,7 +25854,7 @@ party 343
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_GENGAR
-    item 0
+    item ITEM_NONE
     move MOVE_SHADOW_BALL
     move MOVE_SLUDGE_WAVE
     move MOVE_GIGA_DRAIN
@@ -25871,7 +25871,7 @@ party 343
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_SWALOT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_ICE_BEAM
     move MOVE_AMNESIA
@@ -25888,7 +25888,7 @@ party 343
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     monwithform SPECIES_TOXTRICITY, 1
-    item 0
+    item ITEM_NONE
     move MOVE_OVERDRIVE
     move MOVE_SLUDGE_WAVE
     move MOVE_HYPER_VOICE
@@ -25907,10 +25907,10 @@ trainerdata 344, "Greesix"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -25920,7 +25920,7 @@ party 344
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_SCYTHER
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_AERIAL_ACE
     move MOVE_NIGHT_SLASH
@@ -25937,7 +25937,7 @@ party 344
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_SHIFTRY
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_SUCKER_PUNCH
     move MOVE_AIR_CUTTER
@@ -25954,7 +25954,7 @@ party 344
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_CYCLIZAR
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_DRAGON_RUSH
     move MOVE_IRON_HEAD
@@ -25972,10 +25972,10 @@ trainerdata 706, "Proton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26091,10 +26091,10 @@ trainerdata 190, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26104,7 +26104,7 @@ party 190
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
     move MOVE_GIGA_DRAIN
@@ -26121,7 +26121,7 @@ party 190
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_TENTACRUEL
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_SLUDGE_BOMB
     move MOVE_DAZZLING_GLEAM
@@ -26138,7 +26138,7 @@ party 190
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_PURUGLY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_PLAY_ROUGH
     move MOVE_NIGHT_SLASH
@@ -26156,10 +26156,10 @@ trainerdata 191, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26169,7 +26169,7 @@ party 191
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_FEAROW
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_DRILL_PECK
     move MOVE_DRILL_RUN
@@ -26186,7 +26186,7 @@ party 191
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_SEVIPER
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_CRUNCH
     move MOVE_SCREECH
@@ -26203,7 +26203,7 @@ party 191
     abilityslot 0
     level LEVEL_RADIO_TOWER_GRUNTS+2
     pokemon SPECIES_SKUNTANK
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_NIGHT_SLASH
     move MOVE_SMOKESCREEN
@@ -26221,10 +26221,10 @@ trainerdata 478, "Ariana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26337,10 +26337,10 @@ trainerdata 485, "Archer"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26453,10 +26453,10 @@ trainerdata 700, "Giovanni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ROCKET_BOSS
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26570,10 +26570,10 @@ trainerdata 785, "Giovanni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ROCKET_BOSS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26603,10 +26603,10 @@ trainerdata 110, "Paulo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26719,10 +26719,10 @@ trainerdata 117, "Lola"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26801,10 +26801,10 @@ trainerdata 112, "Cody"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26883,10 +26883,10 @@ trainerdata 119, "Fran"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -26965,10 +26965,10 @@ trainerdata 111, "Mike"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27047,10 +27047,10 @@ trainerdata 35, "Clair"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_CLAIR
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27165,10 +27165,10 @@ trainerdata 501, "Piper"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27230,10 +27230,10 @@ trainerdata 500, "Kobe"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27296,10 +27296,10 @@ trainerdata 502, "Deb & Pete"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_DOUBLE_TEAM
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -27413,10 +27413,10 @@ trainerdata 867, "Wye"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELDER
     nummons 6
-    item 0
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27533,10 +27533,10 @@ trainerdata 162, "Zuki"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27564,10 +27564,10 @@ trainerdata 160, "Naoko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27595,10 +27595,10 @@ trainerdata 164, "Miki"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27626,10 +27626,10 @@ trainerdata 163, "Kuni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27658,10 +27658,10 @@ trainerdata 815, "Natsuko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27690,10 +27690,10 @@ trainerdata 816, "Fuyuko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27721,10 +27721,10 @@ trainerdata 161, "Sayo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27753,10 +27753,10 @@ trainerdata 817, "Haruko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_KIMONO_GIRL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_DOUBLE_BATTLE
     battletype SINGLE_BATTLE
     endentry
@@ -27787,10 +27787,10 @@ trainerdata 818, "Eusine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MYSTERY_MAN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27905,10 +27905,10 @@ trainerdata 115, "Megan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -27970,10 +27970,10 @@ trainerdata 103, "Blake"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28021,7 +28021,7 @@ party 103
     move MOVE_HYDRO_PUMP
     move MOVE_ICE_BEAM
     move MOVE_ACROBATICS
-    move 0
+    move MOVE_NONE
     ability ABILITY_TORRENT
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -28035,10 +28035,10 @@ trainerdata 412, "Eli"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28117,10 +28117,10 @@ trainerdata 104, "Brian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28199,10 +28199,10 @@ trainerdata 114, "Reena"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28264,10 +28264,10 @@ trainerdata 414, "Jose"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28331,10 +28331,10 @@ trainerdata 303, "Jose"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28361,7 +28361,7 @@ party 303
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_SWELLOW
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_HURRICANE
     move MOVE_HEAT_WAVE
@@ -28378,7 +28378,7 @@ party 303
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_UNFEZANT
-    item 0
+    item ITEM_NONE
     move MOVE_BRAVE_BIRD
     move MOVE_DOUBLE_EDGE
     move MOVE_NIGHT_SLASH
@@ -28396,10 +28396,10 @@ trainerdata 446, "Jose"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28426,7 +28426,7 @@ party 446
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_SWELLOW
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_HURRICANE
     move MOVE_HEAT_WAVE
@@ -28443,7 +28443,7 @@ party 446
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_UNFEZANT
-    item 0
+    item ITEM_NONE
     move MOVE_BRAVE_BIRD
     move MOVE_DOUBLE_EDGE
     move MOVE_NIGHT_SLASH
@@ -28461,10 +28461,10 @@ trainerdata 602, "Jose"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28491,7 +28491,7 @@ party 602
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_SWELLOW
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_HURRICANE
     move MOVE_HEAT_WAVE
@@ -28508,7 +28508,7 @@ party 602
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_UNFEZANT
-    item 0
+    item ITEM_NONE
     move MOVE_BRAVE_BIRD
     move MOVE_DOUBLE_EDGE
     move MOVE_NIGHT_SLASH
@@ -28526,10 +28526,10 @@ trainerdata 444, "Reena"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28539,7 +28539,7 @@ party 444
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_ARCANINE
-    item 0
+    item ITEM_NONE
     move MOVE_RAGING_FURY
     move MOVE_PLAY_ROUGH
     move MOVE_IRON_HEAD
@@ -28556,7 +28556,7 @@ party 444
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_WAVE
     move MOVE_EARTH_POWER
     move MOVE_FIRE_BLAST
@@ -28573,7 +28573,7 @@ party 444
     abilityslot 0
     level REMATCH_LEVEL_1A
     monwithform SPECIES_JELLICENT, 1
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_SHADOW_BALL
     move MOVE_ENERGY_BALL
@@ -28591,10 +28591,10 @@ trainerdata 445, "Reena"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28604,7 +28604,7 @@ party 445
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_ARCANINE
-    item 0
+    item ITEM_NONE
     move MOVE_RAGING_FURY
     move MOVE_PLAY_ROUGH
     move MOVE_IRON_HEAD
@@ -28621,7 +28621,7 @@ party 445
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_WAVE
     move MOVE_EARTH_POWER
     move MOVE_FIRE_BLAST
@@ -28638,7 +28638,7 @@ party 445
     abilityslot 0
     level REMATCH_LEVEL_2
     monwithform SPECIES_JELLICENT, 1
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_SHADOW_BALL
     move MOVE_ENERGY_BALL
@@ -28656,10 +28656,10 @@ trainerdata 607, "Reena"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28669,7 +28669,7 @@ party 607
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ARCANINE
-    item 0
+    item ITEM_NONE
     move MOVE_RAGING_FURY
     move MOVE_PLAY_ROUGH
     move MOVE_IRON_HEAD
@@ -28686,7 +28686,7 @@ party 607
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_WAVE
     move MOVE_EARTH_POWER
     move MOVE_FIRE_BLAST
@@ -28703,7 +28703,7 @@ party 607
     abilityslot 0
     level REMATCH_LEVEL_3
     monwithform SPECIES_JELLICENT, 1
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_SHADOW_BALL
     move MOVE_ENERGY_BALL
@@ -28723,10 +28723,10 @@ trainerdata 413, "Scott"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28773,7 +28773,7 @@ party 413
     item ITEM_CUSTAP_BERRY
     move MOVE_X_SCISSOR
     move MOVE_ROCK_SLIDE
-    move 0
+    move MOVE_NONE
     move MOVE_SHELL_SMASH
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
@@ -28805,10 +28805,10 @@ trainerdata 411, "Floyd"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 4
-    item 0 
-    item 0 
-    item 0
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS | F_MULTI_BATTLE_PARTNER
     battletype SINGLE_BATTLE
     endentry
@@ -28887,10 +28887,10 @@ trainerdata 28, "Jake"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -28952,10 +28952,10 @@ trainerdata 36, "Joyce"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29017,10 +29017,10 @@ trainerdata 102, "Gaven"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29034,7 +29034,7 @@ party 102
     move MOVE_SEED_BOMB
     move MOVE_CRUNCH
     move MOVE_FOCUS_BLAST
-    move 0
+    move MOVE_NONE
     ability ABILITY_OVERGROW
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -29082,10 +29082,10 @@ trainerdata 113, "Jamie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29099,7 +29099,7 @@ party 113
     move MOVE_FLARE_BLITZ
     move MOVE_GRASS_KNOT
     move MOVE_LOW_KICK
-    move 0
+    move MOVE_NONE
     ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -29148,10 +29148,10 @@ trainerdata 819, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29264,10 +29264,10 @@ trainerdata 820, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29380,10 +29380,10 @@ trainerdata 821, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_ETHAN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29497,10 +29497,10 @@ trainerdata 822, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29613,10 +29613,10 @@ trainerdata 823, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29730,10 +29730,10 @@ trainerdata 824, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LYRA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29848,10 +29848,10 @@ trainerdata 456, "Gaven"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29861,7 +29861,7 @@ party 456
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -29878,7 +29878,7 @@ party 456
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_KINGLER
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_HAMMER_ARM
     move MOVE_HIGH_HORSEPOWER
@@ -29895,7 +29895,7 @@ party 456
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_INFERNAPE
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_AURA_SPHERE
     move MOVE_GRASS_KNOT
@@ -29913,10 +29913,10 @@ trainerdata 457, "Gaven"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29926,7 +29926,7 @@ party 457
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -29943,7 +29943,7 @@ party 457
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_KINGLER
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_HAMMER_ARM
     move MOVE_HIGH_HORSEPOWER
@@ -29960,7 +29960,7 @@ party 457
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_INFERNAPE
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_AURA_SPHERE
     move MOVE_GRASS_KNOT
@@ -29978,10 +29978,10 @@ trainerdata 604, "Gaven"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -29991,7 +29991,7 @@ party 604
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -30008,7 +30008,7 @@ party 604
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_KINGLER
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_HAMMER_ARM
     move MOVE_HIGH_HORSEPOWER
@@ -30025,7 +30025,7 @@ party 604
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_INFERNAPE
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_AURA_SPHERE
     move MOVE_GRASS_KNOT
@@ -30043,10 +30043,10 @@ trainerdata 458, "Jamie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30056,7 +30056,7 @@ party 458
     abilityslot 0
     level REMATCH_LEVEL_1A
     monwithform SPECIES_RAPIDASH, 1 
-    item 0
+    item ITEM_NONE
     move MOVE_ZEN_HEADBUTT
     move MOVE_PLAY_ROUGH
     move MOVE_MEGAHORN
@@ -30073,7 +30073,7 @@ party 458
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_SIGNAL_BEAM
@@ -30090,7 +30090,7 @@ party 458
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_LAPRAS
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -30108,10 +30108,10 @@ trainerdata 459, "Jamie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30121,7 +30121,7 @@ party 459
     abilityslot 0
     level REMATCH_LEVEL_2
     monwithform SPECIES_RAPIDASH, 1 
-    item 0
+    item ITEM_NONE
     move MOVE_ZEN_HEADBUTT
     move MOVE_PLAY_ROUGH
     move MOVE_MEGAHORN
@@ -30138,7 +30138,7 @@ party 459
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_SIGNAL_BEAM
@@ -30155,7 +30155,7 @@ party 459
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_LAPRAS
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -30173,10 +30173,10 @@ trainerdata 609, "Jamie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30186,7 +30186,7 @@ party 609
     abilityslot 0
     level REMATCH_LEVEL_3
     monwithform SPECIES_RAPIDASH, 1 
-    item 0
+    item ITEM_NONE
     move MOVE_ZEN_HEADBUTT
     move MOVE_PLAY_ROUGH
     move MOVE_MEGAHORN
@@ -30203,7 +30203,7 @@ party 609
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_MANECTRIC
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLAMETHROWER
     move MOVE_SIGNAL_BEAM
@@ -30220,7 +30220,7 @@ party 609
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_LAPRAS
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -30241,10 +30241,10 @@ trainerdata 345, "Track"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30341,10 +30341,10 @@ trainerdata 477, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 5
-    item 0
-    item 0
-    item 0
-    item 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30441,10 +30441,10 @@ trainerdata 372, "Waldo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30474,8 +30474,8 @@ party 372
     item ITEM_SILK_SCARF
     move MOVE_LAST_RESORT
     move MOVE_FAKE_OUT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CUTE_CHARM 
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -30541,10 +30541,10 @@ trainerdata 394, "Cedric"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30641,10 +30641,10 @@ trainerdata 442, "Iride"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30741,10 +30741,10 @@ trainerdata 443, "Diane"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30793,7 +30793,7 @@ party 443
     move MOVE_FREEZE_DRY
     move MOVE_METEOR_BEAM
     move MOVE_MIRROR_COAT
-    ability ITEM_POWER_HERB
+    ability ABILITY_REFRIGERATE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -30841,10 +30841,10 @@ trainerdata 473, "Lumen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -30941,10 +30941,10 @@ trainerdata 474, "Leo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31010,7 +31010,7 @@ party 474
     move MOVE_EARTHQUAKE
     move MOVE_POWER_WHIP
     move MOVE_ICE_PUNCH
-    ability ITEM_EXPERT_BELT
+    ability ABILITY_POISON_TOUCH
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -31042,10 +31042,10 @@ trainerdata 475, "Konado"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31055,7 +31055,7 @@ party 475
     abilityslot 0
     level LEVEL_VICTORY_ROAD
     monwithform SPECIES_BRAVIARY, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ESPER_WING
     move MOVE_HURRICANE
     move MOVE_HEAT_WAVE
@@ -31072,7 +31072,7 @@ party 475
     abilityslot 0
     level LEVEL_VICTORY_ROAD
     pokemon SPECIES_HERACROSS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_CLOSE_COMBAT
     move MOVE_SMART_STRIKE
@@ -31089,7 +31089,7 @@ party 475
     abilityslot 0
     level LEVEL_VICTORY_ROAD
     pokemon SPECIES_URSALUNA
-    item 0
+    item ITEM_NONE
     move MOVE_STRENGTH
     move MOVE_HEADLONG_RUSH
     move MOVE_PLAY_ROUGH
@@ -31124,10 +31124,10 @@ trainerdata 476, "Sato"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31223,10 +31223,10 @@ trainerdata 264, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31339,10 +31339,10 @@ trainerdata 268, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31455,10 +31455,10 @@ trainerdata 272, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31573,10 +31573,10 @@ trainerdata 872, "Victor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31586,7 +31586,7 @@ party 872
     abilityslot 0
     level LEVEL_ELITE_FOUR - 5
     pokemon SPECIES_SWELLOW
-    item 0
+    item ITEM_NONE
     move MOVE_RETURN
     move MOVE_BRAVE_BIRD
     move MOVE_STEEL_WING
@@ -31603,7 +31603,7 @@ party 872
     abilityslot 0
     level LEVEL_ELITE_FOUR - 5
     pokemon SPECIES_LINOONE
-    item 0
+    item ITEM_NONE
     move MOVE_EXTREME_SPEED
     move MOVE_SHADOW_CLAW
     move MOVE_PLAY_ROUGH
@@ -31621,10 +31621,10 @@ trainerdata 873, "Victoria"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31634,7 +31634,7 @@ party 873
     abilityslot 0
     level LEVEL_ELITE_FOUR - 4
     pokemon SPECIES_ROSERADE
-    item 0
+    item ITEM_NONE
     move MOVE_MEGA_DRAIN
     move MOVE_GRASS_KNOT
     move MOVE_VENOSHOCK
@@ -31652,10 +31652,10 @@ trainerdata 874, "Vivi"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31665,7 +31665,7 @@ party 874
     abilityslot 0
     level LEVEL_ELITE_FOUR - 4
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_DRILL_RUN
     move MOVE_MEGAHORN
@@ -31682,7 +31682,7 @@ party 874
     abilityslot 0
     level LEVEL_ELITE_FOUR - 4
     pokemon SPECIES_BRELOOM
-    item 0
+    item ITEM_NONE
     move MOVE_BULLET_SEED
     move MOVE_FORCE_PALM
     move MOVE_ROCK_TOMB
@@ -31699,7 +31699,7 @@ party 874
     abilityslot 0
     level LEVEL_ELITE_FOUR - 4
     pokemon SPECIES_CAMERUPT
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
@@ -31717,10 +31717,10 @@ trainerdata 875, "Vito"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31835,10 +31835,10 @@ trainerdata 245, "Will"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_WILL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -31952,10 +31952,10 @@ trainerdata 825, "Will"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_WILL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32068,10 +32068,10 @@ trainerdata 247, "Koga"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_KOGA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32185,10 +32185,10 @@ trainerdata 826, "Koga"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_KOGA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32301,10 +32301,10 @@ trainerdata 418, "Bruno"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32417,10 +32417,10 @@ trainerdata 827, "Bruno"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32533,10 +32533,10 @@ trainerdata 246, "Karen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_KAREN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32650,10 +32650,10 @@ trainerdata 828, "Karen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ELITE_FOUR_KAREN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32766,10 +32766,10 @@ trainerdata 244, "Lance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CHAMPION
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32884,10 +32884,10 @@ trainerdata 235, "Noland"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32897,7 +32897,7 @@ party 235
     abilityslot 0
     level LEVEL_SS_AQUA
     monwithform SPECIES_DUGTRIO, 1
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_HEAD
     move MOVE_EARTHQUAKE
     move MOVE_SUCKER_PUNCH
@@ -32914,7 +32914,7 @@ party 235
     abilityslot 0
     level LEVEL_SS_AQUA
     monwithform SPECIES_GOLEM, 1
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_STONE_EDGE
     move MOVE_STEAMROLLER
@@ -32931,7 +32931,7 @@ party 235
     abilityslot 0
     level LEVEL_SS_AQUA
     monwithform SPECIES_SANDSLASH, 1
-    item 0
+    item ITEM_NONE
     move MOVE_ICICLE_CRASH
     move MOVE_IRON_HEAD
     move MOVE_ICE_SHARD
@@ -32949,10 +32949,10 @@ trainerdata 424, "Colin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -32962,7 +32962,7 @@ party 424
     abilityslot 0
     level LEVEL_SS_AQUA + 1
     pokemon SPECIES_DELIBIRD
-    item 0
+    item ITEM_NONE
     move MOVE_BLIZZARD
     move MOVE_BRAVE_BIRD
     move MOVE_AIR_SLASH
@@ -32980,10 +32980,10 @@ trainerdata 425, "Meg & Peg"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TWINS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -32993,7 +32993,7 @@ party 425
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_PLUSLE
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_LAST_RESORT
     move MOVE_FAKE_TEARS
@@ -33010,7 +33010,7 @@ party 425
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_MINUN
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_TRUMP_CARD
     move MOVE_FAKE_TEARS
@@ -33028,10 +33028,10 @@ trainerdata 399, "Lyle"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33041,7 +33041,7 @@ party 399
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_FLAREON
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_FLARE_BLITZ
     move MOVE_DOUBLE_KICK
@@ -33058,7 +33058,7 @@ party 399
     abilityslot 0
     level LEVEL_SS_AQUA
     monwithform SPECIES_WEEZING, 1
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_STRANGE_STEAM
     move MOVE_SLUDGE_BOMB
@@ -33075,7 +33075,7 @@ party 399
     abilityslot 0
     level LEVEL_SS_AQUA
     monwithform SPECIES_SLOWKING, 1
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_VENOSHOCK
     move MOVE_PSYCHIC
@@ -33093,10 +33093,10 @@ trainerdata 242, "Fritz"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33106,7 +33106,7 @@ party 242
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_MR_MIME
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_DAZZLING_GLEAM
     move MOVE_MAGICAL_LEAF
@@ -33123,7 +33123,7 @@ party 242
     abilityslot 0
     level LEVEL_SS_AQUA
     monwithform SPECIES_ELECTRODE, 1
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_CHLOROBLAST
     move MOVE_SCREECH
@@ -33140,7 +33140,7 @@ party 242
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_BLAST
     move MOVE_CROSS_CHOP
     move MOVE_CLEAR_SMOG
@@ -33158,10 +33158,10 @@ trainerdata 239, "Jeff"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33171,7 +33171,7 @@ party 239
     abilityslot 0
     level LEVEL_SS_AQUA+1
     pokemon SPECIES_HARIYAMA
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_HEADLONG_RUSH
     move MOVE_KNOCK_OFF
@@ -33189,10 +33189,10 @@ trainerdata 139, "Debra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33202,7 +33202,7 @@ party 139
     abilityslot 0
     level LEVEL_SS_AQUA+1
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_POISON_JAB
     move MOVE_MEGAHORN
@@ -33220,10 +33220,10 @@ trainerdata 238, "Stanly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33233,7 +33233,7 @@ party 238
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_PSYSHOCK
     move MOVE_POWER_GEM
@@ -33250,7 +33250,7 @@ party 238
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_MACHAMP
-    item 0
+    item ITEM_NONE
     move MOVE_DYNAMIC_PUNCH
     move MOVE_DOUBLE_EDGE
     move MOVE_KNOCK_OFF
@@ -33267,7 +33267,7 @@ party 238
     abilityslot 0
     level LEVEL_SS_AQUA
     pokemon SPECIES_MANTINE
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_AIR_SLASH
     move MOVE_SIGNAL_BEAM
@@ -33285,10 +33285,10 @@ trainerdata 842, "Brennan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33298,7 +33298,7 @@ party 842
     abilityslot 0
     level LEVEL_SS_AQUA + 1
     pokemon SPECIES_SWAMPERT
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
@@ -33315,7 +33315,7 @@ party 842
     abilityslot 0
     level LEVEL_SS_AQUA + 1
     pokemon SPECIES_EMPOLEON
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_STEEL_WING
     move MOVE_DRILL_PECK
@@ -33332,7 +33332,7 @@ party 842
     abilityslot 0
     level LEVEL_SS_AQUA + 1
     pokemon SPECIES_SAMUROTT
-    item 0
+    item ITEM_NONE
     move MOVE_RAZOR_SHELL
     move MOVE_SACRED_SWORD
     move MOVE_AERIAL_ACE
@@ -33349,7 +33349,7 @@ party 842
     abilityslot 0
     level LEVEL_SS_AQUA + 1
     pokemon SPECIES_GRENINJA
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_NIGHT_SLASH
     move MOVE_EXTRASENSORY
@@ -33366,7 +33366,7 @@ party 842
     abilityslot 0
     level LEVEL_SS_AQUA + 2
     pokemon SPECIES_PRIMARINA
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_MOONBLAST
     move MOVE_ICY_WIND
@@ -33386,10 +33386,10 @@ trainerdata 308, "Jerry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33469,10 +33469,10 @@ trainerdata 508, "Amara"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33552,10 +33552,10 @@ trainerdata 511, "Theodore"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33601,9 +33601,9 @@ party 511
     pokemon SPECIES_RAMPARDOS
     item ITEM_CHOICE_SCARF
     move MOVE_HEAD_SMASH
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOLD_BREAKER
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -33617,10 +33617,10 @@ trainerdata 685, "Edwin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33682,10 +33682,10 @@ trainerdata 253, "Brock"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33800,10 +33800,10 @@ trainerdata 676, "Parker"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33882,10 +33882,10 @@ trainerdata 677, "Eddie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -33964,10 +33964,10 @@ trainerdata 297, "Diana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34046,10 +34046,10 @@ trainerdata 678, "Joy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34128,10 +34128,10 @@ trainerdata 298, "Briana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34210,10 +34210,10 @@ trainerdata 254, "Misty"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_MISTY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34328,10 +34328,10 @@ trainerdata 232, "Vincent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GUITARIST
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34427,10 +34427,10 @@ trainerdata 337, "Gregory"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34512,7 +34512,7 @@ party 337
     move MOVE_ELECTRO_BALL
     move MOVE_THUNDERBOLT
     move MOVE_AIR_SLASH
-    move 0
+    move MOVE_NONE
     ability ABILITY_WIND_POWER
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -34526,10 +34526,10 @@ trainerdata 396, "Horton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34625,10 +34625,10 @@ trainerdata 255, "Lt. Surge"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_LT_SURGE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34657,7 +34657,7 @@ party 255
     pokemon SPECIES_ELECTRODE
     item ITEM_LIFE_ORB
     move MOVE_THUNDERBOLT
-    move 0
+    move MOVE_NONE
     move MOVE_HIDDEN_POWER
     move MOVE_VOLT_SWITCH
     ability ABILITY_AFTERMATH
@@ -34743,10 +34743,10 @@ trainerdata 326, "Jo & Zoe"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TWINS
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -34825,10 +34825,10 @@ trainerdata 356, "Michelle"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34907,10 +34907,10 @@ trainerdata 336, "Tanya"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -34989,10 +34989,10 @@ trainerdata 346, "Julia"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35071,10 +35071,10 @@ trainerdata 256, "Erika"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_ERIKA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35189,10 +35189,10 @@ trainerdata 83, "Cindy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35239,7 +35239,7 @@ party 83
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BUZZ
     move MOVE_VENOSHOCK
-    move 0
+    move MOVE_NONE
     move MOVE_QUIVER_DANCE
     ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
@@ -35271,10 +35271,10 @@ trainerdata 84, "Barry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35353,10 +35353,10 @@ trainerdata 183, "Alice"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35435,10 +35435,10 @@ trainerdata 136, "Linda"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35517,10 +35517,10 @@ trainerdata 257, "Janine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_JANINE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35635,10 +35635,10 @@ trainerdata 368, "Rebecca"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MEDIUM
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35717,10 +35717,10 @@ trainerdata 415, "Jared"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35799,10 +35799,10 @@ trainerdata 369, "Darcy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_MEDIUM
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35881,10 +35881,10 @@ trainerdata 230, "Franklin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -35963,10 +35963,10 @@ trainerdata 258, "Sabrina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_SABRINA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36081,10 +36081,10 @@ trainerdata 692, "Lowell"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36146,10 +36146,10 @@ trainerdata 694, "Daniel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36161,7 +36161,7 @@ party 694
     pokemon SPECIES_FLAREON
     item ITEM_TOXIC_ORB
     move MOVE_FLARE_BLITZ
-    move 0
+    move MOVE_NONE
     move MOVE_FACADE
     move MOVE_WILL_O_WISP
     ability ABILITY_GUTS
@@ -36211,10 +36211,10 @@ trainerdata 689, "Cary"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36276,10 +36276,10 @@ trainerdata 693, "Linden"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCIENTIST
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36341,10 +36341,10 @@ trainerdata 690, "Waldo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36406,10 +36406,10 @@ trainerdata 691, "Merle"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36471,10 +36471,10 @@ trainerdata 259, "Blaine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BLAINE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36589,10 +36589,10 @@ trainerdata 683, "Salma"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36688,10 +36688,10 @@ trainerdata 681, "Arabello"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36787,10 +36787,10 @@ trainerdata 684, "Elan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36886,10 +36886,10 @@ trainerdata 529, "Ida"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -36985,10 +36985,10 @@ trainerdata 682, "Bonito"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37084,10 +37084,10 @@ trainerdata 261, "Blue"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BLUE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37203,10 +37203,10 @@ trainerdata 855, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37319,10 +37319,10 @@ trainerdata 856, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37435,10 +37435,10 @@ trainerdata 857, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37552,10 +37552,10 @@ trainerdata 514, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37565,7 +37565,7 @@ party 514
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_CRUNCH
     move MOVE_PLUCK
@@ -37582,7 +37582,7 @@ party 514
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_BANETTE
-    item 0
+    item ITEM_NONE
     move MOVE_POLTERGEIST
     move MOVE_FRUSTRATION
     move MOVE_GUNK_SHOT
@@ -37599,7 +37599,7 @@ party 514
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_MUK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_ROCK_SLIDE
     move MOVE_DRAIN_PUNCH
@@ -37616,7 +37616,7 @@ party 514
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_TOXICROAK
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_CLOSE_COMBAT
     move MOVE_SUCKER_PUNCH
@@ -37635,10 +37635,10 @@ trainerdata 516, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37648,7 +37648,7 @@ party 516
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_FEAROW
-    item 0
+    item ITEM_NONE
     move MOVE_FRUSTRATION
     move MOVE_BRAVE_BIRD
     move MOVE_DRILL_RUN
@@ -37665,7 +37665,7 @@ party 516
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_POISON_JAB
     move MOVE_LEECH_LIFE
@@ -37682,7 +37682,7 @@ party 516
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_TENTACRUEL
-    item 0
+    item ITEM_NONE
     move MOVE_SCALD
     move MOVE_SLUDGE_WAVE
     move MOVE_DAZZLING_GLEAM
@@ -37699,7 +37699,7 @@ party 516
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_MISMAGIUS
-    item 0
+    item ITEM_NONE
     move MOVE_SHADOW_BALL
     move MOVE_DAZZLING_GLEAM
     move MOVE_POWER_GEM
@@ -37717,10 +37717,10 @@ trainerdata 843, "Proton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37833,10 +37833,10 @@ trainerdata 844, "Petrel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PETREL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37949,10 +37949,10 @@ trainerdata 845, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37964,9 +37964,9 @@ party 845
     pokemon SPECIES_GENGAR
     item ITEM_GENGARITE
     move MOVE_RETURN
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOLD_BREAKER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -37980,10 +37980,10 @@ trainerdata 353, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -37993,7 +37993,7 @@ party 353
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_GOLBAT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
     move MOVE_HEAT_WAVE
@@ -38010,7 +38010,7 @@ party 353
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_CROSS_POISON
     move MOVE_SUCKER_PUNCH
@@ -38027,7 +38027,7 @@ party 353
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_SANDSLASH
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_POISON_JAB
@@ -38044,7 +38044,7 @@ party 353
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_EELEKTROSS
-    item 0
+    item ITEM_NONE
     move MOVE_SUPERCELL_SLAM
     move MOVE_CRUNCH
     move MOVE_LIQUIDATION
@@ -38063,10 +38063,10 @@ trainerdata 519, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38076,7 +38076,7 @@ party 519
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_PERSIAN
-    item 0
+    item ITEM_NONE
     move MOVE_FURY_SWIPES
     move MOVE_WATER_PULSE
     move MOVE_SHOCK_WAVE
@@ -38093,7 +38093,7 @@ party 519
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_CARNIVINE
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_BUG_BITE
     move MOVE_CRUNCH
@@ -38110,7 +38110,7 @@ party 519
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_EARTH_POWER
     move MOVE_SLUDGE_BOMB
     move MOVE_FOCUS_BLAST
@@ -38127,7 +38127,7 @@ party 519
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_LICKILICKY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_HAMMER_ARM
     move MOVE_POWER_WHIP
@@ -38146,10 +38146,10 @@ trainerdata 521, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEAM_ROCKET
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38159,7 +38159,7 @@ party 521
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_ANNIHILAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_SHADOW_PUNCH
     move MOVE_THUNDER_PUNCH
@@ -38176,7 +38176,7 @@ party 521
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_MIGHTYENA
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_ICE_FANG
     move MOVE_FIRE_FANG
@@ -38193,7 +38193,7 @@ party 521
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_GARBODOR
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_FRUSTRATION
     move MOVE_DRAIN_PUNCH
@@ -38210,7 +38210,7 @@ party 521
     abilityslot 0
     level LEVEL_CERULEAN_CAVE
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_GIGA_DRAIN
@@ -38228,10 +38228,10 @@ trainerdata 846, "Ariana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38344,10 +38344,10 @@ trainerdata 847, "Archer"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARCHER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38460,10 +38460,10 @@ trainerdata 848, "Giovanni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ROCKET_BOSS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38491,10 +38491,10 @@ trainerdata 849, "Giovanni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ROCKET_BOSS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38522,10 +38522,10 @@ trainerdata 850, "Giovanni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ROCKET_BOSS
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38640,10 +38640,10 @@ trainerdata 858, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38756,10 +38756,10 @@ trainerdata 859, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38872,10 +38872,10 @@ trainerdata 860, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -38988,10 +38988,10 @@ trainerdata 851, "Blue"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BLUE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39105,10 +39105,10 @@ trainerdata 852, "Lance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_LANCE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39221,10 +39221,10 @@ trainerdata 853, "Steven"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_STEVEN
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39337,10 +39337,10 @@ trainerdata 854, "Cynthia"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CYNTHIA
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39453,10 +39453,10 @@ trainerdata 260, "Red"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_RED
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39569,10 +39569,10 @@ trainerdata 861, "Red"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_RED
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39685,10 +39685,10 @@ trainerdata 862, "Red"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PKMN_TRAINER_RED
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39803,10 +39803,10 @@ trainerdata 546, "Sherman"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39816,11 +39816,11 @@ party 546
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_RUN_AWAY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -39833,11 +39833,11 @@ party 546
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DIGGERSBY
-    item 0
+    item ITEM_NONE
     move MOVE_FACADE
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PICKUP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -39851,10 +39851,10 @@ trainerdata 327, "Danny"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39864,11 +39864,11 @@ party 327
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_JYNX
-    item 0
+    item ITEM_NONE
     move MOVE_ICE_BEAM
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OBLIVIOUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -39881,11 +39881,11 @@ party 327
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ELECTABUZZ
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_CROSS_CHOP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -39898,11 +39898,11 @@ party 327
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGMAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -39916,10 +39916,10 @@ trainerdata 545, "French"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39929,7 +39929,7 @@ party 545
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_ABSOL
-    item 0
+    item ITEM_NONE
     move MOVE_NIGHT_SLASH
     move MOVE_PSYCHO_CUT
     move MOVE_MEGAHORN
@@ -39946,7 +39946,7 @@ party 545
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_GARDEVOIR
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_MOONBLAST
     move MOVE_THUNDERBOLT
@@ -39964,10 +39964,10 @@ trainerdata 362, "Quinn"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -39977,7 +39977,7 @@ party 362
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_ROSERADE
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_STORM
     move MOVE_SLUDGE_BOMB
     move MOVE_SHADOW_BALL
@@ -39994,7 +39994,7 @@ party 362
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_STARMIE
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_PSYCHIC
     move MOVE_POWER_GEM
@@ -40014,10 +40014,10 @@ trainerdata 140, "Doug"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40027,11 +40027,11 @@ party 140
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BUTTERFREE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_HURRICANE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40044,11 +40044,11 @@ party 140
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40062,10 +40062,10 @@ trainerdata 48, "Rob"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40075,11 +40075,11 @@ party 48
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BEEDRILL
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_POISON_JAB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40092,11 +40092,11 @@ party 48
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40110,10 +40110,10 @@ trainerdata 248, "Ed"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40123,11 +40123,11 @@ party 248
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WORMADAM
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_STORM
     move MOVE_BUG_BUZZ
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ANTICIPATION
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40140,11 +40140,11 @@ party 248
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GALVANTULA
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDER
     move MOVE_BUG_BUZZ
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40157,11 +40157,11 @@ party 248
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_HERACROSS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_CLOSE_COMBAT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40177,10 +40177,10 @@ trainerdata 699, "Abner"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40190,11 +40190,11 @@ party 699
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MASQUERAIN
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_HYDRO_PUMP
-    move 0
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40207,11 +40207,11 @@ party 699
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VESPIQUEN
-    item 0
+    item ITEM_NONE
     move MOVE_ATTACK_ORDER
     move MOVE_ACROBATICS
     move MOVE_HEAL_ORDER
-    move 0
+    move MOVE_NONE
     ability ABILITY_PRESSURE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40224,11 +40224,11 @@ party 699
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PIKACHU
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_IRON_TAIL
     move MOVE_QUICK_ATTACK
-    move 0
+    move MOVE_NONE
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40242,10 +40242,10 @@ trainerdata 698, "Ellis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40255,11 +40255,11 @@ party 698
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_POISON_JAB
     move MOVE_SHADOW_SNEAK
-    move 0
+    move MOVE_NONE
     ability ABILITY_INSOMNIA
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40272,11 +40272,11 @@ party 698
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VENOMOTH
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40289,11 +40289,11 @@ party 698
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PINSIR
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_EARTHQUAKE
     move MOVE_CLOSE_COMBAT
-    move 0
+    move MOVE_NONE
     ability ABILITY_HYPER_CUTTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40307,10 +40307,10 @@ trainerdata 697, "Stacey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40320,11 +40320,11 @@ party 697
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LEDIAN
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BITE
     move MOVE_ACROBATICS
     move MOVE_MACH_PUNCH
-    move 0
+    move MOVE_NONE
     ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40337,11 +40337,11 @@ party 697
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     monwithform SPECIES_VIVILLON, 5
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_HURRICANE
     move MOVE_DRAINING_KISS
-    move 0
+    move MOVE_NONE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40354,11 +40354,11 @@ party 697
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SCYTHER
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_DUAL_WINGBEAT
     move MOVE_SWORDS_DANCE
-    move 0
+    move MOVE_NONE
     ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40372,10 +40372,10 @@ trainerdata 696, "Dion"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40385,11 +40385,11 @@ party 696
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_KRICKETUNE
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_AERIAL_ACE
     move MOVE_SING
-    move 0
+    move MOVE_NONE
     ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40402,11 +40402,11 @@ party 696
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MOTHIM
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_PSYCHIC
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40419,11 +40419,11 @@ party 696
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ESCAVALIER
-    item 0
+    item ITEM_NONE
     move MOVE_MEGAHORN
     move MOVE_IRON_HEAD
     move MOVE_DOUBLE_EDGE
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40437,10 +40437,10 @@ trainerdata 695, "Dane"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40450,11 +40450,11 @@ party 695
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NINJASK
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_ACROBATICS
     move MOVE_BATON_PASS
-    move 0
+    move MOVE_NONE
     ability ABILITY_SPEED_BOOST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40467,11 +40467,11 @@ party 695
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_YANMEGA
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_AIR_SLASH
     move MOVE_GIGA_DRAIN
-    move 0
+    move MOVE_NONE
     ability ABILITY_SPEED_BOOST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40484,11 +40484,11 @@ party 695
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ACCELGOR
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_GIGA_DRAIN
     move MOVE_FOCUS_BLAST
-    move 0
+    move MOVE_NONE
     ability ABILITY_HYDRATION
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40504,10 +40504,10 @@ trainerdata 552, "Regis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40517,11 +40517,11 @@ party 552
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MIGHTYENA
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_FIRE_FANG
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40534,11 +40534,11 @@ party 552
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PANGORO
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_CLOSE_COMBAT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOLD_BREAKER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40552,10 +40552,10 @@ trainerdata 378, "Warren"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40565,11 +40565,11 @@ party 378
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DONPHAN
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40582,11 +40582,11 @@ party 378
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CRAWDAUNT
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ADAPTABILITY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40600,10 +40600,10 @@ trainerdata 379, "Jimmy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40613,11 +40613,11 @@ party 379
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ARBOK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40630,11 +40630,11 @@ party 379
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PARASECT
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_SPORE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_EFFECT_SPORE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40647,11 +40647,11 @@ party 379
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WATCHOG
-    item 0
+    item ITEM_NONE
     move MOVE_SLAM
     move MOVE_HYPNOSIS
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ILLUMINATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40665,10 +40665,10 @@ trainerdata 549, "Zac & Jen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_DOUBLE_TEAM
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -40678,7 +40678,7 @@ party 549
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
     move MOVE_SUCKER_PUNCH
@@ -40695,7 +40695,7 @@ party 549
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EMOLGA
-    item 0
+    item ITEM_NONE
     move MOVE_DISCHARGE
     move MOVE_ACROBATICS
     move MOVE_ENCORE
@@ -40713,10 +40713,10 @@ trainerdata 15, "Otis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40726,11 +40726,11 @@ party 15
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WEEZING
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_FLAMETHROWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40743,11 +40743,11 @@ party 15
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CAMERUPT
-    item 0
+    item ITEM_NONE
     move MOVE_EARTH_POWER
     move MOVE_FLAMETHROWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SOLID_ROCK
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40761,10 +40761,10 @@ trainerdata 547, "Bruce"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40774,11 +40774,11 @@ party 547
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40791,11 +40791,11 @@ party 547
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_RHYDON
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ROCK_HEAD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40808,11 +40808,11 @@ party 547
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CLEFABLE
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_METEOR_MASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MAGIC_GUARD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40826,10 +40826,10 @@ trainerdata 548, "Manford"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40837,13 +40837,13 @@ trainerdata 548, "Manford"
 party 548
     ivs 0
     abilityslot 0
-    level LEVEL_KANTO_TRAINERS
-    pokemon LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
-    item 0
+    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
+    pokemon SPECIES_POLIWRATH
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_CLOSE_COMBAT
     move MOVE_DARKEST_LARIAT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -40857,10 +40857,10 @@ trainerdata 550, "Ander"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40870,11 +40870,11 @@ party 550
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_ANNIHILAPE
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_SHADOW_PUNCH
     move MOVE_OUTRAGE
-    move 0
+    move MOVE_NONE
     ability ABILITY_VITAL_SPIRIT
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -40887,11 +40887,11 @@ party 550
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MACHAMP
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_STONE_EDGE
     move MOVE_KNOCK_OFF
-    move 0
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -40904,11 +40904,11 @@ party 550
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_CONKELDURR
-    item 0
+    item ITEM_NONE
     move MOVE_HAMMER_ARM
     move MOVE_STONE_EDGE
     move MOVE_MACH_PUNCH
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHEER_FORCE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -40922,10 +40922,10 @@ trainerdata 551, "Dwight"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40935,11 +40935,11 @@ party 551
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGNEZONE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MAGNET_PULL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40952,11 +40952,11 @@ party 551
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_EXCADRILL
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_IRON_HEAD
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOLD_BREAKER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -40970,10 +40970,10 @@ trainerdata 318, "Burt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -40983,11 +40983,11 @@ party 318
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SKUNTANK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STENCH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41000,11 +41000,11 @@ party 318
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGCARGO
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_ANCIENT_POWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MAGMA_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41020,10 +41020,10 @@ trainerdata 152, "Hope"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41033,11 +41033,11 @@ party 152
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_AMPHAROS
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_DRAGON_PULSE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41051,10 +41051,10 @@ trainerdata 299, "Hank"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41064,11 +41064,11 @@ party 299
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_UNFEZANT
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_BRAVE_BIRD
     move MOVE_NIGHT_SLASH
-    move 0
+    move MOVE_NONE
     ability ABILITY_SUPER_LUCK
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -41082,10 +41082,10 @@ trainerdata 153, "Sharon"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41095,11 +41095,11 @@ party 153
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FURRET
-    item 0
+    item ITEM_NONE
     move MOVE_SLAM
     move MOVE_BRUTAL_SWING
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41112,11 +41112,11 @@ party 153
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_RAPIDASH
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_HIGH_HORSEPOWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41132,10 +41132,10 @@ trainerdata 598, "Day & Dani"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TWINS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -41145,11 +41145,11 @@ party 598
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PLUSLE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDER
     move MOVE_HELPING_HAND
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PLUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41162,11 +41162,11 @@ party 598
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MINUN
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDER
     move MOVE_HELPING_HAND
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MINUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41180,10 +41180,10 @@ trainerdata 599, "Virgil"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41193,11 +41193,11 @@ party 599
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_KECLEON
-    item 0
+    item ITEM_NONE
     move MOVE_SLASH
     move MOVE_SHADOW_CLAW
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_COLOR_CHANGE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41210,11 +41210,11 @@ party 599
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SLAKING
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_HAMMER_ARM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TRUANT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41228,10 +41228,10 @@ trainerdata 600, "Selina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41241,11 +41241,11 @@ party 600
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SUNFLORA
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SUNNY_DAY
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41258,11 +41258,11 @@ party 600
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CHERRIM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_WEATHER_BALL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLOWER_GIFT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41278,10 +41278,10 @@ trainerdata 309, "Dwayne"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41291,11 +41291,11 @@ party 309
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_GARBODOR
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_METAL_CLAW
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WEAK_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41309,10 +41309,10 @@ trainerdata 310, "Harris"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41322,11 +41322,11 @@ party 310
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_FLAREON
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_DOUBLE_EDGE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLASH_FIRE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41340,10 +41340,10 @@ trainerdata 311, "Zeke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41353,11 +41353,11 @@ party 311
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SCRAFTY
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_HIGH_JUMP_KICK
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOXIE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41371,10 +41371,10 @@ trainerdata 364, "Zeke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41384,11 +41384,11 @@ party 364
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MUK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_SHADOW_PUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STENCH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41402,10 +41402,10 @@ trainerdata 553, "Moe & Lulu"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNG_COUPLE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -41415,11 +41415,11 @@ party 553
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SHIFTRY
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_DARK_PULSE
     move MOVE_HURRICANE
-    move 0
+    move MOVE_NONE
     ability ABILITY_WIND_RIDER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41432,11 +41432,11 @@ party 553
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_LUDICOLO
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_ENERGY_BALL
     move MOVE_RAIN_DANCE
-    move 0
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41450,10 +41450,10 @@ trainerdata 365, "Tyrone"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41463,11 +41463,11 @@ party 365
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGNEZONE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ANALYTIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41480,11 +41480,11 @@ party 365
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_KLINKLANG
-    item 0
+    item ITEM_NONE
     move MOVE_GEAR_GRIND
     move MOVE_THUNDERBOLT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CLEAR_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41497,11 +41497,11 @@ party 365
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FORRETRESS
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_HEAD
     move MOVE_ZAP_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41515,10 +41515,10 @@ trainerdata 554, "Milton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41528,11 +41528,11 @@ party 554
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_ARCANINE
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_EXTREME_SPEED
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLASH_FIRE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41548,10 +41548,10 @@ trainerdata 333, "Edna"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41561,11 +41561,11 @@ party 333
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NIDOQUEEN
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_RIVALRY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41578,11 +41578,11 @@ party 333
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PACHIRISU
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_SUPER_FANG
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PICKUP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41596,10 +41596,10 @@ trainerdata 150, "Sid"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41609,11 +41609,11 @@ party 150
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAROWAK
-    item 0
+    item ITEM_NONE
     move MOVE_BONEMERANG
     move MOVE_ROCK_SLIDE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ROCK_HEAD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41626,11 +41626,11 @@ party 150
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SEISMITOAD
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_TOUCH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41644,10 +41644,10 @@ trainerdata 149, "Dean"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41657,11 +41657,11 @@ party 149
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GOLDUCK
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CLOUD_NINE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41674,11 +41674,11 @@ party 149
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FLYGON
-    item 0
+    item ITEM_NONE
     move MOVE_DRAGON_PULSE
     move MOVE_EARTH_POWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41692,10 +41692,10 @@ trainerdata 234, "Eoin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41705,11 +41705,11 @@ party 234
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MAMOSWINE
-    item 0
+    item ITEM_NONE
     move MOVE_ICICLE_CRASH
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OBLIVIOUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41723,10 +41723,10 @@ trainerdata 332, "Heidi"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41736,11 +41736,11 @@ party 332
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_JUMPLUFF
-    item 0
+    item ITEM_NONE
     move MOVE_GIGA_DRAIN
     move MOVE_ACROBATICS
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41754,10 +41754,10 @@ trainerdata 357, "Clarke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41767,11 +41767,11 @@ party 357
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_STEELIX
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_IRON_TAIL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41784,11 +41784,11 @@ party 357
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GOLURK
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_SHADOW_PUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41804,10 +41804,10 @@ trainerdata 348, "Robert"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41817,11 +41817,11 @@ party 348
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41835,10 +41835,10 @@ trainerdata 359, "Jim"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41848,11 +41848,11 @@ party 359
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_PROBOPASS
-    item 0
+    item ITEM_NONE
     move MOVE_FLASH_CANNON
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MAGNET_PULL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41868,10 +41868,10 @@ trainerdata 317, "Fidel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41881,11 +41881,11 @@ party 317
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_XATU
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_AIR_SLASH
     move MOVE_GIGA_DRAIN
-    move 0
+    move MOVE_NONE
     ability ABILITY_SYNCHRONIZE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -41898,11 +41898,11 @@ party 317
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MEDICHAM
-    item 0
+    item ITEM_NONE
     move MOVE_ZEN_HEADBUTT
     move MOVE_HIGH_JUMP_KICK
     move MOVE_ICE_PUNCH
-    move 0
+    move MOVE_NONE
     ability ABILITY_PURE_POWER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -41916,10 +41916,10 @@ trainerdata 380, "Owen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41929,11 +41929,11 @@ party 380
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ARCANINE
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41946,11 +41946,11 @@ party 380
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_STOUTLAND
-    item 0
+    item ITEM_NONE
     move MOVE_TAKE_DOWN
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41964,10 +41964,10 @@ trainerdata 381, "Jason"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -41977,11 +41977,11 @@ party 381
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SANDSLASH
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_CRUSH_CLAW
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -41994,11 +41994,11 @@ party 381
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CROBAT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42012,10 +42012,10 @@ trainerdata 316, "Herman"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42025,11 +42025,11 @@ party 316
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_WOOD_HAMMER
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42042,11 +42042,11 @@ party 316
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_WOOD_HAMMER
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42059,11 +42059,11 @@ party 316
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_WOOD_HAMMER
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42079,10 +42079,10 @@ trainerdata 59, "Kyle"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42092,11 +42092,11 @@ party 59
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_RAIN_DANCE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42109,11 +42109,11 @@ party 59
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_QWILFISH
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_GUNK_SHOT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42126,11 +42126,11 @@ party 59
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WHISCASH
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OBLIVIOUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42144,10 +42144,10 @@ trainerdata 555, "Justin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42157,11 +42157,11 @@ party 555
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_ALTARIA
-    item 0
+    item ITEM_NONE
     move MOVE_DRAGON_CLAW
     move MOVE_BRAVE_BIRD
     move MOVE_PLAY_ROUGH
-    move 0
+    move MOVE_NONE
     ability ABILITY_NATURAL_CURE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42174,11 +42174,11 @@ party 555
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_HURRICANE
     move MOVE_PSYCHIC
-    move 0
+    move MOVE_NONE
     ability ABILITY_NATURAL_CURE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42192,10 +42192,10 @@ trainerdata 320, "Martin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42205,11 +42205,11 @@ party 320
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_OCTILLERY
-    item 0
+    item ITEM_NONE
     move MOVE_OCTAZOOKA
     move MOVE_FLAMETHROWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SUCTION_CUPS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42223,10 +42223,10 @@ trainerdata 557, "Vic & Tara"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNG_COUPLE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -42236,11 +42236,11 @@ party 557
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_NINETALES
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_SOLAR_BEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_DROUGHT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42253,11 +42253,11 @@ party 557
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SUNFLORA
-    item 0
+    item ITEM_NONE
     move MOVE_SOLAR_BEAM
     move MOVE_WEATHER_BALL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SOLAR_POWER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42271,10 +42271,10 @@ trainerdata 321, "Stephen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42284,11 +42284,11 @@ party 321
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LANTURN
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_THUNDERBOLT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_VOLT_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42301,11 +42301,11 @@ party 321
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     monwithform SPECIES_BASCULIN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_WAVE_CRASH
     move MOVE_HEAD_SMASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ADAPTABILITY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42318,11 +42318,11 @@ party 321
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_TENTACRUEL
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_SLUDGE_WAVE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OBLIVIOUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42336,10 +42336,10 @@ trainerdata 556, "Gail"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42349,11 +42349,11 @@ party 556
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_SKARMORY
-    item 0
+    item ITEM_NONE
     move MOVE_IRON_HEAD
     move MOVE_BRAVE_BIRD
     move MOVE_NIGHT_SLASH
-    move 0
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42367,10 +42367,10 @@ trainerdata 322, "Barney"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42380,11 +42380,11 @@ party 322
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_BOUNCE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42398,10 +42398,10 @@ trainerdata 558, "Kyler"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42411,11 +42411,11 @@ party 558
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_GYARADOS
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ICE_FANG
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42431,10 +42431,10 @@ trainerdata 421, "Bret"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42444,11 +42444,11 @@ party 421
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SWELLOW
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_AIR_SLASH
     move MOVE_HEAT_WAVE
-    move 0
+    move MOVE_NONE
     ability ABILITY_SCRAPPY
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42461,11 +42461,11 @@ party 421
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_CHATOT
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_AIR_SLASH
     move MOVE_HEAT_WAVE
-    move 0
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42479,10 +42479,10 @@ trainerdata 562, "Piper"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42492,11 +42492,11 @@ party 562
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_GRUMPIG
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_THICK_FAT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42510,10 +42510,10 @@ trainerdata 420, "Perry"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42523,11 +42523,11 @@ party 420
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_SIRFETCHD
-    item 0
+    item ITEM_NONE
     move MOVE_METEOR_ASSAULT
     move MOVE_BRAVE_BIRD
     move MOVE_LEAF_BLADE
-    move 0
+    move MOVE_NONE
     ability ABILITY_STEADFAST
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42541,10 +42541,10 @@ trainerdata 559, "Tim & Sue"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_YOUNG_COUPLE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -42554,11 +42554,11 @@ party 559
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_GARDEVOIR
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_MOONBLAST
     move MOVE_CAPTIVATE
-    move 0
+    move MOVE_NONE
     ability ABILITY_TRACE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42571,11 +42571,11 @@ party 559
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_GALLADE
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHO_CUT
     move MOVE_SACRED_SWORD
     move MOVE_PROTECT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHARPNESS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42589,10 +42589,10 @@ trainerdata 349, "Joshua"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42602,11 +42602,11 @@ party 349
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PIKACHU
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_PLAY_ROUGH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42619,11 +42619,11 @@ party 349
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PLUSLE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_ENCORE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PLUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42636,11 +42636,11 @@ party 349
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MINUN
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_ENCORE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MINUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42653,11 +42653,11 @@ party 349
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PACHIRISU
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_SUPER_FANG
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PICKUP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42670,11 +42670,11 @@ party 349
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_EMOLGA
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_ACROBATICS
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42687,11 +42687,11 @@ party 349
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DEDENNE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_DAZZLING_GLEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHEEK_POUCH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42705,10 +42705,10 @@ trainerdata 492, "Alex"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42718,11 +42718,11 @@ party 492
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_WAVE
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_RIVALRY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42735,11 +42735,11 @@ party 492
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SLOWKING
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OBLIVIOUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42752,11 +42752,11 @@ party 492
     abilityslot 0
     level 80
     pokemon SPECIES_MAGIKARP
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_BOUNCE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42770,10 +42770,10 @@ trainerdata 561, "Tanner"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42783,11 +42783,11 @@ party 561
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SUDOWOODO
-    item 0
+    item ITEM_NONE
     move MOVE_HEAD_SMASH
     move MOVE_WOOD_HAMMER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ROCK_HEAD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42801,10 +42801,10 @@ trainerdata 563, "Ginger"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42814,11 +42814,11 @@ party 563
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXPLOUD
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_EXTRASENSORY
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SCRAPPY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42832,10 +42832,10 @@ trainerdata 560, "Clark"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42845,11 +42845,11 @@ party 560
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_FLOATZEL
-    item 0
+    item ITEM_NONE
     move MOVE_WAVE_CRASH
     move MOVE_ICE_FANG
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42863,10 +42863,10 @@ trainerdata 358, "Kenny"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_HIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42876,11 +42876,11 @@ party 358
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WHISCASH
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_AQUA_TAIL
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OBLIVIOUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42893,11 +42893,11 @@ party 358
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CAMERUPT
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_FLARE_BLITZ
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MAGMA_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42910,11 +42910,11 @@ party 358
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DUGTRIO
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ARENA_TRAP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42930,10 +42930,10 @@ trainerdata 565, "Josh"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42947,7 +42947,7 @@ party 565
     move MOVE_FOUL_PLAY
     move MOVE_BRAVE_BIRD
     move MOVE_BONE_RUSH
-    move 0
+    move MOVE_NONE
     ability ABILITY_BIG_PECKS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -42961,10 +42961,10 @@ trainerdata 351, "Trevor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -42977,8 +42977,8 @@ party 351
     item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_PLAY_ROUGH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -42992,10 +42992,10 @@ trainerdata 350, "Carter"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43008,8 +43008,8 @@ party 350
     item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OVERGROW
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43025,8 +43025,8 @@ party 350
     item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43042,8 +43042,8 @@ party 350
     item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TORRENT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43057,10 +43057,10 @@ trainerdata 300, "Roy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43074,7 +43074,7 @@ party 300
     move MOVE_CRUSH_CLAW
     move MOVE_BRAVE_BIRD
     move MOVE_SUPERPOWER
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHEER_FORCE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -43088,10 +43088,10 @@ trainerdata 566, "Connor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43104,8 +43104,8 @@ party 566
     item ITEM_NONE
     move MOVE_EXTREME_SPEED
     move MOVE_BELLY_DRUM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PICKUP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43119,10 +43119,10 @@ trainerdata 564, "Clarice"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEACHER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43135,8 +43135,8 @@ party 564
     item ITEM_NONE
     move MOVE_EXTREME_SPEED
     move MOVE_BELLY_DRUM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PICKUP
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43152,8 +43152,8 @@ party 564
     item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43167,10 +43167,10 @@ trainerdata 567, "Torin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43183,8 +43183,8 @@ party 567
     item ITEM_NONE
     move MOVE_AIR_SLASH
     move MOVE_CALM_MIND
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SIMPLE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43200,8 +43200,8 @@ party 567
     item ITEM_NONE
     move MOVE_SHADOW_BALL
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43215,10 +43215,10 @@ trainerdata 568, "Travis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43231,8 +43231,8 @@ party 568
     item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43248,10 +43248,10 @@ trainerdata 331, "Billy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43261,11 +43261,11 @@ party 331
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PARASECT
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_X_SCISSOR
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_EFFECT_SPORE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43278,11 +43278,11 @@ party 331
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DUDUNSPARCE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_DRILL
     move MOVE_DRILL_RUN
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SERENE_GRACE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43295,11 +43295,11 @@ party 331
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DITTO
-    item 0
+    item ITEM_NONE
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43313,10 +43313,10 @@ trainerdata 38, "Colette"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEACHER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43326,11 +43326,11 @@ party 38
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_TOGEKISS
-    item 0
+    item ITEM_NONE
     move MOVE_DAZZLING_GLEAM
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SERENE_GRACE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43344,10 +43344,10 @@ trainerdata 569, "Kay & Tia"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TWINS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype DOUBLE_BATTLE
     endentry
@@ -43357,11 +43357,11 @@ party 569
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_PROTECT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43374,11 +43374,11 @@ party 569
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CLODSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_EARTHQUAKE
     move MOVE_PROTECT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43392,10 +43392,10 @@ trainerdata 571, "Eleanor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43405,11 +43405,11 @@ party 571
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SPINDA
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_FAKE_OUT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OWN_TEMPO
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43422,11 +43422,11 @@ party 571
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ILLUMISE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_MOONLIGHT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PRANKSTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43440,10 +43440,10 @@ trainerdata 179, "Kipp"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43453,11 +43453,11 @@ party 179
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGNEMITE
-    item 0
+    item ITEM_NONE
     move MOVE_ZAP_CANNON
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43470,11 +43470,11 @@ party 179
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGNETON
-    item 0
+    item ITEM_NONE
     move MOVE_ZAP_CANNON
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43487,11 +43487,11 @@ party 179
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGNEZONE
-    item 0
+    item ITEM_NONE
     move MOVE_ZAP_CANNON
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43505,10 +43505,10 @@ trainerdata 328, "Tommy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43518,11 +43518,11 @@ party 328
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MUSHARNA
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_MOONBLAST
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SYNCHRONIZE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43535,11 +43535,11 @@ party 328
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ALAKAZAM
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_MIRACLE_EYE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43553,10 +43553,10 @@ trainerdata 382, "Hillary"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEACHER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43566,11 +43566,11 @@ party 382
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_BELLOSSOM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_MOONBLAST
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43583,11 +43583,11 @@ party 382
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_AMBIPOM
-    item 0
+    item ITEM_NONE
     move MOVE_TAIL_SLAP
     move MOVE_ACROBATICS
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43601,10 +43601,10 @@ trainerdata 570, "Boone"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43614,11 +43614,11 @@ party 570
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SPINDA
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_FAKE_OUT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OWN_TEMPO
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43631,11 +43631,11 @@ party 570
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ILLUMISE
-    item 0
+    item ITEM_NONE
     move MOVE_LUNGE
     move MOVE_LIGHT_SCREEN
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_PRANKSTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43649,10 +43649,10 @@ trainerdata 135, "Johnny"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43662,11 +43662,11 @@ party 135
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VICTREEBEL
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_POISON_JAB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43682,10 +43682,10 @@ trainerdata 572, "Dale"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43695,11 +43695,11 @@ party 572
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SWALOT
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_BOMB
     move MOVE_BODY_SLAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LIQUID_OOZE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43713,10 +43713,10 @@ trainerdata 313, "Reese"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43726,11 +43726,11 @@ party 313
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_WEEZING
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_PAYBACK
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43744,10 +43744,10 @@ trainerdata 314, "Joel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43757,11 +43757,11 @@ party 314
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FLAMETHROWER
     move MOVE_CLEAR_SMOG
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43775,10 +43775,10 @@ trainerdata 573, "Jacob"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43788,11 +43788,11 @@ party 573
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_CACTURNE
-    item 0
+    item ITEM_NONE
     move MOVE_NEEDLE_ARM
     move MOVE_SUCKER_PUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43806,10 +43806,10 @@ trainerdata 579, "Ernest"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43819,11 +43819,11 @@ party 579
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_URSARING
-    item 0
+    item ITEM_NONE
     move MOVE_SLASH
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43836,11 +43836,11 @@ party 579
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_AZUMARILL
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_ALLURING_VOICE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_THICK_FAT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43854,10 +43854,10 @@ trainerdata 574, "Aiden"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43867,11 +43867,11 @@ party 574
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_TENTACRUEL
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_SLUDGE_WAVE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LIQUID_OOZE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43885,10 +43885,10 @@ trainerdata 575, "Dan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43898,11 +43898,11 @@ party 575
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_KROOKODILE
-    item 0
+    item ITEM_NONE
     move MOVE_CRUNCH
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOXIE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43916,10 +43916,10 @@ trainerdata 576, "Theron"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43929,11 +43929,11 @@ party 576
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_TOXICROAK
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_DRAIN_PUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_TOUCH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43947,10 +43947,10 @@ trainerdata 315, "Glenn"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43960,11 +43960,11 @@ party 315
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_OBSTAGOON
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_NIGHT_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -43978,10 +43978,10 @@ trainerdata 578, "Teddy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -43991,11 +43991,11 @@ party 578
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SEVIPER
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_TAIL
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SHED_SKIN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44009,10 +44009,10 @@ trainerdata 577, "Markey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44022,11 +44022,11 @@ party 577
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_DRAPION
-    item 0
+    item ITEM_NONE
     move MOVE_CROSS_POISON
     move MOVE_NIGHT_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SNIPER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44042,10 +44042,10 @@ trainerdata 312, "Charles"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIKER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44055,11 +44055,11 @@ party 312
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ARCHEOPS
-    item 0
+    item ITEM_NONE
     move MOVE_HEAD_SMASH
     move MOVE_ACROBATICS
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_DEFEATIST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44072,11 +44072,11 @@ party 312
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CARRACOSTA
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_STONE_EDGE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44089,11 +44089,11 @@ party 312
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SIGILYPH
-    item 0
+    item ITEM_NONE
     move MOVE_PSYCHIC
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WONDER_SKIN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44107,10 +44107,10 @@ trainerdata 302, "Bob"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44120,11 +44120,11 @@ party 302
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_TALONFLAME
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_BRAVE_BIRD
     move MOVE_STEEL_WING
-    move 0
+    move MOVE_NONE
     ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -44138,10 +44138,10 @@ trainerdata 301, "Boris"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44151,11 +44151,11 @@ party 301
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_DODRIO
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_BRAVE_BIRD
     move MOVE_JUMP_KICK
-    move 0
+    move MOVE_NONE
     ability ABILITY_EARLY_BIRD
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -44171,10 +44171,10 @@ trainerdata 371, "Tucker"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44184,11 +44184,11 @@ party 371
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CLOYSTER
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_ICE_BEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SHELL_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44201,11 +44201,11 @@ party 371
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CLAWITZER
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_PULSE
     move MOVE_AURA_SPHERE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MEGA_LAUNCHER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44219,10 +44219,10 @@ trainerdata 291, "Tucker"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44232,11 +44232,11 @@ party 291
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_HUNTAIL
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44249,11 +44249,11 @@ party 291
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GOREBYSS
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_PSYCHIC
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44267,10 +44267,10 @@ trainerdata 252, "Harold"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44280,11 +44280,11 @@ party 252
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_OCTILLERY
-    item 0
+    item ITEM_NONE
     move MOVE_OCTAZOOKA
     move MOVE_GUNK_SHOT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SUCTION_CUPS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44297,11 +44297,11 @@ party 252
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DRAGALGE
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_WAVE
     move MOVE_DRAGON_PULSE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44315,10 +44315,10 @@ trainerdata 370, "Jerome"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44328,11 +44328,11 @@ party 370
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_OCTAZOOKA
     move MOVE_GUNK_SHOT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LIGHTNING_ROD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44345,11 +44345,11 @@ party 370
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_KINGDRA
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_DRAGON_PULSE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44365,10 +44365,10 @@ trainerdata 373, "Frankie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44378,11 +44378,11 @@ party 373
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_AZUMARILL
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ICE_SPINNER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44396,10 +44396,10 @@ trainerdata 583, "Bert"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44409,11 +44409,11 @@ party 583
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_PELIPPER
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_HURRICANE
     move MOVE_ROOST
-    move 0
+    move MOVE_NONE
     ability ABILITY_DRIZZLE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -44426,11 +44426,11 @@ party 583
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_HONCHKROW
-    item 0
+    item ITEM_NONE
     move MOVE_DARK_PULSE
     move MOVE_HURRICANE
     move MOVE_ROOST
-    move 0
+    move MOVE_NONE
     ability ABILITY_DRIZZLE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -44444,10 +44444,10 @@ trainerdata 588, "Mina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44457,11 +44457,11 @@ party 588
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LUVDISC
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_RAIN_DANCE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44474,11 +44474,11 @@ party 588
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LUVDISC
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_CAPTIVATE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44491,11 +44491,11 @@ party 588
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LUVDISC
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_ATTRACT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44509,10 +44509,10 @@ trainerdata 582, "Cheyenne"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44522,11 +44522,11 @@ party 582
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_LUXRAY
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44540,10 +44540,10 @@ trainerdata 584, "Ernie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44553,11 +44553,11 @@ party 584
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_BRAVE_BIRD
     move MOVE_CLOSE_COMBAT
-    move 0
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -44571,10 +44571,10 @@ trainerdata 587, "Leona"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44584,11 +44584,11 @@ party 587
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_BIBAREL
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_JET
     move MOVE_SWORDS_DANCE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SIMPLE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44602,10 +44602,10 @@ trainerdata 581, "Adrian"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44615,11 +44615,11 @@ party 581
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_BRELOOM
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_CLOSE_COMBAT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_EFFECT_SPORE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44633,10 +44633,10 @@ trainerdata 586, "Luis"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44646,11 +44646,11 @@ party 586
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GASTRODON
-    item 0
+    item ITEM_NONE
     move MOVE_MUDDY_WATER
     move MOVE_EARTH_POWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STORM_DRAIN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44663,11 +44663,11 @@ party 586
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_QUAGSIRE
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44681,10 +44681,10 @@ trainerdata 580, "Pedro"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44694,11 +44694,11 @@ party 580
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_TAUROS
-    item 0
+    item ITEM_NONE
     move MOVE_RAGING_BULL
     move MOVE_WORK_UP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ANGER_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44712,10 +44712,10 @@ trainerdata 585, "Elmo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44725,11 +44725,11 @@ party 585
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_POLITOED
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_HYPER_VOICE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STORM_DRAIN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44742,11 +44742,11 @@ party 585
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WAILORD
-    item 0
+    item ITEM_NONE
     move MOVE_WATER_SPOUT
     move MOVE_HEAVY_SLAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44760,10 +44760,10 @@ trainerdata 294, "Lori"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44773,11 +44773,11 @@ party 294
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_STARMIE
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NATURAL_CURE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44791,10 +44791,10 @@ trainerdata 293, "Nicole"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44804,11 +44804,11 @@ party 293
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_LAPRAS
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_FREEZE_DRY
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SHELL_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44824,10 +44824,10 @@ trainerdata 688, "Cady"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SKIER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44837,11 +44837,11 @@ party 688
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DELIBIRD
-    item 0
+    item ITEM_NONE
     move MOVE_BLIZZARD
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_VITAL_SPIRIT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44855,10 +44855,10 @@ trainerdata 687, "Shaun"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BOARDER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44868,11 +44868,11 @@ party 687
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VANILLUXE
-    item 0
+    item ITEM_NONE
     move MOVE_BLIZZARD
     move MOVE_FLASH_CANNON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SNOW_WARNING
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44886,10 +44886,10 @@ trainerdata 686, "Bryce"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BOARDER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44899,11 +44899,11 @@ party 686
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BEARTIC
-    item 0
+    item ITEM_NONE
     move MOVE_ICICLE_CRASH
     move MOVE_LIQUIDATION
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SNOW_CLOAK
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44919,10 +44919,10 @@ trainerdata 296, "Nikki"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44932,11 +44932,11 @@ party 296
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DEWGONG
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ICE_SPINNER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_THICK_FAT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44949,11 +44949,11 @@ party 296
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WALREIN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_BLIZZARD
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_THICK_FAT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44967,10 +44967,10 @@ trainerdata 58, "Arnold"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -44980,11 +44980,11 @@ party 58
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_KINGLER
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_HAMMER_ARM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_HYPER_CUTTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -44998,10 +44998,10 @@ trainerdata 596, "Kinsley"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45011,11 +45011,11 @@ party 596
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_PIDGEOT
-    item 0
+    item ITEM_NONE
     move MOVE_RETURN
     move MOVE_BRAVE_BIRD
     move MOVE_FEATHER_DANCE
-    move 0
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -45029,10 +45029,10 @@ trainerdata 589, "Murphy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45042,11 +45042,11 @@ party 589
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CORSOLA
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NATURAL_CURE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45059,11 +45059,11 @@ party 589
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CORSOLA
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_EARTH_POWER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NATURAL_CURE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45076,11 +45076,11 @@ party 589
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CORSOLA
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_METEOR_BEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NATURAL_CURE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45094,10 +45094,10 @@ trainerdata 592, "Chelan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45107,11 +45107,11 @@ party 592
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MILOTIC
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_MIRROR_COAT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MARVEL_SCALE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45125,10 +45125,10 @@ trainerdata 590, "Liam"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45138,11 +45138,11 @@ party 590
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_OVERQWIL
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45156,10 +45156,10 @@ trainerdata 374, "Tyson"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45169,11 +45169,11 @@ party 374
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_FLOATZEL
-    item 0
+    item ITEM_NONE
     move MOVE_WAVE_CRASH
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45187,10 +45187,10 @@ trainerdata 591, "Gideon"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45200,11 +45200,11 @@ party 591
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LANTURN
-    item 0
+    item ITEM_NONE
     move MOVE_SURF
     move MOVE_THUNDERBOLT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_VOLT_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45217,11 +45217,11 @@ party 591
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_RELICANTH
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_HEAD_SMASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ROCK_HEAD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45235,10 +45235,10 @@ trainerdata 594, "Esteban"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45248,11 +45248,11 @@ party 594
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MANTINE
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45265,11 +45265,11 @@ party 594
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_OMASTAR
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_METEOR_BEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45283,10 +45283,10 @@ trainerdata 595, "Duane"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45296,11 +45296,11 @@ party 595
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SEAKING
-    item 0
+    item ITEM_NONE
     move MOVE_WATERFALL
     move MOVE_POISON_JAB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45313,11 +45313,11 @@ party 595
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_KABUTOPS
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_STONE_EDGE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45331,10 +45331,10 @@ trainerdata 597, "Easton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45344,11 +45344,11 @@ party 597
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_HAWLUCHA
-    item 0
+    item ITEM_NONE
     move MOVE_HIGH_JUMP_KICK
     move MOVE_BRAVE_BIRD
     move MOVE_LUNGE
-    move 0
+    move MOVE_NONE
     ability ABILITY_LIMBER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -45362,10 +45362,10 @@ trainerdata 593, "Kendra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SWIMMER_F
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45375,11 +45375,11 @@ party 593
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_SLOWKING
-    item 0
+    item ITEM_NONE
     move MOVE_AQUA_TAIL
     move MOVE_ZEN_HEADBUTT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_OWN_TEMPO
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45395,10 +45395,10 @@ trainerdata 329, "Dudley"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45408,11 +45408,11 @@ party 329
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXEGGUTOR
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_PSYCHIC
     move MOVE_EARTHQUAKE
-    move 0
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45426,10 +45426,10 @@ trainerdata 419, "Ellen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45439,11 +45439,11 @@ party 419
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_ALLURING_VOICE
     move MOVE_SING
-    move 0
+    move MOVE_NONE
     ability ABILITY_COMPETITIVE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45456,11 +45456,11 @@ party 419
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_GRANBULL
-    item 0
+    item ITEM_NONE
     move MOVE_PLAY_ROUGH
     move MOVE_CLOSE_COMBAT
     move MOVE_CRUNCH
-    move 0
+    move MOVE_NONE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45474,10 +45474,10 @@ trainerdata 330, "Joe"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45487,11 +45487,11 @@ party 330
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_TANGROWTH
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_ANCIENT_POWER
     move MOVE_WRING_OUT
-    move 0
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45504,11 +45504,11 @@ party 330
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VAPOREON
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_ICE_BEAM
     move MOVE_ACID_ARMOR
-    move 0
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45522,10 +45522,10 @@ trainerdata 148, "Lloyd"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45535,11 +45535,11 @@ party 148
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_NIDOKING
-    item 0
+    item ITEM_NONE
     move MOVE_SLUDGE_WAVE
     move MOVE_EARTH_POWER
     move MOVE_THUNDERBOLT
-    move 0
+    move MOVE_NONE
     ability ABILITY_SHEER_FORCE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45553,10 +45553,10 @@ trainerdata 354, "Laura"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45566,11 +45566,11 @@ party 354
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VILEPLUME
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_MOONBLAST
-    move 0
+    move MOVE_NONE
     ability ABILITY_EFFECT_SPORE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45583,11 +45583,11 @@ party 354
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BELLOSSOM
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
     move MOVE_QUIVER_DANCE
-    move 0
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45600,11 +45600,11 @@ party 354
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PIDGEOT
-    item 0
+    item ITEM_NONE
     move MOVE_AIR_SLASH
     move MOVE_HEAT_WAVE
     move MOVE_QUICK_ATTACK
-    move 0
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45618,10 +45618,10 @@ trainerdata 355, "Shannon"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LASS
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45631,11 +45631,11 @@ party 355
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PARASECT
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_X_SCISSOR
     move MOVE_SPORE
-    move 0
+    move MOVE_NONE
     ability ABILITY_EFFECT_SPORE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45648,11 +45648,11 @@ party 355
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BRELOOM
-    item 0
+    item ITEM_NONE
     move MOVE_SEED_BOMB
     move MOVE_CLOSE_COMBAT
     move MOVE_SPORE
-    move 0
+    move MOVE_NONE
     ability ABILITY_EFFECT_SPORE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45665,11 +45665,11 @@ party 355
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_AMOONGUSS
-    item 0
+    item ITEM_NONE
     move MOVE_ENERGY_BALL
     move MOVE_SLUDGE_BOMB
     move MOVE_QUICK_ATTACK
-    move 0
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45683,10 +45683,10 @@ trainerdata 366, "Pat"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45696,11 +45696,11 @@ party 366
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_PORYGON_Z
-    item 0
+    item ITEM_NONE
     move MOVE_TRI_ATTACK
     move MOVE_THUNDERBOLT
     move MOVE_DARK_PULSE
-    move 0
+    move MOVE_NONE
     ability ABILITY_DOWNLOAD
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45714,10 +45714,10 @@ trainerdata 361, "Kevin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45727,7 +45727,7 @@ party 361
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_RHYPERIOR
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_WRECKER
     move MOVE_EARTHQUAKE
     move MOVE_MEGAHORN
@@ -45744,7 +45744,7 @@ party 361
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_ELECTIVIRE
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_CROSS_CHOP
     move MOVE_EARTHQUAKE
@@ -45761,7 +45761,7 @@ party 361
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
     pokemon SPECIES_MAGMORTAR
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_BLAST
     move MOVE_FOCUS_BLAST
     move MOVE_THUNDERBOLT
@@ -45781,10 +45781,10 @@ trainerdata 367, "Shawn"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SUPER_NERD
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45794,11 +45794,11 @@ party 367
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_MAGNEZONE
-    item 0
+    item ITEM_NONE
     move MOVE_ZAP_CANNON
     move MOVE_LOCK_ON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45811,11 +45811,11 @@ party 367
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     monwithform SPECIES_MUK, 1
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_TOUCH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45828,11 +45828,11 @@ party 367
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PORYGON_Z
-    item 0
+    item ITEM_NONE
     move MOVE_ZAP_CANNON
     move MOVE_LOCK_ON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_ADAPTABILITY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45846,10 +45846,10 @@ trainerdata 422, "Rodney"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45859,11 +45859,11 @@ party 422
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_CHIMECHO
-    item 0
+    item ITEM_NONE
     move MOVE_STORED_POWER
     move MOVE_HYPER_VOICE
     move MOVE_CALM_MIND
-    move 0
+    move MOVE_NONE
     ability ABILITY_LEVITATE 
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -45876,11 +45876,11 @@ party 422
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_HYPNO
-    item 0
+    item ITEM_NONE
     move MOVE_STORED_POWER
     move MOVE_SHADOW_BALL
     move MOVE_CALM_MIND
-    move 0
+    move MOVE_NONE
     ability ABILITY_INNER_FOCUS 
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -45894,10 +45894,10 @@ trainerdata 209, "Cassie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BEAUTY
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45907,11 +45907,11 @@ party 209
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VILEPLUME
-    item 0
+    item ITEM_NONE
     move MOVE_PETAL_DANCE
     move MOVE_SLUDGE_BOMB
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45924,11 +45924,11 @@ party 209
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_BUTTERFREE
-    item 0
+    item ITEM_NONE
     move MOVE_BUG_BUZZ
     move MOVE_HURRICANE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45941,11 +45941,11 @@ party 209
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FLORGES
-    item 0
+    item ITEM_NONE
     move MOVE_MOONBLAST
     move MOVE_PETAL_DANCE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FLOWER_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -45959,10 +45959,10 @@ trainerdata 236, "Shaye"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -45972,7 +45972,7 @@ party 236
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_JOLTEON
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_SHADOW_BALL
     move MOVE_SIGNAL_BEAM
@@ -45989,7 +45989,7 @@ party 236
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_TANGROWTH
-    item 0
+    item ITEM_NONE
     move MOVE_POWER_WHIP
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
@@ -46006,7 +46006,7 @@ party 236
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_TAUROS
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_EARTHQUAKE
     move MOVE_MEGAHORN
@@ -46024,10 +46024,10 @@ trainerdata 237, "Carol"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_F
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46037,7 +46037,7 @@ party 237
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_ELECTRODE
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_SIGNAL_BEAM
     move MOVE_NONE
@@ -46054,7 +46054,7 @@ party 237
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_STARMIE
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_PSYCHIC
     move MOVE_ICE_BEAM
@@ -46071,7 +46071,7 @@ party 237
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_NINETALES
-    item 0
+    item ITEM_NONE
     move MOVE_FIRE_BLAST
     move MOVE_ENERGY_BALL
     move MOVE_STORED_POWER
@@ -46089,10 +46089,10 @@ trainerdata 231, "Edward"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GENTLEMAN
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46102,11 +46102,11 @@ party 231
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     monwithform SPECIES_PERSIAN, 1
-    item 0
+    item ITEM_NONE
     move MOVE_DARK_PULSE
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FUR_COAT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46120,10 +46120,10 @@ trainerdata 240, "Garrett"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46133,11 +46133,11 @@ party 240
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_KINGLER
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_NIGHT_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_HYPER_CUTTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46150,11 +46150,11 @@ party 240
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CRAWDAUNT
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_NIGHT_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_HYPER_CUTTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46167,11 +46167,11 @@ party 240
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CLAWITZER
-    item 0
+    item ITEM_NONE
     move MOVE_CRABHAMMER
     move MOVE_DARK_PULSE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MEGA_LAUNCHER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46185,10 +46185,10 @@ trainerdata 128, "Jonah"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_FISHERMAN
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46198,11 +46198,11 @@ party 128
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CLOYSTER
-    item 0
+    item ITEM_NONE
     move MOVE_LIQUIDATION
     move MOVE_ICE_BEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SHELL_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46215,11 +46215,11 @@ party 128
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_OCTILLERY
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_ICE_BEAM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SUCTION_CUPS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46232,11 +46232,11 @@ party 128
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DRAGALGE
-    item 0
+    item ITEM_NONE
     move MOVE_DRAGON_PULSE
     move MOVE_SLUDGE_WAVE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_POISON_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46250,10 +46250,10 @@ trainerdata 339, "Wai"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BLACK_BELT
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46263,11 +46263,11 @@ party 339
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_MEDICHAM
-    item 0
+    item ITEM_NONE
     move MOVE_CLOSE_COMBAT
     move MOVE_ZEN_HEADBUTT
     move MOVE_BULLET_PUNCH
-    move 0
+    move MOVE_NONE
     ability ABILITY_PURE_POWER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46280,11 +46280,11 @@ party 339
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_CONKELDURR
-    item 0
+    item ITEM_NONE
     move MOVE_HAMMER_ARM
     move MOVE_STONE_EDGE
     move MOVE_MACH_PUNCH
-    move 0
+    move MOVE_NONE
     ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46300,10 +46300,10 @@ trainerdata 352, "Georgia"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46313,11 +46313,11 @@ party 352
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FURRET
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_TIDY_UP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46330,11 +46330,11 @@ party 352
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FURRET
-    item 0
+    item ITEM_NONE
     move MOVE_DOUBLE_EDGE
     move MOVE_TIDY_UP
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46348,10 +46348,10 @@ trainerdata 423, "Jeremy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKEFAN_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46361,11 +46361,11 @@ party 423
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PERSIAN
-    item 0
+    item ITEM_NONE
     move MOVE_SWIFT
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46378,11 +46378,11 @@ party 423
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PERSIAN
-    item 0
+    item ITEM_NONE
     move MOVE_SWIFT
     move MOVE_POWER_GEM
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46396,10 +46396,10 @@ trainerdata 41, "Clyde"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_GUITARIST
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46409,11 +46409,11 @@ party 41
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_ZEBSTRIKA
-    item 0
+    item ITEM_NONE
     move MOVE_WILD_CHARGE
     move MOVE_FLAME_CHARGE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_MOTOR_DRIVE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46427,10 +46427,10 @@ trainerdata 79, "Ken"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46440,11 +46440,11 @@ party 79
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_ARIADOS
-    item 0
+    item ITEM_NONE
     move MOVE_LEECH_LIFE
     move MOVE_CROSS_POISON
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46457,11 +46457,11 @@ party 79
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_PINSIR
-    item 0
+    item ITEM_NONE
     move MOVE_X_SCISSOR
     move MOVE_STORM_THROW
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46474,11 +46474,11 @@ party 79
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LEAVANNY
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_BLADE
     move MOVE_X_SCISSOR
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46492,10 +46492,10 @@ trainerdata 133, "Morgan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_POKE_MANIAC
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46505,11 +46505,11 @@ party 133
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_RHYPERIOR
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_WRECKER
     move MOVE_EARTHQUAKE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SOLID_ROCK
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46523,10 +46523,10 @@ trainerdata 284, "Corey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_BURGLAR
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46536,11 +46536,11 @@ party 284
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_WEEZING
-    item 0
+    item ITEM_NONE
     move MOVE_GUNK_SHOT
     move MOVE_HEAT_WAVE
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46554,10 +46554,10 @@ trainerdata 241, "Kenneth"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAILOR
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46567,11 +46567,11 @@ party 241
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_POLIWRATH
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_FOCUS_BLAST
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46585,10 +46585,10 @@ trainerdata 429, "Ricky"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46598,11 +46598,11 @@ party 429
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DITTO
-    item 0
+    item ITEM_NONE
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46615,11 +46615,11 @@ party 429
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_DITTO
-    item 0
+    item ITEM_NONE
     move MOVE_TRANSFORM
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IMPOSTER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46632,11 +46632,11 @@ party 429
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_AMBIPOM
-    item 0
+    item ITEM_NONE
     move MOVE_TAIL_SLAP
     move MOVE_FAKE_OUT
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SKILL_LINK
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46650,10 +46650,10 @@ trainerdata 427, "Shirley"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_TEACHER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46663,11 +46663,11 @@ party 427
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_CHATOT
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_AIR_SLASH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46680,11 +46680,11 @@ party 427
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_PLAY_ROUGH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_COMPETITIVE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46697,11 +46697,11 @@ party 427
     abilityslot 0
     level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXPLOUD
-    item 0
+    item ITEM_NONE
     move MOVE_BOOMBURST
     move MOVE_CRUNCH
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_SCRAPPY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46715,10 +46715,10 @@ trainerdata 428, "Nate"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46728,11 +46728,11 @@ party 428
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_LEDIAN
-    item 0
+    item ITEM_NONE
     move MOVE_U_TURN
     move MOVE_ACROBATICS
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46745,11 +46745,11 @@ party 428
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     monwithform SPECIES_EXEGGUTOR, 1
-    item 0
+    item ITEM_NONE
     move MOVE_LEAF_STORM
     move MOVE_DRAGON_HAMMER
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_FRISK
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -46764,10 +46764,10 @@ trainerdata 876, "Falkner"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_FALKNER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46880,10 +46880,10 @@ trainerdata 877, "Bugsy"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BUGSY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -46996,10 +46996,10 @@ trainerdata 878, "Whitney"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_WHITNEY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47112,10 +47112,10 @@ trainerdata 879, "Morty"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_MORTY
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47228,10 +47228,10 @@ trainerdata 880, "Chuck"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_CHUCK
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47344,10 +47344,10 @@ trainerdata 881, "Jasmine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_JASMINE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47460,10 +47460,10 @@ trainerdata 882, "Pryce"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_PRYCE
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47576,10 +47576,10 @@ trainerdata 883, "Clair"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_CLAIR
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47694,10 +47694,10 @@ trainerdata 863, "Gaku"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47707,7 +47707,7 @@ party 863
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_HURRICANE
     move MOVE_MOONBLAST
@@ -47724,7 +47724,7 @@ party 863
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FLAREON
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_DOUBLE_EDGE
     move MOVE_SUPERPOWER
@@ -47742,10 +47742,10 @@ trainerdata 863, "Gaku"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47755,7 +47755,7 @@ party 863
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_HURRICANE
     move MOVE_MOONBLAST
@@ -47772,7 +47772,7 @@ party 863
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_FLAREON
-    item 0
+    item ITEM_NONE
     move MOVE_FLARE_BLITZ
     move MOVE_DOUBLE_EDGE
     move MOVE_SUPERPOWER
@@ -47790,10 +47790,10 @@ trainerdata 864, "Masa"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47803,7 +47803,7 @@ party 864
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_HURRICANE
     move MOVE_MOONBLAST
@@ -47820,7 +47820,7 @@ party 864
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_JOLTEON
-    item 0
+    item ITEM_NONE
     move MOVE_THUNDERBOLT
     move MOVE_HYPER_VOICE
     move MOVE_SHADOW_BALL
@@ -47838,10 +47838,10 @@ trainerdata 865, "Koji"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_SAGE
     nummons 2
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -47851,7 +47851,7 @@ party 865
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_NOCTOWL
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_VOICE
     move MOVE_HURRICANE
     move MOVE_MOONBLAST
@@ -47868,7 +47868,7 @@ party 865
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_VAPOREON
-    item 0
+    item ITEM_NONE
     move MOVE_HYDRO_PUMP
     move MOVE_HYPER_VOICE
     move MOVE_SHADOW_BALL
@@ -53206,10 +53206,10 @@ trainerdata 746, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53219,11 +53219,11 @@ party 746
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53236,11 +53236,11 @@ party 746
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53253,11 +53253,11 @@ party 746
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53270,11 +53270,11 @@ party 746
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53287,11 +53287,11 @@ party 746
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53304,11 +53304,11 @@ party 746
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_WIGGLYTUFF
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53323,10 +53323,10 @@ trainerdata 747, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53336,11 +53336,11 @@ party 747
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53353,11 +53353,11 @@ party 747
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53370,11 +53370,11 @@ party 747
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53387,11 +53387,11 @@ party 747
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53404,11 +53404,11 @@ party 747
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53421,11 +53421,11 @@ party 747
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_STARAPTOR
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53440,10 +53440,10 @@ trainerdata 748, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53453,11 +53453,11 @@ party 748
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53470,11 +53470,11 @@ party 748
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53487,11 +53487,11 @@ party 748
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53504,11 +53504,11 @@ party 748
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53521,11 +53521,11 @@ party 748
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53538,11 +53538,11 @@ party 748
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_GOLEM
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53557,10 +53557,10 @@ trainerdata 749, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53570,11 +53570,11 @@ party 749
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_RAICHU
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53587,11 +53587,11 @@ party 749
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_RAICHU
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53604,11 +53604,11 @@ party 749
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_RAICHU
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53621,11 +53621,11 @@ party 749
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_RAICHU
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53638,11 +53638,11 @@ party 749
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_RAICHU
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53655,11 +53655,11 @@ party 749
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_RAICHU
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53674,10 +53674,10 @@ trainerdata 750, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53687,11 +53687,11 @@ party 750
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53704,11 +53704,11 @@ party 750
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53721,11 +53721,11 @@ party 750
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53738,11 +53738,11 @@ party 750
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53755,11 +53755,11 @@ party 750
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53772,11 +53772,11 @@ party 750
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_BEAUTIFLY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53791,10 +53791,10 @@ trainerdata 751, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53804,11 +53804,11 @@ party 751
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53821,11 +53821,11 @@ party 751
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53838,11 +53838,11 @@ party 751
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53855,11 +53855,11 @@ party 751
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53872,11 +53872,11 @@ party 751
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53889,11 +53889,11 @@ party 751
     abilityslot 0
     level TRAINING_LEVEL_EV
     pokemon SPECIES_DUSTOX
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53908,10 +53908,10 @@ trainerdata 752, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53921,11 +53921,11 @@ party 752
     abilityslot 0
     level TRAINING_LEVEL_BADGE_0
     pokemon SPECIES_HAPPINY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53938,11 +53938,11 @@ party 752
     abilityslot 0
     level TRAINING_LEVEL_BADGE_0
     pokemon SPECIES_HAPPINY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53955,11 +53955,11 @@ party 752
     abilityslot 0
     level TRAINING_LEVEL_BADGE_0
     pokemon SPECIES_HAPPINY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -53974,10 +53974,10 @@ trainerdata 753, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -53987,11 +53987,11 @@ party 753
     abilityslot 0
     level TRAINING_LEVEL_BADGE_1
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54006,10 +54006,10 @@ trainerdata 754, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54019,11 +54019,11 @@ party 754
     abilityslot 0
     level TRAINING_LEVEL_BADGE_2
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54038,10 +54038,10 @@ trainerdata 755, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 4
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54051,11 +54051,11 @@ party 755
     abilityslot 0
     level TRAINING_LEVEL_BADGE_3
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54068,11 +54068,11 @@ party 755
     abilityslot 0
     level TRAINING_LEVEL_BADGE_3
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54085,11 +54085,11 @@ party 755
     abilityslot 0
     level TRAINING_LEVEL_BADGE_3
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54102,11 +54102,11 @@ party 755
     abilityslot 0
     level TRAINING_LEVEL_BADGE_3
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54121,10 +54121,10 @@ trainerdata 756, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54134,11 +54134,11 @@ party 756
     abilityslot 0
     level TRAINING_LEVEL_BADGE_4
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54151,11 +54151,11 @@ party 756
     abilityslot 0
     level TRAINING_LEVEL_BADGE_4
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54168,11 +54168,11 @@ party 756
     abilityslot 0
     level TRAINING_LEVEL_BADGE_4
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54185,11 +54185,11 @@ party 756
     abilityslot 0
     level TRAINING_LEVEL_BADGE_4
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54202,11 +54202,11 @@ party 756
     abilityslot 0
     level TRAINING_LEVEL_BADGE_4
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54221,10 +54221,10 @@ trainerdata 757, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54234,11 +54234,11 @@ party 757
     abilityslot 0
     level TRAINING_LEVEL_BADGE_5
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54251,11 +54251,11 @@ party 757
     abilityslot 0
     level TRAINING_LEVEL_BADGE_5
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54268,11 +54268,11 @@ party 757
     abilityslot 0
     level TRAINING_LEVEL_BADGE_5
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54285,11 +54285,11 @@ party 757
     abilityslot 0
     level TRAINING_LEVEL_BADGE_5
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54302,11 +54302,11 @@ party 757
     abilityslot 0
     level TRAINING_LEVEL_BADGE_5
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54319,11 +54319,11 @@ party 757
     abilityslot 0
     level TRAINING_LEVEL_BADGE_5
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54338,10 +54338,10 @@ trainerdata 758, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54351,11 +54351,11 @@ party 758
     abilityslot 0
     level TRAINING_LEVEL_BADGE_6
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54368,11 +54368,11 @@ party 758
     abilityslot 0
     level TRAINING_LEVEL_BADGE_6
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54385,11 +54385,11 @@ party 758
     abilityslot 0
     level TRAINING_LEVEL_BADGE_6
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54402,11 +54402,11 @@ party 758
     abilityslot 0
     level TRAINING_LEVEL_BADGE_6
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54419,11 +54419,11 @@ party 758
     abilityslot 0
     level TRAINING_LEVEL_BADGE_6
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54436,11 +54436,11 @@ party 758
     abilityslot 0
     level TRAINING_LEVEL_BADGE_6
     pokemon SPECIES_CHANSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54455,10 +54455,10 @@ trainerdata 759, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54468,11 +54468,11 @@ party 759
     abilityslot 0
     level TRAINING_LEVEL_BADGE_7
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54485,11 +54485,11 @@ party 759
     abilityslot 0
     level TRAINING_LEVEL_BADGE_7
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54502,11 +54502,11 @@ party 759
     abilityslot 0
     level TRAINING_LEVEL_BADGE_7
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54519,11 +54519,11 @@ party 759
     abilityslot 0
     level TRAINING_LEVEL_BADGE_7
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54536,11 +54536,11 @@ party 759
     abilityslot 0
     level TRAINING_LEVEL_BADGE_7
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54553,11 +54553,11 @@ party 759
     abilityslot 0
     level TRAINING_LEVEL_BADGE_7
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54572,10 +54572,10 @@ trainerdata 760, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54585,11 +54585,11 @@ party 760
     abilityslot 0
     level TRAINING_LEVEL_BADGE_8
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54602,11 +54602,11 @@ party 760
     abilityslot 0
     level TRAINING_LEVEL_BADGE_8
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54619,11 +54619,11 @@ party 760
     abilityslot 0
     level TRAINING_LEVEL_BADGE_8
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54636,11 +54636,11 @@ party 760
     abilityslot 0
     level TRAINING_LEVEL_BADGE_8
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54653,11 +54653,11 @@ party 760
     abilityslot 0
     level TRAINING_LEVEL_BADGE_8
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54670,11 +54670,11 @@ party 760
     abilityslot 0
     level TRAINING_LEVEL_BADGE_8
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54689,10 +54689,10 @@ trainerdata 761, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54702,11 +54702,11 @@ party 761
     abilityslot 0
     level TRAINING_LEVEL_CHAMPION
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54719,11 +54719,11 @@ party 761
     abilityslot 0
     level TRAINING_LEVEL_CHAMPION
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54736,11 +54736,11 @@ party 761
     abilityslot 0
     level TRAINING_LEVEL_CHAMPION
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54753,11 +54753,11 @@ party 761
     abilityslot 0
     level TRAINING_LEVEL_CHAMPION
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54770,11 +54770,11 @@ party 761
     abilityslot 0
     level TRAINING_LEVEL_CHAMPION
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54787,11 +54787,11 @@ party 761
     abilityslot 0
     level TRAINING_LEVEL_CHAMPION
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54806,10 +54806,10 @@ trainerdata 762, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54819,11 +54819,11 @@ party 762
     abilityslot 0
     level TRAINING_LEVEL_BADGE_16
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54836,11 +54836,11 @@ party 762
     abilityslot 0
     level TRAINING_LEVEL_BADGE_16
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54853,11 +54853,11 @@ party 762
     abilityslot 0
     level TRAINING_LEVEL_BADGE_16
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54870,11 +54870,11 @@ party 762
     abilityslot 0
     level TRAINING_LEVEL_BADGE_16
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54887,11 +54887,11 @@ party 762
     abilityslot 0
     level TRAINING_LEVEL_BADGE_16
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54904,11 +54904,11 @@ party 762
     abilityslot 0
     level TRAINING_LEVEL_BADGE_16
     pokemon SPECIES_BLISSEY
-    item 0
+    item ITEM_NONE
     move MOVE_MEMENTO
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NONE
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54923,10 +54923,10 @@ trainerdata 788, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54936,11 +54936,11 @@ party 788
     abilityslot 0
     level 1
     pokemon SPECIES_SMEARGLE
-    item 0
+    item ITEM_NONE
     move MOVE_WILL_O_WISP
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NO_GUARD
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54955,10 +54955,10 @@ trainerdata 789, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -54968,11 +54968,11 @@ party 789
     abilityslot 0
     level 1
     pokemon SPECIES_SMEARGLE
-    item 0
+    item ITEM_NONE
     move MOVE_GLARE
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NO_GUARD
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -54987,10 +54987,10 @@ trainerdata 790, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55000,11 +55000,11 @@ party 790
     abilityslot 0
     level 1
     pokemon SPECIES_SMEARGLE
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_GAS
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NO_GUARD
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -55019,10 +55019,10 @@ trainerdata 791, "Traynor"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_WAITER
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55032,11 +55032,11 @@ party 791
     abilityslot 0
     level 1
     pokemon SPECIES_SMEARGLE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPNOSIS
-    move 0
-    move 0
-    move 0
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
     ability ABILITY_NO_GUARD
     ball ITEM_POKE_BALL
     setivs 0, 0, 0, 0, 0, 0
@@ -55058,10 +55058,10 @@ trainerdata 792, "Brock"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55157,10 +55157,10 @@ trainerdata 793, "Brock"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55256,10 +55256,10 @@ trainerdata 794, "Brock"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BROCK
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55356,10 +55356,10 @@ trainerdata 795, "Misty"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_MISTY
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55455,10 +55455,10 @@ trainerdata 796, "Misty"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_MISTY
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55554,10 +55554,10 @@ trainerdata 797, "Misty"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_MISTY
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55654,10 +55654,10 @@ trainerdata 798, "Lt. Surge"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_LT_SURGE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55753,10 +55753,10 @@ trainerdata 799, "Lt. Surge"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_LT_SURGE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55852,10 +55852,10 @@ trainerdata 800, "Lt. Surge"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_LT_SURGE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -55952,10 +55952,10 @@ trainerdata 801, "Erika"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_ERIKA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56051,10 +56051,10 @@ trainerdata 802, "Erika"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_ERIKA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56150,10 +56150,10 @@ trainerdata 803, "Erika"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_ERIKA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56250,10 +56250,10 @@ trainerdata 804, "Janine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_JANINE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56349,10 +56349,10 @@ trainerdata 805, "Janine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_JANINE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56448,10 +56448,10 @@ trainerdata 806, "Janine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_JANINE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56548,10 +56548,10 @@ trainerdata 807, "Sabrina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_SABRINA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56647,10 +56647,10 @@ trainerdata 808, "Sabrina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_SABRINA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56746,10 +56746,10 @@ trainerdata 809, "Sabrina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_SABRINA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56846,10 +56846,10 @@ trainerdata 810, "Blaine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BLAINE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -56945,10 +56945,10 @@ trainerdata 811, "Blaine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BLAINE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57044,10 +57044,10 @@ trainerdata 812, "Blaine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_LEADER_BLAINE
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57143,10 +57143,10 @@ trainerdata 829, "Oliver"
    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57208,10 +57208,10 @@ trainerdata 830, "Oliver"
    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_ACE_TRAINER_M
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57274,10 +57274,10 @@ trainerdata 784, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_RIVAL
     nummons 1
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57287,7 +57287,7 @@ party 784
     abilityslot 0
     level 40
     pokemon SPECIES_SNEASEL
-    item 0
+    item ITEM_NONE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
     move MOVE_LOW_KICK
@@ -57307,10 +57307,10 @@ trainerdata 488, "Petrel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_PETREL
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57320,7 +57320,7 @@ party 488
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_ZOROARK
-    item 0
+    item ITEM_NONE
     move MOVE_NIGHT_SLASH
     move MOVE_EXTRASENSORY
     move MOVE_LOW_SWEEP
@@ -57337,7 +57337,7 @@ party 488
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_SKUNTANK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_NIGHT_SLASH
     move MOVE_FLAMETHROWER
@@ -57354,7 +57354,7 @@ party 488
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_RATICATE
-    item 0
+    item ITEM_NONE
     move MOVE_HYPER_FANG
     move MOVE_CRUNCH
     move MOVE_FLAME_WHEEL
@@ -57371,7 +57371,7 @@ party 488
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_SUDOWOODO
-    item 0
+    item ITEM_NONE
     move MOVE_ROCK_SLIDE
     move MOVE_TRAILBLAZE
     move MOVE_DRAIN_PUNCH
@@ -57407,10 +57407,10 @@ trainerdata 479, "Ariana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
     nummons 5
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57420,7 +57420,7 @@ party 479
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_ARBOK
-    item 0
+    item ITEM_NONE
     move MOVE_POISON_JAB
     move MOVE_EARTHQUAKE
     move MOVE_CRUNCH
@@ -57437,7 +57437,7 @@ party 479
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_YANMEGA
-    item 0
+    item ITEM_NONE
     move MOVE_SIGNAL_BEAM
     move MOVE_AIR_SLASH
     move MOVE_GIGA_DRAIN
@@ -57454,7 +57454,7 @@ party 479
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_LICKILICKY
-    item 0
+    item ITEM_NONE
     move MOVE_BODY_SLAM
     move MOVE_HAMMER_ARM
     move MOVE_MUDDY_WATER
@@ -57471,7 +57471,7 @@ party 479
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_HONCHKROW
-    item 0
+    item ITEM_NONE
     move MOVE_NIGHT_SLASH
     move MOVE_DRILL_PECK
     move MOVE_HEAT_WAVE
@@ -57544,10 +57544,10 @@ trainerdata 745, "Carly"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass TRAINERCLASS_IDOL
     nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE 
+    item ITEM_NONE
     aiflags TRAINER_AI_FLAGS
     battletype SINGLE_BATTLE
     endentry
@@ -57557,7 +57557,7 @@ party 745
     abilityslot 0
     level 10
     pokemon SPECIES_IGGLYBUFF
-    item 0
+    item ITEM_NONE
     move MOVE_POUND
     move MOVE_DISARMING_VOICE
     move MOVE_DEFENSE_CURL
@@ -57574,7 +57574,7 @@ party 745
     abilityslot 0
     level 10
     pokemon SPECIES_CLEFFA
-    item 0
+    item ITEM_NONE
     move MOVE_POUND
     move MOVE_DISARMING_VOICE
     move MOVE_SWEET_KISS
@@ -57591,7 +57591,7 @@ party 745
     abilityslot 0
     level 10
     pokemon SPECIES_SNUBBULL
-    item 0
+    item ITEM_NONE
     move MOVE_COVET
     move MOVE_BITE
     move MOVE_RAGE
