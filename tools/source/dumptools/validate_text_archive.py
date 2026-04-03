@@ -11,15 +11,16 @@ def load_charmap(path):
 
     with open(path, encoding="utf-8") as f:
         for line in f:
-            line = line.strip()
+            line = line.strip('\r\n')
+            lstripped = line.lstrip(' \t')
 
-            if not line or line.startswith('//'):
+            if not lstripped or lstripped.startswith('//'):
                 continue
 
-            if '=' not in line:
+            if '=' not in lstripped:
                 continue
 
-            _, rhs = line.split('=', 1)
+            _, rhs = lstripped.split('=', 1)
 
             # Command
             if rhs.startswith('{') and rhs.endswith('}'):
