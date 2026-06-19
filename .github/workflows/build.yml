@@ -3,7 +3,11 @@ name: build
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '**.md'
   pull_request:
+    paths-ignore:
+      - '**.md'
   workflow_dispatch:
 
 env:
@@ -141,4 +145,4 @@ jobs:
           make AUTO_TEST=Y -j$(nproc)
       - name: Run tests
         run: |
-          scripts/run_tests.sh
+          scripts/run_tests.sh -c
