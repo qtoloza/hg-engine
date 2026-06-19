@@ -156,8 +156,8 @@
       "y": 0
     },
     {
-      "id": "obj_D35R0104_follower_mon_static_murkrow",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MURKROW",
+      "id": "obj_D35R0104_follower_mon_chatot",
+      "spriteId": "SPRITE_FOLLOWER_MON_CHATOT",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_1",
@@ -275,8 +275,8 @@
       "y": 0
     },
     {
-      "id": "obj_D35R0104_follower_mon_static_murkrow_2",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MURKROW",
+      "id": "obj_D35R0104_follower_mon_chatot_2",
+      "spriteId": "SPRITE_FOLLOWER_MON_CHATOT",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ROCKET_HIDEOUT_B3F_MURKROW_2",

@@ -390,6 +390,40 @@
       "x": 1171,
       "z": 113,
       "y": 0
+    },
+    {
+      "id": "obj_R03_gsassistantm",
+      "spriteId": "SPRITE_GSASSISTANTM",
+      "movement": 15,
+      "type": 0,
+      "eventFlag": "FLAG_GOT_TM80_FROM_BROCK",
+      "scriptId": "_EV_scr_seq_R03_005 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 1172,
+      "z": 103,
+      "y": 0
+    },
+    {
+      "id": "obj_R03_follower_mon_deoxys",
+      "spriteId": "SPRITE_FOLLOWER_MON_DEOXYS",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16280,
+      "scriptId": 0,
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 6666,
+      "z": 6666,
+      "y": 0
     }
   ],
   "warps": [
@@ -406,6 +440,18 @@
       "header": "MAP_R03PC0101",
       "anchor": 0,
       "y": 0
+    }
+  ],
+  "coords": [
+    {
+      "scriptId": "_EV_scr_seq_R03_007 + 1",
+      "x": 1097,
+      "z": 117,
+      "w": 1,
+      "h": 1,
+      "y": 0,
+      "val": 0,
+      "var": 24882
     }
   ]
 }

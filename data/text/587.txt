@@ -8,3 +8,15 @@ We are arriving at Goldenrod!\nGoldenrod! The accent is on the “o”!
 Enjoy the attractive and magnetic\njourney!\r
 I’m the President.\rMy dream was to build a train that\nis faster than any Pokémon.\rIt really brings Johto much closer\nto Kanto.
 We request that you make sure you\nrefrain from keeping large Pokémon out\fat the station.
+Hello, sonny. Did you know that there\nare some items that affect only\fspecific Pokémon in battle?\rIf you can show me one of those\nPokémon, I’ll give you their item.\r
+Hello, lassie. Did you know that there\nare some items that affect only\fspecific Pokémon in battle?\rIf you can show me one of those\nPokémon, I’ll give you their item.\r
+That {STRVAR_1 0, 1, 0}...\nI have no item that will help it.
+That {STRVAR_1 0, 1, 0}...\nYes, I have an item that will help it!\fLet me see here...\r
+Oh my! For this particular Pokémon,\nI have two items to give you!\r
+The Light Ball will multiply the\nattacking stats of any Pikachu.\rIt will not work with Pikachu’s\nevolutionary cousins, however!
+The Stick will multiply the critical hit\nratio of any Farfetch’d.
+The Lucky Punch will multiply the\ncritical hit ratio of any Chansey.
+The DeepSea items will multiply\nthe special stats of any Clamperl.
+The Thick Club will multiply the\nAttack stat of any Cubone or Marowak.
+The powder items will multiply\nthe Defense or Speed of any Ditto.
+That {STRVAR_1 0, 1, 0}...\nI already gave you an item for it.

@@ -38,66 +38,30 @@ scrdef scr_seq_D11R0106_006
 scrdef scr_seq_D11R0106_007
 scrdef scr_seq_D11R0106_008
 scrdef scr_seq_D11R0106_009
+scrdef scr_seq_D11R0106_010
+scrdef scr_seq_D11R0106_011
 scrdef_end
 
 scr_seq_D11R0106_009:
+	goto_if_set 16310, _039B
 	get_phone_book_rematch PHONE_CONTACT_BLAINE, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 0
-	goto_if_ne _00AB
+	goto_if_ne _039D
 	check_registered_phone_number PHONE_CONTACT_BLAINE, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 1
-	goto_if_eq _008A
+	goto_if_eq _03A3
 	check_badge BADGE_EARTH, VAR_TEMP_x4002
 	compare VAR_TEMP_x4002, 1
-	goto_if_eq _0069
+	goto_if_eq _03BE
 	clearflag FLAG_UNK_2F5
-	end
-
-_0069:
-	get_weekday VAR_TEMP_x4002
-	compare VAR_TEMP_x4002, 2
-	goto_if_ne _0084
-	setflag FLAG_UNK_2F5
-	goto _0088
-
-_0084:
-	clearflag FLAG_UNK_2F5
-_0088:
-	end
-
-_008A:
-	get_weekday VAR_TEMP_x4002
-	compare VAR_TEMP_x4002, 4
-	goto_if_ne _00A5
-	setflag FLAG_UNK_2F5
-	goto _00A9
-
-_00A5:
-	clearflag FLAG_UNK_2F5
-_00A9:
-	end
-
-_00AB:
-	setflag FLAG_UNK_2F5
 	end
 
 scr_seq_D11R0106_008:
-	call_if_set FLAG_UNK_13B, _00D4
-	call_if_set FLAG_UNK_13D, _00E2
-	call_if_set FLAG_UNK_13E, _00F0
+	goto_if_set 16310, _039B
+	call_if_set FLAG_UNK_13B, _03D9
+	call_if_set FLAG_UNK_13D, _03E7
+	call_if_set FLAG_UNK_13E, _03F5
 	end
-
-_00D4:
-	move_person_facing obj_D11R0106_gsassistantm, 21, 0, 14, DIR_WEST
-	return
-
-_00E2:
-	move_person_facing obj_D11R0106_gsassistantm_3, 9, 0, 13, DIR_NORTH
-	return
-
-_00F0:
-	move_person_facing obj_D11R0106_assistantm, 15, 0, 16, DIR_SOUTH
-	return
 
 scr_seq_D11R0106_000:
 	play_se SEQ_SE_DP_SELECT
@@ -105,13 +69,13 @@ scr_seq_D11R0106_000:
 	faceplayer
 	check_badge BADGE_VOLCANO, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _01B6
+	goto_if_eq _0403
 	npc_msg 0
 	closemsg
 	trainer_battle TRAINER_LEADER_BLAINE_BLAINE, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	give_badge BADGE_VOLCANO
 	addvar VAR_UNK_4135, 1
 	setflag FLAG_UNK_265
@@ -127,61 +91,24 @@ scr_seq_D11R0106_000:
 	play_fanfare SEQ_ME_BADGE
 	wait_fanfare
 	npc_msg 3
-	goto _0175
-
-_0175:
-	goto_if_no_item_space ITEM_TM050, 1, _01AC
-	callstd std_give_item_verbose
-	setflag FLAG_GOT_TM50_FROM_BLAINE
-	buffer_players_name 0
-	npc_msg 4
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_01AC:
-	callstd std_bag_is_full
-	closemsg
-	releaseall
-	end
-
-_01B6:
-	goto_if_unset FLAG_GOT_TM50_FROM_BLAINE, _0175
-	npc_msg 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_01CC:
-	white_out
-	releaseall
-	end
+	goto _041F
 
 scr_seq_D11R0106_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_UNK_13B, _021A
+	goto_if_set FLAG_UNK_13B, _046C
 	npc_msg 6
 	closemsg
 	trainer_battle TRAINER_SUPER_NERD_CARY, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	npc_msg 8
 	closemsg
-	apply_movement obj_D11R0106_gsassistantm, _0424
+	apply_movement obj_D11R0106_gsassistantm, _0540
 	wait_movement
 	setflag FLAG_UNK_13B
-	releaseall
-	end
-
-_021A:
-	npc_msg 7
-	wait_button_or_walk_away
-	closemsg
 	releaseall
 	end
 
@@ -189,59 +116,37 @@ scr_seq_D11R0106_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_UNK_13C, _028C
+	goto_if_set FLAG_UNK_13C, _0477
 	npc_msg 9
 	closemsg
 	trainer_battle TRAINER_SUPER_NERD_WALDO, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	npc_msg 11
 	closemsg
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _027A
-	apply_movement obj_D11R0106_gsassistantm_2, _043C
-	goto _0282
-
-_027A:
-	apply_movement obj_D11R0106_gsassistantm_2, _0430
-_0282:
-	wait_movement
-	setflag FLAG_UNK_13C
-	releaseall
-	end
-
-_028C:
-	npc_msg 10
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto_if_ne _0482
+	apply_movement obj_D11R0106_gsassistantm_2, _054A
+	goto _0494
 
 scr_seq_D11R0106_004:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_UNK_13D, _02DF
+	goto_if_set FLAG_UNK_13D, _049E
 	npc_msg 12
 	closemsg
 	trainer_battle TRAINER_SUPER_NERD_MERLE, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	npc_msg 14
 	closemsg
-	apply_movement obj_D11R0106_gsassistantm_3, _0448
+	apply_movement obj_D11R0106_gsassistantm_3, _0554
 	wait_movement
 	setflag FLAG_UNK_13D
-	releaseall
-	end
-
-_02DF:
-	npc_msg 13
-	wait_button_or_walk_away
-	closemsg
 	releaseall
 	end
 
@@ -249,25 +154,18 @@ scr_seq_D11R0106_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_UNK_13E, _0332
+	goto_if_set FLAG_UNK_13E, _04A9
 	npc_msg 15
 	closemsg
 	trainer_battle TRAINER_SCIENTIST_GS_LOWELL, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	npc_msg 17
 	closemsg
-	apply_movement obj_D11R0106_assistantm, _0454
+	apply_movement obj_D11R0106_assistantm, _055E
 	wait_movement
 	setflag FLAG_UNK_13E
-	releaseall
-	end
-
-_0332:
-	npc_msg 16
-	wait_button_or_walk_away
-	closemsg
 	releaseall
 	end
 
@@ -275,143 +173,321 @@ scr_seq_D11R0106_006:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_UNK_13F, _03A4
+	goto_if_set FLAG_UNK_13F, _04B4
 	npc_msg 18
 	closemsg
 	trainer_battle TRAINER_SCIENTIST_GS_LINDEN, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	npc_msg 20
 	closemsg
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _0392
-	apply_movement obj_D11R0106_assistantm_2, _046C
-	goto _039A
-
-_0392:
-	apply_movement obj_D11R0106_assistantm_2, _0460
-_039A:
-	wait_movement
-	setflag FLAG_UNK_13F
-	releaseall
-	end
-
-_03A4:
-	npc_msg 19
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
+	goto_if_ne _04BF
+	apply_movement obj_D11R0106_assistantm_2, _0568
+	goto _04D1
 
 scr_seq_D11R0106_007:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_UNK_140, _0416
+	goto_if_set FLAG_UNK_140, _04DB
 	npc_msg 21
 	closemsg
 	trainer_battle TRAINER_SCIENTIST_GS_DANIEL, 0, 0, 0
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _01CC
+	goto_if_eq _0419
 	npc_msg 23
 	closemsg
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 2
-	goto_if_ne _0404
-	apply_movement obj_D11R0106_assistantm_3, _0478
-	goto _040C
+	goto_if_ne _04E6
+	apply_movement obj_D11R0106_assistantm_3, _0572
+	goto _04F8
 
-_0404:
-	apply_movement obj_D11R0106_assistantm_3, _0484
-_040C:
-	wait_movement
-	setflag FLAG_UNK_140
-	releaseall
-	end
-
-_0416:
-	npc_msg 22
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-	.align 4
-_0424:
-
-	step 15, 1
-	step 2, 1
-	step_end
-	.align 4
-_0430:
-
-	step 13, 1
-	step 0, 1
-	step_end
-	.align 4
-_043C:
-
-	step 12, 1
-	step 1, 1
-	step_end
-	.align 4
-_0448:
-
-	step 13, 1
-	step 0, 1
-	step_end
-	.align 4
-_0454:
-
-	step 12, 1
-	step 1, 1
-	step_end
-	.align 4
-_0460:
-
-	step 14, 1
-	step 3, 1
-	step_end
-	.align 4
-_046C:
-
-	step 15, 1
-	step 2, 1
-	step_end
-	.align 4
-_0478:
-
-	step 14, 1
-	step 3, 1
-	step_end
-	.align 4
-_0484:
-
-	step 15, 1
-	step 2, 1
-	step_end
 scr_seq_D11R0106_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	check_badge BADGE_VOLCANO, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _04B6
+	goto_if_eq _0502
 	npc_msg 24
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_04B6:
+scr_seq_D11R0106_010:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_MOLTRES, 0
+	wait_cry
+	wild_battle SPECIES_MOLTRES, 60, 0
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	hide_person obj_D11R0106_follower_mon_static_moltres
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0419
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _050D
+	compare VAR_TEMP_x4002, 4
+	goto_if_eq _051C
+	compare VAR_TEMP_x4002, 5
+	call_if_eq _050D
+	releaseall
+	end
+
+scr_seq_D11R0106_011:
+	buffer_players_name 0
+	buffer_players_name 0
+	releaseall
+	end
+
+_039B:
+	end
+
+_039D:
+	setflag FLAG_UNK_2F5
+	end
+
+_03A3:
+	get_weekday VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 4
+	goto_if_ne _0528
+	setflag FLAG_UNK_2F5
+	goto _039B
+
+_03BE:
+	get_weekday VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 2
+	goto_if_ne _052E
+	setflag FLAG_UNK_2F5
+	goto _0534
+
+_03D9:
+	move_person_facing obj_D11R0106_gsassistantm, 21, 0, 14, DIR_WEST
+	return
+
+_03E7:
+	move_person_facing obj_D11R0106_gsassistantm_3, 9, 0, 13, DIR_NORTH
+	return
+
+_03F5:
+	move_person_facing obj_D11R0106_assistantm, 15, 0, 16, DIR_SOUTH
+	return
+
+_0403:
+	goto_if_unset FLAG_GOT_TM50_FROM_BLAINE, _041F
+	npc_msg 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0419:
+	white_out
+	releaseall
+	end
+
+_041F:
+	goto_if_no_item_space ITEM_TM050, 1, _0536
+	callstd std_give_item_verbose
+	setflag FLAG_GOT_TM50_FROM_BLAINE
+	buffer_players_name 0
+	npc_msg 4
+	npc_msg 27
+	buffer_players_name 0
+	buffer_players_name 0
+	npc_msg 28
+	play_fanfare SEQ_ME_POKEGEAR_REGIST
+	wait_fanfare
+	register_gear_number PHONE_CONTACT_BLAINE
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_046C:
+	npc_msg 7
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0477:
+	npc_msg 10
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0482:
+	apply_movement obj_D11R0106_gsassistantm_2, _057C
+	wait_movement
+	setflag FLAG_UNK_13C
+	releaseall
+	end
+
+_0494:
+	wait_movement
+	setflag FLAG_UNK_13C
+	releaseall
+	end
+
+_049E:
+	npc_msg 13
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04A9:
+	npc_msg 16
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04B4:
+	npc_msg 19
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04BF:
+	apply_movement obj_D11R0106_assistantm_2, _0586
+	wait_movement
+	setflag FLAG_UNK_13F
+	releaseall
+	end
+
+_04D1:
+	wait_movement
+	setflag FLAG_UNK_13F
+	releaseall
+	end
+
+_04DB:
+	npc_msg 22
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04E6:
+	apply_movement obj_D11R0106_assistantm_3, _0590
+	wait_movement
+	setflag FLAG_UNK_140
+	releaseall
+	end
+
+_04F8:
+	wait_movement
+	setflag FLAG_UNK_140
+	releaseall
+	end
+
+_0502:
 	npc_msg 25
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
+
+_050D:
+	npc_msg 26
+	clearflag 16311
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_051C:
+	clearflag FLAG_UNK_2F5
+	clearflag 16310
+	releaseall
+	end
+
+_0528:
+	clearflag FLAG_UNK_2F5
+	end
+
+_052E:
+	clearflag FLAG_UNK_2F5
+	end
+
+_0534:
+	end
+
+_0536:
+	callstd std_bag_is_full
+	closemsg
+	releaseall
+	end
+
+	.align 4
+_0540:
+
+	step 15, 1
+	step 2, 1
+	step_end
+	.align 4
+_054A:
+
+	step 12, 1
+	step 1, 1
+	step_end
+	.align 4
+_0554:
+
+	step 13, 1
+	step 0, 1
+	step_end
+	.align 4
+_055E:
+
+	step 12, 1
+	step 1, 1
+	step_end
+	.align 4
+_0568:
+
+	step 15, 1
+	step 2, 1
+	step_end
+	.align 4
+_0572:
+
+	step 14, 1
+	step 3, 1
+	step_end
+	.align 4
+_057C:
+
+	step 13, 1
+	step 0, 1
+	step_end
+	.align 4
+_0586:
+
+	step 14, 1
+	step 3, 1
+	step_end
+	.align 4
+_0590:
+
+	step 15, 1
+	step 2, 1
+	step_end
 	.align 4
 
 

@@ -32,12 +32,13 @@ scrdef scr_seq_T24R0501_000
 scrdef_end
 
 scr_seq_T24R0501_000:
-	goto_if_set FLAG_GOT_SECRETPOTION, _0024
+	goto_if_unset FLAG_GOT_TM01_FROM_CHUCK, _00B1
+	goto_if_set FLAG_GOT_SECRETPOTION, _002F
 	compare VAR_SCENE_LIGHTHOUSE_JASMINE, 1
-	goto_if_eq _0051
-	goto _0024
+	goto_if_eq _005C
+	goto _002F
 
-_0024:
+_002F:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
@@ -46,37 +47,41 @@ _0024:
 	holdmsg
 	setvar VAR_SPECIAL_x8004, 11
 	callstd std_special_mart
-	apply_movement obj_T24R0501_sunglasses, _00A8
+	apply_movement obj_T24R0501_sunglasses, _00C4
 	wait_movement
 	clearflag FLAG_SPECIAL_MART_PHARMACY
 	releaseall
 	end
 
-_0051:
+_005C:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
 	npc_msg 0
 	wait_button
-	goto_if_no_item_space ITEM_SECRET_MEDICINE, 1, _009C
+	goto_if_no_item_space ITEM_SECRET_MEDICINE, 1, _00A7
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_SECRETPOTION
 	npc_msg 2
 	wait_button
 	closemsg
-	apply_movement obj_T24R0501_sunglasses, _00A8
+	apply_movement obj_T24R0501_sunglasses, _00C4
 	wait_movement
 	releaseall
 	end
 
-_009C:
+_00A7:
 	callstd std_bag_is_full
 	closemsg
 	releaseall
 	end
 
+_00B1:
+	simple_npc_msg 9
+	end
+
 	.align 4
-_00A8:
+_00C4:
 
 	step 0, 1
 	step_end

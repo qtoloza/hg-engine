@@ -12,5 +12,5 @@ Cool shoes!\nAnd they’re your model!
 Those who have switched 200 times\nare commemorated here for great\fteamwork and their bond with\ftheir Pokémon.
 It’s a cool flag!\nAnd it’s yours!
 Pokéathlon Medals...\rThose are the proof of the hard work\nof both Pokéathletes and Pokémon.\rThose Pokémon that have won all five\nMedals are called “Medalist Pokémon”\fto commemorate the trust they’ve\fearned from their Pokéathlete.
-ABRA: ...\n...\f...\rIt must be asleep!
-DRATINI: Achoo!
+Abra: ...\n...\f...\rIt must be asleep!
+Dratini: Achoo!

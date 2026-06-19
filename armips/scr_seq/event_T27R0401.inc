@@ -3,8 +3,10 @@
 
 .equ _EV_scr_seq_T27R0401_000, 0
 .equ _EV_scr_seq_T27R0401_001, 1
+.equ _EV_scr_seq_T27R0401_002, 2
 
 .equ obj_T27R0401_gsoldman1, 0
 .equ obj_T27R0401_gsboy1, 1
+.equ obj_T27R0401_gsbabygirl1, 2
 
 .endif //SCR_SEQ_T27R0401_H_

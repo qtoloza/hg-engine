@@ -18,6 +18,9 @@
 .equ _EV_scr_seq_T23_014, 14
 .equ _EV_scr_seq_T23_015, 15
 .equ _EV_scr_seq_T23_016, 16
+.equ _EV_scr_seq_T23_017, 17
+.equ _EV_scr_seq_T23_018, 18
+.equ _EV_scr_seq_T23_019, 19
 
 .equ obj_T23_rocketm, 0
 .equ obj_T23_rocketm_2, 1
@@ -33,5 +36,6 @@
 .equ obj_T23_gsmiddleman1, 11
 .equ obj_T23_rocketm_3, 12
 .equ obj_T23_gsmiddleman1_2, 13
+.equ obj_T23_thief, 14
 
 .endif //SCR_SEQ_T23_H_

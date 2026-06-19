@@ -86,7 +86,7 @@ scr_seq_D17R0110_000:
 	get_game_version VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 7
 	goto_if_ne _00FD
-	setvar VAR_SPECIAL_x8004, 45
+	setvar VAR_SPECIAL_x8004, 50
 	goto _0103
 
 _00FD:

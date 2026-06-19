@@ -971,7 +971,7 @@ scr_seq_D35R0102_013:
 	lockall
 	scrcmd_708 1
 	play_se SEQ_SE_GS_DOKU_TRAP
-	rocket_trap_battle SPECIES_KOFFING, 21
+	rocket_trap_battle SPECIES_WEEZING, 37
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -984,7 +984,7 @@ scr_seq_D35R0102_014:
 	lockall
 	scrcmd_708 0
 	play_se SEQ_SE_GS_DENKI_TRAP
-	rocket_trap_battle SPECIES_VOLTORB, 23
+	rocket_trap_battle SPECIES_VOLTORB, 35
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -997,7 +997,7 @@ scr_seq_D35R0102_015:
 	lockall
 	scrcmd_708 2
 	play_se SEQ_SE_GS_IWA_TRAP
-	rocket_trap_battle SPECIES_GEODUDE, 21
+	rocket_trap_battle SPECIES_GRAVELER, 36
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1010,7 +1010,7 @@ scr_seq_D35R0102_016:
 	lockall
 	scrcmd_708 0
 	play_se SEQ_SE_GS_DENKI_TRAP
-	rocket_trap_battle SPECIES_VOLTORB, 23
+	rocket_trap_battle SPECIES_VOLTORB, 35
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1023,7 +1023,7 @@ scr_seq_D35R0102_017:
 	lockall
 	scrcmd_708 2
 	play_se SEQ_SE_GS_IWA_TRAP
-	rocket_trap_battle SPECIES_GEODUDE, 21
+	rocket_trap_battle SPECIES_GRAVELER, 36
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1036,7 +1036,7 @@ scr_seq_D35R0102_018:
 	lockall
 	scrcmd_708 0
 	play_se SEQ_SE_GS_DENKI_TRAP
-	rocket_trap_battle SPECIES_VOLTORB, 23
+	rocket_trap_battle SPECIES_VOLTORB, 35
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1049,7 +1049,7 @@ scr_seq_D35R0102_019:
 	lockall
 	scrcmd_708 0
 	play_se SEQ_SE_GS_DENKI_TRAP
-	rocket_trap_battle SPECIES_VOLTORB, 23
+	rocket_trap_battle SPECIES_VOLTORB, 35
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1062,7 +1062,7 @@ scr_seq_D35R0102_020:
 	lockall
 	scrcmd_708 1
 	play_se SEQ_SE_GS_DOKU_TRAP
-	rocket_trap_battle SPECIES_KOFFING, 21
+	rocket_trap_battle SPECIES_WEEZING, 37
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1075,7 +1075,7 @@ scr_seq_D35R0102_021:
 	lockall
 	scrcmd_708 1
 	play_se SEQ_SE_GS_DOKU_TRAP
-	rocket_trap_battle SPECIES_KOFFING, 21
+	rocket_trap_battle SPECIES_WEEZING, 37
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1088,7 +1088,7 @@ scr_seq_D35R0102_022:
 	lockall
 	scrcmd_708 2
 	play_se SEQ_SE_GS_IWA_TRAP
-	rocket_trap_battle SPECIES_GEODUDE, 21
+	rocket_trap_battle SPECIES_GRAVELER, 36
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1101,7 +1101,7 @@ scr_seq_D35R0102_023:
 	lockall
 	scrcmd_708 2
 	play_se SEQ_SE_GS_IWA_TRAP
-	rocket_trap_battle SPECIES_GEODUDE, 21
+	rocket_trap_battle SPECIES_GRAVELER, 36
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1114,7 +1114,7 @@ scr_seq_D35R0102_024:
 	lockall
 	scrcmd_708 1
 	play_se SEQ_SE_GS_DOKU_TRAP
-	rocket_trap_battle SPECIES_KOFFING, 21
+	rocket_trap_battle SPECIES_WEEZING, 37
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1127,7 +1127,7 @@ scr_seq_D35R0102_025:
 	lockall
 	scrcmd_708 0
 	play_se SEQ_SE_GS_DENKI_TRAP
-	rocket_trap_battle SPECIES_VOLTORB, 23
+	rocket_trap_battle SPECIES_VOLTORB, 35
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1140,7 +1140,7 @@ scr_seq_D35R0102_026:
 	lockall
 	scrcmd_708 0
 	play_se SEQ_SE_GS_DENKI_TRAP
-	rocket_trap_battle SPECIES_VOLTORB, 23
+	rocket_trap_battle SPECIES_VOLTORB, 35
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1153,7 +1153,7 @@ scr_seq_D35R0102_027:
 	lockall
 	scrcmd_708 1
 	play_se SEQ_SE_GS_DOKU_TRAP
-	rocket_trap_battle SPECIES_KOFFING, 21
+	rocket_trap_battle SPECIES_WEEZING, 37
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF
@@ -1166,7 +1166,7 @@ scr_seq_D35R0102_028:
 	lockall
 	scrcmd_708 2
 	play_se SEQ_SE_GS_IWA_TRAP
-	rocket_trap_battle SPECIES_GEODUDE, 21
+	rocket_trap_battle SPECIES_GRAVELER, 36
 	check_battle_won VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
 	goto_if_eq _11FF

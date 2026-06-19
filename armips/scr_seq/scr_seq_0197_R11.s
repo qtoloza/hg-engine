@@ -35,20 +35,8 @@ scrdef scr_seq_R11_003
 scrdef_end
 
 scr_seq_R11_001:
-	goto_if_set FLAG_ENGAGING_STATIC_POKEMON, _002A
-	goto_if_set FLAG_SNORLAX_MEET, _0044
-	end
-
-_002A:
-	setflag FLAG_HIDE_ROUTE_11_SNORLAX
-	hide_person obj_R11_kabigon
-	hide_person obj_R11_gsbabyboy1_2
-	hide_person obj_R11_gsbabyboy1
-	hide_person obj_R11_gsbabyboy1_3
-	clearflag FLAG_ENGAGING_STATIC_POKEMON
-	end
-
-_0044:
+	goto_if_set FLAG_ENGAGING_STATIC_POKEMON, _007A
+	goto_if_set FLAG_SNORLAX_MEET, _0094
 	end
 
 scr_seq_R11_000:
@@ -56,40 +44,12 @@ scr_seq_R11_000:
 	lockall
 	radio_music_is_playing 5, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _006A
+	goto_if_eq _0096
 	npc_msg 2
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
-
-_006A:
-	play_cry SPECIES_SNORLAX, 0
-	npc_msg 3
-	wait_cry
-	closemsg
-	setflag FLAG_ENGAGING_STATIC_POKEMON
-	wild_battle SPECIES_SNORLAX, 50, 0
-	clearflag FLAG_ENGAGING_STATIC_POKEMON
-	check_battle_won VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _00B4
-	get_static_encounter_outcome VAR_TEMP_x4005
-	compare VAR_TEMP_x4005, 4
-	call_if_eq _00BA
-	setflag FLAG_UNK_998
-	setflag FLAG_SNORLAX_MEET
-	releaseall
-	end
-
-_00B4:
-	white_out
-	releaseall
-	end
-
-_00BA:
-	setflag FLAG_CAUGHT_SNORLAX
-	return
 
 scr_seq_R11_002:
 	direction_signpost 0, 1, 2, VAR_SPECIAL_RESULT
@@ -106,6 +66,46 @@ scr_seq_R11_003:
 	trainer_tips 1, VAR_SPECIAL_RESULT
 	callstd std_signpost
 	end
+
+_007A:
+	setflag FLAG_HIDE_ROUTE_11_SNORLAX
+	hide_person obj_R11_kabigon
+	hide_person obj_R11_gsbabyboy1_2
+	hide_person obj_R11_gsbabyboy1
+	hide_person obj_R11_gsbabyboy1_3
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	end
+
+_0094:
+	end
+
+_0096:
+	play_cry SPECIES_SNORLAX, 0
+	npc_msg 3
+	wait_cry
+	closemsg
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_SNORLAX, 60, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _00E0
+	get_static_encounter_outcome VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 4
+	call_if_eq _00E6
+	setflag FLAG_UNK_998
+	setflag FLAG_SNORLAX_MEET
+	releaseall
+	end
+
+_00E0:
+	white_out
+	releaseall
+	end
+
+_00E6:
+	setflag FLAG_CAUGHT_SNORLAX
+	return
 	.align 4
 
 

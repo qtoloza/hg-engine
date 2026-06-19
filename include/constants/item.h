@@ -2693,8 +2693,10 @@
 
 // define your custom move effects below like this
 // #define ITEM_CUSTOM_1 (MAX_BASE_ITEM_NUM + 1)
+#define ITEM_AUBADE_ORB                   (MAX_BASE_ITEM_NUM + 1) // SacredGold: Evolves Eevee to Espeon
+#define ITEM_SERENADE_ORB                 (MAX_BASE_ITEM_NUM + 2) // SacredGold: Evolves Eevee to Umbreon
 
-#define MAX_TOTAL_ITEM_NUM ITEM_CANARI_BREAD
+#define MAX_TOTAL_ITEM_NUM ITEM_SERENADE_ORB
 
 
 #define NUM_MEGA_STONES (48) // includes the pixie plate, doesn't include plza megas due to overflowing bag

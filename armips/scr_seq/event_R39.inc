@@ -9,6 +9,7 @@
 .equ _EV_scr_seq_R39_005, 5
 .equ _EV_scr_seq_R39_006, 6
 .equ _EV_scr_seq_R39_007, 7
+.equ _EV_scr_seq_R39_008, 8
 
 .equ obj_R39_seaman_2, 0
 .equ obj_R39_gsmiddleman1, 1
@@ -23,5 +24,7 @@
 .equ obj_R39_monstarball, 10
 .equ obj_R39_gsmiddleman1_2, 11
 .equ obj_R39_gsleader9, 12
+.equ obj_R39_idol, 13
+.equ obj_R39_monstarball_2, 14
 
 .endif //SCR_SEQ_R39_H_

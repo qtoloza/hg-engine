@@ -1,7 +1,30 @@
 Hey!\rI am the Karate King!\nI train alone here in the cave!\rYou!\nBattle with me! Hwaaarggh!\r
 I... I’m crushed...\rMy training is still not enough...\nBut a loss is a loss. I admit it.\rAs proof that you defeated me, I’ll give\nyou a rare Fighting-type Pokémon.\r
-{STRVAR_1 3, 0, 0} received TYROGUE from\nthe Karate King!
-TYROGUE is a Fighting type.\nIt evolves into a tougher Pokémon.\rKeep up the hard work. I’ll keep\ntraining too. Farewell!
+{STRVAR_1 3, 0, 0} received Tyrogue from\nthe Karate King!
+Tyrogue is a Fighting type.\nIt evolves into a tougher Pokémon.\rKeep up the hard work. I’ll keep\ntraining too. Farewell!
 You have no room in your party!
-Give a nickname to the TYROGUE you\nreceived? {YESNO 0}
-                         
+Give a nickname to the Tyrogue you\nreceived? {YESNO 0}
+
+Zaza zari za...\r
+It’s Jirachi!\r...\rBut it appears to be asleep,\ndespite the movement...\r
+There’s no way to wake it up...
+{STRVAR_1 3, 0, 0} began to play the\nAzure Flute!\r
+Do you want to try playing the\nAzure Flute? {YESNO 0}
+Jirachi woke up!\r
+Jirachi asked {STRVAR_1 3, 0, 0} to\nchoose one wish...\rBut with a warning that the wish\ncould {COLOR 1}only be performed once{COLOR 0}...\rWhat does {STRVAR_1 3, 0, 0}’s heart desire? {YESNO 0}
+The Power of Money
+Extreme Gambling
+Delicious Sweets
+Challenge Jirachi
+Jirachi granted your wish...\r
+{STRVAR_1 3, 0, 0} was given $300,000!\n(No matter how much room there is...)
+Jirachi disappeared, not to be\nseen again for a millenium...
+{STRVAR_1 3, 0, 0}’s Coin Case was completely\nfilled!
+{STRVAR_1 3, 0, 0} was showered with sweets!
+Jirachi moved forward to attack!\r
+You carry the aura of three great\nwarriors upon you.\rThe legends speak of a fourth -\na young one who trained alongside\fthe Swords of Justice.\rIt reveals itself only to those\nthe trio has deemed worthy.\rSeek where water meets stone,\nin the deepest caves...\r
+All four Swords of Justice,\nunited under one trainer.\rYou’ve proven yourself worthy\nof the ancient warriors.\rTheir spirits will guide you.\r
+Shiimmer...\r
+Xerneas faded into the light...
+PSSSSHHH!\r
+Volcanion vented steam and vanished...

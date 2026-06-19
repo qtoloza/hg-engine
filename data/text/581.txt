@@ -38,7 +38,7 @@ Johto-Kanto Magnet Train Line\nGoldenrod City Station
 Goldenrod City Radio Tower\rA Network Providing Johto\nwith Interesting Information
 Goldenrod City Pokémon Gym\nLeader: Whitney\fThe Incredibly Pretty Girl!
 Goldenrod City\nA Happening Big City
-Bike Shop Goldenrod Branch\nThe World is a Cycling Path!
+Goldenrod Archaeological Facility\nDefinitely not a bike store!
 Goldenrod City Game Corner\nA Safe and Sound Playground!
 Name Rater\nGet Your Pokémon Nicknames Rated
 Watch Out!\nGet Off Your Bike in the Tunnel

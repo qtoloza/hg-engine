@@ -22,4 +22,4 @@ It is a cool Pokégear to commemorate\nyour 100th victory in the Pokéathlon.\rT
 Those Pokéathletes who have come in\nfirst in every event at the Pokéathlon\f50 times are commemorated here for\ftheir overwhelming might and the\farrival of a new legend.
 It’s an awesome Poké Ball to\ncommemorate your 50th victory\fin every Pokéathlon event.\rIt’s your model Poké Ball!\nThe engraving reads, “Stay on Top.”
 {STRVAR_1 3, 0, 0} checked\nthe event records.\r
-DODRIO: Keewn!
+Dodrio: Keewn!

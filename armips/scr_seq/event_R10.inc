@@ -8,8 +8,10 @@
 .equ _EV_scr_seq_R10_004, 4
 .equ _EV_scr_seq_R10_005, 5
 .equ _EV_scr_seq_R10_006, 6
+.equ _EV_scr_seq_R10_007, 7
 
 .equ obj_R10_gsleader9, 0
 .equ obj_R10_follower_mon_static_zapdos, 1
+.equ obj_R10_oldman1, 2
 
 .endif //SCR_SEQ_R10_H_

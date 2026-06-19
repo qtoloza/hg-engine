@@ -4,6 +4,7 @@
 .equ _EV_scr_seq_D15R0102_000, 0
 .equ _EV_scr_seq_D15R0102_001, 1
 .equ _EV_scr_seq_D15R0102_002, 2
+.equ _EV_scr_seq_D15R0102_003, 3
 
 .equ obj_D15R0102_bozu, 0
 .equ obj_D15R0102_bozu_2, 1

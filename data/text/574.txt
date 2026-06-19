@@ -4,7 +4,7 @@ There! Scared now, are you?\rWhat?\nIt has nothing to do with Pokémon?\fThat’
 Chuck: Hmm... I lost?\rHow about that!\nAll right. You’re worthy of\fthe Storm Badge!\r
 {STRVAR_1 3, 0, 0} received\nthe Storm Badge from Chuck!
 Chuck: The Storm Badge lets your\nPokémon Fly to any city or town you’ve\falready been to!\rHere, take this, too!\r
-Chuck: That is Focus Punch.\rIt doesn’t land if the foe you’re\nattacking hits you first, but it’s very\fpowerful if it manages to hit!
+Chuck: That is Focus Punch.\rIt doesn’t land if the foe you’re\nattacking hits you first, but it’s very\fpowerful if it manages to hit!\r
 Argh... Your Bag is jammed full!
 Chuck: Wahahah!\nI enjoyed battling you!\rBut a loss is a loss!\rFrom now on, I’m going to train\n24 hours a day!
 He’s so into his training, he\ndoesn’t seem to notice you.
@@ -13,3 +13,5 @@ There is a large winch.\nWill you turn it? {YESNO 0}
 It won’t turn anymore.
 Cianwood City Pokémon Gym
 Cianwood City Pokémon Gym\rLeader: Chuck\nCertified Trainer!\f{STRVAR_1 3, 0, 0}
+Chuck: I bet you’d make a great\ntraining partner! Here, take my number!\r... ... ...\r
+{STRVAR_1 3, 0, 0} registered Chuck\nin the Pokégear!

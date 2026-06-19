@@ -42,8 +42,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 1034,
-      "z": 137,
+      "x": 0,
+      "z": 0,
       "y": 0
     },
     {
@@ -78,6 +78,23 @@
       "yRange": 0,
       "x": 1052,
       "z": 157,
+      "y": 0
+    },
+    {
+      "id": "obj_R02R0101_aji_peru",
+      "spriteId": "SPRITE_AJI_PERU",
+      "movement": 15,
+      "type": 0,
+      "eventFlag": "FLAG_GOT_TM48_FROM_SABRINA",
+      "scriptId": "_EV_scr_seq_R02R0101_001 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 1047,
+      "z": 159,
       "y": 0
     }
   ],

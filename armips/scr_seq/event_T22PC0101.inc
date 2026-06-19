@@ -7,6 +7,9 @@
 .equ _EV_scr_seq_T22PC0101_003, 3
 .equ _EV_scr_seq_T22PC0101_004, 4
 .equ _EV_scr_seq_T22PC0101_005, 5
+.equ _EV_scr_seq_T22PC0101_006, 6
+.equ _EV_scr_seq_T22PC0101_007, 7
+.equ _EV_scr_seq_T22PC0101_008, 8
 
 .equ obj_T22PC0101_gsman1, 0
 .equ obj_T22PC0101_gsgentleman, 1
@@ -18,5 +21,7 @@
 .equ obj_T22PC0101_pcwoman1_2, 7
 .equ obj_T22PC0101_instructor, 8
 .equ obj_T22PC0101_gsman3, 9
+.equ obj_T22PC0101_juggrer, 10
+.equ obj_T22PC0101_assistantm, 11
 
 .endif //SCR_SEQ_T22PC0101_H_

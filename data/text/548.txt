@@ -4,17 +4,19 @@ Hi, {STRVAR_1 3, 0, 0}!\nLyra is not here.\rShe’s been keeping herself busy\nh
 Hi, {STRVAR_1 3, 0, 0}!\nEthan is not here.\rHe’s been keeping himself busy\nhelping the professor.\fHe’s busier than I am!
 Hi, {STRVAR_1 3, 0, 0}!\nLyra is upstairs.\rShe’s playing games with her Pokémon\nas usual.
 Hi, {STRVAR_1 3, 0, 0}!\nEthan is upstairs.\rHe’s having fun with his Pokémon\nas usual.
-                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                        
-                                                                                                           
-                                                                                                           
-                                                                                                                                                                                
-                                                                                                           
-                                                                                                            
-                                                                                                    
-                                                                                                     
-                                                                                                    
-                                                                                                     
-                                                                                                                                
-                                                                                
-                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+It amazes me how much Lyra\nloves Marill and AZUMarill.\rIf I remember rightly, she has one\nof each!\rShe doesn’t often bring\nAZUMarill out with her, though.
+It amazes me how much Ethan\nloves Marill and AZUMarill.\rIf I remember rightly, he has one\nof each!\rHe doesn’t often bring\nAZUMarill out with him, though.

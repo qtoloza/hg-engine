@@ -198,8 +198,8 @@
       "y": 0
     },
     {
-      "id": "obj_T20_follower_mon_static_marill_2",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MARILL",
+      "id": "obj_T20_follower_mon_azumarill",
+      "spriteId": "SPRITE_FOLLOWER_MON_AZUMARILL",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_NEW_BARK_FRIEND_2",

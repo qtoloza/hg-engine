@@ -3,9 +3,9 @@ Welcome to Goldenrod’s Radio Tower!\r...Or, maybe not.\nI am sorry to tell you
 Um, yes. I have been telling visitors\nto go home as you instructed...
 We have a special Quiz campaign!\rAnswer five questions correctly in a\nrow to win a Radio Card!\rWhen you load it into the Pokégear, you\nwill be able to listen to the radio...\fanytime, anywhere!\rWould you like to try our Quiz? {YESNO 0}
 The first question!\rCan you check the Town Map with\nyour Pokégear? {YESNO 0}
-You are correct.\nThe second question!\rNIDORINA can only be female.\nTrue? {YESNO 0}
+You are correct.\nThe second question!\rNidorina can only be female.\nTrue? {YESNO 0}
 You are correct.\nThe third question!\rKurt, the Poké Ball creator, uses\napricots as ingredients? {YESNO 0}
-You are correct again.\nThe fourth question!\rIt’s impossible to use a TM on\nMAGIKARP. True? {YESNO 0}
+You are correct again.\nThe fourth question!\rIt’s impossible to use a TM on\nMagikarp. True? {YESNO 0}
 Wow!\nI have only one more question to go.\rIn Professor Oak’s popular show,\nPokémon Talk, is he on with Marie? {YESNO 0}
 Bingo! You got it!\nCongratulations!\fHere’s your prize, a Radio Card!\r
 {STRVAR_1 3, 0, 0} can now listen to the\nradio with the Pokégear!
@@ -44,3 +44,6 @@ Oh, my goodness, all five digits\nmatched!\rYou’ve won the jackpot prize!\nThi
 {STRVAR_1 3, 0, 0}?\nYes, I’ve been expecting you.\rThis is the prize we’ve been holding\nfor you. Here you go!\r
 Please do visit again!\nGood-bye from Felicity, your attendant!
 This is the Pokémon Lottery Corner.\rWould you like to check today’s\nlucky number again? {YESNO 0}
+
+I love Mary from Pokémon Talk.\rBut lately, there’s been weird\ninterference during broadcasts.\fIt almost sounds like singing?\rThe engineers think it’s coming\nfrom somewhere underground.\r
+The interference stopped!\rDid you find something down there?\rI kinda miss it, actually...\r

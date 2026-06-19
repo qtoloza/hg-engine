@@ -2,6 +2,7 @@
 .definelabel SCR_SEQ_D25R0101_H_, 0
 
 .equ _EV_scr_seq_D25R0101_000, 0
+.equ _EV_scr_seq_D25R0101_001, 1
 
 .equ obj_D25R0101_mount_2, 0
 .equ obj_D25R0101_mount_2_2, 1
@@ -12,5 +13,6 @@
 .equ obj_D25R0101_monstarball_2, 6
 .equ obj_D25R0101_monstarball_3, 7
 .equ obj_D25R0101_monstarball_4, 8
+.equ obj_D25R0101_yveltal, 9
 
 .endif //SCR_SEQ_D25R0101_H_

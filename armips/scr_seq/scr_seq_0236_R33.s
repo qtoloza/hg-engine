@@ -30,6 +30,7 @@
 
 scrdef scr_seq_R33_000
 scrdef scr_seq_R33_001
+scrdef scr_seq_R33_002
 scrdef_end
 
 scr_seq_R33_000:
@@ -42,6 +43,30 @@ scr_seq_R33_001:
 	scrcmd_058
 	scrcmd_060 VAR_SPECIAL_RESULT
 	callstd std_signpost
+	end
+
+scr_seq_R33_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_FEAROW, 0
+	wait_cry
+	wild_battle SPECIES_FEAROW, 20, 0
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0084
+	fade_screen 8, 1, 0, RGB_BLACK
+	wait_fade
+	hide_person 4
+	setflag 16377
+	fade_screen 8, 1, 1, RGB_BLACK
+	wait_fade
+	releaseall
+	end
+
+_0084:
+	white_out
+	releaseall
 	end
 	.align 4
 

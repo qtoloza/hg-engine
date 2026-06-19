@@ -1,5 +1,5 @@
 Hello!\rKarate King, the Fighting Dojo’s\nmaster, is in a cave in Johto for\ffurther training.
-Hello!\rWe are letting the Gym Leaders use the\nDojo while the Karate King is away.\rYou can give them a call when you\nregister their numbers.\rThey say they are happy to accept\nyour challenge as long as they are\fnot busy.
+Hello!\rI’m not on duty today, but let me\nheal your Pokémon anyway!\r
 “Struggle for vengeance”
 “A complicated fracture”
 Falkner: Hi! I’ve been waiting for you!\rIt’s a pleasure to be able to battle\nyou again!\r
@@ -34,3 +34,7 @@ Blaine: You keep your word.\nThat’s a good thing, kiddo!\r
 Blaine: Waaah!\rIf I had known this Dojo was going to be\navailable, I wouldn’t have needed to\frebuild my Gym.\rWait! I still did, didn’t I?
 Blue: Good!\nThanks for coming to lose to me!\r
 Blue: Hahaha!\nMy scare tactic doesn’t scare you\fat all!
+Hello!\rWould you be interested in trying\nthe interregional training medley?\rChallenge every Gym Leader, Elite Four\nand others in a row with the aid of\fvirtual technology!\rIf you lose, you’ll have to\nstart from the beginning, but\fotherwise there’s no repercussions!\rHeals become more frequent the\nfurther you climb!\rWhat do you say? {YESNO 0}
+Fantastic! Let’s get started!\r
+Oh, that’s too bad!\nThanks for playing!
+Oh, that’s too bad!\nCome back again!

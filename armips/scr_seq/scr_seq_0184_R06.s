@@ -30,6 +30,7 @@
 
 scrdef scr_seq_R06_000
 scrdef scr_seq_R06_001
+scrdef scr_seq_R06_002
 scrdef_end
 
 scr_seq_R06_000:
@@ -42,6 +43,18 @@ scr_seq_R06_001:
 	scrcmd_058
 	trainer_tips 1, VAR_SPECIAL_RESULT
 	callstd std_signpost
+	end
+
+scr_seq_R06_002:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_PSYDUCK, 0
+	wait_cry
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 	.align 4
 

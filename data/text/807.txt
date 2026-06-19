@@ -28,7 +28,7 @@ Bei zu viel Elektrizität im Körper\nwird es aggressiv. Es entlädt sich\nüber
 Es lebt in trockenen Regionen mit\nwenig Regen. Es rollt sich ein, um\nsich vor Gegnern zu schützen.
 Es rollt sich zusammen und rollt\ndann auf Gegner zu, die durch\nseine Stacheln Schaden nehmen.
 Es mag keine Kämpfe. Ein einziger\nTropfen des Gifts aus seinen\nWiderhaken hat eine fatale Wirkung.
-Bei Gefahr fährt es die Wider-\nhaken am Körper aus. Diese wachsen\nlangsamer als die von NIDORINO.
+Bei Gefahr fährt es die Wider-\nhaken am Körper aus. Diese wachsen\nlangsamer als die von Nidorino.
 Sein ganzer Körper ist mit harten\nSchuppen bedeckt. Es beschützt\nsein Junges mit seinem Leben.
 Es untersucht die Umgebung, indem\nes die Ohren spitzt und lauscht.\nSein giftiges Horn schützt es.
 Es ist aggressiv und greift seine\nGegner mit dem Horn an, welches\nbei Berührung Gift absondert.
@@ -44,7 +44,7 @@ Es liebt das Blut von Menschen und\nPokémon. Nachts fliegt es umher auf\nder Su
 Tagsüber verankert es sich mit\nseinen Wurzelfüßen im Boden. Nachts\nwandert es und verteilt Samen.
 Der Honig, den es abgibt, riecht so\nentsetzlich, dass sich sogar Nasen\nin 2 km Entfernung rümpfen.
 Es besitzt die größten Blätter der\nWelt. Es verteilt beim Gehen Pollen,\ndie schreckliche Allergien auslösen.
-Auf seinem Rücken wachsen Pilze,\ndie Tochukaso. Sie nehmen an Größe\nzu, wenn PARAS wächst.
+Auf seinem Rücken wachsen Pilze,\ndie Tochukaso. Sie nehmen an Größe\nzu, wenn Paras wächst.
 PARASEK wird von einem Pilz, der\ngrößer als das Pokémon ist,\nkontrolliert. Er gibt Giftsporen ab.
 Seine großen Augen bestehen aus\nvielen kleinen Augen. Nachts wird\nes von Licht angezogen.
 Es schlägt mit den Flügeln, um\nstaubartige Schuppen abzusondern.\nDiese geben bei Kontakt Gift ab.
@@ -92,7 +92,7 @@ Es schwimmt rückwärts, indem es\nseine Schale öffnet und schließt.\nEs zeigt
 Im Kampf schließt es seine Schale,\num sich zu schützen. Es schießt mit\nStacheln auf seine Gegner.
 Der Körper des Pokémon besteht zu\n95 % aus Gasen, die fortgeweht\nwerden, wenn starker Wind geht.
 Es kann sich durch jedes Hindernis\nbewegen. Es versteckt sich in\nWänden, um Gegner zu beobachten.
-Es versteckt sich im Schatten. Man\nsagt, wenn sich ein GENGAR ver-\nsteckt, kühlt es sich um 5 Grad ab.
+Es versteckt sich im Schatten. Man\nsagt, wenn sich ein Gengar ver-\nsteckt, kühlt es sich um 5 Grad ab.
 Wenn es sich unter dem Boden mit\nbis zu 80 km/h bewegt, verursacht\nes Erschütterungen.
 Mit seiner großen Nase kann es die\nTräume anderer erkennen.\nEs liebt lustige Träume.
 Ein Blick auf das Pendel versetzt\neinen in 3 Sekunden in Schlaf,\nselbst wenn man gar nicht müde ist.
@@ -148,7 +148,7 @@ Eines der Legendären Vogel-\nPokémon. Es wird als Bote des\nFrühlings angeseh
 Man nennt es “Illusion-Pokémon”,\ndenn nur wenige haben es gesehen.\nNur seine Haut wurde oft gefunden.
 Erscheint um seinen Körper eine\nAura, gibt es einen Wetterwechsel.\nEs soll in Seen und Meeren leben.
 Man sagt, es lebe in den Meeren.\nEs bringt Schiffbrüchige sicher\nan Land.
-Die Gene von MEW wurden neu\nangeordnet, wodurch dieses PKMN\nentstand. Es hat ein wildes Herz.
+Die Gene von Mew wurden neu\nangeordnet, wodurch dieses PKMN\nentstand. Es hat ein wildes Herz.
 Es beherrscht alle möglichen\nAttacken, daher sieht man in ihm\nden Vorfahren aller Pokémon.
 Mit dem Blatt auf seinem Kopf\nbestimmt es die Temperatur und\nFeuchtigkeit. Es liebt Sonnenbäder.
 Die Knospen an seinem Hals\ngeben ein würziges Aroma ab,\ndas andere aufheitert.
@@ -169,7 +169,7 @@ Es baut eine Falle, indem es ein\nNetz mit dünner, starker Seide\nspinnt. Es wa
 Es befestigt Seide an der Beute und\nlässt sie frei. Es folgt dem Seiden-\nfaden zur Beute u. ihren Freunden.
 Seine vier Flügel erlauben es dem\nPKMN, schneller und leiser zu\nfliegen. Es ist nachtaktiv.
 Über seine Antennen entlädt es\nElektrizität, mit der es seinen\nGegnern einen Schlag versetzt.
-LANTURNs Licht kann aus großen\nTiefen heraufscheinen. Man nennt\nes auch “Tiefseestern”.
+Lanturns Licht kann aus großen\nTiefen heraufscheinen. Man nennt\nes auch “Tiefseestern”.
 Seine Backentaschen sind noch\nrecht klein. Daher kann es nicht\nallzu viel Elektrizität speichern.
 Seine Silhouette sieht aus wie ein\nStern. Man sagt, es würde auf\nSternschnuppen reisen.
 Es hat einen weichen, elastischen\nKörper. Hat es einmal angefangen\nzu hüpfen, ist es nicht zu stoppen.
@@ -312,8 +312,8 @@ Aus seiner Mähne entlädt es Elekt-\nrizität. Es generiert eine Gewitter-\nwol
 Es feuert Freunde mit Pompons an,\ndie aus Funken bestehen. Es holt\nsich Energie aus Telegrafenmasten.
 Es feuert Freunde an. Sind diese im\nBegriff zu verlieren, gibt sein\nKörper immer mehr Funken ab.
 Es kommuniziert mit anderen, indem\nes sein Hinterteil zum Leuchten\nbringt. Es liebt ILLUMISEs Duft.
-Sein süßer Duft leitet VOLBEAT an,\nZeichen aus Licht an den\nNachthimmel zu malen.
-ROSELIA, die mit klarem Wasser\naufgezogen wurden, bekommen\nBlüten in leuchtenden Farben.
+Sein süßer Duft leitet Volbeat an,\nZeichen aus Licht an den\nNachthimmel zu malen.
+Roselia, die mit klarem Wasser\naufgezogen wurden, bekommen\nBlüten in leuchtenden Farben.
 Sein Körper besteht fast nur aus\nMagen. Seine starken Verdauungs-\nsäfte zersetzen alles sehr schnell.
 Es verschluckt alles in einem\nStück und sondert giftige Stoffe\nab, mit denen es Gegner besprüht. 
 Sie begegnen jedem Gegner, der in\nihr Revier eindringt, im Schwarm.\nIhre Zähne durchdringen alles.
@@ -374,7 +374,7 @@ Die Zellen seines Panzers fingen an,\nsich zu verändern. Er fällt ab,\nsobald 
 Seine Zellstruktur änderte sich, es\nwuchsen ihm Flügel, da es immer\ndavon träumte, fliegen zu können.
 Es kommuniziert mit anderen durch\nmagnetische Impulse. Im Schwarm\nbilden sie eine perfekte Einheit.
 Das PKMN besteht aus zwei TANHEL.\nEs bekommt selbst dann keinen\nKratzer, wenn ein Jet es streift.
-Mehrere METANG bilden dieses PKMN.\nMit seinen 4 Gehirnen besitzt es die\nIntelligenz eines Supercomputers.
+Mehrere Metang bilden dieses PKMN.\nMit seinen 4 Gehirnen besitzt es die\nIntelligenz eines Supercomputers.
 Sein Körper besteht aus Stein.\nBricht im Kampf etwas heraus, wird\nes durch Stein wieder ersetzt.
 Sein Körper besteht aus Eis aus der\nEiszeit. Es kontrolliert gefrorene\nLuft, die minus 200 Grad kalt ist.
 Im Laufe der Jahrtausende, die es\nunterirdisch lebte, wurde sein\nKörper durch Druck u. Wärme hart.
@@ -384,7 +384,7 @@ Man sagt, es habe die Meere ver-\ngrößert, indem es es regnen ließ.\nEs schli
 Es hat seit dem Kampf gegen\nKYOGRE in Magma unter dem\nErdboden geschlafen. 
 Es lebt in der Ozonschicht hoch\nüber den Wolken und kann vom\nBoden aus nicht gesehen werden.
 Man sagt, es kann alle tausend\nJahre für eine Woche jeden Wunsch\nerfüllen.
-Ein außerirdischer Virus kam mit\neinem Meteor auf die Erde. Seine\nDNA mutierte. So entstand DEOXYS.
+Ein außerirdischer Virus kam mit\neinem Meteor auf die Erde. Seine\nDNA mutierte. So entstand Deoxys.
 Es besteht aus Erdreich. Trinkt es\nWasser, verhärtet sich der Panzer\nauf seinem Rücken. Es lebt an Seen.
 Es lebt in der Nähe von Wasser in\nWäldern. Tagsüber verlässt es\ndiese, um ein Sonnenbad zu nehmen.
 Kleine PKMN fangen manchmal an,\nauf dem bewegungslosen Rücken\nNester zu bauen.
@@ -411,7 +411,7 @@ Sein kräftiger Kopfstoß hat genug\nKraft, um selbst die stabilsten\nDinge zu z
 Vor über 100 Millionen Jahren lebte\nes in den Dschungeln. Seine\nGesichtshaut ist extrem hart.
 Jeder Frontalangriff wird abge-\nschmettert. Dieses friedliche PKMN\nernährt sich von Gras und Beeren.
 Um sich vor dem eisigen Winterwind\nzu schützen, legt es sich unter\neinen Umhang aus Ästen und Laub.
-Als sich BURMY entwickelte,\nwurde sein Umhang Teil des Körpers.\nEs legt den Umhang niemals ab.
+Als sich Burmy entwickelte,\nwurde sein Umhang Teil des Körpers.\nEs legt den Umhang niemals ab.
 Es liebt Honig und stiehlt den\nHonig, der von WADRIBIE\ngesammelt wurde.
 Ein PKMN, geformt aus 3 einzelnen\nPKMN. Fleißig bringt es Blütenhonig\nzu HONWEISEL.
 Ihr Bauch ist die Wabe für die\nLarven. Sie füttert ihre Larven mit\ndem Honig, den WADRIBIE sammelt.

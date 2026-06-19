@@ -29,10 +29,15 @@
 
 
 scrdef scr_seq_D25R0102_000
+scrdef scr_seq_D25R0102_001
 scrdef_end
 
 scr_seq_D25R0102_000:
 	end
+
+scr_seq_D25R0102_001:
+	end
+
 	.align 4
 
 

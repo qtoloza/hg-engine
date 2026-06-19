@@ -9,7 +9,7 @@ Receiving your gift.\nDon’t turn off the power.
 The gift has been received!\rPlease pick up your gift from the\ndeliveryman in any Poké Mart.
 This gift is being shared by\nanother person.\rYou may accept this gift, but you\nwill not be able to distribute it\fto your friends.\rWill you accept this gift?
                    
-Pokémon Ranger\nMANAPHY Egg Transfer
+Pokémon Ranger\nManaphy Egg Transfer
 RECEIVE GIFT
 CHECK CARD
 EXIT
@@ -72,7 +72,7 @@ Application No.:
 {STRVAR_1 53, 0, 0}-{STRVAR_1 53, 1, 0}
 Receiving a Recruitment Message\nfrom a Pokémon Ranger.
 Awaiting transfer from Pokémon\nRanger.
-Receiving the MANAPHY Egg...\nDon’t turn off the power.
+Receiving the Manaphy Egg...\nDon’t turn off the power.
 The transfer has been completed.\nA Button: title screen.
 The connection with Pokémon Ranger\nhas been lost... Press the A Button.
                               

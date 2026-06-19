@@ -11,7 +11,7 @@ To accept this, you need to make\nroom for decoration goods.
 {STRVAR_1 3, 0, 0} received the\n{COLOR 1}{STRVAR_1 26, 1, 0} Rules{COLOR 0}.\r
 {STRVAR_1 3, 0, 0} received\nthe gift {COLOR 1}{STRVAR_1 10, 1, 0}{COLOR 0}!\r
 {STRVAR_1 3, 0, 0} received\nthe gift {COLOR 1}{STRVAR_1 31, 1, 0}{COLOR 0}.\r
-{STRVAR_1 3, 0, 0} received\nthe {COLOR 1}MANAPHY Egg{COLOR 0}!\r
+{STRVAR_1 3, 0, 0} received\nthe {COLOR 1}Manaphy Egg{COLOR 0}!\r
 {STRVAR_1 3, 0, 0} received\na {COLOR 1}Member Card{COLOR 0}.\r
 {STRVAR_1 3, 0, 0} received\n{COLOR 1}Oak’s Letter{COLOR 0}!\r
 {STRVAR_1 3, 0, 0} received\nan {COLOR 1}Azure Flute{COLOR 0}!\r

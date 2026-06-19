@@ -21,6 +21,7 @@
 .equ _EV_scr_seq_T03R0101_017, 17
 .equ _EV_scr_seq_T03R0101_018, 18
 .equ _EV_scr_seq_T03R0101_019, 19
+.equ _EV_scr_seq_T03R0101_020, 20
 
 .equ obj_T03R0101_gsassistantm, 0
 .equ obj_T03R0101_gswoman6, 1

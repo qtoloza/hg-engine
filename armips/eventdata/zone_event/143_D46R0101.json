@@ -73,8 +73,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 25,
-      "z": 71,
+      "x": 6666,
+      "z": 6666,
       "y": 0
     },
     {
@@ -158,8 +158,8 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 23,
-      "z": 70,
+      "x": 6666,
+      "z": 6666,
       "y": 0
     },
     {
@@ -175,13 +175,13 @@
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 42,
-      "z": 70,
+      "x": 6666,
+      "z": 6666,
       "y": 0
     },
     {
-      "id": "obj_D46R0101_gsboy3",
-      "spriteId": "SPRITE_GSBOY3",
+      "id": "obj_D46R0101_gswoman3",
+      "spriteId": "SPRITE_GSWOMAN3",
       "movement": 16,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -197,8 +197,8 @@
       "y": 0
     },
     {
-      "id": "obj_D46R0101_gsboy3_2",
-      "spriteId": "SPRITE_GSBOY3",
+      "id": "obj_D46R0101_gsman3",
+      "spriteId": "SPRITE_GSMAN3",
       "movement": 15,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -214,8 +214,8 @@
       "y": 0
     },
     {
-      "id": "obj_D46R0101_gsboy3_3",
-      "spriteId": "SPRITE_GSBOY3",
+      "id": "obj_D46R0101_gsman3_2",
+      "spriteId": "SPRITE_GSMAN3",
       "movement": 17,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -231,8 +231,8 @@
       "y": 0
     },
     {
-      "id": "obj_D46R0101_gsboy3_4",
-      "spriteId": "SPRITE_GSBOY3",
+      "id": "obj_D46R0101_gswoman3_2",
+      "spriteId": "SPRITE_GSWOMAN3",
       "movement": 41,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -248,8 +248,8 @@
       "y": 0
     },
     {
-      "id": "obj_D46R0101_gsboy3_5",
-      "spriteId": "SPRITE_GSBOY3",
+      "id": "obj_D46R0101_gsman3_3",
+      "spriteId": "SPRITE_GSMAN3",
       "movement": 17,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
@@ -262,6 +262,74 @@
       "yRange": 0,
       "x": 14,
       "z": 28,
+      "y": 0
+    },
+    {
+      "id": "obj_D46R0101_follower_mon_mew",
+      "spriteId": "SPRITE_FOLLOWER_MON_MEW",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16328,
+      "scriptId": "_EV_scr_seq_D46R0101_002 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 22,
+      "z": 53,
+      "y": 0
+    },
+    {
+      "id": "obj_D46R0101_follower_mon_mew_2",
+      "spriteId": "SPRITE_FOLLOWER_MON_MEW",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_NOTHING",
+      "scriptId": "_EV_scr_seq_D46R0101_003 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 6666,
+      "z": 6666,
+      "y": 0
+    },
+    {
+      "id": "obj_D46R0101_follower_mon_mew_3",
+      "spriteId": "SPRITE_FOLLOWER_MON_MEW",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": "FLAG_NOTHING",
+      "scriptId": "_EV_scr_seq_D46R0101_004 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 6666,
+      "z": 6666,
+      "y": 0
+    },
+    {
+      "id": "obj_D46R0101_follower_mon_mew_4",
+      "spriteId": "SPRITE_FOLLOWER_MON_MEW",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16328,
+      "scriptId": "_EV_scr_seq_D46R0101_005 + 1",
+      "facingDirection": 3,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 6666,
+      "z": 6666,
       "y": 0
     }
   ],

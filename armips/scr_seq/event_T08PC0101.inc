@@ -5,6 +5,10 @@
 .equ _EV_scr_seq_T08PC0101_001, 1
 .equ _EV_scr_seq_T08PC0101_002, 2
 .equ _EV_scr_seq_T08PC0101_003, 3
+.equ _EV_scr_seq_T08PC0101_004, 4
+.equ _EV_scr_seq_T08PC0101_005, 5
+.equ _EV_scr_seq_T08PC0101_006, 6
+.equ _EV_scr_seq_T08PC0101_007, 7
 
 .equ obj_T08PC0101_pcwoman1, 0
 .equ obj_T08PC0101_pcwoman2, 1
@@ -13,5 +17,9 @@
 .equ obj_T08PC0101_gsman3, 4
 .equ obj_T08PC0101_gswoman3, 5
 .equ obj_T08PC0101_gsgirl1, 6
+.equ obj_T08PC0101_follower_mon_cloyster, 7
+.equ obj_T08PC0101_follower_mon_shellder, 8
+.equ obj_T08PC0101_follower_mon_shellder_2, 9
+.equ obj_T08PC0101_follower_mon_static_slowpoke, 10
 
 .endif //SCR_SEQ_T08PC0101_H_

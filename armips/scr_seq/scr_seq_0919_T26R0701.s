@@ -35,56 +35,12 @@ scrdef scr_seq_T26R0701_003
 scrdef scr_seq_T26R0701_004
 scrdef scr_seq_T26R0701_005
 scrdef scr_seq_T26R0701_006
+scrdef scr_seq_T26R0701_007
 scrdef_end
 
 scr_seq_T26R0701_004:
-	goto_if_unset FLAG_UNK_189, _002F
+	goto_if_unset FLAG_UNK_189, _017F
 	clearflag FLAG_UNK_189
-	end
-
-_002F:
-	get_weekday VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 5
-	goto_if_ne _004A
-	setflag FLAG_HIDE_CAMERON
-	goto _004E
-
-_004A:
-	setflag FLAG_HIDE_CAMERON
-_004E:
-	goto_if_unset FLAG_GAME_CLEAR, _00C3
-	check_registered_phone_number PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 1
-	goto_if_eq _008F
-	scrcmd_522 VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 13
-	goto_if_ne _0087
-	clearflag FLAG_UNK_2CB
-	goto _008D
-
-_0087:
-	goto _00C3
-
-_008D:
-	end
-
-_008F:
-	get_phone_book_rematch PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 0
-	goto_if_ne _00C3
-	scrcmd_522 VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 12
-	goto_if_ne _00BD
-	clearflag FLAG_UNK_2CB
-	goto _00C1
-
-_00BD:
-	setflag FLAG_UNK_2CB
-_00C1:
-	end
-
-_00C3:
-	setflag FLAG_UNK_2CB
 	end
 
 scr_seq_T26R0701_006:
@@ -118,10 +74,10 @@ scr_seq_T26R0701_003:
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _025E
+	goto_if_eq _019A
 	photo_album_is_full VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0272
+	goto_if_eq _01AE
 	get_std_msg_naix 2, VAR_SPECIAL_RESULT
 	msgbox_extern VAR_SPECIAL_RESULT, 1
 	closemsg
@@ -130,31 +86,84 @@ scr_seq_T26R0701_003:
 	following_pokemon_movement 55
 	get_player_facing VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _018C
-	apply_movement obj_player, _0288
-	apply_movement obj_T26R0701_gsmiddleman1, _02C0
-	goto _01B7
+	goto_if_ne _01C2
+	apply_movement obj_player, _04F4
+	apply_movement obj_T26R0701_gsmiddleman1, _050A
+	goto _01DD
 
-_018C:
+scr_seq_T26R0701_005:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	check_registered_phone_number PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 1
+	goto_if_eq _023E
+	compare VAR_TEMP_x4004, 1
+	goto_if_ge _029F
+	npc_msg 4
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _02A8
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _01A7
-	apply_movement obj_player, _02A0
-	goto _01B7
+	goto_if_ge _02EB
+	end
 
-_01A7:
-	apply_movement obj_player, _02AC
-	apply_movement obj_T26R0701_gsmiddleman1, _02C0
-_01B7:
+scr_seq_T26R0701_007:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_set FLAG_GOT_GOOD_ROD, _049B
+	npc_msg 14
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _04A6
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _04DF
+	end
+
+_017F:
+	get_weekday VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 5
+	goto_if_ne _02FC
+	setflag FLAG_HIDE_CAMERON
+	goto _0339
+
+_019A:
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_01AE:
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_01C2:
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _0372
+	apply_movement obj_player, _0514
+	goto _01DD
+
+_01DD:
 	wait_movement
 	wait_following_pokemon_movement
 	toggle_following_pokemon_movement 1
 	following_pokemon_movement 48
 	scrcmd_729 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _01DE
-	apply_movement obj_partner_poke, _02CC
+	goto_if_ne _03E3
+	apply_movement obj_partner_poke, _051E
 	wait_movement
-_01DE:
 	setflag FLAG_UNK_189
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -170,79 +179,38 @@ _01DE:
 	releaseall
 	end
 
-_025E:
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_0272:
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 3
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-	.align 4
-_0288:
-
-	step 15, 1
-	step 12, 2
-	step 14, 1
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_02A0:
-
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_02AC:
-
-	step 12, 1
-	step 14, 1
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_02C0:
-
-	step 63, 1
-	step 32, 1
-	step_end
-	.align 4
-_02CC:
-
-	step 15, 1
-	step 12, 1
-	step 1, 1
-	step_end
-scr_seq_T26R0701_005:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	check_registered_phone_number PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 1
-	goto_if_eq _038A
-	compare VAR_TEMP_x4004, 1
-	goto_if_ge _037F
-	npc_msg 4
-_0307:
+_023E:
+	npc_msg 9
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _032B
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ge _036E
+	goto_if_eq _041D
+	photo_album_is_full VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0428
+	npc_msg 10
+	closemsg
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 89
+	faceplayer
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
+	npc_msg 11
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
-_032B:
+_029F:
+	npc_msg 8
+	goto _0433
+
+_02A8:
 	buffer_players_name 0
 	npc_msg 5
 	play_fanfare SEQ_ME_POKEGEAR_REGIST
@@ -262,7 +230,7 @@ _032B:
 	releaseall
 	end
 
-_036E:
+_02EB:
 	setvar VAR_TEMP_x4004, 1
 	npc_msg 7
 	wait_button_or_walk_away
@@ -270,50 +238,191 @@ _036E:
 	releaseall
 	end
 
-_037F:
-	npc_msg 8
-	goto _0307
+_02FC:
+	setflag FLAG_HIDE_CAMERON
+	goto_if_unset FLAG_GAME_CLEAR, _0457
+	check_registered_phone_number PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 1
+	goto_if_eq _045D
+	scrcmd_522 VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 13
+	goto_if_ne _048B
+	clearflag FLAG_UNK_2CB
+	goto _0491
 
-_038A:
-	npc_msg 9
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	touchscreen_menu_show
+_0339:
+	goto_if_unset FLAG_GAME_CLEAR, _0457
+	check_registered_phone_number PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 1
+	goto_if_eq _045D
+	scrcmd_522 VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 13
+	goto_if_ne _048B
+	clearflag FLAG_UNK_2CB
+	goto _0491
+
+_0372:
+	apply_movement obj_player, _052C
+	apply_movement obj_T26R0701_gsmiddleman1, _050A
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	scrcmd_729 VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _03EB
-	photo_album_is_full VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _03F6
-	npc_msg 10
-	closemsg
+	goto_if_ne _03E3
+	apply_movement obj_partner_poke, _051E
+	wait_movement
 	setflag FLAG_UNK_189
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
-	cameron_photo 89
-	faceplayer
+	cameron_photo 25
 	lockall
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	clearflag FLAG_UNK_189
-	npc_msg 11
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 2
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_03EB:
+_03E3:
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 25
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_041D:
 	npc_msg 12
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_03F6:
+_0428:
 	npc_msg 13
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
+
+_0433:
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _02A8
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ge _02EB
+	end
+
+_0457:
+	setflag FLAG_UNK_2CB
+	end
+
+_045D:
+	get_phone_book_rematch PHONE_CONTACT_JASMINE, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 0
+	goto_if_ne _0457
+	scrcmd_522 VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 12
+	goto_if_ne _0493
+	clearflag FLAG_UNK_2CB
+	goto _0499
+
+_048B:
+	goto _0457
+
+_0491:
+	end
+
+_0493:
+	setflag FLAG_UNK_2CB
+	end
+
+_0499:
+	end
+
+_049B:
+	npc_msg 19
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04A6:
+	goto_if_no_item_space ITEM_GOOD_ROD, 1, _04EA
+	npc_msg 15
+	wait_button_or_walk_away
+	callstd std_give_item_verbose
+	setflag FLAG_GOT_GOOD_ROD
+	npc_msg 17
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04DF:
+	npc_msg 18
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_04EA:
+	callstd std_bag_is_full
+	closemsg
+	releaseall
+	end
+
+	.align 4
+_04F4:
+
+	step 15, 1
+	step 12, 2
+	step 14, 1
+	step 12, 3
+	step 33, 1
+	step_end
+	.align 4
+_050A:
+
+	step 63, 1
+	step 32, 1
+	step_end
+	.align 4
+_0514:
+
+	step 12, 3
+	step 33, 1
+	step_end
+	.align 4
+_051E:
+
+	step 15, 1
+	step 12, 1
+	step 1, 1
+	step_end
+	.align 4
+_052C:
+
+	step 12, 1
+	step 14, 1
+	step 12, 3
+	step 33, 1
+	step_end
 	.align 4
 
 

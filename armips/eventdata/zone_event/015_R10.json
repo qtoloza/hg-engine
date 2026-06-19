@@ -61,6 +61,23 @@
       "x": 1419,
       "z": 184,
       "y": 0
+    },
+    {
+      "id": "obj_R10_oldman1",
+      "spriteId": "SPRITE_OLDMAN1",
+      "movement": 15,
+      "type": 0,
+      "eventFlag": "FLAG_GOT_TM34_FROM_LT_SURGE",
+      "scriptId": "_EV_scr_seq_R10_007 + 1",
+      "facingDirection": 0,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 1419,
+      "z": 164,
+      "y": 0
     }
   ],
   "warps": [

@@ -16,6 +16,7 @@
 .equ _EV_scr_seq_D35R0103_012, 12
 .equ _EV_scr_seq_D35R0103_013, 13
 .equ _EV_scr_seq_D35R0103_014, 14
+.equ _EV_scr_seq_D35R0103_015, 15
 
 .equ obj_D35R0103_wataru, 0
 .equ obj_D35R0103_follower_mon_static_dragonite, 1
@@ -33,8 +34,8 @@
 .equ obj_D35R0103_follower_mon_static_electrode_5, 13
 .equ obj_D35R0103_follower_mon_static_electrode_6, 14
 .equ obj_D35R0103_monstarball, 15
-.equ obj_D35R0103_follower_mon_static_murkrow, 16
-.equ obj_D35R0103_follower_mon_static_murkrow_2, 17
-.equ obj_D35R0103_follower_mon_static_murkrow_3, 18
+.equ obj_D35R0103_follower_mon_chatot, 16
+.equ obj_D35R0103_follower_mon_chatot_2, 17
+.equ obj_D35R0103_follower_mon_chatot_3, 18
 
 .endif //SCR_SEQ_D35R0103_H_

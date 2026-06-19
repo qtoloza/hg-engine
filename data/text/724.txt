@@ -163,7 +163,7 @@ I didn’t need to do all that dashing\naround, did I?\r
 I’ve been wearing these clothes for a\nlong time. Bathing is for the birds!
 Changing clothes takes too much effort.\nTaking a bath is even worse!\r
 No, no, no!\nI won’t take a bath!\r
-I like my mommy, PIKACHU, and my daddy,\ntoo.
+I like my mommy, Pikachu, and my daddy,\ntoo.
 A weak Trainer isn’t cool.\nI don’t like you.\r
 A not-wimpy Trainer is cool.\nI like you.\r
 Pikapika pikaah!\nPikka! Pikachuuuh!
@@ -213,7 +213,7 @@ Keep trying. My nose tells me\nyou have great potential.\r
 Sniff, sniff... Snort! My nose tells me\nyou’ve been working hard!\r
 Kyahaha! I smell a powerful battle\nin the making!
 The sweet smell of success!\r
-Defeat smells like a SKUNTANK!\r
+Defeat smells like a Skuntank!\r
 I like hard, fast beats in my battling\nand my rock ’n’ roll! Let’s wail!
 And, bam! That rhythm pattern ruled,\nif I may say so myself!\r
 Ouch! That’s an insult to the ears!\nThose beats were offensive, man!\r
@@ -347,8 +347,8 @@ Fwo-fwo-fwo. Youngster, what’s most\nimportant is to never give up.
 If you give up, that’s it.\nThe game’s over.\r
 Fwo-fwo-fwo.\nYou’re an admirable Trainer already.\r
 I can tell by the way you look, you’re\nquite taken with my dandy style!
-You shouldn’t be so mesmerized by me.\nLike a MOTHIM drawn to a flame!\r
-Oh, you’re not interested in me?\nYou’re just SHELLOS, if I say so myself.\r
+You shouldn’t be so mesmerized by me.\nLike a Mothim drawn to a flame!\r
+Oh, you’re not interested in me?\nYou’re just Shellos, if I say so myself.\r
 Oh, hello, aren’t you a sweetie!\nAre you sure you’re up to this?
 Oh, now, please don’t cry.\nYou should be proud of yourself, dear.\r
 Oh, my... You’re quite the capable\npractitioner of the art.\r
@@ -537,7 +537,7 @@ Oh, no! It’s this late already?\nI’d better check my timetable!\r
 Talent manager!\nDo I have time for a rematch?\r
 Are you another of my fans? I can give\nyou an autograph if you’d lose?
 Here’s your autograph! Cherish it!\nOh, sorry! I don’t do handshakes.\r
-I’m sorry, I was acting GASTLY!\nIt was very DELCATTY of me!\r
+I’m sorry, I was acting Gastly!\nIt was very Delcatty of me!\r
 I need to diet.\nI have to get out jogging.
 Well, I guess I’ll go for a quick trot\naround here...\r
 Your Pokémon know how to punch hard.\nYou see, I’m really a boxer.\r
@@ -868,9 +868,9 @@ Think you’ve outsmarted me?\nMaybe this was just a sting operation!\r
 Wherever, whenever, and with whomever.\nThat’s my motto!
 When, where, or whom...\nIt doesn’t matter at all to me.\r
 Hahaha! This is great!\nI want to keep this going!\r
-The loser has to pretend to be a\nSTUNKY, OK?
-Giggle, you lose.\nI want to see your STUNKY impression!\r
-OK, here’s my STUNKY impression!\nThree, two, one...\r
+The loser has to pretend to be a\nStunky, OK?
+Giggle, you lose.\nI want to see your Stunky impression!\r
+OK, here’s my Stunky impression!\nThree, two, one...\r
 A good breeze has sprung up...\nThis is good! I can win this!
 The tailwind put us over the top!\n...As they say!\r
 The headwind worked against us!\n...As they say!\r

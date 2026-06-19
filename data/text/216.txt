@@ -90,9 +90,9 @@ Gold Pedestal
 Glass Stage
 Award Podium
 Cube Stage
-TURTWIG Mask
-CHIMCHAR Mask
-PIPLUP Mask
+Turtwig Mask
+Chimchar Mask
+Piplup Mask
 Big Tree
 Flag
 Crown

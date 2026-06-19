@@ -51,7 +51,7 @@ scr_seq_T05FS0101_001:
 	faceplayer
 	callstd std_mart_intro
 	holdmsg
-	setvar VAR_SPECIAL_x8004, 16
+	setvar VAR_SPECIAL_x8004, 14
 	callstd std_special_mart
 	releaseall
 	end

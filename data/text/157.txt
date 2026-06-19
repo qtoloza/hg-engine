@@ -24,7 +24,7 @@ Ball Capsules (full)
 Ball Capsules (fewer)
 Ball Capsules (none)
 Egg hatch Demo
-Egg demo: MANAPHY
+Egg demo: Manaphy
 Dummy
 Sleep
 Poison

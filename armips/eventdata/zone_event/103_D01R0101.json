@@ -5,15 +5,15 @@
     {
       "scriptId": "std_hiddenitem_d01r0101_max_revive",
       "type": 2,
-      "x": 28,
-      "z": 60,
+      "x": 3,
+      "z": 44,
       "y": 0,
       "dir": 4
     },
     {
       "scriptId": "std_hiddenitem_d01r0101_calcium",
       "type": 2,
-      "x": 3,
+      "x": 17,
       "z": 44,
       "y": 0,
       "dir": 4

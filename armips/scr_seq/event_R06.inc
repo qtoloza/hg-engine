@@ -3,6 +3,7 @@
 
 .equ _EV_scr_seq_R06_000, 0
 .equ _EV_scr_seq_R06_001, 1
+.equ _EV_scr_seq_R06_002, 2
 
 .equ obj_R06_campboy_2, 0
 .equ obj_R06_picnicgirl_2, 1

@@ -7,6 +7,7 @@
 .equ _EV_scr_seq_T27GYM0101_003, 3
 .equ _EV_scr_seq_T27GYM0101_004, 4
 .equ _EV_scr_seq_T27GYM0101_005, 5
+.equ _EV_scr_seq_T27GYM0101_006, 6
 
 .equ obj_T27GYM0101_sunglasses, 0
 .equ obj_T27GYM0101_gsleader4, 1

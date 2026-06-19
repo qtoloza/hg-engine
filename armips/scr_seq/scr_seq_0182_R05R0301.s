@@ -29,11 +29,59 @@
 
 
 scrdef scr_seq_R05R0301_000
+scrdef scr_seq_R05R0301_001
 scrdef_end
 
 scr_seq_R05R0301_000:
 	simple_npc_msg 0
 	end
+
+scr_seq_R05R0301_001:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	apply_movement obj_R05R0301_counterm, _008C
+	wait_movement
+	goto_if_set FLAG_UNK_2FB, _0063
+	npc_msg 1
+	wait_button_or_walk_away
+	closemsg
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _0092
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	releaseall
+	end
+
+_0063:
+	npc_msg 2
+	wait_button_or_walk_away
+	closemsg
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _0092
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	releaseall
+	end
+
+	.align 4
+_008C:
+
+	step 75, 1
+	step_end
+	.align 4
+_0092:
+
+	step 12, 1
+	step_end
 	.align 4
 
 

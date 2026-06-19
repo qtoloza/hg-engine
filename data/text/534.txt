@@ -1,2 +1,6 @@
 ...\r...\r...\r...I got it!\rYou wanted this!\r
 TM29 is Psychic.\rIt may lower the target’s Sp. Def.
+You! I feel great psychic potential\nerupting from your body!\rProve to me it is true! Show me a\nPsychic-type Pokémon who has reached\fthe end of two evolutions!
+You! I feel great psychic potential\nerupting from your body!\rProve to me it is true! Show me a\nPsychic-type Pokémon who has reached\fthe end of two evolutions!\r
+Ah! That {STRVAR_1 0, 1, 0} behind you!\nIt proves your potential!\fYou are worthy of this item!\r
+That item is an ancient relic that\nbonds with strong psychic powers.\rTreat it well!

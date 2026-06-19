@@ -39,7 +39,7 @@ scr_seq_D26R0103_000:
 	npc_msg 0
 	wait_button
 	closemsg
-	goto_if_no_item_space ITEM_KINGS_ROCK, 1, _005A
+	goto_if_no_item_space ITEM_TM018, 1, _005A
 	callstd std_give_item_verbose
 	setflag FLAG_GOT_KINGS_ROCK_FROM_SLOWPOKE_WELL_MAN
 	goto _004F
@@ -56,7 +56,6 @@ _005A:
 	closemsg
 	releaseall
 	end
-
 	.align 4
 
 

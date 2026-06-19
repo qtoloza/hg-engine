@@ -1,10 +1,10 @@
 Lyra: {STRVAR_1 3, 0, 0}!\nYou can catch wild Pokémon\fwith Poké Balls.\rFollow me!\r
 Ethan: {STRVAR_1 3, 0, 0}!\nYou can catch wild Pokémon\fwith Poké Balls.\rFollow me!\r
 ...Just like that!\r...\nHuh? Was I too fast?\rI’ll try again. Come this way!\r
-See? Just like that!\rIt’s better to lower your\ntarget’s HP more than I did,\for make it sleep or something.\rYou can try all kinds of things\nto see what works.\rI’ll give you these. Good luck!\r
-See? Just like that!\rIt’s better to lower your\ntarget’s HP more than I did,\for make it sleep or something.\rYou can try all kinds of things\nto see what works.\rI’ll give you these. Good luck!\r
-                      
-                      
+You know, I bet you know how already!\rI’ll give you these. Good luck!\r
+You know, I bet you know how already!\rI’ll give you these. Good luck!\r
+
+
 Lyra: See you!\r
 Ethan: See ya!\r
 Hey, how are your Pokémon?\rIf they’re weak and not ready for\nbattle, keep out of the tall grass.

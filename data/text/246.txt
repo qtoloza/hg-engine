@@ -49,7 +49,7 @@ We’ll return the Pokémon we kept for\nyou. Here you go!\r
 Don: Got it? I’m going to win! Don’t\nbother me.
 Don: Luck plays a big part in this.\rYou never know if Pokémon will\nappear.
 Don: You won? The winner is you!?\rI’m so jealous... It’d be fantastic\nto be the winner...
-Ed: My PARASECT makes Pokémon fall\nasleep with Spore.
+Ed: My Parasect makes Pokémon fall\nasleep with Spore.
 Ed: You can’t win with Pokémon that are\nrun down or low on HP.
 Ed: I envy you. I just couldn’t do it\nthis time.
 Abby: I’ve been training Pokémon that\ninflict status problems for\fthis contest.
@@ -58,8 +58,8 @@ Abby: Wonderful! You sparkle and gleam\nright now. You really do!
 William: Winning? I’m more interested in\nfinding rare Pokémon.
 William: Well, I’m satisfied because\nI caught a Pokémon I wanted.
 William: You’re the winner? What did you\ncatch? Show me, show me!
-Benny: ...... ...... ......\n...... ...... Ssssh!\rYou’ll scare off SCYTHER.\nI’ll talk to you later.
-Benny: Listen, I caught a SCYTHER\nbefore, but I didn’t win.
+Benny: ...... ...... ......\n...... ...... Ssssh!\rYou’ll scare off Scyther.\nI’ll talk to you later.
+Benny: Listen, I caught a Scyther\nbefore, but I didn’t win.
 Benny: I just came to see how things\nwere going today, you know?\rI’ll really try my best next time!
 Barry: You should weaken bug Pokémon\nfirst, then throw a Poké Ball.
 Barry: It’s easier to win if you get a\nhigh-level bug Pokémon. But I think\fthey also consider some other points.
@@ -68,7 +68,7 @@ Cindy: I really love bug Pokémon!
 Cindy: I really love bug Pokémon!\rDid I already say that?
 Cindy: Congratulations on winning!\nBy the way...\rDid I mention that I really love bug\nPokémon?
 Josh: I’ve been collecting bug Pokémon\nsince I was just a baby.\rThere’s no way I’m going to lose!
-Josh: I heard that somebody won with a\nCATERPIE!
+Josh: I heard that somebody won with a\nCaterpie!
 Josh: It’s called a Bug-Catching\nContest, not a Bird-Catching Contest!\rYou, of all people, should know that.\nAfter all, you won!
 Samuel: What?\nIf you’ve got the time to chat, go find\fsome bug Pokémon.
 Samuel: So... I thought I would\nscore higher...

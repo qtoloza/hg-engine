@@ -8,7 +8,7 @@ I heard that Pokéathletes with great\nrecords are going to have their shoes\fdi
 It is an old wall painting.\rOne person and three Pokémon\nseem to be learning something\ffrom looking up at the sky.
 It is an old, worn scroll.\r“Pokéathlon Myth\rWhen a disease took over the entire\nisland, one human and three Pokémon\fovercame ten obstacles to spread the\fword about the cure.”
 It’s an old scroll.\r“The Beginning of Pokéathlon\rTo commemorate the friendship of the\nperson and three Pokémon that\fconveyed the words of the cure, people\fstarted to tell of their achievement.”\r...\nThe commemorating eventually took the\fform of ten games to compete in, just\flike the obstacles in the legend...”
-RATTATA: Ffft!
-RATTATA: Kooar!
-ZUBAT: Quuooh.
+Rattata: Ffft!
+Rattata: Kooar!
+Zubat: Quuooh.
 “Pokéathlon Almanac”\rThere are many Pokéathletes and\nPokémon Medalists shown in\fthe photos.\n

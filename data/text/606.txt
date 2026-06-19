@@ -2,8 +2,8 @@ Jasmine: Thank you for your help\nat the Lighthouse...\rBut this is different. P
 Jasmine: ...You are a better Trainer\nthan me, in both skill and kindness.\rIn accordance with League rules,\nI confer upon you this Badge.\r
 {STRVAR_1 3, 0, 0} received\nthe Mineral Badge from Jasmine!
 Jasmine: With that Badge,\nall Pokémon, including traded\fPokémon up to Lv. 70, will obey\fyou without question.\fUm... Please take this, too...\r
-                           
-Jasmine: It is called Iron Tail...\rYour Pokémon will hit the target\nwith its hard tail, occasionally\flowering the target’s Defense...
+
+Jasmine: It is called Iron Tail...\rYour Pokémon will hit the target\nwith its hard tail, occasionally\flowering the target’s Defense...\r
 Jasmine: Um...\rI don’t know how to say this, but\ngood luck...
 Jasmine: Long time, no see.\rUm... I’m fine, thank you.\rI don’t know how to say this,\nbut...nothing...
 Jasmine: Um... Er...\rWill you trade your Pokémon\nfor mine? {YESNO 0}
@@ -23,3 +23,6 @@ Giggle...\rI know how capable you are\nfrom the Lighthouse.\rIt’s time you sho
 You are amazing...\rYou should aim even higher, since\nyou have such potential.\rHave you been to Mahogany Town?
 Olivine City Pokémon Gym
 Olivine City Pokémon Gym\rLeader: Jasmine\nCertified Trainer!\f{STRVAR_1 3, 0, 0}
+After the conclusion of the trade, a\nmysterious sphere appeared in midair...\r
+Here...\nYou can have my number...\r...\r
+{STRVAR_1 3, 0, 0} registered Jasmine\nin the Pokégear!

@@ -31,6 +31,8 @@
 scrdef scr_seq_R38_000
 scrdef scr_seq_R38_001
 scrdef scr_seq_R38_002
+scrdef scr_seq_R38_003
+scrdef scr_seq_R38_004
 scrdef_end
 
 scr_seq_R38_000:
@@ -50,6 +52,39 @@ scr_seq_R38_002:
 	scrcmd_058
 	trainer_tips 16, VAR_SPECIAL_RESULT
 	callstd std_signpost
+	end
+
+scr_seq_R38_003:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_ELECTABUZZ, 0
+	wait_cry
+	wild_battle SPECIES_ELECTABUZZ, 33, 0
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _00B0
+	fade_screen 8, 1, 0, RGB_BLACK
+	wait_fade
+	hide_person obj_R38_follower_mon_electabuzz
+	setflag 16362
+	fade_screen 8, 1, 1, RGB_BLACK
+	wait_fade
+	releaseall
+	end
+
+scr_seq_R38_004:
+	lockall
+	hide_person obj_R38_monstarball_3
+	setflag 16339
+	giveitem_no_check ITEM_TM024, 1
+	closemsg
+	releaseall
+	end
+
+_00B0:
+	white_out
+	releaseall
 	end
 	.align 4
 

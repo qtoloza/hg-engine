@@ -3,19 +3,19 @@
   "eventId": "485",
   "objects": [
     {
-      "id": "obj_R12R0101_fishing_2",
-      "spriteId": "SPRITE_FISHING_2",
-      "movement": 17,
+      "id": "obj_R12R0101_ookido",
+      "spriteId": "SPRITE_OOKIDO",
+      "movement": 0,
       "type": 0,
-      "eventFlag": "FLAG_NOTHING",
-      "scriptId": "_EV_scr_seq_R12R0101_000 + 1",
-      "facingDirection": 3,
+      "eventFlag": 16281,
+      "scriptId": "_EV_scr_seq_R12R0101_001 + 1",
+      "facingDirection": 2,
       "param0": 0,
       "param1": 0,
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 5,
+      "x": 8,
       "z": 5,
       "y": 0
     }

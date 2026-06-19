@@ -1,3 +1,10 @@
 I am Karen of the Elite Four.\rYou’re {STRVAR_1 3, 0, 0}? How amusing.\nI love Dark-type Pokémon.\rI’m known for my overpowering tactics.\rThink you can take them?\nJust try to entertain me.\rLet’s go.\r
-Strong Pokémon.\rWeak Pokémon.\rThat is only the selfish perception\nof people.\rTruly skilled Trainers should try to\nwin with the Pokémon they love best.\rI like your style.\nYou understand what’s important.\rGo on--the Champion is waiting.\r
-Strong Pokémon.\rWeak Pokémon.\rThat is only the selfish perception\nof people.\rTruly skilled Trainers should try to\nwin with the Pokémon they love best.\rI like your style.\nYou understand what’s important.\rGo on--the Champion is waiting.
+Strong Pokémon.\rWeak Pokémon.\rThat is only the selfish perception\nof people.\rTruly skilled Trainers should try to\nwin with their favorites.\rI like your style.\nYou understand what’s important.\rKeep moving--the Champion is waiting.\r
+Strong Pokémon.\rWeak Pokémon.\rThat is only the selfish perception\nof people.\rTruly skilled Trainers should try to\nwin with their favorites.\rI like your style.\nYou understand what’s important.\rKeep moving--the Champion is waiting.
+Alakazam: Kazam!\r
+This Alakazam is offering to \nTeleport you.\rWhich room would you\nlike to go to? {YESNO 0}
+Indigo Plateau: League Room 1
+Indigo Plateau: League Room 2
+Indigo Plateau: League Room 3
+Alakazam refused to Teleport you.\nYou have not defeated the Elite Four!
+Indigo Plateau: Champion Room

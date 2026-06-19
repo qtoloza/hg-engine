@@ -37,71 +37,16 @@ scr_seq_T25R0401_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_GOT_EEVEE_FROM_BILL, _00E9
+	goto_if_set FLAG_GOT_EEVEE_FROM_BILL, _009E
 	buffer_players_name 0
 	npc_msg 0
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _004B
+	goto_if_eq _00A9
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _00D3
-	end
-
-_004B:
-	get_party_count VAR_SPECIAL_x8005
-	compare VAR_SPECIAL_x8005, 6
-	goto_if_eq _00DE
-	npc_msg 1
-	give_mon SPECIES_EEVEE, 5, 0, 0, 0, VAR_SPECIAL_RESULT
-	setflag FLAG_GOT_EEVEE_FROM_BILL
-	buffer_players_name 0
-	npc_msg 2
-	play_fanfare SEQ_ME_POKEGET
-	wait_fanfare
-	npc_msg 7
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _00A0
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ge _00C6
-_00A0:
-	closemsg
-	setvar VAR_TEMP_x4000, 0
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	nickname_input VAR_SPECIAL_x8005, VAR_TEMP_x4000
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-_00C6:
-	npc_msg 3
-	wait_button_or_walk_away
-	closemsg
-	touchscreen_menu_show
-	releaseall
-	end
-
-_00D3:
-	npc_msg 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_00DE:
-	npc_msg 4
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_00E9:
-	npc_msg 6
-	wait_button_or_walk_away
-	closemsg
-	releaseall
+	goto_if_eq _0131
 	end
 
 scr_seq_T25R0401_001:
@@ -109,15 +54,8 @@ scr_seq_T25R0401_001:
 	lockall
 	faceplayer
 	compare VAR_UNK_410D, 1
-	goto_if_eq _0114
+	goto_if_eq _013C
 	npc_msg 9
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_0114:
-	npc_msg 10
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -129,10 +67,70 @@ scr_seq_T25R0401_002:
 	faceplayer
 	check_registered_phone_number PHONE_CONTACT_BILL, VAR_TEMP_x4001
 	compare VAR_TEMP_x4001, 1
-	goto_if_eq _019C
+	goto_if_eq _0147
 	compare VAR_UNK_410D, 1
 	goto_if_eq _0152
 	npc_msg 11
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_009E:
+	npc_msg 6
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_00A9:
+	get_party_count VAR_SPECIAL_x8005
+	compare VAR_SPECIAL_x8005, 6
+	goto_if_eq _0179
+	npc_msg 1
+	give_mon SPECIES_CASTFORM, 25, 243, 0, 0, VAR_SPECIAL_RESULT
+	setflag FLAG_GOT_EEVEE_FROM_BILL
+	buffer_players_name 0
+	npc_msg 2
+	play_fanfare SEQ_ME_POKEGET
+	wait_fanfare
+	npc_msg 7
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0184
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ge _01B7
+	closemsg
+	setvar VAR_TEMP_x4000, 0
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	nickname_input VAR_SPECIAL_x8005, VAR_TEMP_x4000
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	releaseall
+	end
+
+_0131:
+	npc_msg 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_013C:
+	npc_msg 10
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0147:
+	npc_msg 15
 	wait_button_or_walk_away
 	closemsg
 	releaseall
@@ -144,12 +142,42 @@ _0152:
 	getmenuchoice VAR_SPECIAL_RESULT
 	touchscreen_menu_show
 	compare VAR_SPECIAL_RESULT, 0
-	goto_if_eq _0179
+	goto_if_eq _01C4
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0191
+	goto_if_eq _01DC
 	end
 
 _0179:
+	npc_msg 4
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0184:
+	closemsg
+	setvar VAR_TEMP_x4000, 0
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	nickname_input VAR_SPECIAL_x8005, VAR_TEMP_x4000
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	releaseall
+	end
+
+_01B7:
+	npc_msg 3
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	releaseall
+	end
+
+_01C4:
 	buffer_players_name 0
 	npc_msg 13
 	register_gear_number PHONE_CONTACT_BILL
@@ -160,14 +188,7 @@ _0179:
 	releaseall
 	end
 
-_0191:
-	npc_msg 15
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_019C:
+_01DC:
 	npc_msg 15
 	wait_button_or_walk_away
 	closemsg

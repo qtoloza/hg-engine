@@ -17,5 +17,6 @@
 .equ obj_R44_monstarball_2, 9
 .equ obj_R44_monstarball_3, 10
 .equ obj_R44_gsmiddleman1, 0
+.equ obj_R44_monstarball_4, 12
 
 .endif //SCR_SEQ_R44_H_

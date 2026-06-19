@@ -35,7 +35,14 @@ scrdef scr_seq_T08R0601_003
 scrdef_end
 
 scr_seq_T08R0601_000:
-	simple_npc_msg 0
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_unset 16227, _0081
+	npc_msg 0
+	wait_button_or_walk_away
+	closemsg
+	releaseall
 	end
 
 scr_seq_T08R0601_001:
@@ -69,6 +76,13 @@ scr_seq_T08R0601_003:
 	play_cry SPECIES_AIPOM, 0
 	npc_msg 3
 	wait_cry
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0081:
+	npc_msg 4
 	wait_button_or_walk_away
 	closemsg
 	releaseall

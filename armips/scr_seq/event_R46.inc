@@ -4,6 +4,7 @@
 .equ _EV_scr_seq_R46_000, 0
 .equ _EV_scr_seq_R46_001, 1
 .equ _EV_scr_seq_R46_002, 2
+.equ _EV_scr_seq_R46_003, 3
 
 .equ obj_R46_mount_2, 0
 .equ obj_R46_campboy_2, 1

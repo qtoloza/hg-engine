@@ -2692,5 +2692,7 @@
 
 // define your custom move effects below like this
 // .equ ITEM_CUSTOM_1, (MAX_BASE_ITEM_NUM + 1)
+.equ ITEM_AUBADE_ORB,                   (MAX_BASE_ITEM_NUM + 1)
+.equ ITEM_SERENADE_ORB,                 (MAX_BASE_ITEM_NUM + 2)
 
 .endif

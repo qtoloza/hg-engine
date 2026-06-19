@@ -9,6 +9,9 @@
 .equ _EV_scr_seq_D24R0101_005, 5
 .equ _EV_scr_seq_D24R0101_006, 6
 .equ _EV_scr_seq_D24R0101_007, 7
+.equ _EV_scr_seq_D24R0101_008, 8
+.equ _EV_scr_seq_D24R0101_009, 9
+.equ _EV_scr_seq_D24R0101_010, 10
 
 .equ obj_D24R0101_mystery_2, 0
 .equ obj_D24R0101_monstarball, 1
@@ -20,5 +23,7 @@
 .equ obj_D24R0101_monstarball_2, 7
 .equ obj_D24R0101_gsmiddleman1, 8
 .equ obj_D24R0101_suit, 9
+.equ obj_D24R0101_hoopa, 10
+.equ obj_D24R0101_researcher, 11
 
 .endif //SCR_SEQ_D24R0101_H_

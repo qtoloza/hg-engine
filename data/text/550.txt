@@ -1,12 +1,12 @@
-You’re a rookie Trainer, aren’t you?\nI can tell!\rThat’s OK! Everyone is a rookie\nat some point!\rIf you’d like, I can teach you a\nfew things.\fOK, then! Follow me!\r
-Ohh... I’m sorry.\nI forgot that you weren’t wearing the\fRunning Shoes!\rI’ll try to go as slow as possible, so\ntry keeping up!\r
-This is a Pokémon Center. They heal\nyour Pokémon in no time at all.\rYou’ll be relying on them a lot, so\nyou better learn about them.\r
+You’re a rookie trainer, right? Let me\nshow you around! Follow me!\r
+Oh, please, let me show you around.\nIt won’t take long, I promise!\r
+This is a Pokémon Center. They heal\nyour Pokémon in no time at all.\r
 This is a Pokémon Mart.\nThey sell Poké Balls for catching wild\fPokémon and other useful items.\r
 Route 30 is out this way.\rTrainers will be battling their\nPokémon there.\rIf you go a little farther,\nyou’ll see Mr. Pokémon’s House.\r
 This is the sea, as you can see.\rSome Pokémon are found only in water.\r
-Here...\nIt’s my house!\rFor your effort keeping up with me,\nI’ll give you my Running Shoes!\fThey’re still warm!\r...\n...\rGot you, didn’t I?\nDon’t worry, these are brand new!\r
+And here is my house! As a reward for\nfollowing me, take this Old Rod!\r
 {STRVAR_1 3, 0, 0} received\nthe Running Shoes from the Guide Gent!
-The instructions read,\n“Touch the Sprint Button on the\fTouch Screen to sprint.”\rIt also says,\n“Hold the B Button down to sprint.”\r
+Simply toss that rod into water, and\nyou have a chance of getting a bite.\r
 ...Hffp... Hffp...\nI made it...\rI forgot about one thing.\nThis is another token from me!\rTake it.\r
 The Guide Gent loaded the Map Card\non {STRVAR_1 3, 0, 0}’s Pokégear!
 {STRVAR_1 3, 0, 0}’s Pokégear\ncan now show the Town Map!\r
@@ -23,3 +23,6 @@ Back to fishing for me, then.
 You don’t have room for this.
 Cherrygrove City\nThe City of Fragrant Flowers
 Guide Gent’s House\nFull-of-Energy, High-Speed Old Man
+Actually, I’d like to give you one\nmore thing. Something very special.\r
+{STRVAR_1 3, 0, 0} received an Egg from the\nGuide Gent!\r
+Keep it in your party and it should\neventually hatch. Good luck!\r

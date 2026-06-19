@@ -30,11 +30,12 @@
 
 scrdef scr_seq_D27R0103_000
 scrdef scr_seq_D27R0103_001
+scrdef scr_seq_D27R0103_002
 scrdef_end
 
 scr_seq_D27R0103_000:
 	play_se SEQ_SE_GS_RAKKA01
-	apply_movement obj_player, _0038
+	apply_movement obj_player, _0056
 	wait 1, VAR_SPECIAL_RESULT
 	scrcmd_374 obj_player
 	wait_movement
@@ -43,17 +44,24 @@ scr_seq_D27R0103_000:
 	setvar VAR_UNK_40A7, 0
 	end
 
+scr_seq_D27R0103_001:
+	compare VAR_UNK_40A7, 1
+	goto_if_ne _0054
+	make_object_visible obj_player
+	end
+
+scr_seq_D27R0103_002:
+	buffer_players_name 0
+	end
+
+_0054:
+	end
+
 	.align 4
-_0038:
+_0056:
 
 	step 68, 1
 	step_end
-scr_seq_D27R0103_001:
-	compare VAR_UNK_40A7, 1
-	goto_if_ne _0051
-	make_object_visible obj_player
-_0051:
-	end
 	.align 4
 
 

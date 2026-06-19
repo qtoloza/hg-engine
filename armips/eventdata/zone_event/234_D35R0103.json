@@ -329,7 +329,7 @@
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ITEMBALL_D35R0103_TM46",
-      "scriptId": "std_itemball_d35r0103_tm46",
+      "scriptId": "std_itemball_d43r0103_tm79",
       "facingDirection": 0,
       "param0": 0,
       "param1": 0,
@@ -341,8 +341,8 @@
       "y": 0
     },
     {
-      "id": "obj_D35R0103_follower_mon_static_murkrow",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MURKROW",
+      "id": "obj_D35R0103_follower_mon_chatot",
+      "spriteId": "SPRITE_FOLLOWER_MON_CHATOT",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_1",
@@ -358,8 +358,8 @@
       "y": 0
     },
     {
-      "id": "obj_D35R0103_follower_mon_static_murkrow_2",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MURKROW",
+      "id": "obj_D35R0103_follower_mon_chatot_2",
+      "spriteId": "SPRITE_FOLLOWER_MON_CHATOT",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_2",
@@ -375,8 +375,8 @@
       "y": 0
     },
     {
-      "id": "obj_D35R0103_follower_mon_static_murkrow_3",
-      "spriteId": "SPRITE_FOLLOWER_MON_STATIC_MURKROW",
+      "id": "obj_D35R0103_follower_mon_chatot_3",
+      "spriteId": "SPRITE_FOLLOWER_MON_CHATOT",
       "movement": 0,
       "type": 0,
       "eventFlag": "FLAG_HIDE_ROCKET_HIDEOUT_B2F_MURKROW_3",

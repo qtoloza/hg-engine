@@ -51,605 +51,75 @@ scrdef scr_seq_D36R0101_019
 scrdef scr_seq_D36R0101_020
 scrdef scr_seq_D36R0101_021
 scrdef scr_seq_D36R0101_022
+scrdef scr_seq_D36R0101_023
+scrdef scr_seq_D36R0101_024
+scrdef scr_seq_D36R0101_025
+scrdef scr_seq_D36R0101_026
+scrdef scr_seq_D36R0101_027
+scrdef scr_seq_D36R0101_028
 scrdef_end
 
 scr_seq_D36R0101_000:
+	// === Virizion Visibility Control (Tier 3) ===
+	goto_if_set FLAG_HIDE_VIRIZION, _virizion_vis_done
+	goto_if_unset FLAG_GAME_CLEAR, _hide_virizion_entry
+	goto_if_unset FLAG_UNLOCKED_WEST_KANTO, _hide_virizion_entry
+	goto_if_unset FLAG_CAUGHT_TERRAKION, _hide_virizion_entry
+	clearflag FLAG_HIDE_VIRIZION
+	goto _virizion_vis_done
+_hide_virizion_entry:
+	setflag FLAG_HIDE_VIRIZION
+_virizion_vis_done:
+	// === Original Entry Script ===
 	get_friend_sprite VAR_OBJ_0
-	goto_if_unset FLAG_UNK_189, _0077
+	goto_if_unset FLAG_UNK_189, _06A7
 	clearflag FLAG_UNK_189
-	goto _00C3
-
-_0077:
-	check_badge BADGE_PLAIN, VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 0
-	goto_if_eq _00B5
-	get_weekday VAR_TEMP_x4000
-	compare VAR_TEMP_x4000, 2
-	goto_if_eq _00BF
-	compare VAR_TEMP_x4000, 6
-	goto_if_eq _00BF
-	compare VAR_TEMP_x4000, 0
-	goto_if_eq _00BF
-_00B5:
-	setflag FLAG_HIDE_CAMERON
-	goto _00C3
-
-_00BF:
-	clearflag FLAG_HIDE_CAMERON
-_00C3:
-	goto_if_set FLAG_BEAT_AZALEA_ROCKETS, _00D0
-	end
-
-_00D0:
-	setvar VAR_FARFETCHD1_STICKS1, 1
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 1
-	setvar VAR_TEMP_x4000, 0
-	setvar VAR_TEMP_x4001, 0
-	setvar VAR_TEMP_x4002, 0
-	setvar VAR_TEMP_x4003, 0
-	setvar VAR_TEMP_x4004, 0
-	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _0124
-	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _0145
-	end
-
-_0124:
-	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _0137
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	end
-
-_0137:
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	end
-
-_0145:
-	setvar VAR_FARFETCHD1_STICKS1, 1
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	end
+	goto _06EF
 
 scr_seq_D36R0101_021:
 	compare VAR_UNK_412B, 1
-	call_if_eq _016F
+	call_if_eq _06FC
 	compare VAR_UNK_40FE, 4
-	call_if_eq _0189
+	call_if_eq _0716
 	end
-
-_016F:
-	move_person_facing obj_D36R0101_gsoldman1, 15, 0, 58, DIR_SOUTH
-	move_person_facing obj_D36R0101_follower_mon_static_pichu_spiky, 15, 0, 59, DIR_EAST
-	return
-
-_0189:
-	move_person_facing obj_D36R0101_var_1, 15, 0, 58, DIR_SOUTH
-	move_person_facing obj_D36R0101_follower_mon_static_marill, 11, 0, 58, DIR_EAST
-	return
 
 scr_seq_D36R0101_001:
 	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 25
-	goto_if_ne _01C4
-	goto _01D7
-
-_01C4:
-	compare VAR_TEMP_x4000, 32
-	goto_if_ne _01D7
-	goto _020B
-
-_01D7:
-	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 52
-	goto_if_ne _01F8
-	goto _0245
-
-_01F8:
-	compare VAR_TEMP_x4001, 62
-	goto_if_ne _020B
-	goto _0299
-
-_020B:
-	setvar VAR_TEMP_x4002, 0
-	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 52
-	goto_if_ne _0232
-	goto _03CA
-
-_0232:
-	compare VAR_TEMP_x4001, 62
-	goto_if_ne _0245
-	goto _042A
-
-_0245:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_TEMP_x4002, 0
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _0272
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E18
-	goto _0293
-
-_0272:
-	compare VAR_SPECIAL_RESULT, 2
-	goto_if_ne _0293
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E08
-	setvar VAR_FARFETCHD1_STICKS2, 1
-	setvar VAR_FARFETCHD1_STICKS1, 1
-_0293:
-	wait_movement
-	releaseall
-	end
-
-_0299:
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 2
-	goto_if_ne _02B6
-	goto _02C9
-
-_02B6:
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _02C9
-	goto _0301
-
-_02C9:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD1_STICKS2, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DF8
-	wait_movement
-	goto_if_set FLAG_UNK_126, _02FD
-	npc_msg 36
-	wait_button_or_walk_away
-	closemsg
-	setflag FLAG_UNK_126
-_02FD:
-	releaseall
-	end
-
-_0301:
-	compare VAR_TEMP_x4002, 1
-	goto_if_eq _0346
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD1_STICKS2, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E18
-	wait_movement
-	goto_if_set FLAG_UNK_126, _0342
-	npc_msg 36
-	wait_button_or_walk_away
-	closemsg
-	setflag FLAG_UNK_126
-_0342:
-	releaseall
-	end
-
-_0346:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	play_cry SPECIES_FARFETCHD, 0
-	npc_msg 3
-	closemsg
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E58
-	wait_movement
-	hide_person obj_D36R0101_follower_mon_static_farfetchd
-	npc_msg 37
-	wait_button_or_walk_away
-	closemsg
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD1_STICKS2, 2
-	setflag FLAG_HIDE_FARFETCHD_1_LOST
-	setflag FLAG_FOUND_FIRST_FARFETCHD
-	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _1207
-	clearflag FLAG_HIDE_FARFETCHD_1_FOUND
-	wait 20, VAR_SPECIAL_x8004
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	warp MAP_D36R0101, 0, 15, 65, DIR_NORTH
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	wait 5, VAR_SPECIAL_x8004
-	npc_msg 1
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_03CA:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _0403
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E08
-	setvar VAR_FARFETCHD1_STICKS2, 1
-	setvar VAR_FARFETCHD1_STICKS1, 1
-	setvar VAR_TEMP_x4004, 1
-	goto _0424
-
-_0403:
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _0424
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E28
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD1_STICKS2, 2
-_0424:
-	wait_movement
-	releaseall
-	end
-
-_042A:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_TEMP_x4004, 0
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _0463
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DF8
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD1_STICKS2, 2
-	goto _0484
-
-_0463:
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _0484
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0E28
-	setvar VAR_FARFETCHD1_STICKS1, 1
-	setvar VAR_FARFETCHD1_STICKS2, 2
-_0484:
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _0730
+	goto _0743
 
 scr_seq_D36R0101_003:
 	scrcmd_609
 	lockall
 	compare VAR_TEMP_x4004, 1
-	goto_if_eq _068E
+	goto_if_eq _075E
 	setvar VAR_TEMP_x4002, 1
 	setvar VAR_FARFETCHD1_STICKS1, 2
 	setvar VAR_FARFETCHD1_STICKS2, 1
 	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 25
-	goto_if_ne _04CE
-	goto _04E1
-
-_04CE:
-	compare VAR_TEMP_x4000, 32
-	goto_if_ne _04E1
-	goto _0515
-
-_04E1:
-	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 52
-	goto_if_ne _0502
-	goto _0549
-
-_0502:
-	compare VAR_TEMP_x4001, 62
-	goto_if_ne _0515
-	goto _0557
-
-_0515:
-	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 52
-	goto_if_ne _0536
-	goto _057B
-
-_0536:
-	compare VAR_TEMP_x4001, 62
-	goto_if_ne _0549
-	goto _0589
-
-_0549:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
-	wait_movement
-	releaseall
-	end
-
-_0557:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
-	wait_movement
-	goto_if_set FLAG_FARFETCHD_NOTICED_YOU, _0577
-	npc_msg 35
-	wait_button_or_walk_away
-	closemsg
-	setflag FLAG_FARFETCHD_NOTICED_YOU
-_0577:
-	releaseall
-	end
-
-_057B:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
-	wait_movement
-	releaseall
-	end
-
-_0589:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DE0
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _0778
+	goto _078B
 
 scr_seq_D36R0101_004:
 	scrcmd_609
 	lockall
 	compare VAR_TEMP_x4004, 1
-	goto_if_eq _068E
+	goto_if_eq _075E
 	setvar VAR_FARFETCHD1_STICKS1, 1
 	setvar VAR_FARFETCHD1_STICKS2, 2
 	setvar VAR_TEMP_x4002, 0
 	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 25
-	goto_if_ne _05DB
-	goto _05EE
-
-_05DB:
-	compare VAR_TEMP_x4000, 32
-	goto_if_ne _05EE
-	goto _0622
-
-_05EE:
-	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 52
-	goto_if_ne _060F
-	goto _0656
-
-_060F:
-	compare VAR_TEMP_x4001, 62
-	goto_if_ne _0622
-	goto _0664
-
-_0622:
-	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 52
-	goto_if_ne _0643
-	goto _0672
-
-_0643:
-	compare VAR_TEMP_x4001, 62
-	goto_if_ne _0656
-	goto _0680
-
-_0656:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
-	wait_movement
-	releaseall
-	end
-
-_0664:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0672:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DC8
-	wait_movement
-	releaseall
-	end
-
-_0680:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DE0
-	wait_movement
-	releaseall
-	end
-
-_068E:
-	setvar VAR_FARFETCHD1_STICKS1, 2
-	setvar VAR_FARFETCHD1_STICKS2, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _0DE0
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _07A6
+	goto _07B9
 
 scr_seq_D36R0101_005:
 	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 41
-	goto_if_ne _06C9
-	goto _06DC
-
-_06C9:
-	compare VAR_TEMP_x4000, 49
-	goto_if_ne _06DC
-	goto _0716
-
-_06DC:
-	setvar VAR_TEMP_x4003, 0
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0703
-	goto _074A
-
-_0703:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0716
-	goto _07D4
-
-_0716:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0737
-	goto _0846
-
-_0737:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _074A
-	goto _0982
-
-_074A:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _078B
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E38
-	wait_movement
-	setvar VAR_FARFETCHD2_STICKS1, 1
-	setvar VAR_FARFETCHD2_STICKS2, 1
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	goto _07BA
-
-_078B:
-	compare VAR_SPECIAL_RESULT, 2
-	goto_if_ne _07BA
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E08
-	wait_movement
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 1
-	setvar VAR_FARFETCHD2_STICKS4, 2
-_07BA:
-	goto_if_set FLAG_UNK_126, _07D0
-	npc_msg 36
-	wait_button_or_walk_away
-	closemsg
-	setflag FLAG_UNK_126
-_07D0:
-	releaseall
-	end
-
-_07D4:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _0813
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E38
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	goto _0840
-
-_0813:
-	compare VAR_SPECIAL_RESULT, 2
-	goto_if_ne _0840
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DF8
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 1
-_0840:
-	wait_movement
-	releaseall
-	end
-
-_0846:
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _0863
-	goto _0876
-
-_0863:
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _0876
-	goto _08A4
-
-_0876:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E48
-	wait_movement
-	releaseall
-	end
-
-_08A4:
-	compare VAR_TEMP_x4003, 1
-	goto_if_eq _08DF
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 1
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E08
-	wait_movement
-	releaseall
-	end
-
-_08DF:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	play_cry SPECIES_FARFETCHD, 0
-	npc_msg 3
-	closemsg
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E60
-	wait_movement
-	hide_person obj_D36R0101_follower_mon_static_farfetchd_2
-	npc_msg 37
-	wait_button_or_walk_away
-	closemsg
-	call_if_unset FLAG_FOUND_FIRST_FARFETCHD, _097A
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	setflag FLAG_HIDE_FARFETCHD_2_LOST
-	setflag FLAG_FOUND_SECOND_FARFETCHD
-	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _1207
-	clearflag FLAG_HIDE_FARFETCHD_1_FOUND
-	wait 20, VAR_SPECIAL_x8004
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	warp MAP_D36R0101, 0, 15, 65, DIR_NORTH
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	wait 5, VAR_SPECIAL_x8004
-	npc_msg 1
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_097A:
-	setvar VAR_FARFETCHD1_STICKS1, 1
-	return
-
-_0982:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_TEMP_x4003, 0
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _09C7
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DF8
-	setvar VAR_FARFETCHD2_STICKS1, 1
-	setvar VAR_FARFETCHD2_STICKS2, 1
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 1
-	goto _09F4
-
-_09C7:
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _09F4
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0E48
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 2
-_09F4:
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _07D4
+	goto _07E7
 
 scr_seq_D36R0101_006:
 	scrcmd_609
@@ -657,63 +127,8 @@ scr_seq_D36R0101_006:
 	setvar VAR_TEMP_x4003, 0
 	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 41
-	goto_if_ne _0A25
-	goto _0A38
-
-_0A25:
-	compare VAR_TEMP_x4000, 49
-	goto_if_ne _0A38
-	goto _0A6C
-
-_0A38:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0A59
-	goto _0AA0
-
-_0A59:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0A6C
-	goto _0AAE
-
-_0A6C:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0A8D
-	goto _0ABC
-
-_0A8D:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0AA0
-	goto _0AE2
-
-_0AA0:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0AAE:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
-	wait_movement
-	releaseall
-	end
-
-_0ABC:
-	setvar VAR_FARFETCHD2_STICKS1, 2
-	setvar VAR_FARFETCHD2_STICKS2, 1
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 1
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
-	wait_movement
-	releaseall
-	end
-
-_0AE2:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _0808
+	goto _081B
 
 scr_seq_D36R0101_007:
 	scrcmd_609
@@ -721,63 +136,8 @@ scr_seq_D36R0101_007:
 	setvar VAR_TEMP_x4003, 1
 	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 41
-	goto_if_ne _0B1B
-	goto _0B2E
-
-_0B1B:
-	compare VAR_TEMP_x4000, 49
-	goto_if_ne _0B2E
-	goto _0B62
-
-_0B2E:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0B4F
-	goto _0B96
-
-_0B4F:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0B62
-	goto _0BA4
-
-_0B62:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0B83
-	goto _0BB2
-
-_0B83:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0B96
-	goto _0BD8
-
-_0B96:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0BA4:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0BB2:
-	setvar VAR_FARFETCHD2_STICKS1, 1
-	setvar VAR_FARFETCHD2_STICKS2, 2
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	setvar VAR_FARFETCHD2_STICKS4, 1
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0BD8:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _0836
+	goto _0849
 
 scr_seq_D36R0101_008:
 	scrcmd_609
@@ -785,61 +145,8 @@ scr_seq_D36R0101_008:
 	setvar VAR_TEMP_x4003, 0
 	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 41
-	goto_if_ne _0C11
-	goto _0C24
-
-_0C11:
-	compare VAR_TEMP_x4000, 49
-	goto_if_ne _0C24
-	goto _0C58
-
-_0C24:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0C45
-	goto _0C8C
-
-_0C45:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0C58
-	goto _0C9A
-
-_0C58:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0C79
-	goto _0CAE
-
-_0C79:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0C8C
-	goto _0CBC
-
-_0C8C:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DC8
-	wait_movement
-	releaseall
-	end
-
-_0C9A:
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0CAE:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DC8
-	wait_movement
-	releaseall
-	end
-
-_0CBC:
-	setvar VAR_FARFETCHD2_STICKS3, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DE0
-	wait_movement
-	releaseall
-	end
+	goto_if_ne _0864
+	goto _0877
 
 scr_seq_D36R0101_009:
 	scrcmd_609
@@ -847,179 +154,30 @@ scr_seq_D36R0101_009:
 	setvar VAR_TEMP_x4003, 0
 	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
 	compare VAR_TEMP_x4000, 41
-	goto_if_ne _0CFB
-	goto _0D0E
+	goto_if_ne _0892
+	goto _08A5
 
-_0CFB:
-	compare VAR_TEMP_x4000, 49
-	goto_if_ne _0D0E
-	goto _0D42
-
-_0D0E:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0D2F
-	goto _0D76
-
-_0D2F:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0D42
-	goto _0D8A
-
-_0D42:
-	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 54
-	goto_if_ne _0D63
-	goto _0D98
-
-_0D63:
-	compare VAR_TEMP_x4001, 64
-	goto_if_ne _0D76
-	goto _0DB8
-
-_0D76:
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DEC
-	wait_movement
-	releaseall
-	end
-
-_0D8A:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
-	wait_movement
-	releaseall
-	end
-
-_0D98:
-	setvar VAR_FARFETCHD2_STICKS1, 1
-	setvar VAR_FARFETCHD2_STICKS2, 1
-	setvar VAR_FARFETCHD2_STICKS4, 2
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DE0
-	wait_movement
-	releaseall
-	end
-
-_0DB8:
-	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _0DD4
-	wait_movement
-	releaseall
-	end
-
-	.align 4
-_0DC8:
-
-	step 1, 1
-	step 75, 1
-	step_end
-	.align 4
-_0DD4:
-
-	step 0, 1
-	step 75, 1
-	step_end
-	.align 4
-_0DE0:
-
-	step 2, 1
-	step 75, 1
-	step_end
-	.align 4
-_0DEC:
-
-	step 3, 1
-	step 75, 1
-	step_end
-	.align 4
-_0DF8:
-
-	step 75, 1
-	step 16, 10
-	step 1, 1
-	step_end
-	.align 4
-_0E08:
-
-	step 75, 1
-	step 17, 10
-	step 0, 1
-	step_end
-	.align 4
-_0E18:
-
-	step 75, 1
-	step 19, 7
-	step 2, 1
-	step_end
-	.align 4
-_0E28:
-
-	step 75, 1
-	step 18, 7
-	step 3, 1
-	step_end
-	.align 4
-_0E38:
-
-	step 75, 1
-	step 19, 8
-	step 2, 1
-	step_end
-	.align 4
-_0E48:
-
-	step 75, 1
-	step 18, 8
-	step 3, 1
-	step_end
-	.align 4
-_0E58:
-
-	step 37, 5
-	step_end
-	.align 4
-_0E60:
-
-	step 39, 5
-	step_end
 scr_seq_D36R0101_016:
 	scrcmd_609
 	lockall
-	apply_movement obj_player, _0EC4
+	apply_movement obj_player, _2268
 	wait_movement
-	apply_movement obj_D36R0101_gsbigman, _0ED0
-	wait_movement
-	play_se SEQ_SE_DP_KI_GASYAN
-	screen_shake 0, 2, 10, 5
-	apply_movement obj_D36R0101_gsbigman, _0ED8
-	wait_movement
-	apply_movement obj_D36R0101_gsbigman, _0ED0
+	apply_movement obj_D36R0101_gsbigman, _2272
 	wait_movement
 	play_se SEQ_SE_DP_KI_GASYAN
 	screen_shake 0, 2, 10, 5
-	apply_movement obj_D36R0101_gsbigman, _0ED8
+	apply_movement obj_D36R0101_gsbigman, _2278
+	wait_movement
+	apply_movement obj_D36R0101_gsbigman, _2272
+	wait_movement
+	play_se SEQ_SE_DP_KI_GASYAN
+	screen_shake 0, 2, 10, 5
+	apply_movement obj_D36R0101_gsbigman, _2278
 	wait_movement
 	setvar VAR_UNK_40EA, 1
 	releaseall
 	end
 
-	.align 4
-_0EC4:
-
-	step 75, 1
-	step 32, 1
-	step_end
-	.align 4
-_0ED0:
-
-	step 52, 1
-	step_end
-	.align 4
-_0ED8:
-
-	step 71, 1
-	step 9, 1
-	step 72, 1
-	step_end
 scr_seq_D36R0101_002:
 	play_se SEQ_SE_DP_SELECT
 	lockall
@@ -1028,10 +186,9 @@ scr_seq_D36R0101_002:
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _1086
+	goto_if_eq _08C0
 	npc_msg 14
 	closemsg
-_0F0B:
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
 	party_select_ui
@@ -1040,32 +197,425 @@ _0F0B:
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	compare VAR_SPECIAL_RESULT, 255
-	goto_if_eq _1093
+	goto_if_eq _08CD
 	get_partymon_species VAR_SPECIAL_RESULT, VAR_SPECIAL_x8005
 	setorcopyvar VAR_SPECIAL_x8006, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_x8005, 0
-	goto_if_eq _10A0
+	goto_if_eq _08DA
 	mon_has_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT, VAR_SPECIAL_x8006
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _10E1
+	goto_if_eq _08E5
 	scrcmd_656 VAR_SPECIAL_x8006, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0F84
+	goto_if_eq _08F5
 	npc_msg 16
 	closemsg
-	goto _0F0B
+	goto _09B2
 
-_0F84:
+scr_seq_D36R0101_010:
+	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _0A2B
+	goto _0A3C
+
+scr_seq_D36R0101_017:
+	scrcmd_609
+	lockall
+	apply_movement obj_D36R0101_gsboy1, _2286
+	apply_movement obj_player, _228C
+	wait_movement
+	npc_msg 0
+	wait_button_or_walk_away
+	closemsg
+	setvar VAR_UNK_40F4, 0
+	releaseall
+	end
+
+scr_seq_D36R0101_011:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	goto_if_set FLAG_GOT_HM01, _0A4D
+	npc_msg 6
+	goto_if_no_item_space ITEM_HM01, 1, _0A58
+	callstd std_give_item_verbose
+	setflag FLAG_GOT_HM01
+	clearflag FLAG_UNK_1AE
+	clearflag FLAG_UNK_1AC
+	npc_msg 8
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_D36R0101_014:
+	play_cry SPECIES_FARFETCHD, 0
+	simple_npc_msg 4
+	end
+
+scr_seq_D36R0101_015:
+	scrcmd_609
+	lockall
+	callstd std_play_kimono_girl_music
+	apply_movement obj_D36R0101_dancer, _2296
+	wait_movement
+	get_player_coords VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _0A62
+	apply_movement obj_D36R0101_dancer, _22A0
+	goto _0A9C
+
+scr_seq_D36R0101_018:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 0
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0ACE
+	photo_album_is_full VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0AE2
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 1
+	closemsg
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _0AF6
+	apply_movement obj_player, _22AE
+	apply_movement obj_D36R0101_gsmiddleman1, _22C4
+	goto _0B11
+
+scr_seq_D36R0101_012:
+	player_on_bike_check VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0B72
+	compare VAR_UNK_412B, 2
+	goto_if_ge _0B9A
+	compare VAR_UNK_412B, 1
+	goto_if_eq _0B72
+	get_party_lead_alive VAR_TEMP_x4000
+	follower_poke_is_event_trigger 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 0
+	goto_if_ne _0BD0
+	goto _0B9A
+
+scr_seq_D36R0101_019:
+	scrcmd_609
+	lockall
+	setvar VAR_TEMP_x4008, 1
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _0BDA
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _22CE
+	goto _0BF5
+
+scr_seq_D36R0101_020:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_TEMP_x4008, 1
+	call _0C40
+	compare VAR_SPECIAL_x8004, 0
+	goto_if_ne _0C5D
+	call _0C67
+	goto _0C70
+
+scr_seq_D36R0101_022:
+	scrcmd_609
+	lockall
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_D36R0101_var_1, _22D4
+	apply_movement obj_player, _22E6
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	gender_msgbox 61, 60
+	closemsg
+	apply_movement obj_D36R0101_follower_mon_static_marill, _22F0
+	wait_movement
+	callstd std_play_friend_music
+	apply_movement obj_D36R0101_var_1, _230A
+	wait_movement
+	gender_msgbox 63, 62
+	closemsg
+	apply_movement obj_D36R0101_var_1, _231C
+	wait_movement
+	gender_msgbox 65, 64
+	closemsg
+	apply_movement obj_D36R0101_var_1, _232A
+	apply_movement obj_D36R0101_follower_mon_static_marill, _2330
+	wait_movement
+	buffer_players_name 0
+	gender_msgbox 67, 66
+	closemsg
+	apply_movement obj_D36R0101_var_1, _2336
+	apply_movement obj_D36R0101_follower_mon_static_marill, _234C
+	wait_movement
+	callstd std_fade_end_friend_music
+	touchscreen_menu_show
+	setvar VAR_UNK_40FE, 5
+	hide_person obj_D36R0101_var_1
+	hide_person obj_D36R0101_follower_mon_static_marill
+	setflag FLAG_HIDE_ILEX_FOREST_FRIEND
+	releaseall
+	end
+
+scr_seq_D36R0101_013:
+	scrcmd_055 3, 0
+	scrcmd_057 3
+	scrcmd_058
+	trainer_tips 27, VAR_SPECIAL_RESULT
+	callstd std_signpost
+	end
+
+scr_seq_D36R0101_023:
+	lockall
+	npc_msg 68
+	play_fanfare SEQ_ME_TAMAGO_GET
+	wait_fanfare
+	clearflag 16377
+	clearflag 16374
+	clearflag 16373
+	closemsg
+	setvar 25001, 2
+	releaseall
+	end
+
+scr_seq_D36R0101_024:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	play_cry SPECIES_BRELOOM, 0
+	wait_cry
+	wild_battle SPECIES_BRELOOM, 23, 0
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0C74
+	fade_screen 8, 1, 0, RGB_BLACK
+	wait_fade
+	hide_person obj_D36R0101_follower_mon_breloom
+	setflag 16367
+	fade_screen 8, 1, 1, RGB_BLACK
+	wait_fade
+	releaseall
+	end
+
+scr_seq_D36R0101_025:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	goto_if_set 16239, _225B
+	npc_msg 72
+	buffer_players_name 0
+	closemsg
+	apply_movement obj_D36R0101_gsboy3, _285C
+	wait_movement
+	faceplayer
+	npc_msg 73
+	giveitem_no_check ITEM_TM081, 1
+	setflag 16239
+	npc_msg 74
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+scr_seq_D36R0101_026:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	npc_msg 75
+	closemsg
+	play_cry SPECIES_IVYSAUR, 0
+	wait_cry
+	npc_msg 76
+	closemsg
+	apply_movement obj_D36R0101_leader2, _285C
+	wait_movement
+	faceplayer
+	npc_msg 77
+	giveitem_no_check ITEM_TM086, 1
+	npc_msg 78
+	wait_button_or_walk_away
+	closemsg
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	hide_person obj_D36R0101_leader2
+	play_se SEQ_SE_DP_KAIDAN2
+	wait_se SEQ_SE_DP_DOOR
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	releaseall
+	end
+
+_06A7:
+	check_badge BADGE_PLAIN, VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 0
+	goto_if_eq _0C7A
+	get_weekday VAR_TEMP_x4000
+	compare VAR_TEMP_x4000, 2
+	goto_if_eq _0C84
+	compare VAR_TEMP_x4000, 6
+	goto_if_eq _0C84
+	compare VAR_TEMP_x4000, 0
+	goto_if_eq _0C84
+	setflag FLAG_HIDE_CAMERON
+	goto _06EF
+
+_06EF:
+	goto_if_set FLAG_BEAT_AZALEA_ROCKETS, _0C95
+	end
+
+_06FC:
+	move_person_facing obj_D36R0101_gsoldman1, 15, 0, 58, DIR_SOUTH
+	move_person_facing obj_D36R0101_follower_mon_static_pichu_spiky, 15, 0, 59, DIR_EAST
+	return
+
+_0716:
+	move_person_facing obj_D36R0101_var_1, 15, 0, 58, DIR_SOUTH
+	move_person_facing obj_D36R0101_follower_mon_static_marill, 11, 0, 58, DIR_EAST
+	return
+
+_0730:
+	compare VAR_TEMP_x4000, 32
+	goto_if_ne _0743
+	goto _0CE9
+
+_0743:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
+	goto_if_ne _0D0A
+	goto _0D1D
+
+_075E:
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _237A
+	wait_movement
+	releaseall
+	end
+
+_0778:
+	compare VAR_TEMP_x4000, 32
+	goto_if_ne _078B
+	goto _0D4A
+
+_078B:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
+	goto_if_ne _0D65
+	goto _0D78
+
+_07A6:
+	compare VAR_TEMP_x4000, 32
+	goto_if_ne _07B9
+	goto _0D86
+
+_07B9:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
+	goto_if_ne _0DA1
+	goto _0DB4
+
+_07D4:
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _07E7
+	goto _0DC2
+
+_07E7:
+	setvar VAR_TEMP_x4003, 0
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _0DDD
+	goto _0DF0
+
+_0808:
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _081B
+	goto _0E31
+
+_081B:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _0E4C
+	goto _0E5F
+
+_0836:
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _0849
+	goto _0E6D
+
+_0849:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _0E88
+	goto _0E9B
+
+_0864:
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _0877
+	goto _0EA9
+
+_0877:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _0EC4
+	goto _0ED7
+
+_0892:
+	compare VAR_TEMP_x4000, 49
+	goto_if_ne _08A5
+	goto _0EE5
+
+_08A5:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _0F00
+	goto _0F13
+
+_08C0:
+	npc_msg 13
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	releaseall
+	end
+
+_08CD:
+	npc_msg 13
+	wait_button_or_walk_away
+	closemsg
+	touchscreen_menu_show
+	releaseall
+	end
+
+_08DA:
+	npc_msg 15
+	closemsg
+	goto _09B2
+
+_08E5:
+	buffer_mon_species_name 0, VAR_SPECIAL_x8006
+	npc_msg 23
+	closemsg
+	goto _09B2
+
+_08F5:
 	count_mon_moves VAR_SPECIAL_x8002, VAR_SPECIAL_x8006
 	compare VAR_SPECIAL_x8002, 3
-	goto_if_le _1041
+	goto_if_le _0F27
 	touchscreen_menu_hide
-_0F99:
 	bufferpartymonnick 0, VAR_SPECIAL_x8006
 	npc_msg 17
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _10C7
+	goto_if_eq _0F5F
 	closemsg
 	fade_screen 6, 1, 0, RGB_BLACK
 	wait_fade
@@ -1075,13 +625,13 @@ _0F99:
 	fade_screen 6, 1, 1, RGB_BLACK
 	wait_fade
 	compare VAR_SPECIAL_x8001, 4
-	goto_if_eq _10AB
+	goto_if_eq _0F79
 	buffer_party_mon_move_name 1, VAR_SPECIAL_x8006, VAR_SPECIAL_x8001
 	npc_msg 18
 	touchscreen_menu_hide
 	getmenuchoice VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _10C7
+	goto_if_eq _0F5F
 	set_mon_move VAR_SPECIAL_x8006, VAR_SPECIAL_x8001, MOVE_HEADBUTT
 	npc_msg 20
 	play_se SEQ_SE_DP_KON
@@ -1094,9 +644,386 @@ _0F99:
 	wait_fanfare
 	wait 16, VAR_SPECIAL_RESULT
 	play_cry VAR_SPECIAL_x8005, 0
-	goto _1079
+	goto _0F95
 
-_1041:
+_09B2:
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	party_select_ui
+	get_party_selection VAR_SPECIAL_RESULT
+	restore_overworld
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_SPECIAL_RESULT, 255
+	goto_if_eq _08CD
+	get_partymon_species VAR_SPECIAL_RESULT, VAR_SPECIAL_x8005
+	setorcopyvar VAR_SPECIAL_x8006, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_x8005, 0
+	goto_if_eq _08DA
+	mon_has_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT, VAR_SPECIAL_x8006
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _08E5
+	scrcmd_656 VAR_SPECIAL_x8006, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _08F5
+	npc_msg 16
+	closemsg
+	goto _09B2
+
+_0A2B:
+	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _0FA2
+	goto _0FB5
+
+_0A3C:
+	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _0FB5
+	goto _0FC8
+
+_0A4D:
+	npc_msg 10
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0A58:
+	callstd std_bag_is_full
+	closemsg
+	releaseall
+	end
+
+_0A62:
+	apply_movement obj_D36R0101_dancer, _2384
+	wait_movement
+	npc_msg 29
+	closemsg
+	apply_movement obj_D36R0101_dancer, _2392
+	wait_movement
+	npc_msg 30
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _0FE1
+	npc_msg 31
+	goto _1031
+
+_0A9C:
+	wait_movement
+	npc_msg 29
+	closemsg
+	apply_movement obj_D36R0101_dancer, _2392
+	wait_movement
+	npc_msg 30
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _0FE1
+	npc_msg 31
+	goto _1031
+
+_0ACE:
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 5
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0AE2:
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 3
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0AF6:
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _107E
+	apply_movement obj_player, _23D4
+	goto _0B11
+
+_0B11:
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	scrcmd_729 VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _10A1
+	apply_movement obj_partner_poke, _23DE
+	wait_movement
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 8
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_0B72:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	npc_msg 28
+	wait_button_or_walk_away
+	closemsg
+	hasitem ITEM_AZURE_FLUTE, 1, VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _10DB
+	releaseall
+	end
+
+_0B9A:
+	compare VAR_UNK_40FE, 4
+	goto_if_ge _0B72
+	goto_if_unset FLAG_BEAT_RADIO_TOWER_ROCKETS, _0B72
+	get_party_lead_alive VAR_TEMP_x4006
+	follower_poke_is_event_trigger 3, VAR_TEMP_x4006, VAR_TEMP_x4007
+	compare VAR_TEMP_x4007, 0
+	goto_if_ne _1195
+	goto _0B72
+
+_0BD0:
+	clearflag FLAG_HIDE_ILEX_FOREST_SPIKY_EAR_PICHU
+	goto _119B
+
+_0BDA:
+	compare VAR_TEMP_x4005, 2
+	goto_if_ne _130C
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _23EC
+	goto _0BF5
+
+_0BF5:
+	wait_movement
+	play_cry SPECIES_PICHU, 0
+	npc_msg 43
+	wait_cry
+	closemsg
+	call _0C40
+	compare VAR_SPECIAL_x8004, 1
+	goto_if_ge _135F
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _136A
+	apply_movement obj_D36R0101_gsoldman1, _23F2
+	goto _1385
+
+_0C40:
+	get_party_count VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 6
+	goto_if_lt _13AB
+	setvar VAR_SPECIAL_x8004, 1
+	goto _13B3
+
+_0C5D:
+	call _13B5
+	releaseall
+	end
+
+_0C67:
+	npc_msg 55
+	wait_button_or_walk_away
+	closemsg
+	return
+
+_0C70:
+	releaseall
+	end
+
+_0C74:
+	white_out
+	releaseall
+	end
+
+_0C7A:
+	setflag FLAG_HIDE_CAMERON
+	goto _06EF
+
+_0C84:
+	clearflag FLAG_HIDE_CAMERON
+	goto_if_set FLAG_BEAT_AZALEA_ROCKETS, _0C95
+	end
+
+_0C95:
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	setvar VAR_TEMP_x4000, 0
+	setvar VAR_TEMP_x4001, 0
+	setvar VAR_TEMP_x4002, 0
+	setvar VAR_TEMP_x4003, 0
+	setvar VAR_TEMP_x4004, 0
+	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _13D5
+	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _13E8
+	end
+
+_0CE9:
+	setvar VAR_TEMP_x4002, 0
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
+	goto_if_ne _13F6
+	goto _1409
+
+_0D0A:
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0CE9
+	goto _1442
+
+_0D1D:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_TEMP_x4002, 0
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _1459
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _23F8
+	goto _1480
+
+_0D4A:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
+	goto_if_ne _1486
+	goto _1499
+
+_0D65:
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0D4A
+	goto _14A7
+
+_0D78:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2406
+	wait_movement
+	releaseall
+	end
+
+_0D86:
+	get_person_coords 0, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 52
+	goto_if_ne _14CB
+	goto _14DE
+
+_0DA1:
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0D86
+	goto _14EC
+
+_0DB4:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2406
+	wait_movement
+	releaseall
+	end
+
+_0DC2:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _14FA
+	goto _150D
+
+_0DDD:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0DC2
+	goto _1524
+
+_0DF0:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _1563
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2410
+	wait_movement
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	goto _15AC
+
+_0E31:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _15C6
+	goto _15D9
+
+_0E4C:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0E31
+	goto _15FF
+
+_0E5F:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _241E
+	wait_movement
+	releaseall
+	end
+
+_0E6D:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _160D
+	goto _1620
+
+_0E88:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0E6D
+	goto _1646
+
+_0E9B:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _241E
+	wait_movement
+	releaseall
+	end
+
+_0EA9:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _1654
+	goto _1667
+
+_0EC4:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0EA9
+	goto _1675
+
+_0ED7:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2406
+	wait_movement
+	releaseall
+	end
+
+_0EE5:
+	get_person_coords 2, VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 54
+	goto_if_ne _1689
+	goto _169C
+
+_0F00:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0EE5
+	goto _16BC
+
+_0F13:
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _241E
+	wait_movement
+	releaseall
+	end
+
+_0F27:
 	bufferpartymonnick 0, VAR_SPECIAL_x8006
 	set_mon_move VAR_SPECIAL_x8006, VAR_SPECIAL_x8002, MOVE_HEADBUTT
 	npc_msg 21
@@ -1113,7 +1040,22 @@ _1041:
 	releaseall
 	end
 
-_1079:
+_0F5F:
+	npc_msg 19
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _16CA
+	goto _08C0
+
+_0F79:
+	npc_msg 19
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _16CA
+	goto _08C0
+
+_0F95:
 	npc_msg 22
 	wait_button_or_walk_away
 	closemsg
@@ -1121,69 +1063,15 @@ _1079:
 	releaseall
 	end
 
-_1086:
-	npc_msg 13
-	wait_button_or_walk_away
-	closemsg
-	touchscreen_menu_show
-	releaseall
-	end
-
-_1093:
-	npc_msg 13
-	wait_button_or_walk_away
-	closemsg
-	touchscreen_menu_show
-	releaseall
-	end
-
-_10A0:
-	npc_msg 15
-	closemsg
-	goto _0F0B
-
-_10AB:
-	npc_msg 19
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0F99
-	goto _1086
-
-_10C7:
-	npc_msg 19
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _0F99
-	goto _1086
-
-_10E1:
-	buffer_mon_species_name 0, VAR_SPECIAL_x8006
-	npc_msg 23
-	closemsg
-	goto _0F0B
-
-scr_seq_D36R0101_010:
-	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _1104
-	goto _1115
-
-_1104:
-	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _1126
-	goto _1139
-
-_1115:
-	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _1139
-	goto _114C
-
-_1126:
+_0FA2:
 	simple_npc_msg 2
 	end
 
-_1139:
+_0FB5:
 	simple_npc_msg 1
 	end
 
-_114C:
+_0FC8:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
@@ -1194,61 +1082,1187 @@ _114C:
 	releaseall
 	end
 
-scr_seq_D36R0101_017:
+_0FE1:
+	npc_msg 32
+	closemsg
+	get_party_lead_alive VAR_TEMP_x4000
+	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 50
+	goto_if_eq _1772
+	compare VAR_TEMP_x4001, 51
+	goto_if_eq _1772
+	release obj_partner_poke
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _1799
+	apply_movement obj_player, _2428
+	apply_movement obj_partner_poke, _243A
+	goto _17AD
+
+_1031:
+	closemsg
+	get_party_lead_alive VAR_TEMP_x4000
+	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
+	compare VAR_TEMP_x4001, 50
+	goto_if_eq _1772
+	compare VAR_TEMP_x4001, 51
+	goto_if_eq _1772
+	release obj_partner_poke
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _1799
+	apply_movement obj_player, _2428
+	apply_movement obj_partner_poke, _243A
+	goto _17AD
+
+_107E:
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _17B9
+	apply_movement obj_player, _2454
+	apply_movement obj_D36R0101_gsmiddleman1, _22C4
+	goto _0B11
+
+_10A1:
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 8
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 2
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_10DB:
+	goto_if_set 16327, _0C70
+	npc_msg 71
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	touchscreen_menu_show
+	closemsg
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0C70
+	stop_bgm 0
+	play_bgm SEQ_GS_PHC
+	buffer_players_name 0
+	buffer_players_name 0
+	npc_msg 69
+	closemsg
+	play_cry SPECIES_CELEBI, 0
+	wait_cry
+	apply_movement obj_player, _2466
+	play_se SEQ_SE_GS_TIMESLIP
+	wait_movement
+	scrcmd_810
+	move_person_facing obj_D36R0101_follower_mon_celebi, 17, 0, 56, DIR_SOUTH
+	fade_screen 6, 15, 1, RGB_WHITE
+	wait_fade
+	apply_movement obj_player, _2470
+	apply_movement obj_D36R0101_follower_mon_celebi, _2476
+	npc_msg 70
+	closemsg
+	wild_battle SPECIES_CELEBI, 45, 0
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _0C74
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _182E
+	move_person_facing obj_D36R0101_follower_mon_celebi, 6666, 0, 6666, DIR_SOUTH
+	setflag 16327
+	releaseall
+	end
+
+_1195:
+	goto _1834
+
+_119B:
 	scrcmd_609
 	lockall
-	apply_movement obj_D36R0101_gsboy1, _118C
-	apply_movement obj_player, _1194
+	stop_bgm 0
+	clearflag FLAG_HIDE_ILEX_FOREST_SPIKY_EAR_PICHU
+	show_person obj_D36R0101_follower_mon_static_pichu_spiky
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _247C
 	wait_movement
-	npc_msg 0
-	wait_button_or_walk_away
+	play_cry SPECIES_PICHU, 0
+	wait_cry
+	apply_movement obj_player, _2466
+	wait_movement
+	callstd std_play_pichu_music
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _248E
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _24B4
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	npc_msg 38
 	closemsg
-	setvar VAR_UNK_40F4, 0
+	apply_movement obj_partner_poke, _24DA
+	wait_movement
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _24E8
+	wait_movement
+	apply_movement obj_partner_poke, _251A
+	wait_movement
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _2528
+	apply_movement obj_partner_poke, _254A
+	wait_movement
+	clearflag FLAG_HIDE_ILEX_FOREST_OLD_MAN
+	show_person obj_D36R0101_gsoldman1
+	apply_movement obj_D36R0101_gsoldman1, _2564
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _2576
+	apply_movement obj_partner_poke, _25D0
+	wait_movement
+	apply_movement obj_player, _260A
+	wait_movement
+	npc_msg 46
+	closemsg
+	apply_movement obj_D36R0101_gsoldman1, _2610
+	wait_movement
+	npc_msg 47
+	closemsg
+	apply_movement obj_D36R0101_gsoldman1, _261A
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _2628
+	apply_movement obj_player, _2636
+	wait_movement
+	npc_msg 48
+	closemsg
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _263C
+	apply_movement obj_partner_poke, _2646
+	wait_movement
+	npc_msg 49
+	closemsg
+	apply_movement obj_partner_poke, _2650
+	wait_movement
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _2656
+	wait_movement
+	apply_movement obj_partner_poke, _265C
+	wait_movement
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _2662
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	npc_msg 39
+	play_cry SPECIES_PICHU, 0
+	npc_msg 43
+	wait_cry
+	closemsg
+	call _0C40
+	compare VAR_SPECIAL_x8004, 1
+	call_if_ge _13B5
+	compare VAR_SPECIAL_x8004, 0
+	call_if_eq _18F5
 	releaseall
 	end
 
-	.align 4
-_118C:
+_130C:
+	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _2674
+	wait_movement
+	play_cry SPECIES_PICHU, 0
+	npc_msg 43
+	wait_cry
+	closemsg
+	call _0C40
+	compare VAR_SPECIAL_x8004, 1
+	goto_if_ge _135F
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _136A
+	apply_movement obj_D36R0101_gsoldman1, _23F2
+	goto _1385
 
-	step 75, 1
-	step_end
-	.align 4
-_1194:
+_135F:
+	npc_msg 42
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
 
-	step 63, 2
-	step 0, 1
-	step_end
-scr_seq_D36R0101_011:
+_136A:
+	compare VAR_TEMP_x4005, 2
+	goto_if_ne _1937
+	apply_movement obj_D36R0101_gsoldman1, _267A
+	goto _1385
+
+_1385:
+	wait_movement
+	npc_msg 52
+	closemsg
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _1965
+	apply_movement obj_player, _2680
+	goto _1980
+
+_13AB:
+	setvar VAR_SPECIAL_x8004, 0
+	return
+
+_13B3:
+	return
+
+_13B5:
+	npc_msg 50
+	wait_button_or_walk_away
+	closemsg
+	compare VAR_TEMP_x4008, 0
+	goto_if_ne _1998
+	callstd std_fade_end_pichu_music
+	setvar VAR_UNK_412B, 1
+	return
+
+_13D5:
+	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _19A0
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	end
+
+_13E8:
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	end
+
+_13F6:
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0D1D
+	goto _19AE
+
+_1409:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	goto_if_set FLAG_GOT_HM01, _11F2
-	npc_msg 6
-	goto_if_no_item_space ITEM_HM01, 1, _11FD
-	callstd std_give_item_verbose
-	setflag FLAG_GOT_HM01
-	clearflag FLAG_UNK_1AE
-	clearflag FLAG_UNK_1AC
-	npc_msg 8
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _19E7
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _268A
+	setvar VAR_FARFETCHD1_STICKS2, 1
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_TEMP_x4004, 1
+	goto _1A0E
+
+_1442:
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 2
+	goto_if_ne _1A14
+	goto _1A27
+
+_1459:
+	compare VAR_SPECIAL_RESULT, 2
+	goto_if_ne _1480
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _268A
+	setvar VAR_FARFETCHD1_STICKS2, 1
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	wait_movement
+	releaseall
+	end
+
+_1480:
+	wait_movement
+	releaseall
+	end
+
+_1486:
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0D78
+	goto _1A5F
+
+_1499:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2406
+	wait_movement
+	releaseall
+	end
+
+_14A7:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2406
+	wait_movement
+	goto_if_set FLAG_FARFETCHD_NOTICED_YOU, _1A6D
+	npc_msg 35
+	wait_button_or_walk_away
+	closemsg
+	setflag FLAG_FARFETCHD_NOTICED_YOU
+	releaseall
+	end
+
+_14CB:
+	compare VAR_TEMP_x4001, 62
+	goto_if_ne _0DB4
+	goto _1A71
+
+_14DE:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2406
+	wait_movement
+	releaseall
+	end
+
+_14EC:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _241E
+	wait_movement
+	releaseall
+	end
+
+_14FA:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0DF0
+	goto _1A7F
+
+_150D:
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _1AC4
+	goto _1AD7
+
+_1524:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _1B05
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2410
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	goto _1B38
+
+_1563:
+	compare VAR_SPECIAL_RESULT, 2
+	goto_if_ne _15AC
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _268A
+	wait_movement
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	goto_if_set FLAG_UNK_126, _1B3E
+	npc_msg 36
+	wait_button_or_walk_away
+	closemsg
+	setflag FLAG_UNK_126
+	releaseall
+	end
+
+_15AC:
+	goto_if_set FLAG_UNK_126, _1B3E
+	npc_msg 36
+	wait_button_or_walk_away
+	closemsg
+	setflag FLAG_UNK_126
+	releaseall
+	end
+
+_15C6:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0E5F
+	goto _1B42
+
+_15D9:
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2698
+	wait_movement
+	releaseall
+	end
+
+_15FF:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2698
+	wait_movement
+	releaseall
+	end
+
+_160D:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0E9B
+	goto _1B50
+
+_1620:
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _241E
+	wait_movement
+	releaseall
+	end
+
+_1646:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _241E
+	wait_movement
+	releaseall
+	end
+
+_1654:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0ED7
+	goto _1B5E
+
+_1667:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2406
+	wait_movement
+	releaseall
+	end
+
+_1675:
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _241E
+	wait_movement
+	releaseall
+	end
+
+_1689:
+	compare VAR_TEMP_x4001, 64
+	goto_if_ne _0F13
+	goto _1B72
+
+_169C:
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _237A
+	wait_movement
+	releaseall
+	end
+
+_16BC:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2698
+	wait_movement
+	releaseall
+	end
+
+_16CA:
+	bufferpartymonnick 0, VAR_SPECIAL_x8006
+	npc_msg 17
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0F5F
+	closemsg
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	pokemon_summary_screen 1, VAR_SPECIAL_x8006, 29
+	get_move_selection 1, VAR_SPECIAL_x8001
+	restore_overworld
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_SPECIAL_x8001, 4
+	goto_if_eq _0F79
+	buffer_party_mon_move_name 1, VAR_SPECIAL_x8006, VAR_SPECIAL_x8001
+	npc_msg 18
+	touchscreen_menu_hide
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _0F5F
+	set_mon_move VAR_SPECIAL_x8006, VAR_SPECIAL_x8001, MOVE_HEADBUTT
+	npc_msg 20
+	play_se SEQ_SE_DP_KON
+	wait_se SEQ_SE_DP_KON
+	wait 30, VAR_SPECIAL_RESULT
+	npc_msg 24
+	wait 32, VAR_SPECIAL_RESULT
+	npc_msg 25
+	play_fanfare SEQ_ME_LVUP
+	wait_fanfare
+	wait 16, VAR_SPECIAL_RESULT
+	play_cry VAR_SPECIAL_x8005, 0
+	goto _0F95
+
+_1772:
+	release obj_partner_poke
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _1B80
+	apply_movement obj_player, _2428
+	apply_movement obj_partner_poke, _26A2
+	goto _1BA9
+
+_1799:
+	apply_movement obj_partner_poke, _26B8
+	wait_movement
+	lock obj_partner_poke
+	goto _1BCA
+
+_17AD:
+	wait_movement
+	lock obj_partner_poke
+	goto _1BCA
+
+_17B9:
+	stop_se SEQ_SE_GS_N_SESERAGI
+	apply_movement obj_player, _26D6
+	apply_movement obj_D36R0101_gsmiddleman1, _22C4
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	scrcmd_729 VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _10A1
+	apply_movement obj_partner_poke, _23DE
+	wait_movement
+	setflag FLAG_UNK_189
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	cameron_photo 8
+	lockall
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	clearflag FLAG_UNK_189
+	get_std_msg_naix 2, VAR_SPECIAL_RESULT
+	msgbox_extern VAR_SPECIAL_RESULT, 2
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_11F2:
-	npc_msg 10
+_182E:
+	setflag 16304
+	return
+
+_1834:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	apply_movement obj_partner_poke, _26E8
+	wait_movement
+	fade_out_bgm 0, 30
+	callstd std_play_friend_music
+	touchscreen_menu_hide
+	clearflag FLAG_HIDE_ILEX_FOREST_FRIEND
+	show_person obj_D36R0101_var_1
+	show_person obj_D36R0101_follower_mon_static_marill
+	apply_movement obj_D36R0101_var_1, _2702
+	apply_movement obj_D36R0101_follower_mon_static_marill, _270C
+	wait_movement
+	apply_movement obj_player, _2736
+	wait_movement
+	buffer_players_name 0
+	gender_msgbox 57, 56
+	closemsg
+	callstd std_fade_end_friend_music
+	play_se SEQ_SE_GS_SUZUSYUTUGEN_HO
+	fade_screen 6, 6, 0, RGB_WHITE
+	wait_fade
+	wait 15, VAR_SPECIAL_RESULT
+	fade_screen 6, 6, 1, RGB_WHITE
+	wait_fade
+	apply_movement obj_player, _273C
+	apply_movement obj_D36R0101_var_1, _275E
+	wait_movement
+	gender_msgbox 59, 58
+	closemsg
+	play_se SEQ_SE_GS_TIMESLIP
+	scrcmd_810
+	setvar VAR_UNK_40FE, 1
+	clearflag FLAG_HIDE_ROUTE_22_GIOVANNI_RIVAL
+	clearflag FLAG_HIDE_ROUTE_22_FRIEND
+	setflag FLAG_HIDE_ILEX_FOREST_FRIEND
+	warp MAP_R22, 0, 954, 280, DIR_SOUTH
+	fade_screen 6, 15, 1, RGB_WHITE
+	wait_fade
+	releaseall
+	end
+
+_18F5:
+	npc_msg 52
+	closemsg
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	apply_movement obj_player, _2770
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _1BE5
+	apply_movement obj_D36R0101_gsoldman1, _23F2
+	goto _1C23
+
+_1937:
+	apply_movement obj_D36R0101_gsoldman1, _277A
+	wait_movement
+	npc_msg 52
+	closemsg
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _1965
+	apply_movement obj_player, _2680
+	goto _1980
+
+_1965:
+	compare VAR_TEMP_x4005, 2
+	goto_if_ne _1C59
+	apply_movement obj_player, _2770
+	goto _1980
+
+_1980:
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	call _1C79
+	goto _1C98
+
+_1998:
+	setvar VAR_UNK_412B, 1
+	return
+
+_19A0:
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	end
+
+_19AE:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_TEMP_x4004, 0
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _1C9C
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2780
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	goto _1CC3
+
+_19E7:
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_ne _1A0E
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _278E
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	wait_movement
+	releaseall
+	end
+
+_1A0E:
+	wait_movement
+	releaseall
+	end
+
+_1A14:
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _1A27
+	goto _1CC9
+
+_1A27:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _2780
+	wait_movement
+	goto_if_set FLAG_UNK_126, _1D0E
+	npc_msg 36
+	wait_button_or_walk_away
+	closemsg
+	setflag FLAG_UNK_126
+	releaseall
+	end
+
+_1A5F:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _237A
+	wait_movement
+	releaseall
+	end
+
+_1A6D:
+	releaseall
+	end
+
+_1A71:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _237A
+	wait_movement
+	releaseall
+	end
+
+_1A7F:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_TEMP_x4003, 0
+	get_player_facing VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _1D12
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2780
+	setvar VAR_FARFETCHD2_STICKS1, 1
+	setvar VAR_FARFETCHD2_STICKS2, 1
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	goto _1D45
+
+_1AC4:
+	compare VAR_SPECIAL_RESULT, 3
+	goto_if_ne _1AD7
+	goto _1D4B
+
+_1AD7:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _279C
+	wait_movement
+	releaseall
+	end
+
+_1B05:
+	compare VAR_SPECIAL_RESULT, 2
+	goto_if_ne _1B38
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2780
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 1
+	wait_movement
+	releaseall
+	end
+
+_1B38:
+	wait_movement
+	releaseall
+	end
+
+_1B3E:
+	releaseall
+	end
+
+_1B42:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2698
+	wait_movement
+	releaseall
+	end
+
+_1B50:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2698
+	wait_movement
+	releaseall
+	end
+
+_1B5E:
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _237A
+	wait_movement
+	releaseall
+	end
+
+_1B72:
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2698
+	wait_movement
+	releaseall
+	end
+
+_1B80:
+	apply_movement obj_partner_poke, _27AA
+	wait_movement
+	lock obj_partner_poke
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _1D86
+	apply_movement obj_D36R0101_dancer, _27C4
+	goto _1DD6
+
+_1BA9:
+	wait_movement
+	lock obj_partner_poke
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _1D86
+	apply_movement obj_D36R0101_dancer, _27C4
+	goto _1DD6
+
+_1BCA:
+	compare VAR_SPECIAL_x8004, 40
+	goto_if_ne _1D86
+	apply_movement obj_D36R0101_dancer, _27C4
+	goto _1DD6
+
+_1BE5:
+	apply_movement obj_D36R0101_gsoldman1, _267A
+	wait_movement
+	play_fanfare SEQ_ME_ITEM
+	buffer_players_name 0
+	npc_msg 44
+	wait_fanfare
+	npc_msg 53
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _1E1E
+	apply_movement obj_player, _27CA
+	goto _1ED9
+
+_1C23:
+	wait_movement
+	play_fanfare SEQ_ME_ITEM
+	buffer_players_name 0
+	npc_msg 44
+	wait_fanfare
+	npc_msg 53
+	toggle_following_pokemon_movement 0
+	wait_following_pokemon_movement
+	following_pokemon_movement 55
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _1E1E
+	apply_movement obj_player, _27CA
+	goto _1ED9
+
+_1C59:
+	apply_movement obj_player, _27D4
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	call _1C79
+	goto _1C98
+
+_1C79:
+	get_player_facing VAR_TEMP_x4005
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _1BE5
+	apply_movement obj_D36R0101_gsoldman1, _23F2
+	goto _1C23
+
+_1C98:
+	releaseall
+	end
+
+_1C9C:
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _1CC3
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _278E
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	wait_movement
+	releaseall
+	end
+
+_1CC3:
+	wait_movement
+	releaseall
+	end
+
+_1CC9:
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _1F8C
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _23F8
+	wait_movement
+	goto_if_set FLAG_UNK_126, _2010
+	npc_msg 36
+	wait_button_or_walk_away
+	closemsg
+	setflag FLAG_UNK_126
+	releaseall
+	end
+
+_1D0E:
+	releaseall
+	end
+
+_1D12:
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_ne _1D45
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _279C
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	wait_movement
+	releaseall
+	end
+
+_1D45:
+	wait_movement
+	releaseall
+	end
+
+_1D4B:
+	compare VAR_TEMP_x4003, 1
+	goto_if_eq _2014
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 1
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _268A
+	wait_movement
+	releaseall
+	end
+
+_1D86:
+	apply_movement obj_D36R0101_dancer, _27E2
+	wait_movement
+	npc_msg 33
+	closemsg
+	apply_movement obj_D36R0101_dancer, _27E8
+	wait_movement
+	npc_msg 34
+	closemsg
+	apply_movement obj_D36R0101_dancer, _27EE
+	wait_movement
+	hide_person obj_D36R0101_dancer
+	setflag FLAG_UNK_23D
+	callstd std_fade_end_kimono_girl_music
+	release obj_partner_poke
+	apply_movement obj_partner_poke, _27FC
+	wait_movement
+	lock obj_partner_poke
+	releaseall
+	setvar VAR_UNK_40E9, 1
+	end
+
+_1DD6:
+	wait_movement
+	npc_msg 33
+	closemsg
+	apply_movement obj_D36R0101_dancer, _27E8
+	wait_movement
+	npc_msg 34
+	closemsg
+	apply_movement obj_D36R0101_dancer, _27EE
+	wait_movement
+	hide_person obj_D36R0101_dancer
+	setflag FLAG_UNK_23D
+	callstd std_fade_end_kimono_girl_music
+	release obj_partner_poke
+	apply_movement obj_partner_poke, _27FC
+	wait_movement
+	lock obj_partner_poke
+	releaseall
+	setvar VAR_UNK_40E9, 1
+	end
+
+_1E1E:
+	apply_movement obj_player, _2812
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	compare VAR_TEMP_x4008, 0
+	goto_if_ne _20AF
+	callstd std_fade_end_pichu_music
+	give_spiky_ear_pichu
+	hide_person obj_D36R0101_follower_mon_static_pichu_spiky
+	setvar VAR_UNK_412B, 2
+	play_fanfare SEQ_ME_SHINKAOME
+	npc_msg 40
+	wait_fanfare
+	touchscreen_menu_hide
+	npc_msg 45
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _2145
+	closemsg
+	get_party_count VAR_TEMP_x4009
+	subvar VAR_TEMP_x4009, 1
+	setvar VAR_TEMP_x400A, 0
+	nop_var_490 VAR_TEMP_x4009
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	nickname_input VAR_TEMP_x4009, VAR_TEMP_x400A
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_TEMP_x400A, 1
+	goto_if_eq _2145
+	bufferpartymonnick 0, VAR_TEMP_x4009
+	npc_msg 54
+	npc_msg 51
+	closemsg
+	touchscreen_menu_show
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _2167
+	apply_movement obj_D36R0101_gsoldman1, _281C
+	goto _217B
+
+_1ED9:
+	wait_movement
+	wait_following_pokemon_movement
+	toggle_following_pokemon_movement 1
+	following_pokemon_movement 48
+	compare VAR_TEMP_x4008, 0
+	goto_if_ne _20AF
+	callstd std_fade_end_pichu_music
+	give_spiky_ear_pichu
+	hide_person obj_D36R0101_follower_mon_static_pichu_spiky
+	setvar VAR_UNK_412B, 2
+	play_fanfare SEQ_ME_SHINKAOME
+	npc_msg 40
+	wait_fanfare
+	touchscreen_menu_hide
+	npc_msg 45
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _2145
+	closemsg
+	get_party_count VAR_TEMP_x4009
+	subvar VAR_TEMP_x4009, 1
+	setvar VAR_TEMP_x400A, 0
+	nop_var_490 VAR_TEMP_x4009
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	nickname_input VAR_TEMP_x4009, VAR_TEMP_x400A
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_TEMP_x400A, 1
+	goto_if_eq _2145
+	bufferpartymonnick 0, VAR_TEMP_x4009
+	npc_msg 54
+	npc_msg 51
+	closemsg
+	touchscreen_menu_show
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _2167
+	apply_movement obj_D36R0101_gsoldman1, _281C
+	goto _217B
+
+_1F8C:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	play_cry SPECIES_FARFETCHD, 0
+	npc_msg 3
+	closemsg
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd, _282A
+	wait_movement
+	hide_person obj_D36R0101_follower_mon_static_farfetchd
+	npc_msg 37
+	wait_button_or_walk_away
+	closemsg
+	setvar VAR_FARFETCHD1_STICKS1, 2
+	setvar VAR_FARFETCHD1_STICKS2, 2
+	setflag FLAG_HIDE_FARFETCHD_1_LOST
+	setflag FLAG_FOUND_FIRST_FARFETCHD
+	goto_if_set FLAG_FOUND_SECOND_FARFETCHD, _2187
+	clearflag FLAG_HIDE_FARFETCHD_1_FOUND
+	wait 20, VAR_SPECIAL_x8004
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	warp MAP_D36R0101, 0, 15, 65, DIR_NORTH
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	wait 5, VAR_SPECIAL_x8004
+	npc_msg 1
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_11FD:
-	callstd std_bag_is_full
+_2010:
+	releaseall
+	end
+
+_2014:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	play_cry SPECIES_FARFETCHD, 0
+	npc_msg 3
+	closemsg
+	apply_movement obj_D36R0101_follower_mon_static_farfetchd_2, _2830
+	wait_movement
+	hide_person obj_D36R0101_follower_mon_static_farfetchd_2
+	npc_msg 37
+	wait_button_or_walk_away
+	closemsg
+	call_if_unset FLAG_FOUND_FIRST_FARFETCHD, _223E
+	setvar VAR_FARFETCHD2_STICKS1, 2
+	setvar VAR_FARFETCHD2_STICKS2, 2
+	setvar VAR_FARFETCHD2_STICKS3, 2
+	setvar VAR_FARFETCHD2_STICKS4, 2
+	setflag FLAG_HIDE_FARFETCHD_2_LOST
+	setflag FLAG_FOUND_SECOND_FARFETCHD
+	goto_if_set FLAG_FOUND_FIRST_FARFETCHD, _2187
+	clearflag FLAG_HIDE_FARFETCHD_1_FOUND
+	wait 20, VAR_SPECIAL_x8004
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	warp MAP_D36R0101, 0, 15, 65, DIR_NORTH
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	wait 5, VAR_SPECIAL_x8004
+	npc_msg 1
+	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_1207:
+_20AF:
+	give_spiky_ear_pichu
+	hide_person obj_D36R0101_follower_mon_static_pichu_spiky
+	setvar VAR_UNK_412B, 2
+	play_fanfare SEQ_ME_SHINKAOME
+	npc_msg 40
+	wait_fanfare
+	touchscreen_menu_hide
+	npc_msg 45
+	getmenuchoice VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 1
+	goto_if_eq _2145
+	closemsg
+	get_party_count VAR_TEMP_x4009
+	subvar VAR_TEMP_x4009, 1
+	setvar VAR_TEMP_x400A, 0
+	nop_var_490 VAR_TEMP_x4009
+	fade_screen 6, 1, 0, RGB_BLACK
+	wait_fade
+	nickname_input VAR_TEMP_x4009, VAR_TEMP_x400A
+	fade_screen 6, 1, 1, RGB_BLACK
+	wait_fade
+	compare VAR_TEMP_x400A, 1
+	goto_if_eq _2145
+	bufferpartymonnick 0, VAR_TEMP_x4009
+	npc_msg 54
+	npc_msg 51
+	closemsg
+	touchscreen_menu_show
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _2167
+	apply_movement obj_D36R0101_gsoldman1, _281C
+	goto _217B
+
+_2145:
+	npc_msg 51
+	closemsg
+	touchscreen_menu_show
+	compare VAR_TEMP_x4005, 3
+	goto_if_ne _2167
+	apply_movement obj_D36R0101_gsoldman1, _281C
+	goto _217B
+
+_2167:
+	apply_movement obj_D36R0101_gsoldman1, _2836
+	wait_movement
+	hide_person obj_D36R0101_gsoldman1
+	setflag FLAG_HIDE_ILEX_FOREST_OLD_MAN
+	return
+
+_217B:
+	wait_movement
+	hide_person obj_D36R0101_gsoldman1
+	setflag FLAG_HIDE_ILEX_FOREST_OLD_MAN
+	return
+
+_2187:
 	clearflag FLAG_HIDE_ILEX_CUT_MASTER
 	show_person obj_D36R0101_gsfighter
 	clearflag FLAG_HIDE_FARFETCHD_2_FOUND
@@ -1262,12 +2276,12 @@ _1207:
 	npc_msg 2
 	wait_button_or_walk_away
 	closemsg
-	apply_movement obj_D36R0101_gsfighter, _12EC
-	apply_movement obj_player, _12F8
+	apply_movement obj_D36R0101_gsfighter, _2848
+	apply_movement obj_player, _2852
 	wait_movement
-	goto_if_set FLAG_GOT_HM01, _12BE
+	goto_if_set FLAG_GOT_HM01, _2246
 	npc_msg 6
-	goto_if_no_item_space ITEM_HM01, 1, _12C9
+	goto_if_no_item_space ITEM_HM01, 1, _2251
 	callstd std_give_item_verbose
 	setflag FLAG_HIDE_ILEX_CUT_MASTER
 	setflag FLAG_HIDE_ILEX_APPRENTICE
@@ -1284,153 +2298,181 @@ _1207:
 	releaseall
 	end
 
-_12BE:
+_223E:
+	setvar VAR_FARFETCHD1_STICKS1, 1
+	return
+
+_2246:
 	npc_msg 10
 	wait_button_or_walk_away
 	closemsg
 	releaseall
 	end
 
-_12C9:
+_2251:
 	callstd std_bag_is_full
 	closemsg
 	releaseall
 	end
 
-scr_seq_D36R0101_014:
-	play_cry SPECIES_FARFETCHD, 0
-	simple_npc_msg 4
-	end
-
-	.align 4
-_12EC:
-
-	step 12, 10
-	step 15, 3
-	step_end
-	.align 4
-_12F8:
-
-	step 63, 12
-	step 2, 1
-	step_end
-scr_seq_D36R0101_015:
-	scrcmd_609
-	lockall
-	callstd std_play_kimono_girl_music
-	apply_movement obj_D36R0101_dancer, _1478
-	wait_movement
-	get_player_coords VAR_SPECIAL_x8004, VAR_SPECIAL_x8005
-	compare VAR_SPECIAL_x8004, 40
-	goto_if_ne _1337
-	apply_movement obj_D36R0101_dancer, _1484
-	goto _133F
-
-_1337:
-	apply_movement obj_D36R0101_dancer, _1494
-_133F:
-	wait_movement
-	npc_msg 29
+_225B:
+	faceplayer
+	npc_msg 74
+	wait_button_or_walk_away
 	closemsg
-	apply_movement obj_D36R0101_dancer, _14A4
-	wait_movement
-	npc_msg 30
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _1371
-	npc_msg 31
-	goto _1374
-
-_1371:
-	npc_msg 32
-_1374:
-	closemsg
-	get_party_lead_alive VAR_TEMP_x4000
-	get_partymon_species VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 50
-	goto_if_eq _13D5
-	compare VAR_TEMP_x4001, 51
-	goto_if_eq _13D5
-	release obj_partner_poke
-	compare VAR_SPECIAL_x8004, 40
-	goto_if_ne _13C1
-	apply_movement obj_player, _14E8
-	apply_movement obj_partner_poke, _14FC
-	goto _13C9
-
-_13C1:
-	apply_movement obj_partner_poke, _1518
-_13C9:
-	wait_movement
-	lock obj_partner_poke
-	goto _140A
-
-_13D5:
-	release obj_partner_poke
-	compare VAR_SPECIAL_x8004, 40
-	goto_if_ne _13FC
-	apply_movement obj_player, _14E8
-	apply_movement obj_partner_poke, _1538
-	goto _1404
-
-_13FC:
-	apply_movement obj_partner_poke, _1550
-_1404:
-	wait_movement
-	lock obj_partner_poke
-_140A:
-	compare VAR_SPECIAL_x8004, 40
-	goto_if_ne _1425
-	apply_movement obj_D36R0101_dancer, _156C
-	goto _142D
-
-_1425:
-	apply_movement obj_D36R0101_dancer, _1574
-_142D:
-	wait_movement
-	npc_msg 33
-	closemsg
-	apply_movement obj_D36R0101_dancer, _157C
-	wait_movement
-	npc_msg 34
-	closemsg
-	apply_movement obj_D36R0101_dancer, _159C
-	wait_movement
-	hide_person obj_D36R0101_dancer
-	setflag FLAG_UNK_23D
-	callstd std_fade_end_kimono_girl_music
-	release obj_partner_poke
-	apply_movement obj_partner_poke, _1584
-	wait_movement
-	lock obj_partner_poke
 	releaseall
-	setvar VAR_UNK_40E9, 1
 	end
 
 	.align 4
-_1478:
+_2268:
+
+	step 75, 1
+	step 32, 1
+	step_end
+	.align 4
+_2272:
+
+	step 52, 1
+	step_end
+	.align 4
+_2278:
+
+	step 71, 1
+	step 9, 1
+	step 72, 1
+	step_end
+	.align 4
+_2286:
+
+	step 75, 1
+	step_end
+	.align 4
+_228C:
+
+	step 63, 2
+	step 0, 1
+	step_end
+	.align 4
+_2296:
 
 	step 75, 1
 	step 33, 1
 	step_end
 	.align 4
-_1484:
+_22A0:
 
 	step 13, 1
 	step 15, 2
 	step 13, 1
 	step_end
 	.align 4
-_1494:
+_22AE:
+
+	step 15, 1
+	step 12, 2
+	step 14, 1
+	step 12, 3
+	step 33, 1
+	step_end
+	.align 4
+_22C4:
+
+	step 63, 1
+	step 32, 1
+	step_end
+	.align 4
+_22CE:
+
+	step 34, 1
+	step_end
+	.align 4
+_22D4:
+
+	step 34, 1
+	step 63, 1
+	step 35, 1
+	step 63, 1
+	step_end
+	.align 4
+_22E6:
+
+	step 13, 1
+	step 63, 1
+	step_end
+	.align 4
+_22F0:
+
+	step 63, 1
+	step 51, 2
+	step 71, 1
+	step 52, 1
+	step 53, 1
+	step 72, 1
+	step_end
+	.align 4
+_230A:
+
+	step 34, 1
+	step 75, 1
+	step 63, 1
+	step 34, 1
+	step_end
+	.align 4
+_231C:
+
+	step 14, 3
+	step 65, 1
+	step 50, 2
+	step_end
+	.align 4
+_232A:
+
+	step 15, 3
+	step_end
+	.align 4
+_2330:
+
+	step 15, 3
+	step_end
+	.align 4
+_2336:
+
+	step 14, 4
+	step 12, 6
+	step 33, 1
+	step 63, 6
+	step 12, 5
+	step_end
+	.align 4
+_234C:
+
+	step 71, 1
+	step 53, 1
+	step 72, 1
+	step 32, 1
+	step 14, 3
+	step 63, 1
+	step 35, 1
+	step 63, 4
+	step 32, 1
+	step 48, 1
+	step 12, 10
+	step_end
+	.align 4
+_237A:
+
+	step 2, 1
+	step 75, 1
+	step_end
+	.align 4
+_2384:
 
 	step 13, 1
 	step 15, 3
 	step 13, 1
 	step_end
 	.align 4
-_14A4:
+_2392:
 
 	step 2, 1
 	step 61, 1
@@ -1450,7 +2492,56 @@ _14A4:
 	step 61, 1
 	step_end
 	.align 4
-_14E8:
+_23D4:
+
+	step 12, 3
+	step 33, 1
+	step_end
+	.align 4
+_23DE:
+
+	step 15, 1
+	step 12, 1
+	step 1, 1
+	step_end
+	.align 4
+_23EC:
+
+	step 35, 1
+	step_end
+	.align 4
+_23F2:
+
+	step 34, 1
+	step_end
+	.align 4
+_23F8:
+
+	step 75, 1
+	step 19, 7
+	step 2, 1
+	step_end
+	.align 4
+_2406:
+
+	step 1, 1
+	step 75, 1
+	step_end
+	.align 4
+_2410:
+
+	step 75, 1
+	step 19, 8
+	step 2, 1
+	step_end
+	.align 4
+_241E:
+
+	step 3, 1
+	step 75, 1
+	step_end
+	.align 4
+_2428:
 
 	step 2, 1
 	step 71, 1
@@ -1458,7 +2549,7 @@ _14E8:
 	step 72, 1
 	step_end
 	.align 4
-_14FC:
+_243A:
 
 	step 12, 2
 	step 14, 1
@@ -1468,177 +2559,7 @@ _14FC:
 	step 51, 3
 	step_end
 	.align 4
-_1518:
-
-	step 14, 1
-	step 12, 2
-	step 14, 1
-	step 12, 2
-	step 14, 3
-	step 35, 1
-	step 51, 3
-	step_end
-	.align 4
-_1538:
-
-	step 12, 2
-	step 14, 1
-	step 12, 2
-	step 14, 3
-	step 35, 1
-	step_end
-	.align 4
-_1550:
-
-	step 14, 1
-	step 12, 2
-	step 14, 1
-	step 12, 2
-	step 14, 3
-	step 35, 1
-	step_end
-	.align 4
-_156C:
-
-	step 34, 1
-	step_end
-	.align 4
-_1574:
-
-	step 14, 1
-	step_end
-	.align 4
-_157C:
-
-	step 33, 1
-	step_end
-	.align 4
-_1584:
-
-	step 15, 3
-	step 13, 2
-	step 15, 1
-	step 13, 1
-	step 35, 1
-	step_end
-	.align 4
-_159C:
-
-	step 14, 2
-	step 12, 2
-	step 14, 6
-	step_end
-scr_seq_D36R0101_018:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 0
-	touchscreen_menu_hide
-	getmenuchoice VAR_SPECIAL_RESULT
-	touchscreen_menu_show
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _16D8
-	photo_album_is_full VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _16EC
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 1
-	closemsg
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	get_player_facing VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 0
-	goto_if_ne _1625
-	apply_movement obj_player, _1700
-	apply_movement obj_D36R0101_gsmiddleman1, _174C
-	goto _1677
-
-_1625:
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _1640
-	apply_movement obj_player, _1718
-	goto _1677
-
-_1640:
-	compare VAR_SPECIAL_RESULT, 3
-	goto_if_ne _1663
-	apply_movement obj_player, _1738
-	apply_movement obj_D36R0101_gsmiddleman1, _174C
-	goto _1677
-
-_1663:
-	stop_se SEQ_SE_GS_N_SESERAGI
-	apply_movement obj_player, _1724
-	apply_movement obj_D36R0101_gsmiddleman1, _174C
-_1677:
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	scrcmd_729 VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_ne _169E
-	apply_movement obj_partner_poke, _1758
-	wait_movement
-_169E:
-	setflag FLAG_UNK_189
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	cameron_photo 8
-	lockall
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	clearflag FLAG_UNK_189
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 2
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_16D8:
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 5
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-_16EC:
-	get_std_msg_naix 2, VAR_SPECIAL_RESULT
-	msgbox_extern VAR_SPECIAL_RESULT, 3
-	wait_button_or_walk_away
-	closemsg
-	releaseall
-	end
-
-	.align 4
-_1700:
-
-	step 15, 1
-	step 12, 2
-	step 14, 1
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_1718:
-
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_1724:
-
-	step 12, 1
-	step 14, 1
-	step 12, 3
-	step 33, 1
-	step_end
-	.align 4
-_1738:
+_2454:
 
 	step 12, 1
 	step 15, 1
@@ -1646,329 +2567,23 @@ _1738:
 	step 33, 1
 	step_end
 	.align 4
-_174C:
+_2466:
 
+	step 75, 1
 	step 63, 1
-	step 32, 1
 	step_end
 	.align 4
-_1758:
+_2470:
 
-	step 15, 1
-	step 12, 1
-	step 1, 1
+	step 3, 1
 	step_end
-scr_seq_D36R0101_012:
-	player_on_bike_check VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _1803
-	compare VAR_UNK_412B, 2
-	goto_if_ge _17C1
-	compare VAR_UNK_412B, 1
-	goto_if_eq _1803
-	get_party_lead_alive VAR_TEMP_x4000
-	follower_poke_is_event_trigger 0, VAR_TEMP_x4000, VAR_TEMP_x4001
-	compare VAR_TEMP_x4001, 0
-	goto_if_ne _17B7
-	goto _17C1
-
-_17B7:
-	clearflag FLAG_HIDE_ILEX_FOREST_SPIKY_EAR_PICHU
-	goto _1816
-
-_17C1:
-	compare VAR_UNK_40FE, 4
-	goto_if_ge _1803
-	goto_if_unset FLAG_BEAT_RADIO_TOWER_ROCKETS, _1803
-	get_party_lead_alive VAR_TEMP_x4006
-	follower_poke_is_event_trigger 3, VAR_TEMP_x4006, VAR_TEMP_x4007
-	compare VAR_TEMP_x4007, 0
-	goto_if_ne _17FD
-	goto _1803
-
-_17FD:
-	goto _1F48
-
-_1803:
-	simple_npc_msg 28
-	end
-
-_1816:
-	scrcmd_609
-	lockall
-	stop_bgm 0
-	clearflag FLAG_HIDE_ILEX_FOREST_SPIKY_EAR_PICHU
-	show_person obj_D36R0101_follower_mon_static_pichu_spiky
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1C44
-	wait_movement
-	play_cry SPECIES_PICHU, 0
-	wait_cry
-	apply_movement obj_player, _1C58
-	wait_movement
-	callstd std_play_pichu_music
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1C64
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	apply_movement obj_player, _1C8C
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	npc_msg 38
-	closemsg
-	apply_movement obj_partner_poke, _1CB4
-	wait_movement
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1CC4
-	wait_movement
-	apply_movement obj_partner_poke, _1CF8
-	wait_movement
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1D08
-	apply_movement obj_partner_poke, _1D2C
-	wait_movement
-	clearflag FLAG_HIDE_ILEX_FOREST_OLD_MAN
-	show_person obj_D36R0101_gsoldman1
-	apply_movement obj_D36R0101_gsoldman1, _1DE0
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1D48
-	apply_movement obj_partner_poke, _1DA4
-	wait_movement
-	apply_movement obj_player, _1E88
-	wait_movement
-	npc_msg 46
-	closemsg
-	apply_movement obj_D36R0101_gsoldman1, _1DF4
-	wait_movement
-	npc_msg 47
-	closemsg
-	apply_movement obj_D36R0101_gsoldman1, _1E00
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1E10
-	apply_movement obj_player, _1ED0
-	wait_movement
-	npc_msg 48
-	closemsg
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1E20
-	apply_movement obj_partner_poke, _1E2C
-	wait_movement
-	npc_msg 49
-	closemsg
-	apply_movement obj_partner_poke, _1E38
-	wait_movement
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1E40
-	wait_movement
-	apply_movement obj_partner_poke, _1E48
-	wait_movement
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	apply_movement obj_player, _1E74
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	npc_msg 39
-	play_cry SPECIES_PICHU, 0
-	npc_msg 43
-	wait_cry
-	closemsg
-	call _1987
-	compare VAR_SPECIAL_x8004, 1
-	call_if_ge _1AFB
-	compare VAR_SPECIAL_x8004, 0
-	call_if_eq _19AC
-	releaseall
-	end
-
-_1987:
-	get_party_count VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 6
-	goto_if_lt _19A4
-	setvar VAR_SPECIAL_x8004, 1
-	goto _19AA
-
-_19A4:
-	setvar VAR_SPECIAL_x8004, 0
-_19AA:
-	return
-
-_19AC:
-	npc_msg 52
-	closemsg
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	apply_movement obj_player, _1EB4
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-_19CF:
-	get_player_facing VAR_TEMP_x4005
-	compare VAR_TEMP_x4005, 3
-	goto_if_ne _19EE
-	apply_movement obj_D36R0101_gsoldman1, _1E90
-	goto _19F6
-
-_19EE:
-	apply_movement obj_D36R0101_gsoldman1, _1E98
-_19F6:
-	wait_movement
-	play_fanfare SEQ_ME_ITEM
-	buffer_players_name 0
-	npc_msg 44
-	wait_fanfare
-	npc_msg 53
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	compare VAR_TEMP_x4005, 3
-	goto_if_ne _1A2C
-	apply_movement obj_player, _1ED8
-	goto _1A34
-
-_1A2C:
-	apply_movement obj_player, _1EE4
-_1A34:
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	compare VAR_TEMP_x4008, 0
-	goto_if_ne _1A51
-	callstd std_fade_end_pichu_music
-_1A51:
-	give_spiky_ear_pichu
-	hide_person obj_D36R0101_follower_mon_static_pichu_spiky
-	setvar VAR_UNK_412B, 2
-	play_fanfare SEQ_ME_SHINKAOME
-	npc_msg 40
-	wait_fanfare
-	touchscreen_menu_hide
-	npc_msg 45
-	getmenuchoice VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
-	goto_if_eq _1AC5
-	closemsg
-	get_party_count VAR_TEMP_x4009
-	subvar VAR_TEMP_x4009, 1
-	setvar VAR_TEMP_x400A, 0
-	nop_var_490 VAR_TEMP_x4009
-	fade_screen 6, 1, 0, RGB_BLACK
-	wait_fade
-	nickname_input VAR_TEMP_x4009, VAR_TEMP_x400A
-	fade_screen 6, 1, 1, RGB_BLACK
-	wait_fade
-	compare VAR_TEMP_x400A, 1
-	goto_if_eq _1AC5
-	bufferpartymonnick 0, VAR_TEMP_x4009
-	npc_msg 54
-_1AC5:
-	npc_msg 51
-	closemsg
-	touchscreen_menu_show
-	compare VAR_TEMP_x4005, 3
-	goto_if_ne _1AE7
-	apply_movement obj_D36R0101_gsoldman1, _1E64
-	goto _1AEF
-
-_1AE7:
-	apply_movement obj_D36R0101_gsoldman1, _1E50
-_1AEF:
-	wait_movement
-	hide_person obj_D36R0101_gsoldman1
-	setflag FLAG_HIDE_ILEX_FOREST_OLD_MAN
-	return
-
-_1AFB:
-	npc_msg 50
-	wait_button_or_walk_away
-	closemsg
-	compare VAR_TEMP_x4008, 0
-	goto_if_ne _1B13
-	callstd std_fade_end_pichu_music
-_1B13:
-	setvar VAR_UNK_412B, 1
-	return
-
-scr_seq_D36R0101_019:
-	scrcmd_609
-	lockall
-	setvar VAR_TEMP_x4008, 1
-	get_player_facing VAR_TEMP_x4005
-	compare VAR_TEMP_x4005, 3
-	goto_if_ne _1B44
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1EF0
-	goto _1B67
-
-_1B44:
-	compare VAR_TEMP_x4005, 2
-	goto_if_ne _1B5F
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1EF8
-	goto _1B67
-
-_1B5F:
-	apply_movement obj_D36R0101_follower_mon_static_pichu_spiky, _1F00
-_1B67:
-	wait_movement
-	play_cry SPECIES_PICHU, 0
-	npc_msg 43
-	wait_cry
-	closemsg
-	call _1987
-	compare VAR_SPECIAL_x8004, 1
-	goto_if_ge _1C36
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	get_player_facing VAR_TEMP_x4005
-	compare VAR_TEMP_x4005, 3
-	goto_if_ne _1BB2
-	apply_movement obj_D36R0101_gsoldman1, _1E90
-	goto _1BD5
-
-_1BB2:
-	compare VAR_TEMP_x4005, 2
-	goto_if_ne _1BCD
-	apply_movement obj_D36R0101_gsoldman1, _1E98
-	goto _1BD5
-
-_1BCD:
-	apply_movement obj_D36R0101_gsoldman1, _1EA0
-_1BD5:
-	wait_movement
-	npc_msg 52
-	closemsg
-	get_player_facing VAR_TEMP_x4005
-	compare VAR_TEMP_x4005, 3
-	goto_if_ne _1BFB
-	apply_movement obj_player, _1EA8
-	goto _1C1E
-
-_1BFB:
-	compare VAR_TEMP_x4005, 2
-	goto_if_ne _1C16
-	apply_movement obj_player, _1EB4
-	goto _1C1E
-
-_1C16:
-	apply_movement obj_player, _1EC0
-_1C1E:
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	call _19CF
-	goto _1C3D
-
-_1C36:
-	npc_msg 42
-	wait_button_or_walk_away
-	closemsg
-_1C3D:
-	releaseall
-	end
-
 	.align 4
-_1C44:
+_2476:
+
+	step 50, 2
+	step_end
+	.align 4
+_247C:
 
 	step 71, 1
 	step 59, 1
@@ -1976,13 +2591,7 @@ _1C44:
 	step 49, 2
 	step_end
 	.align 4
-_1C58:
-
-	step 75, 1
-	step 63, 1
-	step_end
-	.align 4
-_1C64:
+_248E:
 
 	step 17, 7
 	step 50, 1
@@ -1995,7 +2604,7 @@ _1C64:
 	step 48, 2
 	step_end
 	.align 4
-_1C8C:
+_24B4:
 
 	step 63, 3
 	step 1, 1
@@ -2008,14 +2617,14 @@ _1C8C:
 	step 33, 1
 	step_end
 	.align 4
-_1CB4:
+_24DA:
 
 	step 15, 1
 	step 13, 1
 	step 1, 1
 	step_end
 	.align 4
-_1CC4:
+_24E8:
 
 	step 71, 1
 	step 55, 1
@@ -2031,14 +2640,14 @@ _1CC4:
 	step 0, 1
 	step_end
 	.align 4
-_1CF8:
+_251A:
 
 	step 75, 1
 	step 63, 1
 	step 49, 2
 	step_end
 	.align 4
-_1D08:
+_2528:
 
 	step 71, 1
 	step 53, 1
@@ -2050,7 +2659,7 @@ _1D08:
 	step 15, 1
 	step_end
 	.align 4
-_1D2C:
+_254A:
 
 	step 65, 2
 	step 17, 1
@@ -2060,7 +2669,15 @@ _1D2C:
 	step 18, 1
 	step_end
 	.align 4
-_1D48:
+_2564:
+
+	step 65, 5
+	step 9, 10
+	step 11, 4
+	step 35, 1
+	step_end
+	.align 4
+_2576:
 
 	step 17, 12
 	step 19, 6
@@ -2086,7 +2703,7 @@ _1D48:
 	step 72, 1
 	step_end
 	.align 4
-_1DA4:
+_25D0:
 
 	step 17, 13
 	step 19, 7
@@ -2104,77 +2721,64 @@ _1DA4:
 	step 14, 1
 	step_end
 	.align 4
-_1DE0:
+_260A:
 
-	step 65, 5
-	step 9, 10
-	step 11, 4
-	step 35, 1
+	step 34, 1
 	step_end
 	.align 4
-_1DF4:
+_2610:
 
 	step 32, 1
 	step 65, 1
 	step_end
 	.align 4
-_1E00:
+_261A:
 
 	step 33, 1
 	step 65, 1
 	step 75, 1
 	step_end
 	.align 4
-_1E10:
+_2628:
 
 	step 65, 1
 	step 32, 1
 	step 65, 1
 	step_end
 	.align 4
-_1E20:
+_2636:
+
+	step 33, 1
+	step_end
+	.align 4
+_263C:
 
 	step 48, 1
 	step 51, 1
 	step_end
 	.align 4
-_1E2C:
+_2646:
 
 	step 54, 1
 	step 50, 2
 	step_end
 	.align 4
-_1E38:
+_2650:
 
 	step 34, 1
 	step_end
 	.align 4
-_1E40:
+_2656:
 
 	step 51, 2
 	step_end
 	.align 4
-_1E48:
+_265C:
 
 	step 48, 2
 	step_end
 	.align 4
-_1E50:
-
-	step 35, 1
-	step 65, 1
-	step 10, 4
-	step 8, 10
-	step_end
-	.align 4
-_1E64:
-
-	step 9, 2
-	step 10, 4
-	step 8, 12
-	step_end
-	.align 4
-_1E74:
+_2662:
 
 	step 75, 1
 	step 63, 1
@@ -2182,162 +2786,64 @@ _1E74:
 	step 34, 1
 	step_end
 	.align 4
-_1E88:
-
-	step 34, 1
-	step_end
-	.align 4
-_1E90:
-
-	step 34, 1
-	step_end
-	.align 4
-_1E98:
-
-	step 35, 1
-	step_end
-	.align 4
-_1EA0:
+_2674:
 
 	step 33, 1
 	step_end
 	.align 4
-_1EA8:
+_267A:
+
+	step 35, 1
+	step_end
+	.align 4
+_2680:
 
 	step 12, 1
 	step 35, 1
 	step_end
 	.align 4
-_1EB4:
+_268A:
 
-	step 12, 1
-	step 34, 1
+	step 75, 1
+	step 17, 10
+	step 0, 1
 	step_end
 	.align 4
-_1EC0:
+_2698:
 
-	step 15, 1
+	step 0, 1
+	step 75, 1
+	step_end
+	.align 4
+_26A2:
+
 	step 12, 2
-	step 34, 1
-	step_end
-	.align 4
-_1ED0:
-
-	step 33, 1
-	step_end
-	.align 4
-_1ED8:
-
-	step 13, 1
+	step 14, 1
+	step 12, 2
+	step 14, 3
 	step 35, 1
 	step_end
 	.align 4
-_1EE4:
+_26B8:
 
-	step 13, 1
-	step 34, 1
-	step_end
-	.align 4
-_1EF0:
-
-	step 34, 1
-	step_end
-	.align 4
-_1EF8:
-
+	step 14, 1
+	step 12, 2
+	step 14, 1
+	step 12, 2
+	step 14, 3
 	step 35, 1
+	step 51, 3
 	step_end
 	.align 4
-_1F00:
+_26D6:
 
+	step 12, 1
+	step 14, 1
+	step 12, 3
 	step 33, 1
 	step_end
-scr_seq_D36R0101_020:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	setvar VAR_TEMP_x4008, 1
-	call _1987
-	compare VAR_SPECIAL_x8004, 0
-	goto_if_ne _1F35
-	call _1F3F
-	goto _1F3B
-
-_1F35:
-	call _1AFB
-_1F3B:
-	releaseall
-	end
-
-_1F3F:
-	npc_msg 55
-	wait_button_or_walk_away
-	closemsg
-	return
-
-_1F48:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	apply_movement obj_partner_poke, _2038
-	wait_movement
-	fade_out_bgm 0, 30
-	callstd std_play_friend_music
-	touchscreen_menu_hide
-	clearflag FLAG_HIDE_ILEX_FOREST_FRIEND
-	show_person obj_D36R0101_var_1
-	show_person obj_D36R0101_follower_mon_static_marill
-	apply_movement obj_D36R0101_var_1, _2054
-	apply_movement obj_D36R0101_follower_mon_static_marill, _2060
-	wait_movement
-	apply_movement obj_player, _200C
-	wait_movement
-	buffer_players_name 0
-	gender_msgbox 57, 56
-	closemsg
-	callstd std_fade_end_friend_music
-	play_se SEQ_SE_GS_SUZUSYUTUGEN_HO
-	fade_screen 6, 6, 0, RGB_WHITE
-	wait_fade
-	wait 15, VAR_SPECIAL_RESULT
-	fade_screen 6, 6, 1, RGB_WHITE
-	wait_fade
-	apply_movement obj_player, _2014
-	apply_movement obj_D36R0101_var_1, _208C
-	wait_movement
-	gender_msgbox 59, 58
-	closemsg
-	play_se SEQ_SE_GS_TIMESLIP
-	scrcmd_810
-	setvar VAR_UNK_40FE, 1
-	clearflag FLAG_HIDE_ROUTE_22_GIOVANNI_RIVAL
-	clearflag FLAG_HIDE_ROUTE_22_FRIEND
-	setflag FLAG_HIDE_ILEX_FOREST_FRIEND
-	warp MAP_R22, 0, 954, 280, DIR_SOUTH
-	fade_screen 6, 15, 1, RGB_WHITE
-	wait_fade
-	releaseall
-	end
-
 	.align 4
-_200C:
-
-	step 34, 1
-	step_end
-	.align 4
-_2014:
-
-	step 75, 1
-	step 63, 1
-	step 32, 1
-	step 63, 1
-	step 34, 1
-	step 63, 1
-	step 33, 1
-	step 63, 1
-	step_end
-	.align 4
-_2038:
+_26E8:
 
 	step 1, 1
 	step 1, 1
@@ -2347,13 +2853,13 @@ _2038:
 	step 71, 1
 	step_end
 	.align 4
-_2054:
+_2702:
 
 	step 13, 11
 	step 15, 2
 	step_end
 	.align 4
-_2060:
+_270C:
 
 	step 13, 8
 	step 35, 1
@@ -2367,136 +2873,245 @@ _2060:
 	step 14, 1
 	step_end
 	.align 4
-_208C:
+_2736:
+
+	step 34, 1
+	step_end
+	.align 4
+_273C:
+
+	step 75, 1
+	step 63, 1
+	step 32, 1
+	step 63, 1
+	step 34, 1
+	step 63, 1
+	step 33, 1
+	step 63, 1
+	step_end
+	.align 4
+_275E:
 
 	step 65, 1
 	step 15, 2
 	step 12, 2
 	step 35, 1
 	step_end
-scr_seq_D36R0101_022:
-	scrcmd_609
+	.align 4
+_2770:
+
+	step 12, 1
+	step 34, 1
+	step_end
+	.align 4
+_277A:
+
+	step 33, 1
+	step_end
+	.align 4
+_2780:
+
+	step 75, 1
+	step 16, 10
+	step 1, 1
+	step_end
+	.align 4
+_278E:
+
+	step 75, 1
+	step 18, 7
+	step 3, 1
+	step_end
+	.align 4
+_279C:
+
+	step 75, 1
+	step 18, 8
+	step 3, 1
+	step_end
+	.align 4
+_27AA:
+
+	step 14, 1
+	step 12, 2
+	step 14, 1
+	step 12, 2
+	step 14, 3
+	step 35, 1
+	step_end
+	.align 4
+_27C4:
+
+	step 34, 1
+	step_end
+	.align 4
+_27CA:
+
+	step 13, 1
+	step 35, 1
+	step_end
+	.align 4
+_27D4:
+
+	step 15, 1
+	step 12, 2
+	step 34, 1
+	step_end
+	.align 4
+_27E2:
+
+	step 14, 1
+	step_end
+	.align 4
+_27E8:
+
+	step 33, 1
+	step_end
+	.align 4
+_27EE:
+
+	step 14, 2
+	step 12, 2
+	step 14, 6
+	step_end
+	.align 4
+_27FC:
+
+	step 15, 3
+	step 13, 2
+	step 15, 1
+	step 13, 1
+	step 35, 1
+	step_end
+	.align 4
+_2812:
+
+	step 13, 1
+	step 34, 1
+	step_end
+	.align 4
+_281C:
+
+	step 9, 2
+	step 10, 4
+	step 8, 12
+	step_end
+	.align 4
+_282A:
+
+	step 37, 5
+	step_end
+	.align 4
+_2830:
+
+	step 39, 5
+	step_end
+	.align 4
+_2836:
+
+	step 35, 1
+	step 65, 1
+	step 10, 4
+	step 8, 10
+	step_end
+	.align 4
+_2848:
+
+	step 12, 10
+	step 15, 3
+	step_end
+	.align 4
+_2852:
+
+	step 63, 12
+	step 2, 1
+	step_end
+	.align 4
+_285C:
+
+	step 75, 1
+	step_end
+	.align 4
+
+// Virizion encounter (Lv45 Grass/Fighting)
+scr_seq_D36R0101_027:
+	play_se SEQ_SE_DP_SELECT
 	lockall
-	toggle_following_pokemon_movement 0
-	wait_following_pokemon_movement
-	following_pokemon_movement 55
-	apply_movement obj_D36R0101_var_1, _2148
-	apply_movement obj_player, _21F4
-	wait_movement
-	wait_following_pokemon_movement
-	toggle_following_pokemon_movement 1
-	following_pokemon_movement 48
-	gender_msgbox 61, 60
+	faceplayer
+	goto_if_unset FLAG_GAME_CLEAR, _virizion_not_postgame
+	play_cry SPECIES_VIRIZION, 0
+	npc_msg 81
 	closemsg
-	apply_movement obj_D36R0101_follower_mon_static_marill, _2170
-	wait_movement
-	callstd std_play_friend_music
-	apply_movement obj_D36R0101_var_1, _215C
-	wait_movement
-	gender_msgbox 63, 62
-	closemsg
-	apply_movement obj_D36R0101_var_1, _218C
-	wait_movement
-	gender_msgbox 65, 64
-	closemsg
-	apply_movement obj_D36R0101_var_1, _219C
-	apply_movement obj_D36R0101_follower_mon_static_marill, _21A4
-	wait_movement
-	buffer_players_name 0
-	gender_msgbox 67, 66
-	closemsg
-	apply_movement obj_D36R0101_var_1, _21AC
-	apply_movement obj_D36R0101_follower_mon_static_marill, _21C4
-	wait_movement
-	callstd std_fade_end_friend_music
-	touchscreen_menu_show
-	setvar VAR_UNK_40FE, 5
-	hide_person obj_D36R0101_var_1
-	hide_person obj_D36R0101_follower_mon_static_marill
-	setflag FLAG_HIDE_ILEX_FOREST_FRIEND
+	wait_cry
+	setflag FLAG_ENGAGING_STATIC_POKEMON
+	wild_battle SPECIES_VIRIZION, 45, 0
+	clearflag FLAG_ENGAGING_STATIC_POKEMON
+	check_battle_won VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 0
+	goto_if_eq _virizion_lost
+	get_static_encounter_outcome VAR_TEMP_x4002
+	compare VAR_TEMP_x4002, 3
+	goto_if_eq _virizion_fled
+	compare VAR_TEMP_x4002, 4
+	call_if_eq _virizion_caught
+	compare VAR_TEMP_x4002, 1
+	goto_if_eq _virizion_defeated
+	compare VAR_TEMP_x4002, 5
+	goto_if_eq _virizion_defeated
+	setflag FLAG_HIDE_VIRIZION
+	hide_person obj_D36R0101_virizion
 	releaseall
 	end
 
-	.align 4
-_2148:
-
-	step 34, 1
-	step 63, 1
-	step 35, 1
-	step 63, 1
-	step_end
-	.align 4
-_215C:
-
-	step 34, 1
-	step 75, 1
-	step 63, 1
-	step 34, 1
-	step_end
-	.align 4
-_2170:
-
-	step 63, 1
-	step 51, 2
-	step 71, 1
-	step 52, 1
-	step 53, 1
-	step 72, 1
-	step_end
-	.align 4
-_218C:
-
-	step 14, 3
-	step 65, 1
-	step 50, 2
-	step_end
-	.align 4
-_219C:
-
-	step 15, 3
-	step_end
-	.align 4
-_21A4:
-
-	step 15, 3
-	step_end
-	.align 4
-_21AC:
-
-	step 14, 4
-	step 12, 6
-	step 33, 1
-	step 63, 6
-	step 12, 5
-	step_end
-	.align 4
-_21C4:
-
-	step 71, 1
-	step 53, 1
-	step 72, 1
-	step 32, 1
-	step 14, 3
-	step 63, 1
-	step 35, 1
-	step 63, 4
-	step 32, 1
-	step 48, 1
-	step 12, 10
-	step_end
-	.align 4
-_21F4:
-
-	step 13, 1
-	step 63, 1
-	step_end
-scr_seq_D36R0101_013:
-	scrcmd_055 3, 0
-	scrcmd_057 3
-	scrcmd_058
-	trainer_tips 27, VAR_SPECIAL_RESULT
-	callstd std_signpost
+_virizion_not_postgame:
+	releaseall
 	end
+
+_virizion_lost:
+	white_out
+	releaseall
+	end
+
+_virizion_fled:
+	releaseall
+	end
+
+_virizion_defeated:
+	npc_msg 82
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
+_virizion_caught:
+	setflag FLAG_CAUGHT_VIRIZION
+	return
+
+	.align 4
+
+// Forest Elder NPC - Virizion hint (Swords of Justice arc)
+scr_seq_D36R0101_028:
+	play_se SEQ_SE_DP_SELECT
+	lockall
+	faceplayer
+	// Only show hint if player has caught Terrakion (Tier 3 prereq)
+	goto_if_unset FLAG_CAUGHT_TERRAKION, _forest_elder_normal
+	goto_if_set FLAG_CAUGHT_VIRIZION, _forest_elder_post_catch
+	// Pre-catch hint
+	npc_msg 79
+	goto _forest_elder_end
+_forest_elder_post_catch:
+	npc_msg 80
+	goto _forest_elder_end
+_forest_elder_normal:
+	// Generic dialogue
+	npc_msg 79
+_forest_elder_end:
+	wait_button_or_walk_away
+	closemsg
+	releaseall
+	end
+
 	.align 4
 
 

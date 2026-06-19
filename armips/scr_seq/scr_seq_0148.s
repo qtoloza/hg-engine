@@ -120,8 +120,8 @@ _0142:
 	buffer_players_name 0
 	non_npc_msg_var VAR_SPECIAL_RESULT
 	wait_fanfare
-	check_national_dex_complete VAR_SPECIAL_RESULT
-	compare VAR_SPECIAL_RESULT, 1
+	count_national_dex_owned VAR_SPECIAL_RESULT
+	compare VAR_SPECIAL_RESULT, 720
 	goto_if_eq _0183
 	npc_msg 21
 	wait_button_or_walk_away

@@ -37,20 +37,9 @@ scr_seq_R11R0101_000:
 	end
 
 scr_seq_R11R0101_001:
-	play_se SEQ_SE_DP_SELECT
-	lockall
-	faceplayer
-	goto_if_set FLAG_SNORLAX_MEET, _0030
-	npc_msg 0
-_0028:
-	wait_button_or_walk_away
-	closemsg
-	releaseall
+	simple_npc_msg 1
 	end
 
-_0030:
-	npc_msg 1
-	goto _0028
 	.align 4
 
 

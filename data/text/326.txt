@@ -4,3 +4,7 @@ Touching the meteorite boosted\nthe Speed of a certain Pokémon.
 Touching the meteorite heightened\nthe defensive capabilities of\fa certain Pokémon.
 Touching the meteorite heightened\nthe offensive capabilities of\fa certain Pokémon.
 Touching the meteorite balanced out\nthe attributes of a certain Pokémon.
+Hey, kid! Want to buy my Magikarp\nfor $1,000,000?\rWhat, you can’t even hold that\nmuch?\rKids these days...\nThink they’re spoilt...
+{STRVAR_1 0, 1, 0} feels an odd presence\naround this area...\r
+There doesn’t appear to be anything,\nthough.
+Deoxys vanished...

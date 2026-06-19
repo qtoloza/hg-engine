@@ -104,20 +104,20 @@
       "y": 0
     },
     {
-      "id": "obj_R30_gsboy3",
+      "id": "obj_R30_gsboy3_2",
       "spriteId": "SPRITE_GSBOY3",
-      "movement": 17,
+      "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
       "scriptId": "TRAINER_BUG_CATCHER_DON - 1 + _std_npc_trainer",
-      "facingDirection": 3,
+      "facingDirection": 1,
       "param0": 3,
       "param1": 0,
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 550,
-      "z": 298,
+      "x": 552,
+      "z": 299,
       "y": 0
     },
     {
@@ -138,20 +138,20 @@
       "y": 0
     },
     {
-      "id": "obj_R30_gsboy2_2",
+      "id": "obj_R30_gsboy2_3",
       "spriteId": "SPRITE_GSBOY2",
-      "movement": 15,
+      "movement": 0,
       "type": 1,
       "eventFlag": "FLAG_NOTHING",
       "scriptId": "TRAINER_YOUNGSTER_MIKEY - 1 + _std_npc_trainer",
-      "facingDirection": 1,
-      "param0": 2,
+      "facingDirection": 2,
+      "param0": 4,
       "param1": 0,
       "param2": 0,
       "xRange": 0,
       "yRange": 0,
-      "x": 552,
-      "z": 325,
+      "x": 554,
+      "z": 318,
       "y": 0
     },
     {
@@ -189,7 +189,7 @@
       "y": 0
     },
     {
-      "id": "obj_R30_gsboy2_3",
+      "id": "obj_R30_gsboy2_2",
       "spriteId": "SPRITE_GSBOY2",
       "movement": 14,
       "type": 0,
@@ -291,7 +291,7 @@
       "y": 0
     },
     {
-      "id": "obj_R30_gsboy3_2",
+      "id": "obj_R30_gsboy3",
       "spriteId": "SPRITE_GSBOY3",
       "movement": 4,
       "type": 0,
@@ -305,6 +305,23 @@
       "yRange": 0,
       "x": 557,
       "z": 366,
+      "y": 0
+    },
+    {
+      "id": "obj_R30_champion",
+      "spriteId": "SPRITE_CHAMPION",
+      "movement": 0,
+      "type": 0,
+      "eventFlag": 16220,
+      "scriptId": "_EV_scr_seq_R30_011 + 1",
+      "facingDirection": 1,
+      "param0": 0,
+      "param1": 0,
+      "param2": 0,
+      "xRange": 0,
+      "yRange": 0,
+      "x": 568,
+      "z": 295,
       "y": 0
     }
   ],

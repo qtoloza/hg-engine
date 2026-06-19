@@ -10,10 +10,12 @@
 .equ _EV_scr_seq_P01R0301_006, 6
 .equ _EV_scr_seq_P01R0301_007, 7
 .equ _EV_scr_seq_P01R0301_008, 8
+.equ _EV_scr_seq_P01R0301_009, 9
 
 .equ obj_P01R0301_seaman_2, 0
 .equ obj_P01R0301_seaman_2_2, 1
 .equ obj_P01R0301_seaman_2_3, 2
 .equ obj_P01R0301_gsgentleman, 3
+.equ obj_P01R0301_gsassistantm, 4
 
 .endif //SCR_SEQ_P01R0301_H_
