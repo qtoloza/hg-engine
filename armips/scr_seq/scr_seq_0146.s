@@ -51,7 +51,7 @@ scr_seq_0146_000:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_CUT
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_CUT
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _009E
 	check_badge BADGE_HIVE, VAR_SPECIAL_RESULT
@@ -73,7 +73,7 @@ _009E:
 	goto _093D
 
 _00AD:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_CUT
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_CUT
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	get_follow_poke_party_index VAR_SPECIAL_x8005
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT
@@ -197,7 +197,7 @@ scr_seq_0146_001:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_ROCK_SMASH
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_ROCK_SMASH
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _02D7
@@ -360,7 +360,7 @@ scr_seq_0146_002:
 	goto _093D
 
 _051C:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_STRENGTH
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_STRENGTH
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0564
 	check_badge BADGE_PLAIN, VAR_SPECIAL_RESULT
@@ -383,7 +383,7 @@ _0564:
 
 _0573:
 	strength_flag_action 1, 0
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_STRENGTH
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_STRENGTH
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT
 	npc_msg 11
@@ -514,7 +514,7 @@ _0736:
 scr_seq_0146_003:
 	play_se SEQ_SE_DP_SELECT
 	lockall
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_ROCK_CLIMB
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_ROCK_CLIMB
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0797
 	check_badge BADGE_EARTH, VAR_SPECIAL_RESULT
@@ -545,7 +545,7 @@ _07A6:
 	goto _0941
 
 _07B5:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_ROCK_CLIMB
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_ROCK_CLIMB
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT
 	npc_msg 21
@@ -585,7 +585,7 @@ _0826:
 	goto _0941
 
 _0833:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_SURF
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_SURF
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT
 	npc_msg 15
@@ -679,7 +679,7 @@ _0945:
 scr_seq_0146_005:
 	play_se SEQ_SE_DP_SELECT
 	lockall
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_WATERFALL
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_WATERFALL
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0997
 	check_badge BADGE_RISING, VAR_SPECIAL_RESULT
@@ -701,7 +701,7 @@ _0997:
 	goto _0941
 
 _09A6:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_WATERFALL
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_WATERFALL
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT
 	npc_msg 25
@@ -724,7 +724,7 @@ scr_seq_0146_012:
 scr_seq_0146_016:
 	play_se SEQ_SE_DP_SELECT
 	lockall
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_WHIRLPOOL
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_WHIRLPOOL
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0A34
 	check_badge BADGE_GLACIER, VAR_SPECIAL_RESULT
@@ -746,7 +746,7 @@ _0A34:
 	goto _0941
 
 _0A43:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_WHIRLPOOL
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_WHIRLPOOL
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT
 	npc_msg 30
@@ -773,7 +773,7 @@ scr_seq_0146_014:
 	play_se SEQ_SE_DP_SELECT
 	lockall
 	faceplayer
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT
 	compare VAR_SPECIAL_RESULT, 6
 	goto_if_eq _0AC2
 	npc_msg 32
@@ -792,7 +792,7 @@ _0AC2:
 	goto _093D
 
 _0AD1:
-	get_party_slot_with_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT
+	get_party_slot_usable_move VAR_SPECIAL_RESULT, MOVE_HEADBUTT
 	copyvar VAR_SPECIAL_x8004, VAR_SPECIAL_RESULT
 	get_follow_poke_party_index VAR_SPECIAL_x8005
 	bufferpartymonnick 0, VAR_SPECIAL_RESULT

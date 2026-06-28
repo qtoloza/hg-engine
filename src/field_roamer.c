@@ -95,19 +95,19 @@ void LONG_CALL Save_CreateRoamerByID(SaveData *saveData, u8 idx)
     switch (idx) {
     case ROAMER_RAIKOU:
         species = SPECIES_RAIKOU;
-        level = 40;
+        level = 60;
         break;
     case ROAMER_ENTEI:
         species = SPECIES_ENTEI;
-        level = 40;
+        level = 60;
         break;
     case ROAMER_LATIAS:
         species = SPECIES_LATIAS;
-        level = 35;
+        level = 70;
         break;
     case ROAMER_LATIOS:
         species = SPECIES_LATIOS;
-        level = 35;
+        level = 70;
         break;
     default:
         GF_ASSERT(FALSE);
