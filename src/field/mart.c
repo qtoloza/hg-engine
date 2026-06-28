@@ -22,6 +22,7 @@ const struct BadgeMartItems sBadgeMart[] = {
     { ITEM_POKE_BALL, 0 },
     { ITEM_GREAT_BALL, 3 },
     { ITEM_ULTRA_BALL, 5 },
+    { ITEM_MASTER_BALL, 8 },
     { ITEM_POTION, 0 },
     { ITEM_SUPER_POTION, 1 },
     { ITEM_HYPER_POTION, 5 },
