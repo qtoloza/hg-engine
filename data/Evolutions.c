@@ -1886,7 +1886,8 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
             { EVO_HAS_MOVE_TYPE, TYPE_FAIRY, SPECIES_SYLVEON },
             { EVO_FRIENDSHIP_DAY, 0, SPECIES_ESPEON },
             { EVO_FRIENDSHIP_NIGHT, 0, SPECIES_UMBREON },
-            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_STONE, ITEM_AUBADE_ORB, SPECIES_ESPEON },
+            { EVO_STONE, ITEM_SERENADE_ORB, SPECIES_UMBREON },
         },
     },
 
