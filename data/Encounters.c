@@ -8,7 +8,7 @@ const EncounterData __data[] =
 {
     [ENCDATA_T20_NEW_BARK_TOWN] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -107,7 +107,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R29_ROUTE_29] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -208,7 +208,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T21_CHERRYGROVE_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -307,8 +307,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R30_ROUTE_30] = {
-        .rateWalk = 25,
-        .rateSurf = 15,
+        .rateWalk = 12,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -407,8 +407,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R31_ROUTE_31] = {
-        .rateWalk = 25,
-        .rateSurf = 15,
+        .rateWalk = 12,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -508,7 +508,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T22_VIOLET_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -607,7 +607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D15R0102_SPROUT_TOWER_2F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -707,7 +707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D15R0103_SPROUT_TOWER_3F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -807,8 +807,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R32_ROUTE_32] = {
-        .rateWalk = 25,
-        .rateSurf = 15,
+        .rateWalk = 12,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -907,8 +907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D24R0101_RUINS_OF_ALPH_OUTSIDE] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 20,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -1007,7 +1007,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D24R0205_RUINS_OF_ALPH_INSIDE_MAIN_ROOM] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -1107,7 +1107,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D24R0216_RUINS_OF_ALPH_INSIDE_MAIN_ROOM_UNUSED] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -1207,7 +1207,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D24R0218_RUINS_OF_ALPH_INSIDE_MAIN_ROOM_UNUSED] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -1307,7 +1307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D24R0217_RUINS_OF_ALPH_INSIDE_LADDER_ROOM] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -1407,8 +1407,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D25R0101_UNION_CAVE_1F] = {
-        .rateWalk = 10,
-        .rateSurf = 15,
+        .rateWalk = 5,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -1507,8 +1507,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D25R0102_UNION_CAVE_B1F] = {
-        .rateWalk = 15,
-        .rateSurf = 15,
+        .rateWalk = 7,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -1607,8 +1607,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D25R0103_UNION_CAVE_B2F] = {
-        .rateWalk = 15,
-        .rateSurf = 15,
+        .rateWalk = 7,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -1707,7 +1707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R33_ROUTE_33] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -1807,8 +1807,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D26R0102_SLOWPOKE_WELL_1F] = {
-        .rateWalk = 5,
-        .rateSurf = 10,
+        .rateWalk = 2,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -1907,8 +1907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D26R0103_SLOWPOKE_WELL_B2F] = {
-        .rateWalk = 15,
-        .rateSurf = 10,
+        .rateWalk = 7,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -2007,8 +2007,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D36R0101_ILEX_FOREST] = {
-        .rateWalk = 5,
-        .rateSurf = 15,
+        .rateWalk = 2,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -2107,8 +2107,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R34_ROUTE_34] = {
-        .rateWalk = 25,
-        .rateSurf = 15,
+        .rateWalk = 12,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -2207,8 +2207,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R35_ROUTE_35] = {
-        .rateWalk = 25,
-        .rateSurf = 15,
+        .rateWalk = 12,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -2307,7 +2307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D22R0101_NATIONAL_PARK] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -2407,7 +2407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D22R0102_NATIONAL_PARK_BUG_CATCHING_CONTEST] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -2507,7 +2507,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R36_ROUTE_36] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -2607,7 +2607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R37_ROUTE_37] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -2708,7 +2708,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T27_ECRUTEAK_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -2807,7 +2807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D18R0101_BURNED_TOWER_1F] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -2907,7 +2907,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D18R0102_BURNED_TOWER_B1F] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3007,7 +3007,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0102_BELL_TOWER_2F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3107,7 +3107,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0103_BELL_TOWER_3F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3207,7 +3207,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0104_BELL_TOWER_4F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3307,7 +3307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0105_BELL_TOWER_5F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3407,7 +3407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0106_BELL_TOWER_6F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3507,7 +3507,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0107_BELL_TOWER_7F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3607,7 +3607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0108_BELL_TOWER_8F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3707,7 +3707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0109_BELL_TOWER_9F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3807,7 +3807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R38_ROUTE_38] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -3907,7 +3907,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R39_ROUTE_39] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -4008,7 +4008,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T26_OLIVINE_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -4108,7 +4108,7 @@ const EncounterData __data[] =
 
     [ENCDATA_W40_ROUTE_40] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -4208,7 +4208,7 @@ const EncounterData __data[] =
 
     [ENCDATA_W41_ROUTE_41] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -4307,8 +4307,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D40R0101_WHIRL_ISLANDS_1F] = {
-        .rateWalk = 5,
-        .rateSurf = 10,
+        .rateWalk = 2,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -4407,7 +4407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D40R0102_WHIRL_ISLANDS_B1F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -4607,8 +4607,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D40R0104_WHIRL_ISLANDS_B2F] = {
-        .rateWalk = 5,
-        .rateSurf = 10,
+        .rateWalk = 2,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -4807,7 +4807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D40R0106_WHIRL_ISLANDS_B3F_LEDGE_OVERLOOKING_LUGIA_ROOM] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -5108,7 +5108,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T24_CIANWOOD_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 30,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5207,8 +5207,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R42_ROUTE_42] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5307,8 +5307,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D38R0101_MT_MORTAR_WATERFALL_ROOM] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5407,7 +5407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D38R0102_MT_MORTAR_CENTRAL_ROOM] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -5507,8 +5507,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D38R0103_MT_MORTAR_ROOM_ABOVE_WATERFALL] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5607,8 +5607,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D38R0104_MT_MORTAR_B1F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5707,8 +5707,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R43_ROUTE_43] = {
-        .rateWalk = 20,
-        .rateSurf = 10,
+        .rateWalk = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5808,7 +5808,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T29_LAKE_OF_RAGE] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -5907,8 +5907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R44_ROUTE_44] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -6007,7 +6007,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D39R0101_ICE_PATH_1F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -6107,7 +6107,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D39R0102_ICE_PATH_B1F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -6207,7 +6207,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D39R0103_ICE_PATH_B2F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -6307,7 +6307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D39R0104_ICE_PATH_B3F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -6508,7 +6508,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T30_BLACKTHORN_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -6608,7 +6608,7 @@ const EncounterData __data[] =
 
     [ENCDATA_D44R0102_DRAGONS_DEN] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -6707,8 +6707,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R45_ROUTE_45] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -6807,7 +6807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R46_ROUTE_46] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -6907,8 +6907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 50,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -7007,8 +7007,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D42R0101_DARK_CAVE_ROUTE_45_ENTRANCE] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -7107,8 +7107,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R47_ROUTE_47] = {
-        .rateWalk = 25,
-        .rateSurf = 15,
+        .rateWalk = 12,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -7208,7 +7208,7 @@ const EncounterData __data[] =
 
     [ENCDATA_D02R0103_MT_MOON_OUTSIDE_AREA] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -7308,7 +7308,7 @@ const EncounterData __data[] =
 
     [ENCDATA_D02R0104_MT_MOON_OUTSIDE_CLEFAIRY_ACTIVE] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -7407,7 +7407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D11R0101_SEAFOAM_ISLANDS_1F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -7507,7 +7507,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D11R0102_SEAFOAM_ISLANDS_B1F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -7607,7 +7607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D11R0103_SEAFOAM_ISLANDS_B2F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -7707,7 +7707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D11R0104_SEAFOAM_ISLANDS_B3F] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -7807,8 +7807,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D11R0105_SEAFOAM_ISLANDS_B4F] = {
-        .rateWalk = 10,
-        .rateSurf = 5,
+        .rateWalk = 5,
+        .rateSurf = 2,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -7907,8 +7907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM] = {
-        .rateWalk = 5,
-        .rateSurf = 10,
+        .rateWalk = 2,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -8007,8 +8007,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0106_MT_SILVER_3F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -8107,8 +8107,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0107_MT_SILVER_4F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -8208,7 +8208,7 @@ const EncounterData __data[] =
 
     [ENCDATA_D48R0101_CLIFF_EDGE_GATE] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -8307,7 +8307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D50R0101_CLIFF_CAVE] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 30,
         .rateOldRod = 0,
@@ -8407,7 +8407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D17R0112_BELL_TOWER_10F] = {
-        .rateWalk = 5,
+        .rateWalk = 2,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -8507,8 +8507,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -8607,8 +8607,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0101_MT_SILVER_1F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -8707,7 +8707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -8807,7 +8807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -8907,8 +8907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA] = {
-        .rateWalk = 20,
-        .rateSurf = 10,
+        .rateWalk = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9107,8 +9107,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D47R0102_SAFARI_ZONE_PLACEHOLDER_UNUSED] = {
-        .rateWalk = 20,
-        .rateSurf = 15,
+        .rateWalk = 10,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 100,
         .rateGoodRod = 100,
@@ -9208,7 +9208,7 @@ const EncounterData __data[] =
 
     [ENCDATA_R12_ROUTE_12] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9308,7 +9308,7 @@ const EncounterData __data[] =
 
     [ENCDATA_W19_ROUTE_19] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 30,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9408,7 +9408,7 @@ const EncounterData __data[] =
 
     [ENCDATA_W20_ROUTE_20] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9508,7 +9508,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T01_PALLET_TOWN] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9608,7 +9608,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T02_VIRIDIAN_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9708,7 +9708,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T04_CERULEAN_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9808,7 +9808,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T06_VERMILION_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 40,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -9908,7 +9908,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T07_CELADON_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 0,
         .rateGoodRod = 0,
@@ -10008,7 +10008,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T08_FUCHSIA_CITY] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -10108,7 +10108,7 @@ const EncounterData __data[] =
 
     [ENCDATA_T09_CINNABAR_ISLAND] = {
         .rateWalk = 0,
-        .rateSurf = 15,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -10207,7 +10207,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R48_ROUTE_48] = {
-        .rateWalk = 25,
+        .rateWalk = 12,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -10307,8 +10307,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R26_ROUTE_26] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -10407,8 +10407,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R27_ROUTE_27] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -10507,8 +10507,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R28_ROUTE_28] = {
-        .rateWalk = 25,
-        .rateSurf = 10,
+        .rateWalk = 12,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -10607,7 +10607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D02R0101_MT_MOON_1F] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -10707,7 +10707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D02R0102_MT_MOON_2F] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -10807,7 +10807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D05R0101_ROCK_TUNNEL_1F] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -10907,7 +10907,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D05R0102_ROCK_TUNNEL_B1F] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 20,
         .rateOldRod = 0,
@@ -11007,7 +11007,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D43R0101_VICTORY_ROAD_1F] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11107,7 +11107,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R01_ROUTE_1] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11207,7 +11207,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R02_ROUTE_2_SOUTH_BELOW_VIRIDIAN_FOREST] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11307,7 +11307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R03_ROUTE_3] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11407,8 +11407,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R04_ROUTE_4] = {
-        .rateWalk = 20,
-        .rateSurf = 15,
+        .rateWalk = 10,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -11507,7 +11507,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R05_ROUTE_5] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11607,8 +11607,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R06_ROUTE_6] = {
-        .rateWalk = 20,
-        .rateSurf = 15,
+        .rateWalk = 10,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -11707,7 +11707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R07_ROUTE_7] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11807,7 +11807,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R08_ROUTE_8] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -11907,8 +11907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R09_ROUTE_9] = {
-        .rateWalk = 20,
-        .rateSurf = 15,
+        .rateWalk = 10,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -12007,8 +12007,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R10_ROUTE_10] = {
-        .rateWalk = 20,
-        .rateSurf = 15,
+        .rateWalk = 10,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -12107,7 +12107,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R11_ROUTE_11] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -12207,8 +12207,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R13_ROUTE_13] = {
-        .rateWalk = 20,
-        .rateSurf = 15,
+        .rateWalk = 10,
+        .rateSurf = 7,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -12307,7 +12307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R14_ROUTE_14] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -12407,7 +12407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R15_ROUTE_15] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -12507,7 +12507,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R16R0301_ROUTE_16] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -12607,7 +12607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R17_ROUTE_17] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -12707,7 +12707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R18_ROUTE_18] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -12807,8 +12807,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_W21_ROUTE_21] = {
-        .rateWalk = 20,
-        .rateSurf = 10,
+        .rateWalk = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -12907,8 +12907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R22_ROUTE_22] = {
-        .rateWalk = 20,
-        .rateSurf = 10,
+        .rateWalk = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -13007,8 +13007,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R24_ROUTE_24] = {
-        .rateWalk = 20,
-        .rateSurf = 10,
+        .rateWalk = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -13107,8 +13107,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R25_ROUTE_25] = {
-        .rateWalk = 20,
-        .rateSurf = 10,
+        .rateWalk = 10,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -13207,8 +13207,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D45R0101_TOHJO_FALLS] = {
-        .rateWalk = 15,
-        .rateSurf = 10,
+        .rateWalk = 7,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -13307,7 +13307,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D01R0101_DIGLETTS_CAVE] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -13407,7 +13407,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D43R0102_VICTORY_ROAD_2F] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -13507,7 +13507,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D43R0103_VICTORY_ROAD_3F] = {
-        .rateWalk = 10,
+        .rateWalk = 5,
         .rateSurf = 0,
         .rateRockSmash = 40,
         .rateOldRod = 0,
@@ -13607,7 +13607,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_R02R0101_ROUTE_2_NORTH_ABOVE_VIRIDIAN_FOREST] = {
-        .rateWalk = 20,
+        .rateWalk = 10,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -13707,7 +13707,7 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D46R0101_VIRIDIAN_FOREST] = {
-        .rateWalk = 15,
+        .rateWalk = 7,
         .rateSurf = 0,
         .rateRockSmash = 0,
         .rateOldRod = 0,
@@ -13907,8 +13907,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D03R0101_CERULEAN_CAVE_1F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 5,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -14007,8 +14007,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D03R0102_CERULEAN_CAVE_B1F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 0,
         .rateOldRod = 25,
         .rateGoodRod = 50,
@@ -14107,8 +14107,8 @@ const EncounterData __data[] =
     },
 
     [ENCDATA_D03R0103_CERULEAN_CAVE_B2F] = {
-        .rateWalk = 10,
-        .rateSurf = 10,
+        .rateWalk = 5,
+        .rateSurf = 5,
         .rateRockSmash = 5,
         .rateOldRod = 25,
         .rateGoodRod = 50,
