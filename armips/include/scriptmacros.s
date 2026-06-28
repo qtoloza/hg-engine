@@ -6775,6 +6775,15 @@ DummyTextTrap slot, unk
 RunNewCommand NEW_COMMAND_QUEUE_NEW_REPEL, 0x800C
 .endmacro
 
+// Returns in `outvar` the party slot (0 - 5) of the first Pokemon that already knows
+// `move` or can learn it as a TM/HM (HM compatibility); 6 (PARTY_SIZE) if none.
+.equ NEW_COMMAND_GET_PARTY_SLOT_USABLE_MOVE, 1
+
+.macro get_party_slot_usable_move,outvar,move
+RunNewCommand NEW_COMMAND_GET_PARTY_SLOT_USABLE_MOVE, outvar
+.halfword move
+.endmacro
+
 // Dummy
 .macro DummyTextTreasure,slot,unk
 .halfword 209
