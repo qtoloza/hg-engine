@@ -176,7 +176,7 @@ scr_seq_T07R0203_000:
 _01ED:
 	count_national_dex_owned VAR_SPECIAL_RESULT
 	compare VAR_SPECIAL_RESULT, 721
-	goto_if_eq _0245
+	goto_if_lt _0245
 	goto_if_set FLAG_SAW_NATIONAL_DEX_CERTIFICATE, _023A
 	npc_msg 2
 	play_fanfare SEQ_ME_HYOUKA2
