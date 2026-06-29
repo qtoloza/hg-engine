@@ -35,7 +35,7 @@
 
 // EXP_MULTIPLIER is a percentage multiplier for experience gained
 // 100 = normal (1x), 200 = double (2x), 50 = half (0.5x), etc.
-#define EXP_MULTIPLIER 100
+#define EXP_MULTIPLIER 175 // post-tuning to maintain ~2 level advantage for most of game
 
 // HIDDEN_ABILITIES defines whether or not Pokémon with their hidden ability bit set will receive their hidden abilities when being generated/changing form in battle.
 // commenting this line out essentially disables hidden abilities to maintain default behavior, while leaving this as-is will introduce hidden abilities and all of their handling.
